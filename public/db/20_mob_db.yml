@@ -1,0 +1,330 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+###################################### Prontera & Izlude ######################################
+
+  - Id: 1052
+    AegisName: ROCKER
+    Name: Rocker
+    Level: 20
+    Hp: 320
+    BaseExp: 150
+    JobExp: 100
+    Attack: 35
+    Attack2: 8
+    Defense: 22
+    MagicDefense: 5
+    Str: 10
+    Agi: 20
+    Vit: 12
+    Int: 8
+    Dex: 18
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1864
+    AttackMotion: 864
+    DamageMotion: 540
+    Ai: 01
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Grasshopper's_Leg
+        Rate: 10000
+      - Item: Leaflet_Of_Hinal
+        Rate: 2500
+      - Item: Green_Feeler
+        Rate: 50
+      - Item: Rocker_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1057
+    AegisName: YOYO
+    Name: Yoyo
+    Level: 20
+    Hp: 380
+    BaseExp: 150
+    JobExp: 100
+    Attack: 38
+    Attack2: 10
+    Defense: 28
+    MagicDefense: 8
+    Str: 15
+    Agi: 12
+    Vit: 18
+    Int: 14
+    Dex: 14
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1054
+    AttackMotion: 54
+    DamageMotion: 384
+    Ai: 07
+    Drops:
+      - Item: Yoyo_Tail
+        Rate: 10000
+      - Item: Banana
+        Rate: 5000
+      - Item: Cacao
+        Rate: 2500
+      - Item: Yoyo_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1056
+    AegisName: SMOKIE
+    Name: Smokie
+    Level: 20
+    Hp: 290
+    BaseExp: 150
+    JobExp: 100
+    Attack: 32
+    Attack2: 10
+    Defense: 20
+    MagicDefense: 6
+    Str: 12
+    Agi: 20
+    Vit: 10
+    Int: 6
+    Dex: 19
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1576
+    AttackMotion: 576
+    DamageMotion: 420
+    Ai: 17
+    Drops:
+      - Item: Raccoon_Leaf
+        Rate: 10000
+      - Item: Animal's_Skin
+        Rate: 5000
+      - Item: Sweet_Potato
+        Rate: 2500
+      - Item: Cat_Hairband
+        Rate: 50
+      - Item: Smokie_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Morroc & Payon ######################################
+
+  - Id: 1013
+    AegisName: WOLF
+    Name: Wolf
+    Level: 20
+    Hp: 350
+    BaseExp: 150
+    JobExp: 100
+    Attack: 42
+    Attack2: 12
+    Defense: 24
+    MagicDefense: 5
+    Str: 18
+    Agi: 20
+    Vit: 14
+    Int: 6
+    Dex: 17
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1054
+    AttackMotion: 504
+    DamageMotion: 432
+    Ai: 03
+    Drops:
+      - Item: Emveretarcon
+        Rate: 10
+      - Item: Claw_Of_Wolves
+        Rate: 4500
+      - Item: Mantle_
+        Rate: 5
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Monster's_Feed
+        Rate: 525
+      - Item: Animal's_Skin
+        Rate: 2750
+      - Item: Strawberry
+        Rate: 300
+      - Item: Wolf_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1106
+    AegisName: DESERT_WOLF
+    Name: Desert Wolf
+    Level: 20
+    Hp: 420
+    BaseExp: 150
+    JobExp: 100
+    Attack: 36
+    Attack2: 10
+    Defense: 32
+    MagicDefense: 10
+    Str: 14
+    Agi: 15
+    Vit: 20
+    Int: 10
+    Dex: 13
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1120
+    AttackMotion: 420
+    DamageMotion: 288
+    Ai: 13
+    Drops:
+      - Item: Katar_
+        Rate: 1
+      - Item: Claw_Of_Desert_Wolf
+        Rate: 2750
+      - Item: Mink_Coat
+        Rate: 1
+      - Item: Wolf_Blood
+        Rate: 5
+      - Item: Durga
+        Rate: 1
+      - Item: Oridecon_Stone
+        Rate: 27
+      - Item: Scarlet_Dagger
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Desert_Wolf_Card
+        Rate: 1
+        StealProtected: true
+
+###################################### Geffen ######################################
+
+  - Id: 1077
+    AegisName: POISON_SPORE
+    Name: Poison Spore
+    Level: 20
+    Hp: 280
+    BaseExp: 150
+    JobExp: 100
+    Attack: 30
+    Attack2: 8
+    Defense: 18
+    MagicDefense: 12
+    Str: 10
+    Agi: 12
+    Vit: 11
+    Int: 20
+    Dex: 10
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Plant
+    Element: Poison
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1672
+    AttackMotion: 672
+    DamageMotion: 288
+    Ai: 04
+    Drops:
+      - Item: Poison_Spore
+        Rate: 4500
+      - Item: Hat_
+        Rate: 10
+      - Item: Green_Herb
+        Rate: 275
+      - Item: Blue_Herb
+        Rate: 30
+      - Item: Karvodailnirol
+        Rate: 25
+      - Item: Mushroom_Spore
+        Rate: 600
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Poison_Spore_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1139
+    AegisName: MANTIS
+    Name: Mantis
+    Level: 20
+    Hp: 340
+    BaseExp: 150
+    JobExp: 100
+    Attack: 40
+    Attack2: 14
+    Defense: 26
+    MagicDefense: 6
+    Str: 17
+    Agi: 16
+    Vit: 15
+    Int: 8
+    Dex: 18
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1528
+    AttackMotion: 660
+    DamageMotion: 432
+    Ai: 19
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Yellow_Live
+        Rate: 55
+      - Item: Limb_Of_Mantis
+        Rate: 4500
+      - Item: Scell
+        Rate: 700
+      - Item: Elunium_Stone
+        Rate: 35
+      - Item: Solid_Shell
+        Rate: 125
+      - Item: Azure_Jewel
+        Rate: 5
+      - Item: Red_Herb
+        Rate: 325
+      - Item: Mantis_Card
+        Rate: 1
+        StealProtected: true

@@ -1,0 +1,484 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+###################################### Prontera & Izlude ######################################
+
+  - Id: 1011
+    AegisName: CHONCHON
+    Name: Chonchon
+    Level: 10
+    Hp: 98
+    BaseExp: 100
+    JobExp: 50
+    Attack: 11
+    Attack2: 3
+    Defense: 12
+    Str: 7
+    Agi: 15
+    Vit: 1
+    Int: 8
+    Dex: 10
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1076
+    AttackMotion: 576
+    DamageMotion: 480
+    Ai: 01
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Shell
+        Rate: 7000
+      - Item: Wing_Of_Fly
+        Rate: 5000
+      - Item: Chonchon_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1063
+    AegisName: LUNATIC
+    Name: Lunatic
+    Level: 10
+    Hp: 135
+    BaseExp: 100
+    JobExp: 50
+    Attack: 11
+    Attack2: 1
+    Defense: 10
+    Str: 10
+    Agi: 1
+    Vit: 5
+    Int: 6
+    Dex: 7
+    Luk: 15
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 200
+    AttackDelay: 1456
+    AttackMotion: 456
+    DamageMotion: 336
+    Ai: 01
+    Drops:
+      - Item: Clover
+        Rate: 10000
+      - Item: Feather
+        Rate: 5000
+      - Item: Carrot
+        Rate: 2500
+      - Item: Rainbow_Carrot
+        Rate: 1000
+      - Item: Pierrot_Nose
+        Rate: 50
+      - Item: Lunatic_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Morocc ######################################
+
+  - Id: 1047
+    AegisName: PECOPECO_EGG
+    Name: Peco Peco Egg
+    Level: 10
+    Hp: 250
+    BaseExp: 100
+    JobExp: 50
+    Attack: 3
+    Defense: 10
+    MagicDefense: 10
+    Str: 8
+    Agi: 1
+    Vit: 15
+    Int: 5
+    Dex: 12
+    Luk: 8
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Formless
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 1000
+    AttackDelay: 1001
+    AttackMotion: 1
+    DamageMotion: 1
+    Drops:
+      - Item: Shell
+        Rate: 10000
+      - Item: Guard_
+        Rate: 50
+      - Item: Pecopeco_Egg_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1049
+    AegisName: PICKY
+    Name: Picky
+    Level: 10
+    Hp: 80
+    BaseExp: 100
+    JobExp: 50
+    Attack: 14
+    Attack2: 2
+    Defense: 12
+    MagicDefense: 5
+    Str: 6
+    Agi: 4
+    Vit: 10
+    Int: 8
+    Dex: 10
+    Luk: 7
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 988
+    AttackMotion: 288
+    DamageMotion: 168
+    Ai: 01
+    Drops:
+      - Item: Feather_Of_Birds
+        Rate: 10000
+      - Item: Picky_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1050
+    AegisName: PICKY_
+    Name: Picky
+    Level: 10
+    Hp: 90
+    BaseExp: 100
+    JobExp: 50
+    Attack: 15
+    Attack2: 10
+    Defense: 15
+    MagicDefense: 10
+    Str: 8
+    Agi: 5
+    Vit: 8
+    Int: 10
+    Dex: 12
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 988
+    AttackMotion: 288
+    DamageMotion: 168
+    Ai: 01
+    Drops:
+      - Item: Feather_Of_Birds
+        Rate: 7000
+      - Item: Tiny_Egg_Shell
+        Rate: 50
+      - Item: Picky__Card
+        Rate: 20
+        StealProtected: true
+
+### CHAMPION MOB ###
+  - Id: 1019
+    AegisName: PECOPECO
+    Name: Peco Peco
+    Level: 10
+    Hp: 269
+    BaseExp: 500
+    JobExp: 250
+    Attack: 16
+    Attack2: 7
+    Defense: 15
+    Str: 15
+    Agi: 4
+    Vit: 8
+    Int: 5
+    Dex: 10
+    Luk: 7
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1564
+    AttackMotion: 864
+    DamageMotion: 576
+    Ai: 03
+    Drops:
+      - Item: Bill_Of_Birds
+        Rate: 10000
+      - Item: Talon
+        Rate: 5000
+      - Item: Pecopeco_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Geffen ######################################
+
+  - Id: 1018
+    AegisName: CREAMY
+    Name: Creamy
+    Level: 10
+    Hp: 138
+    BaseExp: 100
+    JobExp: 50
+    Attack: 13
+    Attack2: 2
+    Defense: 12
+    MagicDefense: 15
+    Str: 5
+    Agi: 8
+    Vit: 7
+    Int: 15
+    Dex: 10
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 1136
+    AttackMotion: 720
+    DamageMotion: 840
+    Ai: 01
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Powder_Of_Butterfly
+        Rate: 8000
+      - Item: Silk_Robe_
+        Rate: 20
+      - Item: Honey
+        Rate: 200
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Fancy_Flower
+        Rate: 20
+      - Item: Flower
+        Rate: 500
+      - Item: Wind_Scroll_1_3
+        Rate: 100
+      - Item: Creamy_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1020
+    AegisName: MANDRAGORA
+    Name: Mandragora
+    Level: 10
+    Hp: 156
+    BaseExp: 100
+    JobExp: 50
+    Attack: 12
+    Attack2: 3
+    Defense: 10
+    MagicDefense: 10
+    Str: 3
+    Agi: 2
+    Vit: 15
+    Int: 18
+    Dex: 14
+    Luk: 2
+    AttackRange: 4
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Plant
+    Element: Earth
+    ElementLevel: 3
+    WalkSpeed: 1000
+    AttackDelay: 1768
+    AttackMotion: 768
+    DamageMotion: 576
+    Ai: 10
+    Drops:
+      - Item: Yellow_Live
+        Rate: 60
+      - Item: Stem
+        Rate: 8000
+      - Item: Spear_
+        Rate: 30
+      - Item: Green_Herb
+        Rate: 400
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Four_Leaf_Clover
+        Rate: 1
+      - Item: Whip_Of_Earth
+        Rate: 5
+      - Item: Mandragora_Card
+        Rate: 1
+        StealProtected: true
+
+###################################### Payon ######################################
+
+  - Id: 1033
+    AegisName: ELDER_WILOW
+    Name: Elder Willow
+    Level: 10
+    Hp: 109
+    BaseExp: 100
+    JobExp: 50
+    Attack: 14
+    Attack2: 10
+    Defense: 15
+    Str: 6
+    Agi: 4
+    Vit: 8
+    Int: 14
+    Dex: 14
+    Luk: 6
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Plant
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1372
+    AttackMotion: 672
+    DamageMotion: 432
+    Ai: 19
+    Drops:
+      - Item: Boody_Red
+        Rate: 25
+      - Item: Resin
+        Rate: 4500
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Elunium_Stone
+        Rate: 20
+      - Item: Elder_Branch
+        Rate: 1
+      - Item: Fire_Scroll_1_3
+        Rate: 50
+      - Item: Branch_Of_Dead_Tree
+        Rate: 50
+      - Item: Elder_Wilow_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1060
+    AegisName: BIGFOOT
+    Name: Bigfoot
+    Level: 10
+    Hp: 187
+    BaseExp: 100
+    JobExp: 50
+    Attack: 20
+    Attack2: 10
+    Defense: 15
+    MagicDefense: 10
+    Str: 9
+    Agi: 7
+    Vit: 15
+    Int: 7
+    Dex: 12
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1260
+    AttackMotion: 192
+    DamageMotion: 192
+    Ai: 17
+    Drops:
+      - Item: Bear's_Foot
+        Rate: 4500
+      - Item: Poo_Poo_Hat
+        Rate: 3
+      - Item: Animal's_Skin
+        Rate: 2500
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Sweet_Potato
+        Rate: 750
+      - Item: Honey
+        Rate: 225
+      - Item: Oridecon_Stone
+        Rate: 22
+      - Item: BigFoot_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE MOB ###
+  - Id: 1277
+    AegisName: GREATEST_GENERAL
+    Name: Greatest General
+    Level: 10
+    Hp: 500
+    BaseExp: 300
+    JobExp: 150
+    Attack: 18
+    Attack2: 18
+    Defense: 15
+    MagicDefense: 15
+    Str: 9
+    Agi: 9
+    Vit: 9
+    Int: 9
+    Dex: 15
+    Luk: 9
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Formless
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1152
+    AttackMotion: 1152
+    DamageMotion: 384
+    Ai: 10
+    Drops:
+      - Item: Brigan
+        Rate: 1000
+      - Item: Wooden_Block
+        Rate: 1000
+      - Item: Club
+        Rate: 50
+      - Item: Inspector_Certificate
+        Rate: 150
+      - Item: Stop_Post
+        Rate: 1
+      - Item: Yellow_Herb
+        Rate: 125
+      - Item: Earth_Scroll_1_3
+        Rate: 50
+      - Item: Greatest_General_Card
+        Rate: 1
+        StealProtected: true

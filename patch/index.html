@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reROll Patcher - Download Files</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1em;
+        }
+
+        .patches-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .patch-item {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease;
+            hover: box-shadow 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .patch-item:hover {
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            background: #fff;
+        }
+
+        .patch-info {
+            flex: 1;
+        }
+
+        .patch-name {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+
+        .patch-details {
+            display: flex;
+            gap: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .patch-detail {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            white-space: nowrap;
+            margin-left: 20px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .loading {
+            text-align: center;
+            color: #666;
+            padding: 40px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        .empty-state-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .error {
+            background: #fee;
+            border: 1px solid #fcc;
+            color: #c33;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 600px) {
+            .patch-item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .download-btn {
+                margin-left: 0;
+                margin-top: 15px;
+                width: 100%;
+            }
+
+            .patch-details {
+                flex-direction: column;
+                gap: 5px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 reROll Patcher</h1>
+            <p class="subtitle">Download Latest Patch Files</p>
+        </header>
+
+        <div id="content"></div>
+
+        <footer>
+            <p>© 2026 reROll Server. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        const contentDiv = document.getElementById('content');
+
+        // Fetch patches from API
+        async function loadPatches() {
+            try {
+                contentDiv.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading patches...</p></div>';
+
+                const response = await fetch('/api/patch/data');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const patches = await response.json();
+
+                if (patches.length === 0) {
+                    contentDiv.innerHTML = '<div class="empty-state"><div class="empty-state-icon">📦</div><p>No patch files available</p></div>';
+                    return;
+                }
+
+                // Sort patches by newest first
+                patches.sort((a, b) => new Date(b.modifiedTime) - new Date(a.modifiedTime));
+
+                // Build HTML
+                let html = '<div class="patches-list">';
+                patches.forEach(patch => {
+                    const date = new Date(patch.modifiedTime);
+                    const dateString = date.toLocaleDateString('en-US', {
+                        year: 'numeric',
+                        month: 'short',
+                        day: 'numeric',
+                        hour: '2-digit',
+                        minute: '2-digit'
+                    });
+
+                    html += `
+                        <div class="patch-item">
+                            <div class="patch-info">
+                                <div class="patch-name">📥 ${escapeHtml(patch.filename)}</div>
+                                <div class="patch-details">
+                                    <div class="patch-detail">
+                                        <span>💾 Size:</span>
+                                        <strong>${patch.sizeFormatted}</strong>
+                                    </div>
+                                    <div class="patch-detail">
+                                        <span>🕒 Modified:</span>
+                                        <strong>${dateString}</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="/api/patch/data/download/${encodeURIComponent(patch.filename)}" class="download-btn">⬇️ Download</a>
+                        </div>
+                    `;
+                });
+                html += '</div>';
+
+                contentDiv.innerHTML = html;
+            } catch (error) {
+                contentDiv.innerHTML = `<div class="error">⚠️ Error loading patches: ${escapeHtml(error.message)}</div>`;
+                console.error('Error fetching patches:', error);
+            }
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Load patches on page load
+        document.addEventListener('DOMContentLoaded', loadPatches);
+    </script>
+</body>
+</html>

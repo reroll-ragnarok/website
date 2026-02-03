@@ -1,0 +1,807 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+####################################### Prontera & Izlude #######################################
+
+  - Id: 1144
+    AegisName: MARSE
+    Name: Marse
+    Level: 60
+    Hp: 2747
+    BaseExp: 400
+    JobExp: 425
+    Attack: 189
+    Attack2: 178
+    Defense: 38
+    MagicDefense: 52
+    Str: 42
+    Agi: 23
+    Vit: 38
+    Int: 19
+    Dex: 38
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 300
+    AttackDelay: 1956
+    AttackMotion: 756
+    DamageMotion: 528
+    Ai: 17
+    Drops:
+      - Item: Chinese_Ink
+        Rate: 4500
+      - Item: Tentacle
+        Rate: 1500
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Skyblue_Jewel
+        Rate: 5
+      - Item: Mistic_Frozen
+        Rate: 6
+      - Item: Penetration
+        Rate: 3
+      - Item: Grape
+        Rate: 150
+      - Item: Marse_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1045
+    AegisName: MARC
+    Name: Marc
+    Level: 60
+    Hp: 3156
+    BaseExp: 400
+    JobExp: 425
+    Attack: 218
+    Attack2: 187
+    Defense: 48
+    MagicDefense: 27
+    Str: 56
+    Agi: 31
+    Vit: 39
+    Int: 18
+    Dex: 48
+    Luk: 23
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 150
+    AttackDelay: 1272
+    AttackMotion: 72
+    DamageMotion: 480
+    Ai: 04
+    Drops:
+      - Item: Mistic_Frozen
+        Rate: 9
+      - Item: Gill
+        Rate: 4500
+      - Item: Oridecon_Stone
+        Rate: 48
+      - Item: Fin
+        Rate: 500
+      - Item: Skyblue_Jewel
+        Rate: 5
+      - Item: White_Herb
+        Rate: 350
+      - Item: Marc_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1069
+    AegisName: SWORD_FISH
+    Name: Swordfish
+    Level: 60
+    Hp: 3349
+    BaseExp: 400
+    JobExp: 425
+    Attack: 234
+    Attack2: 192
+    Defense: 61
+    MagicDefense: 16
+    Str: 48
+    Agi: 54
+    Vit: 41
+    Int: 17
+    Dex: 52
+    Luk: 18
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1968
+    AttackMotion: 768
+    DamageMotion: 384
+    Ai: 04
+    Drops:
+      - Item: Mistic_Frozen
+        Rate: 5
+      - Item: Sharp_Scale
+        Rate: 4500
+      - Item: Oridecon_Stone
+        Rate: 17
+      - Item: Snowy_Horn
+        Rate: 1
+      - Item: Elunium_Stone
+        Rate: 25
+      - Item: Katana_
+        Rate: 13
+      - Item: Gill
+        Rate: 300
+      - Item: Sword_Fish_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1158
+    AegisName: PHEN
+    Name: Phen
+    Level: 60
+    Hp: 2734
+    BaseExp: 400
+    JobExp: 425
+    Attack: 201
+    Attack2: 183
+    Defense: 36
+    MagicDefense: 14
+    Str: 41
+    Agi: 28
+    Vit: 36
+    Int: 16
+    Dex: 33
+    Luk: 18
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 150
+    AttackDelay: 2544
+    AttackMotion: 1344
+    DamageMotion: 1152
+    Ai: 17
+    Drops:
+      - Item: Fish_Tail
+        Rate: 2750
+      - Item: Sharp_Scale
+        Rate: 1000
+      - Item: Skyblue_Jewel
+        Rate: 3
+      - Item: Meat
+        Rate: 500
+      - Item: Fin
+        Rate: 250
+      - Item: Oridecon_Stone
+        Rate: 13
+      - Item: Fish_With_Blue_Back
+        Rate: 500
+      - Item: Phen_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Morocc #######################################
+
+  - Id: 1032
+    AegisName: VERIT
+    Name: Verit
+    Level: 60
+    Hp: 2891
+    BaseExp: 400
+    JobExp: 425
+    Attack: 227
+    Attack2: 195
+    Defense: 57
+    MagicDefense: 12
+    Str: 58
+    Agi: 11
+    Vit: 38
+    Int: 13
+    Dex: 60
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 250
+    AttackDelay: 2468
+    AttackMotion: 768
+    DamageMotion: 480
+    Ai: 02
+    Drops:
+      - Item: Immortal_Heart
+        Rate: 10000
+      - Item: Rotten_Bandage
+        Rate: 5000
+      - Item: Verit_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1041
+    AegisName: MUMMY
+    Name: Mummy
+    Level: 60
+    Hp: 3114
+    BaseExp: 400
+    JobExp: 425
+    Attack: 196
+    Attack2: 181
+    Defense: 83
+    MagicDefense: 6
+    Str: 51
+    Agi: 9
+    Vit: 35
+    Int: 12
+    Dex: 54
+    Luk: 14
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 2
+    WalkSpeed: 300
+    AttackDelay: 1772
+    AttackMotion: 72
+    DamageMotion: 384
+    Ai: 04
+    Drops:
+      - Item: Rotten_Bandage
+        Rate: 10000
+      - Item: Immortal_Heart
+        Rate: 5000
+      - Item: Mummy_Card
+        Rate: 1
+        StealProtected: true
+
+  ### CHAMPION ###
+  - Id: 1029
+    AegisName: ISIS
+    Name: Isis
+    Level: 60
+    Hp: 15000
+    BaseExp: 2000
+    JobExp: 2125
+    Attack: 241
+    Attack2: 199
+    Defense: 71
+    MagicDefense: 8
+    Str: 60
+    Agi: 47
+    Vit: 44
+    Int: 39
+    Dex: 59
+    Luk: 37
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1384
+    AttackMotion: 768
+    DamageMotion: 336
+    Ai: 19
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Scales_Shell
+        Rate: 10000
+      - Item: Shining_Scales
+        Rate: 5000
+      - Item: Circlet_
+        Rate: 500
+      - Item: Necklace
+        Rate: 100
+      - Item: Isis_Card
+        Rate: 10
+        StealProtected: true
+
+  - Id: 1001
+    AegisName: SCORPION
+    Name: Scorpion
+    Level: 60
+    Hp: 2523
+    BaseExp: 400
+    JobExp: 425
+    Attack: 187
+    Attack2: 176
+    Defense: 34
+    MagicDefense: 8
+    Str: 36
+    Agi: 46
+    Vit: 33
+    Int: 11
+    Dex: 43
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1564
+    AttackMotion: 864
+    DamageMotion: 576
+    Ai: 19
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Scorpion's_Tail
+        Rate: 10000
+      - Item: Solid_Shell
+        Rate: 5000
+      - Item: Fine_Grit
+        Rate: 2500
+      - Item: Scorpion_Card
+        Rate: 20
+        StealProtected: true
+
+####################################### Geffen #######################################
+
+  - Id: 1189
+    AegisName: ORC_ARCHER
+    Name: Orc Archer
+    Level: 60
+    Hp: 2749
+    BaseExp: 400
+    JobExp: 425
+    Attack: 211
+    Attack2: 188
+    Defense: 32
+    MagicDefense: 37
+    Str: 19
+    Agi: 49
+    Vit: 16
+    Int: 35
+    Dex: 56
+    Luk: 39
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Orc: true
+      Clocktower: true
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1960
+    AttackMotion: 620
+    DamageMotion: 480
+    Ai: 19
+    Drops:
+      - Item: Sharpened_Cuspid
+        Rate: 2328
+      - Item: Steel_Arrow
+        Rate: 500
+      - Item: Stone_Arrow
+        Rate: 1250 
+      - Item: Arrow_Of_Wind
+        Rate: 1250
+      - Item: Orc_Archer_Bow
+        Rate: 1
+      - Item: Red_Herb
+        Rate: 700
+      - Item: White_Herb
+        Rate: 450
+      - Item: Orc_Archer_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1023
+    AegisName: ORK_WARRIOR
+    Name: Orc Warrior
+    Level: 60
+    Hp: 3434
+    BaseExp: 400
+    JobExp: 425
+    Attack: 248
+    Attack2: 198
+    Defense: 46
+    MagicDefense: 5
+    Str: 55
+    Agi: 18
+    Vit: 46
+    Int: 12
+    Dex: 21
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Orc: true
+      Clocktower: true
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1864
+    AttackMotion: 864
+    DamageMotion: 288
+    Ai: 04
+    Drops:
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Orcish_Voucher
+        Rate: 4500
+      - Item: Oridecon_Stone
+        Rate: 20
+      - Item: Cigar
+        Rate: 2
+      - Item: Battle_Axe_
+        Rate: 5
+      - Item: Orcish_Axe
+        Rate: 3
+      - Item: Round_Buckler
+        Rate: 2
+      - Item: Orc_Warrior_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1273
+    AegisName: ORC_LADY
+    Name: Orc Lady
+    Level: 60
+    Hp: 2862
+    BaseExp: 400
+    JobExp: 425
+    Attack: 193
+    Attack2: 179
+    Defense: 68
+    MagicDefense: 22
+    Str: 44
+    Agi: 17
+    Vit: 38
+    Int: 14
+    Dex: 60
+    Luk: 9
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Orc: true
+    Element: Earth
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1050
+    AttackMotion: 900
+    DamageMotion: 288
+    Ai: 21
+    Drops:
+      - Item: Cyfar
+        Rate: 2328
+      - Item: Puente_Robe
+        Rate: 2
+      - Item: Earring
+        Rate: 1
+      - Item: Wedding_Veil
+        Rate: 1
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Cookbook06
+        Rate: 2
+      - Item: Wedding_Dress
+        Rate: 1
+      - Item: Orc_Lady_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE ###
+  - Id: 1686
+    AegisName: ORC_BABY
+    Name: Orc Baby
+    Level: 60
+    Hp: 1999
+    BaseExp: 1200
+    JobExp: 1275
+    Attack: 175
+    Attack2: 164
+    Defense: 42
+    MagicDefense: 7
+    Str: 30
+    Agi: 45
+    Vit: 15
+    Int: 15
+    Dex: 45
+    Luk: 60
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demihuman
+    RaceGroups:
+      Clocktower: true
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 672
+    AttackMotion: 864
+    DamageMotion: 288
+    Ai: 04
+    Drops:
+      - Item: Large_Jellopy
+        Rate: 500
+      - Item: Pacifier
+        Rate: 50
+      - Item: Viking_Helm
+        Rate: 1
+      - Item: Milk
+        Rate: 2500
+      - Item: Milk_Bottle
+        Rate: 100
+      - Item: Bib
+        Rate: 50
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Orc_Baby_Card_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Comodo #######################################
+
+  - Id: 1271
+    AegisName: ALLIGATOR
+    Name: Alligator
+    Level: 60
+    Hp: 3021
+    BaseExp: 400
+    JobExp: 425
+    Attack: 229
+    Attack2: 194
+    Defense: 54
+    MagicDefense: 33
+    Str: 34
+    Agi: 52
+    Vit: 20
+    Int: 18
+    Dex: 46
+    Luk: 29
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1100
+    AttackMotion: 900
+    DamageMotion: 480
+    Ai: 17
+    Drops:
+      - Item: Zargon
+        Rate: 500
+      - Item: Worn_Out_Prison_Uniform
+        Rate: 300
+      - Item: Anolian_Skin
+        Rate: 1000
+      - Item: Seed_Of_Yggdrasil
+        Rate: 1
+      - Item: Oridecon_Stone
+        Rate: 65
+      - Item: Alligator_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1206
+    AegisName: ANOLIAN
+    Name: Anolian
+    Level: 60
+    Hp: 3456
+    BaseExp: 400
+    JobExp: 425
+    Attack: 244
+    Attack2: 196
+    Defense: 52
+    MagicDefense: 14
+    Str: 57
+    Agi: 31
+    Vit: 46
+    Int: 28
+    Dex: 60
+    Luk: 32
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 190
+    AttackDelay: 900
+    AttackMotion: 500
+    DamageMotion: 864
+    Ai: 21
+    Drops:
+      - Item: Anolian_Skin
+        Rate: 2425
+      - Item: Crystal_Arrow
+        Rate: 1000
+      - Item: Royal_Jelly
+        Rate: 3
+      - Item: Red_Muffler
+        Rate: 5
+      - Item: Carga_Mace
+        Rate: 1
+      - Item: Brooch_
+        Rate: 1
+      - Item: Oridecon
+        Rate: 67
+      - Item: Anolian_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Al De Baran #######################################
+
+  - Id: 1265
+    AegisName: COOKIE
+    Name: Cookie
+    Level: 60
+    Hp: 2543
+    BaseExp: 400
+    JobExp: 425
+    Attack: 178
+    Attack2: 168
+    Defense: 48
+    MagicDefense: 34
+    Str: 26
+    Agi: 32
+    Vit: 36
+    Int: 58
+    Dex: 38
+    Luk: 19
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demihuman
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 200
+    AttackDelay: 1036
+    AttackMotion: 936
+    DamageMotion: 240
+    Ai: 03
+    Drops:
+      - Item: Well_Baked_Cookie
+        Rate: 1500
+      - Item: Candy_Striper
+        Rate: 75
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Great_Chef_Orleans01
+        Rate: 25
+      - Item: Sandals_
+        Rate: 15
+      - Item: Holy_Scroll_1_3
+        Rate: 50
+      - Item: Candy
+        Rate: 160
+      - Item: Cookie_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1246
+    AegisName: COOKIE_XMAS
+    Name: Christmas Cookie
+    Level: 60
+    Hp: 2876
+    BaseExp: 400
+    JobExp: 425
+    Attack: 184
+    Attack2: 172
+    Defense: 41
+    MagicDefense: 42
+    Str: 28
+    Agi: 24
+    Vit: 58
+    Int: 28
+    Dex: 32
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demihuman
+    Element: Holy
+    ElementLevel: 2
+    WalkSpeed: 400
+    AttackDelay: 1248
+    AttackMotion: 1248
+    DamageMotion: 240
+    Ai: 17
+    Drops:
+      - Item: Well_Baked_Cookie
+        Rate: 2000
+      - Item: Scarlet_Jewel
+        Rate: 23
+      - Item: Zargon
+        Rate: 100
+      - Item: Hood_
+        Rate: 13
+      - Item: Gift_Box
+        Rate: 3
+      - Item: Cold_Scroll_1_3
+        Rate: 50
+      - Item: Red_Herb
+        Rate: 850
+      - Item: Cookie_XMAS_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1249
+    AegisName: MYSTCASE
+    Name: Myst Case
+    Level: 60
+    Hp: 3397
+    BaseExp: 400
+    JobExp: 425
+    Attack: 205
+    Attack2: 186
+    Defense: 43
+    MagicDefense: 18
+    Str: 35
+    Agi: 28
+    Vit: 44
+    Int: 42
+    Dex: 38
+    Luk: 60
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Formless
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 400
+    AttackDelay: 1248
+    AttackMotion: 1248
+    DamageMotion: 432
+    Ai: 17
+    Drops:
+      - Item: Candy_Striper
+        Rate: 45
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Old_Blue_Box
+        Rate: 10
+      - Item: Piece_Of_Cake
+        Rate: 1000
+      - Item: Scarlet_Jewel
+        Rate: 75
+      - Item: Crystal_Jewel_
+        Rate: 3
+      - Item: Candy
+        Rate: 170
+      - Item: Mystcase_Card
+        Rate: 1
+        StealProtected: true

@@ -1,0 +1,598 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+###################################### Prontera & Izlude ######################################
+
+  - Id: 1053
+    AegisName: THIEF_BUG_
+    Name: Thief Bug Female
+    Level: 30
+    Hp: 737
+    BaseExp: 200
+    JobExp: 175
+    Attack: 60
+    Attack2: 38
+    Defense: 18
+    MagicDefense: 10
+    Str: 18
+    Agi: 10
+    Vit: 12
+    Int: 8
+    Dex: 22
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Insect
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 160
+    AttackDelay: 900
+    AttackMotion: 250
+    DamageMotion: 700
+    Ai: 07
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 10000
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Thief_Bug_Female_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1005
+    AegisName: FARMILIAR
+    Name: Familiar
+    Level: 30
+    Hp: 589
+    BaseExp: 200
+    JobExp: 175
+    Attack: 40
+    Attack2: 30
+    Defense: 10
+    MagicDefense: 8
+    Str: 12
+    Agi: 28
+    Vit: 8
+    Int: 5
+    Dex: 18
+    Luk: 25
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 140
+    AttackDelay: 1100
+    AttackMotion: 500
+    DamageMotion: 350
+    Ai: 04
+    Drops:
+      - Item: Tooth_Of_Bat
+        Rate: 10000
+      - Item: Grape
+        Rate: 2500
+      - Item: Center_Potion
+        Rate: 1000
+      - Item: Farmiliar_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1175
+    AegisName: TAROU
+    Name: Tarou
+    Level: 30
+    Hp: 815
+    BaseExp: 200
+    JobExp: 175
+    Attack: 33
+    Attack2: 33
+    Defense: 30
+    MagicDefense: 5
+    Str: 20
+    Agi: 8
+    Vit: 30
+    Int: 5
+    Dex: 20
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1300
+    AttackMotion: 900
+    DamageMotion: 800
+    Ai: 17
+    Drops:
+      - Item: Rat_Tail
+        Rate: 10000
+      - Item: Animal's_Skin
+        Rate: 5000
+      - Item: Feather
+        Rate: 2500
+      - Item: Tarou_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Morocc ######################################
+
+  - Id: 1380
+    AegisName: DRILLER
+    Name: Driller
+    Level: 30
+    Hp: 725
+    BaseExp: 200
+    JobExp: 175
+    Attack: 70
+    Attack2: 30
+    Defense: 25
+    MagicDefense: 10
+    Str: 15
+    Agi: 10
+    Vit: 15
+    Int: 10
+    Dex: 30
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 180
+    AttackDelay: 1200
+    AttackMotion: 800
+    DamageMotion: 400
+    Ai: 04
+    Drops:
+      - Item: Reptile_Tongue
+        Rate: 10000
+      - Item: Lizard_Scruff
+        Rate: 5000
+      - Item: Driller_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1119
+    AegisName: FRILLDORA
+    Name: Frilldora
+    Level: 30
+    Hp: 725
+    BaseExp: 200
+    JobExp: 175
+    Attack: 45
+    Attack2: 30
+    Defense: 10
+    MagicDefense: 30
+    Str: 10
+    Agi: 20
+    Vit: 8
+    Int: 30
+    Dex: 15
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1400
+    AttackMotion: 700
+    DamageMotion: 400
+    Ai: 04
+    Drops:
+      - Item: Lizard_Scruff
+        Rate: 10000
+      - Item: Reptile_Tongue
+        Rate: 5000
+      - Item: Frilldora_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Geffen ######################################
+
+  - Id: 1004
+    AegisName: HORNET
+    Name: Hornet
+    Level: 30
+    Hp: 505
+    BaseExp: 200
+    JobExp: 175
+    Attack: 81
+    Attack2: 18
+    Defense: 10
+    MagicDefense: 5
+    Str: 10
+    Agi: 30
+    Vit: 8
+    Int: 5
+    Dex: 20
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 120
+    AttackDelay: 900
+    AttackMotion: 400
+    DamageMotion: 200
+    Ai: 03
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Wind_Of_Verdure
+        Rate: 80
+      - Item: Bee_Sting
+        Rate: 8000
+      - Item: Jellopy
+        Rate: 3000
+      - Item: Main_Gauche_
+        Rate: 20
+      - Item: Green_Herb
+        Rate: 500
+      - Item: Honey
+        Rate: 100
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Hornet_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1118
+    AegisName: FLORA
+    Name: Flora
+    Level: 30
+    Hp: 950
+    BaseExp: 200
+    JobExp: 175
+    Attack: 30
+    Attack2: 30
+    Defense: 20
+    MagicDefense: 30
+    Str: 10
+    Agi: 5
+    Vit: 20
+    Int: 30
+    Dex: 10
+    Luk: 5
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Plant
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 1000
+    AttackDelay: 1400
+    AttackMotion: 400
+    DamageMotion: 600
+    Ai: 10
+    Drops:
+      - Item: Blossom_Of_Maneater
+        Rate: 4500
+      - Item: Sunflower
+        Rate: 2
+      - Item: Aloe
+        Rate: 5
+      - Item: Leaflet_Of_Aloe
+        Rate: 25
+      - Item: Singing_Flower
+        Rate: 10
+      - Item: Stem
+        Rate: 1000
+      - Item: Witherless_Rose
+        Rate: 1
+      - Item: Flora_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1169
+    AegisName: SKEL_WORKER
+    Name: Skeleton Worker
+    Level: 30
+    Hp: 855
+    BaseExp: 200
+    JobExp: 175
+    Attack: 90
+    Attack2: 25
+    Defense: 25
+    MagicDefense: 10
+    Str: 25
+    Agi: 5
+    Vit: 10
+    Int: 7
+    Dex: 30   
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1400
+    AttackMotion: 600
+    DamageMotion: 300
+    Ai: 04
+    Drops:
+      - Item: Iron
+        Rate: 200
+      - Item: Lantern
+        Rate: 2750
+      - Item: Elunium_Stone
+        Rate: 45
+      - Item: Safety_Helmet
+        Rate: 1
+      - Item: Steel
+        Rate: 50
+      - Item: Coal
+        Rate: 100
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Skel_Worker_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1121
+    AegisName: GIEARTH
+    Name: Giearth
+    Level: 30
+    Hp: 999
+    BaseExp: 200
+    JobExp: 175
+    Attack: 99
+    Attack2: 33
+    Defense: 20
+    MagicDefense: 20
+    Str: 10
+    Agi: 10
+    Vit: 30
+    Int: 20
+    Dex: 15
+    Luk: 5
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demon
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1200
+    AttackMotion: 1000
+    DamageMotion: 400
+    Ai: 17
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Great_Nature
+        Rate: 15
+      - Item: Coal
+        Rate: 75
+      - Item: Elder_Pixie's_Beard
+        Rate: 2750
+      - Item: Elven_Ears
+        Rate: 1
+      - Item: Cap_
+        Rate: 5
+      - Item: Sparkling_Dust
+        Rate: 50
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Giearth_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1145
+    AegisName: MARTIN
+    Name: Martin
+    Level: 30
+    Hp: 575
+    BaseExp: 200
+    JobExp: 175
+    Attack: 60
+    Attack2: 15
+    Defense: 30
+    MagicDefense: 10
+    Str: 10
+    Agi: 10
+    Vit: 10
+    Int: 10
+    Dex: 10
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Earth
+    ElementLevel: 2
+    WalkSpeed: 250
+    AttackDelay: 1200
+    AttackMotion: 400
+    DamageMotion: 400
+    Ai: 01
+    Drops:
+      - Item: Moustache_Of_Mole
+        Rate: 4500
+      - Item: Nail_Of_Mole
+        Rate: 2500
+      - Item: Jur_
+        Rate: 5
+      - Item: Goggle_
+        Rate: 3
+      - Item: Safety_Helmet
+        Rate: 1
+      - Item: Battered_Pot
+        Rate: 5
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Martin_Card
+        Rate: 1
+        StealProtected: true
+
+###################################### Payon ######################################
+
+  - Id: 1026
+    AegisName: MUNAK
+    Name: Munak
+    Level: 30
+    Hp: 730
+    BaseExp: 200
+    JobExp: 175
+    Attack: 50
+    Attack2: 50
+    Defense: 25
+    MagicDefense: 15
+    Str: 30
+    Agi: 10
+    Vit: 15
+    Int: 10
+    Dex: 20
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1300
+    AttackMotion: 600
+    DamageMotion: 300
+    Ai: 04
+    Drops:
+      - Item: Danggie
+        Rate: 4500
+      - Item: Munak_Turban
+        Rate: 1
+      - Item: Shoes_
+        Rate: 8
+      - Item: Amulet
+        Rate: 10
+      - Item: Ninja_Suit
+        Rate: 1
+      - Item: Adventure_Suit
+        Rate: 50
+      - Item: Girl's_Diary
+        Rate: 3
+      - Item: Munak_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1188
+    AegisName: BON_GUN
+    Name: Bongun
+    Level: 30
+    Hp: 660
+    BaseExp: 200
+    JobExp: 175
+    Attack: 75
+    Attack2: 45
+    Defense: 20
+    MagicDefense: 10
+    Str: 20
+    Agi: 30
+    Vit: 10
+    Int: 10
+    Dex: 30
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 180
+    AttackDelay: 1000
+    AttackMotion: 400
+    DamageMotion: 300
+    Ai: 19
+    Drops:
+      - Item: Short_Daenggie
+        Rate: 2750
+      - Item: Old_Portrait
+        Rate: 20
+      - Item: Worn_Out_Scroll
+        Rate: 30
+      - Item: Bongun_Hat
+        Rate: 1
+      - Item: Amulet
+        Rate: 8
+      - Item: Yellow_Herb
+        Rate: 500
+      - Item: Yellow_Herb
+        Rate: 625
+      - Item: Bon_Gun_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1512
+    AegisName: HYEGUN
+    Name: Yao Jun
+    JapaneseName: Hyegun
+    Level: 30
+    Hp: 1000
+    BaseExp: 600
+    JobExp: 525
+    Attack: 130
+    Attack2: 30
+    Defense: 30
+    MagicDefense: 30
+    Str: 30
+    Agi: 20
+    Vit: 30
+    Int: 30
+    Dex: 20
+    Luk: 10
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 2
+    WalkSpeed: 180
+    AttackDelay: 900
+    AttackMotion: 1000
+    DamageMotion: 700
+    Ai: 04
+    Drops:
+      - Item: Brigan
+        Rate: 1940
+      - Item: Amulet
+        Rate: 50
+      - Item: Elunium
+        Rate: 5
+      - Item: Boots_
+        Rate: 1
+      - Item: Munak_Doll
+        Rate: 150
+      - Item: Claire_Suits
+        Rate: 5
+      - Item: Hyegun_Hat
+        Rate: 50
+      - Item: Hyegun_Card
+        Rate: 1
+        StealProtected: true

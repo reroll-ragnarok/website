@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reROll - Ragnarok Online Private Server</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>reROll</h1>
+                <a href="discord://discord.com/channels/200353809615159296/1466982012819865643" class="discord-icon" title="Join our Discord">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                    </svg>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="database.html">Database</a></li>
+                <li><a href="#rates">Rates</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to reROll</h1>
+            <p class="hero-subtitle">Experience the classic Ragnarok Online adventure in a modern way</p>
+            <div class="hero-buttons">
+                <a href="#download" class="btn btn-primary">Start Playing</a>
+                <a href="database.html" class="btn btn-secondary">Browse Database</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="rates" class="rates-section">
+        <div class="container">
+            <h2 class="section-title">General Information</h2>
+            <div class="rates-grid">
+                <div class="rate-card">
+                    <div class="rate-icon">⭐</div>
+                    <h3>Max Level</h3>
+                    <div class="rate-value">99/70</div>
+                    <p>Classic level cap</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">📊</div>
+                    <h3>Experience System</h3>
+                    <div class="rate-value">Scaling</div>
+                    <p>EXP scales linearly with your level requirements. Feels like 10x~20x rates</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">⚔️</div>
+                    <h3>Available Jobs</h3>
+                    <div class="rate-value">OG</div>
+                    <p>Swordsman, Mage, Acolyte, Archer, Thief, Craftsman (old Merchant) + 2-1/2-2 jobs</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="monster-types-section">
+        <div class="container">
+            <h2 class="section-title">Monster Types & EXP Multipliers</h2>
+            <div class="rates-grid">
+                <div class="rate-card">
+                    <div class="rate-icon">🐾</div>
+                    <h3>Regular Monsters</h3>
+                    <div class="rate-value">1x EXP</div>
+                    <p>Common monsters found throughout the world</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">⚡</div>
+                    <h3>Scarce Monsters</h3>
+                    <div class="rate-value">3x EXP</div>
+                    <p>Rare spawns with 20 or less per map</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">💪</div>
+                    <h3>Champion Monsters</h3>
+                    <div class="rate-value">5x EXP</div>
+                    <p>Stronger, rare variants with enhanced rewards</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">👑</div>
+                    <h3>Mini Bosses</h3>
+                    <div class="rate-value">10x EXP</div>
+                    <p>Challenging foes with great rewards</p>
+                </div>
+                <div class="rate-card">
+                    <div class="rate-icon">🔥</div>
+                    <h3>Bosses</h3>
+                    <div class="rate-value">100x EXP</div>
+                    <p>Epic encounters with legendary prizes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Server Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>⚡ Low Latency</h3>
+                    <p>Optimized server performance for smooth gameplay</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🛡️ Anti-Cheat</h3>
+                    <p>Advanced protection against bots and hackers</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎮 Custom Content</h3>
+                    <p>Exclusive quests, items, and events</p>
+                </div>
+                <div class="feature-card">
+                    <h3>👥 Active Community</h3>
+                    <p>Join a friendly and helpful player base</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🔧 Regular Updates</h3>
+                    <p>Continuous improvements and new content</p>
+                </div>
+                <div class="feature-card">
+                    <h3>💬 24/7 Support</h3>
+                    <p>Dedicated staff always ready to help</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download-section">
+        <div class="container">
+            <h2 class="section-title">Download & Play</h2>
+            <div class="download-content">
+                <div class="download-steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Download Client</h3>
+                            <p>Get the reROll game client installer</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Install & Patch</h3>
+                            <p>Run the installer and apply latest updates</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Create Account</h3>
+                            <p>Register your free account to start playing</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Start Adventure</h3>
+                            <p>Login and begin your journey in Midgard</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-button-container">
+                    <a href="https://drive.google.com/file/d/1yt_xi8ILBFTZslvg7gXhnSxt7Y13wVfG/view?usp=sharing" target="_blank" class="download-card">
+                        <div class="download-card-icon">⬇️</div>
+                        <h3>Download reROll Client</h3>
+                        <p class="download-card-description">Get the full game client and start your adventure</p>
+                        <div class="download-card-size">File Size: ~5.2 GB</div>
+                        <div class="download-card-button">Download Now</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="register" class="register-section">
+        <div class="container">
+            <h2 class="section-title">Create Your Account</h2>
+            <div class="register-box">
+                <p class="register-description">Join thousands of players in the world of Midgard</p>
+                <a href="#" id="registerBtn" class="btn btn-primary btn-large">Register Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Instructions Modal -->
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="registerInstructions">
+                <h2>How to Create Your Account</h2>
+                <div class="instructions-section">
+                    <h3>📝 Registration Steps</h3>
+                    <ol class="instruction-list">
+                        <li>
+                            <strong>Open the game client</strong>
+                        </li>
+                        <li>
+                            <strong>Type your desired username with "_m" at the end</strong>
+                            <p class="instruction-example">Example: <code>johndoe_m</code></p>
+                        </li>
+                        <li>
+                            <strong>Enter your password</strong>
+                            <p class="instruction-note">This will create your account automatically</p>
+                        </li>
+                    </ol>
+                </div>
+                <div class="instructions-section">
+                    <h3>🔐 Next Time You Login</h3>
+                    <ol class="instruction-list">
+                        <li>
+                            <strong>Remove the "_m" from your username</strong>
+                            <p class="instruction-example">Example: <code>johndoe</code></p>
+                        </li>
+                        <li>
+                            <strong>Type the same password you created</strong>
+                        </li>
+                        <li>
+                            <strong>That's it! Welcome to reROll!</strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>reROll</h3>
+                    <p>A premium Ragnarok Online private server experience</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="database.html">Database</a></li>
+                        <li><a href="#download">Download</a></li>
+                        <li><a href="#register">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Community</h3>
+                    <ul>
+                        <li><a href="discord://discord.com/channels/200353809615159296/1466982012819865643">Discord</a></li>
+                        <li><a href="discord://discord.com/channels/200353809615159296/1466982545827696711">Forums</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 reROll. All rights reserved. Ragnarok Online is a registered trademark of Gravity Co., Ltd.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navigation active state
+        document.addEventListener('DOMContentLoaded', function() {
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            // Update active state on click
+            navLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    // Remove active class from all links
+                    navLinks.forEach(l => l.classList.remove('active'));
+                    // Add active class to clicked link
+                    this.classList.add('active');
+                });
+            });
+
+            // Update active state on scroll
+            window.addEventListener('scroll', function() {
+                let current = '';
+                const sections = document.querySelectorAll('section[id]');
+                
+                // Check if at bottom of page
+                const scrolledToBottom = (window.innerHeight + window.pageYOffset) >= document.body.offsetHeight - 100;
+                
+                if (scrolledToBottom) {
+                    current = 'register';
+                } else {
+                    sections.forEach(section => {
+                        const sectionTop = section.offsetTop;
+                        const sectionHeight = section.clientHeight;
+                        if (pageYOffset >= (sectionTop - 200)) {
+                            current = section.getAttribute('id');
+                        }
+                    });
+                }
+
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    } else if (current === '' && link.getAttribute('href') === 'index.html') {
+                        link.classList.add('active');
+                    }
+                });
+            });
+
+            // Registration modal
+            const registerBtn = document.getElementById('registerBtn');
+            const registerModal = document.getElementById('registerModal');
+            const closeBtn = registerModal.querySelector('.close');
+
+            registerBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                registerModal.style.display = 'block';
+            });
+
+            closeBtn.addEventListener('click', function() {
+                registerModal.style.display = 'none';
+            });
+
+            window.addEventListener('click', function(event) {
+                if (event.target === registerModal) {
+                    registerModal.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>

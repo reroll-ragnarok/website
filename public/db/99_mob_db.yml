@@ -1,0 +1,643 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+####################################### Yuno #######################################
+
+  ### CHAMPION ###
+  - Id: 1366
+    AegisName: LAVA_GOLEM
+    Name: Lava Golem
+    Level: 99
+    Hp: 50000
+    BaseExp: 15000
+    JobExp: 3875
+    Attack: 2147
+    Attack2: 1012
+    Defense: 299
+    MagicDefense: 90
+    Str: 89
+    Agi: 51
+    Vit: 99
+    Int: 56
+    Dex: 73
+    Luk: 52
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Formless
+    RaceGroups:
+      Golem: true
+    Element: Fire
+    ElementLevel: 4
+    WalkSpeed: 400
+    AttackDelay: 2190
+    AttackMotion: 2040
+    DamageMotion: 336
+    Ai: 19
+    Drops:
+      - Item: Cold_Magma
+        Rate: 2280
+      - Item: Burning_Heart
+        Rate: 1843
+      - Item: Plate_Armor_
+        Rate: 1
+      - Item: Crimson_Robe
+        Rate: 1
+      - Item: White_Herb
+        Rate: 1250
+      - Item: Magma_Fist
+        Rate: 10
+      - Item: Black_Powder
+        Rate: 250
+      - Item: Lava_Golem_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1367
+    AegisName: BLAZZER
+    Name: Blazer
+    Level: 99
+    Hp: 28934
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1128
+    Attack2: 783
+    Defense: 116
+    MagicDefense: 60
+    Str: 76
+    Agi: 68
+    Vit: 61
+    Int: 82
+    Dex: 74
+    Luk: 67
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 180
+    AttackDelay: 1732
+    AttackMotion: 1332
+    DamageMotion: 540
+    Ai: 20
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Burning_Heart
+        Rate: 1200
+      - Item: Live_Coal
+        Rate: 850
+      - Item: White_Herb
+        Rate: 700
+      - Item: Blazzer_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1383
+    AegisName: EXPLOSION
+    Name: Explosion
+    Level: 99
+    Hp: 26147
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1389
+    Attack2: 867
+    Defense: 112
+    MagicDefense: 50
+    Str: 91
+    Agi: 87
+    Vit: 53
+    Int: 51
+    Dex: 89
+    Luk: 62
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    Element: Fire
+    ElementLevel: 3
+    WalkSpeed: 165
+    AttackDelay: 1260
+    AttackMotion: 960
+    DamageMotion: 336
+    Ai: 04
+    Drops:
+      - Item: Wing_Of_Red_Bat
+        Rate: 2750
+      - Item: Burning_Heart
+        Rate: 1100
+      - Item: Hot_Hair
+        Rate: 1600
+      - Item: Oridecon_Stone
+        Rate: 400
+      - Item: Fruit_Of_Mastela
+        Rate: 200
+      - Item: Explosion_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1072
+    AegisName: KAHO
+    Name: Kaho
+    Level: 99
+    Hp: 27653
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1067
+    Attack2: 764
+    Defense: 106
+    MagicDefense: 55
+    Str: 63
+    Agi: 59
+    Vit: 58
+    Int: 93
+    Dex: 81
+    Luk: 79
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Fire
+    ElementLevel: 4
+    WalkSpeed: 150
+    AttackDelay: 1700
+    AttackMotion: 1000
+    DamageMotion: 500
+    Ai: 04
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Flame_Heart
+        Rate: 15
+      - Item: Coal
+        Rate: 75
+      - Item: Burning_Heart
+        Rate: 1500
+      - Item: Fire_Scroll_1_3
+        Rate: 50
+      - Item: Elunium_Stone
+        Rate: 500
+      - Item: Red_Gemstone
+        Rate: 150
+      - Item: Alchol
+        Rate: 3
+      - Item: Kaho_Card
+        Rate: 1
+        StealProtected: true
+  
+####################################### Nifhleim #######################################
+
+  - Id: 1504
+    AegisName: DULLAHAN
+    Name: Dullahan
+    Level: 99
+    Hp: 31298
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1412
+    Attack2: 834
+    Defense: 111
+    MagicDefense: 38
+    Str: 96
+    Agi: 54
+    Vit: 71
+    Int: 57
+    Dex: 92
+    Luk: 51
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Dark
+    ElementLevel: 2
+    WalkSpeed: 155
+    AttackDelay: 847
+    AttackMotion: 1152
+    DamageMotion: 480
+    Ai: 04
+    Drops:
+      - Item: Dullahan's_Helm
+        Rate: 1600
+      - Item: Dullahan_Armor
+        Rate: 2425
+      - Item: An_Eye_Of_Dullahan
+        Rate: 1
+      - Item: Manteau
+        Rate: 7
+      - Item: Manteau_
+        Rate: 1
+      - Item: Nab_Cloth
+        Rate: 5
+      - Item: Dullahan_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1505
+    AegisName: LOLI_RURI
+    Name: Loli Ruri
+    Level: 99
+    Hp: 26821
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1143
+    Attack2: 791
+    Defense: 53
+    MagicDefense: 44
+    Str: 69
+    Agi: 63
+    Vit: 52
+    Int: 88
+    Dex: 83
+    Luk: 97
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Dark
+    ElementLevel: 4
+    WalkSpeed: 125
+    AttackDelay: 747
+    AttackMotion: 1632
+    DamageMotion: 576
+    Ai: 04
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Black_Kitty_Doll
+        Rate: 400
+      - Item: Striped_Socks
+        Rate: 1500
+      - Item: Bat_Cage
+        Rate: 2522
+      - Item: Elunium
+        Rate: 50
+      - Item: Loki's_Whispers
+        Rate: 1
+      - Item: Lunatic_Brooch
+        Rate: 3
+      - Item: Sabah_Cloth
+        Rate: 5
+      - Item: Loli_Ruri_Card
+        Rate: 1
+        StealProtected: true
+
+  ### CHAMPION ###
+  - Id: 1507
+    AegisName: BLOODY_MURDERER
+    Name: Bloody Murderer
+    Level: 99
+    Hp: 50000
+    BaseExp: 15000
+    JobExp: 3875
+    Attack: 2467
+    Attack2: 1296
+    Defense: 84
+    MagicDefense: 41
+    Str: 94
+    Agi: 89
+    Vit: 54
+    Int: 56
+    Dex: 97
+    Luk: 58
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    Element: Dark
+    ElementLevel: 3
+    WalkSpeed: 175
+    AttackDelay: 914
+    AttackMotion: 1344
+    DamageMotion: 384
+    Ai: 04
+    Drops:
+      - Item: Old_Manteau
+        Rate: 2086
+      - Item: Distorted_Portrait
+        Rate: 500
+      - Item: Rusty_Cleaver
+        Rate: 1000
+      - Item: Mr_Scream
+        Rate: 25
+      - Item: Oridecon
+        Rate: 50
+      - Item: Mama's_Knife
+        Rate: 2
+      - Item: Ginnungagap
+        Rate: 1
+      - Item: Bloody_Murderer_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Glastheim #######################################
+
+  - Id: 1219
+    AegisName: KNIGHT_OF_ABYSS
+    Name: Abysmal Knight
+    JapaneseName: Knight of Abyss
+    Level: 99
+    Hp: 32867
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1328
+    Attack2: 817
+    Defense: 102
+    MagicDefense: 50
+    Str: 93
+    Agi: 66
+    Vit: 78
+    Int: 71
+    Dex: 91
+    Luk: 59
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    RaceGroups:
+      Clocktower: true
+    Element: Dark
+    ElementLevel: 4
+    WalkSpeed: 300
+    AttackDelay: 1500
+    AttackMotion: 500
+    DamageMotion: 1000
+    Ai: 21
+    Drops:
+      - Item: Reins
+        Rate: 2668
+      - Item: Blade_Lost_In_Darkness
+        Rate: 3
+      - Item: Clothes_Of_The_Lord
+        Rate: 1
+      - Item: Battle_Hook
+        Rate: 13
+      - Item: Scarlet_Twohand_Sword
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Elunium
+        Rate: 185
+      - Item: Ebone_Armor
+        Rate: 5
+      - Item: Knight_Of_Abyss_Card
+        Rate: 1
+        StealProtected: true
+
+### CHAMPION ###
+  - Id: 1268
+    AegisName: BLOODY_KNIGHT
+    Name: Bloody Knight
+    Level: 99
+    Hp: 50000
+    BaseExp: 15000
+    JobExp: 3875
+    Attack: 2281
+    Attack2: 1423
+    Defense: 122
+    MagicDefense: 50
+    Str: 87
+    Agi: 57
+    Vit: 89
+    Int: 63
+    Dex: 94
+    Luk: 62
+    AttackRange: 3
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Formless
+    Element: Dark
+    ElementLevel: 4
+    WalkSpeed: 250
+    AttackDelay: 828
+    AttackMotion: 528
+    DamageMotion: 192
+    Ai: 21
+    Drops:
+      - Item: Brigan
+        Rate: 2425
+      - Item: Helm_
+        Rate: 23
+      - Item: Plate_Armor_
+        Rate: 3
+      - Item: Strong_Shield
+        Rate: 31
+      - Item: Katzbalger
+        Rate: 1
+      - Item: Pole_Axe
+        Rate: 1
+      - Item: Ebone_Armor
+        Rate: 3
+      - Item: Bloody_Knight_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1320
+    AegisName: OWL_DUKE
+    Name: Owl Duke
+    Level: 99
+    Hp: 28123
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1098
+    Attack2: 778
+    Defense: 80
+    MagicDefense: 45
+    Str: 61
+    Agi: 58
+    Vit: 53
+    Int: 91
+    Dex: 96
+    Luk: 74
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Wind
+    ElementLevel: 3
+    WalkSpeed: 195
+    AttackDelay: 1345
+    AttackMotion: 824
+    DamageMotion: 440
+    Ai: 21
+    Class: Boss
+    Drops:
+      - Item: Tatters_Clothes
+        Rate: 2207
+      - Item: Soft_Feather
+        Rate: 750
+      - Item: Wind_Scroll_1_5
+        Rate: 50
+      - Item: Crystal_Mirror
+        Rate: 1
+      - Item: Scarlet_Lance
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Scarlet_Staff
+        Rate: 50
+      - Item: Magician_Hat
+        Rate: 1
+      - Item: Owl_Duke_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1295
+    AegisName: OWL_BARON
+    Name: Owl Baron
+    Level: 99
+    Hp: 29746
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1056
+    Attack2: 761
+    Defense: 88
+    MagicDefense: 25
+    Str: 64
+    Agi: 62
+    Vit: 59
+    Int: 94
+    Dex: 99
+    Luk: 83
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Wind
+    ElementLevel: 3
+    WalkSpeed: 175
+    AttackDelay: 1345
+    AttackMotion: 824
+    DamageMotion: 440
+    Ai: 21
+    Class: Boss
+    Drops:
+      - Item: Tatters_Clothes
+        Rate: 1750
+      - Item: Soft_Feather
+        Rate: 1250
+      - Item: Scarlet_Bow
+        Rate: 50
+      - Item: Staff_Of_Soul
+        Rate: 1
+      - Item: Walking_Stick
+        Rate: 1
+      - Item: Wind_Scroll_1_5
+        Rate: 50
+      - Item: Magician_Hat
+        Rate: 3
+      - Item: Owl_Baron_Card
+        Rate: 1
+        StealProtected: true
+
+  ### CHAMPION ###
+  - Id: 1275
+    AegisName: ALICE
+    Name: Alice
+    Level: 99
+    Hp: 50000
+    BaseExp: 15000
+    JobExp: 3875
+    Attack: 2021
+    Attack2: 1754
+    Defense: 93
+    MagicDefense: 73
+    Str: 18
+    Agi: 61
+    Vit: 58
+    Int: 84
+    Dex: 92
+    Luk: 86
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Clocktower: true
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 200
+    AttackDelay: 502
+    AttackMotion: 1999
+    DamageMotion: 480
+    Ai: 17
+    Drops:
+      - Item: Alice's_Apron
+        Rate: 1250
+      - Item: Old_Broom
+        Rate: 20
+      - Item: Chrystal_Pumps
+        Rate: 2
+      - Item: Rotha_Shield
+        Rate: 1
+      - Item: Pair_Of_Red_Ribbon
+        Rate: 1
+      - Item: Imperial_Cooking_Kits
+        Rate: 5
+      - Item: Holy_Scroll_1_5
+        Rate: 50
+      - Item: Alice_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE ###
+  - Id: 1253
+    AegisName: GARGOYLE
+    Name: Gargoyle
+    Level: 99
+    Hp: 25912
+    BaseExp: 9000
+    JobExp: 2325
+    Attack: 1174
+    Attack2: 782
+    Defense: 98
+    MagicDefense: 43
+    Str: 73
+    Agi: 67
+    Vit: 56
+    Int: 62
+    Dex: 98
+    Luk: 71
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Wind
+    ElementLevel: 3
+    WalkSpeed: 200
+    AttackDelay: 1020
+    AttackMotion: 720
+    DamageMotion: 384
+    Ai: 05
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Zargon
+        Rate: 1940
+      - Item: Petite_DiablOfs_Wing
+        Rate: 250
+      - Item: Elven_Bow
+        Rate: 3
+      - Item: Thimble_Of_Archer
+        Rate: 1
+      - Item: Silence_Arrow
+        Rate: 1000
+      - Item: Elunium_Stone
+        Rate: 119
+      - Item: Gargoyle_Card
+        Rate: 1
+        StealProtected: true

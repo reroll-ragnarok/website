@@ -1,0 +1,847 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+####################################### Prontera & Izlude #######################################
+
+  - Id: 1066
+    AegisName: VADON
+    Name: Vadon
+    Level: 50
+    Hp: 1723
+    BaseExp: 300
+    JobExp: 400
+    Attack: 168
+    Attack2: 112
+    Defense: 42
+    MagicDefense: 19
+    Str: 41
+    Agi: 28
+    Vit: 27
+    Int: 13
+    Dex: 29
+    Luk: 17
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Fish
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1632
+    AttackMotion: 432
+    DamageMotion: 540
+    Ai: 17
+    Drops:
+      - Item: Crystal_Blue
+        Rate: 20
+      - Item: Nipper
+        Rate: 4500
+      - Item: Garlet
+        Rate: 1500
+      - Item: Padded_Armor_
+        Rate: 3
+      - Item: Solid_Shell
+        Rate: 50
+      - Item: Elunium_Stone
+        Rate: 20
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Vadon_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1067
+    AegisName: CORNUTUS
+    Name: Cornutus
+    Level: 50
+    Hp: 2856
+    BaseExp: 300
+    JobExp: 400
+    Attack: 101
+    Attack2: 99
+    Defense: 80
+    MagicDefense: 28
+    Str: 11
+    Agi: 11
+    Vit: 50
+    Int: 27
+    Dex: 39
+    Luk: 8
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Fish
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1248
+    AttackMotion: 48
+    DamageMotion: 480
+    Ai: 17
+    Drops:
+      - Item: Crystal_Blue
+        Rate: 23
+      - Item: Conch
+        Rate: 2750
+      - Item: Scell
+        Rate: 400
+      - Item: Elunium_Stone
+        Rate: 27
+      - Item: Shield_
+        Rate: 3
+      - Item: Solid_Shell
+        Rate: 500
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Cornutus_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1070
+    AegisName: KUKRE
+    Name: Kukre
+    Level: 50
+    Hp: 1547
+    BaseExp: 300
+    JobExp: 400
+    Attack: 152
+    Attack2: 106
+    Defense: 23
+    MagicDefense: 21
+    Str: 22
+    Agi: 47
+    Vit: 12
+    Int: 9
+    Dex: 43
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Fish
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 1776
+    AttackMotion: 576
+    DamageMotion: 288
+    Ai: 02
+    Drops:
+      - Item: Crystal_Blue
+        Rate: 15
+      - Item: Worm_Peelings
+        Rate: 2750
+      - Item: Garlet
+        Rate: 200
+      - Item: Monster's_Feed
+        Rate: 250
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Insect_Feeler
+        Rate: 225
+      - Item: Earthworm_The_Dude
+        Rate: 10
+      - Item: Kukre_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Morocc #######################################
+
+  - Id: 1028
+    AegisName: SOLDIER_SKELETON
+    Name: Soldier Skeleton
+    Level: 50
+    Hp: 2234
+    BaseExp: 300
+    JobExp: 400
+    Attack: 197
+    Attack2: 146
+    Defense: 48
+    MagicDefense: 39
+    Str: 50
+    Agi: 13
+    Vit: 32
+    Int: 8
+    Dex: 37
+    Luk: 22
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 2276
+    AttackMotion: 576
+    DamageMotion: 432
+    Ai: 04
+    Drops:
+      - Item: Skel_Bone
+        Rate: 2750
+      - Item: Oridecon_Stone
+        Rate: 30
+      - Item: Dagger_
+        Rate: 6
+      - Item: Red_Herb
+        Rate: 350
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Chain_Mail_
+        Rate: 1
+      - Item: Stiletto
+        Rate: 25
+      - Item: Soldier_Skeleton_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1016
+    AegisName: ARCHER_SKELETON
+    Name: Archer Skeleton
+    Level: 50
+    Hp: 1683
+    BaseExp: 300
+    JobExp: 400
+    Attack: 158
+    Attack2: 113
+    Defense: 31
+    MagicDefense: 10
+    Str: 28
+    Agi: 37
+    Vit: 20
+    Int: 10
+    Dex: 50
+    Luk: 5
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    RaceGroups:
+      Clocktower: true
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 2864
+    AttackMotion: 864
+    DamageMotion: 576
+    Ai: 05
+    Drops:
+      - Item: Skel_Bone
+        Rate: 2250
+      - Item: Oridecon_Stone
+        Rate: 35
+      - Item: Apple_Of_Archer
+        Rate: 2
+      - Item: Great_Bow_
+        Rate: 18
+      - Item: Fire_Arrow
+        Rate: 500
+      - Item: Red_Herb
+        Rate: 900
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Archer_Skeleton_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Geffen #######################################
+
+  - Id: 1122
+    AegisName: GOBLIN_1
+    Name: Goblin
+    Level: 50
+    Hp: 1821
+    BaseExp: 300
+    JobExp: 400
+    Attack: 167
+    Attack2: 124
+    Defense: 24
+    MagicDefense: 5
+    Str: 17
+    Agi: 16
+    Vit: 7
+    Int: 10
+    Dex: 50
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 100
+    AttackDelay: 1120
+    AttackMotion: 620
+    DamageMotion: 240
+    Ai: 21
+    Drops:
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Scell
+        Rate: 4500
+      - Item: Oridecon_Stone
+        Rate: 22
+      - Item: Goblini_Mask
+        Rate: 2
+      - Item: Dirk_
+        Rate: 5
+      - Item: Buckler_
+        Rate: 3
+      - Item: Red_Herb
+        Rate: 900
+      - Item: Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1123
+    AegisName: GOBLIN_2
+    Name: Goblin
+    Level: 50
+    Hp: 1927
+    BaseExp: 300
+    JobExp: 400
+    Attack: 174
+    Attack2: 132
+    Defense: 21
+    MagicDefense: 5
+    Str: 14
+    Agi: 21
+    Vit: 16
+    Int: 6
+    Dex: 47
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 1320
+    AttackMotion: 620
+    DamageMotion: 240
+    Ai: 19
+    Drops:
+      - Item: Iron
+        Rate: 125
+      - Item: Scell
+        Rate: 4500
+      - Item: Indian_Hair_Piece
+        Rate: 2
+      - Item: Flail_
+        Rate: 5
+      - Item: Siver_Guard
+        Rate: 3
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Goblini_Mask
+        Rate: 2
+      - Item: Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1124
+    AegisName: GOBLIN_3
+    Name: Goblin
+    Level: 50
+    Hp: 2038
+    BaseExp: 300
+    JobExp: 400
+    Attack: 183
+    Attack2: 138
+    Defense: 26
+    MagicDefense: 5
+    Str: 21
+    Agi: 18
+    Vit: 5
+    Int: 6
+    Dex: 44
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Poison
+    ElementLevel: 1
+    WalkSpeed: 250
+    AttackDelay: 1624
+    AttackMotion: 624
+    DamageMotion: 240
+    Ai: 13
+    Drops:
+      - Item: Iron
+        Rate: 115
+      - Item: Scell
+        Rate: 4500
+      - Item: Red_Bandana
+        Rate: 2
+      - Item: Goblin_Mask_02
+        Rate: 8
+      - Item: Buckler_
+        Rate: 1
+      - Item: Red_Herb
+        Rate: 500
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1125
+    AegisName: GOBLIN_4
+    Name: Goblin
+    Level: 50
+    Hp: 2149
+    BaseExp: 300
+    JobExp: 400
+    Attack: 191
+    Attack2: 144
+    Defense: 19
+    MagicDefense: 3
+    Str: 12
+    Agi: 18
+    Vit: 17
+    Int: 6
+    Dex: 45
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1624
+    AttackMotion: 624
+    DamageMotion: 240
+    Ai: 13
+    Drops:
+      - Item: Yellow_Live
+        Rate: 50
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Goblin_Mask_01
+        Rate: 8
+      - Item: Gangster_Patch
+        Rate: 2
+      - Item: Smasher_
+        Rate: 5
+      - Item: Siver_Guard
+        Rate: 3
+      - Item: Red_Herb
+        Rate: 750
+      - Item: Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1126
+    AegisName: GOBLIN_5
+    Name: Goblin
+    Level: 50
+    Hp: 2267
+    BaseExp: 300
+    JobExp: 400
+    Attack: 199
+    Attack2: 149
+    Defense: 31
+    MagicDefense: 5
+    Str: 13
+    Agi: 19
+    Vit: 13
+    Int: 6
+    Dex: 43
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 3074
+    AttackMotion: 1874
+    DamageMotion: 480
+    Ai: 13
+    Drops:
+      - Item: Model_Foxtail
+        Rate: 20
+      - Item: Scell
+        Rate: 4500
+      - Item: Wand_
+        Rate: 8
+      - Item: Amazing_Foxtail
+        Rate: 20
+      - Item: Goblin_Mask_03
+        Rate: 8
+      - Item: Red_Herb
+        Rate: 750
+      - Item: Yellow_Herb
+        Rate: 110
+      - Item: Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1258
+    AegisName: GOBLIN_ARCHER
+    Name: Goblin Archer
+    Level: 50
+    Hp: 1689
+    BaseExp: 300
+    JobExp: 400
+    Attack: 162
+    Attack2: 117
+    Defense: 17
+    Str: 13
+    Agi: 38
+    Vit: 6
+    Int: 6
+    Dex: 50
+    Luk: 31
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demihuman
+    RaceGroups:
+      Goblin: true
+    Element: Poison
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1172
+    AttackMotion: 672
+    DamageMotion: 420
+    Ai: 05
+    Drops:
+      - Item: Goblini_Mask
+        Rate: 2
+      - Item: Iron
+        Rate: 125
+      - Item: Scell
+        Rate: 500
+      - Item: Oridecon_Arrow
+        Rate: 1500
+      - Item: Red_Herb
+        Rate: 300
+      - Item: Composite_Bow_
+        Rate: 13
+      - Item: Grape
+        Rate: 150
+      - Item: Goblin_Archer_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE ###
+  - Id: 1308
+    AegisName: PANZER_GOBLIN
+    Name: Panzer Goblin
+    Level: 50
+    Hp: 2421
+    BaseExp: 900
+    JobExp: 1200
+    Attack: 179
+    Attack2: 131
+    Defense: 50
+    MagicDefense: 23
+    Str: 15
+    Agi: 22
+    Vit: 28
+    Int: 17
+    Dex: 27
+    Luk: 23
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Wind
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 960
+    AttackMotion: 1008
+    DamageMotion: 840
+    Ai: 21
+    Drops:
+      - Item: Cyfar
+        Rate: 2207
+      - Item: Brigan
+        Rate: 1750
+      - Item: Steel
+        Rate: 90
+      - Item: Iron
+        Rate: 180
+      - Item: Coal
+        Rate: 290
+      - Item: Butcher
+        Rate: 3
+      - Item: Flame_Heart
+        Rate: 80
+      - Item: Panzer_Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE ###
+  - Id: 1280
+    AegisName: STEAM_GOBLIN
+    Name: Goblin Steamrider
+    JapaneseName: Steam Goblin
+    Level: 50
+    Hp: 2341
+    BaseExp: 900
+    JobExp: 1200
+    Attack: 154
+    Attack2: 145
+    Defense: 44
+    MagicDefense: 5
+    Str: 14
+    Agi: 11
+    Vit: 23
+    Int: 16
+    Dex: 32
+    Luk: 27
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Wind
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1008
+    AttackMotion: 1008
+    DamageMotion: 528
+    Ai: 17
+    Drops:
+      - Item: Scell
+        Rate: 1250
+      - Item: Cyfar
+        Rate: 1940
+      - Item: Iron
+        Rate: 150
+      - Item: Steel
+        Rate: 28
+      - Item: Coal
+        Rate: 160
+      - Item: The_Garrison
+        Rate: 3
+      - Item: Elunium_Stone
+        Rate: 62
+      - Item: Steam_Goblin_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Comodo #######################################
+
+  - Id: 1317
+    AegisName: FUR_SEAL
+    Name: Seal
+    JapaneseName: Fur Seal
+    Level: 50
+    Hp: 1847
+    BaseExp: 300
+    JobExp: 400
+    Attack: 172
+    Attack2: 128
+    Defense: 39
+    MagicDefense: 15
+    Str: 32
+    Agi: 33
+    Vit: 42
+    Int: 31
+    Dex: 36
+    Luk: 21
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1612
+    AttackMotion: 622
+    DamageMotion: 583
+    Ai: 19
+    Drops:
+      - Item: Zargon
+        Rate: 2183
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Coat_
+        Rate: 3
+      - Item: Cyfar
+        Rate: 600
+      - Item: Guisarme_
+        Rate: 1
+      - Item: Panacea
+        Rate: 100
+      - Item: Glass_Bead
+        Rate: 60
+      - Item: Fur_Seal_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1323
+    AegisName: SEE_OTTER
+    Name: Sea Otter
+    Level: 50
+    Hp: 2096
+    BaseExp: 300
+    JobExp: 400
+    Attack: 181
+    Attack2: 137
+    Defense: 29
+    MagicDefense: 17
+    Str: 15
+    Agi: 29
+    Vit: 36
+    Int: 49
+    Dex: 33
+    Luk: 31
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Earth
+    ElementLevel: 2
+    WalkSpeed: 190
+    AttackDelay: 1132
+    AttackMotion: 583
+    DamageMotion: 532
+    Ai: 19
+    Drops:
+      - Item: Scarlet_Jewel
+        Rate: 75
+      - Item: Clam_Shell
+        Rate: 2750
+      - Item: Sea_Otter_Leather
+        Rate: 2183
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Blue_Jewel
+        Rate: 25
+      - Item: Glass_Bead
+        Rate: 325
+      - Item: Cyfar
+        Rate: 600
+      - Item: See_Otter_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Al De Baran #######################################
+
+  ### SCARCE ###
+  - Id: 1243
+    AegisName: SASQUATCH
+    Name: Sasquatch
+    Level: 50
+    Hp: 2769
+    BaseExp: 300
+    JobExp: 400
+    Attack: 194
+    Attack2: 142
+    Defense: 50
+    MagicDefense: 26
+    Str: 50
+    Agi: 18
+    Vit: 50
+    Int: 12
+    Dex: 44
+    Luk: 21
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 300
+    AttackDelay: 1260
+    AttackMotion: 192
+    DamageMotion: 192
+    Ai: 21
+    Drops:
+      - Item: Zargon
+        Rate: 375
+      - Item: White_Herb
+        Rate: 400
+      - Item: Feather
+        Rate: 500
+      - Item: Panda_Cap
+        Rate: 1
+      - Item: Bear's_Foot
+        Rate: 2500
+      - Item: White_Jewel
+        Rate: 15
+      - Item: Elunium_Stone
+        Rate: 45
+      - Item: Sasquatch_Card
+        Rate: 1
+        StealProtected: true
+
+  ### SCARCE ###
+  - Id: 1515
+    AegisName: GARM_BABY
+    Name: Baby Hatii
+    JapaneseName: Garm Baby
+    Level: 50
+    Hp: 2516
+    BaseExp: 900
+    JobExp: 1200
+    Attack: 186
+    Attack2: 141
+    Defense: 33
+    MagicDefense: 28
+    Str: 37
+    Agi: 50
+    Vit: 28
+    Int: 33
+    Dex: 50
+    Luk: 28
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 450
+    AttackDelay: 879
+    AttackMotion: 672
+    DamageMotion: 576
+    Ai: 04
+    Drops:
+      - Item: Milk_Bottle
+        Rate: 750
+      - Item: Bib
+        Rate: 1250
+      - Item: Ice_Piece
+        Rate: 2183
+      - Item: Frozen_Rose
+        Rate: 50
+      - Item: Cold_Scroll_2_5
+        Rate: 50
+      - Item: Garm_Baby_Card
+        Rate: 1
+        StealProtected: true

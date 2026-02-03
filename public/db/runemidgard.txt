@@ -1,0 +1,564 @@
+//===== rAthena Script =======================================
+//= Rune Midgard Warp Script
+//===== By: ==================================================
+//= Jota
+//===== Current Version: =====================================
+//= 1.0
+//===== Compatible With: =====================================
+//= rAthena Project
+//===== Description: =========================================
+//= Warp Points for Rune Midgard
+//===== Additional Comments: =================================
+//= 1.0 This is my revisited world map for the game [Jota]
+//= 1.0 The goal is to have a more useful set of maps [Jota]
+//============================================================
+
+// Training Grounds
+//==================================================================================================================
+new_1-3,96,17,0	warp	new1-3_01	1,1,new_1-2,23,188
+new_1-3,96,176,0	warp	new1-3_02	1,1,new_1-2,23,188
+
+//= Prontera City
+//==================================================================================================================
+prontera,156,22,0	warp	prontera_01	3,2,prt_fild08,170,375
+prontera,22,203,0	warp	prontera_02	2,3,prt_fild05,367,205
+prontera,289,203,0	warp	prontera_03	2,3,prt_fild06,27,193
+
+//= Prontera Field South 
+
+prt_fild08,233,16,0	warp	prtfild08_01	3,3,moc_fild13,144,364
+prt_fild08,16,187,0	warp	prtfild08_02	3,17,prt_fild05,142,25
+prt_fild08,16,239,0	warp	prtfild08_03	3,15,prt_fild05,256,16
+prt_fild08,371,212,0	warp	prtfild08_04	3,3,izlude,35,78
+prt_fild08,170,378,0	warp	prtfild08_05	3,2,prontera,156,26
+
+//= Prontera Field West
+
+prt_fild05,253,14,0	warp	prtfild05_01	2,2,prt_fild08,20,239
+prt_fild05,142,18,0	warp	prtfild05_02	20,3,prt_fild08,20,187
+prt_fild05,14,146,0	warp	prtfild05_03	2,2,gef_fild00,376,140
+prt_fild05,373,205,0	warp	prtfild05_04	3,3,prontera,26,203
+prt_fild05,291,385,0	warp	prtfild05_05	3,3,mjolnir_05,235,19
+
+//= Prontera Field East
+
+prt_fild06,23,193,0	warp	prtfild06_01	2,3,prontera,285,203
+
+//= Geffen City
+//==================================================================================================================
+geffen,26,119,0	warp	geffen_01	2,3,gef_fild07,336,187
+geffen,217,119,0	warp	geffen_02	2,4,gef_fild00,46,199
+geffen,119,213,0	warp	geffen_03	3,2,gef_fild04,187,42
+geffen,120,114,0	warp	geffen_04	3,1,gef_tower,112,110
+
+//= Geffen Field West
+
+gef_fild07,40,19,0	warp	geffild07_01	1,1,gef_fild11,114,360
+gef_fild07,18,191,0	warp	geffild07_02	2,4,gef_fild06,377,212
+gef_fild07,339,187,0	warp	geffild07_03	2,4,geffen,29,119
+
+//= Geffen Field West 2
+
+gef_fild06,218,17,0	warp	geffild06_01	4,2,gef_fild10,234,351
+gef_fild06,382,211,0	warp	geffild06_02	2,4,gef_fild07,22,191
+
+//= Geffen Field East
+
+gef_fild00,40,199,0	warp	geffild00_01	2,7,geffen,213,119
+gef_fild00,381,137,0	warp	geffild00_02	3,9,prt_fild05,20,332
+
+//= Geffen Field North
+
+gef_fild04,187,39,0	warp	geffild04_01	4,2,geffen,119,210
+gef_fild04,261,362,0	warp	geffild04_03	4,2,mjolnir_02,361,22
+
+//= Geffen Field Southwest
+
+gef_fild10,63,337,0	warp	geffild10_03	1,1,in_orcs01,30,157
+gef_fild10,223,205,0	warp	geffild10_04	1,1,in_orcs01,108,89
+gef_fild10,237,355,0	warp	geffild10_05	3,3,gef_fild07,39,24
+gef_fild10,215,51,0	warp	geffild10_08	1,1,in_orcs01,162,53
+
+//= Geffen Field Southwest 2
+
+gef_fild11,111,364,0	warp	geffild11_02	6,3,gef_fild07,40,22
+
+//= Mjolnir
+
+mjolnir_02,361,18,0	warp	mjolnir02_01	4,2,gef_fild04,261,357
+mjolnir_02,326,289,0	warp	mjolnir02_02	1,1,mjolnir_05,20,171
+mjolnir_02,79,365,0	warp	mjolnir02_03	2,1,mjo_dun02,380,344
+
+mjolnir_05,16,171,0	warp	mjolnir05_01	2,2,mjolnir_02,324,289
+mjolnir_05,235,16,0	warp	mjolnir05_02	2,2,prt_fild05,291,380
+mjolnir_05,220,382,0	warp	mjolnir05_03	4,2,mjolnir_12,220,29
+
+//= Morocc City
+//==================================================================================================================
+morocc,160,17,0	warp	morocc_01	2,2,moc_fild12,159,378
+morocc,24,164,0	warp	morocc_02	1,2,moc_fild19,164,107
+morocc,299,207,0	warp	morocc_03	2,2,moc_fild10,26,207
+
+//= Morocc Field South
+
+moc_fild12,117,30,0	warp	mocfild12_01	3,3,cmd_fild02,378,266
+moc_fild12,289,168,0	warp	mocfild12_02	3,3,moc_fild17,35,297
+moc_fild12,159,381,0	warp	mocfild12_03	2,2,morocc,160,20
+
+//= Morocc Field South 2
+
+moc_fild17,30,300,0	warp	mocfild17_01	2,5,moc_fild12,284,171
+moc_fild17,218,369,0	warp	mocfild17_03	5,2,moc_fild10,189,29
+
+//= Morocc Field West
+
+moc_fild19,169,107,0	warp	mocfild19_01	1,4,morocc,27,164
+moc_fild19,71,170,0	warp	mocfild19_02	8,2,moc_ruins,71,19
+moc_fild19,98,99,0	warp	mocfild19_03	1,1,in_sphinx4,10,220
+
+//= Morocc Field East
+
+moc_fild10,188,23,0	warp	mocfild10_01	6,2,moc_fild17,218,365
+moc_fild10,21,207,0	warp	mocfild10_02	3,3,morocc,295,207
+moc_fild10,390,258,0	warp	mocfild10_03	2,6,moc_fild13,35,171
+
+//= Morocc Field East 2
+
+moc_fild13,30,171,0	warp	mocfild13_01	2,6,moc_fild10,387,258
+moc_fild13,308,49,0	warp	mocfild13_02	4,2,payon_mem,22,151
+moc_fild13,144,368,0	warp	mocfild13_03	4,2,prt_fild08,233,24
+
+//= Morocc Field Northwest
+
+moc_ruins,71,16,0	warp	mocruins_01	8,2,moc_fild19,71,167
+moc_ruins,159,39,0	warp	mocruins_02	2,4,morocc,30,290
+
+//= Payon & Alberta Cities
+//==================================================================================================================
+payon_mem,90,22,0	warp	payon_01	4,2,pay_fild03,176,278
+payon_mem,18,151,0	warp	payon_02	2,5,moc_fild13,302,49
+payon_mem,189,70,0	warp	payon_03	2,7,pay_fild10,21,291
+payon_mem,174,189,0	warp	payon_04	4,2,pay_arche,80,22
+
+alberta,15,234,0	warp	alberta_01	2,5,pay_fild03,388,63
+
+//= Payon Field South
+
+pay_fild03,15,110,0	warp	payfild03_01	2,10,payon_mem,90,26
+pay_fild03,392,63,0	warp	payfild03_03	2,7,alberta,19,233
+
+//= Payon Field East
+
+pay_fild10,16,290,0	warp	payfild10_01	1,1,payon_mem,183,69
+
+//= Payon Field North
+
+pay_arche,81,18,0	warp	payarche_01	5,2,payon_mem,174,185
+pay_arche,36,131,0	warp	payarche_02	2,2,pay_dun03,155,157
+
+//= Aldebaran City
+//==================================================================================================================
+// aldebaran,35,140,0	warp	aldebaran_01	1,1,alde_gld,280,160
+aldebaran,139,135,0	warp	aldedun01_01	1,1,c_tower1,199,161
+
+//= Aldebaran Field South
+
+mjolnir_12,199,378,0	warp	mjolnir12_01	2,2,aldebaran,138,37
+mjolnir_12,220,26,0	warp	mjolnir12_02	3,2,mjolnir_05,220,379
+mjolnir_12,44,17,0	warp	mjolnir12_03	1,1,prt_maze01,17,111
+
+//= Aldebaran Field North
+
+yuno_fild01,208,17,0	warp	yunofild01_01	1,1,aldebaran,140,242
+yuno_fild01,286,368,0	warp	yunofild01_02	1,1,yuno_fild03,180,20
+yuno_fild01,70,378,0	warp	yunofild01_03	1,1,yuno_fild04,250,25
+
+//= Yuno City
+//==================================================================================================================
+yuno,158,15,0	warp	yuno_01	1,1,yuno_fild04,231,284
+
+//= Yuno Field South
+
+yuno_fild04,251,21,0	warp	yunofild04_01	1,1,yuno_fild01,70,374
+yuno_fild04,375,84,0	warp	yunofild04_02	1,1,yuno_fild03,21,79
+yuno_fild04,375,150,0	warp	yunofild04_03	1,1,yuno_fild03,22,155
+yuno_fild04,231,288,0	warp	yunofild04_04	1,1,yuno,158,17
+
+//= Yuno Field Southeast
+
+yuno_fild03,179,15,0	warp	yunofild03_01	1,1,yuno_fild01,286,364
+yuno_fild03,19,79,0	warp	yunofild03_02	1,1,yuno_fild04,373,84
+yuno_fild03,20,155,0	warp	yunofild03_03	1,1,yuno_fild04,373,150
+yuno_fild03,32,139,0	warp	yunfild-mag01	1,1,mag_dun01,126,68
+
+//= Comodo City
+//==================================================================================================================
+comodo,24,214,0	warp	comodo_01	1,1,beach_dun,266,67
+comodo,333,175,0	warp	comodo_02	1,1,beach_dun3,23,260
+comodo,176,358,0	warp	comodo_03	1,1,beach_dun2,154,25
+
+//= Comodo East (Dungeon)
+
+beach_dun3,17,265,0	warp	beachdun3_01	1,1,comodo,328,175
+beach_dun3,286,57,0	warp	beachdun3_02	1,1,cmd_fild03,28,69
+
+//= Comodo West (Dungeon)
+
+beach_dun,276,67,0	warp	beachdun_01	1,1,comodo,31,215
+
+//= Comodo North (Dungeon)
+
+beach_dun2,154,13,0	warp	beachdun2_01	2,1,comodo,176,353
+beach_dun2,258,244,0	warp	beachdun2_02	1,1,um_fild04,182,19
+
+//= Comodo Field East
+
+cmd_fild03,23,68,0	warp	cmdfild03_01	1,1,beach_dun3,283,57
+cmd_fild03,181,18,0	warp	cmdfild03_02	1,1,cmd_fild02,222,372
+
+//= Comodo Field East 2
+
+cmd_fild02,222,376,0	warp	cmdfild02_01	1,1,cmd_fild03,182,21
+cmd_fild02,382,269,0	warp	cmdfild02_02	1,1,moc_fild12,118,35
+
+//= Umbala City
+//==================================================================================================================
+umbala,130,79,0	warp	umbala_01	1,1,um_fild04,215,336
+umbala,106,285,0	warp	umbala_02	1,1,yggdrasil01,44,63
+
+//= Umbala Field South
+
+um_fild04,182,13,0	warp	umfild04_01	1,1,beach_dun2,255,244
+um_fild04,215,339,0	warp	umfild04_02	1,1,umbala,130,82
+
+//= Umbala North (Dungeon)
+
+yggdrasil01,40,63,0	warp	yggdrasil01_01	1,1,umbala,110,285
+yggdrasil01,271,51,0	warp	yggdrasil01_02	1,1,yggdrasil01,26,196
+yggdrasil01,26,193,0	warp	yggdrasil01_03	1,1,yggdrasil01,269,53
+yggdrasil01,249,262,0	warp	yggdrasil01_04	1,1,nif_fild01,315,66
+
+//= Niflheim City
+//==================================================================================================================
+niflheim,18,151,0	warp	nifheim_01	1,1,nif_fild02,376,235
+
+//= Niflheim Field East
+
+nif_fild01,315,63,0	warp	niffild01_01	1,1,yggdrasil01,246,259
+nif_fild01,345,323,0	warp	niffild01_02	1,1,nif_fild02,23,312
+
+//= Niflheim Field Southeast
+
+nif_fild02,21,312,0	warp	niffild02_01	1,1,nif_fild01,343,322
+nif_fild02,379,235,0	warp	niffild02_02	1,1,niflheim,20,153
+
+//= Dungeons ========================================================================================================
+
+//= Glast Heim
+//==================================================================================================================
+
+glast_01,200,137,0	warp	glast01_01	1,1,gl_chyard,147,16
+
+glast_01,200,170,0	warp	glast01_02	1,1,gl_chyard,147,284
+
+glast_01,51,108,0	warp	glast01_03	1,1,gl_prison1,150,15
+
+glast_01,77,193,0	warp	glast01_04	1,1,gl_knt01,150,15
+
+glast_01,377,304,0	warp	glast01_05	3,3,gef_fild06,27,304
+
+glast_01,200,297,0	warp	glast01_06	1,1,gl_cas01,199,29
+
+glast_01,199,322,0	warp	glast01_07	1,1,gl_cas02,104,189
+
+//= Glast Towers
+
+glast_01,162,330,0	warp	glast01_08	1,1,gl_in01,77,68
+glast_01,179,360,0	warp	glast01_09	1,1,gl_in01,80,174
+glast_01,220,360,0	warp	glast01_10	1,1,gl_in01,110,125
+glast_01,237,330,0	warp	glast01_11	1,1,gl_in01,122,59
+
+//= Glast Church
+
+gl_chyard,147,12,0	warp	glchyard_01	1,1,glast_01,200,134
+gl_chyard,147,287,0	warp	glchyard_02	1,1,glast_01,200,173
+
+//= Glast Prison
+
+gl_prison1,150,10,0	warp	glprison1_01	1,1,glast_01,54,108
+
+//= Glast Chivalry
+
+gl_knt01,150,6,0	warp	glknt01_01	2,2,glast_01,74,193
+gl_knt01,12,148,0	warp	glknt01_02	1,1,gl_knt02,15,140
+gl_knt01,287,144,0	warp	glknt01_03	1,1,gl_knt02,283,140
+gl_knt01,150,291,0	warp	glknt01_05	1,1,gl_knt02,157,287
+gl_knt01,104,204,0	warp	glknt01_06	1,1,gl_knt01,123,292
+gl_knt01,128,292,0	warp	glknt01_07	1,1,gl_knt01,104,199
+
+gl_knt02,10,138,0	warp	glknt02_01	1,1,gl_knt01,7,148
+gl_knt02,157,292,0	warp	glknt02_02	1,1,gl_knt01,150,286
+gl_knt02,289,138,0	warp	glknt02_03	1,1,gl_knt01,292,144
+
+//= Glast Castle
+
+gl_cas01,200,18,0	warp	glcas01_01	2,2,glast_01,200,294
+gl_cas01,200,165,0	warp	glcas01_10	1,1,gl_cas02,103,119
+
+gl_cas02,104,15,0	warp	glcas02_01	1,1,gl_cas01,200,160
+gl_cas02,104,193,0	warp	glcas02_02	1,1,glast_01,199,325
+
+//= Ant Hell
+//==================================================================================================================
+
+moc_fild17,209,230,0	warp	anthell02_01	1,1,anthell02,168,170
+
+anthell02,172,169,0	warp	anthell02_02	1,1,moc_fild17,206,233
+
+//= Pyramid
+//==================================================================================================================
+
+moc_prydb1,100,55,0	warp	mocprydb1_01	2,1,moc_pryd06,101,183
+moc_ruins,54,161,0	warp	mocprydb1_02	2,3,moc_prydb1,108,115
+moc_prydb1,111,115,0	warp	mocprydb1_03	2,6,moc_ruins,58,161
+moc_prydb1,100,191,0	warp	mocprydb1_04	2,2,moc_pryd03,100,94
+
+moc_prydb1,100,104,0	warp	mocprydb1_05	5,2,moc_prydb1,100,74
+moc_prydb1,100,77,0	warp	mocprydb1_06	5,2,moc_prydb1,100,107
+moc_prydb1,142,115,0	warp	mocprydb1_07	2,6,moc_prydb1,108,115
+moc_prydb1,59,115,0	warp	mocprydb1_08	2,6,moc_prydb1,90,115
+moc_prydb1,87,115,0	warp	mocprydb1_09	2,6,moc_prydb1,56,115
+
+moc_pryd03,100,97,0	warp	mocpryd03_01	3,2,moc_prydb1,100,187
+moc_pryd03,12,15,0	warp	mocpryd03_02	3,2,moc_pryd04,12,18
+moc_pryd03,15,187,0	warp	mocpryd03_03	2,3,moc_pryd04,18,187
+moc_pryd03,184,11,0	warp	mocpryd03_04	2,3,moc_pryd04,181,11
+moc_pryd03,188,184,0	warp	mocpryd03_05	3,2,moc_pryd04,188,181
+
+moc_pryd04,12,15,0	warp	mocpryd04_01	3,2,moc_pryd03,12,18
+moc_pryd04,15,187,0	warp	mocpryd04_02	2,3,moc_pryd03,18,187
+moc_pryd04,184,11,0	warp	mocpryd04_03	2,3,moc_pryd03,181,11
+moc_pryd04,188,184,0	warp	mocpryd04_04	3,2,moc_pryd03,188,181
+
+moc_pryd06,101,187,0	warp	mocpryd06_01	2,1,moc_prydb1,100,58
+
+//= Sphinx 
+//==================================================================================================================
+
+in_sphinx4,10,224,0	warp	insphinx4_01	2,1,moc_fild19,100,99
+in_sphinx4,120,113,0	warp	insphinx4_02	4,2,in_sphinx5,100,99
+
+in_sphinx5,100,96,0	warp	insphinx5_01	4,2,in_sphinx4,120,116
+
+in_sphinx5,11,16,0	warp	insphinx5_02	3,1,in_sphinx5,189,181
+in_sphinx5,11,183,0	warp	insphinx5_03	3,1,in_sphinx5,11,18
+in_sphinx5,189,16,0	warp	insphinx5_04	3,1,in_sphinx5,11,181
+in_sphinx5,16,188,0	warp	insphinx5_05	1,3,in_sphinx5,181,188
+in_sphinx5,16,10,0	warp	insphinx5_06	1,3,in_sphinx5,181,10
+in_sphinx5,183,10,0	warp	insphinx5_07	1,3,in_sphinx5,18,188
+in_sphinx5,183,188,0	warp	insphinx5_08	1,3,in_sphinx5,18,10
+in_sphinx5,189,183,0	warp	insphinx5_09 	3,1,in_sphinx5,189,18
+
+//= Orcs Dungeon 
+//==================================================================================================================
+
+orcsdun02,180,15,0	warp	orcsdun02_01	2,1,in_orcs01,108,112
+orcsdun02,21,188,0	warp	orcsdun02_02	8,2,in_orcs01,30,177
+
+in_orcs01,30,182,0	warp	inorcs01_01	2,1,orcsdun02,22,184
+in_orcs01,108,114,0	warp	inorcs01_02	2,1,orcsdun02,180,17
+
+in_orcs01,108,86,0	warp	inorcs01_03	3,2,gef_fild10,223,203
+in_orcs01,124,171,0	warp	inorcs01_04	1,3,gef_fild10,138,329
+in_orcs01,162,55,0	warp	inorcs01_05	4,1,gef_fild10,214,53
+in_orcs01,29,116,0	warp	inorcs01_06	4,1,gef_fild10,137,286
+in_orcs01,30,154,0	warp	inorcs01_07	3,2,gef_fild10,65,335
+
+//= Geffen Dungeon
+//==================================================================================================================
+
+gef_tower,112,114,0	warp	geftower_01	1,1,geffen,120,110
+
+gef_tower,106,115,0	warp	geftower_02	1,1,gef_tower,116,28
+gef_tower,116,31,0	warp	geftower_03	1,1,gef_tower,106,112
+
+gef_tower,118,114,0	warp	geftower_10	1,1,gef_dun02,106,130
+
+gef_dun02,214,68,0	warp	gefdun02_01	2,1,gef_dun03,203,200
+gef_dun02,106,134,0	warp	gefdun02_02	2,1,gef_tower,118,110
+
+gef_dun03,203,204,0	warp	gefdun03_01	2,1,gef_dun02,215,63
+
+//= Mjolnir Dungeon
+//==================================================================================================================
+
+mjo_dun02,384,343,0	warp	mjodun02_01	2,4,mjolnir_02,79,362
+
+//= Magma Dungeon
+//==================================================================================================================
+
+mag_dun01,126,66,0	warp	magdun01_01	1,1,yuno_fild03,34,139
+
+//= Xmas Dungeon
+//==================================================================================================================
+
+xmas,143,314,0	warp	xmasdun02_01	1,1,xmas_dun02,131,129
+
+xmas_dun02,129,130,0	warp	xmasdun02_02	1,1,xmas,143,310
+
+//= Turtle Island Dungeon
+//==================================================================================================================
+
+tur_dun01,154,241,0	warp	tur_dun01_01	1,1,tur_dun04,100,192
+
+tur_dun04,100,196,0	warp	tur_dun04_01	1,1,tur_dun01,154,237
+
+//= Prontera Maze
+//==================================================================================================================
+
+// 1st Floor No.01 -------------------------------------------------------------
+prt_maze01,22,194,0	warp	prtmaze01_01	1,1,prt_maze01,16,31	/*To No.1-21*/
+prt_maze01,5,186,0	warp	prtmaze01_02	1,1,prt_maze01,182,88	/*To No.1-15*/
+// 1st Floor No.02
+prt_maze01,58,194,0	warp	prtmaze01_03	1,1,prt_maze01,23,128	/*To No.1-6*/
+// 1st Floor No.03
+prt_maze01,102,165,0	warp	prtmaze01_04	1,1,prt_maze01,99,31	/*To No.1-23*/
+prt_maze01,85,174,0	warp	prtmaze01_05	1,1,prt_maze02,93,20
+// 1st Floor No.04
+prt_maze01,154,181,0	warp	prtmaze01_06	1,1,prt_maze01,191,175	/*To No.1-5*/
+prt_maze01,125,171,0	warp	prtmaze01_07	1,1,prt_maze01,8,186	/*To No.1-1*/
+// 1st Floor No.05
+prt_maze01,175,165,0	warp	prtmaze01_08	1,1,prt_maze01,48,104	/*To No.1-12*/
+prt_maze01,194,175,0	warp	prtmaze01_09	1,1,prt_maze01,23,128	/*To No.1-6*/
+// 1st Floor No.06
+prt_maze01,18,154,0	warp	prtmaze01_10	1,1,prt_maze01,177,71	/*To No.1-20*/
+prt_maze01,23,125,0	warp	prtmaze01_11	1,1,prt_maze01,151,22	/*To No.1-24*/
+prt_maze01,5,140,0	warp	prtmaze01_12	1,1,prt_maze01,58,48	/*To No.1-17*/
+// 1st Floor No.07
+prt_maze01,54,154,0	warp	prtmaze01_13	1,1,prt_maze01,191,175	/*To No.1-5*/
+prt_maze01,63,125,0	warp	prtmaze01_14	1,1,prt_maze01,182,88	/*To No.1-15*/
+// 1st Floor No.08
+prt_maze01,98,154,0	warp	prtmaze01_15	1,1,prt_maze01,102,168	/*To No.1-3*/
+prt_maze01,114,145,0	warp	prtmaze01_16	1,1,prt_maze01,23,128	/*To No.1-6*/
+prt_maze01,85,146,0	warp	prtmaze01_17	1,1,prt_maze01,142,111	/*To No.1-14*/
+// 1st Floor No.09
+prt_maze01,137,125,0	warp	prtmaze01_18	1,1,prt_maze01,191,139	/*To No.1-10*/
+prt_maze01,154,134,0	warp	prtmaze01_19	1,1,prt_maze01,58,191	/*To No.1-2*/
+// 1st Floor No.10
+prt_maze01,194,139,0	warp	prtmaze01_20	1,1,prt_maze01,22,88	/*To No.1-11*/
+prt_maze01,166,139,0	warp	prtmaze01_21	1,1,prt_maze01,128,173	/*To No.1-4*/
+// 1st Floor No.11
+prt_maze01,17,114,0	warp	prtmaze01_22	1,1,prt_maze01,8,186	/*To No.1-1*/
+prt_maze01,22,85,0	warp	prtmaze01_23	1,1,prt_maze01,137,128	/*To No.1-9*/
+// 1st Floor No.12
+prt_maze01,63,114,0	warp	prtmaze01_24	1,1,prt_maze01,111,56	/*To No.1-18*/
+prt_maze01,63,85,0	warp	prtmaze01_25	1,1,prt_maze01,151,22	/*To No.1-24*/
+prt_maze01,74,97,0	warp	prtmaze01_26	1,1,prt_maze01,71,11	/*To No.1-22*/
+prt_maze01,45,104,0	warp	prtmaze01_27	1,1,prt_maze01,63,128	/*To No.1-7*/
+// 1st Floor No.13
+prt_maze01,105,114,0	warp	prtmaze01_28	1,1,prt_maze01,111,145	/*To No.1-8?*/
+prt_maze01,114,95,0	warp	prtmaze01_29	1,1,prt_maze01,14,48	/*To No.1-16*/
+prt_maze01,85,97,0	warp	prtmaze01_30	1,1,prt_maze01,63,128	/*To No.1-7*/
+// 1st Floor No.14
+prt_maze01,142,114,0	warp	prtmaze01_31	1,1,prt_maze01,23,128	/*To No.1-6*/
+prt_maze01,125,105,0	warp	prtmaze01_32	1,1,prt_maze01,14,48	/*To No.1-16*/
+// 1st Floor No.15
+prt_maze01,182,85,0	warp	prtmaze01_33	1,1,prt_maze01,58,48	/*To No.1-17*/
+prt_maze01,194,94,0	warp	prtmaze01_34	1,1,prt_maze01,58,191	/*To No.1-2*/
+prt_maze01,168,94,0	warp	prtmaze01_35	1,1,prt_maze01,191,139	/*To No.1-10*/
+// 1st Floor No.16
+prt_maze01,14,74,0	warp	prtmaze01_36	1,1,prt_maze01,151,22	/*To No.1-24*/
+prt_maze01,14,45,0	warp	prtmaze01_37	1,1,mjolnir_12,44,21
+prt_maze01,5,58,0	warp	prtmaze01_38	1,1,prt_maze01,48,104	/*To No.1-12*/
+// 1st Floor No.17
+prt_maze01,74,74,0	warp	prtmaze01_39	1,1,prt_maze01,58,191	/*To No.1-2*/
+prt_maze01,52,45,0	warp	prtmaze01_40	1,1,prt_maze01,139,48	/*To No.1-19*/
+// 1st Floor No.18
+prt_maze01,104,74,0	warp	prtmaze01_41	1,1,prt_maze01,14,48	/*To No.1-16*/
+prt_maze01,96,45,0	warp	prtmaze01_42	1,1,prt_maze01,63,128	/*To No.1-7*/
+prt_maze01,114,56,0	warp	prtmaze01_43	1,1,prt_maze01,176,8	/*To No.1-25*/
+prt_maze01,85,56,0	warp	prtmaze01_44	1,1,prt_maze01,105,111	/*To No.1-13*/
+// 1st Floor No.19
+prt_maze01,137,74,0	warp	prtmaze01_45	1,1,prt_maze01,182,88	/*To No.1-15*/
+prt_maze01,139,45,0	warp	prtmaze01_46	1,1,prt_maze01,71,11	/*To No.1-22*/
+// 1st Floor No.20
+prt_maze01,177,74,0	warp	prtmaze01_47	1,1,prt_fild01,136,368
+prt_maze01,175,45,0	warp	prtmaze01_48	1,1,prt_maze01,58,48	/*To No.1-17*/
+prt_maze01,194,54,0	warp	prtmaze01_49	1,1,prt_maze01,99,31	/*To No.1-23*/
+// 1st Floor No.21
+prt_maze01,16,34,0	warp	prtmaze01_50	1,1,prt_maze01,128,173	/*To No.1-4*/
+prt_maze01,23,5,0	warp	prtmaze01_51	1,1,prt_maze01,176,8	/*To No.1-25*/
+// 1st Floor No.22
+prt_maze01,54,5,0	warp	prtmaze01_52	1,1,prt_maze01,128,173	/*To No.1-4*/
+prt_maze01,74,12,0	warp	prtmaze01_53	1,1,prt_maze01,58,48	/*To No.1-17*/
+prt_maze01,45,21,0	warp	prtmaze01_54	1,1,prt_maze01,142,111	/*To No.1-14*/
+// 1st Floor No.23
+prt_maze01,99,34,0	warp	prtmaze01_55	1,1,prt_maze01,137,128	/*To No.1-9*/
+prt_maze01,114,22,0	warp	prtmaze01_56	1,1,prt_maze01,177,71	/*To No.1-20*/
+prt_maze01,85,13,0	warp	prtmaze01_57	1,1,prt_maze01,22,88	/*To No.1-11*/
+//1st Floor No.24
+prt_maze01,154,22,0	warp	prtmaze01_58	1,1,prt_maze01,139,48	/*To No.1-19*/
+// 1st Floor No.25
+prt_maze01,176,34,0	warp	prtmaze01_59	1,1,prt_maze01,8,186	/*To No.1-1*/
+prt_maze01,176,5,0	warp	prtmaze01_60	1,1,prt_maze01,137,128	/*To No.1-9*/
+prt_maze01,194,15,0	warp	prtmaze01_61	1,1,prt_maze01,52,48	/*To No.1-17*/
+prt_maze01,165,22,0	warp	prtmaze01_62	1,1,prt_maze01,63,128	/*To No.1-7*/
+
+//= Prontera Sewer Dungeon
+//==================================================================================================================
+
+prt_fild05,270,212,0	warp	prtfild05_sewb	1,1,prt_sewb3,180,170
+
+prt_sewb3,20,184,0	warp	prtsewb1_01	2,2,prt_sewb4,100,90
+prt_sewb3,180,173,0	warp	prts03-1	4,2,prt_fild05,273,209
+
+prt_sewb4,100,96,0	warp	prtsewb4_01	3,2,prt_sewb3,20,180
+
+//= Byalan Dungeon
+//==================================================================================================================
+
+izlu2dun,108,83,0	warp	izlu2dun_01	3,2,iz_dun03,34,64
+
+iz_dun03,29,63,0	warp	izdun03_01	2,2,izlu2dun,108,87
+iz_dun03,264,245,0	warp	izdun03_02	1,2,iz_dun04,26,27
+
+iz_dun04,26,24,0	warp	izdun04_01	2,2,iz_dun03,261,245
+
+//= Payon Dungeon
+//==================================================================================================================
+
+pay_dun03,155,161,0	warp	paydun03_01	2,1,pay_arche,39,131
+pay_dun03,127,62,4	script	paydun03_002	45,2,2,{
+	switch(rand(4)) {
+		case 0: warp "pay_dun04",201,204; end;
+		case 1: warp "pay_dun04",189,43; end;
+		case 2: warp "pay_dun04",43,40; end;
+		case 3: warp "pay_dun04",34,202; end;
+	}
+}
+
+pay_dun04,191,41,0	warp	paydun04_01	1,1,pay_dun03,124,62
+pay_dun04,202,206,0	warp	paydun04_02	1,1,pay_dun03,124,62
+pay_dun04,32,204,0	warp	paydun04_03	2,1,pay_dun03,124,62
+pay_dun04,40,37,0	warp	paydun04_04	2,2,pay_dun03,124,62
+
+//= Sunken Ship
+//==================================================================================================================
+alb2trea,88,111,0	warp	alb002	1,1,treasure02,102,27
+
+treasure02,102,103,0	warp	tre11	5,1,treasure02,102,120
+treasure02,102,118,0	warp	tre11-1	5,1,treasure02,102,101
+treasure02,155,128,0	warp	tre13-1	1,1,treasure02,155,97
+treasure02,155,99,0	warp	tre13	1,1,treasure02,155,130
+treasure02,49,99,0	warp	tre14-1	1,1,treasure02,49,130
+treasure02,102,24,0	warp	tre003	3,1,alb2trea,85,107
+treasure02,123,72,0	warp	tre12	1,4,treasure02,140,72
+treasure02,138,72,0	warp	tre12-1	1,4,treasure02,121,72
+treasure02,49,128,0	warp	tre14	1,1,treasure02,49,97
+treasure02,65,72,0	warp	tre15	1,4,treasure02,82,72
+treasure02,80,72,0	warp	tre15-1	1,4,treasure02,63,72
+
+//= Clock Tower
+//==================================================================================================================
+
+c_tower1,199,157,0	warp	ctower_to_adb	1,1,aldebaran,139,132

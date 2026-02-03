@@ -1,0 +1,988 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+####################################### Morocc #######################################
+
+  - Id: 1297
+    AegisName: ANCIENT_MUMMY
+    Name: Ancient Mummy
+    Level: 90
+    Hp: 18234
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 687
+    Attack2: 467
+    Defense: 93
+    MagicDefense: 51
+    Str: 48
+    Agi: 57
+    Vit: 52
+    Int: 82
+    Dex: 79
+    Luk: 34
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 2
+    WalkSpeed: 175
+    AttackDelay: 1772
+    AttackMotion: 120
+    DamageMotion: 384
+    Ai: 21
+    Drops:
+      - Item: Rotten_Bandage
+        Rate: 2207
+      - Item: Mementos
+        Rate: 900
+      - Item: Glove_
+        Rate: 1
+      - Item: Silver_Ring
+        Rate: 75
+      - Item: Runstone_Ancient
+        Rate: 5
+      - Item: Oridecon_Stone
+        Rate: 75
+      - Item: Elunium_Stone
+        Rate: 50
+      - Item: Ancient_Mummy_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Geffen #######################################
+
+  ### SCARCE ###
+  - Id: 1379
+    AegisName: NIGHTMARE_TERROR
+    Name: Nightmare Terror
+    Level: 90
+    Hp: 12456
+    BaseExp: 4500
+    JobExp: 1950
+    Attack: 543
+    Attack2: 421
+    Defense: 78
+    MagicDefense: 37
+    Str: 67
+    Agi: 63
+    Vit: 51
+    Int: 66
+    Dex: 58
+    Luk: 29
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Dark
+    ElementLevel: 3
+    WalkSpeed: 165
+    AttackDelay: 1216
+    AttackMotion: 816
+    DamageMotion: 432
+    Ai: 04
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Burning_Horse_Shoe
+        Rate: 1200
+      - Item: Rosary_
+        Rate: 1
+      - Item: Rosary
+        Rate: 15
+      - Item: Blue_Potion
+        Rate: 25
+      - Item: Blue_Herb
+        Rate: 75
+      - Item: Ghost_Scroll_1_5
+        Rate: 50
+      - Item: Infiltrator
+        Rate: 1
+      - Item: Nightmare_Terror_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Alberta #######################################
+
+  - Id: 1314
+    AegisName: PERMETER
+    Name: Permeter
+    Level: 90
+    Hp: 17789
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 823
+    Attack2: 534
+    Defense: 74
+    MagicDefense: 80
+    Str: 89
+    Agi: 43
+    Vit: 72
+    Int: 47
+    Dex: 54
+    Luk: 26
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Plant
+    Element: Earth
+    ElementLevel: 2
+    WalkSpeed: 250
+    AttackDelay: 1100
+    AttackMotion: 483
+    DamageMotion: 528
+    Ai: 17
+    Drops:
+      - Item: Turtle_Shell
+        Rate: 2207
+      - Item: Coconut_Fruit
+        Rate: 100
+      - Item: Elder_Branch
+        Rate: 50
+      - Item: Red_Herb
+        Rate: 1225
+      - Item: Zargon
+        Rate: 620
+      - Item: Fruit_Of_Mastela
+        Rate: 13
+      - Item: Anodyne
+        Rate: 1
+      - Item: Permeter_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1315
+    AegisName: ASSULTER
+    Name: Assaulter
+    Level: 90
+    Hp: 13342
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 718
+    Attack2: 489
+    Defense: 69
+    MagicDefense: 69
+    Str: 54
+    Agi: 87
+    Vit: 46
+    Int: 35
+    Dex: 85
+    Luk: 83
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Ninja: true
+    Element: Wind
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 512
+    AttackMotion: 780
+    DamageMotion: 504
+    Ai: 21
+    Drops:
+      - Item: Turtle_Shell
+        Rate: 2207
+      - Item: Broken_Armor_Piece
+        Rate: 600
+      - Item: Rust_Suriken
+        Rate: 420
+      - Item: Smoke_Powder
+        Rate: 100
+      - Item: Doram_Only_Cape
+        Rate: 20
+      - Item: Huuma_Bird_Wing
+        Rate: 3
+      - Item: Old_Blue_Box
+        Rate: 1
+      - Item: Assulter_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1316
+    AegisName: SOLIDER
+    Name: Solider
+    Level: 90
+    Hp: 22156
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 834
+    Attack2: 512
+    Defense: 92
+    MagicDefense: 88
+    Str: 68
+    Agi: 47
+    Vit: 89
+    Int: 48
+    Dex: 56
+    Luk: 31
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Neutral
+    ElementLevel: 2
+    WalkSpeed: 250
+    AttackDelay: 1452
+    AttackMotion: 483
+    DamageMotion: 528
+    Ai: 17
+    Drops:
+      - Item: Turtle_Shell
+        Rate: 2207
+      - Item: Broken_Shell
+        Rate: 32
+      - Item: Stone_Piece
+        Rate: 425
+      - Item: Yellow_Herb
+        Rate: 1050
+      - Item: Doram_Only_Shoes
+        Rate: 20
+      - Item: Honey
+        Rate: 425
+      - Item: Scarlet_Mace
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Solider_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1318
+    AegisName: HEATER
+    Name: Heater
+    Level: 90
+    Hp: 19864
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 762
+    Attack2: 497
+    Defense: 99
+    MagicDefense: 50
+    Str: 57
+    Agi: 49
+    Vit: 54
+    Int: 82
+    Dex: 83
+    Luk: 28
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 250
+    AttackDelay: 1452
+    AttackMotion: 483
+    DamageMotion: 528
+    Ai: 21
+    Drops:
+      - Item: Turtle_Shell
+        Rate: 2207
+      - Item: Broken_Shell
+        Rate: 375
+      - Item: Fire_Scroll_2_5
+        Rate: 50
+      - Item: Gun_Powder
+        Rate: 500
+      - Item: Royal_Jelly
+        Rate: 70
+      - Item: Doram_Only_Suit
+        Rate: 20
+      - Item: Burn_Tree
+        Rate: 625
+      - Item: Heater_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1319
+    AegisName: FREEZER
+    Name: Freezer
+    Level: 90
+    Hp: 20341
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 654
+    Attack2: 456
+    Defense: 127
+    MagicDefense: 38
+    Str: 84
+    Agi: 25
+    Vit: 83
+    Int: 89
+    Dex: 62
+    Luk: 37
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 170
+    AttackDelay: 1260
+    AttackMotion: 960
+    DamageMotion: 672
+    Ai: 21
+    Drops:
+      - Item: Turtle_Shell
+        Rate: 2207
+      - Item: Broken_Shell
+        Rate: 425
+      - Item: Ice_Piece
+        Rate: 625
+      - Item: Zargon
+        Rate: 900
+      - Item: Royal_Jelly
+        Rate: 80
+      - Item: Ice_Fragment
+        Rate: 100
+      - Item: Cold_Scroll_1_5
+        Rate: 50
+      - Item: Freezer_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Al De Baran #######################################
+
+  - Id: 1101
+    AegisName: BAPHOMET_
+    Name: Baphomet Jr.
+    Level: 90
+    Hp: 11234
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 567
+    Attack2: 412
+    Defense: 70
+    MagicDefense: 25
+    Str: 72
+    Agi: 71
+    Vit: 54
+    Int: 46
+    Dex: 89
+    Luk: 88
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demon
+    RaceGroups:
+      Clocktower: true
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 100
+    AttackDelay: 868
+    AttackMotion: 480
+    DamageMotion: 120
+    Ai: 21
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Evil_Horn
+        Rate: 250
+      - Item: Oridecon
+        Rate: 32
+      - Item: Halberd_
+        Rate: 1
+      - Item: Yggdrasilberry
+        Rate: 25
+      - Item: Yellow_Herb
+        Rate: 650
+      - Item: Boots
+        Rate: 25
+      - Item: Baphomet__Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Yuno #######################################
+
+  - Id: 1376
+    AegisName: HARPY
+    Name: Harpy
+    Level: 90
+    Hp: 20673
+    BaseExp: 4500
+    JobExp: 1950
+    Attack: 698
+    Attack2: 478
+    Defense: 69
+    MagicDefense: 44
+    Str: 53
+    Agi: 71
+    Vit: 58
+    Int: 49
+    Dex: 89
+    Luk: 27
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Wind
+    ElementLevel: 3
+    WalkSpeed: 155
+    AttackDelay: 972
+    AttackMotion: 672
+    DamageMotion: 470
+    Ai: 04
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Harpy's_Feather
+        Rate: 2425
+      - Item: Harpy's_Claw
+        Rate: 1250
+      - Item: Yellow_Herb
+        Rate: 750
+      - Item: Yellow_Herb
+        Rate: 400
+      - Item: Izidor
+        Rate: 10
+      - Item: Electric_Fist
+        Rate: 10
+      - Item: Harpy_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1259
+    AegisName: GRYPHON
+    Name: Gryphon
+    Level: 90
+    Hp: 24906
+    BaseExp: 4500
+    JobExp: 1950
+    Attack: 847
+    Attack2: 563
+    Defense: 113
+    MagicDefense: 72
+    Str: 82
+    Agi: 88
+    Vit: 67
+    Int: 73
+    Dex: 87
+    Luk: 56
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Wind
+    ElementLevel: 4
+    WalkSpeed: 100
+    AttackDelay: 704
+    AttackMotion: 504
+    DamageMotion: 432
+    Ai: 21
+    Class: Boss
+    Drops:
+      - Item: Talon_Of_Griffin
+        Rate: 1250
+      - Item: Brigan
+        Rate: 2668
+      - Item: Soft_Feather
+        Rate: 60
+      - Item: Scarlet_Lance
+        Rate: 250
+        RandomOptionGroup: Group_5
+      - Item: Pole_Axe
+        Rate: 1
+      - Item: Oridecon
+        Rate: 93
+      - Item: Rough_Wind
+        Rate: 75
+      - Item: Gryphon_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Niflheim #######################################
+
+  - Id: 1510
+    AegisName: HYLOZOIST
+    Name: Heirozoist
+    JapaneseName: Hylozoist
+    Level: 90
+    Hp: 21543
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 712
+    Attack2: 524
+    Defense: 101
+    MagicDefense: 68
+    Str: 67
+    Agi: 62
+    Vit: 71
+    Int: 85
+    Dex: 73
+    Luk: 58
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demon
+    Element: Dark
+    ElementLevel: 2
+    WalkSpeed: 155
+    AttackDelay: 741
+    AttackMotion: 1536
+    DamageMotion: 480
+    Ai: 04
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Broken_Needle
+        Rate: 2183
+      - Item: Spool
+        Rate: 2668
+      - Item: Needle_Pouch
+        Rate: 1000
+      - Item: Stuffed_Doll
+        Rate: 40
+      - Item: Ectoplasm
+        Rate: 150
+      - Item: Elunium_Stone
+        Rate: 5
+      - Item: Angry_Mouth
+        Rate: 1
+      - Item: Hylozoist_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1508
+    AegisName: QUVE
+    Name: Quve
+    Level: 90
+    Hp: 20123
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 674
+    Attack2: 467
+    Defense: 96
+    MagicDefense: 55
+    Str: 78
+    Agi: 59
+    Vit: 63
+    Int: 58
+    Dex: 81
+    Luk: 63
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 912
+    AttackMotion: 1248
+    DamageMotion: 576
+    Ai: 04
+    Drops:
+      - Item: Piece_Of_Black_Cloth
+        Rate: 1600
+      - Item: Ectoplasm
+        Rate: 2862
+      - Item: Poison_Powder
+        Rate: 50
+      - Item: Oridecon_Stone
+        Rate: 5
+      - Item: Black_Powder
+        Rate: 250
+      - Item: Quve_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1509
+    AegisName: LUDE
+    Name: Lude
+    Level: 90
+    Hp: 19876
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 698
+    Attack2: 492
+    Defense: 90
+    MagicDefense: 53
+    Str: 79
+    Agi: 52
+    Vit: 61
+    Int: 80
+    Dex: 68
+    Luk: 59
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 890
+    AttackMotion: 960
+    DamageMotion: 480
+    Ai: 04
+    Drops:
+      - Item: Pumpkin_Bucket
+        Rate: 1600
+      - Item: Ectoplasm
+        Rate: 2862
+      - Item: Transparent_Cloth
+        Rate: 500
+      - Item: Spirit_Chain
+        Rate: 5
+      - Item: Elunium_Stone
+        Rate: 5
+      - Item: Holy_Scroll_1_3
+        Rate: 50
+      - Item: Yellow_Powder
+        Rate: 150
+      - Item: Lude_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Glastheim #######################################
+
+  - Id: 1276
+    AegisName: RAYDRIC_ARCHER
+    Name: Raydric Archer
+    Level: 90
+    Hp: 13456
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 562
+    Attack2: 418
+    Defense: 63
+    MagicDefense: 40
+    Str: 48
+    Agi: 63
+    Vit: 57
+    Int: 51
+    Dex: 90
+    Luk: 39
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Dark
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1152
+    AttackMotion: 1152
+    DamageMotion: 480
+    Ai: 05
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Brigan
+        Rate: 2328
+      - Item: Chain_Mail_
+        Rate: 1
+      - Item: Claire_Suits
+        Rate: 3
+      - Item: Incisive_Arrow
+        Rate: 1000
+      - Item: Arbalest_
+        Rate: 2
+      - Item: Elunium
+        Rate: 53
+      - Item: Raydric_Archer_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1163
+    AegisName: RAYDRIC
+    Name: Raydric
+    Level: 90
+    Hp: 20678
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 813
+    Attack2: 541
+    Defense: 89
+    MagicDefense: 15
+    Str: 87
+    Agi: 44
+    Vit: 62
+    Int: 57
+    Dex: 84
+    Luk: 44
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    Element: Dark
+    ElementLevel: 2
+    WalkSpeed: 150
+    AttackDelay: 824
+    AttackMotion: 780
+    DamageMotion: 420
+    Ai: 19
+    Drops:
+      - Item: Elunium
+        Rate: 53
+      - Item: Iron_Cane
+        Rate: 1
+      - Item: Chain_Mail_
+        Rate: 1
+      - Item: Two_Hand_Sword_
+        Rate: 1
+      - Item: Peuz_Plate
+        Rate: 5
+      - Item: Patriotism_Marks
+        Rate: 5
+      - Item: Brigan
+        Rate: 2425
+      - Item: Daydric_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1132
+    AegisName: KHALITZBURG
+    Name: Khalitzburg
+    Level: 90
+    Hp: 27834
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 872
+    Attack2: 564
+    Defense: 125
+    MagicDefense: 10
+    Str: 39
+    Agi: 31
+    Vit: 89
+    Int: 49
+    Dex: 86
+    Luk: 51
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 350
+    AttackDelay: 528
+    AttackMotion: 1000
+    DamageMotion: 396
+    Ai: 21
+    Drops:
+      - Item: Skel_Bone
+        Rate: 4000
+      - Item: Elunium
+        Rate: 96
+      - Item: Bone_Helm
+        Rate: 1
+      - Item: Mirror_Shield_
+        Rate: 1
+      - Item: Patriotism_Marks
+        Rate: 5
+      - Item: Ebone_Armor
+        Rate: 1
+      - Item: Ur_Plate
+        Rate: 50
+      - Item: Khalitzburg_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1130
+    AegisName: JAKK
+    Name: Jakk
+    Level: 90
+    Hp: 14923
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 623
+    Attack2: 445
+    Defense: 90
+    MagicDefense: 25
+    Str: 82
+    Agi: 58
+    Vit: 69
+    Int: 90
+    Dex: 68
+    Luk: 36
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Fire
+    ElementLevel: 4
+    WalkSpeed: 200
+    AttackDelay: 1180
+    AttackMotion: 480
+    DamageMotion: 648
+    Ai: 21
+    Drops:
+      - Item: Pumpkin_Head
+        Rate: 4500
+      - Item: Zargon
+        Rate: 450
+      - Item: Elunium
+        Rate: 16
+      - Item: Tights_
+        Rate: 3
+      - Item: Frozen_Heart
+        Rate: 3
+      - Item: Pumpkin
+        Rate: 500
+      - Item: Light_Granule
+        Rate: 5
+      - Item: Jakk_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1131
+    AegisName: JOKER
+    Name: Joker
+    Level: 90
+    Hp: 17542
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 741
+    Attack2: 503
+    Defense: 64
+    MagicDefense: 76
+    Str: 61
+    Agi: 89
+    Vit: 53
+    Int: 67
+    Dex: 84
+    Luk: 48
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    Element: Wind
+    ElementLevel: 4
+    WalkSpeed: 100
+    AttackDelay: 1364
+    AttackMotion: 864
+    DamageMotion: 432
+    Ai: 21
+    Drops:
+      - Item: Zargon
+        Rate: 1000
+      - Item: Old_Card_Album
+        Rate: 1
+      - Item: Contracts_In_Shadow
+        Rate: 10
+      - Item: Yellow_Herb
+        Rate: 500
+      - Item: Katar_Of_Piercing_Wind
+        Rate: 1
+      - Item: Oridecon
+        Rate: 50
+      - Item: Ghost_Scroll_1_5
+        Rate: 50
+      - Item: Joker_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1267
+    AegisName: CARAT
+    Name: Carat
+    Level: 90
+    Hp: 19156
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 789
+    Attack2: 534
+    Defense: 111
+    MagicDefense: 67
+    Str: 84
+    Agi: 71
+    Vit: 54
+    Int: 55
+    Dex: 83
+    Luk: 90
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Water
+    ElementLevel: 4
+    WalkSpeed: 200
+    AttackDelay: 1078
+    AttackMotion: 768
+    DamageMotion: 384
+    Ai: 21
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Brigan
+        Rate: 1600
+      - Item: Ice_Cream
+        Rate: 500
+      - Item: Spiky_Heel
+        Rate: 3
+      - Item: Joker_Jester
+        Rate: 1
+      - Item: Robe_Of_Affection
+        Rate: 5
+      - Item: Robe_Of_Judgement
+        Rate: 5
+      - Item: White_Herb
+        Rate: 725
+      - Item: Carat_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1260
+    AegisName: DARK_FRAME
+    Name: Dark Frame
+    Level: 90
+    Hp: 23894
+    BaseExp: 1500
+    JobExp: 650
+    Attack: 587
+    Attack2: 431
+    Defense: 67
+    MagicDefense: 27
+    Str: 41
+    Agi: 56
+    Vit: 89
+    Int: 82
+    Dex: 79
+    Luk: 28
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demon
+    Element: Earth
+    ElementLevel: 4
+    WalkSpeed: 200
+    AttackDelay: 920
+    AttackMotion: 720
+    DamageMotion: 200
+    Ai: 21
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Brigan
+        Rate: 2328
+      - Item: Red_Frame
+        Rate: 500
+      - Item: Manteau
+        Rate: 15
+      - Item: Star_Crumb
+        Rate: 40
+      - Item: Crystal_Mirror
+        Rate: 2
+      - Item: Dark_Frame_Card
+        Rate: 1
+        StealProtected: true

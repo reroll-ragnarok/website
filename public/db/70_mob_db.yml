@@ -1,0 +1,887 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+####################################### Prontera & Izlude #######################################
+
+  - Id: 1044
+    AegisName: OBEAUNE
+    Name: Obeaune
+    Level: 70
+    Hp: 4123
+    BaseExp: 500
+    JobExp: 475
+    Attack: 214
+    Attack2: 204
+    Defense: 48
+    MagicDefense: 26
+    Str: 22
+    Agi: 61
+    Vit: 28
+    Int: 67
+    Dex: 58
+    Luk: 13
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1872
+    AttackMotion: 672
+    DamageMotion: 288
+    Ai: 19
+    Drops:
+      - Item: Mistic_Frozen
+        Rate: 7
+      - Item: Heart_Of_Mermaid
+        Rate: 4500
+      - Item: Fin_Helm
+        Rate: 1
+      - Item: Saint_Robe_
+        Rate: 5
+      - Item: Skyblue_Jewel
+        Rate: 5
+      - Item: Fin
+        Rate: 250
+      - Item: Witherless_Rose
+        Rate: 15
+      - Item: Obeaune_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1264
+    AegisName: MERMAN
+    Name: Merman
+    Level: 70
+    Hp: 4387
+    BaseExp: 500
+    JobExp: 475
+    Attack: 246
+    Attack2: 228
+    Defense: 62
+    MagicDefense: 8
+    Str: 39
+    Agi: 31
+    Vit: 37
+    Int: 19
+    Dex: 64
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Water
+    ElementLevel: 3
+    WalkSpeed: 220
+    AttackDelay: 916
+    AttackMotion: 816
+    DamageMotion: 336
+    Ai: 21
+    Drops:
+      - Item: Lip_Of_Ancient_Fish
+        Rate: 650
+      - Item: Plate_Armor_
+        Rate: 1
+      - Item: Lemon
+        Rate: 200
+      - Item: Skyblue_Jewel
+        Rate: 20
+      - Item: Mistic_Frozen
+        Rate: 18
+      - Item: Trident
+        Rate: 2
+      - Item: Oridecon_Stone
+        Rate: 102
+      - Item: Merman_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1065
+    AegisName: STROUF
+    Name: Strouf
+    Level: 70
+    Hp: 5894
+    BaseExp: 500
+    JobExp: 475
+    Attack: 232
+    Attack2: 212
+    Defense: 67
+    MagicDefense: 21
+    Str: 63
+    Agi: 9
+    Vit: 68
+    Int: 41
+    Dex: 47
+    Luk: 21
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Fish
+    Element: Water
+    ElementLevel: 3
+    WalkSpeed: 150
+    AttackDelay: 1872
+    AttackMotion: 672
+    DamageMotion: 384
+    Ai: 04
+    Drops:
+      - Item: Fin
+        Rate: 2668
+      - Item: Oridecon_Stone
+        Rate: 58
+      - Item: Chain_Mail_
+        Rate: 1
+      - Item: Trident_
+        Rate: 1
+      - Item: Feather
+        Rate: 1500
+      - Item: Skyblue_Jewel
+        Rate: 10
+      - Item: Gill
+        Rate: 750
+      - Item: Strouf_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Morocc #######################################
+
+  - Id: 1178
+    AegisName: ZEROM
+    Name: Zerom
+    Level: 70
+    Hp: 3581
+    BaseExp: 500
+    JobExp: 475
+    Attack: 289
+    Attack2: 238
+    Defense: 70
+    MagicDefense: 15
+    Str: 66
+    Agi: 69
+    Vit: 7
+    Int: 8
+    Dex: 70
+    Luk: 14
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1780
+    AttackMotion: 1080
+    DamageMotion: 432
+    Ai: 04
+    Drops:
+      - Item: Emveretarcon
+        Rate: 28
+      - Item: Iron
+        Rate: 95
+      - Item: G_Strings
+        Rate: 100
+      - Item: Ganster_Mask
+        Rate: 2
+      - Item: Cuffs
+        Rate: 5
+      - Item: Iron_Ore
+        Rate: 150
+      - Item: Light_Granule
+        Rate: 1
+      - Item: Zerom_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1164
+    AegisName: REQUIEM
+    Name: Requiem
+    Level: 70
+    Hp: 5796
+    BaseExp: 500
+    JobExp: 475
+    Attack: 224
+    Attack2: 206
+    Defense: 98
+    MagicDefense: 20
+    Str: 33
+    Agi: 15
+    Vit: 69
+    Int: 57
+    Dex: 29
+    Luk: 68
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 1516
+    AttackMotion: 816
+    DamageMotion: 432
+    Ai: 04
+    Drops:
+      - Item: Old_Blue_Box
+        Rate: 18
+      - Item: Emperium
+        Rate: 1
+      - Item: Zargon
+        Rate: 1250
+      - Item: Horrendous_Mouth
+        Rate: 1750
+      - Item: Mementos
+        Rate: 750
+      - Item: Mantle_
+        Rate: 5
+      - Item: Cookbook06
+        Rate: 1
+      - Item: Requiem_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1140
+    AegisName: MARDUK
+    Name: Marduk
+    Level: 70
+    Hp: 4672
+    BaseExp: 500
+    JobExp: 475
+    Attack: 208
+    Attack2: 234
+    Defense: 66
+    MagicDefense: 43
+    Str: 18
+    Agi: 23
+    Vit: 24
+    Int: 70
+    Dex: 62
+    Luk: 17
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1540
+    AttackMotion: 840
+    DamageMotion: 504
+    Ai: 19
+    Drops:
+      - Item: Flame_Heart
+        Rate: 18
+      - Item: Sacred_Masque
+        Rate: 2183
+      - Item: Staff_
+        Rate: 5
+      - Item: Mitten_Of_Presbyter
+        Rate: 1
+      - Item: Blessed_Wand
+        Rate: 2
+      - Item: Fire_Scroll_1_5
+        Rate: 50
+      - Item: Book_Of_Devil
+        Rate: 10
+      - Item: Marduk_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Geffen #######################################
+
+  - Id: 1152
+    AegisName: ORC_SKELETON
+    Name: Orc Skeleton
+    Level: 70
+    Hp: 3981
+    BaseExp: 500
+    JobExp: 475
+    Attack: 219
+    Attack2: 203
+    Defense: 82
+    MagicDefense: 10
+    Str: 41
+    Agi: 3
+    Vit: 70
+    Int: 12
+    Dex: 35
+    Luk: 9
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    RaceGroups:
+      Orc: true
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 2420
+    AttackMotion: 720
+    DamageMotion: 648
+    Ai: 04
+    Drops:
+      - Item: Orcish_Cuspid
+        Rate: 2750
+      - Item: Skel_Bone
+        Rate: 1750
+      - Item: Elunium_Stone
+        Rate: 40
+      - Item: Viking_Helm
+        Rate: 1
+      - Item: Buster_
+        Rate: 5
+      - Item: Green_Herb
+        Rate: 25
+      - Item: Orc_Skeleton_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1153
+    AegisName: ORC_ZOMBIE
+    Name: Orc Zombie
+    Level: 70
+    Hp: 4742
+    BaseExp: 500
+    JobExp: 475
+    Attack: 213
+    Attack2: 209
+    Defense: 71
+    MagicDefense: 5
+    Str: 37
+    Agi: 5
+    Vit: 66
+    Int: 7
+    Dex: 38
+    Luk: 4
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    RaceGroups:
+      Orc: true
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 400
+    AttackDelay: 2852
+    AttackMotion: 1152
+    DamageMotion: 840
+    Ai: 04
+    Drops:
+      - Item: Nail_Of_Orc
+        Rate: 2750
+      - Item: Sticky_Mucus
+        Rate: 1500
+      - Item: Emperium
+        Rate: 1
+      - Item: Orc_Zombie_Card
+        Rate: 1
+        StealProtected: true
+
+  ### CHAMPION ###
+  - Id: 1213
+    AegisName: HIGH_ORC
+    Name: High Orc
+    Level: 70
+    Hp: 20000
+    BaseExp: 2500
+    JobExp: 2375
+    Attack: 356
+    Attack2: 274
+    Defense: 100
+    MagicDefense: 45
+    Str: 70
+    Agi: 38
+    Vit: 70
+    Int: 31
+    Dex: 59
+    Luk: 46
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demihuman
+    RaceGroups:
+      Orc: true
+      Clocktower: true
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 150
+    AttackDelay: 1500
+    AttackMotion: 500
+    DamageMotion: 1000
+    Ai: 21
+    Drops:
+      - Item: Ogre_Tooth
+        Rate: 1250
+      - Item: Orcish_Axe
+        Rate: 5
+      - Item: Steel
+        Rate: 45
+      - Item: Orcish_Voucher
+        Rate: 3750
+      - Item: Zargon
+        Rate: 650
+      - Item: Oridecon_Stone
+        Rate: 98
+      - Item: Yellow_Herb
+        Rate: 450
+      - Item: High_Orc_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1133
+    AegisName: KOBOLD_1
+    Name: Kobold
+    Level: 70
+    Hp: 4129
+    BaseExp: 500
+    JobExp: 475
+    Attack: 241
+    Attack2: 219
+    Defense: 53
+    MagicDefense: 25
+    Str: 47
+    Agi: 63
+    Vit: 26
+    Int: 18
+    Dex: 60
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Kobold: true
+    Element: Wind
+    ElementLevel: 2
+    WalkSpeed: 150
+    AttackDelay: 1028
+    AttackMotion: 528
+    DamageMotion: 360
+    Ai: 13
+    Drops:
+      - Item: Steel
+        Rate: 50
+      - Item: Cobold_Hair
+        Rate: 2668
+      - Item: Zargon
+        Rate: 350
+      - Item: Elunium_Stone
+        Rate: 13
+      - Item: Gladius_
+        Rate: 1
+      - Item: Buckler_
+        Rate: 3
+      - Item: Golden_Rod_Orb
+        Rate: 5
+      - Item: Kobold_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1134
+    AegisName: KOBOLD_2
+    Name: Kobold
+    Level: 70
+    Hp: 4987
+    BaseExp: 500
+    JobExp: 475
+    Attack: 233
+    Attack2: 215
+    Defense: 67
+    MagicDefense: 19
+    Str: 34
+    Agi: 52
+    Vit: 53
+    Int: 17
+    Dex: 66
+    Luk: 40
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Kobold: true
+    Element: Poison
+    ElementLevel: 2
+    WalkSpeed: 200
+    AttackDelay: 1528
+    AttackMotion: 528
+    DamageMotion: 360
+    Ai: 13
+    Drops:
+      - Item: Steel
+        Rate: 50
+      - Item: Cobold_Hair
+        Rate: 2668
+      - Item: Zargon
+        Rate: 100
+      - Item: Buckler_
+        Rate: 2
+      - Item: Yellow_Herb
+        Rate: 50
+      - Item: Doram_Only_Shoes
+        Rate: 20
+      - Item: Fresh_G_Necklace
+        Rate: 20
+      - Item: Kobold_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1135
+    AegisName: KOBOLD_3
+    Name: Kobold
+    Level: 70
+    Hp: 5364
+    BaseExp: 500
+    JobExp: 475
+    Attack: 268
+    Attack2: 232
+    Defense: 69
+    MagicDefense: 48
+    Str: 68
+    Agi: 49
+    Vit: 70
+    Int: 24
+    Dex: 57
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Demihuman
+    RaceGroups:
+      Kobold: true
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 300
+    AttackDelay: 1228
+    AttackMotion: 528
+    DamageMotion: 360
+    Ai: 13
+    Drops:
+      - Item: Boody_Red
+        Rate: 18
+      - Item: Steel
+        Rate: 50
+      - Item: Cobold_Hair
+        Rate: 2668
+      - Item: Zargon
+        Rate: 100
+      - Item: Scarlet_Twohand_Axe
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Doram_Only_Cape
+        Rate: 20
+      - Item: Doram_Only_Suit
+        Rate: 20
+      - Item: Kobold_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1282
+    AegisName: KOBOLD_ARCHER
+    Name: Kobold Archer
+    Level: 70
+    Hp: 3553
+    BaseExp: 500
+    JobExp: 475
+    Attack: 249
+    Attack2: 222
+    Defense: 24
+    MagicDefense: 5
+    Str: 34
+    Agi: 60
+    Vit: 18
+    Int: 20
+    Dex: 70
+    Luk: 25
+    AttackRange: 9
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Demihuman
+    RaceGroups:
+      Kobold: true
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1008
+    AttackMotion: 1008
+    DamageMotion: 384
+    Ai: 05
+    Drops:
+      - Item: Zargon
+        Rate: 125
+      - Item: Steel
+        Rate: 30
+      - Item: Cobold_Hair
+        Rate: 2425
+      - Item: Ear_Of_Puppy
+        Rate: 25
+      - Item: Poison_Arrow
+        Rate: 1000
+      - Item: CrossBow_
+        Rate: 3
+      - Item: Oridecon_Stone
+        Rate: 40
+      - Item: Kobold_Archer_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Alberta #######################################
+
+  - Id: 1071
+    AegisName: PIRATE_SKEL
+    Name: Pirate Skeleton
+    Level: 70
+    Hp: 5513
+    BaseExp: 1500
+    JobExp: 1425
+    Attack: 238
+    Attack2: 214
+    Defense: 53
+    MagicDefense: 20
+    Str: 62
+    Agi: 52
+    Vit: 38
+    Int: 16
+    Dex: 64
+    Luk: 38
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Undead
+    Element: Undead
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 800
+    AttackMotion: 554
+    DamageMotion: 288
+    Ai: 04
+    Drops:
+      - Item: Skel_Bone
+        Rate: 1500
+      - Item: Pirate_Bandana
+        Rate: 8
+      - Item: Cookbook06
+        Rate: 3
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Falchion
+        Rate: 125
+      - Item: Oridecon_Stone
+        Rate: 22
+      - Item: Well_Dried_Bone
+        Rate: 10
+      - Item: Pirate_Skel_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Comodo #######################################
+
+  - Id: 1073
+    AegisName: CRAB
+    Name: Crab
+    Level: 70
+    Hp: 4988
+    BaseExp: 500
+    JobExp: 475
+    Attack: 208
+    Attack2: 205
+    Defense: 36
+    MagicDefense: 11
+    Str: 45
+    Agi: 14
+    Vit: 69
+    Int: 11
+    Dex: 37
+    Luk: 16
+    AttackRange: 1
+    SkillRange: 7
+    ChaseRange: 12
+    Size: Small
+    Race: Fish
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 992
+    AttackMotion: 792
+    DamageMotion: 360
+    Ai: 03
+    Drops:
+      - Item: Crap_Shell
+        Rate: 2750
+      - Item: Nipper
+        Rate: 750
+      - Item: Stone
+        Rate: 350
+      - Item: Sparkling_Dust
+        Rate: 7
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Elunium_Stone
+        Rate: 19
+      - Item: Crab_Card
+        Rate: 1
+        StealProtected: true
+
+  ### CHAMPION ###
+  - Id: 2198
+    AegisName: KING_DRAMOH
+    Name: King Dramoh
+    JapaneseName: King Kray
+    Level: 70
+    Hp: 20000
+    BaseExp: 2500
+    JobExp: 2375
+    Attack: 286
+    Attack2: 242
+    Defense: 480
+    MagicDefense: 22
+    Str: 67
+    Agi: 33
+    Vit: 70
+    Int: 29
+    Dex: 64
+    Luk: 27
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Fish
+    Element: Water
+    ElementLevel: 2
+    WalkSpeed: 140
+    AttackDelay: 576
+    AttackMotion: 720
+    DamageMotion: 720
+    Ai: 21
+    Class: Boss
+    Drops:
+      - Item: Ice_Fragment
+        Rate: 50
+      - Item: Nipper
+        Rate: 2500
+      - Item: Solid_Shell
+        Rate: 2500
+      - Item: Spike
+        Rate: 25
+      - Item: Light_Granule
+        Rate: 100
+      - Item: Mistic_Frozen
+        Rate: 25
+      - Item: Crystal_Blue
+        Rate: 25
+      - Item: King_Dramoh_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1278
+    AegisName: STALACTIC_GOLEM
+    Name: Stalactic Golem
+    Level: 70
+    Hp: 5906
+    BaseExp: 500
+    JobExp: 475
+    Attack: 252
+    Attack2: 226
+    Defense: 230
+    MagicDefense: 5
+    Str: 64
+    Agi: 7
+    Vit: 70
+    Int: 19
+    Dex: 44
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Formless
+    RaceGroups:
+      Golem: true
+    Element: Neutral
+    ElementLevel: 4
+    WalkSpeed: 200
+    AttackDelay: 1264
+    AttackMotion: 864
+    DamageMotion: 288
+    Ai: 17
+    Drops:
+      - Item: Mud_Lump
+        Rate: 1000
+      - Item: Brigan
+        Rate: 2425
+      - Item: Star_Crumb
+        Rate: 125
+      - Item: Great_Nature
+        Rate: 15
+      - Item: Elunium_Stone
+        Rate: 125
+      - Item: Round_Buckler
+        Rate: 3
+      - Item: Elunium
+        Rate: 82
+      - Item: Stalactic_Golem_Card
+        Rate: 1
+        StealProtected: true
+
+####################################### Al De Baran #######################################
+
+  - Id: 1369
+    AegisName: GRAND_PECO
+    Name: Grand Peco
+    Level: 70
+    Hp: 4687
+    BaseExp: 500
+    JobExp: 475
+    Attack: 259
+    Attack2: 231
+    Defense: 95
+    MagicDefense: 30
+    Str: 58
+    Agi: 62
+    Vit: 35
+    Int: 21
+    Dex: 66
+    Luk: 23
+    AttackRange: 2
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Brute
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 165
+    AttackDelay: 1460
+    AttackMotion: 960
+    DamageMotion: 432
+    Ai: 03
+    Drops:
+      - Item: Peco_Wing_Feather
+        Rate: 2425
+      - Item: Fruit_Of_Mastela
+        Rate: 150
+      - Item: Wind_Of_Verdure
+        Rate: 500
+      - Item: Gold
+        Rate: 1
+      - Item: Orange
+        Rate: 250
+      - Item: Grand_Peco_Card
+        Rate: 1
+        StealProtected: true

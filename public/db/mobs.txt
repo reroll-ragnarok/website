@@ -1,0 +1,593 @@
+//===== rAthena Script =======================================
+//= Cryptura Academy Monster Spawn Script
+//===== By: ==================================================
+//= Euphy
+//===== Current Version: =====================================
+//= 1.0
+//===== Compatible With: =====================================
+//= rAthena Project
+//===== Additional Comments: =================================
+//= 1.0 First version.
+//============================================================
+
+//================================ Prontera & Izlude ================================\\
+
+//==================================================
+// prt_fild08 - Prontera Field South
+//==================================================
+prt_fild08,0,0	monster	Poring	1002,150,5000
+prt_fild08,0,0	monster	Fabre	1007,125,5000
+prt_fild08,0,0	monster	Pupa	1008,125,5000
+prt_fild08,0,0	monster	Mastering	1090,1,600000
+
+//==================================================
+// prt_fild05 - Prontera Field West
+//==================================================
+prt_fild05,0,0	monster	Smokie	1056,100,5000
+prt_fild05,0,0	monster	Yoyo	1057,100,5000
+prt_fild05,0,0	monster	Choco	1214,1,600000
+prt_fild05,0,0	monster	Rocker	1052,100,5000
+prt_fild05,0,0	monster	Vocal	1088,1,600000
+
+//==================================================
+// prt_fild06 - Prontera Field East
+//==================================================
+prt_fild06,0,0	monster	ChonChon	1011,75,5000
+prt_fild06,0,0	monster	Lunatic	1063,75,5000
+prt_fild06,0,0	monster	Dragon Fly	1091,1,600000
+prt_fild06,0,0	monster	Eclipse	1093,1,600000
+
+//==================================================
+// prt_sewb1 - Prontera Culvert 
+//==================================================
+prt_sewb3,0,0	monster	Tarou	1175,50,5000
+prt_sewb3,0,0	monster	Thief Bug Female	1053,50,5000
+prt_sewb3,0,0	monster	Familiar	1005,50,5000
+
+//==================================================
+// prt_sewb4 - Prontera Culvert
+//==================================================
+prt_sewb4,0,0	monster	Drainliar	1111,30,5000
+prt_sewb4,0,0	monster	Cramp	1209,30,5000
+prt_sewb4,0,0	monster	Thief Bug Male	1054,30,5000
+prt_sewb4,0,0,0,0	boss_monster	Golden Thief Bug	1086,1,1200000,900000
+
+//==================================================
+// izlu2dun - Byalan Island 
+//==================================================
+izlu2dun,0,0	monster	Vadon	1066,20,5000
+izlu2dun,0,0	monster	Kukre	1070,20,5000
+izlu2dun,0,0	monster	Cornutus	1067,20,5000
+
+//==================================================
+// iz_dun03 - Byalan Dungeon Level 3
+//==================================================
+iz_dun03,0,0	monster	Marse	1144,50,5000
+iz_dun03,0,0	monster	Swordfish	1069,50,5000
+iz_dun03,0,0	monster	Phen	1158,50,5000
+iz_dun03,0,0	monster	Marc	1045,50,5000
+
+//==================================================
+// iz_dun04 - Byalan Dungeon Level 4
+//==================================================
+iz_dun04,0,0	monster	Strouf	1065,50,5000
+iz_dun04,0,0	monster	Merman	1264,50,5000
+iz_dun04,0,0	monster	Obeaune	1044,50,5000
+// iz_dun04,0,0	monster	Kraken	2202,1,1200000,900000
+
+//================================ Morocc ================================\\
+
+//==================================================
+// moc_ruins - Morocc North
+//==================================================
+moc_ruins,0,0	monster	Golem	1040,30,5000
+
+//==================================================
+// moc_fild19 - Morocc West
+//==================================================
+moc_fild19,0,0	monster	Scorpion	1001,30,5000
+
+//==================================================
+// moc_fild12 - Morocc Field South
+//==================================================
+moc_fild12,0,0	monster	Peco Peco Egg	1047,100,5000
+moc_fild12,0,0	monster	Picky	1049,100,5000
+moc_fild12,0,0	monster	Picky	1050,100,5000
+moc_fild12,0,0	monster	Peco Peco	1019,5,5000
+
+//==================================================
+// moc_fild17 - Morocc Field South 2
+//==================================================
+moc_fild17,0,0	monster	Frilldora	1119,75,5000
+moc_fild17,0,0	monster	Driller	1380,75,5000
+moc_fild17,0,0	monster	Maya Purple	1289,1,600000
+moc_fild17,0,0	monster	Phreeoni	1159,1,1200000,900000
+
+//==================================================
+// moc_fild10 - Morocc Field East
+//==================================================
+moc_fild10,0,0	monster	Drops	1113,150,5000
+moc_fild10,0,0	monster	Desert Wolf Baby	1107,150,5000
+
+//==================================================
+// moc_fild13 - Morocc Field East 2
+//==================================================
+moc_fild13,286,290,60,60	monster	Wolf	1013,25,5000
+moc_fild13,268,195,60,60	monster	Wolf	1013,25,5000
+moc_fild13,261,111,60,60	monster	Wolf	1013,25,5000
+moc_fild13,72,309,60,60	monster	Desert Wolf	1106,25,5000
+moc_fild13,80,226,60,60	monster	Desert Wolf	1106,25,5000
+moc_fild13,78,138,60,60	monster	Desert Wolf	1106,25,5000
+moc_fild13,0,0	monster	Vagabond Wolf	1092,1,600000
+
+//==================================================
+// anthell02 - Ant Hell
+//==================================================
+anthell02,254,45	monster	Ant Egg	1097,1,30000,10000
+anthell02,254,44	monster	Ant Egg	1097,1,30000,10000
+anthell02,254,43	monster	Ant Egg	1097,1,30000,10000
+anthell02,254,42	monster	Ant Egg	1097,1,30000,10000
+anthell02,254,41	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,41	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,40	monster	Ant Egg	1097,1,30000,10000
+anthell02,252,40	monster	Ant Egg	1097,1,30000,10000
+anthell02,251,40	monster	Ant Egg	1097,1,30000,10000
+anthell02,251,39	monster	Ant Egg	1097,1,30000,10000
+anthell02,250,39	monster	Ant Egg	1097,1,30000,10000
+anthell02,250,38	monster	Ant Egg	1097,1,30000,10000
+anthell02,249,39	monster	Ant Egg	1097,1,30000,10000
+anthell02,249,38	monster	Ant Egg	1097,1,30000,10000
+anthell02,248,39	monster	Ant Egg	1097,1,30000,10000
+anthell02,248,40	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,40	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,41	monster	Ant Egg	1097,1,30000,10000
+anthell02,246,41	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,42	monster	Ant Egg	1097,1,30000,10000
+anthell02,246,42	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,43	monster	Ant Egg	1097,1,30000,10000
+anthell02,246,43	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,44	monster	Ant Egg	1097,1,30000,10000
+anthell02,246,44	monster	Ant Egg	1097,1,30000,10000
+anthell02,247,45	monster	Ant Egg	1097,1,30000,10000
+anthell02,248,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,249,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,249,47	monster	Ant Egg	1097,1,30000,10000
+anthell02,250,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,250,47	monster	Ant Egg	1097,1,30000,10000
+anthell02,250,48	monster	Ant Egg	1097,1,30000,10000
+anthell02,251,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,251,47	monster	Ant Egg	1097,1,30000,10000
+anthell02,252,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,252,47	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,46	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,45	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,44	monster	Ant Egg	1097,1,30000,10000
+anthell02,253,43	monster	Ant Egg	1097,1,30000,10000
+anthell02,0,0	monster	Vitata	1176,75,5000
+anthell02,0,0	monster	Deniro	1105,50,5000
+anthell02,0,0	monster	Andre	1095,50,5000
+anthell02,0,0	monster	Pierre	1160,50,5000
+anthell02,0,0	monster	Maya	1147,1,1200000,900000
+
+//==================================================
+// SPX2 - Sphinx Level 1
+//==================================================
+in_sphinx4,0,0	monster	Marduk	1140,50,5000
+in_sphinx4,0,0	monster	Zerom	1178,50,5000
+in_sphinx4,0,0	monster	Requiem	1164,50,5000
+
+//==================================================
+// SPX3 - Sphinx Level 2
+//==================================================
+in_sphinx5,0,0	monster	Pasana	1154,75,5000
+in_sphinx5,0,0	monster	Anubis	1098,15,5000
+in_sphinx5,0,0	monster	Matyr	1146,75,5000
+in_sphinx5,0,0	monster	Pharaoh	1157,1,1200000,900000
+
+//==================================================
+// PRYD1 - Pyramid Level 1
+//==================================================
+moc_pryd03,0,0	monster	Soldier Skeleton	1028,75,5000
+moc_pryd03,0,0	monster	Archer Skeleton	1016,75,5000
+
+//==================================================
+// PRYD2 - Pyramid Level 2
+//==================================================
+moc_pryd04,0,0	monster	Mummy	1041,50,5000
+moc_pryd04,0,0	monster	Verit	1032,50,5000
+moc_pryd04,0,0	monster	Isis	1029,3,5000
+moc_pryd04,0,0	monster	Osiris	1038,1,1200000,900000
+
+//==================================================
+// PRYD3 - Pyramid Level 3
+//==================================================
+moc_pryd06,0,0	monster	Ancient Mummy	1297,150,5000
+moc_pryd06,0,0	monster	Amon Ra	1511,1,1200000,900000
+
+//================================ Geffen ================================\\
+
+//==================================================
+// gef_fild07 - Geffen Field West
+//==================================================
+gef_fild07,0,0	monster	Petite (Earth)	1155,25,5000
+gef_fild07,0,0	monster	Petite (Sky)	1156,25,5000
+gef_fild07,0,0	monster	Deleter (Ground)	1385,25,5000
+gef_fild07,0,0	monster	Deleter (Sky)	1384,25 ,5000
+
+//==================================================
+// gef_fild08 - Geffen Field West 2
+//==================================================
+gef_fild06,0,0	monster	Kobold Leader	1296,1,600000
+gef_fild06,0,0	monster	Kobold (Axe)	1133,50,5000
+gef_fild06,0,0	monster	Kobold (Hammer)	1134,50,5000
+gef_fild06,0,0	monster	Kobold (Morning Star)	1135,50,5000
+gef_fild06,0,0	monster	Kobold (Archer)	1282,50,5000
+
+//==================================================
+// gef_fild08 - Geffen Field East
+//==================================================
+gef_fild00,0,0	monster	Roda Frog	1012,150,5000
+gef_fild00,0,0	monster	Thara Frog	1034,150,5000
+gef_fild00,0,0	monster	Toad	1089,1,600000
+
+//==================================================
+// gef_fild05 - Geffen Field North
+//==================================================
+gef_fild04,0,0	monster	Creamy	1018,125,5000
+gef_fild04,0,0	monster	Mandragora	1020,75,5000
+
+//==================================================
+// gef_fild10 - Geffen Village (South)
+//==================================================
+gef_fild10,0,0	monster	Lady Orc	1273,75,5000
+gef_fild10,0,0	monster	Orc Warrior	1023,75,5000
+gef_fild10,0,0	monster	Baby Orc	1686,10,5000
+gef_fild10,0,0	monster	Orc Archer	1189,50,5000
+gef_fild10,0,0	monster	Orc Lord	1190,1,1200000,900000
+
+//==================================================
+// gef_fild11 - Geffen Field South 2
+//==================================================
+gef_fild11,0,0	monster	Goblin Leader	1087,1,600000
+gef_fild11,0,0	monster	Goblin (Axe)	1124,20,5000
+gef_fild11,0,0	monster	Goblin (Hammer)	1125,20,5000
+gef_fild11,0,0	monster	Goblin (Knife)	1122,20,5000
+gef_fild11,0,0	monster	Goblin (Flail)	1123,20,5000
+gef_fild11,0,0	monster	Goblin (Morning Star)	1126,20,5000
+gef_fild11,0,0	monster	Goblin (Archer)	1258,20,5000
+gef_fild11,0,0	monster	Panzer Goblin	1308,10,5000
+gef_fild11,0,0	monster	Steam Goblin	1280,10,5000
+
+//==================================================
+// orc_dun02 - Orc Dungeon
+//==================================================
+orcsdun02,0,0	monster	Orc Zombie	1153,40,5000
+orcsdun02,0,0	monster	Orc Skeleton	1152,40,5000
+orcsdun02,0,0	monster	High Orc	1213,5,5000
+orcsdun02,0,0	monster	Orc Hero	1087,1,1200000,900000
+
+//==================================================
+// gef_dun02 - Geffen Dungeon Level 2
+//==================================================
+gef_dun02,0,0	monster	Nightmare	1061,40,5000
+gef_dun02,0,0	monster	Deviruchi	1109,40,5000
+gef_dun02,0,0	monster	Deviling	1582,1,600000
+
+//==================================================
+// gef_dun03 - Geffen Dungeon Level 3
+//==================================================
+gef_dun03,0,0	monster	Nightmare Terror	1379,20,5000
+gef_dun03,0,0	monster	Doppelganger	1046,1,1200000,900000
+
+//================================ Payon & Alberta ================================\\
+
+//==================================================
+// pay_fild03 - Payon Field South
+//==================================================
+pay_fild03,0,0	monster	Spore	1014,50,5000
+pay_fild03,0,0	monster	Wormtail	1024,50,5000
+pay_fild03,0,0	monster	Willow	1010,50,5000
+
+//==================================================
+// pay_fild08 - Payon Field East
+//==================================================
+pay_fild08,0,0	monster	Elder Willow	1033,75,5000
+pay_fild08,0,0	monster	Savage	1166,75,5000
+
+//==================================================
+// pay_fild10 - Payon Field East 2
+//==================================================
+pay_fild10,0,0	monster	Greatest General	1277,25,5000
+pay_fild10,0,0	monster	Bigfoot	1060,125,5000
+pay_fild10,0,0	monster	Elder Willow	1033,75,5000
+pay_fild10,0,0,0,0	boss_monster	Eddga	1115,1,1200000,900000
+
+//==================================================
+// pay_dun03 - Payon Dungeon Level 3
+//==================================================
+pay_dun03,0,0	monster	Munak	1026,50,5000
+pay_dun03,0,0	monster	Bongun	1188,50,5000
+pay_dun03,0,0	monster	Yao Jun	1512,10,5000
+
+//==================================================
+// pay_dun04 - Payon Dungeon Level 4
+//==================================================
+pay_dun04,0,0	monster	Ninetails	1180,50,5000
+pay_dun04,0,0	monster	Cat O' Nine Tails	1307,1,600000
+pay_dun04,0,0,0,0	boss_monster	Moonlight Flower	1150,1,1200000,900000
+
+//==================================================
+// alb2trea  - Sunken Ship
+//==================================================
+alb2trea,0,0	monster	Pirate Skeleton	1071,5,5000
+alb2trea,0,0	monster	Ghostring	1120,1,600000
+
+//==================================================
+// treasure02 - Sunken Ship 
+//==================================================
+treasure02,47,141,0,0	monster	Hydra	1068,1,30000
+treasure02,48,141,0,0	monster	Hydra	1068,1,30000
+treasure02,49,141,0,0	monster	Hydra	1068,1,30000
+treasure02,50,141,0,0	monster	Hydra	1068,1,30000
+treasure02,47,142,0,0	monster	Hydra	1068,1,30000
+treasure02,48,142,0,0	monster	Hydra	1068,1,30000
+treasure02,49,142,0,0	monster	Hydra	1068,1,30000
+treasure02,50,142,0,0	monster	Hydra	1068,1,30000
+treasure02,47,143,0,0	monster	Hydra	1068,1,30000
+treasure02,48,143,0,0	monster	Hydra	1068,1,30000
+treasure02,49,143,0,0	monster	Hydra	1068,1,30000
+treasure02,50,143,0,0	monster	Hydra	1068,1,30000
+
+treasure02,153,143,0,0	monster	Hydra	1068,1,30000
+treasure02,154,143,0,0	monster	Hydra	1068,1,30000
+treasure02,155,143,0,0	monster	Hydra	1068,1,30000
+treasure02,156,143,0,0	monster	Hydra	1068,1,30000
+treasure02,153,144,0,0	monster	Hydra	1068,1,30000
+treasure02,154,144,0,0	monster	Hydra	1068,1,30000
+treasure02,155,144,0,0	monster	Hydra	1068,1,30000
+treasure02,156,144,0,0	monster	Hydra	1068,1,30000
+treasure02,153,145,0,0	monster	Hydra	1068,1,30000
+treasure02,154,145,0,0	monster	Hydra	1068,1,30000
+treasure02,155,145,0,0	monster	Hydra	1068,1,30000
+treasure02,156,145,0,0	monster	Hydra	1068,1,30000
+
+treasure02,100,130,0,0	monster	Hydra	1068,1,30000
+treasure02,100,131,0,0	monster	Hydra	1068,1,30000
+treasure02,100,132,0,0	monster	Hydra	1068,1,30000
+treasure02,103,130,0,0	monster	Hydra	1068,1,30000
+treasure02,103,131,0,0	monster	Hydra	1068,1,30000
+treasure02,103,132,0,0	monster	Hydra	1068,1,30000
+
+treasure02,100,137,0,0	monster	Hydra	1068,1,30000
+treasure02,100,138,0,0	monster	Hydra	1068,1,30000
+treasure02,100,139,0,0	monster	Hydra	1068,1,30000
+treasure02,103,137,0,0	monster	Hydra	1068,1,30000
+treasure02,103,138,0,0	monster	Hydra	1068,1,30000
+treasure02,103,139,0,0	monster	Hydra	1068,1,30000
+
+treasure02,23,143,3,3	monster	Giant Whisper	1186,1,60000
+treasure02,181,143,3,3	monster	Giant Whisper	1186,1,60000
+
+treasure02,36,75,6,6	monster	Whisper	1179,5,5000
+treasure02,167,75,6,6	monster	Whisper	1179,5,5000
+
+treasure02,49,40,9,9	monster	Penomena	1216,10,5000
+
+treasure02,102,69,15,15	monster	Penomena	1216,7,5000
+treasure02,101,42,10,10	monster	Penomena	1216,6,5000
+treasure02,102,95,5,10	monster	Penomena	1216,2,5000
+
+treasure02,154,41,9,9	monster	Penomena	1216,10,5000
+
+treasure02,101,151,15,15	boss_monster	Drake	1112,1,1200000,900000
+
+//==================================================
+// tur_dun01 - Turtle Island Dungeon Level 1
+//==================================================
+tur_dun01,0,0	monster	Dragon Tail	1321,15,5000
+
+//==================================================
+// tur_dun04 - Turtle Island Dungeon Level 4
+//==================================================
+tur_dun04,0,0	monster	Assaulter	1315,30,5000
+tur_dun04,0,0	monster	Soldier	1316,30,5000
+tur_dun04,0,0	monster	Permeter	1314,30,5000
+tur_dun04,0,0	monster	Freezer	1319,30,5000
+tur_dun04,0,0	monster	Heater	1318,30,5000
+tur_dun04,99,93,20,20	boss_monster	Turtle General	1312,1,1200000,900000
+
+//================================ Comodo ================================\\
+
+//==================================================
+// um_fild04 - Comodo Field Northeast
+//==================================================
+um_fild04,0,0	monster	Dryad	1493,50,5000
+um_fild04,0,0	monster	Dustiness	1114,50,5000
+
+//==================================================
+// cmd_fild03 - Comodo Field East
+//==================================================
+cmd_fild03,0,0	monster	Alligator	1271,125,5000
+cmd_fild03,0,0	monster	Anolian	1206,125,5000
+
+//==================================================
+// cmd_fild02 - Comodo Field East 2
+//==================================================
+cmd_fild02,1,1,350,200	monster	Fur Seal	1317,100,5000
+cmd_fild02,1,300,350,100	monster	Sea Otter	1323,100,5000
+
+//==================================================
+// beach_dun - Comodo Beach 1
+//==================================================
+beach_dun,0,0	monster	Medusa	1148,200,5000
+beach_dun,0,0,0,0	boss_monster	Tao Gunka	1583,1,1200000,900000
+
+//==================================================
+// cmd_fild07 - Comodo Beach 2
+//==================================================
+beach_dun2,0,0	monster	Stalactic Golem	1278,125,5000
+
+//==================================================
+// cmd_fild08 - Comodo Beach 3
+//==================================================
+beach_dun3,0,0	monster	Crab	1073,100,5000
+beach_dun3,0,0	monster	King Dramoh	2198,5,5000
+
+//================================ Al De Baran ================================\\
+
+//==================================================
+// yuno_fild01 - Aldebaran Field North
+//==================================================
+yuno_fild01,0,0	monster	Grand Peco	1369,150,5000
+
+//==================================================
+// mjolnir_12 - Aldebaran Field South
+//==================================================
+mjolnir_12,0,0	monster	Boa	1025,100,5000
+mjolnir_12,0,0	monster	Side Winder	1037,100,5000
+mjolnir_12,0,0	monster	Anacondaq	1030,100,5000
+
+//==================================================
+// mjolnir_05 - Aldebaran Field South 2
+//==================================================
+mjolnir_05,0,0	monster	Flora	1118,75,5000
+mjolnir_05,0,0	monster	Hornet	1004,125,5000
+mjolnir_05,0,0	monster	Mistress	1059,1,1200000,900000
+
+//==================================================
+// mjolnir_02 - Geffen Field North 2
+//==================================================
+mjolnir_02,0,0	monster	Poison Spore	1077,50,5000
+mjolnir_02,0,0	monster	Mantis	1139,50,5000
+
+//==================================================
+// mjolnir_01 - Mjolnir Pit Level 1
+//==================================================
+mjo_dun02,0,0	monster	Martin	1145,125,5000
+mjo_dun02,0,0	monster	Skel Worker	1169,75,5000
+mjo_dun02,0,0	monster	Giearth	1121,150,5000
+
+//==================================================
+// cl_tower1 - Clock Tower
+//==================================================
+c_tower1,0,0	monster	Clock	1269,50,5000
+c_tower1,0,0	monster	Alarm	1193,50,5000
+c_tower1,0,0	monster	Clock Tower Manager	1270,5,5000
+
+//==================================================
+// alde_dun01 - Clock Tower Underground
+//==================================================
+alde_dun01,0,0	monster	Baphomet Jr.	1101,100,5000
+alde_dun01,0,0	monster	Baphomet	1039,1,1200000,900000
+
+//==================================================
+// xmas_fild01 - Lutie Field
+//==================================================
+xmas_fild01,0,0	monster	Sasquatch	1243,35,5000
+xmas_fild01,0,0	monster	Garm Baby	1515,15,5000
+xmas_fild01,0,0	monster	Hatii	1252,1,1200000,900000
+
+//==================================================
+// xmas_dun02 - Xmas Dungeon
+//==================================================
+xmas_dun02,0,0	monster	Cookie	1265,75,5000
+xmas_dun02,0,0	monster	Cookie	1246,75,5000
+xmas_dun02,0,0	monster	Myst Case	1249,150,5000
+xmas_dun02,0,0	monster	Angeling	1096,1,600000
+xmas_dun02,0,0	monster	Stormy Knight	1251,1,1200000,900000
+
+//================================ Yuno ================================\\
+
+//==================================================
+// yuno_fild04 - Yuno Field South
+//==================================================
+yuno_fild04,0,0	monster	Harpy	1376,20,5000
+yuno_fild04,0,0	monster	Gryphon	1259,20,5000
+
+//==================================================
+// yuno_fild03 - Yuno Field Southeast
+//==================================================
+yuno_fild03,0,0	monster	Goat	1372,100,5000
+yuno_fild03,0,0	monster	Geographer	1368,100,5000
+yuno_fild03,0,0	monster	Arch Angeling	1388,1,600000
+
+//==================================================
+// mag_dun - Yuno Magma Dungeon
+//==================================================
+mag_dun01,0,0	monster	Blazer	1367,50,5000
+mag_dun01,0,0	monster	Explosion	1383,50,5000
+mag_dun01,0,0	monster	Kaho	1072,50,5000
+mag_dun01,0,0	monster	Lava Golem	1366,5,5000
+
+//================================ Glastheim ================================\\
+
+//==================================================
+// gl_chyard - Churchyard
+//==================================================
+gl_chyard,0,0	monster	Evil Druid	1117,50,5000
+gl_chyard,0,0	monster	Wraith	1192,50,5000
+gl_chyard,0,0	monster	Wraith Dead	1291,50,5000
+gl_chyard,0,0	monster	Dark Illusion	1302,3,5000
+gl_chyard,0,0	monster	Dark Lord	1272,1,1200000,900000
+
+//==================================================
+// gl_prison - Prison
+//==================================================
+gl_prison1,0,0	monster	Injustice	1257,40,5000
+gl_prison1,0,0	monster	Rybio	1201,40,5000
+gl_prison1,0,0	monster	Phendark	1202,40,5000
+gl_prison1,0,0	monster	Zealotus	1200,5,5000
+
+//==================================================
+// gl_knt - Chyivalry Dungeon 1
+//==================================================
+gl_knt01,0,0	monster	Raydric Archer	1276,100,5000
+gl_knt01,0,0	monster	Raydric	1163,100,5000
+gl_knt01,0,0	monster	Khalitzburg	1132,100,5000
+
+//==================================================
+// gl_knt - Chyivalry Dungeon 1
+//==================================================
+gl_knt02,0,0	monster	Abysmal Knight	1219,70,5000
+gl_knt02,0,0	monster	Bloody Knight	1268,5,5000
+
+//==================================================
+// gl_cas - Glastheim Castle 1
+//==================================================
+gl_cas01,0,0	monster	Jakk	1130,75,5000
+gl_cas01,0,0	monster	Joker	1131,75,5000
+gl_cas01,0,0	monster	Carat	1267,75,5000
+gl_cas01,0,0	monster	Dark Frame	1260,75,5000
+
+//==================================================
+// gl_cas - Glastheim Castle 2
+//==================================================
+gl_cas02,0,0	monster	Owl Duke	1320,75,5000
+gl_cas02,0,0	monster	Owl Baron	1295,75,5000
+gl_cas02,0,0	monster	Alice	1275,5,5000
+
+//==================================================
+// gl_cas - Inside Glastheim
+//==================================================
+gl_in01,0,0	monster	Gargoyle	1253,20,5000
+gl_in01,45,43,30,30	monster	Chimera	1283,1,600000
+gl_in01,40,155,20,40	monster	Ogretooth	1204,1,600000
+gl_in01,160,151,20,40	monster	Executioner	1205,1,600000
+gl_in01,153,33,20,40	monster	Mysteltainn	1203,1,600000
+
+//================================ Glastheim ================================\\
+
+//==================================================
+// nif_fild01 - Niflheim Field 1
+//==================================================
+nif_fild01,0,0	monster	Heirozoist	1510,60,5000
+nif_fild01,0,0	monster	Quve	1508,60,5000
+nif_fild01,0,0	monster	Lude	1509,60,5000
+
+//==================================================
+// nif_fild02 - Niflheim Field 2
+//==================================================
+nif_fild02,0,0	monster	Dullahan	1504,30,5000
+nif_fild02,0,0	monster	Loli Ruri	1505,30,5000
+nif_fild02,0,0	monster	Bloody Murderer	1507,5,5000
+nif_fild02,0,0	monster	Lord of The Dead	1373,1,1200000,900000

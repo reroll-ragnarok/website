@@ -1,0 +1,766 @@
+Header:
+  Type: MOB_DB
+  Version: 3
+
+Body:
+
+###################################### Prontera & Izlude ######################################
+
+  - Id: 1054
+    AegisName: THIEF_BUG__
+    Name: Thief Bug Male
+    Level: 40
+    Hp: 1127
+    BaseExp: 250
+    JobExp: 275
+    Attack: 97
+    Attack2: 68
+    Defense: 33
+    MagicDefense: 19
+    Str: 21
+    Agi: 37
+    Vit: 17
+    Int: 13
+    Dex: 29
+    Luk: 17
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Insect
+    Element: Dark
+    ElementLevel: 1
+    WalkSpeed: 210
+    AttackDelay: 988
+    AttackMotion: 288
+    DamageMotion: 768
+    Ai: 13
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 10000
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Thief_Bug_Male_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1111
+    AegisName: DRAINLIAR
+    Name: Drainliar
+    Level: 40
+    Hp: 1352
+    BaseExp: 250
+    JobExp: 275
+    Attack: 121
+    Attack2: 99
+    Defense: 28
+    MagicDefense: 24
+    Str: 24
+    Agi: 25
+    Vit: 22
+    Int: 19
+    Dex: 39
+    Luk: 14
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    RaceGroups:
+      Clocktower: true
+    Element: Dark
+    ElementLevel: 2
+    WalkSpeed: 180
+    AttackDelay: 1276
+    AttackMotion: 576
+    DamageMotion: 384
+    Ai: 19
+    Drops:
+      - Item: Wing_Of_Red_Bat
+        Rate: 10000
+      - Item: Tooth_Of_Bat
+        Rate: 5000
+      - Item: Drainliar_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1209
+    AegisName: CRAMP
+    Name: Cramp
+    Level: 40
+    Hp: 1013
+    BaseExp: 250
+    JobExp: 275
+    Attack: 74
+    Attack2: 53
+    Defense: 40
+    MagicDefense: 40
+    Str: 31
+    Agi: 19
+    Vit: 35
+    Int: 11
+    Dex: 18
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Brute
+    RaceGroups:
+      Clocktower: true
+      Rockridge: true
+    Element: Poison
+    ElementLevel: 2
+    WalkSpeed: 100
+    AttackDelay: 1000
+    AttackMotion: 500
+    DamageMotion: 1000
+    Ai: 19
+    Drops:
+      - Item: Claw_Of_Rat
+        Rate: 10000
+      - Item: Animal's_Skin
+        Rate: 5000
+      - Item: Fluff
+        Rate: 2500
+      - Item: Cramp_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Morocc ######################################
+
+  - Id: 1097
+    AegisName: ANT_EGG
+    Name: Ant Egg
+    Level: 40
+    Hp: 1500
+    BaseExp: 250
+    JobExp: 275
+    Attack: 70
+    Attack2: 50
+    Defense: 40
+    MagicDefense: 40
+    Vit: 40
+    Int: 40
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Formless
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 1000
+    AttackDelay: 1001
+    AttackMotion: 1
+    DamageMotion: 1
+    Drops:
+      - Item: Shell
+        Rate: 10000
+      - Item: Guard_
+        Rate: 50
+      - Item: Andre_Egg_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1095
+    AegisName: ANDRE
+    Name: Andre
+    Level: 40
+    Hp: 1278
+    BaseExp: 250
+    JobExp: 275
+    Attack: 110
+    Attack2: 97
+    Defense: 31
+    MagicDefense: 22
+    Str: 40
+    Agi: 28
+    Vit: 31
+    Int: 13
+    Dex: 37
+    Luk: 11
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 210
+    AttackDelay: 1288
+    AttackMotion: 288
+    DamageMotion: 384
+    Ai: 07
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 10000
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Wind_Of_Verdure
+        Rate: 500
+      - Item: Andre_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1105
+    AegisName: DENIRO
+    Name: Deniro
+    Level: 40
+    Hp: 1164
+    BaseExp: 250
+    JobExp: 275
+    Attack: 125
+    Attack2: 88
+    Defense: 28
+    MagicDefense: 21
+    Str: 32
+    Agi: 40 
+    Vit: 28
+    Int: 14
+    Dex: 40
+    Luk: 13
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Fire
+    ElementLevel: 1
+    WalkSpeed: 150
+    AttackDelay: 1288
+    AttackMotion: 288
+    DamageMotion: 576
+    Ai: 07
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 10000
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Boody_Red
+        Rate: 500
+      - Item: Andre_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1160
+    AegisName: PIERE
+    Name: Piere
+    Level: 40
+    Hp: 1042
+    BaseExp: 250
+    JobExp: 275
+    Attack: 72
+    Attack2: 51
+    Defense: 40
+    MagicDefense: 40
+    Str: 18
+    Agi: 13
+    Vit: 40
+    Int: 17
+    Dex: 22
+    Luk: 14
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1288
+    AttackMotion: 288
+    DamageMotion: 576
+    Ai: 07
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 4500
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Yellow_Live
+        Rate: 500
+      - Item: Andre_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1176
+    AegisName: VITATA
+    Name: Vitata
+    Level: 40
+    Hp: 900
+    BaseExp: 250
+    JobExp: 275
+    Attack: 80
+    Attack2: 60
+    Defense: 22
+    MagicDefense: 40
+    Str: 13
+    Agi: 17
+    Vit: 40
+    Int: 40
+    Dex: 28
+    Luk: 12
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Insect
+    Element: Water
+    ElementLevel: 1
+    WalkSpeed: 300
+    AttackDelay: 1768
+    AttackMotion: 768
+    DamageMotion: 384
+    Ai: 17
+    Modes:
+      Detector: true
+    Drops:
+      - Item: Worm_Peelings
+        Rate: 10000
+      - Item: Insect_Feeler
+        Rate: 5000
+      - Item: Crystal_Blue
+        Rate: 500
+      - Item: Vitata_Card
+        Rate: 20
+        StealProtected: true
+
+  - Id: 1040
+    AegisName: GOLEM
+    Name: Golem
+    Level: 40
+    Hp: 1750
+    BaseExp: 250
+    JobExp: 275
+    Attack: 125
+    Attack2: 100
+    Defense: 50
+    MagicDefense: 12
+    Str: 40
+    Agi: 1
+    Vit: 40
+    Int: 1
+    Dex: 40
+    Luk: 1
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Formless
+    RaceGroups:
+      Golem: true
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 300
+    AttackDelay: 1608
+    AttackMotion: 816
+    DamageMotion: 396
+    Ai: 17
+    Drops:
+      - Item: Stone_Heart
+        Rate: 10000
+      - Item: Iron
+        Rate: 2500
+      - Item: Steel
+        Rate: 1000
+      - Item: Golem_Card
+        Rate: 20
+        StealProtected: true
+
+###################################### Geffen ######################################
+
+  - Id: 1155
+    AegisName: PETIT
+    Name: Petite
+    Level: 40
+    Hp: 1421
+    BaseExp: 250
+    JobExp: 275
+    Attack: 110
+    Attack2: 97
+    Defense: 40
+    MagicDefense: 40
+    Str: 40
+    Agi: 32
+    Vit: 18
+    Int: 37
+    Dex: 40
+    Luk: 17
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Dragon
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 250
+    AttackDelay: 2468
+    AttackMotion: 768
+    DamageMotion: 480
+    Ai: 19
+    Drops:
+      - Item: Dragon_Canine
+        Rate: 2668
+      - Item: Dragon_Train
+        Rate: 150
+      - Item: Oridecon_Stone
+        Rate: 70
+      - Item: White_Herb
+        Rate: 500
+      - Item: Scarlet_Mace
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Petti_Tail
+        Rate: 50
+      - Item: Aloebera
+        Rate: 8
+      - Item: Petit_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1156
+    AegisName: PETIT_
+    Name: Petite
+    Level: 40
+    Hp: 1467
+    BaseExp: 250
+    JobExp: 275
+    Attack: 123
+    Attack2: 91
+    Defense: 37
+    MagicDefense: 40
+    Str: 27
+    Agi: 28
+    Vit: 22
+    Int: 33
+    Dex: 40
+    Luk: 19
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Dragon
+    Element: Wind
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1872
+    AttackMotion: 672
+    DamageMotion: 288
+    Ai: 19
+    Drops:
+      - Item: Dragon_Scale
+        Rate: 2668
+      - Item: Dragon_Train
+        Rate: 150
+      - Item: Elunium
+        Rate: 31
+      - Item: White_Herb
+        Rate: 500
+      - Item: Khukri
+        Rate: 3
+      - Item: Zargon
+        Rate: 750
+      - Item: Aloebera
+        Rate: 8
+      - Item: Petit__Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1384
+    AegisName: DELETER
+    Name: Deleter
+    Level: 40
+    Hp: 1322
+    BaseExp: 250
+    JobExp: 275
+    Attack: 109
+    Attack2: 97
+    Defense: 40
+    MagicDefense: 36
+    Str: 33
+    Agi: 35
+    Vit: 18
+    Int: 23
+    Dex: 37
+    Luk: 21
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Dragon
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 175
+    AttackDelay: 1020
+    AttackMotion: 720
+    DamageMotion: 384
+    Ai: 13
+    Drops:
+      - Item: Dragon's_Skin
+        Rate: 1000
+      - Item: Dragon_Canine
+        Rate: 1300
+      - Item: Dragon_Train
+        Rate: 1000
+      - Item: Dragon_Scale
+        Rate: 1000
+      - Item: Strange_Foxtail
+        Rate: 20
+      - Item: Doram_Only_Cape
+        Rate: 20
+      - Item: Flying_Deleter_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1385
+    AegisName: DELETER_
+    Name: Deleter
+    Level: 40
+    Hp: 1173
+    BaseExp: 250
+    JobExp: 275
+    Attack: 98
+    Attack2: 59
+    Defense: 40
+    MagicDefense: 40
+    Str: 20
+    Agi: 22
+    Vit: 20
+    Int: 15
+    Dex: 33
+    Luk: 17
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Dragon
+    Element: Fire
+    ElementLevel: 2
+    WalkSpeed: 175
+    AttackDelay: 1024
+    AttackMotion: 624
+    DamageMotion: 336
+    Ai: 13
+    Drops:
+      - Item: Dragon's_Skin
+        Rate: 1000
+      - Item: Dragon_Canine
+        Rate: 1300
+      - Item: Dragon_Train
+        Rate: 1000
+      - Item: Dragon_Scale
+        Rate: 1000
+      - Item: Stone_Buckler
+        Rate: 5
+      - Item: Detail_Model_Foxtail
+        Rate: 20
+      - Item: Doram_Only_Shoes
+        Rate: 20
+      - Item: Deleter_Card
+        Rate: 1
+        StealProtected: true
+
+###################################### Payon ######################################
+
+  - Id: 1180
+    AegisName: NINE_TAIL
+    Name: Nine Tail
+    Level: 40
+    Hp: 1382
+    BaseExp: 250
+    JobExp: 275
+    Attack: 119
+    Attack2: 73
+    Defense: 27
+    MagicDefense: 33
+    Str: 19
+    Agi: 33
+    Vit: 18
+    Int: 27  
+    Dex: 33
+    Luk: 40
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Fire
+    ElementLevel: 3
+    WalkSpeed: 140
+    AttackDelay: 840
+    AttackMotion: 540
+    DamageMotion: 480
+    Ai: 21
+    Drops:
+      - Item: Fox_Tail
+        Rate: 2328
+      - Item: Glass_Bead
+        Rate: 100
+      - Item: Old_Blue_Box
+        Rate: 50
+      - Item: Branch_Of_Dead_Tree
+        Rate: 50
+      - Item: Royal_Jelly
+        Rate: 125
+      - Item: Panacea
+        Rate: 175
+      - Item: Oridecon_Stone
+        Rate: 50
+      - Item: Nine_Tail_Card
+        Rate: 1
+        StealProtected: true
+
+###################################### Al De Baran ######################################
+
+  - Id: 1037
+    AegisName: SIDE_WINDER
+    Name: Side Winder
+    Level: 40
+    Hp: 1240
+    BaseExp: 250
+    JobExp: 275
+    Attack: 100
+    Attack2: 75
+    Defense: 35
+    MagicDefense: 25
+    Str: 28
+    Agi: 28
+    Vit: 25
+    Int: 20
+    Dex: 40
+    Luk: 15
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Poison
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1576
+    AttackMotion: 576
+    DamageMotion: 576
+    Ai: 19
+    Drops:
+      - Item: Shining_Scales
+        Rate: 2668
+      - Item: Zargon
+        Rate: 700
+      - Item: Oridecon_Stone
+        Rate: 67
+      - Item: Tsurugi_
+        Rate: 1
+      - Item: Posionous_Canine
+        Rate: 1250
+      - Item: Scale_Of_Snakes
+        Rate: 2500
+      - Item: White_Herb
+        Rate: 500
+      - Item: Side_Winder_Card
+        Rate: 1
+        StealProtected: true
+
+  - Id: 1025
+    AegisName: SNAKE
+    Name: Boa
+    JapaneseName: Snake
+    Level: 40
+    Hp: 1150
+    BaseExp: 250
+    JobExp: 275
+    Attack: 85
+    Attack2: 60
+    Defense: 30
+    MagicDefense: 22
+    Str: 22
+    Agi: 35
+    Vit: 28
+    Int: 10
+    Dex: 32
+    Luk: 15
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Earth
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1576
+    AttackMotion: 576
+    DamageMotion: 576
+    Ai: 01
+    Drops:
+      - Item: Scale_Of_Snakes
+        Rate: 8000
+      - Item: Katana_
+        Rate: 20
+      - Item: Red_Herb
+        Rate: 800
+      - Item: Emveretarcon
+        Rate: 100
+      - Item: Posionous_Canine
+        Rate: 800
+      - Item: Wing_Of_Fly
+        Rate: 500
+      - Item: Strawberry
+        Rate: 3000
+      - Item: Snake_Card
+        Rate: 10
+        StealProtected: true
+
+  - Id: 1030
+    AegisName: ANACONDAQ
+    Name: Anacondaq
+    Level: 40
+    Hp: 1679
+    BaseExp: 250
+    JobExp: 275
+    Attack: 120
+    Attack2: 90
+    Defense: 40
+    MagicDefense: 30
+    Str: 35
+    Agi: 30
+    Vit: 32
+    Int: 25
+    Dex: 38
+    Luk: 25
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Brute
+    Element: Poison
+    ElementLevel: 1
+    WalkSpeed: 200
+    AttackDelay: 1576
+    AttackMotion: 576
+    DamageMotion: 576
+    Ai: 17
+    Drops:
+      - Item: White_Powder
+        Rate: 100
+      - Item: Posionous_Canine
+        Rate: 4500
+      - Item: Scarlet_Lance
+        Rate: 50
+        RandomOptionGroup: Group_5
+      - Item: Scale_Of_Snakes
+        Rate: 750
+      - Item: Scales_Shell
+        Rate: 100
+      - Item: Doram_Only_Suit
+        Rate: 20
+      - Item: Oridecon_Stone
+        Rate: 25
+      - Item: Anacondaq_Card
+        Rate: 1
+        StealProtected: true
