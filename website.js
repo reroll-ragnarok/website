@@ -32,11 +32,11 @@ function loadYAMLFile(filePath) {
     }
 }
 
-// Load monsters from db/re/reroll/*.yml files
+// Load monsters from public/db/*.yml files
 function loadMonsters() {
     if (monstersCache) return monstersCache;
     
-    const rerollDir = path.join(__dirname, '..', 'db', 're', 'reroll');
+    const rerollDir = path.join(__dirname, 'public', 'db');
     let allMonsters = [];
     
     try {
@@ -48,20 +48,20 @@ function loadMonsters() {
             allMonsters.push(...monsters);
         });
         
-        console.log(`Loaded ${allMonsters.length} monsters from ${files.length} files in db/re/reroll/`);
+        console.log(`Loaded ${allMonsters.length} monsters from ${files.length} files in public/db/`);
     } catch (error) {
-        console.error('Error loading monsters from db/re/reroll/:', error.message);
+        console.error('Error loading monsters from public/db/:', error.message);
     }
     
     monstersCache = allMonsters;
     return allMonsters;
 }
 
-// Load spawn information from npc/re/mobs/mobs.txt
+// Load spawn information from public/db/mobs.txt
 function loadSpawns() {
     if (spawnsCache) return spawnsCache;
     
-    const mobsFilePath = path.join(__dirname, '..', 'npc', 're', 'mobs', 'mobs.txt');
+    const mobsFilePath = path.join(__dirname, 'public', 'db', 'mobs.txt');
     const spawns = [];
     
     try {
@@ -98,7 +98,7 @@ function loadSpawns() {
         });
         
         spawnsCache = spawns;
-        console.log(`Loaded ${spawns.length} monster spawns from npc/re/mobs/mobs.txt`);
+        console.log(`Loaded ${spawns.length} monster spawns from public/db/mobs.txt`);
         return spawns;
     } catch (error) {
         console.error('Error loading spawns:', error.message);
@@ -110,7 +110,7 @@ function loadSpawns() {
 function loadItems() {
     if (itemsCache) return itemsCache;
     
-    const itemDbDir = path.join(__dirname, '..', 'db', 're');
+    const itemDbDir = path.join(__dirname, 'public', 'db');
     let allItems = [];
     
     try {
@@ -125,20 +125,20 @@ function loadItems() {
             }
         });
         
-        console.log(`Loaded ${allItems.length} items from ${itemFiles.length} files in db/re/`);
+        console.log(`Loaded ${allItems.length} items from ${itemFiles.length} files in public/db/`);
     } catch (error) {
-        console.error('Error loading items from db/re/:', error.message);
+        console.error('Error loading items from public/db/:', error.message);
     }
     
     itemsCache = allItems;
     return allItems;
 }
 
-// Load maps from npc/re/warps/runemidgard.txt
+// Load maps from public/db/runemidgard.txt
 function loadMaps() {
     if (mapsCache) return mapsCache;
     
-    const warpFilePath = path.join(__dirname, '..', 'npc', 're', 'warps', 'runemidgard.txt');
+    const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
     const maps = new Map(); // Use Map to track unique map names
     
     try {
@@ -179,7 +179,7 @@ function loadMaps() {
         
         const mapArray = Array.from(maps.values());
         mapsCache = mapArray;
-        console.log(`Loaded ${mapArray.length} maps from npc/re/warps/runemidgard.txt`);
+        console.log(`Loaded ${mapArray.length} maps from public/db/runemidgard.txt`);
         return mapArray;
     } catch (error) {
         console.error('Error loading maps:', error.message);
@@ -280,7 +280,7 @@ app.get('/api/spawns/map/:mapName', (req, res) => {
 
 app.get('/api/maps/:mapName/warps', (req, res) => {
     try {
-        const warpFilePath = path.join(__dirname, '..', 'npc', 're', 'warps', 'runemidgard.txt');
+        const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
         const warps = [];
         const mapName = req.params.mapName;
         
