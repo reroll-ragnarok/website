@@ -1,0 +1,83 @@
+{
+  "Id": 1092,
+  "AegisName": "VAGABOND_WOLF",
+  "Name": "Vagabond Wolf",
+  "Level": 30,
+  "Hp": 3750,
+  "BaseExp": 2000,
+  "JobExp": 1750,
+  "Attack": 140,
+  "Attack2": 65,
+  "Defense": 50,
+  "MagicDefense": 40,
+  "Str": 30,
+  "Agi": 24,
+  "Vit": 13,
+  "Int": 12,
+  "Dex": 70,
+  "Luk": 25,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 1048,
+  "AttackMotion": 648,
+  "DamageMotion": 432,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Western_Grace",
+      "Rate": 100
+    },
+    {
+      "Item": "Claw_Of_Wolves",
+      "Rate": 4000
+    },
+    {
+      "Item": "Golden_Jewel",
+      "Rate": 750
+    },
+    {
+      "Item": "Star_Dust_Blade",
+      "Rate": 50
+    },
+    {
+      "Item": "Angel's_Warmth",
+      "Rate": 500
+    },
+    {
+      "Item": "Light_Granule",
+      "Rate": 250
+    },
+    {
+      "Item": "Monster_Juice",
+      "Rate": 25
+    },
+    {
+      "Item": "Vagabond_Wolf_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild13",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1092,
+      "mobName": "Vagabond Wolf",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

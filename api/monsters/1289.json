@@ -1,0 +1,59 @@
+{
+  "Id": 1289,
+  "AegisName": "MAYA_PUPLE",
+  "Name": "Maya Purple",
+  "Level": 40,
+  "Hp": 7000,
+  "BaseExp": 2500,
+  "JobExp": 2750,
+  "Attack": 165,
+  "Attack2": 85,
+  "Defense": 65,
+  "MagicDefense": 50,
+  "Str": 45,
+  "Agi": 38,
+  "Vit": 42,
+  "Int": 40,
+  "Dex": 45,
+  "Luk": 35,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Insect",
+  "Element": "Earth",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 1024,
+  "AttackMotion": 1000,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Queen's_Hair_Ornament",
+      "Rate": 1000
+    },
+    {
+      "Item": "Maya_Puple_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild17",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1289,
+      "mobName": "Maya Purple",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

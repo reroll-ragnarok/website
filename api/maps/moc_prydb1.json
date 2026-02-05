@@ -1,0 +1,82 @@
+[
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 100,
+    "sourceY": 55,
+    "direction": "South",
+    "warpName": "mocprydb1_01",
+    "destMap": "moc_pryd06",
+    "destX": 101,
+    "destY": 183
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 111,
+    "sourceY": 115,
+    "direction": "West",
+    "warpName": "mocprydb1_03",
+    "destMap": "moc_ruins",
+    "destX": 58,
+    "destY": 161
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 100,
+    "sourceY": 191,
+    "direction": "West",
+    "warpName": "mocprydb1_04",
+    "destMap": "moc_pryd03",
+    "destX": 100,
+    "destY": 94
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 100,
+    "sourceY": 104,
+    "direction": "West",
+    "warpName": "mocprydb1_05",
+    "destMap": "moc_prydb1",
+    "destX": 100,
+    "destY": 74
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 100,
+    "sourceY": 77,
+    "direction": "South",
+    "warpName": "mocprydb1_06",
+    "destMap": "moc_prydb1",
+    "destX": 100,
+    "destY": 107
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 142,
+    "sourceY": 115,
+    "direction": "South",
+    "warpName": "mocprydb1_07",
+    "destMap": "moc_prydb1",
+    "destX": 108,
+    "destY": 115
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 59,
+    "sourceY": 115,
+    "direction": "West",
+    "warpName": "mocprydb1_08",
+    "destMap": "moc_prydb1",
+    "destX": 90,
+    "destY": 115
+  },
+  {
+    "sourceMap": "moc_prydb1",
+    "sourceX": 87,
+    "sourceY": 115,
+    "direction": "West",
+    "warpName": "mocprydb1_09",
+    "destMap": "moc_prydb1",
+    "destX": 56,
+    "destY": 115
+  }
+]

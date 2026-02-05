@@ -1,0 +1,89 @@
+{
+  "Id": 1204,
+  "AegisName": "TIRFING",
+  "Name": "Ogretooth",
+  "JapaneseName": "Tirfing",
+  "Level": 99,
+  "Hp": 90000,
+  "BaseExp": 30000,
+  "JobExp": 7750,
+  "Attack": 1780,
+  "Attack2": 580,
+  "Defense": 115,
+  "MagicDefense": 80,
+  "Str": 92,
+  "Agi": 98,
+  "Vit": 75,
+  "Int": 70,
+  "Dex": 140,
+  "Luk": 85,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 100,
+  "AttackDelay": 816,
+  "AttackMotion": 500,
+  "DamageMotion": 240,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Old_Hilt",
+      "Rate": 1
+    },
+    {
+      "Item": "Silver_Knife_Of_Chaste",
+      "Rate": 25
+    },
+    {
+      "Item": "Muscovite",
+      "Rate": 750
+    },
+    {
+      "Item": "Scarlet_Dagger",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scarlet_Saber",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Steel",
+      "Rate": 60
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 95
+    },
+    {
+      "Item": "Tirfing_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_in01",
+      "x": 40,
+      "y": 155,
+      "xs": 20,
+      "ys": 40,
+      "mobId": 1204,
+      "mobName": "Ogretooth",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

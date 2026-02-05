@@ -1,0 +1,77 @@
+{
+  "Id": 1388,
+  "AegisName": "ARCHANGELING",
+  "Name": "Arc Angeling",
+  "JapaneseName": "Archangeling",
+  "Level": 90,
+  "Hp": 85000,
+  "BaseExp": 15000,
+  "JobExp": 6500,
+  "Attack": 620,
+  "Attack2": 280,
+  "Defense": 110,
+  "MagicDefense": 90,
+  "Str": 40,
+  "Agi": 75,
+  "Vit": 70,
+  "Int": 90,
+  "Dex": 85,
+  "Luk": 85,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Angel",
+  "Element": "Holy",
+  "ElementLevel": 3,
+  "WalkSpeed": 180,
+  "AttackDelay": 1072,
+  "AttackMotion": 672,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Drops": [
+    {
+      "Item": "Satanic_Chain",
+      "Rate": 3
+    },
+    {
+      "Item": "Seed_Of_Yggdrasil",
+      "Rate": 75
+    },
+    {
+      "Item": "Agate",
+      "Rate": 750
+    },
+    {
+      "Item": "Angelic_Chain",
+      "Rate": 3
+    },
+    {
+      "Item": "Plate_Armor_",
+      "Rate": 2
+    },
+    {
+      "Item": "Turquoise",
+      "Rate": 750
+    },
+    {
+      "Item": "Archangeling_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1388,
+      "mobName": "Arch Angeling",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

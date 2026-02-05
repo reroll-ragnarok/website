@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "yuno_fild03",
+    "sourceX": 179,
+    "sourceY": 15,
+    "direction": "South",
+    "warpName": "yunofild03_01",
+    "destMap": "yuno_fild01",
+    "destX": 286,
+    "destY": 364
+  },
+  {
+    "sourceMap": "yuno_fild03",
+    "sourceX": 19,
+    "sourceY": 79,
+    "direction": "West",
+    "warpName": "yunofild03_02",
+    "destMap": "yuno_fild04",
+    "destX": 373,
+    "destY": 84
+  },
+  {
+    "sourceMap": "yuno_fild03",
+    "sourceX": 20,
+    "sourceY": 155,
+    "direction": "West",
+    "warpName": "yunofild03_03",
+    "destMap": "yuno_fild04",
+    "destX": 373,
+    "destY": 150
+  },
+  {
+    "sourceMap": "yuno_fild03",
+    "sourceX": 32,
+    "sourceY": 139,
+    "direction": "West",
+    "warpName": "yunfild-mag01",
+    "destMap": "mag_dun01",
+    "destX": 126,
+    "destY": 68
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "Id": 1146,
+  "AegisName": "MATYR",
+  "Name": "Matyr",
+  "Level": 80,
+  "Hp": 6844,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 322,
+  "Attack2": 271,
+  "Defense": 83,
+  "MagicDefense": 45,
+  "Str": 24,
+  "Agi": 80,
+  "Vit": 27,
+  "Int": 33,
+  "Dex": 53,
+  "Luk": 74,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 600,
+  "AttackMotion": 500,
+  "DamageMotion": 360,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Matyr's_Flea_Guard",
+      "Rate": 5
+    },
+    {
+      "Item": "Monster's_Feed",
+      "Rate": 2500
+    },
+    {
+      "Item": "Animal's_Skin",
+      "Rate": 2750
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 50
+    },
+    {
+      "Item": "Grape",
+      "Rate": 100
+    },
+    {
+      "Item": "Matyr_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "in_sphinx5",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1146,
+      "mobName": "Matyr",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Id": 1001,
+  "AegisName": "SCORPION",
+  "Name": "Scorpion",
+  "Level": 60,
+  "Hp": 2523,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 187,
+  "Attack2": 176,
+  "Defense": 34,
+  "MagicDefense": 8,
+  "Str": 36,
+  "Agi": 46,
+  "Vit": 33,
+  "Int": 11,
+  "Dex": 43,
+  "Luk": 12,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1564,
+  "AttackMotion": 864,
+  "DamageMotion": 576,
+  "Ai": 19,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Scorpion's_Tail",
+      "Rate": 10000
+    },
+    {
+      "Item": "Solid_Shell",
+      "Rate": 5000
+    },
+    {
+      "Item": "Fine_Grit",
+      "Rate": 2500
+    },
+    {
+      "Item": "Scorpion_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild19",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1001,
+      "mobName": "Scorpion",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

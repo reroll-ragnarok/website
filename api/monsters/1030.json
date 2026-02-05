@@ -1,0 +1,80 @@
+{
+  "Id": 1030,
+  "AegisName": "ANACONDAQ",
+  "Name": "Anacondaq",
+  "Level": 40,
+  "Hp": 1679,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 120,
+  "Attack2": 90,
+  "Defense": 40,
+  "MagicDefense": 30,
+  "Str": 35,
+  "Agi": 30,
+  "Vit": 32,
+  "Int": 25,
+  "Dex": 38,
+  "Luk": 25,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1576,
+  "AttackMotion": 576,
+  "DamageMotion": 576,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "White_Powder",
+      "Rate": 100
+    },
+    {
+      "Item": "Posionous_Canine",
+      "Rate": 4500
+    },
+    {
+      "Item": "Scarlet_Lance",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scale_Of_Snakes",
+      "Rate": 750
+    },
+    {
+      "Item": "Scales_Shell",
+      "Rate": 100
+    },
+    {
+      "Item": "Doram_Only_Suit",
+      "Rate": 20
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 25
+    },
+    {
+      "Item": "Anacondaq_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjolnir_12",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1030,
+      "mobName": "Anacondaq",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "Id": 1154,
+  "AegisName": "PASANA",
+  "Name": "Pasana",
+  "Level": 80,
+  "Hp": 7421,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 366,
+  "Attack2": 274,
+  "Defense": 93,
+  "MagicDefense": 35,
+  "Str": 73,
+  "Agi": 34,
+  "Vit": 55,
+  "Int": 22,
+  "Dex": 67,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 165,
+  "AttackDelay": 976,
+  "AttackMotion": 576,
+  "DamageMotion": 288,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Vroken_Sword",
+      "Rate": 2183
+    },
+    {
+      "Item": "Honey_Jar",
+      "Rate": 1250
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 10
+    },
+    {
+      "Item": "Scarlet_Saber",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scarlet_Dagger",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Undershirt",
+      "Rate": 50
+    },
+    {
+      "Item": "Pasana_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "in_sphinx5",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1154,
+      "mobName": "Pasana",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

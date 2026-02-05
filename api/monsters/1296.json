@@ -1,0 +1,87 @@
+{
+  "Id": 1296,
+  "AegisName": "KOBOLD_LEADER",
+  "Name": "Kobold Leader",
+  "Level": 80,
+  "Hp": 60000,
+  "BaseExp": 7500,
+  "JobExp": 5500,
+  "Attack": 420,
+  "Attack2": 210,
+  "Defense": 120,
+  "MagicDefense": 75,
+  "Str": 70,
+  "Agi": 55,
+  "Vit": 60,
+  "Int": 45,
+  "Dex": 65,
+  "Luk": 45,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Kobold": true
+  },
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1028,
+  "AttackMotion": 528,
+  "DamageMotion": 360,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Steel",
+      "Rate": 225
+    },
+    {
+      "Item": "Cobold_Hair",
+      "Rate": 3153
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 600
+    },
+    {
+      "Item": "Scarlet_Mace",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Mighty_Staff",
+      "Rate": 1
+    },
+    {
+      "Item": "Panacea",
+      "Rate": 75
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 50
+    },
+    {
+      "Item": "Kobold_Leader_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1296,
+      "mobName": "Kobold Leader",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

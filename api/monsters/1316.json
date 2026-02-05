@@ -1,0 +1,80 @@
+{
+  "Id": 1316,
+  "AegisName": "SOLIDER",
+  "Name": "Solider",
+  "Level": 90,
+  "Hp": 22156,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 834,
+  "Attack2": 512,
+  "Defense": 92,
+  "MagicDefense": 88,
+  "Str": 68,
+  "Agi": 47,
+  "Vit": 89,
+  "Int": 48,
+  "Dex": 56,
+  "Luk": 31,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Neutral",
+  "ElementLevel": 2,
+  "WalkSpeed": 250,
+  "AttackDelay": 1452,
+  "AttackMotion": 483,
+  "DamageMotion": 528,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 2207
+    },
+    {
+      "Item": "Broken_Shell",
+      "Rate": 32
+    },
+    {
+      "Item": "Stone_Piece",
+      "Rate": 425
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 1050
+    },
+    {
+      "Item": "Doram_Only_Shoes",
+      "Rate": 20
+    },
+    {
+      "Item": "Honey",
+      "Rate": 425
+    },
+    {
+      "Item": "Scarlet_Mace",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Solider_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1316,
+      "mobName": "Soldier",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

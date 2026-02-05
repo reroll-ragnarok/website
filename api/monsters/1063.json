@@ -1,0 +1,70 @@
+{
+  "Id": 1063,
+  "AegisName": "LUNATIC",
+  "Name": "Lunatic",
+  "Level": 10,
+  "Hp": 135,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 11,
+  "Attack2": 1,
+  "Defense": 10,
+  "Str": 10,
+  "Agi": 1,
+  "Vit": 5,
+  "Int": 6,
+  "Dex": 7,
+  "Luk": 15,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 1456,
+  "AttackMotion": 456,
+  "DamageMotion": 336,
+  "Ai": 1,
+  "Drops": [
+    {
+      "Item": "Clover",
+      "Rate": 10000
+    },
+    {
+      "Item": "Feather",
+      "Rate": 5000
+    },
+    {
+      "Item": "Carrot",
+      "Rate": 2500
+    },
+    {
+      "Item": "Rainbow_Carrot",
+      "Rate": 1000
+    },
+    {
+      "Item": "Pierrot_Nose",
+      "Rate": 50
+    },
+    {
+      "Item": "Lunatic_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1063,
+      "mobName": "Lunatic",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

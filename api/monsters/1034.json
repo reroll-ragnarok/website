@@ -1,0 +1,79 @@
+{
+  "Id": 1034,
+  "AegisName": "THARA_FROG",
+  "Name": "Thara Frog",
+  "Level": 1,
+  "Hp": 90,
+  "BaseExp": 50,
+  "JobExp": 25,
+  "Attack": 7,
+  "Attack2": 3,
+  "Defense": 5,
+  "MagicDefense": 5,
+  "Str": 9,
+  "Agi": 1,
+  "Vit": 6,
+  "Int": 7,
+  "Dex": 5,
+  "Luk": 6,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 2016,
+  "AttackMotion": 816,
+  "DamageMotion": 288,
+  "Ai": 1,
+  "Drops": [
+    {
+      "Item": "Emveretarcon",
+      "Rate": 23
+    },
+    {
+      "Item": "Spawn",
+      "Rate": 2750
+    },
+    {
+      "Item": "Scell",
+      "Rate": 300
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 15
+    },
+    {
+      "Item": "Red_Jewel",
+      "Rate": 3
+    },
+    {
+      "Item": "Sticky_Webfoot",
+      "Rate": 1000
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Thara_Frog_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild00",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1034,
+      "mobName": "Thara Frog",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

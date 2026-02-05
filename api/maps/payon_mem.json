@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "payon_mem",
+    "sourceX": 90,
+    "sourceY": 22,
+    "direction": "South",
+    "warpName": "payon_01",
+    "destMap": "pay_fild03",
+    "destX": 176,
+    "destY": 278
+  },
+  {
+    "sourceMap": "payon_mem",
+    "sourceX": 18,
+    "sourceY": 151,
+    "direction": "West",
+    "warpName": "payon_02",
+    "destMap": "moc_fild13",
+    "destX": 302,
+    "destY": 49
+  },
+  {
+    "sourceMap": "payon_mem",
+    "sourceX": 189,
+    "sourceY": 70,
+    "direction": "South",
+    "warpName": "payon_03",
+    "destMap": "pay_fild10",
+    "destX": 21,
+    "destY": 291
+  },
+  {
+    "sourceMap": "payon_mem",
+    "sourceX": 174,
+    "sourceY": 189,
+    "direction": "North",
+    "warpName": "payon_04",
+    "destMap": "pay_arche",
+    "destX": 80,
+    "destY": 22
+  }
+]

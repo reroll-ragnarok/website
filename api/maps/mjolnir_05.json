@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "mjolnir_05",
+    "sourceX": 16,
+    "sourceY": 171,
+    "direction": "West",
+    "warpName": "mjolnir05_01",
+    "destMap": "mjolnir_02",
+    "destX": 324,
+    "destY": 289
+  },
+  {
+    "sourceMap": "mjolnir_05",
+    "sourceX": 235,
+    "sourceY": 16,
+    "direction": "South",
+    "warpName": "mjolnir05_02",
+    "destMap": "prt_fild05",
+    "destX": 291,
+    "destY": 380
+  },
+  {
+    "sourceMap": "mjolnir_05",
+    "sourceX": 220,
+    "sourceY": 382,
+    "direction": "North",
+    "warpName": "mjolnir05_03",
+    "destMap": "mjolnir_12",
+    "destX": 220,
+    "destY": 29
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "Id": 1044,
+  "AegisName": "OBEAUNE",
+  "Name": "Obeaune",
+  "Level": 70,
+  "Hp": 4123,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 214,
+  "Attack2": 204,
+  "Defense": 48,
+  "MagicDefense": 26,
+  "Str": 22,
+  "Agi": 61,
+  "Vit": 28,
+  "Int": 67,
+  "Dex": 58,
+  "Luk": 13,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1872,
+  "AttackMotion": 672,
+  "DamageMotion": 288,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 7
+    },
+    {
+      "Item": "Heart_Of_Mermaid",
+      "Rate": 4500
+    },
+    {
+      "Item": "Fin_Helm",
+      "Rate": 1
+    },
+    {
+      "Item": "Saint_Robe_",
+      "Rate": 5
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 5
+    },
+    {
+      "Item": "Fin",
+      "Rate": 250
+    },
+    {
+      "Item": "Witherless_Rose",
+      "Rate": 15
+    },
+    {
+      "Item": "Obeaune_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1044,
+      "mobName": "Obeaune",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

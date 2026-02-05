@@ -1,0 +1,55 @@
+{
+  "Id": 1049,
+  "AegisName": "PICKY",
+  "Name": "Picky",
+  "Level": 10,
+  "Hp": 80,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 14,
+  "Attack2": 2,
+  "Defense": 12,
+  "MagicDefense": 5,
+  "Str": 6,
+  "Agi": 4,
+  "Vit": 10,
+  "Int": 8,
+  "Dex": 10,
+  "Luk": 7,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 988,
+  "AttackMotion": 288,
+  "DamageMotion": 168,
+  "Ai": 1,
+  "Drops": [
+    {
+      "Item": "Feather_Of_Birds",
+      "Rate": 10000
+    },
+    {
+      "Item": "Picky_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild12",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1049,
+      "mobName": "Picky",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

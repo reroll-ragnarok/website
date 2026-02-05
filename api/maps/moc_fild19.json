@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "moc_fild19",
+    "sourceX": 169,
+    "sourceY": 107,
+    "direction": "South",
+    "warpName": "mocfild19_01",
+    "destMap": "morocc",
+    "destX": 27,
+    "destY": 164
+  },
+  {
+    "sourceMap": "moc_fild19",
+    "sourceX": 71,
+    "sourceY": 170,
+    "direction": "West",
+    "warpName": "mocfild19_02",
+    "destMap": "moc_ruins",
+    "destX": 71,
+    "destY": 19
+  },
+  {
+    "sourceMap": "moc_fild19",
+    "sourceX": 98,
+    "sourceY": 99,
+    "direction": "West",
+    "warpName": "mocfild19_03",
+    "destMap": "in_sphinx4",
+    "destX": 10,
+    "destY": 220
+  }
+]

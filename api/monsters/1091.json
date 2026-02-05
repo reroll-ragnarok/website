@@ -1,0 +1,67 @@
+{
+  "Id": 1091,
+  "AegisName": "DRAGON_FLY",
+  "Name": "Dragon Fly",
+  "Level": 20,
+  "Hp": 1650,
+  "BaseExp": 1500,
+  "JobExp": 1000,
+  "Attack": 50,
+  "Attack2": 25,
+  "Defense": 20,
+  "MagicDefense": 20,
+  "Str": 12,
+  "Agi": 15,
+  "Vit": 8,
+  "Int": 13,
+  "Dex": 18,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 1,
+  "WalkSpeed": 100,
+  "AttackDelay": 1076,
+  "AttackMotion": 576,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Grape_Juice",
+      "Rate": 10000
+    },
+    {
+      "Item": "Violet_Jewel",
+      "Rate": 5000
+    },
+    {
+      "Item": "Chonchon_Doll",
+      "Rate": 2500
+    },
+    {
+      "Item": "Dragon_Fly_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1091,
+      "mobName": "Dragon Fly",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

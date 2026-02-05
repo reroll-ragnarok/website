@@ -1,0 +1,2940 @@
+{
+  "prontera": [
+    {
+      "sourceMap": "prontera",
+      "sourceX": 156,
+      "sourceY": 22,
+      "direction": "South",
+      "warpName": "prontera_01",
+      "destMap": "prt_fild08",
+      "destX": 170,
+      "destY": 375
+    },
+    {
+      "sourceMap": "prontera",
+      "sourceX": 22,
+      "sourceY": 203,
+      "direction": "West",
+      "warpName": "prontera_02",
+      "destMap": "prt_fild05",
+      "destX": 367,
+      "destY": 205
+    },
+    {
+      "sourceMap": "prontera",
+      "sourceX": 289,
+      "sourceY": 203,
+      "direction": "East",
+      "warpName": "prontera_03",
+      "destMap": "prt_fild06",
+      "destX": 27,
+      "destY": 193
+    }
+  ],
+  "prt_fild08": [
+    {
+      "sourceMap": "prt_fild08",
+      "sourceX": 233,
+      "sourceY": 16,
+      "direction": "South",
+      "warpName": "prtfild08_01",
+      "destMap": "moc_fild13",
+      "destX": 144,
+      "destY": 364
+    },
+    {
+      "sourceMap": "prt_fild08",
+      "sourceX": 16,
+      "sourceY": 187,
+      "direction": "West",
+      "warpName": "prtfild08_02",
+      "destMap": "prt_fild05",
+      "destX": 142,
+      "destY": 25
+    },
+    {
+      "sourceMap": "prt_fild08",
+      "sourceX": 16,
+      "sourceY": 239,
+      "direction": "West",
+      "warpName": "prtfild08_03",
+      "destMap": "prt_fild05",
+      "destX": 256,
+      "destY": 16
+    },
+    {
+      "sourceMap": "prt_fild08",
+      "sourceX": 371,
+      "sourceY": 212,
+      "direction": "East",
+      "warpName": "prtfild08_04",
+      "destMap": "izlude",
+      "destX": 35,
+      "destY": 78
+    },
+    {
+      "sourceMap": "prt_fild08",
+      "sourceX": 170,
+      "sourceY": 378,
+      "direction": "North",
+      "warpName": "prtfild08_05",
+      "destMap": "prontera",
+      "destX": 156,
+      "destY": 26
+    }
+  ],
+  "prt_fild05": [
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 253,
+      "sourceY": 14,
+      "direction": "South",
+      "warpName": "prtfild05_01",
+      "destMap": "prt_fild08",
+      "destX": 20,
+      "destY": 239
+    },
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 142,
+      "sourceY": 18,
+      "direction": "South",
+      "warpName": "prtfild05_02",
+      "destMap": "prt_fild08",
+      "destX": 20,
+      "destY": 187
+    },
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 14,
+      "sourceY": 146,
+      "direction": "West",
+      "warpName": "prtfild05_03",
+      "destMap": "gef_fild00",
+      "destX": 376,
+      "destY": 140
+    },
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 373,
+      "sourceY": 205,
+      "direction": "East",
+      "warpName": "prtfild05_04",
+      "destMap": "prontera",
+      "destX": 26,
+      "destY": 203
+    },
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 291,
+      "sourceY": 385,
+      "direction": "North",
+      "warpName": "prtfild05_05",
+      "destMap": "mjolnir_05",
+      "destX": 235,
+      "destY": 19
+    },
+    {
+      "sourceMap": "prt_fild05",
+      "sourceX": 270,
+      "sourceY": 212,
+      "direction": "East",
+      "warpName": "prtfild05_sewb",
+      "destMap": "prt_sewb3",
+      "destX": 180,
+      "destY": 170
+    }
+  ],
+  "prt_fild06": [
+    {
+      "sourceMap": "prt_fild06",
+      "sourceX": 23,
+      "sourceY": 193,
+      "direction": "West",
+      "warpName": "prtfild06_01",
+      "destMap": "prontera",
+      "destX": 285,
+      "destY": 203
+    }
+  ],
+  "geffen": [
+    {
+      "sourceMap": "geffen",
+      "sourceX": 26,
+      "sourceY": 119,
+      "direction": "West",
+      "warpName": "geffen_01",
+      "destMap": "gef_fild07",
+      "destX": 336,
+      "destY": 187
+    },
+    {
+      "sourceMap": "geffen",
+      "sourceX": 217,
+      "sourceY": 119,
+      "direction": "South",
+      "warpName": "geffen_02",
+      "destMap": "gef_fild00",
+      "destX": 46,
+      "destY": 199
+    },
+    {
+      "sourceMap": "geffen",
+      "sourceX": 119,
+      "sourceY": 213,
+      "direction": "West",
+      "warpName": "geffen_03",
+      "destMap": "gef_fild04",
+      "destX": 187,
+      "destY": 42
+    },
+    {
+      "sourceMap": "geffen",
+      "sourceX": 120,
+      "sourceY": 114,
+      "direction": "South",
+      "warpName": "geffen_04",
+      "destMap": "gef_tower",
+      "destX": 112,
+      "destY": 110
+    }
+  ],
+  "gef_fild07": [
+    {
+      "sourceMap": "gef_fild07",
+      "sourceX": 40,
+      "sourceY": 19,
+      "direction": "South",
+      "warpName": "geffild07_01",
+      "destMap": "gef_fild11",
+      "destX": 114,
+      "destY": 360
+    },
+    {
+      "sourceMap": "gef_fild07",
+      "sourceX": 18,
+      "sourceY": 191,
+      "direction": "West",
+      "warpName": "geffild07_02",
+      "destMap": "gef_fild06",
+      "destX": 377,
+      "destY": 212
+    },
+    {
+      "sourceMap": "gef_fild07",
+      "sourceX": 339,
+      "sourceY": 187,
+      "direction": "East",
+      "warpName": "geffild07_03",
+      "destMap": "geffen",
+      "destX": 29,
+      "destY": 119
+    }
+  ],
+  "gef_fild06": [
+    {
+      "sourceMap": "gef_fild06",
+      "sourceX": 218,
+      "sourceY": 17,
+      "direction": "South",
+      "warpName": "geffild06_01",
+      "destMap": "gef_fild10",
+      "destX": 234,
+      "destY": 351
+    },
+    {
+      "sourceMap": "gef_fild06",
+      "sourceX": 382,
+      "sourceY": 211,
+      "direction": "East",
+      "warpName": "geffild06_02",
+      "destMap": "gef_fild07",
+      "destX": 22,
+      "destY": 191
+    }
+  ],
+  "gef_fild00": [
+    {
+      "sourceMap": "gef_fild00",
+      "sourceX": 40,
+      "sourceY": 199,
+      "direction": "West",
+      "warpName": "geffild00_01",
+      "destMap": "geffen",
+      "destX": 213,
+      "destY": 119
+    },
+    {
+      "sourceMap": "gef_fild00",
+      "sourceX": 381,
+      "sourceY": 137,
+      "direction": "East",
+      "warpName": "geffild00_02",
+      "destMap": "prt_fild05",
+      "destX": 20,
+      "destY": 332
+    }
+  ],
+  "gef_fild04": [
+    {
+      "sourceMap": "gef_fild04",
+      "sourceX": 187,
+      "sourceY": 39,
+      "direction": "South",
+      "warpName": "geffild04_01",
+      "destMap": "geffen",
+      "destX": 119,
+      "destY": 210
+    },
+    {
+      "sourceMap": "gef_fild04",
+      "sourceX": 261,
+      "sourceY": 362,
+      "direction": "North",
+      "warpName": "geffild04_03",
+      "destMap": "mjolnir_02",
+      "destX": 361,
+      "destY": 22
+    }
+  ],
+  "gef_fild10": [
+    {
+      "sourceMap": "gef_fild10",
+      "sourceX": 63,
+      "sourceY": 337,
+      "direction": "North",
+      "warpName": "geffild10_03",
+      "destMap": "in_orcs01",
+      "destX": 30,
+      "destY": 157
+    },
+    {
+      "sourceMap": "gef_fild10",
+      "sourceX": 223,
+      "sourceY": 205,
+      "direction": "East",
+      "warpName": "geffild10_04",
+      "destMap": "in_orcs01",
+      "destX": 108,
+      "destY": 89
+    },
+    {
+      "sourceMap": "gef_fild10",
+      "sourceX": 237,
+      "sourceY": 355,
+      "direction": "North",
+      "warpName": "geffild10_05",
+      "destMap": "gef_fild07",
+      "destX": 39,
+      "destY": 24
+    },
+    {
+      "sourceMap": "gef_fild10",
+      "sourceX": 215,
+      "sourceY": 51,
+      "direction": "South",
+      "warpName": "geffild10_08",
+      "destMap": "in_orcs01",
+      "destX": 162,
+      "destY": 53
+    }
+  ],
+  "gef_fild11": [
+    {
+      "sourceMap": "gef_fild11",
+      "sourceX": 111,
+      "sourceY": 364,
+      "direction": "North",
+      "warpName": "geffild11_02",
+      "destMap": "gef_fild07",
+      "destX": 40,
+      "destY": 22
+    }
+  ],
+  "mjolnir_02": [
+    {
+      "sourceMap": "mjolnir_02",
+      "sourceX": 361,
+      "sourceY": 18,
+      "direction": "East",
+      "warpName": "mjolnir02_01",
+      "destMap": "gef_fild04",
+      "destX": 261,
+      "destY": 357
+    },
+    {
+      "sourceMap": "mjolnir_02",
+      "sourceX": 326,
+      "sourceY": 289,
+      "direction": "East",
+      "warpName": "mjolnir02_02",
+      "destMap": "mjolnir_05",
+      "destX": 20,
+      "destY": 171
+    },
+    {
+      "sourceMap": "mjolnir_02",
+      "sourceX": 79,
+      "sourceY": 365,
+      "direction": "North",
+      "warpName": "mjolnir02_03",
+      "destMap": "mjo_dun02",
+      "destX": 380,
+      "destY": 344
+    }
+  ],
+  "mjolnir_05": [
+    {
+      "sourceMap": "mjolnir_05",
+      "sourceX": 16,
+      "sourceY": 171,
+      "direction": "West",
+      "warpName": "mjolnir05_01",
+      "destMap": "mjolnir_02",
+      "destX": 324,
+      "destY": 289
+    },
+    {
+      "sourceMap": "mjolnir_05",
+      "sourceX": 235,
+      "sourceY": 16,
+      "direction": "South",
+      "warpName": "mjolnir05_02",
+      "destMap": "prt_fild05",
+      "destX": 291,
+      "destY": 380
+    },
+    {
+      "sourceMap": "mjolnir_05",
+      "sourceX": 220,
+      "sourceY": 382,
+      "direction": "North",
+      "warpName": "mjolnir05_03",
+      "destMap": "mjolnir_12",
+      "destX": 220,
+      "destY": 29
+    }
+  ],
+  "morocc": [
+    {
+      "sourceMap": "morocc",
+      "sourceX": 160,
+      "sourceY": 17,
+      "direction": "South",
+      "warpName": "morocc_01",
+      "destMap": "moc_fild12",
+      "destX": 159,
+      "destY": 378
+    },
+    {
+      "sourceMap": "morocc",
+      "sourceX": 24,
+      "sourceY": 164,
+      "direction": "West",
+      "warpName": "morocc_02",
+      "destMap": "moc_fild19",
+      "destX": 164,
+      "destY": 107
+    },
+    {
+      "sourceMap": "morocc",
+      "sourceX": 299,
+      "sourceY": 207,
+      "direction": "East",
+      "warpName": "morocc_03",
+      "destMap": "moc_fild10",
+      "destX": 26,
+      "destY": 207
+    }
+  ],
+  "moc_fild12": [
+    {
+      "sourceMap": "moc_fild12",
+      "sourceX": 117,
+      "sourceY": 30,
+      "direction": "South",
+      "warpName": "mocfild12_01",
+      "destMap": "cmd_fild02",
+      "destX": 378,
+      "destY": 266
+    },
+    {
+      "sourceMap": "moc_fild12",
+      "sourceX": 289,
+      "sourceY": 168,
+      "direction": "East",
+      "warpName": "mocfild12_02",
+      "destMap": "moc_fild17",
+      "destX": 35,
+      "destY": 297
+    },
+    {
+      "sourceMap": "moc_fild12",
+      "sourceX": 159,
+      "sourceY": 381,
+      "direction": "North",
+      "warpName": "mocfild12_03",
+      "destMap": "morocc",
+      "destX": 160,
+      "destY": 20
+    }
+  ],
+  "moc_fild17": [
+    {
+      "sourceMap": "moc_fild17",
+      "sourceX": 30,
+      "sourceY": 300,
+      "direction": "West",
+      "warpName": "mocfild17_01",
+      "destMap": "moc_fild12",
+      "destX": 284,
+      "destY": 171
+    },
+    {
+      "sourceMap": "moc_fild17",
+      "sourceX": 218,
+      "sourceY": 369,
+      "direction": "North",
+      "warpName": "mocfild17_03",
+      "destMap": "moc_fild10",
+      "destX": 189,
+      "destY": 29
+    },
+    {
+      "sourceMap": "moc_fild17",
+      "sourceX": 209,
+      "sourceY": 230,
+      "direction": "North",
+      "warpName": "anthell02_01",
+      "destMap": "anthell02",
+      "destX": 168,
+      "destY": 170
+    }
+  ],
+  "moc_fild19": [
+    {
+      "sourceMap": "moc_fild19",
+      "sourceX": 169,
+      "sourceY": 107,
+      "direction": "South",
+      "warpName": "mocfild19_01",
+      "destMap": "morocc",
+      "destX": 27,
+      "destY": 164
+    },
+    {
+      "sourceMap": "moc_fild19",
+      "sourceX": 71,
+      "sourceY": 170,
+      "direction": "West",
+      "warpName": "mocfild19_02",
+      "destMap": "moc_ruins",
+      "destX": 71,
+      "destY": 19
+    },
+    {
+      "sourceMap": "moc_fild19",
+      "sourceX": 98,
+      "sourceY": 99,
+      "direction": "West",
+      "warpName": "mocfild19_03",
+      "destMap": "in_sphinx4",
+      "destX": 10,
+      "destY": 220
+    }
+  ],
+  "moc_fild10": [
+    {
+      "sourceMap": "moc_fild10",
+      "sourceX": 188,
+      "sourceY": 23,
+      "direction": "South",
+      "warpName": "mocfild10_01",
+      "destMap": "moc_fild17",
+      "destX": 218,
+      "destY": 365
+    },
+    {
+      "sourceMap": "moc_fild10",
+      "sourceX": 21,
+      "sourceY": 207,
+      "direction": "West",
+      "warpName": "mocfild10_02",
+      "destMap": "morocc",
+      "destX": 295,
+      "destY": 207
+    },
+    {
+      "sourceMap": "moc_fild10",
+      "sourceX": 390,
+      "sourceY": 258,
+      "direction": "East",
+      "warpName": "mocfild10_03",
+      "destMap": "moc_fild13",
+      "destX": 35,
+      "destY": 171
+    }
+  ],
+  "moc_fild13": [
+    {
+      "sourceMap": "moc_fild13",
+      "sourceX": 30,
+      "sourceY": 171,
+      "direction": "West",
+      "warpName": "mocfild13_01",
+      "destMap": "moc_fild10",
+      "destX": 387,
+      "destY": 258
+    },
+    {
+      "sourceMap": "moc_fild13",
+      "sourceX": 308,
+      "sourceY": 49,
+      "direction": "East",
+      "warpName": "mocfild13_02",
+      "destMap": "payon_mem",
+      "destX": 22,
+      "destY": 151
+    },
+    {
+      "sourceMap": "moc_fild13",
+      "sourceX": 144,
+      "sourceY": 368,
+      "direction": "North",
+      "warpName": "mocfild13_03",
+      "destMap": "prt_fild08",
+      "destX": 233,
+      "destY": 24
+    }
+  ],
+  "moc_ruins": [
+    {
+      "sourceMap": "moc_ruins",
+      "sourceX": 71,
+      "sourceY": 16,
+      "direction": "South",
+      "warpName": "mocruins_01",
+      "destMap": "moc_fild19",
+      "destX": 71,
+      "destY": 167
+    },
+    {
+      "sourceMap": "moc_ruins",
+      "sourceX": 159,
+      "sourceY": 39,
+      "direction": "South",
+      "warpName": "mocruins_02",
+      "destMap": "morocc",
+      "destX": 30,
+      "destY": 290
+    },
+    {
+      "sourceMap": "moc_ruins",
+      "sourceX": 54,
+      "sourceY": 161,
+      "direction": "West",
+      "warpName": "mocprydb1_02",
+      "destMap": "moc_prydb1",
+      "destX": 108,
+      "destY": 115
+    }
+  ],
+  "payon_mem": [
+    {
+      "sourceMap": "payon_mem",
+      "sourceX": 90,
+      "sourceY": 22,
+      "direction": "South",
+      "warpName": "payon_01",
+      "destMap": "pay_fild03",
+      "destX": 176,
+      "destY": 278
+    },
+    {
+      "sourceMap": "payon_mem",
+      "sourceX": 18,
+      "sourceY": 151,
+      "direction": "West",
+      "warpName": "payon_02",
+      "destMap": "moc_fild13",
+      "destX": 302,
+      "destY": 49
+    },
+    {
+      "sourceMap": "payon_mem",
+      "sourceX": 189,
+      "sourceY": 70,
+      "direction": "South",
+      "warpName": "payon_03",
+      "destMap": "pay_fild10",
+      "destX": 21,
+      "destY": 291
+    },
+    {
+      "sourceMap": "payon_mem",
+      "sourceX": 174,
+      "sourceY": 189,
+      "direction": "North",
+      "warpName": "payon_04",
+      "destMap": "pay_arche",
+      "destX": 80,
+      "destY": 22
+    }
+  ],
+  "alberta": [
+    {
+      "sourceMap": "alberta",
+      "sourceX": 15,
+      "sourceY": 234,
+      "direction": "West",
+      "warpName": "alberta_01",
+      "destMap": "pay_fild03",
+      "destX": 388,
+      "destY": 63
+    }
+  ],
+  "pay_fild03": [
+    {
+      "sourceMap": "pay_fild03",
+      "sourceX": 15,
+      "sourceY": 110,
+      "direction": "West",
+      "warpName": "payfild03_01",
+      "destMap": "payon_mem",
+      "destX": 90,
+      "destY": 26
+    },
+    {
+      "sourceMap": "pay_fild03",
+      "sourceX": 392,
+      "sourceY": 63,
+      "direction": "East",
+      "warpName": "payfild03_03",
+      "destMap": "alberta",
+      "destX": 19,
+      "destY": 233
+    }
+  ],
+  "pay_fild10": [
+    {
+      "sourceMap": "pay_fild10",
+      "sourceX": 16,
+      "sourceY": 290,
+      "direction": "West",
+      "warpName": "payfild10_01",
+      "destMap": "payon_mem",
+      "destX": 183,
+      "destY": 69
+    }
+  ],
+  "pay_arche": [
+    {
+      "sourceMap": "pay_arche",
+      "sourceX": 81,
+      "sourceY": 18,
+      "direction": "South",
+      "warpName": "payarche_01",
+      "destMap": "payon_mem",
+      "destX": 174,
+      "destY": 185
+    },
+    {
+      "sourceMap": "pay_arche",
+      "sourceX": 36,
+      "sourceY": 131,
+      "direction": "West",
+      "warpName": "payarche_02",
+      "destMap": "pay_dun03",
+      "destX": 155,
+      "destY": 157
+    }
+  ],
+  "aldebaran": [
+    {
+      "sourceMap": "aldebaran",
+      "sourceX": 139,
+      "sourceY": 135,
+      "direction": "South",
+      "warpName": "aldedun01_01",
+      "destMap": "c_tower1",
+      "destX": 199,
+      "destY": 161
+    }
+  ],
+  "mjolnir_12": [
+    {
+      "sourceMap": "mjolnir_12",
+      "sourceX": 199,
+      "sourceY": 378,
+      "direction": "North",
+      "warpName": "mjolnir12_01",
+      "destMap": "aldebaran",
+      "destX": 138,
+      "destY": 37
+    },
+    {
+      "sourceMap": "mjolnir_12",
+      "sourceX": 220,
+      "sourceY": 26,
+      "direction": "South",
+      "warpName": "mjolnir12_02",
+      "destMap": "mjolnir_05",
+      "destX": 220,
+      "destY": 379
+    },
+    {
+      "sourceMap": "mjolnir_12",
+      "sourceX": 44,
+      "sourceY": 17,
+      "direction": "South",
+      "warpName": "mjolnir12_03",
+      "destMap": "prt_maze01",
+      "destX": 17,
+      "destY": 111
+    }
+  ],
+  "yuno_fild01": [
+    {
+      "sourceMap": "yuno_fild01",
+      "sourceX": 208,
+      "sourceY": 17,
+      "direction": "South",
+      "warpName": "yunofild01_01",
+      "destMap": "aldebaran",
+      "destX": 140,
+      "destY": 242
+    },
+    {
+      "sourceMap": "yuno_fild01",
+      "sourceX": 286,
+      "sourceY": 368,
+      "direction": "North",
+      "warpName": "yunofild01_02",
+      "destMap": "yuno_fild03",
+      "destX": 180,
+      "destY": 20
+    },
+    {
+      "sourceMap": "yuno_fild01",
+      "sourceX": 70,
+      "sourceY": 378,
+      "direction": "North",
+      "warpName": "yunofild01_03",
+      "destMap": "yuno_fild04",
+      "destX": 250,
+      "destY": 25
+    }
+  ],
+  "yuno": [
+    {
+      "sourceMap": "yuno",
+      "sourceX": 158,
+      "sourceY": 15,
+      "direction": "South",
+      "warpName": "yuno_01",
+      "destMap": "yuno_fild04",
+      "destX": 231,
+      "destY": 284
+    }
+  ],
+  "yuno_fild04": [
+    {
+      "sourceMap": "yuno_fild04",
+      "sourceX": 251,
+      "sourceY": 21,
+      "direction": "South",
+      "warpName": "yunofild04_01",
+      "destMap": "yuno_fild01",
+      "destX": 70,
+      "destY": 374
+    },
+    {
+      "sourceMap": "yuno_fild04",
+      "sourceX": 375,
+      "sourceY": 84,
+      "direction": "East",
+      "warpName": "yunofild04_02",
+      "destMap": "yuno_fild03",
+      "destX": 21,
+      "destY": 79
+    },
+    {
+      "sourceMap": "yuno_fild04",
+      "sourceX": 375,
+      "sourceY": 150,
+      "direction": "East",
+      "warpName": "yunofild04_03",
+      "destMap": "yuno_fild03",
+      "destX": 22,
+      "destY": 155
+    },
+    {
+      "sourceMap": "yuno_fild04",
+      "sourceX": 231,
+      "sourceY": 288,
+      "direction": "North",
+      "warpName": "yunofild04_04",
+      "destMap": "yuno",
+      "destX": 158,
+      "destY": 17
+    }
+  ],
+  "yuno_fild03": [
+    {
+      "sourceMap": "yuno_fild03",
+      "sourceX": 179,
+      "sourceY": 15,
+      "direction": "South",
+      "warpName": "yunofild03_01",
+      "destMap": "yuno_fild01",
+      "destX": 286,
+      "destY": 364
+    },
+    {
+      "sourceMap": "yuno_fild03",
+      "sourceX": 19,
+      "sourceY": 79,
+      "direction": "West",
+      "warpName": "yunofild03_02",
+      "destMap": "yuno_fild04",
+      "destX": 373,
+      "destY": 84
+    },
+    {
+      "sourceMap": "yuno_fild03",
+      "sourceX": 20,
+      "sourceY": 155,
+      "direction": "West",
+      "warpName": "yunofild03_03",
+      "destMap": "yuno_fild04",
+      "destX": 373,
+      "destY": 150
+    },
+    {
+      "sourceMap": "yuno_fild03",
+      "sourceX": 32,
+      "sourceY": 139,
+      "direction": "West",
+      "warpName": "yunfild-mag01",
+      "destMap": "mag_dun01",
+      "destX": 126,
+      "destY": 68
+    }
+  ],
+  "comodo": [
+    {
+      "sourceMap": "comodo",
+      "sourceX": 24,
+      "sourceY": 214,
+      "direction": "West",
+      "warpName": "comodo_01",
+      "destMap": "beach_dun",
+      "destX": 266,
+      "destY": 67
+    },
+    {
+      "sourceMap": "comodo",
+      "sourceX": 333,
+      "sourceY": 175,
+      "direction": "East",
+      "warpName": "comodo_02",
+      "destMap": "beach_dun3",
+      "destX": 23,
+      "destY": 260
+    },
+    {
+      "sourceMap": "comodo",
+      "sourceX": 176,
+      "sourceY": 358,
+      "direction": "North",
+      "warpName": "comodo_03",
+      "destMap": "beach_dun2",
+      "destX": 154,
+      "destY": 25
+    }
+  ],
+  "beach_dun3": [
+    {
+      "sourceMap": "beach_dun3",
+      "sourceX": 17,
+      "sourceY": 265,
+      "direction": "West",
+      "warpName": "beachdun3_01",
+      "destMap": "comodo",
+      "destX": 328,
+      "destY": 175
+    },
+    {
+      "sourceMap": "beach_dun3",
+      "sourceX": 286,
+      "sourceY": 57,
+      "direction": "South",
+      "warpName": "beachdun3_02",
+      "destMap": "cmd_fild03",
+      "destX": 28,
+      "destY": 69
+    }
+  ],
+  "beach_dun": [
+    {
+      "sourceMap": "beach_dun",
+      "sourceX": 276,
+      "sourceY": 67,
+      "direction": "South",
+      "warpName": "beachdun_01",
+      "destMap": "comodo",
+      "destX": 31,
+      "destY": 215
+    }
+  ],
+  "beach_dun2": [
+    {
+      "sourceMap": "beach_dun2",
+      "sourceX": 154,
+      "sourceY": 13,
+      "direction": "South",
+      "warpName": "beachdun2_01",
+      "destMap": "comodo",
+      "destX": 176,
+      "destY": 353
+    },
+    {
+      "sourceMap": "beach_dun2",
+      "sourceX": 258,
+      "sourceY": 244,
+      "direction": "East",
+      "warpName": "beachdun2_02",
+      "destMap": "um_fild04",
+      "destX": 182,
+      "destY": 19
+    }
+  ],
+  "cmd_fild03": [
+    {
+      "sourceMap": "cmd_fild03",
+      "sourceX": 23,
+      "sourceY": 68,
+      "direction": "West",
+      "warpName": "cmdfild03_01",
+      "destMap": "beach_dun3",
+      "destX": 283,
+      "destY": 57
+    },
+    {
+      "sourceMap": "cmd_fild03",
+      "sourceX": 181,
+      "sourceY": 18,
+      "direction": "South",
+      "warpName": "cmdfild03_02",
+      "destMap": "cmd_fild02",
+      "destX": 222,
+      "destY": 372
+    }
+  ],
+  "cmd_fild02": [
+    {
+      "sourceMap": "cmd_fild02",
+      "sourceX": 222,
+      "sourceY": 376,
+      "direction": "North",
+      "warpName": "cmdfild02_01",
+      "destMap": "cmd_fild03",
+      "destX": 182,
+      "destY": 21
+    },
+    {
+      "sourceMap": "cmd_fild02",
+      "sourceX": 382,
+      "sourceY": 269,
+      "direction": "East",
+      "warpName": "cmdfild02_02",
+      "destMap": "moc_fild12",
+      "destX": 118,
+      "destY": 35
+    }
+  ],
+  "umbala": [
+    {
+      "sourceMap": "umbala",
+      "sourceX": 130,
+      "sourceY": 79,
+      "direction": "South",
+      "warpName": "umbala_01",
+      "destMap": "um_fild04",
+      "destX": 215,
+      "destY": 336
+    },
+    {
+      "sourceMap": "umbala",
+      "sourceX": 106,
+      "sourceY": 285,
+      "direction": "North",
+      "warpName": "umbala_02",
+      "destMap": "yggdrasil01",
+      "destX": 44,
+      "destY": 63
+    }
+  ],
+  "um_fild04": [
+    {
+      "sourceMap": "um_fild04",
+      "sourceX": 182,
+      "sourceY": 13,
+      "direction": "South",
+      "warpName": "umfild04_01",
+      "destMap": "beach_dun2",
+      "destX": 255,
+      "destY": 244
+    },
+    {
+      "sourceMap": "um_fild04",
+      "sourceX": 215,
+      "sourceY": 339,
+      "direction": "North",
+      "warpName": "umfild04_02",
+      "destMap": "umbala",
+      "destX": 130,
+      "destY": 82
+    }
+  ],
+  "yggdrasil01": [
+    {
+      "sourceMap": "yggdrasil01",
+      "sourceX": 40,
+      "sourceY": 63,
+      "direction": "West",
+      "warpName": "yggdrasil01_01",
+      "destMap": "umbala",
+      "destX": 110,
+      "destY": 285
+    },
+    {
+      "sourceMap": "yggdrasil01",
+      "sourceX": 271,
+      "sourceY": 51,
+      "direction": "South",
+      "warpName": "yggdrasil01_02",
+      "destMap": "yggdrasil01",
+      "destX": 26,
+      "destY": 196
+    },
+    {
+      "sourceMap": "yggdrasil01",
+      "sourceX": 26,
+      "sourceY": 193,
+      "direction": "West",
+      "warpName": "yggdrasil01_03",
+      "destMap": "yggdrasil01",
+      "destX": 269,
+      "destY": 53
+    },
+    {
+      "sourceMap": "yggdrasil01",
+      "sourceX": 249,
+      "sourceY": 262,
+      "direction": "North",
+      "warpName": "yggdrasil01_04",
+      "destMap": "nif_fild01",
+      "destX": 315,
+      "destY": 66
+    }
+  ],
+  "niflheim": [
+    {
+      "sourceMap": "niflheim",
+      "sourceX": 18,
+      "sourceY": 151,
+      "direction": "West",
+      "warpName": "nifheim_01",
+      "destMap": "nif_fild02",
+      "destX": 376,
+      "destY": 235
+    }
+  ],
+  "nif_fild01": [
+    {
+      "sourceMap": "nif_fild01",
+      "sourceX": 315,
+      "sourceY": 63,
+      "direction": "East",
+      "warpName": "niffild01_01",
+      "destMap": "yggdrasil01",
+      "destX": 246,
+      "destY": 259
+    },
+    {
+      "sourceMap": "nif_fild01",
+      "sourceX": 345,
+      "sourceY": 323,
+      "direction": "East",
+      "warpName": "niffild01_02",
+      "destMap": "nif_fild02",
+      "destX": 23,
+      "destY": 312
+    }
+  ],
+  "nif_fild02": [
+    {
+      "sourceMap": "nif_fild02",
+      "sourceX": 21,
+      "sourceY": 312,
+      "direction": "West",
+      "warpName": "niffild02_01",
+      "destMap": "nif_fild01",
+      "destX": 343,
+      "destY": 322
+    },
+    {
+      "sourceMap": "nif_fild02",
+      "sourceX": 379,
+      "sourceY": 235,
+      "direction": "East",
+      "warpName": "niffild02_02",
+      "destMap": "niflheim",
+      "destX": 20,
+      "destY": 153
+    }
+  ],
+  "glast_01": [
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 200,
+      "sourceY": 137,
+      "direction": "South",
+      "warpName": "glast01_01",
+      "destMap": "gl_chyard",
+      "destX": 147,
+      "destY": 16
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 200,
+      "sourceY": 170,
+      "direction": "East",
+      "warpName": "glast01_02",
+      "destMap": "gl_chyard",
+      "destX": 147,
+      "destY": 284
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 51,
+      "sourceY": 108,
+      "direction": "West",
+      "warpName": "glast01_03",
+      "destMap": "gl_prison1",
+      "destX": 150,
+      "destY": 15
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 77,
+      "sourceY": 193,
+      "direction": "West",
+      "warpName": "glast01_04",
+      "destMap": "gl_knt01",
+      "destX": 150,
+      "destY": 15
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 377,
+      "sourceY": 304,
+      "direction": "East",
+      "warpName": "glast01_05",
+      "destMap": "gef_fild06",
+      "destX": 27,
+      "destY": 304
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 200,
+      "sourceY": 297,
+      "direction": "North",
+      "warpName": "glast01_06",
+      "destMap": "gl_cas01",
+      "destX": 199,
+      "destY": 29
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 199,
+      "sourceY": 322,
+      "direction": "North",
+      "warpName": "glast01_07",
+      "destMap": "gl_cas02",
+      "destX": 104,
+      "destY": 189
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 162,
+      "sourceY": 330,
+      "direction": "North",
+      "warpName": "glast01_08",
+      "destMap": "gl_in01",
+      "destX": 77,
+      "destY": 68
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 179,
+      "sourceY": 360,
+      "direction": "North",
+      "warpName": "glast01_09",
+      "destMap": "gl_in01",
+      "destX": 80,
+      "destY": 174
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 220,
+      "sourceY": 360,
+      "direction": "North",
+      "warpName": "glast01_10",
+      "destMap": "gl_in01",
+      "destX": 110,
+      "destY": 125
+    },
+    {
+      "sourceMap": "glast_01",
+      "sourceX": 237,
+      "sourceY": 330,
+      "direction": "North",
+      "warpName": "glast01_11",
+      "destMap": "gl_in01",
+      "destX": 122,
+      "destY": 59
+    }
+  ],
+  "gl_chyard": [
+    {
+      "sourceMap": "gl_chyard",
+      "sourceX": 147,
+      "sourceY": 12,
+      "direction": "South",
+      "warpName": "glchyard_01",
+      "destMap": "glast_01",
+      "destX": 200,
+      "destY": 134
+    },
+    {
+      "sourceMap": "gl_chyard",
+      "sourceX": 147,
+      "sourceY": 287,
+      "direction": "North",
+      "warpName": "glchyard_02",
+      "destMap": "glast_01",
+      "destX": 200,
+      "destY": 173
+    }
+  ],
+  "gl_prison1": [
+    {
+      "sourceMap": "gl_prison1",
+      "sourceX": 150,
+      "sourceY": 10,
+      "direction": "South",
+      "warpName": "glprison1_01",
+      "destMap": "glast_01",
+      "destX": 54,
+      "destY": 108
+    }
+  ],
+  "gl_knt01": [
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 150,
+      "sourceY": 6,
+      "direction": "South",
+      "warpName": "glknt01_01",
+      "destMap": "glast_01",
+      "destX": 74,
+      "destY": 193
+    },
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 12,
+      "sourceY": 148,
+      "direction": "West",
+      "warpName": "glknt01_02",
+      "destMap": "gl_knt02",
+      "destX": 15,
+      "destY": 140
+    },
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 287,
+      "sourceY": 144,
+      "direction": "East",
+      "warpName": "glknt01_03",
+      "destMap": "gl_knt02",
+      "destX": 283,
+      "destY": 140
+    },
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 150,
+      "sourceY": 291,
+      "direction": "North",
+      "warpName": "glknt01_05",
+      "destMap": "gl_knt02",
+      "destX": 157,
+      "destY": 287
+    },
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 104,
+      "sourceY": 204,
+      "direction": "West",
+      "warpName": "glknt01_06",
+      "destMap": "gl_knt01",
+      "destX": 123,
+      "destY": 292
+    },
+    {
+      "sourceMap": "gl_knt01",
+      "sourceX": 128,
+      "sourceY": 292,
+      "direction": "North",
+      "warpName": "glknt01_07",
+      "destMap": "gl_knt01",
+      "destX": 104,
+      "destY": 199
+    }
+  ],
+  "gl_knt02": [
+    {
+      "sourceMap": "gl_knt02",
+      "sourceX": 10,
+      "sourceY": 138,
+      "direction": "West",
+      "warpName": "glknt02_01",
+      "destMap": "gl_knt01",
+      "destX": 7,
+      "destY": 148
+    },
+    {
+      "sourceMap": "gl_knt02",
+      "sourceX": 157,
+      "sourceY": 292,
+      "direction": "North",
+      "warpName": "glknt02_02",
+      "destMap": "gl_knt01",
+      "destX": 150,
+      "destY": 286
+    },
+    {
+      "sourceMap": "gl_knt02",
+      "sourceX": 289,
+      "sourceY": 138,
+      "direction": "East",
+      "warpName": "glknt02_03",
+      "destMap": "gl_knt01",
+      "destX": 292,
+      "destY": 144
+    }
+  ],
+  "gl_cas01": [
+    {
+      "sourceMap": "gl_cas01",
+      "sourceX": 200,
+      "sourceY": 18,
+      "direction": "South",
+      "warpName": "glcas01_01",
+      "destMap": "glast_01",
+      "destX": 200,
+      "destY": 294
+    },
+    {
+      "sourceMap": "gl_cas01",
+      "sourceX": 200,
+      "sourceY": 165,
+      "direction": "East",
+      "warpName": "glcas01_10",
+      "destMap": "gl_cas02",
+      "destX": 103,
+      "destY": 119
+    }
+  ],
+  "gl_cas02": [
+    {
+      "sourceMap": "gl_cas02",
+      "sourceX": 104,
+      "sourceY": 15,
+      "direction": "South",
+      "warpName": "glcas02_01",
+      "destMap": "gl_cas01",
+      "destX": 200,
+      "destY": 160
+    },
+    {
+      "sourceMap": "gl_cas02",
+      "sourceX": 104,
+      "sourceY": 193,
+      "direction": "West",
+      "warpName": "glcas02_02",
+      "destMap": "glast_01",
+      "destX": 199,
+      "destY": 325
+    }
+  ],
+  "anthell02": [
+    {
+      "sourceMap": "anthell02",
+      "sourceX": 172,
+      "sourceY": 169,
+      "direction": "South",
+      "warpName": "anthell02_02",
+      "destMap": "moc_fild17",
+      "destX": 206,
+      "destY": 233
+    }
+  ],
+  "moc_prydb1": [
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 100,
+      "sourceY": 55,
+      "direction": "South",
+      "warpName": "mocprydb1_01",
+      "destMap": "moc_pryd06",
+      "destX": 101,
+      "destY": 183
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 111,
+      "sourceY": 115,
+      "direction": "West",
+      "warpName": "mocprydb1_03",
+      "destMap": "moc_ruins",
+      "destX": 58,
+      "destY": 161
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 100,
+      "sourceY": 191,
+      "direction": "West",
+      "warpName": "mocprydb1_04",
+      "destMap": "moc_pryd03",
+      "destX": 100,
+      "destY": 94
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 100,
+      "sourceY": 104,
+      "direction": "West",
+      "warpName": "mocprydb1_05",
+      "destMap": "moc_prydb1",
+      "destX": 100,
+      "destY": 74
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 100,
+      "sourceY": 77,
+      "direction": "South",
+      "warpName": "mocprydb1_06",
+      "destMap": "moc_prydb1",
+      "destX": 100,
+      "destY": 107
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 142,
+      "sourceY": 115,
+      "direction": "South",
+      "warpName": "mocprydb1_07",
+      "destMap": "moc_prydb1",
+      "destX": 108,
+      "destY": 115
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 59,
+      "sourceY": 115,
+      "direction": "West",
+      "warpName": "mocprydb1_08",
+      "destMap": "moc_prydb1",
+      "destX": 90,
+      "destY": 115
+    },
+    {
+      "sourceMap": "moc_prydb1",
+      "sourceX": 87,
+      "sourceY": 115,
+      "direction": "West",
+      "warpName": "mocprydb1_09",
+      "destMap": "moc_prydb1",
+      "destX": 56,
+      "destY": 115
+    }
+  ],
+  "moc_pryd03": [
+    {
+      "sourceMap": "moc_pryd03",
+      "sourceX": 100,
+      "sourceY": 97,
+      "direction": "South",
+      "warpName": "mocpryd03_01",
+      "destMap": "moc_prydb1",
+      "destX": 100,
+      "destY": 187
+    },
+    {
+      "sourceMap": "moc_pryd03",
+      "sourceX": 12,
+      "sourceY": 15,
+      "direction": "West",
+      "warpName": "mocpryd03_02",
+      "destMap": "moc_pryd04",
+      "destX": 12,
+      "destY": 18
+    },
+    {
+      "sourceMap": "moc_pryd03",
+      "sourceX": 15,
+      "sourceY": 187,
+      "direction": "West",
+      "warpName": "mocpryd03_03",
+      "destMap": "moc_pryd04",
+      "destX": 18,
+      "destY": 187
+    },
+    {
+      "sourceMap": "moc_pryd03",
+      "sourceX": 184,
+      "sourceY": 11,
+      "direction": "South",
+      "warpName": "mocpryd03_04",
+      "destMap": "moc_pryd04",
+      "destX": 181,
+      "destY": 11
+    },
+    {
+      "sourceMap": "moc_pryd03",
+      "sourceX": 188,
+      "sourceY": 184,
+      "direction": "East",
+      "warpName": "mocpryd03_05",
+      "destMap": "moc_pryd04",
+      "destX": 188,
+      "destY": 181
+    }
+  ],
+  "moc_pryd04": [
+    {
+      "sourceMap": "moc_pryd04",
+      "sourceX": 12,
+      "sourceY": 15,
+      "direction": "West",
+      "warpName": "mocpryd04_01",
+      "destMap": "moc_pryd03",
+      "destX": 12,
+      "destY": 18
+    },
+    {
+      "sourceMap": "moc_pryd04",
+      "sourceX": 15,
+      "sourceY": 187,
+      "direction": "West",
+      "warpName": "mocpryd04_02",
+      "destMap": "moc_pryd03",
+      "destX": 18,
+      "destY": 187
+    },
+    {
+      "sourceMap": "moc_pryd04",
+      "sourceX": 184,
+      "sourceY": 11,
+      "direction": "South",
+      "warpName": "mocpryd04_03",
+      "destMap": "moc_pryd03",
+      "destX": 181,
+      "destY": 11
+    },
+    {
+      "sourceMap": "moc_pryd04",
+      "sourceX": 188,
+      "sourceY": 184,
+      "direction": "East",
+      "warpName": "mocpryd04_04",
+      "destMap": "moc_pryd03",
+      "destX": 188,
+      "destY": 181
+    }
+  ],
+  "moc_pryd06": [
+    {
+      "sourceMap": "moc_pryd06",
+      "sourceX": 101,
+      "sourceY": 187,
+      "direction": "West",
+      "warpName": "mocpryd06_01",
+      "destMap": "moc_prydb1",
+      "destX": 100,
+      "destY": 58
+    }
+  ],
+  "in_sphinx4": [
+    {
+      "sourceMap": "in_sphinx4",
+      "sourceX": 10,
+      "sourceY": 224,
+      "direction": "West",
+      "warpName": "insphinx4_01",
+      "destMap": "moc_fild19",
+      "destX": 100,
+      "destY": 99
+    },
+    {
+      "sourceMap": "in_sphinx4",
+      "sourceX": 120,
+      "sourceY": 113,
+      "direction": "South",
+      "warpName": "insphinx4_02",
+      "destMap": "in_sphinx5",
+      "destX": 100,
+      "destY": 99
+    }
+  ],
+  "in_sphinx5": [
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 100,
+      "sourceY": 96,
+      "direction": "South",
+      "warpName": "insphinx5_01",
+      "destMap": "in_sphinx4",
+      "destX": 120,
+      "destY": 116
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 11,
+      "sourceY": 16,
+      "direction": "West",
+      "warpName": "insphinx5_02",
+      "destMap": "in_sphinx5",
+      "destX": 189,
+      "destY": 181
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 11,
+      "sourceY": 183,
+      "direction": "West",
+      "warpName": "insphinx5_03",
+      "destMap": "in_sphinx5",
+      "destX": 11,
+      "destY": 18
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 189,
+      "sourceY": 16,
+      "direction": "South",
+      "warpName": "insphinx5_04",
+      "destMap": "in_sphinx5",
+      "destX": 11,
+      "destY": 181
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 16,
+      "sourceY": 188,
+      "direction": "West",
+      "warpName": "insphinx5_05",
+      "destMap": "in_sphinx5",
+      "destX": 181,
+      "destY": 188
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 16,
+      "sourceY": 10,
+      "direction": "South",
+      "warpName": "insphinx5_06",
+      "destMap": "in_sphinx5",
+      "destX": 181,
+      "destY": 10
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 183,
+      "sourceY": 10,
+      "direction": "South",
+      "warpName": "insphinx5_07",
+      "destMap": "in_sphinx5",
+      "destX": 18,
+      "destY": 188
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 183,
+      "sourceY": 188,
+      "direction": "North",
+      "warpName": "insphinx5_08",
+      "destMap": "in_sphinx5",
+      "destX": 18,
+      "destY": 10
+    },
+    {
+      "sourceMap": "in_sphinx5",
+      "sourceX": 189,
+      "sourceY": 183,
+      "direction": "East",
+      "warpName": "insphinx5_09",
+      "destMap": "in_sphinx5",
+      "destX": 189,
+      "destY": 18
+    }
+  ],
+  "orcsdun02": [
+    {
+      "sourceMap": "orcsdun02",
+      "sourceX": 180,
+      "sourceY": 15,
+      "direction": "South",
+      "warpName": "orcsdun02_01",
+      "destMap": "in_orcs01",
+      "destX": 108,
+      "destY": 112
+    },
+    {
+      "sourceMap": "orcsdun02",
+      "sourceX": 21,
+      "sourceY": 188,
+      "direction": "West",
+      "warpName": "orcsdun02_02",
+      "destMap": "in_orcs01",
+      "destX": 30,
+      "destY": 177
+    }
+  ],
+  "in_orcs01": [
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 30,
+      "sourceY": 182,
+      "direction": "West",
+      "warpName": "inorcs01_01",
+      "destMap": "orcsdun02",
+      "destX": 22,
+      "destY": 184
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 108,
+      "sourceY": 114,
+      "direction": "West",
+      "warpName": "inorcs01_02",
+      "destMap": "orcsdun02",
+      "destX": 180,
+      "destY": 17
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 108,
+      "sourceY": 86,
+      "direction": "South",
+      "warpName": "inorcs01_03",
+      "destMap": "gef_fild10",
+      "destX": 223,
+      "destY": 203
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 124,
+      "sourceY": 171,
+      "direction": "West",
+      "warpName": "inorcs01_04",
+      "destMap": "gef_fild10",
+      "destX": 138,
+      "destY": 329
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 162,
+      "sourceY": 55,
+      "direction": "South",
+      "warpName": "inorcs01_05",
+      "destMap": "gef_fild10",
+      "destX": 214,
+      "destY": 53
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 29,
+      "sourceY": 116,
+      "direction": "West",
+      "warpName": "inorcs01_06",
+      "destMap": "gef_fild10",
+      "destX": 137,
+      "destY": 286
+    },
+    {
+      "sourceMap": "in_orcs01",
+      "sourceX": 30,
+      "sourceY": 154,
+      "direction": "West",
+      "warpName": "inorcs01_07",
+      "destMap": "gef_fild10",
+      "destX": 65,
+      "destY": 335
+    }
+  ],
+  "gef_tower": [
+    {
+      "sourceMap": "gef_tower",
+      "sourceX": 112,
+      "sourceY": 114,
+      "direction": "West",
+      "warpName": "geftower_01",
+      "destMap": "geffen",
+      "destX": 120,
+      "destY": 110
+    },
+    {
+      "sourceMap": "gef_tower",
+      "sourceX": 106,
+      "sourceY": 115,
+      "direction": "West",
+      "warpName": "geftower_02",
+      "destMap": "gef_tower",
+      "destX": 116,
+      "destY": 28
+    },
+    {
+      "sourceMap": "gef_tower",
+      "sourceX": 116,
+      "sourceY": 31,
+      "direction": "South",
+      "warpName": "geftower_03",
+      "destMap": "gef_tower",
+      "destX": 106,
+      "destY": 112
+    },
+    {
+      "sourceMap": "gef_tower",
+      "sourceX": 118,
+      "sourceY": 114,
+      "direction": "South",
+      "warpName": "geftower_10",
+      "destMap": "gef_dun02",
+      "destX": 106,
+      "destY": 130
+    }
+  ],
+  "gef_dun02": [
+    {
+      "sourceMap": "gef_dun02",
+      "sourceX": 214,
+      "sourceY": 68,
+      "direction": "South",
+      "warpName": "gefdun02_01",
+      "destMap": "gef_dun03",
+      "destX": 203,
+      "destY": 200
+    },
+    {
+      "sourceMap": "gef_dun02",
+      "sourceX": 106,
+      "sourceY": 134,
+      "direction": "West",
+      "warpName": "gefdun02_02",
+      "destMap": "gef_tower",
+      "destX": 118,
+      "destY": 110
+    }
+  ],
+  "gef_dun03": [
+    {
+      "sourceMap": "gef_dun03",
+      "sourceX": 203,
+      "sourceY": 204,
+      "direction": "North",
+      "warpName": "gefdun03_01",
+      "destMap": "gef_dun02",
+      "destX": 215,
+      "destY": 63
+    }
+  ],
+  "mjo_dun02": [
+    {
+      "sourceMap": "mjo_dun02",
+      "sourceX": 384,
+      "sourceY": 343,
+      "direction": "East",
+      "warpName": "mjodun02_01",
+      "destMap": "mjolnir_02",
+      "destX": 79,
+      "destY": 362
+    }
+  ],
+  "mag_dun01": [
+    {
+      "sourceMap": "mag_dun01",
+      "sourceX": 126,
+      "sourceY": 66,
+      "direction": "South",
+      "warpName": "magdun01_01",
+      "destMap": "yuno_fild03",
+      "destX": 34,
+      "destY": 139
+    }
+  ],
+  "xmas": [
+    {
+      "sourceMap": "xmas",
+      "sourceX": 143,
+      "sourceY": 314,
+      "direction": "North",
+      "warpName": "xmasdun02_01",
+      "destMap": "xmas_dun02",
+      "destX": 131,
+      "destY": 129
+    }
+  ],
+  "xmas_dun02": [
+    {
+      "sourceMap": "xmas_dun02",
+      "sourceX": 129,
+      "sourceY": 130,
+      "direction": "West",
+      "warpName": "xmasdun02_02",
+      "destMap": "xmas",
+      "destX": 143,
+      "destY": 310
+    }
+  ],
+  "tur_dun01": [
+    {
+      "sourceMap": "tur_dun01",
+      "sourceX": 154,
+      "sourceY": 241,
+      "direction": "North",
+      "warpName": "tur_dun01_01",
+      "destMap": "tur_dun04",
+      "destX": 100,
+      "destY": 192
+    }
+  ],
+  "tur_dun04": [
+    {
+      "sourceMap": "tur_dun04",
+      "sourceX": 100,
+      "sourceY": 196,
+      "direction": "West",
+      "warpName": "tur_dun04_01",
+      "destMap": "tur_dun01",
+      "destX": 154,
+      "destY": 237
+    }
+  ],
+  "prt_maze01": [
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 22,
+      "sourceY": 194,
+      "direction": "West",
+      "warpName": "prtmaze01_01",
+      "destMap": "prt_maze01",
+      "destX": 16,
+      "destY": 31
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 5,
+      "sourceY": 186,
+      "direction": "West",
+      "warpName": "prtmaze01_02",
+      "destMap": "prt_maze01",
+      "destX": 182,
+      "destY": 88
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 58,
+      "sourceY": 194,
+      "direction": "West",
+      "warpName": "prtmaze01_03",
+      "destMap": "prt_maze01",
+      "destX": 23,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 102,
+      "sourceY": 165,
+      "direction": "West",
+      "warpName": "prtmaze01_04",
+      "destMap": "prt_maze01",
+      "destX": 99,
+      "destY": 31
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 85,
+      "sourceY": 174,
+      "direction": "West",
+      "warpName": "prtmaze01_05",
+      "destMap": "prt_maze02",
+      "destX": 93,
+      "destY": 20
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 154,
+      "sourceY": 181,
+      "direction": "West",
+      "warpName": "prtmaze01_06",
+      "destMap": "prt_maze01",
+      "destX": 191,
+      "destY": 175
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 125,
+      "sourceY": 171,
+      "direction": "West",
+      "warpName": "prtmaze01_07",
+      "destMap": "prt_maze01",
+      "destX": 8,
+      "destY": 186
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 175,
+      "sourceY": 165,
+      "direction": "South",
+      "warpName": "prtmaze01_08",
+      "destMap": "prt_maze01",
+      "destX": 48,
+      "destY": 104
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 194,
+      "sourceY": 175,
+      "direction": "East",
+      "warpName": "prtmaze01_09",
+      "destMap": "prt_maze01",
+      "destX": 23,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 18,
+      "sourceY": 154,
+      "direction": "West",
+      "warpName": "prtmaze01_10",
+      "destMap": "prt_maze01",
+      "destX": 177,
+      "destY": 71
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 23,
+      "sourceY": 125,
+      "direction": "West",
+      "warpName": "prtmaze01_11",
+      "destMap": "prt_maze01",
+      "destX": 151,
+      "destY": 22
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 5,
+      "sourceY": 140,
+      "direction": "West",
+      "warpName": "prtmaze01_12",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 54,
+      "sourceY": 154,
+      "direction": "West",
+      "warpName": "prtmaze01_13",
+      "destMap": "prt_maze01",
+      "destX": 191,
+      "destY": 175
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 63,
+      "sourceY": 125,
+      "direction": "West",
+      "warpName": "prtmaze01_14",
+      "destMap": "prt_maze01",
+      "destX": 182,
+      "destY": 88
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 98,
+      "sourceY": 154,
+      "direction": "West",
+      "warpName": "prtmaze01_15",
+      "destMap": "prt_maze01",
+      "destX": 102,
+      "destY": 168
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 114,
+      "sourceY": 145,
+      "direction": "West",
+      "warpName": "prtmaze01_16",
+      "destMap": "prt_maze01",
+      "destX": 23,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 85,
+      "sourceY": 146,
+      "direction": "West",
+      "warpName": "prtmaze01_17",
+      "destMap": "prt_maze01",
+      "destX": 142,
+      "destY": 111
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 137,
+      "sourceY": 125,
+      "direction": "South",
+      "warpName": "prtmaze01_18",
+      "destMap": "prt_maze01",
+      "destX": 191,
+      "destY": 139
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 154,
+      "sourceY": 134,
+      "direction": "South",
+      "warpName": "prtmaze01_19",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 191
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 194,
+      "sourceY": 139,
+      "direction": "South",
+      "warpName": "prtmaze01_20",
+      "destMap": "prt_maze01",
+      "destX": 22,
+      "destY": 88
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 166,
+      "sourceY": 139,
+      "direction": "South",
+      "warpName": "prtmaze01_21",
+      "destMap": "prt_maze01",
+      "destX": 128,
+      "destY": 173
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 17,
+      "sourceY": 114,
+      "direction": "West",
+      "warpName": "prtmaze01_22",
+      "destMap": "prt_maze01",
+      "destX": 8,
+      "destY": 186
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 22,
+      "sourceY": 85,
+      "direction": "West",
+      "warpName": "prtmaze01_23",
+      "destMap": "prt_maze01",
+      "destX": 137,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 63,
+      "sourceY": 114,
+      "direction": "West",
+      "warpName": "prtmaze01_24",
+      "destMap": "prt_maze01",
+      "destX": 111,
+      "destY": 56
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 63,
+      "sourceY": 85,
+      "direction": "West",
+      "warpName": "prtmaze01_25",
+      "destMap": "prt_maze01",
+      "destX": 151,
+      "destY": 22
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 74,
+      "sourceY": 97,
+      "direction": "West",
+      "warpName": "prtmaze01_26",
+      "destMap": "prt_maze01",
+      "destX": 71,
+      "destY": 11
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 45,
+      "sourceY": 104,
+      "direction": "West",
+      "warpName": "prtmaze01_27",
+      "destMap": "prt_maze01",
+      "destX": 63,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 105,
+      "sourceY": 114,
+      "direction": "West",
+      "warpName": "prtmaze01_28",
+      "destMap": "prt_maze01",
+      "destX": 111,
+      "destY": 145
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 114,
+      "sourceY": 95,
+      "direction": "South",
+      "warpName": "prtmaze01_29",
+      "destMap": "prt_maze01",
+      "destX": 14,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 85,
+      "sourceY": 97,
+      "direction": "West",
+      "warpName": "prtmaze01_30",
+      "destMap": "prt_maze01",
+      "destX": 63,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 142,
+      "sourceY": 114,
+      "direction": "South",
+      "warpName": "prtmaze01_31",
+      "destMap": "prt_maze01",
+      "destX": 23,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 125,
+      "sourceY": 105,
+      "direction": "South",
+      "warpName": "prtmaze01_32",
+      "destMap": "prt_maze01",
+      "destX": 14,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 182,
+      "sourceY": 85,
+      "direction": "South",
+      "warpName": "prtmaze01_33",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 194,
+      "sourceY": 94,
+      "direction": "South",
+      "warpName": "prtmaze01_34",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 191
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 168,
+      "sourceY": 94,
+      "direction": "South",
+      "warpName": "prtmaze01_35",
+      "destMap": "prt_maze01",
+      "destX": 191,
+      "destY": 139
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 14,
+      "sourceY": 74,
+      "direction": "West",
+      "warpName": "prtmaze01_36",
+      "destMap": "prt_maze01",
+      "destX": 151,
+      "destY": 22
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 14,
+      "sourceY": 45,
+      "direction": "West",
+      "warpName": "prtmaze01_37",
+      "destMap": "mjolnir_12",
+      "destX": 44,
+      "destY": 21
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 5,
+      "sourceY": 58,
+      "direction": "West",
+      "warpName": "prtmaze01_38",
+      "destMap": "prt_maze01",
+      "destX": 48,
+      "destY": 104
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 74,
+      "sourceY": 74,
+      "direction": "West",
+      "warpName": "prtmaze01_39",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 191
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 52,
+      "sourceY": 45,
+      "direction": "South",
+      "warpName": "prtmaze01_40",
+      "destMap": "prt_maze01",
+      "destX": 139,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 104,
+      "sourceY": 74,
+      "direction": "South",
+      "warpName": "prtmaze01_41",
+      "destMap": "prt_maze01",
+      "destX": 14,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 96,
+      "sourceY": 45,
+      "direction": "South",
+      "warpName": "prtmaze01_42",
+      "destMap": "prt_maze01",
+      "destX": 63,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 114,
+      "sourceY": 56,
+      "direction": "South",
+      "warpName": "prtmaze01_43",
+      "destMap": "prt_maze01",
+      "destX": 176,
+      "destY": 8
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 85,
+      "sourceY": 56,
+      "direction": "South",
+      "warpName": "prtmaze01_44",
+      "destMap": "prt_maze01",
+      "destX": 105,
+      "destY": 111
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 137,
+      "sourceY": 74,
+      "direction": "South",
+      "warpName": "prtmaze01_45",
+      "destMap": "prt_maze01",
+      "destX": 182,
+      "destY": 88
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 139,
+      "sourceY": 45,
+      "direction": "South",
+      "warpName": "prtmaze01_46",
+      "destMap": "prt_maze01",
+      "destX": 71,
+      "destY": 11
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 177,
+      "sourceY": 74,
+      "direction": "South",
+      "warpName": "prtmaze01_47",
+      "destMap": "prt_fild01",
+      "destX": 136,
+      "destY": 368
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 175,
+      "sourceY": 45,
+      "direction": "South",
+      "warpName": "prtmaze01_48",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 194,
+      "sourceY": 54,
+      "direction": "South",
+      "warpName": "prtmaze01_49",
+      "destMap": "prt_maze01",
+      "destX": 99,
+      "destY": 31
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 16,
+      "sourceY": 34,
+      "direction": "West",
+      "warpName": "prtmaze01_50",
+      "destMap": "prt_maze01",
+      "destX": 128,
+      "destY": 173
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 23,
+      "sourceY": 5,
+      "direction": "South",
+      "warpName": "prtmaze01_51",
+      "destMap": "prt_maze01",
+      "destX": 176,
+      "destY": 8
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 54,
+      "sourceY": 5,
+      "direction": "South",
+      "warpName": "prtmaze01_52",
+      "destMap": "prt_maze01",
+      "destX": 128,
+      "destY": 173
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 74,
+      "sourceY": 12,
+      "direction": "South",
+      "warpName": "prtmaze01_53",
+      "destMap": "prt_maze01",
+      "destX": 58,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 45,
+      "sourceY": 21,
+      "direction": "South",
+      "warpName": "prtmaze01_54",
+      "destMap": "prt_maze01",
+      "destX": 142,
+      "destY": 111
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 99,
+      "sourceY": 34,
+      "direction": "South",
+      "warpName": "prtmaze01_55",
+      "destMap": "prt_maze01",
+      "destX": 137,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 114,
+      "sourceY": 22,
+      "direction": "South",
+      "warpName": "prtmaze01_56",
+      "destMap": "prt_maze01",
+      "destX": 177,
+      "destY": 71
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 85,
+      "sourceY": 13,
+      "direction": "South",
+      "warpName": "prtmaze01_57",
+      "destMap": "prt_maze01",
+      "destX": 22,
+      "destY": 88
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 154,
+      "sourceY": 22,
+      "direction": "South",
+      "warpName": "prtmaze01_58",
+      "destMap": "prt_maze01",
+      "destX": 139,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 176,
+      "sourceY": 34,
+      "direction": "South",
+      "warpName": "prtmaze01_59",
+      "destMap": "prt_maze01",
+      "destX": 8,
+      "destY": 186
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 176,
+      "sourceY": 5,
+      "direction": "South",
+      "warpName": "prtmaze01_60",
+      "destMap": "prt_maze01",
+      "destX": 137,
+      "destY": 128
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 194,
+      "sourceY": 15,
+      "direction": "South",
+      "warpName": "prtmaze01_61",
+      "destMap": "prt_maze01",
+      "destX": 52,
+      "destY": 48
+    },
+    {
+      "sourceMap": "prt_maze01",
+      "sourceX": 165,
+      "sourceY": 22,
+      "direction": "South",
+      "warpName": "prtmaze01_62",
+      "destMap": "prt_maze01",
+      "destX": 63,
+      "destY": 128
+    }
+  ],
+  "prt_sewb3": [
+    {
+      "sourceMap": "prt_sewb3",
+      "sourceX": 20,
+      "sourceY": 184,
+      "direction": "West",
+      "warpName": "prtsewb1_01",
+      "destMap": "prt_sewb4",
+      "destX": 100,
+      "destY": 90
+    },
+    {
+      "sourceMap": "prt_sewb3",
+      "sourceX": 180,
+      "sourceY": 173,
+      "direction": "East",
+      "warpName": "prts03-1",
+      "destMap": "prt_fild05",
+      "destX": 273,
+      "destY": 209
+    }
+  ],
+  "prt_sewb4": [
+    {
+      "sourceMap": "prt_sewb4",
+      "sourceX": 100,
+      "sourceY": 96,
+      "direction": "South",
+      "warpName": "prtsewb4_01",
+      "destMap": "prt_sewb3",
+      "destX": 20,
+      "destY": 180
+    }
+  ],
+  "izlu2dun": [
+    {
+      "sourceMap": "izlu2dun",
+      "sourceX": 108,
+      "sourceY": 83,
+      "direction": "South",
+      "warpName": "izlu2dun_01",
+      "destMap": "iz_dun03",
+      "destX": 34,
+      "destY": 64
+    }
+  ],
+  "iz_dun03": [
+    {
+      "sourceMap": "iz_dun03",
+      "sourceX": 29,
+      "sourceY": 63,
+      "direction": "West",
+      "warpName": "izdun03_01",
+      "destMap": "izlu2dun",
+      "destX": 108,
+      "destY": 87
+    },
+    {
+      "sourceMap": "iz_dun03",
+      "sourceX": 264,
+      "sourceY": 245,
+      "direction": "East",
+      "warpName": "izdun03_02",
+      "destMap": "iz_dun04",
+      "destX": 26,
+      "destY": 27
+    }
+  ],
+  "iz_dun04": [
+    {
+      "sourceMap": "iz_dun04",
+      "sourceX": 26,
+      "sourceY": 24,
+      "direction": "South",
+      "warpName": "izdun04_01",
+      "destMap": "iz_dun03",
+      "destX": 261,
+      "destY": 245
+    }
+  ],
+  "pay_dun03": [
+    {
+      "sourceMap": "pay_dun03",
+      "sourceX": 155,
+      "sourceY": 161,
+      "direction": "West",
+      "warpName": "paydun03_01",
+      "destMap": "pay_arche",
+      "destX": 39,
+      "destY": 131
+    },
+    {
+      "sourceMap": "pay_dun03",
+      "sourceX": 175,
+      "sourceY": 175,
+      "direction": "North",
+      "warpName": "script_warp",
+      "destMap": "pay_dun04",
+      "destX": 0,
+      "destY": 0
+    }
+  ],
+  "pay_dun04": [
+    {
+      "sourceMap": "pay_dun04",
+      "sourceX": 191,
+      "sourceY": 41,
+      "direction": "South",
+      "warpName": "paydun04_01",
+      "destMap": "pay_dun03",
+      "destX": 124,
+      "destY": 62
+    },
+    {
+      "sourceMap": "pay_dun04",
+      "sourceX": 202,
+      "sourceY": 206,
+      "direction": "North",
+      "warpName": "paydun04_02",
+      "destMap": "pay_dun03",
+      "destX": 124,
+      "destY": 62
+    },
+    {
+      "sourceMap": "pay_dun04",
+      "sourceX": 32,
+      "sourceY": 204,
+      "direction": "West",
+      "warpName": "paydun04_03",
+      "destMap": "pay_dun03",
+      "destX": 124,
+      "destY": 62
+    },
+    {
+      "sourceMap": "pay_dun04",
+      "sourceX": 40,
+      "sourceY": 37,
+      "direction": "South",
+      "warpName": "paydun04_04",
+      "destMap": "pay_dun03",
+      "destX": 124,
+      "destY": 62
+    }
+  ],
+  "alb2trea": [
+    {
+      "sourceMap": "alb2trea",
+      "sourceX": 88,
+      "sourceY": 111,
+      "direction": "West",
+      "warpName": "alb002",
+      "destMap": "treasure02",
+      "destX": 102,
+      "destY": 27
+    }
+  ],
+  "treasure02": [
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 102,
+      "sourceY": 103,
+      "direction": "West",
+      "warpName": "tre11",
+      "destMap": "treasure02",
+      "destX": 102,
+      "destY": 120
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 102,
+      "sourceY": 118,
+      "direction": "West",
+      "warpName": "tre11-1",
+      "destMap": "treasure02",
+      "destX": 102,
+      "destY": 101
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 155,
+      "sourceY": 128,
+      "direction": "South",
+      "warpName": "tre13-1",
+      "destMap": "treasure02",
+      "destX": 155,
+      "destY": 97
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 155,
+      "sourceY": 99,
+      "direction": "South",
+      "warpName": "tre13",
+      "destMap": "treasure02",
+      "destX": 155,
+      "destY": 130
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 49,
+      "sourceY": 99,
+      "direction": "West",
+      "warpName": "tre14-1",
+      "destMap": "treasure02",
+      "destX": 49,
+      "destY": 130
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 102,
+      "sourceY": 24,
+      "direction": "South",
+      "warpName": "tre003",
+      "destMap": "alb2trea",
+      "destX": 85,
+      "destY": 107
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 123,
+      "sourceY": 72,
+      "direction": "South",
+      "warpName": "tre12",
+      "destMap": "treasure02",
+      "destX": 140,
+      "destY": 72
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 138,
+      "sourceY": 72,
+      "direction": "South",
+      "warpName": "tre12-1",
+      "destMap": "treasure02",
+      "destX": 121,
+      "destY": 72
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 49,
+      "sourceY": 128,
+      "direction": "West",
+      "warpName": "tre14",
+      "destMap": "treasure02",
+      "destX": 49,
+      "destY": 97
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 65,
+      "sourceY": 72,
+      "direction": "West",
+      "warpName": "tre15",
+      "destMap": "treasure02",
+      "destX": 82,
+      "destY": 72
+    },
+    {
+      "sourceMap": "treasure02",
+      "sourceX": 80,
+      "sourceY": 72,
+      "direction": "South",
+      "warpName": "tre15-1",
+      "destMap": "treasure02",
+      "destX": 63,
+      "destY": 72
+    }
+  ],
+  "c_tower1": [
+    {
+      "sourceMap": "c_tower1",
+      "sourceX": 199,
+      "sourceY": 157,
+      "direction": "East",
+      "warpName": "ctower_to_adb",
+      "destMap": "aldebaran",
+      "destX": 139,
+      "destY": 132
+    }
+  ]
+}

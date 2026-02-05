@@ -1,0 +1,99 @@
+{
+  "Id": 1157,
+  "AegisName": "PHARAOH",
+  "Name": "Pharaoh",
+  "Level": 90,
+  "Hp": 225000,
+  "BaseExp": 150000,
+  "JobExp": 65000,
+  "MvpExp": 150000,
+  "Attack": 560,
+  "Attack2": 275,
+  "Defense": 140,
+  "MagicDefense": 100,
+  "Str": 88,
+  "Agi": 80,
+  "Vit": 82,
+  "Int": 92,
+  "Dex": 85,
+  "Luk": 75,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 125,
+  "AttackDelay": 868,
+  "AttackMotion": 768,
+  "DamageMotion": 288,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 5500
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 5000
+    },
+    {
+      "Item": "Crystal_Jewel__",
+      "Rate": 5000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Broken_Pharaoh_Symbol",
+      "Rate": 2910
+    },
+    {
+      "Item": "Tutankhamen's_Mask",
+      "Rate": 1250
+    },
+    {
+      "Item": "Solar_Sword",
+      "Rate": 50
+    },
+    {
+      "Item": "Holy_Robe",
+      "Rate": 75
+    },
+    {
+      "Item": "Gemmed_Crown",
+      "Rate": 250
+    },
+    {
+      "Item": "Tablet",
+      "Rate": 150
+    },
+    {
+      "Item": "Bazerald",
+      "Rate": 40
+    },
+    {
+      "Item": "Pharaoh_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "in_sphinx5",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1157,
+      "mobName": "Pharaoh",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

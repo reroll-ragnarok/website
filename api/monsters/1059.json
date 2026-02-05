@@ -1,0 +1,99 @@
+{
+  "Id": 1059,
+  "AegisName": "MISTRESS",
+  "Name": "Mistress",
+  "Level": 40,
+  "Hp": 45000,
+  "BaseExp": 25000,
+  "JobExp": 27500,
+  "MvpExp": 25000,
+  "Attack": 185,
+  "Attack2": 95,
+  "Defense": 70,
+  "MagicDefense": 65,
+  "Str": 48,
+  "Agi": 42,
+  "Vit": 45,
+  "Int": 50,
+  "Dex": 48,
+  "Luk": 38,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 1148,
+  "AttackMotion": 648,
+  "DamageMotion": 300,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Rough_Wind",
+      "Rate": 1500
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 4000
+    },
+    {
+      "Item": "Scarlet_Jewel",
+      "Rate": 3000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Gungnir",
+      "Rate": 75
+    },
+    {
+      "Item": "Honey",
+      "Rate": 5000
+    },
+    {
+      "Item": "Coronet",
+      "Rate": 125
+    },
+    {
+      "Item": "Old_Card_Album",
+      "Rate": 500
+    },
+    {
+      "Item": "Young_Twig",
+      "Rate": 5
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 2134
+    },
+    {
+      "Item": "Red_Square_Bag",
+      "Rate": 50
+    },
+    {
+      "Item": "Mistress_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjolnir_05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1059,
+      "mobName": "Mistress",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "Id": 1106,
+  "AegisName": "DESERT_WOLF",
+  "Name": "Desert Wolf",
+  "Level": 20,
+  "Hp": 420,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 36,
+  "Attack2": 10,
+  "Defense": 32,
+  "MagicDefense": 10,
+  "Str": 14,
+  "Agi": 15,
+  "Vit": 20,
+  "Int": 10,
+  "Dex": 13,
+  "Luk": 8,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1120,
+  "AttackMotion": 420,
+  "DamageMotion": 288,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Katar_",
+      "Rate": 1
+    },
+    {
+      "Item": "Claw_Of_Desert_Wolf",
+      "Rate": 2750
+    },
+    {
+      "Item": "Mink_Coat",
+      "Rate": 1
+    },
+    {
+      "Item": "Wolf_Blood",
+      "Rate": 5
+    },
+    {
+      "Item": "Durga",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 27
+    },
+    {
+      "Item": "Scarlet_Dagger",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Desert_Wolf_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild13",
+      "x": 72,
+      "y": 309,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1106,
+      "mobName": "Desert Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    },
+    {
+      "map": "moc_fild13",
+      "x": 80,
+      "y": 226,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1106,
+      "mobName": "Desert Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    },
+    {
+      "map": "moc_fild13",
+      "x": 78,
+      "y": 138,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1106,
+      "mobName": "Desert Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

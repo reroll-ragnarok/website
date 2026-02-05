@@ -1,0 +1,75 @@
+{
+  "Id": 1045,
+  "AegisName": "MARC",
+  "Name": "Marc",
+  "Level": 60,
+  "Hp": 3156,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 218,
+  "Attack2": 187,
+  "Defense": 48,
+  "MagicDefense": 27,
+  "Str": 56,
+  "Agi": 31,
+  "Vit": 39,
+  "Int": 18,
+  "Dex": 48,
+  "Luk": 23,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1272,
+  "AttackMotion": 72,
+  "DamageMotion": 480,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 9
+    },
+    {
+      "Item": "Gill",
+      "Rate": 4500
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 48
+    },
+    {
+      "Item": "Fin",
+      "Rate": 500
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 5
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 350
+    },
+    {
+      "Item": "Marc_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1045,
+      "mobName": "Marc",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

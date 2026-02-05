@@ -1,0 +1,67 @@
+{
+  "Id": 1090,
+  "AegisName": "MASTERING",
+  "Name": "Mastering",
+  "Level": 10,
+  "Hp": 1450,
+  "BaseExp": 1000,
+  "JobExp": 500,
+  "Attack": 25,
+  "Attack2": 10,
+  "Defense": 5,
+  "MagicDefense": 5,
+  "Str": 9,
+  "Agi": 8,
+  "Vit": 15,
+  "Int": 15,
+  "Dex": 10,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 1072,
+  "AttackMotion": 672,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Apple_Juice",
+      "Rate": 10000
+    },
+    {
+      "Item": "Scarlet_Jewel",
+      "Rate": 5000
+    },
+    {
+      "Item": "Poring_Doll",
+      "Rate": 2500
+    },
+    {
+      "Item": "Mastering_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild08",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1090,
+      "mobName": "Mastering",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

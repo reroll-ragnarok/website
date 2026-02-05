@@ -1,0 +1,79 @@
+{
+  "Id": 1297,
+  "AegisName": "ANCIENT_MUMMY",
+  "Name": "Ancient Mummy",
+  "Level": 90,
+  "Hp": 18234,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 687,
+  "Attack2": 467,
+  "Defense": 93,
+  "MagicDefense": 51,
+  "Str": 48,
+  "Agi": 57,
+  "Vit": 52,
+  "Int": 82,
+  "Dex": 79,
+  "Luk": 34,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 2,
+  "WalkSpeed": 175,
+  "AttackDelay": 1772,
+  "AttackMotion": 120,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Rotten_Bandage",
+      "Rate": 2207
+    },
+    {
+      "Item": "Mementos",
+      "Rate": 900
+    },
+    {
+      "Item": "Glove_",
+      "Rate": 1
+    },
+    {
+      "Item": "Silver_Ring",
+      "Rate": 75
+    },
+    {
+      "Item": "Runstone_Ancient",
+      "Rate": 5
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 75
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 50
+    },
+    {
+      "Item": "Ancient_Mummy_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1297,
+      "mobName": "Ancient Mummy",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

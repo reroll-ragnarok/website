@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "gef_fild04",
+    "sourceX": 187,
+    "sourceY": 39,
+    "direction": "South",
+    "warpName": "geffild04_01",
+    "destMap": "geffen",
+    "destX": 119,
+    "destY": 210
+  },
+  {
+    "sourceMap": "gef_fild04",
+    "sourceX": 261,
+    "sourceY": 362,
+    "direction": "North",
+    "warpName": "geffild04_03",
+    "destMap": "mjolnir_02",
+    "destX": 361,
+    "destY": 22
+  }
+]

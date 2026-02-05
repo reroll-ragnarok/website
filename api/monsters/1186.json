@@ -1,0 +1,81 @@
+{
+  "Id": 1186,
+  "AegisName": "WHISPER_BOSS",
+  "Name": "Giant Whisper",
+  "Level": 80,
+  "Hp": 30000,
+  "BaseExp": 3750,
+  "JobExp": 2750,
+  "Attack": 333,
+  "Attack2": 286,
+  "Defense": 54,
+  "MagicDefense": 45,
+  "Str": 46,
+  "Agi": 80,
+  "Vit": 27,
+  "Int": 74,
+  "Dex": 52,
+  "Luk": 75,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "Element": "Ghost",
+  "ElementLevel": 2,
+  "WalkSpeed": 250,
+  "AttackDelay": 2536,
+  "AttackMotion": 1536,
+  "DamageMotion": 672,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Sparkling_Dust",
+      "Rate": 75
+    },
+    {
+      "Item": "Transparent_Cloth",
+      "Rate": 2668
+    },
+    {
+      "Item": "Spirit_Chain",
+      "Rate": 1
+    },
+    {
+      "Item": "Silver_Robe_",
+      "Rate": 5
+    },
+    {
+      "Item": "Whisper_Boss_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "treasure02",
+      "x": 23,
+      "y": 143,
+      "xs": 3,
+      "ys": 3,
+      "mobId": 1186,
+      "mobName": "Giant Whisper",
+      "amount": 1,
+      "respawnTime": 60000
+    },
+    {
+      "map": "treasure02",
+      "x": 181,
+      "y": 143,
+      "xs": 3,
+      "ys": 3,
+      "mobId": 1186,
+      "mobName": "Giant Whisper",
+      "amount": 1,
+      "respawnTime": 60000
+    }
+  ]
+}

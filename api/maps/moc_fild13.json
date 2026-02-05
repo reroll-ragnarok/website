@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "moc_fild13",
+    "sourceX": 30,
+    "sourceY": 171,
+    "direction": "West",
+    "warpName": "mocfild13_01",
+    "destMap": "moc_fild10",
+    "destX": 387,
+    "destY": 258
+  },
+  {
+    "sourceMap": "moc_fild13",
+    "sourceX": 308,
+    "sourceY": 49,
+    "direction": "East",
+    "warpName": "mocfild13_02",
+    "destMap": "payon_mem",
+    "destX": 22,
+    "destY": 151
+  },
+  {
+    "sourceMap": "moc_fild13",
+    "sourceX": 144,
+    "sourceY": 368,
+    "direction": "North",
+    "warpName": "mocfild13_03",
+    "destMap": "prt_fild08",
+    "destX": 233,
+    "destY": 24
+  }
+]

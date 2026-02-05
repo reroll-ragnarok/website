@@ -1,0 +1,112 @@
+[
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 102,
+    "sourceY": 103,
+    "direction": "West",
+    "warpName": "tre11",
+    "destMap": "treasure02",
+    "destX": 102,
+    "destY": 120
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 102,
+    "sourceY": 118,
+    "direction": "West",
+    "warpName": "tre11-1",
+    "destMap": "treasure02",
+    "destX": 102,
+    "destY": 101
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 155,
+    "sourceY": 128,
+    "direction": "South",
+    "warpName": "tre13-1",
+    "destMap": "treasure02",
+    "destX": 155,
+    "destY": 97
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 155,
+    "sourceY": 99,
+    "direction": "South",
+    "warpName": "tre13",
+    "destMap": "treasure02",
+    "destX": 155,
+    "destY": 130
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 49,
+    "sourceY": 99,
+    "direction": "West",
+    "warpName": "tre14-1",
+    "destMap": "treasure02",
+    "destX": 49,
+    "destY": 130
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 102,
+    "sourceY": 24,
+    "direction": "South",
+    "warpName": "tre003",
+    "destMap": "alb2trea",
+    "destX": 85,
+    "destY": 107
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 123,
+    "sourceY": 72,
+    "direction": "South",
+    "warpName": "tre12",
+    "destMap": "treasure02",
+    "destX": 140,
+    "destY": 72
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 138,
+    "sourceY": 72,
+    "direction": "South",
+    "warpName": "tre12-1",
+    "destMap": "treasure02",
+    "destX": 121,
+    "destY": 72
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 49,
+    "sourceY": 128,
+    "direction": "West",
+    "warpName": "tre14",
+    "destMap": "treasure02",
+    "destX": 49,
+    "destY": 97
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 65,
+    "sourceY": 72,
+    "direction": "West",
+    "warpName": "tre15",
+    "destMap": "treasure02",
+    "destX": 82,
+    "destY": 72
+  },
+  {
+    "sourceMap": "treasure02",
+    "sourceX": 80,
+    "sourceY": 72,
+    "direction": "South",
+    "warpName": "tre15-1",
+    "destMap": "treasure02",
+    "destX": 63,
+    "destY": 72
+  }
+]

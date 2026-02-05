@@ -1,0 +1,80 @@
+{
+  "Id": 1200,
+  "AegisName": "ZHERLTHSH",
+  "Name": "Zealotus",
+  "JapaneseName": "Zherlthsh",
+  "Level": 80,
+  "Hp": 30000,
+  "BaseExp": 3750,
+  "JobExp": 2750,
+  "Attack": 486,
+  "Attack2": 334,
+  "Defense": 91,
+  "MagicDefense": 99,
+  "Str": 73,
+  "Agi": 79,
+  "Vit": 42,
+  "Int": 65,
+  "Dex": 77,
+  "Luk": 57,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 800,
+  "AttackMotion": 2112,
+  "DamageMotion": 768,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Executioner's_Mitten",
+      "Rate": 3
+    },
+    {
+      "Item": "Black_Butterfly_Mask",
+      "Rate": 5
+    },
+    {
+      "Item": "Rose_Quartz",
+      "Rate": 750
+    },
+    {
+      "Item": "Tights_",
+      "Rate": 4
+    },
+    {
+      "Item": "Earring_",
+      "Rate": 1
+    },
+    {
+      "Item": "Queen's_Whip",
+      "Rate": 50
+    },
+    {
+      "Item": "Masquerade",
+      "Rate": 2
+    },
+    {
+      "Item": "Zherlthsh_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_prison1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1200,
+      "mobName": "Zealotus",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

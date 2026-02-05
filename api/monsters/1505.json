@@ -1,0 +1,82 @@
+{
+  "Id": 1505,
+  "AegisName": "LOLI_RURI",
+  "Name": "Loli Ruri",
+  "Level": 99,
+  "Hp": 26821,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1143,
+  "Attack2": 791,
+  "Defense": 53,
+  "MagicDefense": 44,
+  "Str": 69,
+  "Agi": 63,
+  "Vit": 52,
+  "Int": 88,
+  "Dex": 83,
+  "Luk": 97,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 4,
+  "WalkSpeed": 125,
+  "AttackDelay": 747,
+  "AttackMotion": 1632,
+  "DamageMotion": 576,
+  "Ai": 4,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Black_Kitty_Doll",
+      "Rate": 400
+    },
+    {
+      "Item": "Striped_Socks",
+      "Rate": 1500
+    },
+    {
+      "Item": "Bat_Cage",
+      "Rate": 2522
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 50
+    },
+    {
+      "Item": "Loki's_Whispers",
+      "Rate": 1
+    },
+    {
+      "Item": "Lunatic_Brooch",
+      "Rate": 3
+    },
+    {
+      "Item": "Sabah_Cloth",
+      "Rate": 5
+    },
+    {
+      "Item": "Loli_Ruri_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1505,
+      "mobName": "Loli Ruri",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

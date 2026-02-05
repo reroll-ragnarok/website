@@ -1,0 +1,79 @@
+{
+  "Id": 1507,
+  "AegisName": "BLOODY_MURDERER",
+  "Name": "Bloody Murderer",
+  "Level": 99,
+  "Hp": 50000,
+  "BaseExp": 15000,
+  "JobExp": 3875,
+  "Attack": 2467,
+  "Attack2": 1296,
+  "Defense": 84,
+  "MagicDefense": 41,
+  "Str": 94,
+  "Agi": 89,
+  "Vit": 54,
+  "Int": 56,
+  "Dex": 97,
+  "Luk": 58,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 175,
+  "AttackDelay": 914,
+  "AttackMotion": 1344,
+  "DamageMotion": 384,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Old_Manteau",
+      "Rate": 2086
+    },
+    {
+      "Item": "Distorted_Portrait",
+      "Rate": 500
+    },
+    {
+      "Item": "Rusty_Cleaver",
+      "Rate": 1000
+    },
+    {
+      "Item": "Mr_Scream",
+      "Rate": 25
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 50
+    },
+    {
+      "Item": "Mama's_Knife",
+      "Rate": 2
+    },
+    {
+      "Item": "Ginnungagap",
+      "Rate": 1
+    },
+    {
+      "Item": "Bloody_Murderer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1507,
+      "mobName": "Bloody Murderer",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

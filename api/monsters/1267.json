@@ -1,0 +1,82 @@
+{
+  "Id": 1267,
+  "AegisName": "CARAT",
+  "Name": "Carat",
+  "Level": 90,
+  "Hp": 19156,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 789,
+  "Attack2": 534,
+  "Defense": 111,
+  "MagicDefense": 67,
+  "Str": 84,
+  "Agi": 71,
+  "Vit": 54,
+  "Int": 55,
+  "Dex": 83,
+  "Luk": 90,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Water",
+  "ElementLevel": 4,
+  "WalkSpeed": 200,
+  "AttackDelay": 1078,
+  "AttackMotion": 768,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 1600
+    },
+    {
+      "Item": "Ice_Cream",
+      "Rate": 500
+    },
+    {
+      "Item": "Spiky_Heel",
+      "Rate": 3
+    },
+    {
+      "Item": "Joker_Jester",
+      "Rate": 1
+    },
+    {
+      "Item": "Robe_Of_Affection",
+      "Rate": 5
+    },
+    {
+      "Item": "Robe_Of_Judgement",
+      "Rate": 5
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 725
+    },
+    {
+      "Item": "Carat_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_cas01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1267,
+      "mobName": "Carat",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

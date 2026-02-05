@@ -1,0 +1,112 @@
+[
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 200,
+    "sourceY": 137,
+    "direction": "South",
+    "warpName": "glast01_01",
+    "destMap": "gl_chyard",
+    "destX": 147,
+    "destY": 16
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 200,
+    "sourceY": 170,
+    "direction": "East",
+    "warpName": "glast01_02",
+    "destMap": "gl_chyard",
+    "destX": 147,
+    "destY": 284
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 51,
+    "sourceY": 108,
+    "direction": "West",
+    "warpName": "glast01_03",
+    "destMap": "gl_prison1",
+    "destX": 150,
+    "destY": 15
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 77,
+    "sourceY": 193,
+    "direction": "West",
+    "warpName": "glast01_04",
+    "destMap": "gl_knt01",
+    "destX": 150,
+    "destY": 15
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 377,
+    "sourceY": 304,
+    "direction": "East",
+    "warpName": "glast01_05",
+    "destMap": "gef_fild06",
+    "destX": 27,
+    "destY": 304
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 200,
+    "sourceY": 297,
+    "direction": "North",
+    "warpName": "glast01_06",
+    "destMap": "gl_cas01",
+    "destX": 199,
+    "destY": 29
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 199,
+    "sourceY": 322,
+    "direction": "North",
+    "warpName": "glast01_07",
+    "destMap": "gl_cas02",
+    "destX": 104,
+    "destY": 189
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 162,
+    "sourceY": 330,
+    "direction": "North",
+    "warpName": "glast01_08",
+    "destMap": "gl_in01",
+    "destX": 77,
+    "destY": 68
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 179,
+    "sourceY": 360,
+    "direction": "North",
+    "warpName": "glast01_09",
+    "destMap": "gl_in01",
+    "destX": 80,
+    "destY": 174
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 220,
+    "sourceY": 360,
+    "direction": "North",
+    "warpName": "glast01_10",
+    "destMap": "gl_in01",
+    "destX": 110,
+    "destY": 125
+  },
+  {
+    "sourceMap": "glast_01",
+    "sourceX": 237,
+    "sourceY": 330,
+    "direction": "North",
+    "warpName": "glast01_11",
+    "destMap": "gl_in01",
+    "destX": 122,
+    "destY": 59
+  }
+]

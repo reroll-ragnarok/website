@@ -1,0 +1,79 @@
+{
+  "Id": 1249,
+  "AegisName": "MYSTCASE",
+  "Name": "Myst Case",
+  "Level": 60,
+  "Hp": 3397,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 205,
+  "Attack2": 186,
+  "Defense": 43,
+  "MagicDefense": 18,
+  "Str": 35,
+  "Agi": 28,
+  "Vit": 44,
+  "Int": 42,
+  "Dex": 38,
+  "Luk": 60,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 400,
+  "AttackDelay": 1248,
+  "AttackMotion": 1248,
+  "DamageMotion": 432,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Candy_Striper",
+      "Rate": 45
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 10
+    },
+    {
+      "Item": "Piece_Of_Cake",
+      "Rate": 1000
+    },
+    {
+      "Item": "Scarlet_Jewel",
+      "Rate": 75
+    },
+    {
+      "Item": "Crystal_Jewel_",
+      "Rate": 3
+    },
+    {
+      "Item": "Candy",
+      "Rate": 170
+    },
+    {
+      "Item": "Mystcase_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1249,
+      "mobName": "Myst Case",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

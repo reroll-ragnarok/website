@@ -1,0 +1,79 @@
+{
+  "Id": 1265,
+  "AegisName": "COOKIE",
+  "Name": "Cookie",
+  "Level": 60,
+  "Hp": 2543,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 178,
+  "Attack2": 168,
+  "Defense": 48,
+  "MagicDefense": 34,
+  "Str": 26,
+  "Agi": 32,
+  "Vit": 36,
+  "Int": 58,
+  "Dex": 38,
+  "Luk": 19,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demihuman",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 1036,
+  "AttackMotion": 936,
+  "DamageMotion": 240,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Well_Baked_Cookie",
+      "Rate": 1500
+    },
+    {
+      "Item": "Candy_Striper",
+      "Rate": 75
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Great_Chef_Orleans01",
+      "Rate": 25
+    },
+    {
+      "Item": "Sandals_",
+      "Rate": 15
+    },
+    {
+      "Item": "Holy_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Candy",
+      "Rate": 160
+    },
+    {
+      "Item": "Cookie_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1265,
+      "mobName": "Cookie",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "Id": 1276,
+  "AegisName": "RAYDRIC_ARCHER",
+  "Name": "Raydric Archer",
+  "Level": 90,
+  "Hp": 13456,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 562,
+  "Attack2": 418,
+  "Defense": 63,
+  "MagicDefense": 40,
+  "Str": 48,
+  "Agi": 63,
+  "Vit": 57,
+  "Int": 51,
+  "Dex": 90,
+  "Luk": 39,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1152,
+  "AttackMotion": 1152,
+  "DamageMotion": 480,
+  "Ai": 5,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 2328
+    },
+    {
+      "Item": "Chain_Mail_",
+      "Rate": 1
+    },
+    {
+      "Item": "Claire_Suits",
+      "Rate": 3
+    },
+    {
+      "Item": "Incisive_Arrow",
+      "Rate": 1000
+    },
+    {
+      "Item": "Arbalest_",
+      "Rate": 2
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 53
+    },
+    {
+      "Item": "Raydric_Archer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_knt01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1276,
+      "mobName": "Raydric Archer",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

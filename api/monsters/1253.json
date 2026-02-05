@@ -1,0 +1,78 @@
+{
+  "Id": 1253,
+  "AegisName": "GARGOYLE",
+  "Name": "Gargoyle",
+  "Level": 99,
+  "Hp": 25912,
+  "BaseExp": 9000,
+  "JobExp": 2325,
+  "Attack": 1174,
+  "Attack2": 782,
+  "Defense": 98,
+  "MagicDefense": 43,
+  "Str": 73,
+  "Agi": 67,
+  "Vit": 56,
+  "Int": 62,
+  "Dex": 98,
+  "Luk": 71,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Wind",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 1020,
+  "AttackMotion": 720,
+  "DamageMotion": 384,
+  "Ai": 5,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Zargon",
+      "Rate": 1940
+    },
+    {
+      "Item": "Petite_DiablOfs_Wing",
+      "Rate": 250
+    },
+    {
+      "Item": "Elven_Bow",
+      "Rate": 3
+    },
+    {
+      "Item": "Thimble_Of_Archer",
+      "Rate": 1
+    },
+    {
+      "Item": "Silence_Arrow",
+      "Rate": 1000
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 119
+    },
+    {
+      "Item": "Gargoyle_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_in01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1253,
+      "mobName": "Gargoyle",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "geffen",
+    "sourceX": 26,
+    "sourceY": 119,
+    "direction": "West",
+    "warpName": "geffen_01",
+    "destMap": "gef_fild07",
+    "destX": 336,
+    "destY": 187
+  },
+  {
+    "sourceMap": "geffen",
+    "sourceX": 217,
+    "sourceY": 119,
+    "direction": "South",
+    "warpName": "geffen_02",
+    "destMap": "gef_fild00",
+    "destX": 46,
+    "destY": 199
+  },
+  {
+    "sourceMap": "geffen",
+    "sourceX": 119,
+    "sourceY": 213,
+    "direction": "West",
+    "warpName": "geffen_03",
+    "destMap": "gef_fild04",
+    "destX": 187,
+    "destY": 42
+  },
+  {
+    "sourceMap": "geffen",
+    "sourceX": 120,
+    "sourceY": 114,
+    "direction": "South",
+    "warpName": "geffen_04",
+    "destMap": "gef_tower",
+    "destX": 112,
+    "destY": 110
+  }
+]

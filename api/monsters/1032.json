@@ -1,0 +1,59 @@
+{
+  "Id": 1032,
+  "AegisName": "VERIT",
+  "Name": "Verit",
+  "Level": 60,
+  "Hp": 2891,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 227,
+  "Attack2": 195,
+  "Defense": 57,
+  "MagicDefense": 12,
+  "Str": 58,
+  "Agi": 11,
+  "Vit": 38,
+  "Int": 13,
+  "Dex": 60,
+  "Luk": 8,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 250,
+  "AttackDelay": 2468,
+  "AttackMotion": 768,
+  "DamageMotion": 480,
+  "Ai": 2,
+  "Drops": [
+    {
+      "Item": "Immortal_Heart",
+      "Rate": 10000
+    },
+    {
+      "Item": "Rotten_Bandage",
+      "Rate": 5000
+    },
+    {
+      "Item": "Verit_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1032,
+      "mobName": "Verit",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

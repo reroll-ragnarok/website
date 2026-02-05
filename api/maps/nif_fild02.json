@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "nif_fild02",
+    "sourceX": 21,
+    "sourceY": 312,
+    "direction": "West",
+    "warpName": "niffild02_01",
+    "destMap": "nif_fild01",
+    "destX": 343,
+    "destY": 322
+  },
+  {
+    "sourceMap": "nif_fild02",
+    "sourceX": 379,
+    "sourceY": 235,
+    "direction": "East",
+    "warpName": "niffild02_02",
+    "destMap": "niflheim",
+    "destX": 20,
+    "destY": 153
+  }
+]

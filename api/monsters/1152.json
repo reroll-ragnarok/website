@@ -1,0 +1,78 @@
+{
+  "Id": 1152,
+  "AegisName": "ORC_SKELETON",
+  "Name": "Orc Skeleton",
+  "Level": 70,
+  "Hp": 3981,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 219,
+  "Attack2": 203,
+  "Defense": 82,
+  "MagicDefense": 10,
+  "Str": 41,
+  "Agi": 3,
+  "Vit": 70,
+  "Int": 12,
+  "Dex": 35,
+  "Luk": 9,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "RaceGroups": {
+    "Orc": true
+  },
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 2420,
+  "AttackMotion": 720,
+  "DamageMotion": 648,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Orcish_Cuspid",
+      "Rate": 2750
+    },
+    {
+      "Item": "Skel_Bone",
+      "Rate": 1750
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 40
+    },
+    {
+      "Item": "Viking_Helm",
+      "Rate": 1
+    },
+    {
+      "Item": "Buster_",
+      "Rate": 5
+    },
+    {
+      "Item": "Green_Herb",
+      "Rate": 25
+    },
+    {
+      "Item": "Orc_Skeleton_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "orcsdun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1152,
+      "mobName": "Orc Skeleton",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

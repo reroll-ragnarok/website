@@ -1,0 +1,79 @@
+{
+  "Id": 1308,
+  "AegisName": "PANZER_GOBLIN",
+  "Name": "Panzer Goblin",
+  "Level": 50,
+  "Hp": 2421,
+  "BaseExp": 900,
+  "JobExp": 1200,
+  "Attack": 179,
+  "Attack2": 131,
+  "Defense": 50,
+  "MagicDefense": 23,
+  "Str": 15,
+  "Agi": 22,
+  "Vit": 28,
+  "Int": 17,
+  "Dex": 27,
+  "Luk": 23,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 960,
+  "AttackMotion": 1008,
+  "DamageMotion": 840,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Cyfar",
+      "Rate": 2207
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 1750
+    },
+    {
+      "Item": "Steel",
+      "Rate": 90
+    },
+    {
+      "Item": "Iron",
+      "Rate": 180
+    },
+    {
+      "Item": "Coal",
+      "Rate": 290
+    },
+    {
+      "Item": "Butcher",
+      "Rate": 3
+    },
+    {
+      "Item": "Flame_Heart",
+      "Rate": 80
+    },
+    {
+      "Item": "Panzer_Goblin_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1308,
+      "mobName": "Panzer Goblin",
+      "amount": 10,
+      "respawnTime": 5000
+    }
+  ]
+}

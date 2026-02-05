@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "moc_fild17",
+    "sourceX": 30,
+    "sourceY": 300,
+    "direction": "West",
+    "warpName": "mocfild17_01",
+    "destMap": "moc_fild12",
+    "destX": 284,
+    "destY": 171
+  },
+  {
+    "sourceMap": "moc_fild17",
+    "sourceX": 218,
+    "sourceY": 369,
+    "direction": "North",
+    "warpName": "mocfild17_03",
+    "destMap": "moc_fild10",
+    "destX": 189,
+    "destY": 29
+  },
+  {
+    "sourceMap": "moc_fild17",
+    "sourceX": 209,
+    "sourceY": 230,
+    "direction": "North",
+    "warpName": "anthell02_01",
+    "destMap": "anthell02",
+    "destX": 168,
+    "destY": 170
+  }
+]

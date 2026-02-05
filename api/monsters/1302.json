@@ -1,0 +1,81 @@
+{
+  "Id": 1302,
+  "AegisName": "DARK_ILLUSION",
+  "Name": "Dark Illusion",
+  "Level": 80,
+  "Hp": 30000,
+  "BaseExp": 3750,
+  "JobExp": 2750,
+  "Attack": 498,
+  "Attack2": 366,
+  "Defense": 145,
+  "MagicDefense": 30,
+  "Str": 79,
+  "Agi": 47,
+  "Vit": 59,
+  "Int": 78,
+  "Dex": 79,
+  "Luk": 66,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Undead",
+  "ElementLevel": 4,
+  "WalkSpeed": 145,
+  "AttackDelay": 1024,
+  "AttackMotion": 768,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Drops": [
+    {
+      "Item": "Bone_Wand",
+      "Rate": 2
+    },
+    {
+      "Item": "Bone_Helm",
+      "Rate": 1
+    },
+    {
+      "Item": "Ragamuffin_Cape",
+      "Rate": 2
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 2668
+    },
+    {
+      "Item": "Fruit_Of_Mastela",
+      "Rate": 60
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 775
+    },
+    {
+      "Item": "Scarlet_Twohand_Sword",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Dark_Illusion_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_chyard",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1302,
+      "mobName": "Dark Illusion",
+      "amount": 3,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Id": 1318,
+  "AegisName": "HEATER",
+  "Name": "Heater",
+  "Level": 90,
+  "Hp": 19864,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 762,
+  "Attack2": 497,
+  "Defense": 99,
+  "MagicDefense": 50,
+  "Str": 57,
+  "Agi": 49,
+  "Vit": 54,
+  "Int": 82,
+  "Dex": 83,
+  "Luk": 28,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 250,
+  "AttackDelay": 1452,
+  "AttackMotion": 483,
+  "DamageMotion": 528,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 2207
+    },
+    {
+      "Item": "Broken_Shell",
+      "Rate": 375
+    },
+    {
+      "Item": "Fire_Scroll_2_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Gun_Powder",
+      "Rate": 500
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 70
+    },
+    {
+      "Item": "Doram_Only_Suit",
+      "Rate": 20
+    },
+    {
+      "Item": "Burn_Tree",
+      "Rate": 625
+    },
+    {
+      "Item": "Heater_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1318,
+      "mobName": "Heater",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

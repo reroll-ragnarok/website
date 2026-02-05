@@ -1,0 +1,65 @@
+{
+  "Id": 1008,
+  "AegisName": "PUPA",
+  "Name": "Pupa",
+  "Level": 1,
+  "Hp": 120,
+  "BaseExp": 50,
+  "JobExp": 25,
+  "Attack": 4,
+  "Attack2": 2,
+  "Defense": 7,
+  "MagicDefense": 2,
+  "Str": 6,
+  "Agi": 3,
+  "Vit": 10,
+  "Int": 5,
+  "Dex": 5,
+  "Luk": 4,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 1000,
+  "AttackDelay": 1001,
+  "AttackMotion": 1,
+  "DamageMotion": 1,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Chrysalis",
+      "Rate": 10000
+    },
+    {
+      "Item": "Sticky_Mucus",
+      "Rate": 5000
+    },
+    {
+      "Item": "Guard_",
+      "Rate": 50
+    },
+    {
+      "Item": "Pupa_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild08",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1008,
+      "mobName": "Pupa",
+      "amount": 125,
+      "respawnTime": 5000
+    }
+  ]
+}

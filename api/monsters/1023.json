@@ -1,0 +1,83 @@
+{
+  "Id": 1023,
+  "AegisName": "ORK_WARRIOR",
+  "Name": "Orc Warrior",
+  "Level": 60,
+  "Hp": 3434,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 248,
+  "Attack2": 198,
+  "Defense": 46,
+  "MagicDefense": 5,
+  "Str": 55,
+  "Agi": 18,
+  "Vit": 46,
+  "Int": 12,
+  "Dex": 21,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Orc": true,
+    "Clocktower": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1864,
+  "AttackMotion": 864,
+  "DamageMotion": 288,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Orcish_Voucher",
+      "Rate": 4500
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 20
+    },
+    {
+      "Item": "Cigar",
+      "Rate": 2
+    },
+    {
+      "Item": "Battle_Axe_",
+      "Rate": 5
+    },
+    {
+      "Item": "Orcish_Axe",
+      "Rate": 3
+    },
+    {
+      "Item": "Round_Buckler",
+      "Rate": 2
+    },
+    {
+      "Item": "Orc_Warrior_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1023,
+      "mobName": "Orc Warrior",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "Id": 1282,
+  "AegisName": "KOBOLD_ARCHER",
+  "Name": "Kobold Archer",
+  "Level": 70,
+  "Hp": 3553,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 249,
+  "Attack2": 222,
+  "Defense": 24,
+  "MagicDefense": 5,
+  "Str": 34,
+  "Agi": 60,
+  "Vit": 18,
+  "Int": 20,
+  "Dex": 70,
+  "Luk": 25,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Kobold": true
+  },
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1008,
+  "AttackMotion": 1008,
+  "DamageMotion": 384,
+  "Ai": 5,
+  "Drops": [
+    {
+      "Item": "Zargon",
+      "Rate": 125
+    },
+    {
+      "Item": "Steel",
+      "Rate": 30
+    },
+    {
+      "Item": "Cobold_Hair",
+      "Rate": 2425
+    },
+    {
+      "Item": "Ear_Of_Puppy",
+      "Rate": 25
+    },
+    {
+      "Item": "Poison_Arrow",
+      "Rate": 1000
+    },
+    {
+      "Item": "CrossBow_",
+      "Rate": 3
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 40
+    },
+    {
+      "Item": "Kobold_Archer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1282,
+      "mobName": "Kobold (Archer)",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

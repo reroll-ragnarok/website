@@ -1,0 +1,80 @@
+{
+  "Id": 1155,
+  "AegisName": "PETIT",
+  "Name": "Petite",
+  "Level": 40,
+  "Hp": 1421,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 110,
+  "Attack2": 97,
+  "Defense": 40,
+  "MagicDefense": 40,
+  "Str": 40,
+  "Agi": 32,
+  "Vit": 18,
+  "Int": 37,
+  "Dex": 40,
+  "Luk": 17,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Dragon",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 250,
+  "AttackDelay": 2468,
+  "AttackMotion": 768,
+  "DamageMotion": 480,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Dragon_Canine",
+      "Rate": 2668
+    },
+    {
+      "Item": "Dragon_Train",
+      "Rate": 150
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 70
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Scarlet_Mace",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Petti_Tail",
+      "Rate": 50
+    },
+    {
+      "Item": "Aloebera",
+      "Rate": 8
+    },
+    {
+      "Item": "Petit_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild07",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1155,
+      "mobName": "Petite (Earth)",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

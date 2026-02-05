@@ -1,0 +1,71 @@
+{
+  "Id": 1214,
+  "AegisName": "CHOCO",
+  "Name": "Choco",
+  "Level": 30,
+  "Hp": 4000,
+  "BaseExp": 2000,
+  "JobExp": 1750,
+  "Attack": 110,
+  "Attack2": 55,
+  "Defense": 50,
+  "MagicDefense": 25,
+  "Str": 18,
+  "Agi": 12,
+  "Vit": 30,
+  "Int": 11,
+  "Dex": 50,
+  "Luk": 25,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 1028,
+  "AttackMotion": 528,
+  "DamageMotion": 360,
+  "Ai": 19,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Banana_Juice",
+      "Rate": 10000
+    },
+    {
+      "Item": "Golden_Jewel",
+      "Rate": 5000
+    },
+    {
+      "Item": "Monkey_Doll",
+      "Rate": 2500
+    },
+    {
+      "Item": "Tropical_Banana",
+      "Rate": 1000
+    },
+    {
+      "Item": "Choco_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1214,
+      "mobName": "Choco",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

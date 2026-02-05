@@ -1,0 +1,82 @@
+{
+  "Id": 1121,
+  "AegisName": "GIEARTH",
+  "Name": "Giearth",
+  "Level": 30,
+  "Hp": 999,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 99,
+  "Attack2": 33,
+  "Defense": 20,
+  "MagicDefense": 20,
+  "Str": 10,
+  "Agi": 10,
+  "Vit": 30,
+  "Int": 20,
+  "Dex": 15,
+  "Luk": 5,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1200,
+  "AttackMotion": 1000,
+  "DamageMotion": 400,
+  "Ai": 17,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Great_Nature",
+      "Rate": 15
+    },
+    {
+      "Item": "Coal",
+      "Rate": 75
+    },
+    {
+      "Item": "Elder_Pixie's_Beard",
+      "Rate": 2750
+    },
+    {
+      "Item": "Elven_Ears",
+      "Rate": 1
+    },
+    {
+      "Item": "Cap_",
+      "Rate": 5
+    },
+    {
+      "Item": "Sparkling_Dust",
+      "Rate": 50
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Giearth_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjo_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1121,
+      "mobName": "Giearth",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

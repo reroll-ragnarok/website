@@ -1,0 +1,62 @@
+[
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 253,
+    "sourceY": 14,
+    "direction": "South",
+    "warpName": "prtfild05_01",
+    "destMap": "prt_fild08",
+    "destX": 20,
+    "destY": 239
+  },
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 142,
+    "sourceY": 18,
+    "direction": "South",
+    "warpName": "prtfild05_02",
+    "destMap": "prt_fild08",
+    "destX": 20,
+    "destY": 187
+  },
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 14,
+    "sourceY": 146,
+    "direction": "West",
+    "warpName": "prtfild05_03",
+    "destMap": "gef_fild00",
+    "destX": 376,
+    "destY": 140
+  },
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 373,
+    "sourceY": 205,
+    "direction": "East",
+    "warpName": "prtfild05_04",
+    "destMap": "prontera",
+    "destX": 26,
+    "destY": 203
+  },
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 291,
+    "sourceY": 385,
+    "direction": "North",
+    "warpName": "prtfild05_05",
+    "destMap": "mjolnir_05",
+    "destX": 235,
+    "destY": 19
+  },
+  {
+    "sourceMap": "prt_fild05",
+    "sourceX": 270,
+    "sourceY": 212,
+    "direction": "East",
+    "warpName": "prtfild05_sewb",
+    "destMap": "prt_sewb3",
+    "destX": 180,
+    "destY": 170
+  }
+]

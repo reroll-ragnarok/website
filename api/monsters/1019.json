@@ -1,0 +1,58 @@
+{
+  "Id": 1019,
+  "AegisName": "PECOPECO",
+  "Name": "Peco Peco",
+  "Level": 10,
+  "Hp": 269,
+  "BaseExp": 500,
+  "JobExp": 250,
+  "Attack": 16,
+  "Attack2": 7,
+  "Defense": 15,
+  "Str": 15,
+  "Agi": 4,
+  "Vit": 8,
+  "Int": 5,
+  "Dex": 10,
+  "Luk": 7,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1564,
+  "AttackMotion": 864,
+  "DamageMotion": 576,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Bill_Of_Birds",
+      "Rate": 10000
+    },
+    {
+      "Item": "Talon",
+      "Rate": 5000
+    },
+    {
+      "Item": "Pecopeco_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild12",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1019,
+      "mobName": "Peco Peco",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "Id": 1307,
+  "AegisName": "CAT_O_NINE_TAIL",
+  "Name": "Cat o' Nine Tails",
+  "Level": 50,
+  "Hp": 12500,
+  "BaseExp": 3000,
+  "JobExp": 4000,
+  "Attack": 235,
+  "Attack2": 115,
+  "Defense": 75,
+  "MagicDefense": 50,
+  "Str": 50,
+  "Agi": 48,
+  "Vit": 45,
+  "Int": 42,
+  "Dex": 50,
+  "Luk": 40,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 155,
+  "AttackDelay": 1276,
+  "AttackMotion": 576,
+  "DamageMotion": 288,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Puppy_Love",
+      "Rate": 1
+    },
+    {
+      "Item": "Silver_Knife_Of_Chaste",
+      "Rate": 75
+    },
+    {
+      "Item": "Punisher",
+      "Rate": 3
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 300
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 400
+    },
+    {
+      "Item": "Gold",
+      "Rate": 1
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 1
+    },
+    {
+      "Item": "Cat_O_Nine_Tail_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1307,
+      "mobName": "Cat O' Nine Tails",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

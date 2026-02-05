@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "pay_fild03",
+    "sourceX": 15,
+    "sourceY": 110,
+    "direction": "West",
+    "warpName": "payfild03_01",
+    "destMap": "payon_mem",
+    "destX": 90,
+    "destY": 26
+  },
+  {
+    "sourceMap": "pay_fild03",
+    "sourceX": 392,
+    "sourceY": 63,
+    "direction": "East",
+    "warpName": "payfild03_03",
+    "destMap": "alberta",
+    "destX": 19,
+    "destY": 233
+  }
+]

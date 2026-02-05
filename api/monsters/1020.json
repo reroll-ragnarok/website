@@ -1,0 +1,79 @@
+{
+  "Id": 1020,
+  "AegisName": "MANDRAGORA",
+  "Name": "Mandragora",
+  "Level": 10,
+  "Hp": 156,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 12,
+  "Attack2": 3,
+  "Defense": 10,
+  "MagicDefense": 10,
+  "Str": 3,
+  "Agi": 2,
+  "Vit": 15,
+  "Int": 18,
+  "Dex": 14,
+  "Luk": 2,
+  "AttackRange": 4,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Earth",
+  "ElementLevel": 3,
+  "WalkSpeed": 1000,
+  "AttackDelay": 1768,
+  "AttackMotion": 768,
+  "DamageMotion": 576,
+  "Ai": 10,
+  "Drops": [
+    {
+      "Item": "Yellow_Live",
+      "Rate": 60
+    },
+    {
+      "Item": "Stem",
+      "Rate": 8000
+    },
+    {
+      "Item": "Spear_",
+      "Rate": 30
+    },
+    {
+      "Item": "Green_Herb",
+      "Rate": 400
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Four_Leaf_Clover",
+      "Rate": 1
+    },
+    {
+      "Item": "Whip_Of_Earth",
+      "Rate": 5
+    },
+    {
+      "Item": "Mandragora_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1020,
+      "mobName": "Mandragora",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

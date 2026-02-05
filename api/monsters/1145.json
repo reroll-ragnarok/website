@@ -1,0 +1,79 @@
+{
+  "Id": 1145,
+  "AegisName": "MARTIN",
+  "Name": "Martin",
+  "Level": 30,
+  "Hp": 575,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 60,
+  "Attack2": 15,
+  "Defense": 30,
+  "MagicDefense": 10,
+  "Str": 10,
+  "Agi": 10,
+  "Vit": 10,
+  "Int": 10,
+  "Dex": 10,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 250,
+  "AttackDelay": 1200,
+  "AttackMotion": 400,
+  "DamageMotion": 400,
+  "Ai": 1,
+  "Drops": [
+    {
+      "Item": "Moustache_Of_Mole",
+      "Rate": 4500
+    },
+    {
+      "Item": "Nail_Of_Mole",
+      "Rate": 2500
+    },
+    {
+      "Item": "Jur_",
+      "Rate": 5
+    },
+    {
+      "Item": "Goggle_",
+      "Rate": 3
+    },
+    {
+      "Item": "Safety_Helmet",
+      "Rate": 1
+    },
+    {
+      "Item": "Battered_Pot",
+      "Rate": 5
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Martin_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjo_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1145,
+      "mobName": "Martin",
+      "amount": 125,
+      "respawnTime": 5000
+    }
+  ]
+}

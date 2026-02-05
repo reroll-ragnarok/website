@@ -1,0 +1,79 @@
+{
+  "Id": 1028,
+  "AegisName": "SOLDIER_SKELETON",
+  "Name": "Soldier Skeleton",
+  "Level": 50,
+  "Hp": 2234,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 197,
+  "Attack2": 146,
+  "Defense": 48,
+  "MagicDefense": 39,
+  "Str": 50,
+  "Agi": 13,
+  "Vit": 32,
+  "Int": 8,
+  "Dex": 37,
+  "Luk": 22,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 2276,
+  "AttackMotion": 576,
+  "DamageMotion": 432,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Skel_Bone",
+      "Rate": 2750
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 30
+    },
+    {
+      "Item": "Dagger_",
+      "Rate": 6
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 350
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Chain_Mail_",
+      "Rate": 1
+    },
+    {
+      "Item": "Stiletto",
+      "Rate": 25
+    },
+    {
+      "Item": "Soldier_Skeleton_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1028,
+      "mobName": "Soldier Skeleton",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

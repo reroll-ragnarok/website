@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "yuno_fild01",
+    "sourceX": 208,
+    "sourceY": 17,
+    "direction": "South",
+    "warpName": "yunofild01_01",
+    "destMap": "aldebaran",
+    "destX": 140,
+    "destY": 242
+  },
+  {
+    "sourceMap": "yuno_fild01",
+    "sourceX": 286,
+    "sourceY": 368,
+    "direction": "North",
+    "warpName": "yunofild01_02",
+    "destMap": "yuno_fild03",
+    "destX": 180,
+    "destY": 20
+  },
+  {
+    "sourceMap": "yuno_fild01",
+    "sourceX": 70,
+    "sourceY": 378,
+    "direction": "North",
+    "warpName": "yunofild01_03",
+    "destMap": "yuno_fild04",
+    "destX": 250,
+    "destY": 25
+  }
+]

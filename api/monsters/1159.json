@@ -1,0 +1,99 @@
+{
+  "Id": 1159,
+  "AegisName": "PHREEONI",
+  "Name": "Phreeoni",
+  "Level": 40,
+  "Hp": 50000,
+  "BaseExp": 25000,
+  "JobExp": 27500,
+  "MvpExp": 25000,
+  "Attack": 220,
+  "Attack2": 110,
+  "Defense": 75,
+  "MagicDefense": 55,
+  "Str": 52,
+  "Agi": 45,
+  "Vit": 50,
+  "Int": 42,
+  "Dex": 55,
+  "Luk": 40,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 1020,
+  "AttackMotion": 1020,
+  "DamageMotion": 288,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Frozen_Heart",
+      "Rate": 500
+    },
+    {
+      "Item": "Crystal_Jewel",
+      "Rate": 1000
+    },
+    {
+      "Item": "Star_Crumb",
+      "Rate": 4000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Thin_N'_Long_Tongue",
+      "Rate": 4850
+    },
+    {
+      "Item": "Forturn_Sword",
+      "Rate": 250
+    },
+    {
+      "Item": "Sucsamad",
+      "Rate": 75
+    },
+    {
+      "Item": "Jaws_Of_Ant",
+      "Rate": 2500
+    },
+    {
+      "Item": "Mr_Scream",
+      "Rate": 150
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1450
+    },
+    {
+      "Item": "Weihna",
+      "Rate": 50
+    },
+    {
+      "Item": "Phreeoni_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild17",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1159,
+      "mobName": "Phreeoni",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

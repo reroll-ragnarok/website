@@ -1,0 +1,79 @@
+{
+  "Id": 1026,
+  "AegisName": "MUNAK",
+  "Name": "Munak",
+  "Level": 30,
+  "Hp": 730,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 50,
+  "Attack2": 50,
+  "Defense": 25,
+  "MagicDefense": 15,
+  "Str": 30,
+  "Agi": 10,
+  "Vit": 15,
+  "Int": 10,
+  "Dex": 20,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1300,
+  "AttackMotion": 600,
+  "DamageMotion": 300,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Danggie",
+      "Rate": 4500
+    },
+    {
+      "Item": "Munak_Turban",
+      "Rate": 1
+    },
+    {
+      "Item": "Shoes_",
+      "Rate": 8
+    },
+    {
+      "Item": "Amulet",
+      "Rate": 10
+    },
+    {
+      "Item": "Ninja_Suit",
+      "Rate": 1
+    },
+    {
+      "Item": "Adventure_Suit",
+      "Rate": 50
+    },
+    {
+      "Item": "Girl's_Diary",
+      "Rate": 3
+    },
+    {
+      "Item": "Munak_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1026,
+      "mobName": "Munak",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

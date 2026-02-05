@@ -1,0 +1,113 @@
+{
+  "Id": 1087,
+  "AegisName": "ORK_HERO",
+  "Name": "Orc Hero",
+  "Level": 80,
+  "Hp": 150000,
+  "BaseExp": 75000,
+  "JobExp": 55000,
+  "MvpExp": 75000,
+  "Attack": 470,
+  "Attack2": 230,
+  "Defense": 130,
+  "MagicDefense": 85,
+  "Str": 80,
+  "Agi": 72,
+  "Vit": 75,
+  "Int": 68,
+  "Dex": 82,
+  "Luk": 65,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1678,
+  "AttackMotion": 780,
+  "DamageMotion": 648,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Red_Jewel",
+      "Rate": 2000
+    },
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 1500
+    },
+    {
+      "Item": "Steel",
+      "Rate": 5000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Voucher_Of_Orcish_Hero",
+      "Rate": 4850
+    },
+    {
+      "Item": "Monkey_Circlet",
+      "Rate": 250
+    },
+    {
+      "Item": "Right_Epsilon",
+      "Rate": 75
+    },
+    {
+      "Item": "Shield_",
+      "Rate": 125
+    },
+    {
+      "Item": "Orcish_Sword",
+      "Rate": 500
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 2280
+    },
+    {
+      "Item": "Giant_Axe",
+      "Rate": 50
+    },
+    {
+      "Item": "Orc_Hero_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1087,
+      "mobName": "Goblin Leader",
+      "amount": 1,
+      "respawnTime": 600000
+    },
+    {
+      "map": "orcsdun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1087,
+      "mobName": "Orc Hero",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

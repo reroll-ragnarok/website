@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "tur_dun04",
+    "sourceX": 100,
+    "sourceY": 196,
+    "direction": "West",
+    "warpName": "tur_dun04_01",
+    "destMap": "tur_dun01",
+    "destX": 154,
+    "destY": 237
+  }
+]

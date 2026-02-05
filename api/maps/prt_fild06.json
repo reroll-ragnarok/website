@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "prt_fild06",
+    "sourceX": 23,
+    "sourceY": 193,
+    "direction": "West",
+    "warpName": "prtfild06_01",
+    "destMap": "prontera",
+    "destX": 285,
+    "destY": 203
+  }
+]

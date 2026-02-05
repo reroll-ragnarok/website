@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "gl_prison1",
+    "sourceX": 150,
+    "sourceY": 10,
+    "direction": "South",
+    "warpName": "glprison1_01",
+    "destMap": "glast_01",
+    "destX": 54,
+    "destY": 108
+  }
+]

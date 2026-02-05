@@ -1,0 +1,80 @@
+{
+  "Id": 1280,
+  "AegisName": "STEAM_GOBLIN",
+  "Name": "Goblin Steamrider",
+  "JapaneseName": "Steam Goblin",
+  "Level": 50,
+  "Hp": 2341,
+  "BaseExp": 900,
+  "JobExp": 1200,
+  "Attack": 154,
+  "Attack2": 145,
+  "Defense": 44,
+  "MagicDefense": 5,
+  "Str": 14,
+  "Agi": 11,
+  "Vit": 23,
+  "Int": 16,
+  "Dex": 32,
+  "Luk": 27,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1008,
+  "AttackMotion": 1008,
+  "DamageMotion": 528,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Scell",
+      "Rate": 1250
+    },
+    {
+      "Item": "Cyfar",
+      "Rate": 1940
+    },
+    {
+      "Item": "Iron",
+      "Rate": 150
+    },
+    {
+      "Item": "Steel",
+      "Rate": 28
+    },
+    {
+      "Item": "Coal",
+      "Rate": 160
+    },
+    {
+      "Item": "The_Garrison",
+      "Rate": 3
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 62
+    },
+    {
+      "Item": "Steam_Goblin_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1280,
+      "mobName": "Steam Goblin",
+      "amount": 10,
+      "respawnTime": 5000
+    }
+  ]
+}

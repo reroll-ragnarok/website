@@ -1,0 +1,79 @@
+{
+  "Id": 1188,
+  "AegisName": "BON_GUN",
+  "Name": "Bongun",
+  "Level": 30,
+  "Hp": 660,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 75,
+  "Attack2": 45,
+  "Defense": 20,
+  "MagicDefense": 10,
+  "Str": 20,
+  "Agi": 30,
+  "Vit": 10,
+  "Int": 10,
+  "Dex": 30,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 180,
+  "AttackDelay": 1000,
+  "AttackMotion": 400,
+  "DamageMotion": 300,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Short_Daenggie",
+      "Rate": 2750
+    },
+    {
+      "Item": "Old_Portrait",
+      "Rate": 20
+    },
+    {
+      "Item": "Worn_Out_Scroll",
+      "Rate": 30
+    },
+    {
+      "Item": "Bongun_Hat",
+      "Rate": 1
+    },
+    {
+      "Item": "Amulet",
+      "Rate": 8
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 625
+    },
+    {
+      "Item": "Bon_Gun_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1188,
+      "mobName": "Bongun",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

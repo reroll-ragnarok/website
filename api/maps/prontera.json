@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "prontera",
+    "sourceX": 156,
+    "sourceY": 22,
+    "direction": "South",
+    "warpName": "prontera_01",
+    "destMap": "prt_fild08",
+    "destX": 170,
+    "destY": 375
+  },
+  {
+    "sourceMap": "prontera",
+    "sourceX": 22,
+    "sourceY": 203,
+    "direction": "West",
+    "warpName": "prontera_02",
+    "destMap": "prt_fild05",
+    "destX": 367,
+    "destY": 205
+  },
+  {
+    "sourceMap": "prontera",
+    "sourceX": 289,
+    "sourceY": 203,
+    "direction": "East",
+    "warpName": "prontera_03",
+    "destMap": "prt_fild06",
+    "destX": 27,
+    "destY": 193
+  }
+]

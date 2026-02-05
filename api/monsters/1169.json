@@ -1,0 +1,79 @@
+{
+  "Id": 1169,
+  "AegisName": "SKEL_WORKER",
+  "Name": "Skeleton Worker",
+  "Level": 30,
+  "Hp": 855,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 90,
+  "Attack2": 25,
+  "Defense": 25,
+  "MagicDefense": 10,
+  "Str": 25,
+  "Agi": 5,
+  "Vit": 10,
+  "Int": 7,
+  "Dex": 30,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 1400,
+  "AttackMotion": 600,
+  "DamageMotion": 300,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Iron",
+      "Rate": 200
+    },
+    {
+      "Item": "Lantern",
+      "Rate": 2750
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 45
+    },
+    {
+      "Item": "Safety_Helmet",
+      "Rate": 1
+    },
+    {
+      "Item": "Steel",
+      "Rate": 50
+    },
+    {
+      "Item": "Coal",
+      "Rate": 100
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Skel_Worker_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjo_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1169,
+      "mobName": "Skel Worker",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

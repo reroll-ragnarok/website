@@ -1,0 +1,79 @@
+{
+  "Id": 1277,
+  "AegisName": "GREATEST_GENERAL",
+  "Name": "Greatest General",
+  "Level": 10,
+  "Hp": 500,
+  "BaseExp": 300,
+  "JobExp": 150,
+  "Attack": 18,
+  "Attack2": 18,
+  "Defense": 15,
+  "MagicDefense": 15,
+  "Str": 9,
+  "Agi": 9,
+  "Vit": 9,
+  "Int": 9,
+  "Dex": 15,
+  "Luk": 9,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1152,
+  "AttackMotion": 1152,
+  "DamageMotion": 384,
+  "Ai": 10,
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 1000
+    },
+    {
+      "Item": "Wooden_Block",
+      "Rate": 1000
+    },
+    {
+      "Item": "Club",
+      "Rate": 50
+    },
+    {
+      "Item": "Inspector_Certificate",
+      "Rate": 150
+    },
+    {
+      "Item": "Stop_Post",
+      "Rate": 1
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 125
+    },
+    {
+      "Item": "Earth_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Greatest_General_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1277,
+      "mobName": "Greatest General",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

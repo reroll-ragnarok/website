@@ -1,0 +1,72 @@
+[
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 30,
+    "sourceY": 182,
+    "direction": "West",
+    "warpName": "inorcs01_01",
+    "destMap": "orcsdun02",
+    "destX": 22,
+    "destY": 184
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 108,
+    "sourceY": 114,
+    "direction": "West",
+    "warpName": "inorcs01_02",
+    "destMap": "orcsdun02",
+    "destX": 180,
+    "destY": 17
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 108,
+    "sourceY": 86,
+    "direction": "South",
+    "warpName": "inorcs01_03",
+    "destMap": "gef_fild10",
+    "destX": 223,
+    "destY": 203
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 124,
+    "sourceY": 171,
+    "direction": "West",
+    "warpName": "inorcs01_04",
+    "destMap": "gef_fild10",
+    "destX": 138,
+    "destY": 329
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 162,
+    "sourceY": 55,
+    "direction": "South",
+    "warpName": "inorcs01_05",
+    "destMap": "gef_fild10",
+    "destX": 214,
+    "destY": 53
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 29,
+    "sourceY": 116,
+    "direction": "West",
+    "warpName": "inorcs01_06",
+    "destMap": "gef_fild10",
+    "destX": 137,
+    "destY": 286
+  },
+  {
+    "sourceMap": "in_orcs01",
+    "sourceX": 30,
+    "sourceY": 154,
+    "direction": "West",
+    "warpName": "inorcs01_07",
+    "destMap": "gef_fild10",
+    "destX": 65,
+    "destY": 335
+  }
+]

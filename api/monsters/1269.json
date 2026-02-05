@@ -1,0 +1,82 @@
+{
+  "Id": 1269,
+  "AegisName": "CLOCK",
+  "Name": "Clock",
+  "Level": 80,
+  "Hp": 7442,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 392,
+  "Attack2": 271,
+  "Defense": 91,
+  "MagicDefense": 43,
+  "Str": 65,
+  "Agi": 11,
+  "Vit": 62,
+  "Int": 78,
+  "Dex": 79,
+  "Luk": 18,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1092,
+  "AttackMotion": 792,
+  "DamageMotion": 480,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Needle_Of_Alarm",
+      "Rate": 2668
+    },
+    {
+      "Item": "Wooden_Block",
+      "Rate": 400
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 950
+    },
+    {
+      "Item": "Lemon",
+      "Rate": 160
+    },
+    {
+      "Item": "Key_Of_Clock_Tower",
+      "Rate": 15
+    },
+    {
+      "Item": "Underground_Key",
+      "Rate": 15
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 82
+    },
+    {
+      "Item": "Clock_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "c_tower1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1269,
+      "mobName": "Clock",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

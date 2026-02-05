@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "gl_knt02",
+    "sourceX": 10,
+    "sourceY": 138,
+    "direction": "West",
+    "warpName": "glknt02_01",
+    "destMap": "gl_knt01",
+    "destX": 7,
+    "destY": 148
+  },
+  {
+    "sourceMap": "gl_knt02",
+    "sourceX": 157,
+    "sourceY": 292,
+    "direction": "North",
+    "warpName": "glknt02_02",
+    "destMap": "gl_knt01",
+    "destX": 150,
+    "destY": 286
+  },
+  {
+    "sourceMap": "gl_knt02",
+    "sourceX": 289,
+    "sourceY": 138,
+    "direction": "East",
+    "warpName": "glknt02_03",
+    "destMap": "gl_knt01",
+    "destX": 292,
+    "destY": 144
+  }
+]

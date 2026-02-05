@@ -1,0 +1,78 @@
+{
+  "Id": 1376,
+  "AegisName": "HARPY",
+  "Name": "Harpy",
+  "Level": 90,
+  "Hp": 20673,
+  "BaseExp": 4500,
+  "JobExp": 1950,
+  "Attack": 698,
+  "Attack2": 478,
+  "Defense": 69,
+  "MagicDefense": 44,
+  "Str": 53,
+  "Agi": 71,
+  "Vit": 58,
+  "Int": 49,
+  "Dex": 89,
+  "Luk": 27,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Wind",
+  "ElementLevel": 3,
+  "WalkSpeed": 155,
+  "AttackDelay": 972,
+  "AttackMotion": 672,
+  "DamageMotion": 470,
+  "Ai": 4,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Harpy's_Feather",
+      "Rate": 2425
+    },
+    {
+      "Item": "Harpy's_Claw",
+      "Rate": 1250
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 750
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 400
+    },
+    {
+      "Item": "Izidor",
+      "Rate": 10
+    },
+    {
+      "Item": "Electric_Fist",
+      "Rate": 10
+    },
+    {
+      "Item": "Harpy_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1376,
+      "mobName": "Harpy",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

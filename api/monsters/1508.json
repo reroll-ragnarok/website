@@ -1,0 +1,71 @@
+{
+  "Id": 1508,
+  "AegisName": "QUVE",
+  "Name": "Quve",
+  "Level": 90,
+  "Hp": 20123,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 674,
+  "Attack2": 467,
+  "Defense": 96,
+  "MagicDefense": 55,
+  "Str": 78,
+  "Agi": 59,
+  "Vit": 63,
+  "Int": 58,
+  "Dex": 81,
+  "Luk": 63,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 912,
+  "AttackMotion": 1248,
+  "DamageMotion": 576,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Piece_Of_Black_Cloth",
+      "Rate": 1600
+    },
+    {
+      "Item": "Ectoplasm",
+      "Rate": 2862
+    },
+    {
+      "Item": "Poison_Powder",
+      "Rate": 50
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 5
+    },
+    {
+      "Item": "Black_Powder",
+      "Rate": 250
+    },
+    {
+      "Item": "Quve_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1508,
+      "mobName": "Quve",
+      "amount": 60,
+      "respawnTime": 5000
+    }
+  ]
+}

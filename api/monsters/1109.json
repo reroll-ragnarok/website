@@ -1,0 +1,85 @@
+{
+  "Id": 1109,
+  "AegisName": "DEVIRUCHI",
+  "Name": "Deviruchi",
+  "Level": 80,
+  "Hp": 7557,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 401,
+  "Attack2": 299,
+  "Defense": 60,
+  "MagicDefense": 16,
+  "Str": 59,
+  "Agi": 58,
+  "Vit": 36,
+  "Int": 64,
+  "Dex": 73,
+  "Luk": 21,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 980,
+  "AttackMotion": 600,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Petite_DiablOfs_Horn",
+      "Rate": 2668
+    },
+    {
+      "Item": "Petite_DiablOfs_Wing",
+      "Rate": 200
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 1
+    },
+    {
+      "Item": "Partizan_",
+      "Rate": 1
+    },
+    {
+      "Item": "Sacred_Marks",
+      "Rate": 3
+    },
+    {
+      "Item": "Strange_Foxtail",
+      "Rate": 20
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 77
+    },
+    {
+      "Item": "Deviruchi_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1109,
+      "mobName": "Deviruchi",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

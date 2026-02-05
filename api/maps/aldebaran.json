@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "aldebaran",
+    "sourceX": 139,
+    "sourceY": 135,
+    "direction": "South",
+    "warpName": "aldedun01_01",
+    "destMap": "c_tower1",
+    "destX": 199,
+    "destY": 161
+  }
+]

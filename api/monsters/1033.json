@@ -1,0 +1,89 @@
+{
+  "Id": 1033,
+  "AegisName": "ELDER_WILOW",
+  "Name": "Elder Willow",
+  "Level": 10,
+  "Hp": 109,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 14,
+  "Attack2": 10,
+  "Defense": 15,
+  "Str": 6,
+  "Agi": 4,
+  "Vit": 8,
+  "Int": 14,
+  "Dex": 14,
+  "Luk": 6,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1372,
+  "AttackMotion": 672,
+  "DamageMotion": 432,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Boody_Red",
+      "Rate": 25
+    },
+    {
+      "Item": "Resin",
+      "Rate": 4500
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 20
+    },
+    {
+      "Item": "Elder_Branch",
+      "Rate": 1
+    },
+    {
+      "Item": "Fire_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Branch_Of_Dead_Tree",
+      "Rate": 50
+    },
+    {
+      "Item": "Elder_Wilow_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_fild08",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1033,
+      "mobName": "Elder Willow",
+      "amount": 75,
+      "respawnTime": 5000
+    },
+    {
+      "map": "pay_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1033,
+      "mobName": "Elder Willow",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

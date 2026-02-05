@@ -1,0 +1,56 @@
+{
+  "Id": 1047,
+  "AegisName": "PECOPECO_EGG",
+  "Name": "Peco Peco Egg",
+  "Level": 10,
+  "Hp": 250,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 3,
+  "Defense": 10,
+  "MagicDefense": 10,
+  "Str": 8,
+  "Agi": 1,
+  "Vit": 15,
+  "Int": 5,
+  "Dex": 12,
+  "Luk": 8,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Formless",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 1000,
+  "AttackDelay": 1001,
+  "AttackMotion": 1,
+  "DamageMotion": 1,
+  "Drops": [
+    {
+      "Item": "Shell",
+      "Rate": 10000
+    },
+    {
+      "Item": "Guard_",
+      "Rate": 50
+    },
+    {
+      "Item": "Pecopeco_Egg_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild12",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1047,
+      "mobName": "Peco Peco Egg",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "Id": 1206,
+  "AegisName": "ANOLIAN",
+  "Name": "Anolian",
+  "Level": 60,
+  "Hp": 3456,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 244,
+  "Attack2": 196,
+  "Defense": 52,
+  "MagicDefense": 14,
+  "Str": 57,
+  "Agi": 31,
+  "Vit": 46,
+  "Int": 28,
+  "Dex": 60,
+  "Luk": 32,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 190,
+  "AttackDelay": 900,
+  "AttackMotion": 500,
+  "DamageMotion": 864,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Anolian_Skin",
+      "Rate": 2425
+    },
+    {
+      "Item": "Crystal_Arrow",
+      "Rate": 1000
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 3
+    },
+    {
+      "Item": "Red_Muffler",
+      "Rate": 5
+    },
+    {
+      "Item": "Carga_Mace",
+      "Rate": 1
+    },
+    {
+      "Item": "Brooch_",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 67
+    },
+    {
+      "Item": "Anolian_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "cmd_fild03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1206,
+      "mobName": "Anolian",
+      "amount": 125,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "pay_dun04",
+    "sourceX": 191,
+    "sourceY": 41,
+    "direction": "South",
+    "warpName": "paydun04_01",
+    "destMap": "pay_dun03",
+    "destX": 124,
+    "destY": 62
+  },
+  {
+    "sourceMap": "pay_dun04",
+    "sourceX": 202,
+    "sourceY": 206,
+    "direction": "North",
+    "warpName": "paydun04_02",
+    "destMap": "pay_dun03",
+    "destX": 124,
+    "destY": 62
+  },
+  {
+    "sourceMap": "pay_dun04",
+    "sourceX": 32,
+    "sourceY": 204,
+    "direction": "West",
+    "warpName": "paydun04_03",
+    "destMap": "pay_dun03",
+    "destX": 124,
+    "destY": 62
+  },
+  {
+    "sourceMap": "pay_dun04",
+    "sourceX": 40,
+    "sourceY": 37,
+    "direction": "South",
+    "warpName": "paydun04_04",
+    "destMap": "pay_dun03",
+    "destX": 124,
+    "destY": 62
+  }
+]

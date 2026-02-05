@@ -1,0 +1,99 @@
+{
+  "Id": 1312,
+  "AegisName": "TURTLE_GENERAL",
+  "Name": "Turtle General",
+  "Level": 99,
+  "Hp": 350000,
+  "BaseExp": 300000,
+  "JobExp": 77500,
+  "MvpExp": 300000,
+  "Attack": 720,
+  "Attack2": 355,
+  "Defense": 160,
+  "MagicDefense": 110,
+  "Str": 98,
+  "Agi": 85,
+  "Vit": 95,
+  "Int": 90,
+  "Dex": 98,
+  "Luk": 82,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 900,
+  "AttackMotion": 1000,
+  "DamageMotion": 500,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 5500
+    },
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 1500
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 2000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Iron_Driver",
+      "Rate": 4
+    },
+    {
+      "Item": "War_Axe",
+      "Rate": 3
+    },
+    {
+      "Item": "Cookbook09",
+      "Rate": 100
+    },
+    {
+      "Item": "Pole_Axe",
+      "Rate": 5
+    },
+    {
+      "Item": "Broken_Shell",
+      "Rate": 2668
+    },
+    {
+      "Item": "Immaterial_Sword",
+      "Rate": 40
+    },
+    {
+      "Item": "Union_Of_Tribe",
+      "Rate": 1
+    },
+    {
+      "Item": "Turtle_General_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 99,
+      "y": 93,
+      "xs": 20,
+      "ys": 20,
+      "mobId": 1312,
+      "mobName": "Turtle General",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

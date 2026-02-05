@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "moc_pryd04",
+    "sourceX": 12,
+    "sourceY": 15,
+    "direction": "West",
+    "warpName": "mocpryd04_01",
+    "destMap": "moc_pryd03",
+    "destX": 12,
+    "destY": 18
+  },
+  {
+    "sourceMap": "moc_pryd04",
+    "sourceX": 15,
+    "sourceY": 187,
+    "direction": "West",
+    "warpName": "mocpryd04_02",
+    "destMap": "moc_pryd03",
+    "destX": 18,
+    "destY": 187
+  },
+  {
+    "sourceMap": "moc_pryd04",
+    "sourceX": 184,
+    "sourceY": 11,
+    "direction": "South",
+    "warpName": "mocpryd04_03",
+    "destMap": "moc_pryd03",
+    "destX": 181,
+    "destY": 11
+  },
+  {
+    "sourceMap": "moc_pryd04",
+    "sourceX": 188,
+    "sourceY": 184,
+    "direction": "East",
+    "warpName": "mocpryd04_04",
+    "destMap": "moc_pryd03",
+    "destX": 188,
+    "destY": 181
+  }
+]

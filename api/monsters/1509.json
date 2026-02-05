@@ -1,0 +1,79 @@
+{
+  "Id": 1509,
+  "AegisName": "LUDE",
+  "Name": "Lude",
+  "Level": 90,
+  "Hp": 19876,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 698,
+  "Attack2": 492,
+  "Defense": 90,
+  "MagicDefense": 53,
+  "Str": 79,
+  "Agi": 52,
+  "Vit": 61,
+  "Int": 80,
+  "Dex": 68,
+  "Luk": 59,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 890,
+  "AttackMotion": 960,
+  "DamageMotion": 480,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Pumpkin_Bucket",
+      "Rate": 1600
+    },
+    {
+      "Item": "Ectoplasm",
+      "Rate": 2862
+    },
+    {
+      "Item": "Transparent_Cloth",
+      "Rate": 500
+    },
+    {
+      "Item": "Spirit_Chain",
+      "Rate": 5
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 5
+    },
+    {
+      "Item": "Holy_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Yellow_Powder",
+      "Rate": 150
+    },
+    {
+      "Item": "Lude_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1509,
+      "mobName": "Lude",
+      "amount": 60,
+      "respawnTime": 5000
+    }
+  ]
+}

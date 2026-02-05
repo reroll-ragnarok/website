@@ -1,0 +1,397 @@
+[
+  {
+    "id": 1,
+    "name": "prontera",
+    "type": "City"
+  },
+  {
+    "id": 2,
+    "name": "prt_fild08",
+    "type": "Field"
+  },
+  {
+    "id": 3,
+    "name": "prt_fild05",
+    "type": "Field"
+  },
+  {
+    "id": 4,
+    "name": "prt_fild06",
+    "type": "Field"
+  },
+  {
+    "id": 5,
+    "name": "geffen",
+    "type": "City"
+  },
+  {
+    "id": 6,
+    "name": "gef_fild07",
+    "type": "Field"
+  },
+  {
+    "id": 7,
+    "name": "gef_fild06",
+    "type": "Field"
+  },
+  {
+    "id": 8,
+    "name": "gef_fild00",
+    "type": "Field"
+  },
+  {
+    "id": 9,
+    "name": "gef_fild04",
+    "type": "Field"
+  },
+  {
+    "id": 10,
+    "name": "gef_fild10",
+    "type": "Field"
+  },
+  {
+    "id": 11,
+    "name": "gef_fild11",
+    "type": "Field"
+  },
+  {
+    "id": 12,
+    "name": "mjolnir_02",
+    "type": "Field"
+  },
+  {
+    "id": 13,
+    "name": "mjolnir_05",
+    "type": "Field"
+  },
+  {
+    "id": 14,
+    "name": "morocc",
+    "type": "City"
+  },
+  {
+    "id": 15,
+    "name": "moc_fild12",
+    "type": "Field"
+  },
+  {
+    "id": 16,
+    "name": "moc_fild17",
+    "type": "Field"
+  },
+  {
+    "id": 17,
+    "name": "moc_fild19",
+    "type": "Field"
+  },
+  {
+    "id": 18,
+    "name": "moc_fild10",
+    "type": "Field"
+  },
+  {
+    "id": 19,
+    "name": "moc_fild13",
+    "type": "Field"
+  },
+  {
+    "id": 20,
+    "name": "moc_ruins",
+    "type": "Field"
+  },
+  {
+    "id": 21,
+    "name": "payon_mem",
+    "type": "Field"
+  },
+  {
+    "id": 22,
+    "name": "alberta",
+    "type": "City"
+  },
+  {
+    "id": 23,
+    "name": "pay_fild03",
+    "type": "Field"
+  },
+  {
+    "id": 24,
+    "name": "pay_fild10",
+    "type": "Field"
+  },
+  {
+    "id": 25,
+    "name": "pay_arche",
+    "type": "Field"
+  },
+  {
+    "id": 26,
+    "name": "aldebaran",
+    "type": "City"
+  },
+  {
+    "id": 27,
+    "name": "mjolnir_12",
+    "type": "Field"
+  },
+  {
+    "id": 28,
+    "name": "yuno_fild01",
+    "type": "Field"
+  },
+  {
+    "id": 29,
+    "name": "yuno",
+    "type": "City"
+  },
+  {
+    "id": 30,
+    "name": "yuno_fild04",
+    "type": "Field"
+  },
+  {
+    "id": 31,
+    "name": "yuno_fild03",
+    "type": "Field"
+  },
+  {
+    "id": 32,
+    "name": "comodo",
+    "type": "City"
+  },
+  {
+    "id": 33,
+    "name": "beach_dun3",
+    "type": "Dungeon"
+  },
+  {
+    "id": 34,
+    "name": "beach_dun",
+    "type": "Dungeon"
+  },
+  {
+    "id": 35,
+    "name": "beach_dun2",
+    "type": "Dungeon"
+  },
+  {
+    "id": 36,
+    "name": "cmd_fild03",
+    "type": "Field"
+  },
+  {
+    "id": 37,
+    "name": "cmd_fild02",
+    "type": "Field"
+  },
+  {
+    "id": 38,
+    "name": "umbala",
+    "type": "City"
+  },
+  {
+    "id": 39,
+    "name": "um_fild04",
+    "type": "Field"
+  },
+  {
+    "id": 40,
+    "name": "yggdrasil01",
+    "type": "Field"
+  },
+  {
+    "id": 41,
+    "name": "niflheim",
+    "type": "City"
+  },
+  {
+    "id": 42,
+    "name": "nif_fild01",
+    "type": "Field"
+  },
+  {
+    "id": 43,
+    "name": "nif_fild02",
+    "type": "Field"
+  },
+  {
+    "id": 44,
+    "name": "glast_01",
+    "type": "Field"
+  },
+  {
+    "id": 45,
+    "name": "gl_chyard",
+    "type": "Field"
+  },
+  {
+    "id": 46,
+    "name": "gl_prison1",
+    "type": "Field"
+  },
+  {
+    "id": 47,
+    "name": "gl_knt01",
+    "type": "Field"
+  },
+  {
+    "id": 48,
+    "name": "gl_knt02",
+    "type": "Field"
+  },
+  {
+    "id": 49,
+    "name": "gl_cas01",
+    "type": "Field"
+  },
+  {
+    "id": 50,
+    "name": "gl_cas02",
+    "type": "Field"
+  },
+  {
+    "id": 51,
+    "name": "anthell02",
+    "type": "Field"
+  },
+  {
+    "id": 52,
+    "name": "moc_prydb1",
+    "type": "Field"
+  },
+  {
+    "id": 53,
+    "name": "moc_pryd03",
+    "type": "Field"
+  },
+  {
+    "id": 54,
+    "name": "moc_pryd04",
+    "type": "Field"
+  },
+  {
+    "id": 55,
+    "name": "moc_pryd06",
+    "type": "Field"
+  },
+  {
+    "id": 56,
+    "name": "in_sphinx4",
+    "type": "Field"
+  },
+  {
+    "id": 57,
+    "name": "in_sphinx5",
+    "type": "Field"
+  },
+  {
+    "id": 58,
+    "name": "orcsdun02",
+    "type": "Dungeon"
+  },
+  {
+    "id": 59,
+    "name": "in_orcs01",
+    "type": "Field"
+  },
+  {
+    "id": 60,
+    "name": "gef_tower",
+    "type": "Field"
+  },
+  {
+    "id": 61,
+    "name": "gef_dun02",
+    "type": "Dungeon"
+  },
+  {
+    "id": 62,
+    "name": "gef_dun03",
+    "type": "Dungeon"
+  },
+  {
+    "id": 63,
+    "name": "mjo_dun02",
+    "type": "Dungeon"
+  },
+  {
+    "id": 64,
+    "name": "mag_dun01",
+    "type": "Dungeon"
+  },
+  {
+    "id": 65,
+    "name": "xmas",
+    "type": "Field"
+  },
+  {
+    "id": 66,
+    "name": "xmas_dun02",
+    "type": "Dungeon"
+  },
+  {
+    "id": 67,
+    "name": "tur_dun01",
+    "type": "Dungeon"
+  },
+  {
+    "id": 68,
+    "name": "tur_dun04",
+    "type": "Dungeon"
+  },
+  {
+    "id": 69,
+    "name": "prt_maze01",
+    "type": "Field"
+  },
+  {
+    "id": 70,
+    "name": "prt_sewb3",
+    "type": "Field"
+  },
+  {
+    "id": 71,
+    "name": "prt_sewb4",
+    "type": "Field"
+  },
+  {
+    "id": 72,
+    "name": "izlu2dun",
+    "type": "Dungeon"
+  },
+  {
+    "id": 73,
+    "name": "iz_dun03",
+    "type": "Dungeon"
+  },
+  {
+    "id": 74,
+    "name": "iz_dun04",
+    "type": "Dungeon"
+  },
+  {
+    "id": 75,
+    "name": "pay_dun03",
+    "type": "Dungeon"
+  },
+  {
+    "id": 76,
+    "name": "pay_dun04",
+    "type": "Dungeon"
+  },
+  {
+    "id": 77,
+    "name": "alb2trea",
+    "type": "Field"
+  },
+  {
+    "id": 78,
+    "name": "treasure02",
+    "type": "Field"
+  },
+  {
+    "id": 79,
+    "name": "c_tower1",
+    "type": "Field"
+  }
+]

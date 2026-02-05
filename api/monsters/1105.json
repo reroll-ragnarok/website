@@ -1,0 +1,66 @@
+{
+  "Id": 1105,
+  "AegisName": "DENIRO",
+  "Name": "Deniro",
+  "Level": 40,
+  "Hp": 1164,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 125,
+  "Attack2": 88,
+  "Defense": 28,
+  "MagicDefense": 21,
+  "Str": 32,
+  "Agi": 40,
+  "Vit": 28,
+  "Int": 14,
+  "Dex": 40,
+  "Luk": 13,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 1288,
+  "AttackMotion": 288,
+  "DamageMotion": 576,
+  "Ai": 7,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Worm_Peelings",
+      "Rate": 10000
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 5000
+    },
+    {
+      "Item": "Boody_Red",
+      "Rate": 500
+    },
+    {
+      "Item": "Andre_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "anthell02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1105,
+      "mobName": "Deniro",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

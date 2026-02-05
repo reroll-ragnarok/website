@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "prt_sewb4",
+    "sourceX": 100,
+    "sourceY": 96,
+    "direction": "South",
+    "warpName": "prtsewb4_01",
+    "destMap": "prt_sewb3",
+    "destX": 20,
+    "destY": 180
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "Id": 1273,
+  "AegisName": "ORC_LADY",
+  "Name": "Orc Lady",
+  "Level": 60,
+  "Hp": 2862,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 193,
+  "Attack2": 179,
+  "Defense": 68,
+  "MagicDefense": 22,
+  "Str": 44,
+  "Agi": 17,
+  "Vit": 38,
+  "Int": 14,
+  "Dex": 60,
+  "Luk": 9,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Orc": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1050,
+  "AttackMotion": 900,
+  "DamageMotion": 288,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Cyfar",
+      "Rate": 2328
+    },
+    {
+      "Item": "Puente_Robe",
+      "Rate": 2
+    },
+    {
+      "Item": "Earring",
+      "Rate": 1
+    },
+    {
+      "Item": "Wedding_Veil",
+      "Rate": 1
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Cookbook06",
+      "Rate": 2
+    },
+    {
+      "Item": "Wedding_Dress",
+      "Rate": 1
+    },
+    {
+      "Item": "Orc_Lady_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1273,
+      "mobName": "Lady Orc",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

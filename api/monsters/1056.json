@@ -1,0 +1,67 @@
+{
+  "Id": 1056,
+  "AegisName": "SMOKIE",
+  "Name": "Smokie",
+  "Level": 20,
+  "Hp": 290,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 32,
+  "Attack2": 10,
+  "Defense": 20,
+  "MagicDefense": 6,
+  "Str": 12,
+  "Agi": 20,
+  "Vit": 10,
+  "Int": 6,
+  "Dex": 19,
+  "Luk": 8,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1576,
+  "AttackMotion": 576,
+  "DamageMotion": 420,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Raccoon_Leaf",
+      "Rate": 10000
+    },
+    {
+      "Item": "Animal's_Skin",
+      "Rate": 5000
+    },
+    {
+      "Item": "Sweet_Potato",
+      "Rate": 2500
+    },
+    {
+      "Item": "Cat_Hairband",
+      "Rate": 50
+    },
+    {
+      "Item": "Smokie_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1056,
+      "mobName": "Smokie",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

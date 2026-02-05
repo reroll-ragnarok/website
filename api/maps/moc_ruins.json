@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "moc_ruins",
+    "sourceX": 71,
+    "sourceY": 16,
+    "direction": "South",
+    "warpName": "mocruins_01",
+    "destMap": "moc_fild19",
+    "destX": 71,
+    "destY": 167
+  },
+  {
+    "sourceMap": "moc_ruins",
+    "sourceX": 159,
+    "sourceY": 39,
+    "direction": "South",
+    "warpName": "mocruins_02",
+    "destMap": "morocc",
+    "destX": 30,
+    "destY": 290
+  },
+  {
+    "sourceMap": "moc_ruins",
+    "sourceX": 54,
+    "sourceY": 161,
+    "direction": "West",
+    "warpName": "mocprydb1_02",
+    "destMap": "moc_prydb1",
+    "destX": 108,
+    "destY": 115
+  }
+]

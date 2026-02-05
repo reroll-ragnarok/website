@@ -1,0 +1,99 @@
+{
+  "Id": 1583,
+  "AegisName": "TAO_GUNKA",
+  "Name": "Tao Gunka",
+  "Level": 90,
+  "Hp": 275000,
+  "BaseExp": 150000,
+  "JobExp": 65000,
+  "MvpExp": 150000,
+  "Attack": 600,
+  "Attack2": 295,
+  "Defense": 145,
+  "MagicDefense": 105,
+  "Str": 90,
+  "Agi": 82,
+  "Vit": 85,
+  "Int": 80,
+  "Dex": 92,
+  "Luk": 78,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 1020,
+  "AttackMotion": 288,
+  "DamageMotion": 144,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Oridecon",
+      "Rate": 6000
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 3000
+    },
+    {
+      "Item": "Blue_Potion",
+      "Rate": 6000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Gemstone",
+      "Rate": 2425
+    },
+    {
+      "Item": "Stone_Piece",
+      "Rate": 2425
+    },
+    {
+      "Item": "Golden_Jewel",
+      "Rate": 500
+    },
+    {
+      "Item": "Binoculars",
+      "Rate": 200
+    },
+    {
+      "Item": "White_Potion",
+      "Rate": 1500
+    },
+    {
+      "Item": "Runstone_Rare",
+      "Rate": 100
+    },
+    {
+      "Item": "Gemmed_Sallet_",
+      "Rate": 3
+    },
+    {
+      "Item": "Tao_Gunka_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "beach_dun",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1583,
+      "mobName": "Tao Gunka",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

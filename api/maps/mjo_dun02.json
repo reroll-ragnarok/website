@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "mjo_dun02",
+    "sourceX": 384,
+    "sourceY": 343,
+    "direction": "East",
+    "warpName": "mjodun02_01",
+    "destMap": "mjolnir_02",
+    "destX": 79,
+    "destY": 362
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "Id": 1510,
+  "AegisName": "HYLOZOIST",
+  "Name": "Heirozoist",
+  "JapaneseName": "Hylozoist",
+  "Level": 90,
+  "Hp": 21543,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 712,
+  "Attack2": 524,
+  "Defense": 101,
+  "MagicDefense": 68,
+  "Str": 67,
+  "Agi": 62,
+  "Vit": 71,
+  "Int": 85,
+  "Dex": 73,
+  "Luk": 58,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 155,
+  "AttackDelay": 741,
+  "AttackMotion": 1536,
+  "DamageMotion": 480,
+  "Ai": 4,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Broken_Needle",
+      "Rate": 2183
+    },
+    {
+      "Item": "Spool",
+      "Rate": 2668
+    },
+    {
+      "Item": "Needle_Pouch",
+      "Rate": 1000
+    },
+    {
+      "Item": "Stuffed_Doll",
+      "Rate": 40
+    },
+    {
+      "Item": "Ectoplasm",
+      "Rate": 150
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 5
+    },
+    {
+      "Item": "Angry_Mouth",
+      "Rate": 1
+    },
+    {
+      "Item": "Hylozoist_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1510,
+      "mobName": "Heirozoist",
+      "amount": 60,
+      "respawnTime": 5000
+    }
+  ]
+}

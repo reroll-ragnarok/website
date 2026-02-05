@@ -1,0 +1,467 @@
+{
+  "Id": 1068,
+  "AegisName": "HYDRA",
+  "Name": "Hydra",
+  "Level": 80,
+  "Hp": 7724,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 297,
+  "Attack2": 268,
+  "Defense": 20,
+  "MagicDefense": 32,
+  "Str": 36,
+  "Agi": 48,
+  "Vit": 75,
+  "Int": 80,
+  "Dex": 70,
+  "Luk": 13,
+  "AttackRange": 7,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Plant",
+  "RaceGroups": {
+    "Malangdo": true
+  },
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 1000,
+  "AttackDelay": 800,
+  "AttackMotion": 432,
+  "DamageMotion": 600,
+  "Ai": 10,
+  "Drops": [
+    {
+      "Item": "Emveretarcon",
+      "Rate": 13
+    },
+    {
+      "Item": "Tentacle",
+      "Rate": 2750
+    },
+    {
+      "Item": "Sticky_Mucus",
+      "Rate": 750
+    },
+    {
+      "Item": "Detrimindexta",
+      "Rate": 10
+    },
+    {
+      "Item": "Panacea",
+      "Rate": 3
+    },
+    {
+      "Item": "Meat",
+      "Rate": 350
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Hydra_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "treasure02",
+      "x": 47,
+      "y": 141,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 48,
+      "y": 141,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 49,
+      "y": 141,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 50,
+      "y": 141,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 47,
+      "y": 142,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 48,
+      "y": 142,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 49,
+      "y": 142,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 50,
+      "y": 142,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 47,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 48,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 49,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 50,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 153,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 154,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 155,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 156,
+      "y": 143,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 153,
+      "y": 144,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 154,
+      "y": 144,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 155,
+      "y": 144,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 156,
+      "y": 144,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 153,
+      "y": 145,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 154,
+      "y": 145,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 155,
+      "y": 145,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 156,
+      "y": 145,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 130,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 131,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 132,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 130,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 131,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 132,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 137,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 138,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 100,
+      "y": 139,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 137,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 138,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    },
+    {
+      "map": "treasure02",
+      "x": 103,
+      "y": 139,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1068,
+      "mobName": "Hydra",
+      "amount": 1,
+      "respawnTime": 30000
+    }
+  ]
+}

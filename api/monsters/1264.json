@@ -1,0 +1,79 @@
+{
+  "Id": 1264,
+  "AegisName": "MERMAN",
+  "Name": "Merman",
+  "Level": 70,
+  "Hp": 4387,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 246,
+  "Attack2": 228,
+  "Defense": 62,
+  "MagicDefense": 8,
+  "Str": 39,
+  "Agi": 31,
+  "Vit": 37,
+  "Int": 19,
+  "Dex": 64,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "Element": "Water",
+  "ElementLevel": 3,
+  "WalkSpeed": 220,
+  "AttackDelay": 916,
+  "AttackMotion": 816,
+  "DamageMotion": 336,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Lip_Of_Ancient_Fish",
+      "Rate": 650
+    },
+    {
+      "Item": "Plate_Armor_",
+      "Rate": 1
+    },
+    {
+      "Item": "Lemon",
+      "Rate": 200
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 20
+    },
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 18
+    },
+    {
+      "Item": "Trident",
+      "Rate": 2
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 102
+    },
+    {
+      "Item": "Merman_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1264,
+      "mobName": "Merman",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

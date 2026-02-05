@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "mjolnir_12",
+    "sourceX": 199,
+    "sourceY": 378,
+    "direction": "North",
+    "warpName": "mjolnir12_01",
+    "destMap": "aldebaran",
+    "destX": 138,
+    "destY": 37
+  },
+  {
+    "sourceMap": "mjolnir_12",
+    "sourceX": 220,
+    "sourceY": 26,
+    "direction": "South",
+    "warpName": "mjolnir12_02",
+    "destMap": "mjolnir_05",
+    "destX": 220,
+    "destY": 379
+  },
+  {
+    "sourceMap": "mjolnir_12",
+    "sourceX": 44,
+    "sourceY": 17,
+    "direction": "South",
+    "warpName": "mjolnir12_03",
+    "destMap": "prt_maze01",
+    "destX": 17,
+    "destY": 111
+  }
+]

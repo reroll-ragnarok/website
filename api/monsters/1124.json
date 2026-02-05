@@ -1,0 +1,82 @@
+{
+  "Id": 1124,
+  "AegisName": "GOBLIN_3",
+  "Name": "Goblin",
+  "Level": 50,
+  "Hp": 2038,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 183,
+  "Attack2": 138,
+  "Defense": 26,
+  "MagicDefense": 5,
+  "Str": 21,
+  "Agi": 18,
+  "Vit": 5,
+  "Int": 6,
+  "Dex": 44,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Goblin": true
+  },
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 250,
+  "AttackDelay": 1624,
+  "AttackMotion": 624,
+  "DamageMotion": 240,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Iron",
+      "Rate": 115
+    },
+    {
+      "Item": "Scell",
+      "Rate": 4500
+    },
+    {
+      "Item": "Red_Bandana",
+      "Rate": 2
+    },
+    {
+      "Item": "Goblin_Mask_02",
+      "Rate": 8
+    },
+    {
+      "Item": "Buckler_",
+      "Rate": 1
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Goblin_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1124,
+      "mobName": "Goblin (Axe)",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

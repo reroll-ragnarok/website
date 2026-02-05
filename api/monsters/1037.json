@@ -1,0 +1,79 @@
+{
+  "Id": 1037,
+  "AegisName": "SIDE_WINDER",
+  "Name": "Side Winder",
+  "Level": 40,
+  "Hp": 1240,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 100,
+  "Attack2": 75,
+  "Defense": 35,
+  "MagicDefense": 25,
+  "Str": 28,
+  "Agi": 28,
+  "Vit": 25,
+  "Int": 20,
+  "Dex": 40,
+  "Luk": 15,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1576,
+  "AttackMotion": 576,
+  "DamageMotion": 576,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Shining_Scales",
+      "Rate": 2668
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 700
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 67
+    },
+    {
+      "Item": "Tsurugi_",
+      "Rate": 1
+    },
+    {
+      "Item": "Posionous_Canine",
+      "Rate": 1250
+    },
+    {
+      "Item": "Scale_Of_Snakes",
+      "Rate": 2500
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Side_Winder_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjolnir_12",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1037,
+      "mobName": "Side Winder",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

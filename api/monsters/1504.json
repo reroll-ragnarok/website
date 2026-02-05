@@ -1,0 +1,75 @@
+{
+  "Id": 1504,
+  "AegisName": "DULLAHAN",
+  "Name": "Dullahan",
+  "Level": 99,
+  "Hp": 31298,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1412,
+  "Attack2": 834,
+  "Defense": 111,
+  "MagicDefense": 38,
+  "Str": 96,
+  "Agi": 54,
+  "Vit": 71,
+  "Int": 57,
+  "Dex": 92,
+  "Luk": 51,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 155,
+  "AttackDelay": 847,
+  "AttackMotion": 1152,
+  "DamageMotion": 480,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Dullahan's_Helm",
+      "Rate": 1600
+    },
+    {
+      "Item": "Dullahan_Armor",
+      "Rate": 2425
+    },
+    {
+      "Item": "An_Eye_Of_Dullahan",
+      "Rate": 1
+    },
+    {
+      "Item": "Manteau",
+      "Rate": 7
+    },
+    {
+      "Item": "Manteau_",
+      "Rate": 1
+    },
+    {
+      "Item": "Nab_Cloth",
+      "Rate": 5
+    },
+    {
+      "Item": "Dullahan_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "nif_fild02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1504,
+      "mobName": "Dullahan",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

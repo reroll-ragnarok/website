@@ -1,0 +1,71 @@
+{
+  "Id": 1271,
+  "AegisName": "ALLIGATOR",
+  "Name": "Alligator",
+  "Level": 60,
+  "Hp": 3021,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 229,
+  "Attack2": 194,
+  "Defense": 54,
+  "MagicDefense": 33,
+  "Str": 34,
+  "Agi": 52,
+  "Vit": 20,
+  "Int": 18,
+  "Dex": 46,
+  "Luk": 29,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1100,
+  "AttackMotion": 900,
+  "DamageMotion": 480,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Zargon",
+      "Rate": 500
+    },
+    {
+      "Item": "Worn_Out_Prison_Uniform",
+      "Rate": 300
+    },
+    {
+      "Item": "Anolian_Skin",
+      "Rate": 1000
+    },
+    {
+      "Item": "Seed_Of_Yggdrasil",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 65
+    },
+    {
+      "Item": "Alligator_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "cmd_fild03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1271,
+      "mobName": "Alligator",
+      "amount": 125,
+      "respawnTime": 5000
+    }
+  ]
+}

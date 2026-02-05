@@ -1,0 +1,98 @@
+{
+  "Id": 1038,
+  "AegisName": "OSIRIS",
+  "Name": "Osiris",
+  "Level": 70,
+  "Hp": 130000,
+  "BaseExp": 50000,
+  "JobExp": 47500,
+  "MvpExp": 50000,
+  "Attack": 400,
+  "Attack2": 195,
+  "Defense": 100,
+  "MagicDefense": 85,
+  "Str": 68,
+  "Agi": 62,
+  "Vit": 70,
+  "Int": 78,
+  "Dex": 65,
+  "Luk": 62,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 1072,
+  "AttackMotion": 672,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 4000
+    },
+    {
+      "Item": "Seed_Of_Yggdrasil",
+      "Rate": 3000
+    },
+    {
+      "Item": "Osiris_Doll",
+      "Rate": 500
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 1000
+    },
+    {
+      "Item": "Assasin_Dagger",
+      "Rate": 75
+    },
+    {
+      "Item": "Crown",
+      "Rate": 100
+    },
+    {
+      "Item": "Jamadhar_",
+      "Rate": 300
+    },
+    {
+      "Item": "Sacred_Marks",
+      "Rate": 500
+    },
+    {
+      "Item": "Spinx_Helm",
+      "Rate": 75
+    },
+    {
+      "Item": "Cakram",
+      "Rate": 50
+    },
+    {
+      "Item": "Osiris_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1038,
+      "mobName": "Osiris",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

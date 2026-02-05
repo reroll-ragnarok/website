@@ -1,0 +1,95 @@
+{
+  "Id": 1046,
+  "AegisName": "DOPPELGANGER",
+  "Name": "Doppelganger",
+  "Level": 99,
+  "Hp": 300000,
+  "BaseExp": 300000,
+  "JobExp": 77500,
+  "MvpExp": 300000,
+  "Attack": 680,
+  "Attack2": 335,
+  "Defense": 150,
+  "MagicDefense": 120,
+  "Str": 92,
+  "Agi": 90,
+  "Vit": 88,
+  "Int": 85,
+  "Dex": 95,
+  "Luk": 88,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 100,
+  "AttackDelay": 480,
+  "AttackMotion": 480,
+  "DamageMotion": 288,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Cardinal_Jewel_",
+      "Rate": 1500
+    },
+    {
+      "Item": "Blue_Potion",
+      "Rate": 6000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Plate_Armor_",
+      "Rate": 125
+    },
+    {
+      "Item": "Broad_Sword_",
+      "Rate": 110
+    },
+    {
+      "Item": "Zweihander",
+      "Rate": 75
+    },
+    {
+      "Item": "Sharp_Gear",
+      "Rate": 175
+    },
+    {
+      "Item": "Lance_",
+      "Rate": 275
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1843
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 1350
+    },
+    {
+      "Item": "Doppelganger_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1046,
+      "mobName": "Doppelganger",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

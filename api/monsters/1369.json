@@ -1,0 +1,71 @@
+{
+  "Id": 1369,
+  "AegisName": "GRAND_PECO",
+  "Name": "Grand Peco",
+  "Level": 70,
+  "Hp": 4687,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 259,
+  "Attack2": 231,
+  "Defense": 95,
+  "MagicDefense": 30,
+  "Str": 58,
+  "Agi": 62,
+  "Vit": 35,
+  "Int": 21,
+  "Dex": 66,
+  "Luk": 23,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 165,
+  "AttackDelay": 1460,
+  "AttackMotion": 960,
+  "DamageMotion": 432,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Peco_Wing_Feather",
+      "Rate": 2425
+    },
+    {
+      "Item": "Fruit_Of_Mastela",
+      "Rate": 150
+    },
+    {
+      "Item": "Wind_Of_Verdure",
+      "Rate": 500
+    },
+    {
+      "Item": "Gold",
+      "Rate": 1
+    },
+    {
+      "Item": "Orange",
+      "Rate": 250
+    },
+    {
+      "Item": "Grand_Peco_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1369,
+      "mobName": "Grand Peco",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 150,
+    "sourceY": 6,
+    "direction": "South",
+    "warpName": "glknt01_01",
+    "destMap": "glast_01",
+    "destX": 74,
+    "destY": 193
+  },
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 12,
+    "sourceY": 148,
+    "direction": "West",
+    "warpName": "glknt01_02",
+    "destMap": "gl_knt02",
+    "destX": 15,
+    "destY": 140
+  },
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 287,
+    "sourceY": 144,
+    "direction": "East",
+    "warpName": "glknt01_03",
+    "destMap": "gl_knt02",
+    "destX": 283,
+    "destY": 140
+  },
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 150,
+    "sourceY": 291,
+    "direction": "North",
+    "warpName": "glknt01_05",
+    "destMap": "gl_knt02",
+    "destX": 157,
+    "destY": 287
+  },
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 104,
+    "sourceY": 204,
+    "direction": "West",
+    "warpName": "glknt01_06",
+    "destMap": "gl_knt01",
+    "destX": 123,
+    "destY": 292
+  },
+  {
+    "sourceMap": "gl_knt01",
+    "sourceX": 128,
+    "sourceY": 292,
+    "direction": "North",
+    "warpName": "glknt01_07",
+    "destMap": "gl_knt01",
+    "destX": 104,
+    "destY": 199
+  }
+]

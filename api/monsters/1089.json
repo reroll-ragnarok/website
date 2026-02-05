@@ -1,0 +1,83 @@
+{
+  "Id": 1089,
+  "AegisName": "TOAD",
+  "Name": "Toad",
+  "Level": 10,
+  "Hp": 1300,
+  "BaseExp": 1000,
+  "JobExp": 500,
+  "Attack": 35,
+  "Attack2": 40,
+  "Defense": 50,
+  "MagicDefense": 45,
+  "Str": 13,
+  "Agi": 10,
+  "Vit": 15,
+  "Int": 12,
+  "Dex": 15,
+  "Luk": 14,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1236,
+  "AttackMotion": 336,
+  "DamageMotion": 432,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Big_Sis'_Ribbon",
+      "Rate": 25
+    },
+    {
+      "Item": "Honey",
+      "Rate": 1000
+    },
+    {
+      "Item": "Bluish_Green_Jewel",
+      "Rate": 500
+    },
+    {
+      "Item": "Light_Granule",
+      "Rate": 250
+    },
+    {
+      "Item": "Alchol",
+      "Rate": 50
+    },
+    {
+      "Item": "Detrimindexta",
+      "Rate": 50
+    },
+    {
+      "Item": "Kiss_Of_Angel",
+      "Rate": 500
+    },
+    {
+      "Item": "Toad_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild00",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1089,
+      "mobName": "Toad",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

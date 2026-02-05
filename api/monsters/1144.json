@@ -1,0 +1,79 @@
+{
+  "Id": 1144,
+  "AegisName": "MARSE",
+  "Name": "Marse",
+  "Level": 60,
+  "Hp": 2747,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 189,
+  "Attack2": 178,
+  "Defense": 38,
+  "MagicDefense": 52,
+  "Str": 42,
+  "Agi": 23,
+  "Vit": 38,
+  "Int": 19,
+  "Dex": 38,
+  "Luk": 12,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 300,
+  "AttackDelay": 1956,
+  "AttackMotion": 756,
+  "DamageMotion": 528,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Chinese_Ink",
+      "Rate": 4500
+    },
+    {
+      "Item": "Tentacle",
+      "Rate": 1500
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 5
+    },
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 6
+    },
+    {
+      "Item": "Penetration",
+      "Rate": 3
+    },
+    {
+      "Item": "Grape",
+      "Rate": 150
+    },
+    {
+      "Item": "Marse_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1144,
+      "mobName": "Marse",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

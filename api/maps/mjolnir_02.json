@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "mjolnir_02",
+    "sourceX": 361,
+    "sourceY": 18,
+    "direction": "East",
+    "warpName": "mjolnir02_01",
+    "destMap": "gef_fild04",
+    "destX": 261,
+    "destY": 357
+  },
+  {
+    "sourceMap": "mjolnir_02",
+    "sourceX": 326,
+    "sourceY": 289,
+    "direction": "East",
+    "warpName": "mjolnir02_02",
+    "destMap": "mjolnir_05",
+    "destX": 20,
+    "destY": 171
+  },
+  {
+    "sourceMap": "mjolnir_02",
+    "sourceX": 79,
+    "sourceY": 365,
+    "direction": "North",
+    "warpName": "mjolnir02_03",
+    "destMap": "mjo_dun02",
+    "destX": 380,
+    "destY": 344
+  }
+]

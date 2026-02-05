@@ -1,0 +1,78 @@
+{
+  "Id": 1193,
+  "AegisName": "ALARM",
+  "Name": "Alarm",
+  "Level": 80,
+  "Hp": 7016,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 418,
+  "Attack2": 297,
+  "Defense": 106,
+  "MagicDefense": 53,
+  "Str": 78,
+  "Agi": 48,
+  "Vit": 46,
+  "Int": 34,
+  "Dex": 63,
+  "Luk": 55,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 300,
+  "AttackDelay": 1020,
+  "AttackMotion": 500,
+  "DamageMotion": 768,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Needle_Of_Alarm",
+      "Rate": 2668
+    },
+    {
+      "Item": "Clip",
+      "Rate": 1
+    },
+    {
+      "Item": "Skull",
+      "Rate": 750
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 53
+    },
+    {
+      "Item": "Key_Of_Clock_Tower",
+      "Rate": 10
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 750
+    },
+    {
+      "Item": "Alarm_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "c_tower1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1193,
+      "mobName": "Alarm",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

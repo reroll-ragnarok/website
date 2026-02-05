@@ -1,0 +1,84 @@
+{
+  "Id": 1219,
+  "AegisName": "KNIGHT_OF_ABYSS",
+  "Name": "Abysmal Knight",
+  "JapaneseName": "Knight of Abyss",
+  "Level": 99,
+  "Hp": 32867,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1328,
+  "Attack2": 817,
+  "Defense": 102,
+  "MagicDefense": 50,
+  "Str": 93,
+  "Agi": 66,
+  "Vit": 78,
+  "Int": 71,
+  "Dex": 91,
+  "Luk": 59,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 4,
+  "WalkSpeed": 300,
+  "AttackDelay": 1500,
+  "AttackMotion": 500,
+  "DamageMotion": 1000,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Reins",
+      "Rate": 2668
+    },
+    {
+      "Item": "Blade_Lost_In_Darkness",
+      "Rate": 3
+    },
+    {
+      "Item": "Clothes_Of_The_Lord",
+      "Rate": 1
+    },
+    {
+      "Item": "Battle_Hook",
+      "Rate": 13
+    },
+    {
+      "Item": "Scarlet_Twohand_Sword",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 185
+    },
+    {
+      "Item": "Ebone_Armor",
+      "Rate": 5
+    },
+    {
+      "Item": "Knight_Of_Abyss_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_knt02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1219,
+      "mobName": "Abysmal Knight",
+      "amount": 70,
+      "respawnTime": 5000
+    }
+  ]
+}

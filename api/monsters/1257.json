@@ -1,0 +1,80 @@
+{
+  "Id": 1257,
+  "AegisName": "INJUSTICE",
+  "Name": "Injustice",
+  "Level": 80,
+  "Hp": 8123,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 358,
+  "Attack2": 301,
+  "Defense": 76,
+  "MagicDefense": 31,
+  "Str": 72,
+  "Agi": 57,
+  "Vit": 45,
+  "Int": 43,
+  "Dex": 71,
+  "Luk": 80,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 400,
+  "AttackDelay": 770,
+  "AttackMotion": 720,
+  "DamageMotion": 336,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Steel",
+      "Rate": 150
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 2668
+    },
+    {
+      "Item": "Cyfar",
+      "Rate": 1750
+    },
+    {
+      "Item": "Padded_Armor_",
+      "Rate": 3
+    },
+    {
+      "Item": "Plate_Armor",
+      "Rate": 1
+    },
+    {
+      "Item": "Prohibition_Red_Candle",
+      "Rate": 1
+    },
+    {
+      "Item": "Scarlet_Katar",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Injustice_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_prison1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1257,
+      "mobName": "Injustice",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

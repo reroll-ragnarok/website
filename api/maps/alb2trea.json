@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "alb2trea",
+    "sourceX": 88,
+    "sourceY": 111,
+    "direction": "West",
+    "warpName": "alb002",
+    "destMap": "treasure02",
+    "destX": 102,
+    "destY": 27
+  }
+]

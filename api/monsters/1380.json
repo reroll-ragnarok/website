@@ -1,0 +1,59 @@
+{
+  "Id": 1380,
+  "AegisName": "DRILLER",
+  "Name": "Driller",
+  "Level": 30,
+  "Hp": 725,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 70,
+  "Attack2": 30,
+  "Defense": 25,
+  "MagicDefense": 10,
+  "Str": 15,
+  "Agi": 10,
+  "Vit": 15,
+  "Int": 10,
+  "Dex": 30,
+  "Luk": 5,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 180,
+  "AttackDelay": 1200,
+  "AttackMotion": 800,
+  "DamageMotion": 400,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Reptile_Tongue",
+      "Rate": 10000
+    },
+    {
+      "Item": "Lizard_Scruff",
+      "Rate": 5000
+    },
+    {
+      "Item": "Driller_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild17",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1380,
+      "mobName": "Driller",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

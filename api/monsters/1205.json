@@ -1,0 +1,87 @@
+{
+  "Id": 1205,
+  "AegisName": "EXECUTIONER",
+  "Name": "Executioner",
+  "Level": 99,
+  "Hp": 90000,
+  "BaseExp": 30000,
+  "JobExp": 7750,
+  "Attack": 1280,
+  "Attack2": 3460,
+  "Defense": 105,
+  "MagicDefense": 110,
+  "Str": 85,
+  "Agi": 90,
+  "Vit": 72,
+  "Int": 95,
+  "Dex": 92,
+  "Luk": 78,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 768,
+  "AttackMotion": 500,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Bloody_Edge",
+      "Rate": 3
+    },
+    {
+      "Item": "Phlogopite",
+      "Rate": 750
+    },
+    {
+      "Item": "Lapier_",
+      "Rate": 40
+    },
+    {
+      "Item": "Scimiter_",
+      "Rate": 30
+    },
+    {
+      "Item": "Scarlet_Saber",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Steel",
+      "Rate": 60
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 73
+    },
+    {
+      "Item": "Executioner_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_in01",
+      "x": 160,
+      "y": 151,
+      "xs": 20,
+      "ys": 40,
+      "mobId": 1205,
+      "mobName": "Executioner",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

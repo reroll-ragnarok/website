@@ -1,0 +1,79 @@
+{
+  "Id": 1069,
+  "AegisName": "SWORD_FISH",
+  "Name": "Swordfish",
+  "Level": 60,
+  "Hp": 3349,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 234,
+  "Attack2": 192,
+  "Defense": 61,
+  "MagicDefense": 16,
+  "Str": 48,
+  "Agi": 54,
+  "Vit": 41,
+  "Int": 17,
+  "Dex": 52,
+  "Luk": 18,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1968,
+  "AttackMotion": 768,
+  "DamageMotion": 384,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 5
+    },
+    {
+      "Item": "Sharp_Scale",
+      "Rate": 4500
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 17
+    },
+    {
+      "Item": "Snowy_Horn",
+      "Rate": 1
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 25
+    },
+    {
+      "Item": "Katana_",
+      "Rate": 13
+    },
+    {
+      "Item": "Gill",
+      "Rate": 300
+    },
+    {
+      "Item": "Sword_Fish_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1069,
+      "mobName": "Swordfish",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

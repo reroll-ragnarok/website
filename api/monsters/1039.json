@@ -1,0 +1,99 @@
+{
+  "Id": 1039,
+  "AegisName": "BAPHOMET",
+  "Name": "Baphomet",
+  "Level": 99,
+  "Hp": 375000,
+  "BaseExp": 300000,
+  "JobExp": 77500,
+  "MvpExp": 300000,
+  "Attack": 760,
+  "Attack2": 375,
+  "Defense": 165,
+  "MagicDefense": 125,
+  "Str": 100,
+  "Agi": 95,
+  "Vit": 92,
+  "Int": 95,
+  "Dex": 100,
+  "Luk": 90,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 100,
+  "AttackDelay": 768,
+  "AttackMotion": 768,
+  "DamageMotion": 576,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 2000
+    },
+    {
+      "Item": "Baphomet_Doll",
+      "Rate": 500
+    },
+    {
+      "Item": "Evil_Horn",
+      "Rate": 5000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Crescent_Scythe",
+      "Rate": 200
+    },
+    {
+      "Item": "Magestic_Goat",
+      "Rate": 150
+    },
+    {
+      "Item": "Crescent_Scythe_",
+      "Rate": 25
+    },
+    {
+      "Item": "Emperium",
+      "Rate": 250
+    },
+    {
+      "Item": "Magestic_Goat_",
+      "Rate": 5
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 2716
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 2086
+    },
+    {
+      "Item": "Baphomet_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "alde_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1039,
+      "mobName": "Baphomet",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

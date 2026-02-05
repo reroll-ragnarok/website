@@ -1,0 +1,79 @@
+{
+  "Id": 1323,
+  "AegisName": "SEE_OTTER",
+  "Name": "Sea Otter",
+  "Level": 50,
+  "Hp": 2096,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 181,
+  "Attack2": 137,
+  "Defense": 29,
+  "MagicDefense": 17,
+  "Str": 15,
+  "Agi": 29,
+  "Vit": 36,
+  "Int": 49,
+  "Dex": 33,
+  "Luk": 31,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 190,
+  "AttackDelay": 1132,
+  "AttackMotion": 583,
+  "DamageMotion": 532,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Scarlet_Jewel",
+      "Rate": 75
+    },
+    {
+      "Item": "Clam_Shell",
+      "Rate": 2750
+    },
+    {
+      "Item": "Sea_Otter_Leather",
+      "Rate": 2183
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Blue_Jewel",
+      "Rate": 25
+    },
+    {
+      "Item": "Glass_Bead",
+      "Rate": 325
+    },
+    {
+      "Item": "Cyfar",
+      "Rate": 600
+    },
+    {
+      "Item": "See_Otter_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "cmd_fild02",
+      "x": 1,
+      "y": 300,
+      "xs": 350,
+      "ys": 100,
+      "mobId": 1323,
+      "mobName": "Sea Otter",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

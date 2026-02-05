@@ -1,0 +1,89 @@
+{
+  "Id": 1203,
+  "AegisName": "MYSTELTAINN",
+  "Name": "Mysteltainn",
+  "Level": 99,
+  "Hp": 100000,
+  "BaseExp": 30000,
+  "JobExp": 7750,
+  "Attack": 1420,
+  "Attack2": 520,
+  "Defense": 95,
+  "MagicDefense": 75,
+  "Str": 88,
+  "Agi": 70,
+  "Vit": 110,
+  "Int": 65,
+  "Dex": 115,
+  "Luk": 90,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 4,
+  "WalkSpeed": 250,
+  "AttackDelay": 1152,
+  "AttackMotion": 500,
+  "DamageMotion": 240,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Loki's_Whispers",
+      "Rate": 1
+    },
+    {
+      "Item": "Biotite",
+      "Rate": 750
+    },
+    {
+      "Item": "Scarlet_Dagger",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scarlet_Saber",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scarlet_Twohand_Sword",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Runstone_Mystic",
+      "Rate": 150
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 122
+    },
+    {
+      "Item": "Mysteltainn_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_in01",
+      "x": 153,
+      "y": 33,
+      "xs": 20,
+      "ys": 40,
+      "mobId": 1203,
+      "mobName": "Mysteltainn",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

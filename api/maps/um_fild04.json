@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "um_fild04",
+    "sourceX": 182,
+    "sourceY": 13,
+    "direction": "South",
+    "warpName": "umfild04_01",
+    "destMap": "beach_dun2",
+    "destX": 255,
+    "destY": 244
+  },
+  {
+    "sourceMap": "um_fild04",
+    "sourceX": 215,
+    "sourceY": 339,
+    "direction": "North",
+    "warpName": "umfild04_02",
+    "destMap": "umbala",
+    "destX": 130,
+    "destY": 82
+  }
+]

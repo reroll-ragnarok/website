@@ -1,0 +1,79 @@
+{
+  "Id": 1180,
+  "AegisName": "NINE_TAIL",
+  "Name": "Nine Tail",
+  "Level": 40,
+  "Hp": 1382,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 119,
+  "Attack2": 73,
+  "Defense": 27,
+  "MagicDefense": 33,
+  "Str": 19,
+  "Agi": 33,
+  "Vit": 18,
+  "Int": 27,
+  "Dex": 33,
+  "Luk": 40,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 140,
+  "AttackDelay": 840,
+  "AttackMotion": 540,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Fox_Tail",
+      "Rate": 2328
+    },
+    {
+      "Item": "Glass_Bead",
+      "Rate": 100
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 50
+    },
+    {
+      "Item": "Branch_Of_Dead_Tree",
+      "Rate": 50
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 125
+    },
+    {
+      "Item": "Panacea",
+      "Rate": 175
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 50
+    },
+    {
+      "Item": "Nine_Tail_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1180,
+      "mobName": "Ninetails",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "Id": 1201,
+  "AegisName": "RYBIO",
+  "Name": "Rybio",
+  "Level": 80,
+  "Hp": 8457,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 421,
+  "Attack2": 278,
+  "Defense": 109,
+  "MagicDefense": 30,
+  "Str": 68,
+  "Agi": 48,
+  "Vit": 60,
+  "Int": 36,
+  "Dex": 74,
+  "Luk": 19,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Neutral",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1790,
+  "AttackMotion": 1440,
+  "DamageMotion": 540,
+  "Ai": 13,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Thin_N'_Long_Tongue",
+      "Rate": 1940
+    },
+    {
+      "Item": "Executioner's_Mitten",
+      "Rate": 2
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 900
+    },
+    {
+      "Item": "Oil_Bottle",
+      "Rate": 150
+    },
+    {
+      "Item": "Frozen_Heart",
+      "Rate": 5
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 50
+    },
+    {
+      "Item": "Izidor",
+      "Rate": 15
+    },
+    {
+      "Item": "Rybio_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_prison1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1201,
+      "mobName": "Rybio",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

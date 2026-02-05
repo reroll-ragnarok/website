@@ -1,0 +1,74 @@
+{
+  "Id": 1260,
+  "AegisName": "DARK_FRAME",
+  "Name": "Dark Frame",
+  "Level": 90,
+  "Hp": 23894,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 587,
+  "Attack2": 431,
+  "Defense": 67,
+  "MagicDefense": 27,
+  "Str": 41,
+  "Agi": 56,
+  "Vit": 89,
+  "Int": 82,
+  "Dex": 79,
+  "Luk": 28,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Earth",
+  "ElementLevel": 4,
+  "WalkSpeed": 200,
+  "AttackDelay": 920,
+  "AttackMotion": 720,
+  "DamageMotion": 200,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 2328
+    },
+    {
+      "Item": "Red_Frame",
+      "Rate": 500
+    },
+    {
+      "Item": "Manteau",
+      "Rate": 15
+    },
+    {
+      "Item": "Star_Crumb",
+      "Rate": 40
+    },
+    {
+      "Item": "Crystal_Mirror",
+      "Rate": 2
+    },
+    {
+      "Item": "Dark_Frame_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_cas01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1260,
+      "mobName": "Dark Frame",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

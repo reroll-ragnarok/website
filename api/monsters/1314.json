@@ -1,0 +1,79 @@
+{
+  "Id": 1314,
+  "AegisName": "PERMETER",
+  "Name": "Permeter",
+  "Level": 90,
+  "Hp": 17789,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 823,
+  "Attack2": 534,
+  "Defense": 74,
+  "MagicDefense": 80,
+  "Str": 89,
+  "Agi": 43,
+  "Vit": 72,
+  "Int": 47,
+  "Dex": 54,
+  "Luk": 26,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Earth",
+  "ElementLevel": 2,
+  "WalkSpeed": 250,
+  "AttackDelay": 1100,
+  "AttackMotion": 483,
+  "DamageMotion": 528,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 2207
+    },
+    {
+      "Item": "Coconut_Fruit",
+      "Rate": 100
+    },
+    {
+      "Item": "Elder_Branch",
+      "Rate": 50
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 1225
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 620
+    },
+    {
+      "Item": "Fruit_Of_Mastela",
+      "Rate": 13
+    },
+    {
+      "Item": "Anodyne",
+      "Rate": 1
+    },
+    {
+      "Item": "Permeter_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1314,
+      "mobName": "Permeter",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

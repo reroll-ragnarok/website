@@ -1,0 +1,63 @@
+{
+  "Id": 1005,
+  "AegisName": "FARMILIAR",
+  "Name": "Familiar",
+  "Level": 30,
+  "Hp": 589,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 40,
+  "Attack2": 30,
+  "Defense": 10,
+  "MagicDefense": 8,
+  "Str": 12,
+  "Agi": 28,
+  "Vit": 8,
+  "Int": 5,
+  "Dex": 18,
+  "Luk": 25,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 140,
+  "AttackDelay": 1100,
+  "AttackMotion": 500,
+  "DamageMotion": 350,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Tooth_Of_Bat",
+      "Rate": 10000
+    },
+    {
+      "Item": "Grape",
+      "Rate": 2500
+    },
+    {
+      "Item": "Center_Potion",
+      "Rate": 1000
+    },
+    {
+      "Item": "Farmiliar_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_sewb3",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1005,
+      "mobName": "Familiar",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

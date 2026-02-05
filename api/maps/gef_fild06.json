@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "gef_fild06",
+    "sourceX": 218,
+    "sourceY": 17,
+    "direction": "South",
+    "warpName": "geffild06_01",
+    "destMap": "gef_fild10",
+    "destX": 234,
+    "destY": 351
+  },
+  {
+    "sourceMap": "gef_fild06",
+    "sourceX": 382,
+    "sourceY": 211,
+    "direction": "East",
+    "warpName": "geffild06_02",
+    "destMap": "gef_fild07",
+    "destX": 22,
+    "destY": 191
+  }
+]

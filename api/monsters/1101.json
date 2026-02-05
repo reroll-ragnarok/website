@@ -1,0 +1,81 @@
+{
+  "Id": 1101,
+  "AegisName": "BAPHOMET_",
+  "Name": "Baphomet Jr.",
+  "Level": 90,
+  "Hp": 11234,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 567,
+  "Attack2": 412,
+  "Defense": 70,
+  "MagicDefense": 25,
+  "Str": 72,
+  "Agi": 71,
+  "Vit": 54,
+  "Int": 46,
+  "Dex": 89,
+  "Luk": 88,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 100,
+  "AttackDelay": 868,
+  "AttackMotion": 480,
+  "DamageMotion": 120,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Evil_Horn",
+      "Rate": 250
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 32
+    },
+    {
+      "Item": "Halberd_",
+      "Rate": 1
+    },
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 25
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 650
+    },
+    {
+      "Item": "Boots",
+      "Rate": 25
+    },
+    {
+      "Item": "Baphomet__Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "alde_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1101,
+      "mobName": "Baphomet Jr.",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

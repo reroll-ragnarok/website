@@ -1,0 +1,79 @@
+{
+  "Id": 1246,
+  "AegisName": "COOKIE_XMAS",
+  "Name": "Christmas Cookie",
+  "Level": 60,
+  "Hp": 2876,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 184,
+  "Attack2": 172,
+  "Defense": 41,
+  "MagicDefense": 42,
+  "Str": 28,
+  "Agi": 24,
+  "Vit": 58,
+  "Int": 28,
+  "Dex": 32,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demihuman",
+  "Element": "Holy",
+  "ElementLevel": 2,
+  "WalkSpeed": 400,
+  "AttackDelay": 1248,
+  "AttackMotion": 1248,
+  "DamageMotion": 240,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Well_Baked_Cookie",
+      "Rate": 2000
+    },
+    {
+      "Item": "Scarlet_Jewel",
+      "Rate": 23
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 100
+    },
+    {
+      "Item": "Hood_",
+      "Rate": 13
+    },
+    {
+      "Item": "Gift_Box",
+      "Rate": 3
+    },
+    {
+      "Item": "Cold_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 850
+    },
+    {
+      "Item": "Cookie_XMAS_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1246,
+      "mobName": "Cookie",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

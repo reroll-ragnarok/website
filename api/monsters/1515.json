@@ -1,0 +1,72 @@
+{
+  "Id": 1515,
+  "AegisName": "GARM_BABY",
+  "Name": "Baby Hatii",
+  "JapaneseName": "Garm Baby",
+  "Level": 50,
+  "Hp": 2516,
+  "BaseExp": 900,
+  "JobExp": 1200,
+  "Attack": 186,
+  "Attack2": 141,
+  "Defense": 33,
+  "MagicDefense": 28,
+  "Str": 37,
+  "Agi": 50,
+  "Vit": 28,
+  "Int": 33,
+  "Dex": 50,
+  "Luk": 28,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 450,
+  "AttackDelay": 879,
+  "AttackMotion": 672,
+  "DamageMotion": 576,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Milk_Bottle",
+      "Rate": 750
+    },
+    {
+      "Item": "Bib",
+      "Rate": 1250
+    },
+    {
+      "Item": "Ice_Piece",
+      "Rate": 2183
+    },
+    {
+      "Item": "Frozen_Rose",
+      "Rate": 50
+    },
+    {
+      "Item": "Cold_Scroll_2_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Garm_Baby_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1515,
+      "mobName": "Garm Baby",
+      "amount": 15,
+      "respawnTime": 5000
+    }
+  ]
+}

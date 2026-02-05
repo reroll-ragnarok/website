@@ -1,0 +1,79 @@
+{
+  "Id": 1065,
+  "AegisName": "STROUF",
+  "Name": "Strouf",
+  "Level": 70,
+  "Hp": 5894,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 232,
+  "Attack2": 212,
+  "Defense": 67,
+  "MagicDefense": 21,
+  "Str": 63,
+  "Agi": 9,
+  "Vit": 68,
+  "Int": 41,
+  "Dex": 47,
+  "Luk": 21,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 1872,
+  "AttackMotion": 672,
+  "DamageMotion": 384,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Fin",
+      "Rate": 2668
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 58
+    },
+    {
+      "Item": "Chain_Mail_",
+      "Rate": 1
+    },
+    {
+      "Item": "Trident_",
+      "Rate": 1
+    },
+    {
+      "Item": "Feather",
+      "Rate": 1500
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 10
+    },
+    {
+      "Item": "Gill",
+      "Rate": 750
+    },
+    {
+      "Item": "Strouf_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1065,
+      "mobName": "Strouf",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

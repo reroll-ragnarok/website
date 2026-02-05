@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "moc_fild12",
+    "sourceX": 117,
+    "sourceY": 30,
+    "direction": "South",
+    "warpName": "mocfild12_01",
+    "destMap": "cmd_fild02",
+    "destX": 378,
+    "destY": 266
+  },
+  {
+    "sourceMap": "moc_fild12",
+    "sourceX": 289,
+    "sourceY": 168,
+    "direction": "East",
+    "warpName": "mocfild12_02",
+    "destMap": "moc_fild17",
+    "destX": 35,
+    "destY": 297
+  },
+  {
+    "sourceMap": "moc_fild12",
+    "sourceX": 159,
+    "sourceY": 381,
+    "direction": "North",
+    "warpName": "mocfild12_03",
+    "destMap": "morocc",
+    "destX": 160,
+    "destY": 20
+  }
+]

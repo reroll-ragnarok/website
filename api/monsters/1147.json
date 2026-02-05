@@ -1,0 +1,99 @@
+{
+  "Id": 1147,
+  "AegisName": "MAYA",
+  "Name": "Maya",
+  "Level": 50,
+  "Hp": 65000,
+  "BaseExp": 30000,
+  "JobExp": 40000,
+  "MvpExp": 30000,
+  "Attack": 265,
+  "Attack2": 130,
+  "Defense": 85,
+  "MagicDefense": 65,
+  "Str": 58,
+  "Agi": 52,
+  "Vit": 55,
+  "Int": 62,
+  "Dex": 58,
+  "Luk": 50,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Insect",
+  "Element": "Earth",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 864,
+  "AttackMotion": 1000,
+  "DamageMotion": 480,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Crystal_Jewel",
+      "Rate": 2000
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 3000
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 2000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Queen's_Hair_Ornament",
+      "Rate": 250
+    },
+    {
+      "Item": "Safety_Ring",
+      "Rate": 100
+    },
+    {
+      "Item": "Tiara",
+      "Rate": 100
+    },
+    {
+      "Item": "Armlet_Of_Obedience",
+      "Rate": 250
+    },
+    {
+      "Item": "Mother's_Nightmare",
+      "Rate": 5
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1750
+    },
+    {
+      "Item": "Dea_Staff",
+      "Rate": 50
+    },
+    {
+      "Item": "Maya_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "anthell02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1147,
+      "mobName": "Maya",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

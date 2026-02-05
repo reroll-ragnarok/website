@@ -1,0 +1,126 @@
+{
+  "Id": 1216,
+  "AegisName": "PENOMENA",
+  "Name": "Penomena",
+  "Level": 80,
+  "Hp": 6242,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 318,
+  "Attack2": 276,
+  "Defense": 85,
+  "MagicDefense": 32,
+  "Str": 72,
+  "Agi": 47,
+  "Vit": 38,
+  "Int": 41,
+  "Dex": 78,
+  "Luk": 57,
+  "AttackRange": 7,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 400,
+  "AttackDelay": 832,
+  "AttackMotion": 500,
+  "DamageMotion": 600,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Coral_Reef",
+      "Rate": 2425
+    },
+    {
+      "Item": "Tentacle",
+      "Rate": 4000
+    },
+    {
+      "Item": "Sticky_Mucus",
+      "Rate": 3500
+    },
+    {
+      "Item": "Panacea",
+      "Rate": 100
+    },
+    {
+      "Item": "Violet_Jewel",
+      "Rate": 8
+    },
+    {
+      "Item": "Katar_Of_Raging_Blaze",
+      "Rate": 1
+    },
+    {
+      "Item": "Red_Gemstone",
+      "Rate": 275
+    },
+    {
+      "Item": "Penomena_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "treasure02",
+      "x": 49,
+      "y": 40,
+      "xs": 9,
+      "ys": 9,
+      "mobId": 1216,
+      "mobName": "Penomena",
+      "amount": 10,
+      "respawnTime": 5000
+    },
+    {
+      "map": "treasure02",
+      "x": 102,
+      "y": 69,
+      "xs": 15,
+      "ys": 15,
+      "mobId": 1216,
+      "mobName": "Penomena",
+      "amount": 7,
+      "respawnTime": 5000
+    },
+    {
+      "map": "treasure02",
+      "x": 101,
+      "y": 42,
+      "xs": 10,
+      "ys": 10,
+      "mobId": 1216,
+      "mobName": "Penomena",
+      "amount": 6,
+      "respawnTime": 5000
+    },
+    {
+      "map": "treasure02",
+      "x": 102,
+      "y": 95,
+      "xs": 5,
+      "ys": 10,
+      "mobId": 1216,
+      "mobName": "Penomena",
+      "amount": 2,
+      "respawnTime": 5000
+    },
+    {
+      "map": "treasure02",
+      "x": 154,
+      "y": 41,
+      "xs": 9,
+      "ys": 9,
+      "mobId": 1216,
+      "mobName": "Penomena",
+      "amount": 10,
+      "respawnTime": 5000
+    }
+  ]
+}

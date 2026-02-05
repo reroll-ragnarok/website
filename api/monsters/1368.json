@@ -1,0 +1,75 @@
+{
+  "Id": 1368,
+  "AegisName": "GEOGRAPHER",
+  "Name": "Geographer",
+  "Level": 80,
+  "Hp": 6037,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 341,
+  "Attack2": 272,
+  "Defense": 158,
+  "MagicDefense": 42,
+  "Str": 36,
+  "Agi": 21,
+  "Vit": 61,
+  "Int": 80,
+  "Dex": 79,
+  "Luk": 58,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Earth",
+  "ElementLevel": 3,
+  "WalkSpeed": 1000,
+  "AttackDelay": 1308,
+  "AttackMotion": 1008,
+  "DamageMotion": 480,
+  "Ai": 10,
+  "Drops": [
+    {
+      "Item": "Blossom_Of_Maneater",
+      "Rate": 3100
+    },
+    {
+      "Item": "Root_Of_Maneater",
+      "Rate": 2750
+    },
+    {
+      "Item": "Sunflower",
+      "Rate": 15
+    },
+    {
+      "Item": "Fancy_Flower",
+      "Rate": 25
+    },
+    {
+      "Item": "Holy_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Very_Soft_Plant",
+      "Rate": 5
+    },
+    {
+      "Item": "Geographer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1368,
+      "mobName": "Geographer",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

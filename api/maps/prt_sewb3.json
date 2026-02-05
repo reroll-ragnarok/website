@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "prt_sewb3",
+    "sourceX": 20,
+    "sourceY": 184,
+    "direction": "West",
+    "warpName": "prtsewb1_01",
+    "destMap": "prt_sewb4",
+    "destX": 100,
+    "destY": 90
+  },
+  {
+    "sourceMap": "prt_sewb3",
+    "sourceX": 180,
+    "sourceY": 173,
+    "direction": "East",
+    "warpName": "prts03-1",
+    "destMap": "prt_fild05",
+    "destX": 273,
+    "destY": 209
+  }
+]

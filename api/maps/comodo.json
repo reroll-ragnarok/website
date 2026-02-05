@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "comodo",
+    "sourceX": 24,
+    "sourceY": 214,
+    "direction": "West",
+    "warpName": "comodo_01",
+    "destMap": "beach_dun",
+    "destX": 266,
+    "destY": 67
+  },
+  {
+    "sourceMap": "comodo",
+    "sourceX": 333,
+    "sourceY": 175,
+    "direction": "East",
+    "warpName": "comodo_02",
+    "destMap": "beach_dun3",
+    "destX": 23,
+    "destY": 260
+  },
+  {
+    "sourceMap": "comodo",
+    "sourceX": 176,
+    "sourceY": 358,
+    "direction": "North",
+    "warpName": "comodo_03",
+    "destMap": "beach_dun2",
+    "destX": 154,
+    "destY": 25
+  }
+]

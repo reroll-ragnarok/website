@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "pay_arche",
+    "sourceX": 81,
+    "sourceY": 18,
+    "direction": "South",
+    "warpName": "payarche_01",
+    "destMap": "payon_mem",
+    "destX": 174,
+    "destY": 185
+  },
+  {
+    "sourceMap": "pay_arche",
+    "sourceX": 36,
+    "sourceY": 131,
+    "direction": "West",
+    "warpName": "payarche_02",
+    "destMap": "pay_dun03",
+    "destX": 155,
+    "destY": 157
+  }
+]

@@ -1,0 +1,61 @@
+{
+  "Id": 1011,
+  "AegisName": "CHONCHON",
+  "Name": "Chonchon",
+  "Level": 10,
+  "Hp": 98,
+  "BaseExp": 100,
+  "JobExp": 50,
+  "Attack": 11,
+  "Attack2": 3,
+  "Defense": 12,
+  "Str": 7,
+  "Agi": 15,
+  "Vit": 1,
+  "Int": 8,
+  "Dex": 10,
+  "Luk": 5,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1076,
+  "AttackMotion": 576,
+  "DamageMotion": 480,
+  "Ai": 1,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Shell",
+      "Rate": 7000
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 5000
+    },
+    {
+      "Item": "Chonchon_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1011,
+      "mobName": "ChonChon",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

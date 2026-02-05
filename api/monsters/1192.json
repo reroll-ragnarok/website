@@ -1,0 +1,75 @@
+{
+  "Id": 1192,
+  "AegisName": "WRAITH",
+  "Name": "Wraith",
+  "Level": 80,
+  "Hp": 7541,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 347,
+  "Attack2": 279,
+  "Defense": 80,
+  "MagicDefense": 40,
+  "Str": 56,
+  "Agi": 35,
+  "Vit": 43,
+  "Int": 58,
+  "Dex": 72,
+  "Luk": 18,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 4,
+  "WalkSpeed": 300,
+  "AttackDelay": 1816,
+  "AttackMotion": 576,
+  "DamageMotion": 240,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Transparent_Cloth",
+      "Rate": 2910
+    },
+    {
+      "Item": "Wedding_Veil",
+      "Rate": 5
+    },
+    {
+      "Item": "Manteau_",
+      "Rate": 1
+    },
+    {
+      "Item": "Red_Gemstone",
+      "Rate": 325
+    },
+    {
+      "Item": "Manteau",
+      "Rate": 5
+    },
+    {
+      "Item": "Crystal_Jewel_",
+      "Rate": 3
+    },
+    {
+      "Item": "Wraith_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_chyard",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1192,
+      "mobName": "Wraith",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Id": 1041,
+  "AegisName": "MUMMY",
+  "Name": "Mummy",
+  "Level": 60,
+  "Hp": 3114,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 196,
+  "Attack2": 181,
+  "Defense": 83,
+  "MagicDefense": 6,
+  "Str": 51,
+  "Agi": 9,
+  "Vit": 35,
+  "Int": 12,
+  "Dex": 54,
+  "Luk": 14,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 2,
+  "WalkSpeed": 300,
+  "AttackDelay": 1772,
+  "AttackMotion": 72,
+  "DamageMotion": 384,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Rotten_Bandage",
+      "Rate": 10000
+    },
+    {
+      "Item": "Immortal_Heart",
+      "Rate": 5000
+    },
+    {
+      "Item": "Mummy_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1041,
+      "mobName": "Mummy",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

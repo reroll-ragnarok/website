@@ -1,0 +1,79 @@
+{
+  "Id": 1158,
+  "AegisName": "PHEN",
+  "Name": "Phen",
+  "Level": 60,
+  "Hp": 2734,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 201,
+  "Attack2": 183,
+  "Defense": 36,
+  "MagicDefense": 14,
+  "Str": 41,
+  "Agi": 28,
+  "Vit": 36,
+  "Int": 16,
+  "Dex": 33,
+  "Luk": 18,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 2544,
+  "AttackMotion": 1344,
+  "DamageMotion": 1152,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Fish_Tail",
+      "Rate": 2750
+    },
+    {
+      "Item": "Sharp_Scale",
+      "Rate": 1000
+    },
+    {
+      "Item": "Skyblue_Jewel",
+      "Rate": 3
+    },
+    {
+      "Item": "Meat",
+      "Rate": 500
+    },
+    {
+      "Item": "Fin",
+      "Rate": 250
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 13
+    },
+    {
+      "Item": "Fish_With_Blue_Back",
+      "Rate": 500
+    },
+    {
+      "Item": "Phen_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "iz_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1158,
+      "mobName": "Phen",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

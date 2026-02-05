@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "morocc",
+    "sourceX": 160,
+    "sourceY": 17,
+    "direction": "South",
+    "warpName": "morocc_01",
+    "destMap": "moc_fild12",
+    "destX": 159,
+    "destY": 378
+  },
+  {
+    "sourceMap": "morocc",
+    "sourceX": 24,
+    "sourceY": 164,
+    "direction": "West",
+    "warpName": "morocc_02",
+    "destMap": "moc_fild19",
+    "destX": 164,
+    "destY": 107
+  },
+  {
+    "sourceMap": "morocc",
+    "sourceX": 299,
+    "sourceY": 207,
+    "direction": "East",
+    "warpName": "morocc_03",
+    "destMap": "moc_fild10",
+    "destX": 26,
+    "destY": 207
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "yuno",
+    "sourceX": 158,
+    "sourceY": 15,
+    "direction": "South",
+    "warpName": "yuno_01",
+    "destMap": "yuno_fild04",
+    "destX": 231,
+    "destY": 284
+  }
+]

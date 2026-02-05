@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "gl_cas02",
+    "sourceX": 104,
+    "sourceY": 15,
+    "direction": "South",
+    "warpName": "glcas02_01",
+    "destMap": "gl_cas01",
+    "destX": 200,
+    "destY": 160
+  },
+  {
+    "sourceMap": "gl_cas02",
+    "sourceX": 104,
+    "sourceY": 193,
+    "direction": "West",
+    "warpName": "glcas02_02",
+    "destMap": "glast_01",
+    "destX": 199,
+    "destY": 325
+  }
+]

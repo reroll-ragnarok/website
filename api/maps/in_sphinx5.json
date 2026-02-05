@@ -1,0 +1,92 @@
+[
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 100,
+    "sourceY": 96,
+    "direction": "South",
+    "warpName": "insphinx5_01",
+    "destMap": "in_sphinx4",
+    "destX": 120,
+    "destY": 116
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 11,
+    "sourceY": 16,
+    "direction": "West",
+    "warpName": "insphinx5_02",
+    "destMap": "in_sphinx5",
+    "destX": 189,
+    "destY": 181
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 11,
+    "sourceY": 183,
+    "direction": "West",
+    "warpName": "insphinx5_03",
+    "destMap": "in_sphinx5",
+    "destX": 11,
+    "destY": 18
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 189,
+    "sourceY": 16,
+    "direction": "South",
+    "warpName": "insphinx5_04",
+    "destMap": "in_sphinx5",
+    "destX": 11,
+    "destY": 181
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 16,
+    "sourceY": 188,
+    "direction": "West",
+    "warpName": "insphinx5_05",
+    "destMap": "in_sphinx5",
+    "destX": 181,
+    "destY": 188
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 16,
+    "sourceY": 10,
+    "direction": "South",
+    "warpName": "insphinx5_06",
+    "destMap": "in_sphinx5",
+    "destX": 181,
+    "destY": 10
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 183,
+    "sourceY": 10,
+    "direction": "South",
+    "warpName": "insphinx5_07",
+    "destMap": "in_sphinx5",
+    "destX": 18,
+    "destY": 188
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 183,
+    "sourceY": 188,
+    "direction": "North",
+    "warpName": "insphinx5_08",
+    "destMap": "in_sphinx5",
+    "destX": 18,
+    "destY": 10
+  },
+  {
+    "sourceMap": "in_sphinx5",
+    "sourceX": 189,
+    "sourceY": 183,
+    "direction": "East",
+    "warpName": "insphinx5_09",
+    "destMap": "in_sphinx5",
+    "destX": 189,
+    "destY": 18
+  }
+]

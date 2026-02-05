@@ -1,0 +1,101 @@
+{
+  "Id": 1013,
+  "AegisName": "WOLF",
+  "Name": "Wolf",
+  "Level": 20,
+  "Hp": 350,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 42,
+  "Attack2": 12,
+  "Defense": 24,
+  "MagicDefense": 5,
+  "Str": 18,
+  "Agi": 20,
+  "Vit": 14,
+  "Int": 6,
+  "Dex": 17,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1054,
+  "AttackMotion": 504,
+  "DamageMotion": 432,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Emveretarcon",
+      "Rate": 10
+    },
+    {
+      "Item": "Claw_Of_Wolves",
+      "Rate": 4500
+    },
+    {
+      "Item": "Mantle_",
+      "Rate": 5
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Monster's_Feed",
+      "Rate": 525
+    },
+    {
+      "Item": "Animal's_Skin",
+      "Rate": 2750
+    },
+    {
+      "Item": "Strawberry",
+      "Rate": 300
+    },
+    {
+      "Item": "Wolf_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild13",
+      "x": 286,
+      "y": 290,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1013,
+      "mobName": "Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    },
+    {
+      "map": "moc_fild13",
+      "x": 268,
+      "y": 195,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1013,
+      "mobName": "Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    },
+    {
+      "map": "moc_fild13",
+      "x": 261,
+      "y": 111,
+      "xs": 60,
+      "ys": 60,
+      "mobId": 1013,
+      "mobName": "Wolf",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

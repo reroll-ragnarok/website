@@ -1,0 +1,81 @@
+{
+  "Id": 1320,
+  "AegisName": "OWL_DUKE",
+  "Name": "Owl Duke",
+  "Level": 99,
+  "Hp": 28123,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1098,
+  "Attack2": 778,
+  "Defense": 80,
+  "MagicDefense": 45,
+  "Str": 61,
+  "Agi": 58,
+  "Vit": 53,
+  "Int": 91,
+  "Dex": 96,
+  "Luk": 74,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Wind",
+  "ElementLevel": 3,
+  "WalkSpeed": 195,
+  "AttackDelay": 1345,
+  "AttackMotion": 824,
+  "DamageMotion": 440,
+  "Ai": 21,
+  "Class": "Boss",
+  "Drops": [
+    {
+      "Item": "Tatters_Clothes",
+      "Rate": 2207
+    },
+    {
+      "Item": "Soft_Feather",
+      "Rate": 750
+    },
+    {
+      "Item": "Wind_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Crystal_Mirror",
+      "Rate": 1
+    },
+    {
+      "Item": "Scarlet_Lance",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Scarlet_Staff",
+      "Rate": 50
+    },
+    {
+      "Item": "Magician_Hat",
+      "Rate": 1
+    },
+    {
+      "Item": "Owl_Duke_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_cas02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1320,
+      "mobName": "Owl Duke",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

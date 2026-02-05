@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "pay_fild10",
+    "sourceX": 16,
+    "sourceY": 290,
+    "direction": "West",
+    "warpName": "payfild10_01",
+    "destMap": "payon_mem",
+    "destX": 183,
+    "destY": 69
+  }
+]

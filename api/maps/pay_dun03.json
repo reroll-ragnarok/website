@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "pay_dun03",
+    "sourceX": 155,
+    "sourceY": 161,
+    "direction": "West",
+    "warpName": "paydun03_01",
+    "destMap": "pay_arche",
+    "destX": 39,
+    "destY": 131
+  },
+  {
+    "sourceMap": "pay_dun03",
+    "sourceX": 175,
+    "sourceY": 175,
+    "direction": "North",
+    "warpName": "script_warp",
+    "destMap": "pay_dun04",
+    "destX": 0,
+    "destY": 0
+  }
+]

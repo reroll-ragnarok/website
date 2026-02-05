@@ -1,0 +1,98 @@
+{
+  "Id": 1190,
+  "AegisName": "ORC_LORD",
+  "Name": "Orc Lord",
+  "Level": 70,
+  "Hp": 125000,
+  "BaseExp": 50000,
+  "JobExp": 47500,
+  "MvpExp": 50000,
+  "Attack": 380,
+  "Attack2": 185,
+  "Defense": 105,
+  "MagicDefense": 75,
+  "Str": 72,
+  "Agi": 65,
+  "Vit": 68,
+  "Int": 52,
+  "Dex": 75,
+  "Luk": 58,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 1248,
+  "AttackMotion": 500,
+  "DamageMotion": 360,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Voucher_Of_Orcish_Hero",
+      "Rate": 5500
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 2000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Brood_Axe",
+      "Rate": 200
+    },
+    {
+      "Item": "Ring_",
+      "Rate": 200
+    },
+    {
+      "Item": "Loard_Circlet",
+      "Rate": 200
+    },
+    {
+      "Item": "Doom_Slayer_",
+      "Rate": 200
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 500
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 2134
+    },
+    {
+      "Item": "Erde",
+      "Rate": 1550
+    },
+    {
+      "Item": "Orc_Load_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1190,
+      "mobName": "Orc Lord",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

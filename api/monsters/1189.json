@@ -1,0 +1,83 @@
+{
+  "Id": 1189,
+  "AegisName": "ORC_ARCHER",
+  "Name": "Orc Archer",
+  "Level": 60,
+  "Hp": 2749,
+  "BaseExp": 400,
+  "JobExp": 425,
+  "Attack": 211,
+  "Attack2": 188,
+  "Defense": 32,
+  "MagicDefense": 37,
+  "Str": 19,
+  "Agi": 49,
+  "Vit": 16,
+  "Int": 35,
+  "Dex": 56,
+  "Luk": 39,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Orc": true,
+    "Clocktower": true
+  },
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 1960,
+  "AttackMotion": 620,
+  "DamageMotion": 480,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Sharpened_Cuspid",
+      "Rate": 2328
+    },
+    {
+      "Item": "Steel_Arrow",
+      "Rate": 500
+    },
+    {
+      "Item": "Stone_Arrow",
+      "Rate": 1250
+    },
+    {
+      "Item": "Arrow_Of_Wind",
+      "Rate": 1250
+    },
+    {
+      "Item": "Orc_Archer_Bow",
+      "Rate": 1
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 700
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 450
+    },
+    {
+      "Item": "Orc_Archer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1189,
+      "mobName": "Orc Archer",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

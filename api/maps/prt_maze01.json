@@ -1,0 +1,622 @@
+[
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 22,
+    "sourceY": 194,
+    "direction": "West",
+    "warpName": "prtmaze01_01",
+    "destMap": "prt_maze01",
+    "destX": 16,
+    "destY": 31
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 5,
+    "sourceY": 186,
+    "direction": "West",
+    "warpName": "prtmaze01_02",
+    "destMap": "prt_maze01",
+    "destX": 182,
+    "destY": 88
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 58,
+    "sourceY": 194,
+    "direction": "West",
+    "warpName": "prtmaze01_03",
+    "destMap": "prt_maze01",
+    "destX": 23,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 102,
+    "sourceY": 165,
+    "direction": "West",
+    "warpName": "prtmaze01_04",
+    "destMap": "prt_maze01",
+    "destX": 99,
+    "destY": 31
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 85,
+    "sourceY": 174,
+    "direction": "West",
+    "warpName": "prtmaze01_05",
+    "destMap": "prt_maze02",
+    "destX": 93,
+    "destY": 20
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 154,
+    "sourceY": 181,
+    "direction": "West",
+    "warpName": "prtmaze01_06",
+    "destMap": "prt_maze01",
+    "destX": 191,
+    "destY": 175
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 125,
+    "sourceY": 171,
+    "direction": "West",
+    "warpName": "prtmaze01_07",
+    "destMap": "prt_maze01",
+    "destX": 8,
+    "destY": 186
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 175,
+    "sourceY": 165,
+    "direction": "South",
+    "warpName": "prtmaze01_08",
+    "destMap": "prt_maze01",
+    "destX": 48,
+    "destY": 104
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 194,
+    "sourceY": 175,
+    "direction": "East",
+    "warpName": "prtmaze01_09",
+    "destMap": "prt_maze01",
+    "destX": 23,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 18,
+    "sourceY": 154,
+    "direction": "West",
+    "warpName": "prtmaze01_10",
+    "destMap": "prt_maze01",
+    "destX": 177,
+    "destY": 71
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 23,
+    "sourceY": 125,
+    "direction": "West",
+    "warpName": "prtmaze01_11",
+    "destMap": "prt_maze01",
+    "destX": 151,
+    "destY": 22
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 5,
+    "sourceY": 140,
+    "direction": "West",
+    "warpName": "prtmaze01_12",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 54,
+    "sourceY": 154,
+    "direction": "West",
+    "warpName": "prtmaze01_13",
+    "destMap": "prt_maze01",
+    "destX": 191,
+    "destY": 175
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 63,
+    "sourceY": 125,
+    "direction": "West",
+    "warpName": "prtmaze01_14",
+    "destMap": "prt_maze01",
+    "destX": 182,
+    "destY": 88
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 98,
+    "sourceY": 154,
+    "direction": "West",
+    "warpName": "prtmaze01_15",
+    "destMap": "prt_maze01",
+    "destX": 102,
+    "destY": 168
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 114,
+    "sourceY": 145,
+    "direction": "West",
+    "warpName": "prtmaze01_16",
+    "destMap": "prt_maze01",
+    "destX": 23,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 85,
+    "sourceY": 146,
+    "direction": "West",
+    "warpName": "prtmaze01_17",
+    "destMap": "prt_maze01",
+    "destX": 142,
+    "destY": 111
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 137,
+    "sourceY": 125,
+    "direction": "South",
+    "warpName": "prtmaze01_18",
+    "destMap": "prt_maze01",
+    "destX": 191,
+    "destY": 139
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 154,
+    "sourceY": 134,
+    "direction": "South",
+    "warpName": "prtmaze01_19",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 191
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 194,
+    "sourceY": 139,
+    "direction": "South",
+    "warpName": "prtmaze01_20",
+    "destMap": "prt_maze01",
+    "destX": 22,
+    "destY": 88
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 166,
+    "sourceY": 139,
+    "direction": "South",
+    "warpName": "prtmaze01_21",
+    "destMap": "prt_maze01",
+    "destX": 128,
+    "destY": 173
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 17,
+    "sourceY": 114,
+    "direction": "West",
+    "warpName": "prtmaze01_22",
+    "destMap": "prt_maze01",
+    "destX": 8,
+    "destY": 186
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 22,
+    "sourceY": 85,
+    "direction": "West",
+    "warpName": "prtmaze01_23",
+    "destMap": "prt_maze01",
+    "destX": 137,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 63,
+    "sourceY": 114,
+    "direction": "West",
+    "warpName": "prtmaze01_24",
+    "destMap": "prt_maze01",
+    "destX": 111,
+    "destY": 56
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 63,
+    "sourceY": 85,
+    "direction": "West",
+    "warpName": "prtmaze01_25",
+    "destMap": "prt_maze01",
+    "destX": 151,
+    "destY": 22
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 74,
+    "sourceY": 97,
+    "direction": "West",
+    "warpName": "prtmaze01_26",
+    "destMap": "prt_maze01",
+    "destX": 71,
+    "destY": 11
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 45,
+    "sourceY": 104,
+    "direction": "West",
+    "warpName": "prtmaze01_27",
+    "destMap": "prt_maze01",
+    "destX": 63,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 105,
+    "sourceY": 114,
+    "direction": "West",
+    "warpName": "prtmaze01_28",
+    "destMap": "prt_maze01",
+    "destX": 111,
+    "destY": 145
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 114,
+    "sourceY": 95,
+    "direction": "South",
+    "warpName": "prtmaze01_29",
+    "destMap": "prt_maze01",
+    "destX": 14,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 85,
+    "sourceY": 97,
+    "direction": "West",
+    "warpName": "prtmaze01_30",
+    "destMap": "prt_maze01",
+    "destX": 63,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 142,
+    "sourceY": 114,
+    "direction": "South",
+    "warpName": "prtmaze01_31",
+    "destMap": "prt_maze01",
+    "destX": 23,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 125,
+    "sourceY": 105,
+    "direction": "South",
+    "warpName": "prtmaze01_32",
+    "destMap": "prt_maze01",
+    "destX": 14,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 182,
+    "sourceY": 85,
+    "direction": "South",
+    "warpName": "prtmaze01_33",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 194,
+    "sourceY": 94,
+    "direction": "South",
+    "warpName": "prtmaze01_34",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 191
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 168,
+    "sourceY": 94,
+    "direction": "South",
+    "warpName": "prtmaze01_35",
+    "destMap": "prt_maze01",
+    "destX": 191,
+    "destY": 139
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 14,
+    "sourceY": 74,
+    "direction": "West",
+    "warpName": "prtmaze01_36",
+    "destMap": "prt_maze01",
+    "destX": 151,
+    "destY": 22
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 14,
+    "sourceY": 45,
+    "direction": "West",
+    "warpName": "prtmaze01_37",
+    "destMap": "mjolnir_12",
+    "destX": 44,
+    "destY": 21
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 5,
+    "sourceY": 58,
+    "direction": "West",
+    "warpName": "prtmaze01_38",
+    "destMap": "prt_maze01",
+    "destX": 48,
+    "destY": 104
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 74,
+    "sourceY": 74,
+    "direction": "West",
+    "warpName": "prtmaze01_39",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 191
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 52,
+    "sourceY": 45,
+    "direction": "South",
+    "warpName": "prtmaze01_40",
+    "destMap": "prt_maze01",
+    "destX": 139,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 104,
+    "sourceY": 74,
+    "direction": "South",
+    "warpName": "prtmaze01_41",
+    "destMap": "prt_maze01",
+    "destX": 14,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 96,
+    "sourceY": 45,
+    "direction": "South",
+    "warpName": "prtmaze01_42",
+    "destMap": "prt_maze01",
+    "destX": 63,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 114,
+    "sourceY": 56,
+    "direction": "South",
+    "warpName": "prtmaze01_43",
+    "destMap": "prt_maze01",
+    "destX": 176,
+    "destY": 8
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 85,
+    "sourceY": 56,
+    "direction": "South",
+    "warpName": "prtmaze01_44",
+    "destMap": "prt_maze01",
+    "destX": 105,
+    "destY": 111
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 137,
+    "sourceY": 74,
+    "direction": "South",
+    "warpName": "prtmaze01_45",
+    "destMap": "prt_maze01",
+    "destX": 182,
+    "destY": 88
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 139,
+    "sourceY": 45,
+    "direction": "South",
+    "warpName": "prtmaze01_46",
+    "destMap": "prt_maze01",
+    "destX": 71,
+    "destY": 11
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 177,
+    "sourceY": 74,
+    "direction": "South",
+    "warpName": "prtmaze01_47",
+    "destMap": "prt_fild01",
+    "destX": 136,
+    "destY": 368
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 175,
+    "sourceY": 45,
+    "direction": "South",
+    "warpName": "prtmaze01_48",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 194,
+    "sourceY": 54,
+    "direction": "South",
+    "warpName": "prtmaze01_49",
+    "destMap": "prt_maze01",
+    "destX": 99,
+    "destY": 31
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 16,
+    "sourceY": 34,
+    "direction": "West",
+    "warpName": "prtmaze01_50",
+    "destMap": "prt_maze01",
+    "destX": 128,
+    "destY": 173
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 23,
+    "sourceY": 5,
+    "direction": "South",
+    "warpName": "prtmaze01_51",
+    "destMap": "prt_maze01",
+    "destX": 176,
+    "destY": 8
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 54,
+    "sourceY": 5,
+    "direction": "South",
+    "warpName": "prtmaze01_52",
+    "destMap": "prt_maze01",
+    "destX": 128,
+    "destY": 173
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 74,
+    "sourceY": 12,
+    "direction": "South",
+    "warpName": "prtmaze01_53",
+    "destMap": "prt_maze01",
+    "destX": 58,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 45,
+    "sourceY": 21,
+    "direction": "South",
+    "warpName": "prtmaze01_54",
+    "destMap": "prt_maze01",
+    "destX": 142,
+    "destY": 111
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 99,
+    "sourceY": 34,
+    "direction": "South",
+    "warpName": "prtmaze01_55",
+    "destMap": "prt_maze01",
+    "destX": 137,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 114,
+    "sourceY": 22,
+    "direction": "South",
+    "warpName": "prtmaze01_56",
+    "destMap": "prt_maze01",
+    "destX": 177,
+    "destY": 71
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 85,
+    "sourceY": 13,
+    "direction": "South",
+    "warpName": "prtmaze01_57",
+    "destMap": "prt_maze01",
+    "destX": 22,
+    "destY": 88
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 154,
+    "sourceY": 22,
+    "direction": "South",
+    "warpName": "prtmaze01_58",
+    "destMap": "prt_maze01",
+    "destX": 139,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 176,
+    "sourceY": 34,
+    "direction": "South",
+    "warpName": "prtmaze01_59",
+    "destMap": "prt_maze01",
+    "destX": 8,
+    "destY": 186
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 176,
+    "sourceY": 5,
+    "direction": "South",
+    "warpName": "prtmaze01_60",
+    "destMap": "prt_maze01",
+    "destX": 137,
+    "destY": 128
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 194,
+    "sourceY": 15,
+    "direction": "South",
+    "warpName": "prtmaze01_61",
+    "destMap": "prt_maze01",
+    "destX": 52,
+    "destY": 48
+  },
+  {
+    "sourceMap": "prt_maze01",
+    "sourceX": 165,
+    "sourceY": 22,
+    "direction": "South",
+    "warpName": "prtmaze01_62",
+    "destMap": "prt_maze01",
+    "destX": 63,
+    "destY": 128
+  }
+]

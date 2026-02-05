@@ -1,0 +1,79 @@
+{
+  "Id": 1067,
+  "AegisName": "CORNUTUS",
+  "Name": "Cornutus",
+  "Level": 50,
+  "Hp": 2856,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 101,
+  "Attack2": 99,
+  "Defense": 80,
+  "MagicDefense": 28,
+  "Str": 11,
+  "Agi": 11,
+  "Vit": 50,
+  "Int": 27,
+  "Dex": 39,
+  "Luk": 8,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1248,
+  "AttackMotion": 48,
+  "DamageMotion": 480,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Crystal_Blue",
+      "Rate": 23
+    },
+    {
+      "Item": "Conch",
+      "Rate": 2750
+    },
+    {
+      "Item": "Scell",
+      "Rate": 400
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 27
+    },
+    {
+      "Item": "Shield_",
+      "Rate": 3
+    },
+    {
+      "Item": "Solid_Shell",
+      "Rate": 500
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Cornutus_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "izlu2dun",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1067,
+      "mobName": "Cornutus",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "Id": 1150,
+  "AegisName": "MOONLIGHT",
+  "Name": "Moonlight Flower",
+  "Level": 50,
+  "Hp": 60000,
+  "BaseExp": 30000,
+  "JobExp": 40000,
+  "MvpExp": 30000,
+  "Attack": 285,
+  "Attack2": 140,
+  "Defense": 75,
+  "MagicDefense": 60,
+  "Str": 60,
+  "Agi": 55,
+  "Vit": 52,
+  "Int": 58,
+  "Dex": 62,
+  "Luk": 55,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 1276,
+  "AttackMotion": 576,
+  "DamageMotion": 288,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Fox_Tail",
+      "Rate": 5000
+    },
+    {
+      "Item": "White_Potion",
+      "Rate": 1500
+    },
+    {
+      "Item": "Golden_Jewel",
+      "Rate": 500
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Spectral_Spear",
+      "Rate": 250
+    },
+    {
+      "Item": "Moonlight_Sword",
+      "Rate": 50
+    },
+    {
+      "Item": "Long_Mace",
+      "Rate": 75
+    },
+    {
+      "Item": "Punisher",
+      "Rate": 250
+    },
+    {
+      "Item": "Silver_Knife_Of_Chaste",
+      "Rate": 325
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1300
+    },
+    {
+      "Item": "Staff_Of_Bordeaux",
+      "Rate": 50
+    },
+    {
+      "Item": "Moonlight_Flower_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1150,
+      "mobName": "Moonlight Flower",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

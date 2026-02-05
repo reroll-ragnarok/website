@@ -1,0 +1,96 @@
+{
+  "Id": 1252,
+  "AegisName": "GARM",
+  "Name": "Hatii",
+  "JapaneseName": "Garm",
+  "Level": 60,
+  "Hp": 95000,
+  "BaseExp": 40000,
+  "JobExp": 42500,
+  "MvpExp": 40000,
+  "Attack": 320,
+  "Attack2": 155,
+  "Defense": 95,
+  "MagicDefense": 65,
+  "Str": 65,
+  "Agi": 60,
+  "Vit": 62,
+  "Int": 55,
+  "Dex": 72,
+  "Luk": 48,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Water",
+  "ElementLevel": 4,
+  "WalkSpeed": 400,
+  "AttackDelay": 608,
+  "AttackMotion": 408,
+  "DamageMotion": 336,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Fang_Of_Garm",
+      "Rate": 1000
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 3000
+    },
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 3000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Fang_Of_Garm",
+      "Rate": 2750
+    },
+    {
+      "Item": "Ice_Falchon",
+      "Rate": 75
+    },
+    {
+      "Item": "Katar_Of_Cold_Icicle",
+      "Rate": 250
+    },
+    {
+      "Item": "Claw_Of_Garm",
+      "Rate": 250
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1989
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 1450
+    },
+    {
+      "Item": "Garm_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_fild01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1252,
+      "mobName": "Hatii",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

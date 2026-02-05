@@ -1,0 +1,88 @@
+{
+  "Id": 1179,
+  "AegisName": "WHISPER",
+  "Name": "Whisper",
+  "Level": 80,
+  "Hp": 5124,
+  "BaseExp": 2250,
+  "JobExp": 1650,
+  "Attack": 307,
+  "Attack2": 269,
+  "Defense": 20,
+  "MagicDefense": 40,
+  "Str": 28,
+  "Agi": 73,
+  "Vit": 22,
+  "Int": 48,
+  "Dex": 57,
+  "Luk": 46,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demon",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Ghost",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 1960,
+  "AttackMotion": 960,
+  "DamageMotion": 504,
+  "Ai": 19,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Sparkling_Dust",
+      "Rate": 75
+    },
+    {
+      "Item": "Transparent_Cloth",
+      "Rate": 2668
+    },
+    {
+      "Item": "Spirit_Chain",
+      "Rate": 1
+    },
+    {
+      "Item": "Silver_Robe_",
+      "Rate": 5
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Whisper_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "treasure02",
+      "x": 36,
+      "y": 75,
+      "xs": 6,
+      "ys": 6,
+      "mobId": 1179,
+      "mobName": "Whisper",
+      "amount": 5,
+      "respawnTime": 5000
+    },
+    {
+      "map": "treasure02",
+      "x": 167,
+      "y": 75,
+      "xs": 6,
+      "ys": 6,
+      "mobId": 1179,
+      "mobName": "Whisper",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

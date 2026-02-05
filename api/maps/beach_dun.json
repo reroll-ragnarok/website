@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "beach_dun",
+    "sourceX": 276,
+    "sourceY": 67,
+    "direction": "South",
+    "warpName": "beachdun_01",
+    "destMap": "comodo",
+    "destX": 31,
+    "destY": 215
+  }
+]

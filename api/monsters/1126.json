@@ -1,0 +1,82 @@
+{
+  "Id": 1126,
+  "AegisName": "GOBLIN_5",
+  "Name": "Goblin",
+  "Level": 50,
+  "Hp": 2267,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 199,
+  "Attack2": 149,
+  "Defense": 31,
+  "MagicDefense": 5,
+  "Str": 13,
+  "Agi": 19,
+  "Vit": 13,
+  "Int": 6,
+  "Dex": 43,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Goblin": true
+  },
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 3074,
+  "AttackMotion": 1874,
+  "DamageMotion": 480,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Model_Foxtail",
+      "Rate": 20
+    },
+    {
+      "Item": "Scell",
+      "Rate": 4500
+    },
+    {
+      "Item": "Wand_",
+      "Rate": 8
+    },
+    {
+      "Item": "Amazing_Foxtail",
+      "Rate": 20
+    },
+    {
+      "Item": "Goblin_Mask_03",
+      "Rate": 8
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 750
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 110
+    },
+    {
+      "Item": "Goblin_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1126,
+      "mobName": "Goblin (Morning Star)",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

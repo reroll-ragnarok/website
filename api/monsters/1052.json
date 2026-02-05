@@ -1,0 +1,66 @@
+{
+  "Id": 1052,
+  "AegisName": "ROCKER",
+  "Name": "Rocker",
+  "Level": 20,
+  "Hp": 320,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 35,
+  "Attack2": 8,
+  "Defense": 22,
+  "MagicDefense": 5,
+  "Str": 10,
+  "Agi": 20,
+  "Vit": 12,
+  "Int": 8,
+  "Dex": 18,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Insect",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1864,
+  "AttackMotion": 864,
+  "DamageMotion": 540,
+  "Ai": 1,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Grasshopper's_Leg",
+      "Rate": 10000
+    },
+    {
+      "Item": "Leaflet_Of_Hinal",
+      "Rate": 2500
+    },
+    {
+      "Item": "Green_Feeler",
+      "Rate": 50
+    },
+    {
+      "Item": "Rocker_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1052,
+      "mobName": "Rocker",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

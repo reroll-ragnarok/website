@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "cmd_fild02",
+    "sourceX": 222,
+    "sourceY": 376,
+    "direction": "North",
+    "warpName": "cmdfild02_01",
+    "destMap": "cmd_fild03",
+    "destX": 182,
+    "destY": 21
+  },
+  {
+    "sourceMap": "cmd_fild02",
+    "sourceX": 382,
+    "sourceY": 269,
+    "direction": "East",
+    "warpName": "cmdfild02_02",
+    "destMap": "moc_fild12",
+    "destX": 118,
+    "destY": 35
+  }
+]

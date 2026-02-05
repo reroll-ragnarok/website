@@ -1,0 +1,82 @@
+{
+  "Id": 1315,
+  "AegisName": "ASSULTER",
+  "Name": "Assaulter",
+  "Level": 90,
+  "Hp": 13342,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 718,
+  "Attack2": 489,
+  "Defense": 69,
+  "MagicDefense": 69,
+  "Str": 54,
+  "Agi": 87,
+  "Vit": 46,
+  "Int": 35,
+  "Dex": 85,
+  "Luk": 83,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Ninja": true
+  },
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 512,
+  "AttackMotion": 780,
+  "DamageMotion": 504,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 2207
+    },
+    {
+      "Item": "Broken_Armor_Piece",
+      "Rate": 600
+    },
+    {
+      "Item": "Rust_Suriken",
+      "Rate": 420
+    },
+    {
+      "Item": "Smoke_Powder",
+      "Rate": 100
+    },
+    {
+      "Item": "Doram_Only_Cape",
+      "Rate": 20
+    },
+    {
+      "Item": "Huuma_Bird_Wing",
+      "Rate": 3
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 1
+    },
+    {
+      "Item": "Assulter_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1315,
+      "mobName": "Assaulter",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

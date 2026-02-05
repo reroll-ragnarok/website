@@ -1,0 +1,62 @@
+{
+  "Id": 1111,
+  "AegisName": "DRAINLIAR",
+  "Name": "Drainliar",
+  "Level": 40,
+  "Hp": 1352,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 121,
+  "Attack2": 99,
+  "Defense": 28,
+  "MagicDefense": 24,
+  "Str": 24,
+  "Agi": 25,
+  "Vit": 22,
+  "Int": 19,
+  "Dex": 39,
+  "Luk": 14,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 180,
+  "AttackDelay": 1276,
+  "AttackMotion": 576,
+  "DamageMotion": 384,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Wing_Of_Red_Bat",
+      "Rate": 10000
+    },
+    {
+      "Item": "Tooth_Of_Bat",
+      "Rate": 5000
+    },
+    {
+      "Item": "Drainliar_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_sewb4",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1111,
+      "mobName": "Drainliar",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

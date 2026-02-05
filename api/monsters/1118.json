@@ -1,0 +1,79 @@
+{
+  "Id": 1118,
+  "AegisName": "FLORA",
+  "Name": "Flora",
+  "Level": 30,
+  "Hp": 950,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 30,
+  "Attack2": 30,
+  "Defense": 20,
+  "MagicDefense": 30,
+  "Str": 10,
+  "Agi": 5,
+  "Vit": 20,
+  "Int": 30,
+  "Dex": 10,
+  "Luk": 5,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Plant",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 1000,
+  "AttackDelay": 1400,
+  "AttackMotion": 400,
+  "DamageMotion": 600,
+  "Ai": 10,
+  "Drops": [
+    {
+      "Item": "Blossom_Of_Maneater",
+      "Rate": 4500
+    },
+    {
+      "Item": "Sunflower",
+      "Rate": 2
+    },
+    {
+      "Item": "Aloe",
+      "Rate": 5
+    },
+    {
+      "Item": "Leaflet_Of_Aloe",
+      "Rate": 25
+    },
+    {
+      "Item": "Singing_Flower",
+      "Rate": 10
+    },
+    {
+      "Item": "Stem",
+      "Rate": 1000
+    },
+    {
+      "Item": "Witherless_Rose",
+      "Rate": 1
+    },
+    {
+      "Item": "Flora_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjolnir_05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1118,
+      "mobName": "Flora",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

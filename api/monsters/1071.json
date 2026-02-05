@@ -1,0 +1,79 @@
+{
+  "Id": 1071,
+  "AegisName": "PIRATE_SKEL",
+  "Name": "Pirate Skeleton",
+  "Level": 70,
+  "Hp": 5513,
+  "BaseExp": 1500,
+  "JobExp": 1425,
+  "Attack": 238,
+  "Attack2": 214,
+  "Defense": 53,
+  "MagicDefense": 20,
+  "Str": 62,
+  "Agi": 52,
+  "Vit": 38,
+  "Int": 16,
+  "Dex": 64,
+  "Luk": 38,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 800,
+  "AttackMotion": 554,
+  "DamageMotion": 288,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Skel_Bone",
+      "Rate": 1500
+    },
+    {
+      "Item": "Pirate_Bandana",
+      "Rate": 8
+    },
+    {
+      "Item": "Cookbook06",
+      "Rate": 3
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Falchion",
+      "Rate": 125
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 22
+    },
+    {
+      "Item": "Well_Dried_Bone",
+      "Rate": 10
+    },
+    {
+      "Item": "Pirate_Skel_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "alb2trea",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1071,
+      "mobName": "Pirate Skeleton",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

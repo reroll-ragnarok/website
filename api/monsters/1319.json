@@ -1,0 +1,79 @@
+{
+  "Id": 1319,
+  "AegisName": "FREEZER",
+  "Name": "Freezer",
+  "Level": 90,
+  "Hp": 20341,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 654,
+  "Attack2": 456,
+  "Defense": 127,
+  "MagicDefense": 38,
+  "Str": 84,
+  "Agi": 25,
+  "Vit": 83,
+  "Int": 89,
+  "Dex": 62,
+  "Luk": 37,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Water",
+  "ElementLevel": 2,
+  "WalkSpeed": 170,
+  "AttackDelay": 1260,
+  "AttackMotion": 960,
+  "DamageMotion": 672,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Turtle_Shell",
+      "Rate": 2207
+    },
+    {
+      "Item": "Broken_Shell",
+      "Rate": 425
+    },
+    {
+      "Item": "Ice_Piece",
+      "Rate": 625
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 900
+    },
+    {
+      "Item": "Royal_Jelly",
+      "Rate": 80
+    },
+    {
+      "Item": "Ice_Fragment",
+      "Rate": 100
+    },
+    {
+      "Item": "Cold_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Freezer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1319,
+      "mobName": "Freezer",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

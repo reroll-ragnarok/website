@@ -1,0 +1,79 @@
+{
+  "Id": 1098,
+  "AegisName": "ANUBIS",
+  "Name": "Anubis",
+  "Level": 80,
+  "Hp": 15823,
+  "BaseExp": 2250,
+  "JobExp": 1650,
+  "Attack": 488,
+  "Attack2": 332,
+  "Defense": 103,
+  "MagicDefense": 48,
+  "Str": 78,
+  "Agi": 29,
+  "Vit": 52,
+  "Int": 77,
+  "Dex": 71,
+  "Luk": 33,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Undead",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1250,
+  "AttackMotion": 720,
+  "DamageMotion": 576,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Runstone_Ancient",
+      "Rate": 5
+    },
+    {
+      "Item": "Healing_Staff",
+      "Rate": 5
+    },
+    {
+      "Item": "White_Wing_Suits",
+      "Rate": 50
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 53
+    },
+    {
+      "Item": "Sacred_Masque",
+      "Rate": 2183
+    },
+    {
+      "Item": "Mitten_Of_Presbyter",
+      "Rate": 1
+    },
+    {
+      "Item": "Blessed_Wand",
+      "Rate": 2
+    },
+    {
+      "Item": "Anubis_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "in_sphinx5",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1098,
+      "mobName": "Anubis",
+      "amount": 15,
+      "respawnTime": 5000
+    }
+  ]
+}

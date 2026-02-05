@@ -1,0 +1,71 @@
+{
+  "Id": 1383,
+  "AegisName": "EXPLOSION",
+  "Name": "Explosion",
+  "Level": 99,
+  "Hp": 26147,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1389,
+  "Attack2": 867,
+  "Defense": 112,
+  "MagicDefense": 50,
+  "Str": 91,
+  "Agi": 87,
+  "Vit": 53,
+  "Int": 51,
+  "Dex": 89,
+  "Luk": 62,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 165,
+  "AttackDelay": 1260,
+  "AttackMotion": 960,
+  "DamageMotion": 336,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Wing_Of_Red_Bat",
+      "Rate": 2750
+    },
+    {
+      "Item": "Burning_Heart",
+      "Rate": 1100
+    },
+    {
+      "Item": "Hot_Hair",
+      "Rate": 1600
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 400
+    },
+    {
+      "Item": "Fruit_Of_Mastela",
+      "Rate": 200
+    },
+    {
+      "Item": "Explosion_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mag_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1383,
+      "mobName": "Explosion",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

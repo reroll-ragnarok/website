@@ -1,0 +1,82 @@
+{
+  "Id": 1016,
+  "AegisName": "ARCHER_SKELETON",
+  "Name": "Archer Skeleton",
+  "Level": 50,
+  "Hp": 1683,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 158,
+  "Attack2": 113,
+  "Defense": 31,
+  "MagicDefense": 10,
+  "Str": 28,
+  "Agi": 37,
+  "Vit": 20,
+  "Int": 10,
+  "Dex": 50,
+  "Luk": 5,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 2864,
+  "AttackMotion": 864,
+  "DamageMotion": 576,
+  "Ai": 5,
+  "Drops": [
+    {
+      "Item": "Skel_Bone",
+      "Rate": 2250
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 35
+    },
+    {
+      "Item": "Apple_Of_Archer",
+      "Rate": 2
+    },
+    {
+      "Item": "Great_Bow_",
+      "Rate": 18
+    },
+    {
+      "Item": "Fire_Arrow",
+      "Rate": 500
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 900
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Archer_Skeleton_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1016,
+      "mobName": "Archer Skeleton",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

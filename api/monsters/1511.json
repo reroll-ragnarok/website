@@ -1,0 +1,99 @@
+{
+  "Id": 1511,
+  "AegisName": "AMON_RA",
+  "Name": "Amon Ra",
+  "Level": 99,
+  "Hp": 400000,
+  "BaseExp": 300000,
+  "JobExp": 77500,
+  "MvpExp": 300000,
+  "Attack": 640,
+  "Attack2": 315,
+  "Defense": 155,
+  "MagicDefense": 115,
+  "Str": 95,
+  "Agi": 88,
+  "Vit": 90,
+  "Int": 98,
+  "Dex": 92,
+  "Luk": 85,
+  "AttackRange": 3,
+  "SkillRange": 14,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Earth",
+  "ElementLevel": 3,
+  "WalkSpeed": 170,
+  "AttackDelay": 854,
+  "AttackMotion": 2016,
+  "DamageMotion": 480,
+  "DamageTaken": 100,
+  "Ai": 10,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 5500
+    },
+    {
+      "Item": "Seed_Of_Yggdrasil",
+      "Rate": 3500
+    },
+    {
+      "Item": "Crystal_Jewel__",
+      "Rate": 5500
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Spinx_Helm",
+      "Rate": 75
+    },
+    {
+      "Item": "Safety_Ring",
+      "Rate": 25
+    },
+    {
+      "Item": "Rojerta_Piece",
+      "Rate": 3880
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1940
+    },
+    {
+      "Item": "Old_Card_Album",
+      "Rate": 200
+    },
+    {
+      "Item": "Tablet",
+      "Rate": 5
+    },
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 1500
+    },
+    {
+      "Item": "Amon_Ra_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1511,
+      "mobName": "Amon Ra",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

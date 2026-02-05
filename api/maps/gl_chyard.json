@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "gl_chyard",
+    "sourceX": 147,
+    "sourceY": 12,
+    "direction": "South",
+    "warpName": "glchyard_01",
+    "destMap": "glast_01",
+    "destX": 200,
+    "destY": 134
+  },
+  {
+    "sourceMap": "gl_chyard",
+    "sourceX": 147,
+    "sourceY": 287,
+    "direction": "North",
+    "warpName": "glchyard_02",
+    "destMap": "glast_01",
+    "destX": 200,
+    "destY": 173
+  }
+]

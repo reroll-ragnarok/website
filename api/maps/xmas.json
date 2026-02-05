@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "xmas",
+    "sourceX": 143,
+    "sourceY": 314,
+    "direction": "North",
+    "warpName": "xmasdun02_01",
+    "destMap": "xmas_dun02",
+    "destX": 131,
+    "destY": 129
+  }
+]

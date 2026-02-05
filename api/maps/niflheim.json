@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "niflheim",
+    "sourceX": 18,
+    "sourceY": 151,
+    "direction": "West",
+    "warpName": "nifheim_01",
+    "destMap": "nif_fild02",
+    "destX": 376,
+    "destY": 235
+  }
+]

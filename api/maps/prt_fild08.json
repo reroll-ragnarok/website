@@ -1,0 +1,52 @@
+[
+  {
+    "sourceMap": "prt_fild08",
+    "sourceX": 233,
+    "sourceY": 16,
+    "direction": "South",
+    "warpName": "prtfild08_01",
+    "destMap": "moc_fild13",
+    "destX": 144,
+    "destY": 364
+  },
+  {
+    "sourceMap": "prt_fild08",
+    "sourceX": 16,
+    "sourceY": 187,
+    "direction": "West",
+    "warpName": "prtfild08_02",
+    "destMap": "prt_fild05",
+    "destX": 142,
+    "destY": 25
+  },
+  {
+    "sourceMap": "prt_fild08",
+    "sourceX": 16,
+    "sourceY": 239,
+    "direction": "West",
+    "warpName": "prtfild08_03",
+    "destMap": "prt_fild05",
+    "destX": 256,
+    "destY": 16
+  },
+  {
+    "sourceMap": "prt_fild08",
+    "sourceX": 371,
+    "sourceY": 212,
+    "direction": "East",
+    "warpName": "prtfild08_04",
+    "destMap": "izlude",
+    "destX": 35,
+    "destY": 78
+  },
+  {
+    "sourceMap": "prt_fild08",
+    "sourceX": 170,
+    "sourceY": 378,
+    "direction": "North",
+    "warpName": "prtfild08_05",
+    "destMap": "prontera",
+    "destX": 156,
+    "destY": 26
+  }
+]

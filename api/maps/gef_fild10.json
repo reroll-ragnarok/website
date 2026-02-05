@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "gef_fild10",
+    "sourceX": 63,
+    "sourceY": 337,
+    "direction": "North",
+    "warpName": "geffild10_03",
+    "destMap": "in_orcs01",
+    "destX": 30,
+    "destY": 157
+  },
+  {
+    "sourceMap": "gef_fild10",
+    "sourceX": 223,
+    "sourceY": 205,
+    "direction": "East",
+    "warpName": "geffild10_04",
+    "destMap": "in_orcs01",
+    "destX": 108,
+    "destY": 89
+  },
+  {
+    "sourceMap": "gef_fild10",
+    "sourceX": 237,
+    "sourceY": 355,
+    "direction": "North",
+    "warpName": "geffild10_05",
+    "destMap": "gef_fild07",
+    "destX": 39,
+    "destY": 24
+  },
+  {
+    "sourceMap": "gef_fild10",
+    "sourceX": 215,
+    "sourceY": 51,
+    "direction": "South",
+    "warpName": "geffild10_08",
+    "destMap": "in_orcs01",
+    "destX": 162,
+    "destY": 53
+  }
+]

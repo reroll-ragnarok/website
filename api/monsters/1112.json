@@ -1,0 +1,95 @@
+{
+  "Id": 1112,
+  "AegisName": "DRAKE",
+  "Name": "Drake",
+  "Level": 90,
+  "Hp": 235000,
+  "BaseExp": 150000,
+  "JobExp": 65000,
+  "MvpExp": 150000,
+  "Attack": 580,
+  "Attack2": 285,
+  "Defense": 135,
+  "MagicDefense": 95,
+  "Str": 85,
+  "Agi": 78,
+  "Vit": 80,
+  "Int": 75,
+  "Dex": 88,
+  "Luk": 80,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 400,
+  "AttackDelay": 620,
+  "AttackMotion": 420,
+  "DamageMotion": 360,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "White_Potion",
+      "Rate": 5000
+    },
+    {
+      "Item": "Violet_Jewel",
+      "Rate": 500
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Saber_",
+      "Rate": 300
+    },
+    {
+      "Item": "Ring_Pommel_Saber_",
+      "Rate": 475
+    },
+    {
+      "Item": "Cutlas",
+      "Rate": 75
+    },
+    {
+      "Item": "Hae_Dong_Gum_",
+      "Rate": 200
+    },
+    {
+      "Item": "Corsair",
+      "Rate": 175
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1600
+    },
+    {
+      "Item": "Krasnaya",
+      "Rate": 50
+    },
+    {
+      "Item": "Drake_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "treasure02",
+      "x": 101,
+      "y": 151,
+      "xs": 15,
+      "ys": 15,
+      "mobId": 1112,
+      "mobName": "Drake",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

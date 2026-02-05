@@ -1,0 +1,79 @@
+{
+  "Id": 1163,
+  "AegisName": "RAYDRIC",
+  "Name": "Raydric",
+  "Level": 90,
+  "Hp": 20678,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 813,
+  "Attack2": 541,
+  "Defense": 89,
+  "MagicDefense": 15,
+  "Str": 87,
+  "Agi": 44,
+  "Vit": 62,
+  "Int": 57,
+  "Dex": 84,
+  "Luk": 44,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Dark",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 824,
+  "AttackMotion": 780,
+  "DamageMotion": 420,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Elunium",
+      "Rate": 53
+    },
+    {
+      "Item": "Iron_Cane",
+      "Rate": 1
+    },
+    {
+      "Item": "Chain_Mail_",
+      "Rate": 1
+    },
+    {
+      "Item": "Two_Hand_Sword_",
+      "Rate": 1
+    },
+    {
+      "Item": "Peuz_Plate",
+      "Rate": 5
+    },
+    {
+      "Item": "Patriotism_Marks",
+      "Rate": 5
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 2425
+    },
+    {
+      "Item": "Daydric_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_knt01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1163,
+      "mobName": "Raydric",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

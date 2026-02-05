@@ -1,0 +1,87 @@
+{
+  "Id": 2202,
+  "AegisName": "KRAKEN",
+  "Name": "Kraken",
+  "Level": 80,
+  "Hp": 175000,
+  "BaseExp": 75000,
+  "JobExp": 55000,
+  "MvpExp": 75000,
+  "Attack": 490,
+  "Attack2": 240,
+  "Defense": 125,
+  "MagicDefense": 90,
+  "Str": 82,
+  "Agi": 70,
+  "Vit": 78,
+  "Int": 72,
+  "Dex": 85,
+  "Luk": 68,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 4,
+  "WalkSpeed": 130,
+  "AttackDelay": 432,
+  "AttackMotion": 864,
+  "DamageMotion": 360,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Yggdrasilberry",
+      "Rate": 5500
+    },
+    {
+      "Item": "Old_Violet_Box",
+      "Rate": 2250
+    },
+    {
+      "Item": "Old_Card_Album",
+      "Rate": 450
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Tentacle",
+      "Rate": 2500
+    },
+    {
+      "Item": "Cardo",
+      "Rate": 250
+    },
+    {
+      "Item": "Ice_Falchon",
+      "Rate": 250
+    },
+    {
+      "Item": "Hunting_Spear",
+      "Rate": 250
+    },
+    {
+      "Item": "Water_Sprits_Armor_",
+      "Rate": 250
+    },
+    {
+      "Item": "Treasure_Box",
+      "Rate": 2500
+    },
+    {
+      "Item": "Mistic_Frozen",
+      "Rate": 250
+    },
+    {
+      "Item": "Kraken_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": []
+}

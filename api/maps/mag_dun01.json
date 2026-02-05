@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "mag_dun01",
+    "sourceX": 126,
+    "sourceY": 66,
+    "direction": "South",
+    "warpName": "magdun01_01",
+    "destMap": "yuno_fild03",
+    "destX": 34,
+    "destY": 139
+  }
+]

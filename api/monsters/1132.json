@@ -1,0 +1,79 @@
+{
+  "Id": 1132,
+  "AegisName": "KHALITZBURG",
+  "Name": "Khalitzburg",
+  "Level": 90,
+  "Hp": 27834,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 872,
+  "Attack2": 564,
+  "Defense": 125,
+  "MagicDefense": 10,
+  "Str": 39,
+  "Agi": 31,
+  "Vit": 89,
+  "Int": 49,
+  "Dex": 86,
+  "Luk": 51,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 350,
+  "AttackDelay": 528,
+  "AttackMotion": 1000,
+  "DamageMotion": 396,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Skel_Bone",
+      "Rate": 4000
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 96
+    },
+    {
+      "Item": "Bone_Helm",
+      "Rate": 1
+    },
+    {
+      "Item": "Mirror_Shield_",
+      "Rate": 1
+    },
+    {
+      "Item": "Patriotism_Marks",
+      "Rate": 5
+    },
+    {
+      "Item": "Ebone_Armor",
+      "Rate": 1
+    },
+    {
+      "Item": "Ur_Plate",
+      "Rate": 50
+    },
+    {
+      "Item": "Khalitzburg_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_knt01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1132,
+      "mobName": "Khalitzburg",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

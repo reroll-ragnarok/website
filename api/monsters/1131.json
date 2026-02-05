@@ -1,0 +1,79 @@
+{
+  "Id": 1131,
+  "AegisName": "JOKER",
+  "Name": "Joker",
+  "Level": 90,
+  "Hp": 17542,
+  "BaseExp": 1500,
+  "JobExp": 650,
+  "Attack": 741,
+  "Attack2": 503,
+  "Defense": 64,
+  "MagicDefense": 76,
+  "Str": 61,
+  "Agi": 89,
+  "Vit": 53,
+  "Int": 67,
+  "Dex": 84,
+  "Luk": 48,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Wind",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 1364,
+  "AttackMotion": 864,
+  "DamageMotion": 432,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Zargon",
+      "Rate": 1000
+    },
+    {
+      "Item": "Old_Card_Album",
+      "Rate": 1
+    },
+    {
+      "Item": "Contracts_In_Shadow",
+      "Rate": 10
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Katar_Of_Piercing_Wind",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 50
+    },
+    {
+      "Item": "Ghost_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Joker_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_cas01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1131,
+      "mobName": "Joker",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

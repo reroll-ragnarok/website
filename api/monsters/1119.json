@@ -1,0 +1,59 @@
+{
+  "Id": 1119,
+  "AegisName": "FRILLDORA",
+  "Name": "Frilldora",
+  "Level": 30,
+  "Hp": 725,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 45,
+  "Attack2": 30,
+  "Defense": 10,
+  "MagicDefense": 30,
+  "Str": 10,
+  "Agi": 20,
+  "Vit": 8,
+  "Int": 30,
+  "Dex": 15,
+  "Luk": 5,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 1400,
+  "AttackMotion": 700,
+  "DamageMotion": 400,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Lizard_Scruff",
+      "Rate": 10000
+    },
+    {
+      "Item": "Reptile_Tongue",
+      "Rate": 5000
+    },
+    {
+      "Item": "Frilldora_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild17",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1119,
+      "mobName": "Frilldora",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

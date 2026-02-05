@@ -1,0 +1,83 @@
+{
+  "Id": 1135,
+  "AegisName": "KOBOLD_3",
+  "Name": "Kobold",
+  "Level": 70,
+  "Hp": 5364,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 268,
+  "Attack2": 232,
+  "Defense": 69,
+  "MagicDefense": 48,
+  "Str": 68,
+  "Agi": 49,
+  "Vit": 70,
+  "Int": 24,
+  "Dex": 57,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Kobold": true
+  },
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 300,
+  "AttackDelay": 1228,
+  "AttackMotion": 528,
+  "DamageMotion": 360,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Boody_Red",
+      "Rate": 18
+    },
+    {
+      "Item": "Steel",
+      "Rate": 50
+    },
+    {
+      "Item": "Cobold_Hair",
+      "Rate": 2668
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 100
+    },
+    {
+      "Item": "Scarlet_Twohand_Axe",
+      "Rate": 50,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Doram_Only_Cape",
+      "Rate": 20
+    },
+    {
+      "Item": "Doram_Only_Suit",
+      "Rate": 20
+    },
+    {
+      "Item": "Kobold_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1135,
+      "mobName": "Kobold (Morning Star)",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

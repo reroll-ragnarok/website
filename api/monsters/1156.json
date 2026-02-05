@@ -1,0 +1,79 @@
+{
+  "Id": 1156,
+  "AegisName": "PETIT_",
+  "Name": "Petite",
+  "Level": 40,
+  "Hp": 1467,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 123,
+  "Attack2": 91,
+  "Defense": 37,
+  "MagicDefense": 40,
+  "Str": 27,
+  "Agi": 28,
+  "Vit": 22,
+  "Int": 33,
+  "Dex": 40,
+  "Luk": 19,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Dragon",
+  "Element": "Wind",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1872,
+  "AttackMotion": 672,
+  "DamageMotion": 288,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Dragon_Scale",
+      "Rate": 2668
+    },
+    {
+      "Item": "Dragon_Train",
+      "Rate": 150
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 31
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Khukri",
+      "Rate": 3
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 750
+    },
+    {
+      "Item": "Aloebera",
+      "Rate": 8
+    },
+    {
+      "Item": "Petit__Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild07",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1156,
+      "mobName": "Petite (Sky)",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "sourceMap": "gef_fild07",
+    "sourceX": 40,
+    "sourceY": 19,
+    "direction": "South",
+    "warpName": "geffild07_01",
+    "destMap": "gef_fild11",
+    "destX": 114,
+    "destY": 360
+  },
+  {
+    "sourceMap": "gef_fild07",
+    "sourceX": 18,
+    "sourceY": 191,
+    "direction": "West",
+    "warpName": "geffild07_02",
+    "destMap": "gef_fild06",
+    "destX": 377,
+    "destY": 212
+  },
+  {
+    "sourceMap": "gef_fild07",
+    "sourceX": 339,
+    "sourceY": 187,
+    "direction": "East",
+    "warpName": "geffild07_03",
+    "destMap": "geffen",
+    "destX": 29,
+    "destY": 119
+  }
+]

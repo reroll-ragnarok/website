@@ -1,0 +1,75 @@
+{
+  "Id": 1372,
+  "AegisName": "GOAT",
+  "Name": "Goat",
+  "Level": 80,
+  "Hp": 6897,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 387,
+  "Attack2": 288,
+  "Defense": 95,
+  "MagicDefense": 43,
+  "Str": 70,
+  "Agi": 44,
+  "Vit": 64,
+  "Int": 42,
+  "Dex": 73,
+  "Luk": 29,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 165,
+  "AttackDelay": 1380,
+  "AttackMotion": 1080,
+  "DamageMotion": 336,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Goat's_Horn",
+      "Rate": 2280
+    },
+    {
+      "Item": "Gaoat's_Skin",
+      "Rate": 1250
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 250
+    },
+    {
+      "Item": "Blue_Herb",
+      "Rate": 500
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 1250
+    },
+    {
+      "Item": "Green_Herb",
+      "Rate": 2750
+    },
+    {
+      "Item": "Goat_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1372,
+      "mobName": "Goat",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "gef_dun03",
+    "sourceX": 203,
+    "sourceY": 204,
+    "direction": "North",
+    "warpName": "gefdun03_01",
+    "destMap": "gef_dun02",
+    "destX": 215,
+    "destY": 63
+  }
+]

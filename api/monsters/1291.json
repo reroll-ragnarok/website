@@ -1,0 +1,79 @@
+{
+  "Id": 1291,
+  "AegisName": "WRAITH_DEAD",
+  "Name": "Wraith Dead",
+  "Level": 80,
+  "Hp": 9944,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 462,
+  "Attack2": 318,
+  "Defense": 88,
+  "MagicDefense": 56,
+  "Str": 64,
+  "Agi": 52,
+  "Vit": 57,
+  "Int": 49,
+  "Dex": 76,
+  "Luk": 75,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Undead",
+  "Element": "Undead",
+  "ElementLevel": 4,
+  "WalkSpeed": 175,
+  "AttackDelay": 1816,
+  "AttackMotion": 576,
+  "DamageMotion": 240,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Transparent_Cloth",
+      "Rate": 2207
+    },
+    {
+      "Item": "Wedding_Veil",
+      "Rate": 5
+    },
+    {
+      "Item": "Manteau_",
+      "Rate": 4
+    },
+    {
+      "Item": "Red_Gemstone",
+      "Rate": 350
+    },
+    {
+      "Item": "Crystal_Jewel__",
+      "Rate": 3
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 2
+    },
+    {
+      "Item": "Black_Rosary",
+      "Rate": 2
+    },
+    {
+      "Item": "Wraith_Dead_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_chyard",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1291,
+      "mobName": "Wraith Dead",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

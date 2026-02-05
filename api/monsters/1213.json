@@ -1,0 +1,83 @@
+{
+  "Id": 1213,
+  "AegisName": "HIGH_ORC",
+  "Name": "High Orc",
+  "Level": 70,
+  "Hp": 20000,
+  "BaseExp": 2500,
+  "JobExp": 2375,
+  "Attack": 356,
+  "Attack2": 274,
+  "Defense": 100,
+  "MagicDefense": 45,
+  "Str": 70,
+  "Agi": 38,
+  "Vit": 70,
+  "Int": 31,
+  "Dex": 59,
+  "Luk": 46,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Orc": true,
+    "Clocktower": true
+  },
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1500,
+  "AttackMotion": 500,
+  "DamageMotion": 1000,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Ogre_Tooth",
+      "Rate": 1250
+    },
+    {
+      "Item": "Orcish_Axe",
+      "Rate": 5
+    },
+    {
+      "Item": "Steel",
+      "Rate": 45
+    },
+    {
+      "Item": "Orcish_Voucher",
+      "Rate": 3750
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 650
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 98
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 450
+    },
+    {
+      "Item": "High_Orc_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "orcsdun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1213,
+      "mobName": "High Orc",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

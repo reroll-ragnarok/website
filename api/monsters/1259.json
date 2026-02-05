@@ -1,0 +1,81 @@
+{
+  "Id": 1259,
+  "AegisName": "GRYPHON",
+  "Name": "Gryphon",
+  "Level": 90,
+  "Hp": 24906,
+  "BaseExp": 4500,
+  "JobExp": 1950,
+  "Attack": 847,
+  "Attack2": 563,
+  "Defense": 113,
+  "MagicDefense": 72,
+  "Str": 82,
+  "Agi": 88,
+  "Vit": 67,
+  "Int": 73,
+  "Dex": 87,
+  "Luk": 56,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Wind",
+  "ElementLevel": 4,
+  "WalkSpeed": 100,
+  "AttackDelay": 704,
+  "AttackMotion": 504,
+  "DamageMotion": 432,
+  "Ai": 21,
+  "Class": "Boss",
+  "Drops": [
+    {
+      "Item": "Talon_Of_Griffin",
+      "Rate": 1250
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 2668
+    },
+    {
+      "Item": "Soft_Feather",
+      "Rate": 60
+    },
+    {
+      "Item": "Scarlet_Lance",
+      "Rate": 250,
+      "RandomOptionGroup": "Group_5"
+    },
+    {
+      "Item": "Pole_Axe",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 93
+    },
+    {
+      "Item": "Rough_Wind",
+      "Rate": 75
+    },
+    {
+      "Item": "Gryphon_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "yuno_fild04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1259,
+      "mobName": "Gryphon",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

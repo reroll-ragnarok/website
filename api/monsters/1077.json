@@ -1,0 +1,79 @@
+{
+  "Id": 1077,
+  "AegisName": "POISON_SPORE",
+  "Name": "Poison Spore",
+  "Level": 20,
+  "Hp": 280,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 30,
+  "Attack2": 8,
+  "Defense": 18,
+  "MagicDefense": 12,
+  "Str": 10,
+  "Agi": 12,
+  "Vit": 11,
+  "Int": 20,
+  "Dex": 10,
+  "Luk": 8,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1672,
+  "AttackMotion": 672,
+  "DamageMotion": 288,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Poison_Spore",
+      "Rate": 4500
+    },
+    {
+      "Item": "Hat_",
+      "Rate": 10
+    },
+    {
+      "Item": "Green_Herb",
+      "Rate": 275
+    },
+    {
+      "Item": "Blue_Herb",
+      "Rate": 30
+    },
+    {
+      "Item": "Karvodailnirol",
+      "Rate": 25
+    },
+    {
+      "Item": "Mushroom_Spore",
+      "Rate": 600
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Poison_Spore_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mjolnir_02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1077,
+      "mobName": "Poison Spore",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "Id": 1367,
+  "AegisName": "BLAZZER",
+  "Name": "Blazer",
+  "Level": 99,
+  "Hp": 28934,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1128,
+  "Attack2": 783,
+  "Defense": 116,
+  "MagicDefense": 60,
+  "Str": 76,
+  "Agi": 68,
+  "Vit": 61,
+  "Int": 82,
+  "Dex": 74,
+  "Luk": 67,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 180,
+  "AttackDelay": 1732,
+  "AttackMotion": 1332,
+  "DamageMotion": 540,
+  "Ai": 20,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Burning_Heart",
+      "Rate": 1200
+    },
+    {
+      "Item": "Live_Coal",
+      "Rate": 850
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 700
+    },
+    {
+      "Item": "Blazzer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mag_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1367,
+      "mobName": "Blazer",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

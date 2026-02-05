@@ -1,0 +1,83 @@
+{
+  "Id": 1283,
+  "AegisName": "CHIMERA",
+  "Name": "Chimera",
+  "Level": 99,
+  "Hp": 125000,
+  "BaseExp": 30000,
+  "JobExp": 7750,
+  "Attack": 720,
+  "Attack2": 340,
+  "Defense": 140,
+  "MagicDefense": 65,
+  "Str": 95,
+  "Agi": 50,
+  "Vit": 105,
+  "Int": 95,
+  "Dex": 108,
+  "Luk": 71,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 772,
+  "AttackMotion": 672,
+  "DamageMotion": 360,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 2668
+    },
+    {
+      "Item": "Slender_Snake",
+      "Rate": 1250
+    },
+    {
+      "Item": "Lemon",
+      "Rate": 500
+    },
+    {
+      "Item": "War_Axe",
+      "Rate": 1
+    },
+    {
+      "Item": "Citrine",
+      "Rate": 750
+    },
+    {
+      "Item": "Great_Axe",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 80
+    },
+    {
+      "Item": "Chimera_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_in01",
+      "x": 45,
+      "y": 43,
+      "xs": 30,
+      "ys": 30,
+      "mobId": 1283,
+      "mobName": "Chimera",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

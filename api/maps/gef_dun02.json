@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "gef_dun02",
+    "sourceX": 214,
+    "sourceY": 68,
+    "direction": "South",
+    "warpName": "gefdun02_01",
+    "destMap": "gef_dun03",
+    "destX": 203,
+    "destY": 200
+  },
+  {
+    "sourceMap": "gef_dun02",
+    "sourceX": 106,
+    "sourceY": 134,
+    "direction": "West",
+    "warpName": "gefdun02_02",
+    "destMap": "gef_tower",
+    "destX": 118,
+    "destY": 110
+  }
+]

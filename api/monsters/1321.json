@@ -1,0 +1,74 @@
+{
+  "Id": 1321,
+  "AegisName": "DRAGON_TAIL",
+  "Name": "Dragon Tail",
+  "Level": 80,
+  "Hp": 8742,
+  "BaseExp": 2250,
+  "JobExp": 1650,
+  "Attack": 426,
+  "Attack2": 318,
+  "Defense": 63,
+  "MagicDefense": 25,
+  "Str": 63,
+  "Agi": 71,
+  "Vit": 42,
+  "Int": 46,
+  "Dex": 69,
+  "Luk": 28,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 175,
+  "AttackDelay": 862,
+  "AttackMotion": 534,
+  "DamageMotion": 312,
+  "Ai": 21,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Dragon_Fly_Wing",
+      "Rate": 2207
+    },
+    {
+      "Item": "Round_Shell",
+      "Rate": 200
+    },
+    {
+      "Item": "Solid_Shell",
+      "Rate": 400
+    },
+    {
+      "Item": "Fancy_Flower",
+      "Rate": 4
+    },
+    {
+      "Item": "Cap",
+      "Rate": 1
+    },
+    {
+      "Item": "Dragon_Tail_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "tur_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1321,
+      "mobName": "Dragon Tail",
+      "amount": 15,
+      "respawnTime": 5000
+    }
+  ]
+}

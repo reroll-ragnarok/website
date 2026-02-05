@@ -1,0 +1,71 @@
+{
+  "Id": 1093,
+  "AegisName": "ECLIPSE",
+  "Name": "Eclipse",
+  "Level": 20,
+  "Hp": 2400,
+  "BaseExp": 1500,
+  "JobExp": 1000,
+  "Attack": 45,
+  "Attack2": 20,
+  "Defense": 35,
+  "MagicDefense": 25,
+  "Str": 11,
+  "Agi": 12,
+  "Vit": 9,
+  "Int": 12,
+  "Dex": 18,
+  "Luk": 20,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 200,
+  "AttackDelay": 1456,
+  "AttackMotion": 456,
+  "DamageMotion": 336,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Carrot_Juice",
+      "Rate": 10000
+    },
+    {
+      "Item": "White_Jewel",
+      "Rate": 5000
+    },
+    {
+      "Item": "Stuffed_Doll",
+      "Rate": 2500
+    },
+    {
+      "Item": "Four_Leaf_Clover",
+      "Rate": 777
+    },
+    {
+      "Item": "Eclipse_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1093,
+      "mobName": "Eclipse",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

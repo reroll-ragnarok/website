@@ -1,0 +1,74 @@
+{
+  "Id": 1299,
+  "AegisName": "GOBLIN_LEADER",
+  "Name": "Goblin Leader",
+  "Level": 60,
+  "Hp": 25000,
+  "BaseExp": 4000,
+  "JobExp": 4250,
+  "Attack": 285,
+  "Attack2": 145,
+  "Defense": 85,
+  "MagicDefense": 55,
+  "Str": 55,
+  "Agi": 50,
+  "Vit": 50,
+  "Int": 45,
+  "Dex": 70,
+  "Luk": 42,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Goblin": true
+  },
+  "Element": "Wind",
+  "ElementLevel": 1,
+  "WalkSpeed": 120,
+  "AttackDelay": 1120,
+  "AttackMotion": 620,
+  "DamageMotion": 240,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Brigan",
+      "Rate": 750
+    },
+    {
+      "Item": "Steel",
+      "Rate": 400
+    },
+    {
+      "Item": "Oridecon_Stone",
+      "Rate": 60
+    },
+    {
+      "Item": "Goblin_Mask_04",
+      "Rate": 25
+    },
+    {
+      "Item": "Shield_",
+      "Rate": 1
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 325
+    },
+    {
+      "Item": "Angry_Mouth",
+      "Rate": 5
+    },
+    {
+      "Item": "Goblin_Leader_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": []
+}

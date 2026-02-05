@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "orcsdun02",
+    "sourceX": 180,
+    "sourceY": 15,
+    "direction": "South",
+    "warpName": "orcsdun02_01",
+    "destMap": "in_orcs01",
+    "destX": 108,
+    "destY": 112
+  },
+  {
+    "sourceMap": "orcsdun02",
+    "sourceX": 21,
+    "sourceY": 188,
+    "direction": "West",
+    "warpName": "orcsdun02_02",
+    "destMap": "in_orcs01",
+    "destX": 30,
+    "destY": 177
+  }
+]

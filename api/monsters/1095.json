@@ -1,0 +1,66 @@
+{
+  "Id": 1095,
+  "AegisName": "ANDRE",
+  "Name": "Andre",
+  "Level": 40,
+  "Hp": 1278,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 110,
+  "Attack2": 97,
+  "Defense": 31,
+  "MagicDefense": 22,
+  "Str": 40,
+  "Agi": 28,
+  "Vit": 31,
+  "Int": 13,
+  "Dex": 37,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 1,
+  "WalkSpeed": 210,
+  "AttackDelay": 1288,
+  "AttackMotion": 288,
+  "DamageMotion": 384,
+  "Ai": 7,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Worm_Peelings",
+      "Rate": 10000
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 5000
+    },
+    {
+      "Item": "Wind_Of_Verdure",
+      "Rate": 500
+    },
+    {
+      "Item": "Andre_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "anthell02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1095,
+      "mobName": "Andre",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

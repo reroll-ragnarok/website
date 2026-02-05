@@ -1,0 +1,66 @@
+{
+  "Id": 1153,
+  "AegisName": "ORC_ZOMBIE",
+  "Name": "Orc Zombie",
+  "Level": 70,
+  "Hp": 4742,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 213,
+  "Attack2": 209,
+  "Defense": 71,
+  "MagicDefense": 5,
+  "Str": 37,
+  "Agi": 5,
+  "Vit": 66,
+  "Int": 7,
+  "Dex": 38,
+  "Luk": 4,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Undead",
+  "RaceGroups": {
+    "Orc": true
+  },
+  "Element": "Undead",
+  "ElementLevel": 1,
+  "WalkSpeed": 400,
+  "AttackDelay": 2852,
+  "AttackMotion": 1152,
+  "DamageMotion": 840,
+  "Ai": 4,
+  "Drops": [
+    {
+      "Item": "Nail_Of_Orc",
+      "Rate": 2750
+    },
+    {
+      "Item": "Sticky_Mucus",
+      "Rate": 1500
+    },
+    {
+      "Item": "Emperium",
+      "Rate": 1
+    },
+    {
+      "Item": "Orc_Zombie_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "orcsdun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1153,
+      "mobName": "Orc Zombie",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

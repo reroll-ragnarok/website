@@ -1,0 +1,82 @@
+{
+  "Id": 1134,
+  "AegisName": "KOBOLD_2",
+  "Name": "Kobold",
+  "Level": 70,
+  "Hp": 4987,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 233,
+  "Attack2": 215,
+  "Defense": 67,
+  "MagicDefense": 19,
+  "Str": 34,
+  "Agi": 52,
+  "Vit": 53,
+  "Int": 17,
+  "Dex": 66,
+  "Luk": 40,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Kobold": true
+  },
+  "Element": "Poison",
+  "ElementLevel": 2,
+  "WalkSpeed": 200,
+  "AttackDelay": 1528,
+  "AttackMotion": 528,
+  "DamageMotion": 360,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Steel",
+      "Rate": 50
+    },
+    {
+      "Item": "Cobold_Hair",
+      "Rate": 2668
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 100
+    },
+    {
+      "Item": "Buckler_",
+      "Rate": 2
+    },
+    {
+      "Item": "Yellow_Herb",
+      "Rate": 50
+    },
+    {
+      "Item": "Doram_Only_Shoes",
+      "Rate": 20
+    },
+    {
+      "Item": "Fresh_G_Necklace",
+      "Rate": 20
+    },
+    {
+      "Item": "Kobold_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild06",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1134,
+      "mobName": "Kobold (Hammer)",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

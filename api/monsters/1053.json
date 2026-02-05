@@ -1,0 +1,62 @@
+{
+  "Id": 1053,
+  "AegisName": "THIEF_BUG_",
+  "Name": "Thief Bug Female",
+  "Level": 30,
+  "Hp": 737,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 60,
+  "Attack2": 38,
+  "Defense": 18,
+  "MagicDefense": 10,
+  "Str": 18,
+  "Agi": 10,
+  "Vit": 12,
+  "Int": 8,
+  "Dex": 22,
+  "Luk": 10,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Insect",
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 160,
+  "AttackDelay": 900,
+  "AttackMotion": 250,
+  "DamageMotion": 700,
+  "Ai": 7,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Worm_Peelings",
+      "Rate": 10000
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 5000
+    },
+    {
+      "Item": "Thief_Bug_Female_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_sewb3",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1053,
+      "mobName": "Thief Bug Female",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

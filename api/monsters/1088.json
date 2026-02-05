@@ -1,0 +1,72 @@
+{
+  "Id": 1088,
+  "AegisName": "VOCAL",
+  "Name": "Vocal",
+  "Level": 30,
+  "Hp": 3200,
+  "BaseExp": 2000,
+  "JobExp": 1750,
+  "Attack": 95,
+  "Attack2": 50,
+  "Defense": 45,
+  "MagicDefense": 35,
+  "Str": 25,
+  "Agi": 25,
+  "Vit": 13,
+  "Int": 10,
+  "Dex": 60,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Insect",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1080,
+  "AttackMotion": 648,
+  "DamageMotion": 480,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true,
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Orange_Juice",
+      "Rate": 10000
+    },
+    {
+      "Item": "Azure_Jewel",
+      "Rate": 5000
+    },
+    {
+      "Item": "Grasshopper_Doll",
+      "Rate": 2500
+    },
+    {
+      "Item": "Guitar_Of_Gentle_Breeze",
+      "Rate": 50
+    },
+    {
+      "Item": "Vocal_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1088,
+      "mobName": "Vocal",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

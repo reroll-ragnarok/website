@@ -1,0 +1,82 @@
+{
+  "Id": 1270,
+  "AegisName": "C_TOWER_MANAGER",
+  "Name": "Clock Tower Manager",
+  "Level": 80,
+  "Hp": 30000,
+  "BaseExp": 3750,
+  "JobExp": 2750,
+  "Attack": 433,
+  "Attack2": 306,
+  "Defense": 96,
+  "MagicDefense": 60,
+  "Str": 71,
+  "Agi": 33,
+  "Vit": 72,
+  "Int": 80,
+  "Dex": 77,
+  "Luk": 41,
+  "AttackRange": 3,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Neutral",
+  "ElementLevel": 4,
+  "WalkSpeed": 200,
+  "AttackDelay": 1072,
+  "AttackMotion": 672,
+  "DamageMotion": 384,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Needle_Of_Alarm",
+      "Rate": 2668
+    },
+    {
+      "Item": "Brigan",
+      "Rate": 2668
+    },
+    {
+      "Item": "Steel",
+      "Rate": 250
+    },
+    {
+      "Item": "Leaflet_Of_Hinal",
+      "Rate": 425
+    },
+    {
+      "Item": "Memorize_Book",
+      "Rate": 1
+    },
+    {
+      "Item": "Key_Of_Clock_Tower",
+      "Rate": 1000
+    },
+    {
+      "Item": "Underground_Key",
+      "Rate": 1000
+    },
+    {
+      "Item": "C_Tower_Manager_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "c_tower1",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1270,
+      "mobName": "Clock Tower Manager",
+      "amount": 5,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "Id": 1582,
+  "AegisName": "DEVILING",
+  "Name": "Deviling",
+  "Level": 90,
+  "Hp": 80000,
+  "BaseExp": 15000,
+  "JobExp": 6500,
+  "MvpExp": 7500,
+  "Attack": 540,
+  "Attack2": 240,
+  "Defense": 95,
+  "MagicDefense": 75,
+  "Str": 75,
+  "Agi": 65,
+  "Vit": 80,
+  "Int": 70,
+  "Dex": 95,
+  "Luk": 70,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 4,
+  "WalkSpeed": 200,
+  "AttackDelay": 1072,
+  "AttackMotion": 1056,
+  "DamageMotion": 384,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Blade_Lost_In_Darkness",
+      "Rate": 1000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Petite_DiablOfs_Wing",
+      "Rate": 1500
+    },
+    {
+      "Item": "Zargon",
+      "Rate": 2425
+    },
+    {
+      "Item": "Satanic_Chain",
+      "Rate": 50
+    },
+    {
+      "Item": "Apple",
+      "Rate": 2500
+    },
+    {
+      "Item": "Blade_Lost_In_Darkness",
+      "Rate": 1
+    },
+    {
+      "Item": "Black_Dyestuffs",
+      "Rate": 50
+    },
+    {
+      "Item": "Ghost_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Deviling_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1582,
+      "mobName": "Deviling",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

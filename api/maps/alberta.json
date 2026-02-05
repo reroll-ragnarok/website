@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "alberta",
+    "sourceX": 15,
+    "sourceY": 234,
+    "direction": "West",
+    "warpName": "alberta_01",
+    "destMap": "pay_fild03",
+    "destX": 388,
+    "destY": 63
+  }
+]

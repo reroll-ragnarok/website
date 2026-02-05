@@ -1,0 +1,82 @@
+{
+  "Id": 1072,
+  "AegisName": "KAHO",
+  "Name": "Kaho",
+  "Level": 99,
+  "Hp": 27653,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1067,
+  "Attack2": 764,
+  "Defense": 106,
+  "MagicDefense": 55,
+  "Str": 63,
+  "Agi": 59,
+  "Vit": 58,
+  "Int": 93,
+  "Dex": 81,
+  "Luk": 79,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Demon",
+  "Element": "Fire",
+  "ElementLevel": 4,
+  "WalkSpeed": 150,
+  "AttackDelay": 1700,
+  "AttackMotion": 1000,
+  "DamageMotion": 500,
+  "Ai": 4,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Flame_Heart",
+      "Rate": 15
+    },
+    {
+      "Item": "Coal",
+      "Rate": 75
+    },
+    {
+      "Item": "Burning_Heart",
+      "Rate": 1500
+    },
+    {
+      "Item": "Fire_Scroll_1_3",
+      "Rate": 50
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 500
+    },
+    {
+      "Item": "Red_Gemstone",
+      "Rate": 150
+    },
+    {
+      "Item": "Alchol",
+      "Rate": 3
+    },
+    {
+      "Item": "Kaho_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "mag_dun01",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1072,
+      "mobName": "Kaho",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

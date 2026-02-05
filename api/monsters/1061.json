@@ -1,0 +1,82 @@
+{
+  "Id": 1061,
+  "AegisName": "NIGHTMARE",
+  "Name": "Nightmare",
+  "Level": 80,
+  "Hp": 5366,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 354,
+  "Attack2": 267,
+  "Defense": 76,
+  "MagicDefense": 65,
+  "Str": 55,
+  "Agi": 36,
+  "Vit": 79,
+  "Int": 68,
+  "Dex": 62,
+  "Luk": 19,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Ghost",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 1816,
+  "AttackMotion": 816,
+  "DamageMotion": 432,
+  "Ai": 20,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Horseshoe",
+      "Rate": 3000
+    },
+    {
+      "Item": "Blue_Herb",
+      "Rate": 250
+    },
+    {
+      "Item": "Rosary",
+      "Rate": 1
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 15
+    },
+    {
+      "Item": "Blue_Potion",
+      "Rate": 50
+    },
+    {
+      "Item": "Infiltrator",
+      "Rate": 1
+    },
+    {
+      "Item": "Oridecon",
+      "Rate": 30
+    },
+    {
+      "Item": "Nightmare_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1061,
+      "mobName": "Nightmare",
+      "amount": 40,
+      "respawnTime": 5000
+    }
+  ]
+}

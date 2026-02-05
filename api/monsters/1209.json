@@ -1,0 +1,67 @@
+{
+  "Id": 1209,
+  "AegisName": "CRAMP",
+  "Name": "Cramp",
+  "Level": 40,
+  "Hp": 1013,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 74,
+  "Attack2": 53,
+  "Defense": 40,
+  "MagicDefense": 40,
+  "Str": 31,
+  "Agi": 19,
+  "Vit": 35,
+  "Int": 11,
+  "Dex": 18,
+  "Luk": 12,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "RaceGroups": {
+    "Clocktower": true,
+    "Rockridge": true
+  },
+  "Element": "Poison",
+  "ElementLevel": 2,
+  "WalkSpeed": 100,
+  "AttackDelay": 1000,
+  "AttackMotion": 500,
+  "DamageMotion": 1000,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Claw_Of_Rat",
+      "Rate": 10000
+    },
+    {
+      "Item": "Animal's_Skin",
+      "Rate": 5000
+    },
+    {
+      "Item": "Fluff",
+      "Rate": 2500
+    },
+    {
+      "Item": "Cramp_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_sewb4",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1209,
+      "mobName": "Cramp",
+      "amount": 30,
+      "respawnTime": 5000
+    }
+  ]
+}

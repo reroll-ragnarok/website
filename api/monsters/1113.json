@@ -1,0 +1,62 @@
+{
+  "Id": 1113,
+  "AegisName": "DROPS",
+  "Name": "Drops",
+  "Level": 1,
+  "Hp": 45,
+  "BaseExp": 50,
+  "JobExp": 25,
+  "Attack": 9,
+  "Attack2": 2,
+  "Defense": 4,
+  "Str": 6,
+  "Agi": 7,
+  "Vit": 4,
+  "Int": 5,
+  "Dex": 5,
+  "Luk": 6,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Plant",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 400,
+  "AttackDelay": 1372,
+  "AttackMotion": 672,
+  "DamageMotion": 480,
+  "Ai": 2,
+  "Drops": [
+    {
+      "Item": "Scell",
+      "Rate": 10000
+    },
+    {
+      "Item": "Sticky_Mucus",
+      "Rate": 5000
+    },
+    {
+      "Item": "Orange",
+      "Rate": 2500
+    },
+    {
+      "Item": "Drops_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1113,
+      "mobName": "Drops",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

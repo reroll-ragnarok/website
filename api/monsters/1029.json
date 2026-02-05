@@ -1,0 +1,70 @@
+{
+  "Id": 1029,
+  "AegisName": "ISIS",
+  "Name": "Isis",
+  "Level": 60,
+  "Hp": 15000,
+  "BaseExp": 2000,
+  "JobExp": 2125,
+  "Attack": 241,
+  "Attack2": 199,
+  "Defense": 71,
+  "MagicDefense": 8,
+  "Str": 60,
+  "Agi": 47,
+  "Vit": 44,
+  "Int": 39,
+  "Dex": 59,
+  "Luk": 37,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1384,
+  "AttackMotion": 768,
+  "DamageMotion": 336,
+  "Ai": 19,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Scales_Shell",
+      "Rate": 10000
+    },
+    {
+      "Item": "Shining_Scales",
+      "Rate": 5000
+    },
+    {
+      "Item": "Circlet_",
+      "Rate": 500
+    },
+    {
+      "Item": "Necklace",
+      "Rate": 100
+    },
+    {
+      "Item": "Isis_Card",
+      "Rate": 10,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "moc_pryd04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1029,
+      "mobName": "Isis",
+      "amount": 3,
+      "respawnTime": 5000
+    }
+  ]
+}

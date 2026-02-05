@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "yggdrasil01",
+    "sourceX": 40,
+    "sourceY": 63,
+    "direction": "West",
+    "warpName": "yggdrasil01_01",
+    "destMap": "umbala",
+    "destX": 110,
+    "destY": 285
+  },
+  {
+    "sourceMap": "yggdrasil01",
+    "sourceX": 271,
+    "sourceY": 51,
+    "direction": "South",
+    "warpName": "yggdrasil01_02",
+    "destMap": "yggdrasil01",
+    "destX": 26,
+    "destY": 196
+  },
+  {
+    "sourceMap": "yggdrasil01",
+    "sourceX": 26,
+    "sourceY": 193,
+    "direction": "West",
+    "warpName": "yggdrasil01_03",
+    "destMap": "yggdrasil01",
+    "destX": 269,
+    "destY": 53
+  },
+  {
+    "sourceMap": "yggdrasil01",
+    "sourceX": 249,
+    "sourceY": 262,
+    "direction": "North",
+    "warpName": "yggdrasil01_04",
+    "destMap": "nif_fild01",
+    "destX": 315,
+    "destY": 66
+  }
+]

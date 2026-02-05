@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "cmd_fild03",
+    "sourceX": 23,
+    "sourceY": 68,
+    "direction": "West",
+    "warpName": "cmdfild03_01",
+    "destMap": "beach_dun3",
+    "destX": 283,
+    "destY": 57
+  },
+  {
+    "sourceMap": "cmd_fild03",
+    "sourceX": 181,
+    "sourceY": 18,
+    "direction": "South",
+    "warpName": "cmdfild03_02",
+    "destMap": "cmd_fild02",
+    "destX": 222,
+    "destY": 372
+  }
+]

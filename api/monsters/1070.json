@@ -1,0 +1,79 @@
+{
+  "Id": 1070,
+  "AegisName": "KUKRE",
+  "Name": "Kukre",
+  "Level": 50,
+  "Hp": 1547,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 152,
+  "Attack2": 106,
+  "Defense": 23,
+  "MagicDefense": 21,
+  "Str": 22,
+  "Agi": 47,
+  "Vit": 12,
+  "Int": 9,
+  "Dex": 43,
+  "Luk": 11,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 150,
+  "AttackDelay": 1776,
+  "AttackMotion": 576,
+  "DamageMotion": 288,
+  "Ai": 2,
+  "Drops": [
+    {
+      "Item": "Crystal_Blue",
+      "Rate": 15
+    },
+    {
+      "Item": "Worm_Peelings",
+      "Rate": 2750
+    },
+    {
+      "Item": "Garlet",
+      "Rate": 200
+    },
+    {
+      "Item": "Monster's_Feed",
+      "Rate": 250
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 225
+    },
+    {
+      "Item": "Earthworm_The_Dude",
+      "Rate": 10
+    },
+    {
+      "Item": "Kukre_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "izlu2dun",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1070,
+      "mobName": "Kukre",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

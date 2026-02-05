@@ -1,0 +1,66 @@
+{
+  "Id": 1176,
+  "AegisName": "VITATA",
+  "Name": "Vitata",
+  "Level": 40,
+  "Hp": 900,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 80,
+  "Attack2": 60,
+  "Defense": 22,
+  "MagicDefense": 40,
+  "Str": 13,
+  "Agi": 17,
+  "Vit": 40,
+  "Int": 40,
+  "Dex": 28,
+  "Luk": 12,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 1768,
+  "AttackMotion": 768,
+  "DamageMotion": 384,
+  "Ai": 17,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Worm_Peelings",
+      "Rate": 10000
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 5000
+    },
+    {
+      "Item": "Crystal_Blue",
+      "Rate": 500
+    },
+    {
+      "Item": "Vitata_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "anthell02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1176,
+      "mobName": "Vitata",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

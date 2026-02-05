@@ -1,0 +1,82 @@
+{
+  "Id": 1379,
+  "AegisName": "NIGHTMARE_TERROR",
+  "Name": "Nightmare Terror",
+  "Level": 90,
+  "Hp": 12456,
+  "BaseExp": 4500,
+  "JobExp": 1950,
+  "Attack": 543,
+  "Attack2": 421,
+  "Defense": 78,
+  "MagicDefense": 37,
+  "Str": 67,
+  "Agi": 63,
+  "Vit": 51,
+  "Int": 66,
+  "Dex": 58,
+  "Luk": 29,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Dark",
+  "ElementLevel": 3,
+  "WalkSpeed": 165,
+  "AttackDelay": 1216,
+  "AttackMotion": 816,
+  "DamageMotion": 432,
+  "Ai": 4,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Burning_Horse_Shoe",
+      "Rate": 1200
+    },
+    {
+      "Item": "Rosary_",
+      "Rate": 1
+    },
+    {
+      "Item": "Rosary",
+      "Rate": 15
+    },
+    {
+      "Item": "Blue_Potion",
+      "Rate": 25
+    },
+    {
+      "Item": "Blue_Herb",
+      "Rate": 75
+    },
+    {
+      "Item": "Ghost_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Infiltrator",
+      "Rate": 1
+    },
+    {
+      "Item": "Nightmare_Terror_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_dun03",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1379,
+      "mobName": "Nightmare Terror",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

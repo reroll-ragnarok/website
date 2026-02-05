@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "umbala",
+    "sourceX": 130,
+    "sourceY": 79,
+    "direction": "South",
+    "warpName": "umbala_01",
+    "destMap": "um_fild04",
+    "destX": 215,
+    "destY": 336
+  },
+  {
+    "sourceMap": "umbala",
+    "sourceX": 106,
+    "sourceY": 285,
+    "direction": "North",
+    "warpName": "umbala_02",
+    "destMap": "yggdrasil01",
+    "destX": 44,
+    "destY": 63
+  }
+]

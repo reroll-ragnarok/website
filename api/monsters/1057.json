@@ -1,0 +1,63 @@
+{
+  "Id": 1057,
+  "AegisName": "YOYO",
+  "Name": "Yoyo",
+  "Level": 20,
+  "Hp": 380,
+  "BaseExp": 150,
+  "JobExp": 100,
+  "Attack": 38,
+  "Attack2": 10,
+  "Defense": 28,
+  "MagicDefense": 8,
+  "Str": 15,
+  "Agi": 12,
+  "Vit": 18,
+  "Int": 14,
+  "Dex": 14,
+  "Luk": 12,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Earth",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1054,
+  "AttackMotion": 54,
+  "DamageMotion": 384,
+  "Ai": 7,
+  "Drops": [
+    {
+      "Item": "Yoyo_Tail",
+      "Rate": 10000
+    },
+    {
+      "Item": "Banana",
+      "Rate": 5000
+    },
+    {
+      "Item": "Cacao",
+      "Rate": 2500
+    },
+    {
+      "Item": "Yoyo_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_fild05",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1057,
+      "mobName": "Yoyo",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

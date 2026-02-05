@@ -1,0 +1,63 @@
+{
+  "Id": 1175,
+  "AegisName": "TAROU",
+  "Name": "Tarou",
+  "Level": 30,
+  "Hp": 815,
+  "BaseExp": 200,
+  "JobExp": 175,
+  "Attack": 33,
+  "Attack2": 33,
+  "Defense": 30,
+  "MagicDefense": 5,
+  "Str": 20,
+  "Agi": 8,
+  "Vit": 30,
+  "Int": 5,
+  "Dex": 20,
+  "Luk": 5,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Brute",
+  "Element": "Dark",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1300,
+  "AttackMotion": 900,
+  "DamageMotion": 800,
+  "Ai": 17,
+  "Drops": [
+    {
+      "Item": "Rat_Tail",
+      "Rate": 10000
+    },
+    {
+      "Item": "Animal's_Skin",
+      "Rate": 5000
+    },
+    {
+      "Item": "Feather",
+      "Rate": 2500
+    },
+    {
+      "Item": "Tarou_Card",
+      "Rate": 20,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "prt_sewb3",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1175,
+      "mobName": "Tarou",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

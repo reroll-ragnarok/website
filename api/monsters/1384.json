@@ -1,0 +1,75 @@
+{
+  "Id": 1384,
+  "AegisName": "DELETER",
+  "Name": "Deleter",
+  "Level": 40,
+  "Hp": 1322,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 109,
+  "Attack2": 97,
+  "Defense": 40,
+  "MagicDefense": 36,
+  "Str": 33,
+  "Agi": 35,
+  "Vit": 18,
+  "Int": 23,
+  "Dex": 37,
+  "Luk": 21,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Dragon",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 175,
+  "AttackDelay": 1020,
+  "AttackMotion": 720,
+  "DamageMotion": 384,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Dragon's_Skin",
+      "Rate": 1000
+    },
+    {
+      "Item": "Dragon_Canine",
+      "Rate": 1300
+    },
+    {
+      "Item": "Dragon_Train",
+      "Rate": 1000
+    },
+    {
+      "Item": "Dragon_Scale",
+      "Rate": 1000
+    },
+    {
+      "Item": "Strange_Foxtail",
+      "Rate": 20
+    },
+    {
+      "Item": "Doram_Only_Cape",
+      "Rate": 20
+    },
+    {
+      "Item": "Flying_Deleter_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild07",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1384,
+      "mobName": "Deleter (Sky)",
+      "amount": 25,
+      "respawnTime": 0
+    }
+  ]
+}

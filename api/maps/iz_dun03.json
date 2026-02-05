@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "iz_dun03",
+    "sourceX": 29,
+    "sourceY": 63,
+    "direction": "West",
+    "warpName": "izdun03_01",
+    "destMap": "izlu2dun",
+    "destX": 108,
+    "destY": 87
+  },
+  {
+    "sourceMap": "iz_dun03",
+    "sourceX": 264,
+    "sourceY": 245,
+    "direction": "East",
+    "warpName": "izdun03_02",
+    "destMap": "iz_dun04",
+    "destX": 26,
+    "destY": 27
+  }
+]

@@ -1,0 +1,78 @@
+{
+  "Id": 1114,
+  "AegisName": "DUSTINESS",
+  "Name": "Dustiness",
+  "Level": 80,
+  "Hp": 5281,
+  "BaseExp": 750,
+  "JobExp": 550,
+  "Attack": 328,
+  "Attack2": 259,
+  "Defense": 69,
+  "MagicDefense": 50,
+  "Str": 44,
+  "Agi": 75,
+  "Vit": 35,
+  "Int": 42,
+  "Dex": 71,
+  "Luk": 59,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Insect",
+  "Element": "Wind",
+  "ElementLevel": 2,
+  "WalkSpeed": 150,
+  "AttackDelay": 1004,
+  "AttackMotion": 504,
+  "DamageMotion": 384,
+  "Ai": 17,
+  "Modes": {
+    "Detector": true
+  },
+  "Drops": [
+    {
+      "Item": "Moth_Dust",
+      "Rate": 4500
+    },
+    {
+      "Item": "Wing_Of_Moth",
+      "Rate": 250
+    },
+    {
+      "Item": "Masquerade",
+      "Rate": 2
+    },
+    {
+      "Item": "Insect_Feeler",
+      "Rate": 1000
+    },
+    {
+      "Item": "Sparkling_Dust",
+      "Rate": 5
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 600
+    },
+    {
+      "Item": "Dustiness_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "um_fild04",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1114,
+      "mobName": "Dustiness",
+      "amount": 50,
+      "respawnTime": 5000
+    }
+  ]
+}

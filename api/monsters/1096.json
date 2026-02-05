@@ -1,0 +1,79 @@
+{
+  "Id": 1096,
+  "AegisName": "ANGELING",
+  "Name": "Angeling",
+  "Level": 70,
+  "Hp": 40000,
+  "BaseExp": 5000,
+  "JobExp": 4750,
+  "Attack": 340,
+  "Attack2": 165,
+  "Defense": 95,
+  "MagicDefense": 70,
+  "Str": 65,
+  "Agi": 58,
+  "Vit": 60,
+  "Int": 68,
+  "Dex": 65,
+  "Luk": 70,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Angel",
+  "Element": "Holy",
+  "ElementLevel": 4,
+  "WalkSpeed": 200,
+  "AttackDelay": 1072,
+  "AttackMotion": 672,
+  "DamageMotion": 672,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "Drops": [
+    {
+      "Item": "Angelic_Chain",
+      "Rate": 50
+    },
+    {
+      "Item": "Scapulare_",
+      "Rate": 30
+    },
+    {
+      "Item": "Spirit_Chain",
+      "Rate": 1
+    },
+    {
+      "Item": "White_Herb",
+      "Rate": 1000
+    },
+    {
+      "Item": "Apple",
+      "Rate": 14
+    },
+    {
+      "Item": "Emperium",
+      "Rate": 20
+    },
+    {
+      "Item": "Angeling_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "xmas_dun02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1096,
+      "mobName": "Angeling",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
+}

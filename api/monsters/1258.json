@@ -1,0 +1,81 @@
+{
+  "Id": 1258,
+  "AegisName": "GOBLIN_ARCHER",
+  "Name": "Goblin Archer",
+  "Level": 50,
+  "Hp": 1689,
+  "BaseExp": 300,
+  "JobExp": 400,
+  "Attack": 162,
+  "Attack2": 117,
+  "Defense": 17,
+  "Str": 13,
+  "Agi": 38,
+  "Vit": 6,
+  "Int": 6,
+  "Dex": 50,
+  "Luk": 31,
+  "AttackRange": 9,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Demihuman",
+  "RaceGroups": {
+    "Goblin": true
+  },
+  "Element": "Poison",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 1172,
+  "AttackMotion": 672,
+  "DamageMotion": 420,
+  "Ai": 5,
+  "Drops": [
+    {
+      "Item": "Goblini_Mask",
+      "Rate": 2
+    },
+    {
+      "Item": "Iron",
+      "Rate": 125
+    },
+    {
+      "Item": "Scell",
+      "Rate": 500
+    },
+    {
+      "Item": "Oridecon_Arrow",
+      "Rate": 1500
+    },
+    {
+      "Item": "Red_Herb",
+      "Rate": 300
+    },
+    {
+      "Item": "Composite_Bow_",
+      "Rate": 13
+    },
+    {
+      "Item": "Grape",
+      "Rate": 150
+    },
+    {
+      "Item": "Goblin_Archer_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1258,
+      "mobName": "Goblin (Archer)",
+      "amount": 20,
+      "respawnTime": 5000
+    }
+  ]
+}

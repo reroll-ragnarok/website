@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "nif_fild01",
+    "sourceX": 315,
+    "sourceY": 63,
+    "direction": "East",
+    "warpName": "niffild01_01",
+    "destMap": "yggdrasil01",
+    "destX": 246,
+    "destY": 259
+  },
+  {
+    "sourceMap": "nif_fild01",
+    "sourceX": 345,
+    "sourceY": 323,
+    "direction": "East",
+    "warpName": "niffild01_02",
+    "destMap": "nif_fild02",
+    "destX": 23,
+    "destY": 312
+  }
+]

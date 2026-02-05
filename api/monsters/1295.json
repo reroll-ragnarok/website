@@ -1,0 +1,80 @@
+{
+  "Id": 1295,
+  "AegisName": "OWL_BARON",
+  "Name": "Owl Baron",
+  "Level": 99,
+  "Hp": 29746,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1056,
+  "Attack2": 761,
+  "Defense": 88,
+  "MagicDefense": 25,
+  "Str": 64,
+  "Agi": 62,
+  "Vit": 59,
+  "Int": 94,
+  "Dex": 99,
+  "Luk": 83,
+  "AttackRange": 2,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Demon",
+  "Element": "Wind",
+  "ElementLevel": 3,
+  "WalkSpeed": 175,
+  "AttackDelay": 1345,
+  "AttackMotion": 824,
+  "DamageMotion": 440,
+  "Ai": 21,
+  "Class": "Boss",
+  "Drops": [
+    {
+      "Item": "Tatters_Clothes",
+      "Rate": 1750
+    },
+    {
+      "Item": "Soft_Feather",
+      "Rate": 1250
+    },
+    {
+      "Item": "Scarlet_Bow",
+      "Rate": 50
+    },
+    {
+      "Item": "Staff_Of_Soul",
+      "Rate": 1
+    },
+    {
+      "Item": "Walking_Stick",
+      "Rate": 1
+    },
+    {
+      "Item": "Wind_Scroll_1_5",
+      "Rate": 50
+    },
+    {
+      "Item": "Magician_Hat",
+      "Rate": 3
+    },
+    {
+      "Item": "Owl_Baron_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gl_cas02",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1295,
+      "mobName": "Owl Baron",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
+}

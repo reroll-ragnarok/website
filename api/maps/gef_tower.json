@@ -1,0 +1,42 @@
+[
+  {
+    "sourceMap": "gef_tower",
+    "sourceX": 112,
+    "sourceY": 114,
+    "direction": "West",
+    "warpName": "geftower_01",
+    "destMap": "geffen",
+    "destX": 120,
+    "destY": 110
+  },
+  {
+    "sourceMap": "gef_tower",
+    "sourceX": 106,
+    "sourceY": 115,
+    "direction": "West",
+    "warpName": "geftower_02",
+    "destMap": "gef_tower",
+    "destX": 116,
+    "destY": 28
+  },
+  {
+    "sourceMap": "gef_tower",
+    "sourceX": 116,
+    "sourceY": 31,
+    "direction": "South",
+    "warpName": "geftower_03",
+    "destMap": "gef_tower",
+    "destX": 106,
+    "destY": 112
+  },
+  {
+    "sourceMap": "gef_tower",
+    "sourceX": 118,
+    "sourceY": 114,
+    "direction": "South",
+    "warpName": "geftower_10",
+    "destMap": "gef_dun02",
+    "destX": 106,
+    "destY": 130
+  }
+]

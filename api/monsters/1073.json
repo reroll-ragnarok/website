@@ -1,0 +1,75 @@
+{
+  "Id": 1073,
+  "AegisName": "CRAB",
+  "Name": "Crab",
+  "Level": 70,
+  "Hp": 4988,
+  "BaseExp": 500,
+  "JobExp": 475,
+  "Attack": 208,
+  "Attack2": 205,
+  "Defense": 36,
+  "MagicDefense": 11,
+  "Str": 45,
+  "Agi": 14,
+  "Vit": 69,
+  "Int": 11,
+  "Dex": 37,
+  "Luk": 16,
+  "AttackRange": 1,
+  "SkillRange": 7,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 992,
+  "AttackMotion": 792,
+  "DamageMotion": 360,
+  "Ai": 3,
+  "Drops": [
+    {
+      "Item": "Crap_Shell",
+      "Rate": 2750
+    },
+    {
+      "Item": "Nipper",
+      "Rate": 750
+    },
+    {
+      "Item": "Stone",
+      "Rate": 350
+    },
+    {
+      "Item": "Sparkling_Dust",
+      "Rate": 7
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Elunium_Stone",
+      "Rate": 19
+    },
+    {
+      "Item": "Crab_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "beach_dun3",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1073,
+      "mobName": "Crab",
+      "amount": 100,
+      "respawnTime": 5000
+    }
+  ]
+}

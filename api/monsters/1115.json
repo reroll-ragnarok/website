@@ -1,0 +1,99 @@
+{
+  "Id": 1115,
+  "AegisName": "EDDGA",
+  "Name": "Eddga",
+  "Level": 20,
+  "Hp": 27500,
+  "BaseExp": 15000,
+  "JobExp": 10000,
+  "MvpExp": 15000,
+  "Attack": 50,
+  "Attack2": 37,
+  "Defense": 26,
+  "MagicDefense": 20,
+  "Str": 22,
+  "Agi": 10,
+  "Vit": 23,
+  "Int": 16,
+  "Dex": 19,
+  "Luk": 15,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Large",
+  "Race": "Brute",
+  "Element": "Fire",
+  "ElementLevel": 1,
+  "WalkSpeed": 300,
+  "AttackDelay": 872,
+  "AttackMotion": 1344,
+  "DamageMotion": 432,
+  "DamageTaken": 100,
+  "Ai": 21,
+  "Class": "Boss",
+  "Modes": {
+    "Mvp": true
+  },
+  "MvpDrops": [
+    {
+      "Item": "Tiger's_Skin",
+      "Rate": 5000
+    },
+    {
+      "Item": "Tiger_Footskin",
+      "Rate": 1000
+    },
+    {
+      "Item": "Flame_Heart",
+      "Rate": 3000
+    }
+  ],
+  "Drops": [
+    {
+      "Item": "Fire_Brand",
+      "Rate": 75
+    },
+    {
+      "Item": "Smoking_Pipe",
+      "Rate": 125
+    },
+    {
+      "Item": "Honey",
+      "Rate": 5000
+    },
+    {
+      "Item": "Katar_Of_Raging_Blaze",
+      "Rate": 250
+    },
+    {
+      "Item": "Tiger_Footskin",
+      "Rate": 400
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1200
+    },
+    {
+      "Item": "Krieg",
+      "Rate": 100
+    },
+    {
+      "Item": "Eddga_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "pay_fild10",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1115,
+      "mobName": "Eddga",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
+}

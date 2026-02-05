@@ -1,0 +1,22 @@
+[
+  {
+    "sourceMap": "in_sphinx4",
+    "sourceX": 10,
+    "sourceY": 224,
+    "direction": "West",
+    "warpName": "insphinx4_01",
+    "destMap": "moc_fild19",
+    "destX": 100,
+    "destY": 99
+  },
+  {
+    "sourceMap": "in_sphinx4",
+    "sourceX": 120,
+    "sourceY": 113,
+    "direction": "South",
+    "warpName": "insphinx4_02",
+    "destMap": "in_sphinx5",
+    "destX": 100,
+    "destY": 99
+  }
+]

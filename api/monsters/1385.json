@@ -1,0 +1,79 @@
+{
+  "Id": 1385,
+  "AegisName": "DELETER_",
+  "Name": "Deleter",
+  "Level": 40,
+  "Hp": 1173,
+  "BaseExp": 250,
+  "JobExp": 275,
+  "Attack": 98,
+  "Attack2": 59,
+  "Defense": 40,
+  "MagicDefense": 40,
+  "Str": 20,
+  "Agi": 22,
+  "Vit": 20,
+  "Int": 15,
+  "Dex": 33,
+  "Luk": 17,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Dragon",
+  "Element": "Fire",
+  "ElementLevel": 2,
+  "WalkSpeed": 175,
+  "AttackDelay": 1024,
+  "AttackMotion": 624,
+  "DamageMotion": 336,
+  "Ai": 13,
+  "Drops": [
+    {
+      "Item": "Dragon's_Skin",
+      "Rate": 1000
+    },
+    {
+      "Item": "Dragon_Canine",
+      "Rate": 1300
+    },
+    {
+      "Item": "Dragon_Train",
+      "Rate": 1000
+    },
+    {
+      "Item": "Dragon_Scale",
+      "Rate": 1000
+    },
+    {
+      "Item": "Stone_Buckler",
+      "Rate": 5
+    },
+    {
+      "Item": "Detail_Model_Foxtail",
+      "Rate": 20
+    },
+    {
+      "Item": "Doram_Only_Shoes",
+      "Rate": 20
+    },
+    {
+      "Item": "Deleter_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild07",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1385,
+      "mobName": "Deleter (Ground)",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "Id": 1012,
+  "AegisName": "RODA_FROG",
+  "Name": "Roda Frog",
+  "Level": 1,
+  "Hp": 50,
+  "BaseExp": 50,
+  "JobExp": 25,
+  "Attack": 7,
+  "Attack2": 3,
+  "Defense": 5,
+  "MagicDefense": 5,
+  "Str": 4,
+  "Agi": 5,
+  "Vit": 6,
+  "Int": 7,
+  "Dex": 5,
+  "Luk": 6,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Fish",
+  "Element": "Water",
+  "ElementLevel": 1,
+  "WalkSpeed": 200,
+  "AttackDelay": 2016,
+  "AttackMotion": 816,
+  "DamageMotion": 288,
+  "Ai": 1,
+  "Drops": [
+    {
+      "Item": "Sticky_Webfoot",
+      "Rate": 4500
+    },
+    {
+      "Item": "Spawn",
+      "Rate": 500
+    },
+    {
+      "Item": "Green_Herb",
+      "Rate": 300
+    },
+    {
+      "Item": "Azure_Jewel",
+      "Rate": 8
+    },
+    {
+      "Item": "Wing_Of_Fly",
+      "Rate": 500
+    },
+    {
+      "Item": "Roda_Frog_Card",
+      "Rate": 1,
+      "StealProtected": true
+    }
+  ],
+  "spawns": [
+    {
+      "map": "gef_fild00",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1012,
+      "mobName": "Roda Frog",
+      "amount": 150,
+      "respawnTime": 5000
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "c_tower1",
+    "sourceX": 199,
+    "sourceY": 157,
+    "direction": "East",
+    "warpName": "ctower_to_adb",
+    "destMap": "aldebaran",
+    "destX": 139,
+    "destY": 132
+  }
+]
