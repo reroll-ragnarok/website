@@ -6,6 +6,12 @@ let mapsData = [];
 let currentPage = 1;
 const itemsPerPage = 50;
 
+// Server rates configuration
+const serverRates = {
+    baseExp: 6,
+    jobExp: 6
+};
+
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', function() {
     initializeTabs();
@@ -557,100 +563,125 @@ function displayMonsterModal(monster) {
                 <h2>${monster.Name}</h2>
             </div>
         </div>
-        <div class="detail-section">
-            <h3>Basic Information</h3>
-            <div class="detail-grid">
-                <div class="detail-item">
-                    <div class="detail-label">ID</div>
-                    <div class="detail-value">${monster.Id}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Level</div>
-                    <div class="detail-value">${monster.Level || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">HP</div>
-                    <div class="detail-value">${formatNumber(monster.Hp || 1)}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Element</div>
-                    <div class="detail-value">${monster.Element || 'Neutral'} ${monster.ElementLevel || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Race</div>
-                    <div class="detail-value">${monster.Race || 'Formless'}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Size</div>
-                    <div class="detail-value">${monster.Size || 'Small'}</div>
-                </div>
-            </div>
-        </div>
         
-        <div class="detail-section">
-            <h3>Stats</h3>
-            <div class="detail-grid">
-                <div class="detail-item">
-                    <div class="detail-label">ATK</div>
-                    <div class="detail-value">${monster.Attack || 0} ~ ${monster.Attack2 || 0}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">DEF</div>
-                    <div class="detail-value">${monster.Defense || 0}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">MDEF</div>
-                    <div class="detail-value">${monster.MagicDefense || 0}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">STR</div>
-                    <div class="detail-value">${monster.Str || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">AGI</div>
-                    <div class="detail-value">${monster.Agi || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">VIT</div>
-                    <div class="detail-value">${monster.Vit || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">INT</div>
-                    <div class="detail-value">${monster.Int || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">DEX</div>
-                    <div class="detail-value">${monster.Dex || 1}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">LUK</div>
-                    <div class="detail-value">${monster.Luk || 1}</div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="detail-section">
-            <h3>Experience</h3>
-            <div class="detail-grid">
-                <div class="detail-item">
-                    <div class="detail-label">Base EXP</div>
-                    <div class="detail-value">${formatNumber(monster.BaseExp || 0)}</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Job EXP</div>
-                    <div class="detail-value">${formatNumber(monster.JobExp || 0)}</div>
-                </div>
-                ${monster.MvpExp ? `
-                    <div class="detail-item">
-                        <div class="detail-label">MVP EXP</div>
-                        <div class="detail-value">${formatNumber(monster.MvpExp)}</div>
+        <div class="detail-columns">
+            <div class="detail-column-left">
+                <div class="detail-section">
+                    <h3>Basic Information</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">ID</div>
+                            <div class="detail-value">${monster.Id}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Level</div>
+                            <div class="detail-value">${monster.Level || 1}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">HP</div>
+                            <div class="detail-value">${formatNumber(monster.Hp || 1)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Element</div>
+                            <div class="detail-value">${monster.Element || 'Neutral'} ${monster.ElementLevel || 1}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Race</div>
+                            <div class="detail-value">${monster.Race || 'Formless'}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Size</div>
+                            <div class="detail-value">${monster.Size || 'Small'}</div>
+                        </div>
                     </div>
-                ` : ''}
+                </div>
+                
+                <div class="detail-section">
+                    <h3>Stats</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">STR</div>
+                            <div class="detail-value">${monster.Str || 1}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">ATK</div>
+                            <div class="detail-value">${monster.Attack || 0} ~ ${monster.Attack2 || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">DEF</div>
+                            <div class="detail-value">${monster.Defense || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">AGI</div>
+                            <div class="detail-value">${monster.Agi || 1}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">MATK</div>
+                            <div class="detail-value">${Math.floor((monster.Int || 1) + (monster.Int || 1) / 5)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">MDEF</div>
+                            <div class="detail-value">${monster.MagicDefense || 0}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">VIT</div>
+                            <div class="detail-value">${monster.Vit || 1}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">HIT</div>
+                            <div class="detail-value">${200 + (monster.Level || 1) + (monster.Agi || 1)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Flee</div>
+                            <div class="detail-value">${100 + (monster.Level || 1) + (monster.Agi || 1)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">INT</div>
+                            <div class="detail-value">${monster.Int || 1}</div>
+                        </div>
+                        <div class="detail-item"></div>
+                        <div class="detail-item"></div>
+                        <div class="detail-item">
+                            <div class="detail-label">DEX</div>
+                            <div class="detail-value">${monster.Dex || 1}</div>
+                        </div>
+                        <div class="detail-item"></div>
+                        <div class="detail-item"></div>
+                        <div class="detail-item">
+                            <div class="detail-label">LUK</div>
+                            <div class="detail-value">${monster.Luk || 1}</div>
+                        </div>
+                        <div class="detail-item"></div>
+                        <div class="detail-item"></div>
+                    </div>
+                </div>
+                
+                <div class="detail-section">
+                    <h3>Experience</h3>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <div class="detail-label">Base EXP</div>
+                            <div class="detail-value">${formatNumber((monster.BaseExp || 0) * serverRates.baseExp)}</div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-label">Job EXP</div>
+                            <div class="detail-value">${formatNumber((monster.JobExp || 0) * serverRates.jobExp)}</div>
+                        </div>
+                        ${monster.MvpExp ? `
+                            <div class="detail-item">
+                                <div class="detail-label">MVP EXP</div>
+                                <div class="detail-value">${formatNumber(monster.MvpExp * serverRates.baseExp)}</div>
+                            </div>
+                        ` : ''}
+                    </div>
+                </div>
+            </div>
+            
+            <div class="detail-column-right">
+                ${spawnsHtml}
+                ${dropsHtml}
             </div>
         </div>
-        
-        ${spawnsHtml}
-        ${dropsHtml}
     `;
     
     modal.style.display = 'block';
