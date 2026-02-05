@@ -187,6 +187,11 @@ function loadMaps() {
     }
 }
 
+// Health check endpoint for keeping Render awake
+app.get('/api/health', (req, res) => {
+    res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 // API Routes
 app.get('/api/monsters', (req, res) => {
     try {

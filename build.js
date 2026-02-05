@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('yaml');
 
-console.log('🚀 Building static site for GitHub Pages...\n');
+console.log('🚀 Building site...\n');
 
 // Create api directory
 const apiDir = path.join(__dirname, 'api');
@@ -270,6 +270,6 @@ Object.entries(warps).forEach(([mapName, mapWarps]) => {
 });
 console.log(`✅ ${Object.keys(warps).length} individual map files`);
 
-console.log('\n✨ Build complete! Your site is ready for GitHub Pages.\n');
+console.log('\n✨ Build complete! Your site is ready!\n');
 console.log('📁 Generated files in: api/');
-console.log('🌐 Deploy the repository root to GitHub Pages');
+console.log('🌐 Deploy the repository root to your hosting provider.');
