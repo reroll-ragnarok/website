@@ -72,7 +72,7 @@ pm2 start website.js --name reroll-website
 
 ### Update Server Rates
 
-Edit [public/index.html](public/index.html) and modify the rate values in the rates section:
+Edit [index.html](index.html) and modify the rate values in the rates section:
 
 ```html
 <div class="rate-value">100x</div> <!-- Change this -->
@@ -80,7 +80,7 @@ Edit [public/index.html](public/index.html) and modify the rate values in the ra
 
 ### Change Colors
 
-Edit [public/styles.css](public/styles.css) and modify the CSS variables at the top:
+Edit [styles.css](styles.css) and modify the CSS variables at the top:
 
 ```css
 :root {
@@ -93,8 +93,8 @@ Edit [public/styles.css](public/styles.css) and modify the CSS variables at the 
 
 ### Add More Database Fields
 
-1. Edit the table headers in [public/database.html](public/database.html)
-2. Update the display functions in [public/database.js](public/database.js)
+1. Edit the table headers in [database.html](database.html)
+2. Update the display functions in [database.js](database.js)
 3. The backend automatically reads all fields from YAML files
 
 ## API Endpoints
@@ -135,7 +135,7 @@ Any changes to these files will be reflected in the website after restarting the
 
 To add new features or fix bugs:
 
-1. Edit the relevant files in the `website/public/` directory
+1. Edit the relevant files in the project root directory
 2. Restart the server to see changes
 3. Test across different browsers
 

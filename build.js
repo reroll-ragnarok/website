@@ -5,7 +5,7 @@ const yaml = require('yaml');
 console.log('🚀 Building static site for GitHub Pages...\n');
 
 // Create api directory
-const apiDir = path.join(__dirname, 'public', 'api');
+const apiDir = path.join(__dirname, 'api');
 if (!fs.existsSync(apiDir)) {
     fs.mkdirSync(apiDir, { recursive: true });
 }
@@ -24,7 +24,7 @@ function loadYAMLFile(filePath) {
 
 // Load monsters
 function loadMonsters() {
-    const dbDir = path.join(__dirname, 'public', 'db');
+    const dbDir = path.join(__dirname, 'db');
     let allMonsters = [];
     
     try {
@@ -43,7 +43,7 @@ function loadMonsters() {
 
 // Load spawns
 function loadSpawns() {
-    const mobsFilePath = path.join(__dirname, 'public', 'db', 'mobs.txt');
+    const mobsFilePath = path.join(__dirname, 'db', 'mobs.txt');
     const spawns = [];
     
     try {
@@ -81,7 +81,7 @@ function loadSpawns() {
 
 // Load items
 function loadItems() {
-    const dbDir = path.join(__dirname, 'public', 'db');
+    const dbDir = path.join(__dirname, 'db');
     let allItems = [];
     
     try {
@@ -103,7 +103,7 @@ function loadItems() {
 
 // Load maps
 function loadMaps() {
-    const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
+    const warpFilePath = path.join(__dirname, 'db', 'runemidgard.txt');
     const maps = new Map();
     
     try {
@@ -141,7 +141,7 @@ function loadMaps() {
 
 // Load warps
 function loadWarps() {
-    const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
+    const warpFilePath = path.join(__dirname, 'db', 'runemidgard.txt');
     const warpsByMap = {};
     
     try {
@@ -271,5 +271,5 @@ Object.entries(warps).forEach(([mapName, mapWarps]) => {
 console.log(`✅ ${Object.keys(warps).length} individual map files`);
 
 console.log('\n✨ Build complete! Your site is ready for GitHub Pages.\n');
-console.log('📁 Generated files in: public/api/');
-console.log('🌐 Deploy the "public" folder to GitHub Pages');
+console.log('📁 Generated files in: api/');
+console.log('🌐 Deploy the repository root to GitHub Pages');

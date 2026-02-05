@@ -6,8 +6,8 @@ const yaml = require('yaml');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Serve static files from public directory
-app.use(express.static('public'));
+// Serve static files from project root
+app.use(express.static(__dirname));
 
 // Cache for database data
 let monstersCache = null;
@@ -32,11 +32,11 @@ function loadYAMLFile(filePath) {
     }
 }
 
-// Load monsters from public/db/*.yml files
+// Load monsters from db/*.yml files
 function loadMonsters() {
     if (monstersCache) return monstersCache;
     
-    const rerollDir = path.join(__dirname, 'public', 'db');
+    const rerollDir = path.join(__dirname, 'db');
     let allMonsters = [];
     
     try {
@@ -48,20 +48,20 @@ function loadMonsters() {
             allMonsters.push(...monsters);
         });
         
-        console.log(`Loaded ${allMonsters.length} monsters from ${files.length} files in public/db/`);
+        console.log(`Loaded ${allMonsters.length} monsters from ${files.length} files in db/`);
     } catch (error) {
-        console.error('Error loading monsters from public/db/:', error.message);
+        console.error('Error loading monsters from db/:', error.message);
     }
     
     monstersCache = allMonsters;
     return allMonsters;
 }
 
-// Load spawn information from public/db/mobs.txt
+// Load spawn information from db/mobs.txt
 function loadSpawns() {
     if (spawnsCache) return spawnsCache;
     
-    const mobsFilePath = path.join(__dirname, 'public', 'db', 'mobs.txt');
+    const mobsFilePath = path.join(__dirname, 'db', 'mobs.txt');
     const spawns = [];
     
     try {
@@ -98,7 +98,7 @@ function loadSpawns() {
         });
         
         spawnsCache = spawns;
-        console.log(`Loaded ${spawns.length} monster spawns from public/db/mobs.txt`);
+        console.log(`Loaded ${spawns.length} monster spawns from db/mobs.txt`);
         return spawns;
     } catch (error) {
         console.error('Error loading spawns:', error.message);
@@ -110,7 +110,7 @@ function loadSpawns() {
 function loadItems() {
     if (itemsCache) return itemsCache;
     
-    const itemDbDir = path.join(__dirname, 'public', 'db');
+    const itemDbDir = path.join(__dirname, 'db');
     let allItems = [];
     
     try {
@@ -125,20 +125,20 @@ function loadItems() {
             }
         });
         
-        console.log(`Loaded ${allItems.length} items from ${itemFiles.length} files in public/db/`);
+        console.log(`Loaded ${allItems.length} items from ${itemFiles.length} files in db/`);
     } catch (error) {
-        console.error('Error loading items from public/db/:', error.message);
+        console.error('Error loading items from db/:', error.message);
     }
     
     itemsCache = allItems;
     return allItems;
 }
 
-// Load maps from public/db/runemidgard.txt
+// Load maps from db/runemidgard.txt
 function loadMaps() {
     if (mapsCache) return mapsCache;
     
-    const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
+    const warpFilePath = path.join(__dirname, 'db', 'runemidgard.txt');
     const maps = new Map(); // Use Map to track unique map names
     
     try {
@@ -179,7 +179,7 @@ function loadMaps() {
         
         const mapArray = Array.from(maps.values());
         mapsCache = mapArray;
-        console.log(`Loaded ${mapArray.length} maps from public/db/runemidgard.txt`);
+        console.log(`Loaded ${mapArray.length} maps from db/runemidgard.txt`);
         return mapArray;
     } catch (error) {
         console.error('Error loading maps:', error.message);
@@ -280,7 +280,7 @@ app.get('/api/spawns/map/:mapName', (req, res) => {
 
 app.get('/api/maps/:mapName/warps', (req, res) => {
     try {
-        const warpFilePath = path.join(__dirname, 'public', 'db', 'runemidgard.txt');
+        const warpFilePath = path.join(__dirname, 'db', 'runemidgard.txt');
         const warps = [];
         const mapName = req.params.mapName;
         
@@ -381,7 +381,7 @@ app.get('/api/maps/:mapName/warps', (req, res) => {
 
 // Serve index.html for root route
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 // Start server
