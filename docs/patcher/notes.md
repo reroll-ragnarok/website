@@ -5,8 +5,12 @@
 - Warps are custom
 - Mobs spawn are custom
 
+<br>
+
 ### Renewal mechanics
+<br>
 
 ### QoL NPCs in Prontera
+<br>
 
 ### Basic NPCs in all cities
