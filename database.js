@@ -3,6 +3,7 @@ let currentTab = 'monsters';
 let monstersData = [];
 let itemsData = [];
 let mapsData = [];
+let mapGraph = {};
 let currentPage = 1;
 const itemsPerPage = 50;
 
@@ -213,8 +214,11 @@ async function loadAllData() {
         itemsData = await itemsResponse.json();
         
         // Load maps
-        const mapsResponse = await fetch('/api/maps');
-        mapsData = await mapsResponse.json();
+        const mapTextResponse = await fetch('/db/map.txt');
+        const mapText = await mapTextResponse.text();
+        const parsedMaps = parseMapNavigatorText(mapText);
+        mapsData = parsedMaps.maps;
+        mapGraph = parsedMaps.graph;
         
     } catch (error) {
         console.error('Error loading data:', error);
@@ -367,6 +371,163 @@ function formatMapName(mapName) {
     return cityNames[mapName] || mapName.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 }
 
+function inferMapType(mapName, isHeader) {
+    if (isHeader) {
+        return 'City';
+    }
+    if (/(?:^|_)(dun|tower|prison|maze|sewb|cas|chyard|knt|anthell|orcsdun)/i.test(mapName)) {
+        return 'Dungeon';
+    }
+    return 'Field';
+}
+
+function getReverseDirection(direction) {
+    const lower = direction.toLowerCase();
+    if (lower === 'center') {
+        return 'center';
+    }
+    if (lower === 'next') {
+        return 'previous';
+    }
+    if (lower === 'previous') {
+        return 'next';
+    }
+
+    const parts = lower.split(/\s+/);
+    const base = parts[0];
+    const suffix = parts.slice(1).join(' ');
+    const opposites = {
+        north: 'south',
+        south: 'north',
+        east: 'west',
+        west: 'east',
+        northeast: 'southwest',
+        northwest: 'southeast',
+        southeast: 'northwest',
+        southwest: 'northeast'
+    };
+
+    if (!opposites[base]) {
+        return null;
+    }
+
+    return suffix ? `${opposites[base]} ${suffix}` : opposites[base];
+}
+
+function formatDirectionLabel(direction) {
+    const lower = direction.toLowerCase();
+    if (lower === 'next') {
+        return 'Next floor';
+    }
+    if (lower === 'previous') {
+        return 'Previous floor';
+    }
+
+    return direction
+        .split(/\s+/)
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+}
+
+function parseMapNavigatorText(text) {
+    const graph = {};
+    const mapSet = new Set();
+    const mapTypes = {};
+    const headerLinks = new Set();
+    let currentHeader = null;
+
+    const ensureMap = (name, isHeader = false) => {
+        if (!name) {
+            return;
+        }
+        mapSet.add(name);
+        if (!mapTypes[name]) {
+            mapTypes[name] = inferMapType(name, isHeader);
+        }
+    };
+
+    const addEdge = (from, to, direction) => {
+        if (!from || !to) {
+            return;
+        }
+        if (!graph[from]) {
+            graph[from] = [];
+        }
+        if (graph[from].some(edge => edge.map === to && edge.direction === direction)) {
+            return;
+        }
+        graph[from].push({ map: to, direction });
+    };
+
+    const addBidirectionalEdge = (from, to, direction) => {
+        addEdge(from, to, direction);
+        const reverseDirection = getReverseDirection(direction);
+        if (reverseDirection) {
+            addEdge(to, from, reverseDirection);
+        }
+    };
+
+    const isHeaderLine = line => !line.includes(':') && !line.includes('->') && /^[A-Za-z0-9_-]+$/.test(line);
+
+    const parsePath = path => path
+        .split('->')
+        .map(part => part.trim())
+        .filter(Boolean);
+
+    text.split(/\r?\n/).forEach(rawLine => {
+        const line = rawLine.trim();
+        if (!line || line.startsWith('//')) {
+            return;
+        }
+
+        if (isHeaderLine(line)) {
+            currentHeader = line;
+            ensureMap(line, true);
+            return;
+        }
+
+        let directionLabel = null;
+        let pathText = line;
+        if (line.includes(':')) {
+            const parts = line.split(':');
+            directionLabel = parts.shift().trim();
+            pathText = parts.join(':').trim();
+        }
+
+        const nodes = parsePath(pathText);
+        if (nodes.length === 0) {
+            return;
+        }
+
+        nodes.forEach(node => ensureMap(node));
+
+        if (currentHeader) {
+            let headerDirection = directionLabel;
+            const headerKey = `${currentHeader}|${nodes[0]}`;
+            if (!headerDirection && !headerLinks.has(headerKey)) {
+                headerDirection = 'center';
+            }
+            if (headerDirection) {
+                addBidirectionalEdge(currentHeader, nodes[0], headerDirection);
+                headerLinks.add(headerKey);
+            }
+        }
+
+        for (let i = 0; i < nodes.length - 1; i += 1) {
+            addEdge(nodes[i], nodes[i + 1], 'next');
+        }
+    });
+
+    const maps = Array.from(mapSet)
+        .sort((a, b) => a.localeCompare(b))
+        .map(name => ({
+            name,
+            type: mapTypes[name] || 'Field'
+        }));
+
+    return { maps, graph };
+}
+
 // Explore map function
 function exploreMap(mapName) {
     const modal = document.getElementById('mapModal');
@@ -383,61 +544,60 @@ function exploreMap(mapName) {
     
     modal.style.display = 'block';
     
-    // Fetch warps for this map
-    fetch(`/api/maps/${mapName}/warps`)
-        .then(response => response.json())
-        .then(warps => {
-            if (warps.length === 0) {
-                warpsList.innerHTML = '<div class="no-warps">No warps available from this location</div>';
-                return;
-            }
-            
-            // Group warps by destination with direction info
-            const warpsByDest = {};
-            warps.forEach(warp => {
-                if (!warpsByDest[warp.destMap]) {
-                    warpsByDest[warp.destMap] = [];
-                }
-                warpsByDest[warp.destMap].push(warp.direction);
-            });
-            
-            warpsList.innerHTML = Object.entries(warpsByDest).map(([destMap, directions]) => {
-                const uniqueDirections = [...new Set(directions)];
-                const directionsWithIcons = uniqueDirections.map(dir => 
-                    `${dir} ${getDirectionIcon(dir)}`
-                ).join(', ');
-                
-                return `
-                    <div class="warp-card" onclick="exploreMap('${destMap}')">
-                        <div class="warp-map-preview">
-                            <img src="https://www.divine-pride.net/img/map/original/${destMap}" 
-                                 alt="${formatMapName(destMap)}" 
-                                 onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ddd%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>🗺️</text></svg>'">
-                        </div>
-                        <div class="warp-card-info">
-                            <h4>${formatMapName(destMap)}</h4>
-                            <p class="warp-dest-id">${destMap}</p>
-                            <p class="warp-direction">${directionsWithIcons}</p>
-                        </div>
-                    </div>
-                `;
-            }).join('');
-        })
-        .catch(error => {
-            console.error('Error loading warps:', error);
-            warpsList.innerHTML = '<div class="error">Failed to load warps</div>';
-        });
+    const connections = mapGraph[mapName] || [];
+    if (connections.length === 0) {
+        warpsList.innerHTML = '<div class="no-warps">No adjacent maps from this location</div>';
+        return;
+    }
+
+    const connectionsByDest = {};
+    connections.forEach(connection => {
+        if (!connectionsByDest[connection.map]) {
+            connectionsByDest[connection.map] = [];
+        }
+        connectionsByDest[connection.map].push(connection.direction);
+    });
+
+    warpsList.innerHTML = Object.entries(connectionsByDest).map(([destMap, directions]) => {
+        const uniqueDirections = [...new Set(directions)];
+        const directionsWithIcons = uniqueDirections.map(direction =>
+            `${formatDirectionLabel(direction)} ${getDirectionIcon(direction)}`
+        ).join(', ');
+
+        return `
+            <div class="warp-card" onclick="exploreMap('${destMap}')">
+                <div class="warp-map-preview">
+                    <img src="https://www.divine-pride.net/img/map/original/${destMap}" 
+                         alt="${formatMapName(destMap)}" 
+                         onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ddd%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>🗺️</text></svg>'">
+                </div>
+                <div class="warp-card-info">
+                    <h4>${formatMapName(destMap)}</h4>
+                    <p class="warp-dest-id">${destMap}</p>
+                    <p class="warp-direction">${directionsWithIcons}</p>
+                </div>
+            </div>
+        `;
+    }).join('');
 }
 
-// Get direction icon (simplified to 4 cardinal directions)
+// Get direction icon (cardinal + dungeon directions)
 function getDirectionIcon(direction) {
+    const base = direction.toLowerCase().split(/\s+/)[0];
     const icons = {
-        'North': '⬆️',
-        'South': '⬇️',
-        'East': '➡️',
-        'West': '⬅️'
+        north: '⬆️',
+        south: '⬇️',
+        east: '➡️',
+        west: '⬅️',
+        northeast: '↗️',
+        northwest: '↖️',
+        southeast: '↘️',
+        southwest: '↙️',
+        center: '🎯',
+        next: '⬇️',
+        previous: '⬆️'
     };
-    return icons[direction] || '🚪';
+    return icons[base] || '🧭';
 }
 
 // Pagination

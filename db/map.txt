@@ -1,0 +1,82 @@
+alberta
+alb2trea -> treasure02
+tur_dun01 -> tur_dun04
+
+aldebaran
+south 2: mjolnir_05 -> mjo_dun02
+south: mjolnir_12
+north: yuno_fild01
+center: c_tower1
+
+comodo
+southeast: cmd_fild02
+east 2: cmd_fild03
+west: beach_dun
+north: beach_dun2
+east: beach_dun3
+
+geffen
+east: gef_fild00
+north: gef_fild04
+west 2: gef_fild06
+west: gef_fild07
+southwest 2: gef_fild10 -> in_orcs01 -> orcsdun02
+southwest: gef_fild11
+north 2: mjolnir_02
+center: gef_tower -> gef_dun02 -> gef_dun03
+
+izlude
+izlu2dun -> iz_dun03 -> iz_dun04
+
+
+payon_mem
+south: pay_fild03
+east: pay_fild10
+west: moc_fild13
+north: pay_arche -> pay_dun03 -> pay_dun04
+
+morocc
+east: moc_fild10
+south: moc_fild12
+east 2: moc_fild13
+southeast: moc_fild17 -> anthell02
+west: moc_fild19 -> in_sphinx4 -> in_sphinx5
+northwest: moc_ruins -> moc_prydb1 -> moc_pryd03 -> moc_pryd04
+moc_prydb1 -> moc_pryd06
+
+
+niflheim
+west 2: nif_fild01
+west: nif_fild02
+
+prontera
+west: prt_fild05 -> prt_maze01
+prt_fild05 -> prt_sewb3 -> prt_sewb4
+east: prt_fild06
+south: prt_fild08
+
+umbala
+south: um_fild04
+north: yggdrasil01 -> nif_fild01
+
+yuno
+southeast: yuno_fild03 -> mag_dun01
+south: yuno_fild04
+
+glast_01
+north: gl_cas01
+north: gl_cas02
+south: l_chyard
+north: gl_in01
+west: gl_knt01 -> gl_knt02
+southwest: gl_prison1
+
+xmas
+north: xmas_dun02
+south: xmas_fild01
+
+
+
+
+
+
