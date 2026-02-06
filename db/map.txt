@@ -1,4 +1,4 @@
-alb2trea
+alb2trea (field)
 south:
 west:
 east:
@@ -6,14 +6,14 @@ north:
 next: treasure02
 previous: alberta
 
-alberta
+alberta (city)
 south:
 west: pay_fild03
 east:
 north:
 next: alb2trea
 
-aldebaran
+aldebaran (city)
 south: mjolnir_12
 west:
 east:
@@ -62,19 +62,19 @@ east:
 north:
 previous: c_tower1
 
-cmd_fild02
+cmd_fild02 (field)
 south:
 west:
 east: moc_fild12
 north: cmd_fild03
 
-cmd_fild03
+cmd_fild03 (field)
 south: cmd_fild02
 west: beach_dun3
 east: 
 north:
 
-comodo
+comodo (city)
 south:
 west: beach_dun
 east: beach_dun3
@@ -94,38 +94,38 @@ west:
 north:
 previous: gef_dun02
 
-gef_fild00
+gef_fild00 (field)
 south:
 west: geffen
 east: prt_fild05
 north:
 
-gef_fild04
+gef_fild04 (field)
 south: geffen
 west:
 east:
 north: mjolnir_02
 
-gef_fild06
+gef_fild06 (field)
 south:
 west: glast_01
 east: gef_fild07
 north:
 
-gef_fild07
+gef_fild07 (field)
 south: gef_fild11
 west: gef_fild06
 east: geffen
 north: 
 
-gef_fild10
+gef_fild10 (field)
 south: 
 west: gef_fild11
 east:
 north:
 next: in_orcs01
 
-gef_fild11
+gef_fild11 (field)
 south:
 west:
 east: gef_fild10
@@ -139,7 +139,7 @@ north:
 previous: geffen
 next: gef_dun02
 
-geffen
+geffen (city)
 south: 
 west: gef_fild07
 east: gef_fild00
@@ -197,7 +197,7 @@ east:
 north:
 previous: glast_01
 
-glast_01
+glast_01 (city)
 south: gl_chyard
 west: gl_knt01
 southwest: gl_prison1
@@ -242,7 +242,7 @@ east:
 north:
 previous: iz_dun03
 
-izlu2dun
+izlu2dun (field)
 south:
 west:
 east:
@@ -250,7 +250,7 @@ north:
 next: iz_dun03
 previous: izlude
 
-izlude
+izlude (city)
 south:
 west: prt_fild08
 east:
@@ -271,51 +271,51 @@ east:
 north:
 previous: mjolnir_02
 
-mjolnir_02
+mjolnir_02 (field)
 south: gef_fild04
 west:
 east: mjolnir_05
 north:
 next: mjo_dun02
 
-mjolnir_05
+mjolnir_05 (field)
 south:
 west: mjolnir_02
 east:
 north: mjolnir_12
 
-mjolnir_12
+mjolnir_12 (field)
 south: mjolnir_05
 west:
 east:
 north: aldebaran
 
-moc_fild10
+moc_fild10 (field)
 south:
 west: morocc
 east: moc_fild13
 north:
 
-moc_fild12
+moc_fild12 (field)
 south: cmd_fild02
 west:
 east: moc_fild17
 north: morocc
 
-moc_fild13
+moc_fild13 (field)
 south:
 west: moc_fild10
 east: payon_mem
 north: prt_fild08
 
-moc_fild17
+moc_fild17 (field)
 south:
 west: moc_fild12
 east:
 north: moc_fild12
 next: anthell02
 
-moc_fild19
+moc_fild19 (field)
 south:
 west:
 east: morocc
@@ -352,7 +352,7 @@ north:
 previous: moc_ruins
 next: moc_pryd03, moc_pryd06
 
-moc_ruins
+moc_ruins (field)
 south:
 west:
 east: 
@@ -360,25 +360,25 @@ north:
 southeast: morocc
 next: moc_prydb1
 
-morocc
+morocc (city)
 south: moc_fild12
 west: moc_fild19
 east: moc_fild10
 northwest: moc_ruins
 
-nif_fild01
+nif_fild01 (field)
 south: yggdrasil01
 west: 
 east: nif_fild02
 north:
 
-nif_fild02
+nif_fild02 (field)
 south:
 west: nif_fild01
 east: niflheim
 north: 
 
-niflheim
+niflheim (city)
 south: 
 west: nif_fild02
 east:
@@ -391,7 +391,7 @@ east:
 north:
 previous: in_orcs01
 
-pay_arche
+pay_arche (city)
 south: payon_mem
 west:
 east:
@@ -413,38 +413,38 @@ east:
 north:
 previous: pay_dun03
 
-pay_fild03
+pay_fild03 (field)
 south: 
 west:
 east: alberta
 north: payon_mem
 
-pay_fild10
+pay_fild10 (field)
 south:
 west: payon_mem
 east:
 north:
 
-payon_mem
+payon_mem (city)
 south: pay_fild03
 west: moc_fild13
 east: pay_fild10
 north: 
 
-prt_fild05
+prt_fild05 (field)
 south: prt_fild08
 west: gef_fild00
 east: prontera
 north: 
 next: prt_maze01
 
-prt_fild06
+prt_fild06 (field)
 south:
 west: prontera
 east:
 north:
 
-prt_fild08
+prt_fild08 (field)
 south:
 west: prt_fild05
 east:
@@ -472,7 +472,7 @@ east:
 north:
 previous: prt_sewb3
 
-prontera
+prontera (city)
 south: prt_fild08
 west: prt_fild05
 east: prt_fild06
@@ -485,7 +485,7 @@ east:
 north:
 previous: alb2trea
 
-tur_dun01
+tur_dun01 (field)
 south:
 west:
 east:
@@ -500,19 +500,19 @@ east:
 north:
 previous: tur_dun01
 
-um_fild04
+um_fild04 (field)
 south: beach_dun2
 west:
 east:
 north: umbala
 
-umbala
+umbala (city)
 south: um_fild04
 west:
 east:
 north: yggdrasil01
 
-xmas
+xmas (city)
 south: xmas_fild01
 west:
 east:
@@ -524,7 +524,7 @@ west:
 east:
 north:
 
-xmas_fild01
+xmas_fild01 (field)
 south:
 west:
 east:
@@ -538,26 +538,26 @@ north:
 previous: umbala
 next: nif_fild01
 
-yuno
+yuno (city)
 south: yuno_fild04
 west:
 east:
 north:
 
-yuno_fild01
+yuno_fild01 (field)
 south: aldebaran
 west:
 east:
 north: yuno_fild04
 
-yuno_fild03
+yuno_fild03 (field)
 south:
 west: yuno_fild04
 east:
 north:
 next: mag_dun01
 
-yuno_fild04
+yuno_fild04 (field)
 south: yuno_fild01
 west:
 east: yuno_fild03
