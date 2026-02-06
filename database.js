@@ -396,15 +396,13 @@ function getReverseDirection(direction) {
     const parts = lower.split(/\s+/);
     const base = parts[0];
     const suffix = parts.slice(1).join(' ');
+    
+    // Simple cardinal directions only
     const opposites = {
         north: 'south',
         south: 'north',
         east: 'west',
-        west: 'east',
-        northeast: 'southwest',
-        northwest: 'southeast',
-        southeast: 'northwest',
-        southwest: 'northeast'
+        west: 'east'
     };
 
     if (!opposites[base]) {
@@ -429,11 +427,53 @@ function formatDirectionLabel(direction) {
         .join(' ');
 }
 
+function parseDirectionStep(directionLabel) {
+    if (!directionLabel) {
+        return null;
+    }
+    const trimmed = directionLabel.trim();
+    const match = trimmed.match(/^(north|south|east|west|northeast|northwest|southeast|southwest|center)(?:\s+(\d+))?$/i);
+    if (match) {
+        const baseDir = match[1].toLowerCase();
+        const step = match[2] ? Number(match[2]) : 1;
+        
+        // Split compound directions into primary and secondary
+        const compoundMap = {
+            northeast: { primary: 'north', secondary: 'east' },
+            northwest: { primary: 'north', secondary: 'west' },
+            southeast: { primary: 'south', secondary: 'east' },
+            southwest: { primary: 'south', secondary: 'west' }
+        };
+        
+        if (compoundMap[baseDir]) {
+            return {
+                base: baseDir,
+                primary: compoundMap[baseDir].primary,
+                secondary: compoundMap[baseDir].secondary,
+                step,
+                isCompound: true
+            };
+        }
+        
+        return {
+            base: baseDir,
+            step,
+            isCompound: false
+        };
+    }
+    return {
+        base: trimmed.toLowerCase(),
+        step: 1,
+        isCompound: false
+    };
+}
+
 function parseMapNavigatorText(text) {
     const graph = {};
     const mapSet = new Set();
     const mapTypes = {};
     const headerLinks = new Set();
+    const lastNodeByHeaderDir = {};
     let currentHeader = null;
 
     const ensureMap = (name, isHeader = false) => {
@@ -483,6 +523,9 @@ function parseMapNavigatorText(text) {
         if (isHeaderLine(line)) {
             currentHeader = line;
             ensureMap(line, true);
+            if (!lastNodeByHeaderDir[currentHeader]) {
+                lastNodeByHeaderDir[currentHeader] = {};
+            }
             return;
         }
 
@@ -502,19 +545,54 @@ function parseMapNavigatorText(text) {
         nodes.forEach(node => ensureMap(node));
 
         if (currentHeader) {
-            let headerDirection = directionLabel;
+            let parsedDirection = parseDirectionStep(directionLabel);
+            if (!parsedDirection || !parsedDirection.base) {
+                parsedDirection = {
+                    base: 'center',
+                    step: 1,
+                    isCompound: false
+                };
+            }
+            
+            let headerDirection = parsedDirection.base;
             const headerKey = `${currentHeader}|${nodes[0]}`;
+
             if (!headerDirection && !headerLinks.has(headerKey)) {
                 headerDirection = 'center';
+                parsedDirection = {
+                    base: 'center',
+                    step: 1,
+                    isCompound: false
+                };
             }
+
             if (headerDirection) {
-                addBidirectionalEdge(currentHeader, nodes[0], headerDirection);
-                headerLinks.add(headerKey);
+                // Handle compound directions (e.g., southeast = south then east)
+                if (parsedDirection.isCompound) {
+                    const intermediateMap = lastNodeByHeaderDir[currentHeader]?.[parsedDirection.primary];
+                    if (intermediateMap) {
+                        addBidirectionalEdge(intermediateMap, nodes[0], parsedDirection.secondary);
+                        // Track this for further chaining
+                        const compoundKey = parsedDirection.primary + parsedDirection.secondary;
+                        lastNodeByHeaderDir[currentHeader][compoundKey] = nodes[0];
+                    }
+                } else if (parsedDirection.step > 1) {
+                    const lastNode = lastNodeByHeaderDir[currentHeader]?.[headerDirection];
+                    if (lastNode) {
+                        addBidirectionalEdge(lastNode, nodes[0], headerDirection);
+                        lastNodeByHeaderDir[currentHeader][headerDirection] = nodes[0];
+                    }
+                } else {
+                    addBidirectionalEdge(currentHeader, nodes[0], headerDirection);
+                    headerLinks.add(headerKey);
+                    lastNodeByHeaderDir[currentHeader][headerDirection] = nodes[0];
+                }
             }
         }
 
         for (let i = 0; i < nodes.length - 1; i += 1) {
             addEdge(nodes[i], nodes[i + 1], 'next');
+            addEdge(nodes[i + 1], nodes[i], 'previous');
         }
     });
 
@@ -589,10 +667,6 @@ function getDirectionIcon(direction) {
         south: '⬇️',
         east: '➡️',
         west: '⬅️',
-        northeast: '↗️',
-        northwest: '↖️',
-        southeast: '↘️',
-        southwest: '↙️',
         center: '🎯',
         next: '⬇️',
         previous: '⬆️'
