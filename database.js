@@ -797,7 +797,7 @@ function displayMonsterModal(monster) {
                     <tbody>
                         ${monster.spawns.map(spawn => `
                             <tr>
-                                <td>${spawn.map}</td>
+                                    <td><span class="spawn-map-link" onclick="closeMonsterModalAndShowMap('${spawn.map}')">${spawn.map}</span></td>
                                 <td>${spawn.amount}</td>
                                 <td>${formatRespawnTime(spawn.respawnTime)}</td>
                             </tr>
@@ -1043,6 +1043,15 @@ function formatRespawnTime(ms) {
 function showError(message) {
     // Simple error display - can be enhanced with better UI
     alert(message);
+}
+
+
+
+// Helper function to close monster modal and show map details
+function closeMonsterModalAndShowMap(mapName) {
+    const monsterModal = document.getElementById('monsterModal');
+    monsterModal.style.display = 'none';
+    exploreMap(mapName);
 }
 
 

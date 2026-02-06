@@ -1252,3 +1252,24 @@ h1, h2, h3, h4, h5, h6 {
         padding: 0.5rem;
     }
 }
+
+.spawn-map-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+    background: #f7f8fb;
+    color: var(--primary-blue);
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.spawn-map-link:hover {
+    color: var(--primary-purple);
+    border-color: var(--primary-purple);
+    background: #eef1ff;
+}
