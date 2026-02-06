@@ -4,6 +4,7 @@ west:
 east:
 north:
 next: treasure02
+previous: alberta
 
 alberta
 south:
@@ -37,7 +38,7 @@ beach_dun2
 south: 
 west:
 east:
-north:
+north: um_fild04
 previous: comodo
 
 beach_dun3
@@ -52,6 +53,14 @@ west:
 east:
 north:
 previous: aldebaran
+next: alde_dun01
+
+alde_dun01
+south:
+west:
+east:
+north:
+previous: c_tower1
 
 cmd_fild02
 south:
@@ -260,20 +269,20 @@ south:
 west:
 east:
 north:
-previous: mjolnir_05
+previous: mjolnir_02
 
 mjolnir_02
 south: gef_fild04
 west:
 east: mjolnir_05
 north:
+next: mjo_dun02
 
 mjolnir_05
 south:
-west:
+west: mjolnir_02
 east:
 north: mjolnir_12
-next: mjo_dun02
 
 mjolnir_12
 south: mjolnir_05
@@ -359,8 +368,8 @@ northwest: moc_ruins
 
 nif_fild01
 south: yggdrasil01
-west: nif_fild02
-east:
+west: 
+east: nif_fild02
 north:
 
 nif_fild02
@@ -527,6 +536,7 @@ west:
 east:
 north:
 previous: umbala
+next: nif_fild01
 
 yuno
 south: yuno_fild04
@@ -550,7 +560,7 @@ next: mag_dun01
 yuno_fild04
 south: yuno_fild01
 west:
-east:
+east: yuno_fild03
 north: yuno
 
 
