@@ -739,6 +739,12 @@ h1, h2, h3, h4, h5, h6 {
     gap: 2rem;
 }
 
+.map-and-spawns-row {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
 .current-map-display {
     text-align: center;
     padding: 2rem;
@@ -845,6 +851,86 @@ h1, h2, h3, h4, h5, h6 {
     padding: 3rem;
     color: #999;
     font-style: italic;
+}
+
+/* Monster Spawns */
+.spawns-section {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.spawns-section h3 {
+    color: var(--primary-blue);
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.spawns-list {
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(250px, 1fr);
+    gap: 0.75rem;
+}
+
+.spawn-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem;
+    background: white;
+    border: 2px solid var(--border-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.spawn-item:hover {
+    transform: translateX(5px);
+    border-color: var(--primary-blue);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.spawn-sprite {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.spawn-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.spawn-name {
+    font-weight: 600;
+    color: var(--primary-blue);
+    font-size: 1rem;
+}
+
+.spawn-details {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+}
+
+.spawn-level {
+    color: #666;
+    font-weight: 500;
+}
+
+.spawn-amount {
+    color: var(--primary-purple);
+    font-weight: 600;
+}
+
+.spawn-timer {
+    color: #999;
 }
 
 /* Pagination */

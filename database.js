@@ -3,6 +3,7 @@ let currentTab = 'monsters';
 let monstersData = [];
 let itemsData = [];
 let mapsData = [];
+let spawnsData = [];
 let mapGraph = {};
 let currentPage = 1;
 const itemsPerPage = 50;
@@ -213,6 +214,10 @@ async function loadAllData() {
         const itemsResponse = await fetch('/api/items');
         itemsData = await itemsResponse.json();
         
+        // Load spawns
+        const spawnsResponse = await fetch('/api/spawns.json');
+        spawnsData = await spawnsResponse.json();
+        
         // Load maps
         const mapTextResponse = await fetch('/db/map.txt');
         const mapText = await mapTextResponse.text();
@@ -373,7 +378,14 @@ function formatMapName(mapName) {
 
 function inferMapType(mapName, isHeader) {
     if (isHeader) {
-        return 'City';
+        // Parse tag from map name like "alberta (city)" or "prt_fild08 (field)"
+        const tagMatch = mapName.match(/\((\w+)\)$/);
+        if (tagMatch) {
+            const tag = tagMatch[1].toLowerCase();
+            return tag.charAt(0).toUpperCase() + tag.slice(1);
+        }
+        // No tag means dungeon
+        return 'Dungeon';
     }
     if (/(?:^|_)(dun|tower|prison|maze|sewb|cas|chyard|knt|anthell|orcsdun)/i.test(mapName)) {
         return 'Dungeon';
@@ -384,10 +396,10 @@ function inferMapType(mapName, isHeader) {
 function formatDirectionLabel(direction) {
     const lower = direction.toLowerCase();
     if (lower === 'next') {
-        return 'Next floor';
+        return 'Next';
     }
     if (lower === 'previous') {
-        return 'Previous floor';
+        return 'Previous';
     }
     if (lower === 'center') {
         return 'Center';
@@ -438,7 +450,8 @@ function parseMapNavigatorText(text) {
     };
 
     const isMapHeader = (line) => {
-        return line && !line.includes(':') && /^[a-z0-9_-]+$/i.test(line);
+        // Map headers can be like "alberta (city)" or "prt_fild08 (field)" or just "anthell02"
+        return line && !line.includes(':') && /^[a-z0-9_-]+(\s*\([a-z]+\))?$/i.test(line);
     };
 
     text.split(/\r?\n/).forEach(rawLine => {
@@ -449,9 +462,10 @@ function parseMapNavigatorText(text) {
 
         // Check if this is a map header
         if (isMapHeader(line)) {
-            currentMap = line;
+            // Extract map name without tag (e.g., "alberta (city)" -> "alberta")
+            currentMap = line.split(/\s*\(/)[0];
             ensureMap(currentMap);
-            mapTypes[currentMap] = inferMapType(currentMap, true);
+            mapTypes[currentMap] = inferMapType(line, true);
             return;
         }
 
@@ -489,50 +503,112 @@ function exploreMap(mapName) {
     const currentMapTitle = document.getElementById('currentMapTitle');
     const currentMapImage = document.getElementById('currentMapImage');
     const warpsList = document.getElementById('warpsList');
+    const spawnsContainer = document.getElementById('spawnsContainer');
     
     currentMapName.textContent = formatMapName(mapName);
     currentMapTitle.textContent = formatMapName(mapName);
     currentMapImage.src = `https://www.divine-pride.net/img/map/original/${mapName}`;
     currentMapImage.style.display = 'block';
     warpsList.innerHTML = '<div class="loading">Loading warps...</div>';
+    spawnsContainer.innerHTML = '';
     
     modal.style.display = 'block';
+    
+    // Get map type
+    const mapData = mapsData.find(m => m.name === mapName);
+    const mapType = mapData ? mapData.type : 'Field';
     
     const connections = mapGraph[mapName] || [];
     if (connections.length === 0) {
         warpsList.innerHTML = '<div class="no-warps">No adjacent maps from this location</div>';
-        return;
+    } else {
+        const connectionsByDest = {};
+        connections.forEach(connection => {
+            if (!connectionsByDest[connection.map]) {
+                connectionsByDest[connection.map] = [];
+            }
+            connectionsByDest[connection.map].push(connection.direction);
+        });
+
+        warpsList.innerHTML = Object.entries(connectionsByDest).map(([destMap, directions]) => {
+            const uniqueDirections = [...new Set(directions)];
+            const directionsWithIcons = uniqueDirections.map(direction =>
+                `${formatDirectionLabel(direction)} ${getDirectionIcon(direction)}`
+            ).join(', ');
+
+            return `
+                <div class="warp-card" onclick="exploreMap('${destMap}')">
+                    <div class="warp-map-preview">
+                        <img src="https://www.divine-pride.net/img/map/original/${destMap}" 
+                             alt="${formatMapName(destMap)}" 
+                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ddd%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>🗺️</text></svg>'">
+                    </div>
+                    <div class="warp-card-info">
+                        <h4>${formatMapName(destMap)}</h4>
+                        <p class="warp-dest-id">${destMap}</p>
+                        <p class="warp-direction">${directionsWithIcons}</p>
+                    </div>
+                </div>
+            `;
+        }).join('');
     }
-
-    const connectionsByDest = {};
-    connections.forEach(connection => {
-        if (!connectionsByDest[connection.map]) {
-            connectionsByDest[connection.map] = [];
+    
+    // Show monster spawns for fields and dungeons
+    if (mapType === 'Field' || mapType === 'Dungeon') {
+        const mapSpawns = spawnsData.filter(spawn => spawn.map === mapName);
+        
+        if (mapSpawns.length > 0) {
+            // Group spawns by monster
+            const spawnsByMonster = {};
+            mapSpawns.forEach(spawn => {
+                if (!spawnsByMonster[spawn.mobId]) {
+                    spawnsByMonster[spawn.mobId] = {
+                        mobId: spawn.mobId,
+                        mobName: spawn.mobName,
+                        amount: 0,
+                        respawnTime: spawn.respawnTime
+                    };
+                }
+                spawnsByMonster[spawn.mobId].amount += spawn.amount;
+            });
+            
+            const spawnsHtml = Object.values(spawnsByMonster).map(spawn => {
+                const monster = monstersData.find(m => m.Id === spawn.mobId);
+                const level = monster ? monster.Level : '?';
+                const respawnMinutes = Math.floor(spawn.respawnTime / 60000);
+                const respawnSeconds = Math.floor((spawn.respawnTime % 60000) / 1000);
+                const respawnDisplay = respawnMinutes > 0 
+                    ? `${respawnMinutes}m ${respawnSeconds}s`
+                    : `${respawnSeconds}s`;
+                
+                return `
+                    <div class="spawn-item" onclick="closeMapModalAndShowMonster(${spawn.mobId})">
+                        <img src="https://www.divine-pride.net/img/monsters/png/${spawn.mobId}.png" 
+                             alt="${spawn.mobName}"
+                             class="spawn-sprite"
+                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>👾</text></svg>'">
+                        <div class="spawn-info">
+                            <div class="spawn-name">${spawn.mobName}</div>
+                            <div class="spawn-details">
+                                <span class="spawn-level">Lv ${level}</span>
+                                <span class="spawn-amount">×${spawn.amount}</span>
+                                <span class="spawn-timer">⏱️ ${respawnDisplay}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+            
+            spawnsContainer.innerHTML = `
+                <div class="spawns-section">
+                    <h3>Monster Spawns</h3>
+                    <div class="spawns-list">
+                        ${spawnsHtml}
+                    </div>
+                </div>
+            `;
         }
-        connectionsByDest[connection.map].push(connection.direction);
-    });
-
-    warpsList.innerHTML = Object.entries(connectionsByDest).map(([destMap, directions]) => {
-        const uniqueDirections = [...new Set(directions)];
-        const directionsWithIcons = uniqueDirections.map(direction =>
-            `${formatDirectionLabel(direction)} ${getDirectionIcon(direction)}`
-        ).join(', ');
-
-        return `
-            <div class="warp-card" onclick="exploreMap('${destMap}')">
-                <div class="warp-map-preview">
-                    <img src="https://www.divine-pride.net/img/map/original/${destMap}" 
-                         alt="${formatMapName(destMap)}" 
-                         onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ddd%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>🗺️</text></svg>'">
-                </div>
-                <div class="warp-card-info">
-                    <h4>${formatMapName(destMap)}</h4>
-                    <p class="warp-dest-id">${destMap}</p>
-                    <p class="warp-direction">${directionsWithIcons}</p>
-                </div>
-            </div>
-        `;
-    }).join('');
+    }
 }
 
 // Get direction icon (cardinal + dungeon directions)
@@ -857,6 +933,13 @@ function showItemDetails(itemId) {
     `;
     
     modal.style.display = 'block';
+}
+
+// Helper function to close map modal and show monster details
+function closeMapModalAndShowMonster(monsterId) {
+    const mapModal = document.getElementById('mapModal');
+    mapModal.style.display = 'none';
+    showMonsterDetails(monsterId);
 }
 
 // Close modals
