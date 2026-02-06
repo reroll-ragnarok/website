@@ -5,6 +5,7 @@ let itemsData = [];
 let mapsData = [];
 let spawnsData = [];
 let mapGraph = {};
+let mapDisplayNames = {};
 let currentPage = 1;
 const itemsPerPage = 50;
 
@@ -218,6 +219,11 @@ async function loadAllData() {
         const spawnsResponse = await fetch('/api/spawns.json');
         spawnsData = await spawnsResponse.json();
         
+        // Load map info
+        const mapInfoResponse = await fetch('/db/mapinfo.txt');
+        const mapInfoText = await mapInfoResponse.text();
+        mapDisplayNames = parseMapInfo(mapInfoText);
+        
         // Load maps
         const mapTextResponse = await fetch('/db/map.txt');
         const mapText = await mapTextResponse.text();
@@ -328,8 +334,8 @@ function displayMaps(maps) {
     grid.innerHTML = maps.map(map => `
         <div class="map-card" onclick="exploreMap('${map.name}')">
             <div class="map-type-badge ${map.type.toLowerCase()}">${map.type}</div>
-            <h3>${formatMapName(map.name)}</h3>
-            <p class="map-id">${map.name}</p>
+            <h3>${map.name}</h3>
+            <p class="map-id">${formatMapName(map.name)}</p>
             <div class="map-card-footer">
                 <span class="explore-btn">🧭 Explore</span>
             </div>
@@ -337,9 +343,70 @@ function displayMaps(maps) {
     `).join('');
 }
 
+// Parse mapinfo.txt to extract display names
+function parseMapInfo(text) {
+    const displayNames = {};
+    const lines = text.split(/\r?\n/);
+    let currentMap = null;
+    let mainTitle = null;
+    let subTitle = null;
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Check for map entry like ["mapname.rsw"]
+        const mapMatch = line.match(/\["([^"]+\.rsw)"\]/);
+        if (mapMatch) {
+            // Save previous entry if exists
+            if (currentMap && mainTitle) {
+                const mapKey = currentMap.replace('.rsw', '');
+                displayNames[mapKey] = { mainTitle, subTitle };
+            }
+            currentMap = mapMatch[1];
+            mainTitle = null;
+            subTitle = null;
+        }
+        
+        // Extract mainTitle
+        const mainTitleMatch = line.match(/mainTitle\s*=\s*"([^"]+)"/);
+        if (mainTitleMatch) {
+            mainTitle = mainTitleMatch[1];
+        }
+        
+        // Extract subTitle
+        const subTitleMatch = line.match(/subTitle\s*=\s*"([^"]+)"/);
+        if (subTitleMatch) {
+            subTitle = subTitleMatch[1];
+        }
+    }
+    
+    // Save last entry if exists
+    if (currentMap && mainTitle) {
+        const mapKey = currentMap.replace('.rsw', '');
+        displayNames[mapKey] = { mainTitle, subTitle };
+    }
+    
+    return displayNames;
+}
+
 // Format map name for display
-function formatMapName(mapName) {
-    // Convert map names to readable format
+function formatMapName(mapName, includeSubtitle = true, forceSubtitle = false) {
+    // Use parsed map info if available
+    if (mapDisplayNames[mapName]) {
+        const { mainTitle, subTitle } = mapDisplayNames[mapName];
+        
+        // Check if this is a city - if so, only show mainTitle (unless forceSubtitle is true)
+        const mapData = mapsData.find(m => m.name === mapName);
+        const isCity = mapData && mapData.type === 'City';
+        
+        if ((isCity && !forceSubtitle) || !includeSubtitle) {
+            return mainTitle;
+        }
+        
+        return subTitle ? `${mainTitle} ${subTitle}` : mainTitle;
+    }
+    
+    // Fallback to manual mapping for common cities
     const cityNames = {
         'prontera': 'Prontera',
         'geffen': 'Geffen',
@@ -505,8 +572,10 @@ function exploreMap(mapName) {
     const warpsList = document.getElementById('warpsList');
     const spawnsContainer = document.getElementById('spawnsContainer');
     
-    currentMapName.textContent = formatMapName(mapName);
-    currentMapTitle.textContent = formatMapName(mapName);
+    // Show full display name at the top (mainTitle + subTitle)
+    currentMapName.textContent = formatMapName(mapName, true, true);
+    // Show map ID below the image
+    currentMapTitle.textContent = mapName;
     currentMapImage.src = `https://www.divine-pride.net/img/map/original/${mapName}`;
     currentMapImage.style.display = 'block';
     warpsList.innerHTML = '<div class="loading">Loading warps...</div>';
@@ -544,8 +613,8 @@ function exploreMap(mapName) {
                              onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22100%22 height=%22100%22><rect width=%22100%22 height=%22100%22 fill=%22%23ddd%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>🗺️</text></svg>'">
                     </div>
                     <div class="warp-card-info">
-                        <h4>${formatMapName(destMap)}</h4>
-                        <p class="warp-dest-id">${destMap}</p>
+                        <h4>${destMap}</h4>
+                        <p class="warp-dest-id">${formatMapName(destMap)}</p>
                         <p class="warp-direction">${directionsWithIcons}</p>
                     </div>
                 </div>
@@ -583,10 +652,10 @@ function exploreMap(mapName) {
                 
                 return `
                     <div class="spawn-item" onclick="closeMapModalAndShowMonster(${spawn.mobId})">
-                        <img src="https://www.divine-pride.net/img/monsters/png/${spawn.mobId}.png" 
+                        <img src="https://static.divine-pride.net/images/mobs/png/${spawn.mobId}.png" 
                              alt="${spawn.mobName}"
                              class="spawn-sprite"
-                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>👾</text></svg>'">
+                             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2250%22 height=%2250%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23f0f0f0%22/><text x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>?</text></svg>'">
                         <div class="spawn-info">
                             <div class="spawn-name">${spawn.mobName}</div>
                             <div class="spawn-details">

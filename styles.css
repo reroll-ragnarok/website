@@ -652,13 +652,15 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-blue);
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
+    padding-right: 6rem;
 }
 
 .map-id {
     color: #999;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin-bottom: 1rem;
-    font-family: monospace;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .map-type-badge {
@@ -724,8 +726,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .map-explorer-header h2 {
     color: var(--primary-blue);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-bottom: 0.5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
 }
 
 .map-explorer-subtitle {
@@ -769,8 +773,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .current-map-display h3 {
     color: var(--secondary-gold);
-    font-size: 2rem;
-    margin: 0;
+    font-size: 1.4rem;
+    margin: 0.5rem 0 0 0;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
 }
 
 .warp-destinations h3 {
@@ -829,15 +835,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .warp-card h4 {
     color: var(--primary-blue);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.3rem;
+    font-weight: 600;
 }
 
 .warp-dest-id {
     color: #999;
     font-size: 0.8rem;
-    font-family: monospace;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 0.5rem;
+    font-weight: 400;
 }
 
 .warp-direction {
