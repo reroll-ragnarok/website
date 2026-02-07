@@ -39,6 +39,14 @@ body.dark-mode h6 {
     color: var(--light-blue);
 }
 
+body.dark-mode .logo h1 {
+    color: var(--secondary-gold);
+}
+
+body.dark-mode .current-map-display h3 {
+    color: var(--secondary-gold);
+}
+
 /* Dark Mode Toggle Button */
 .dark-mode-toggle {
     position: fixed;
@@ -1706,4 +1714,138 @@ body.dark-mode .database-container {
 
 body.dark-mode .page-title {
     color: var(--light-blue);
+}
+
+body.dark-mode .search-section {
+    background: var(--bg-medium);
+    color: var(--text-dark);
+}
+
+body.dark-mode .search-input {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .search-input::placeholder {
+    color: rgba(224, 224, 224, 0.5);
+}
+
+body.dark-mode .filter-group label {
+    color: var(--light-blue);
+}
+
+body.dark-mode .filter-group select {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .map-card {
+    background: linear-gradient(135deg, var(--bg-medium), #1f1f35);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .map-card h3 {
+    color: var(--light-blue);
+}
+
+body.dark-mode .map-id {
+    color: rgba(224, 224, 224, 0.6);
+}
+
+body.dark-mode .map-preview {
+    background-color: var(--bg-dark);
+}
+
+body.dark-mode .map-card:hover {
+    border-color: var(--light-blue);
+}
+
+body.dark-mode .pagination button {
+    background: var(--bg-medium);
+    color: var(--light-blue);
+    border-color: var(--light-blue);
+}
+
+body.dark-mode .pagination button:hover,
+body.dark-mode .pagination button.active {
+    background: var(--primary-blue);
+    color: var(--text-light);
+}
+
+body.dark-mode .table-container {
+    background: var(--bg-medium);
+}
+
+body.dark-mode .result-count {
+    color: var(--light-blue);
+}
+
+body.dark-mode .filter-loading,
+body.dark-mode .loading {
+    color: var(--light-blue);
+}
+
+body.dark-mode .spinner {
+    border-color: rgba(74, 123, 200, 0.2);
+    border-top-color: var(--light-blue);
+}
+
+body.dark-mode .checkbox-label {
+    color: var(--text-dark);
+}
+
+body.dark-mode .player-level-input {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .player-level-input::placeholder {
+    color: rgba(224, 224, 224, 0.5);
+}
+
+body.dark-mode .spawn-name {
+    color: var(--light-blue);
+}
+
+body.dark-mode .spawn-level,
+body.dark-mode .spawn-timer {
+    color: rgba(224, 224, 224, 0.6);
+}
+
+body.dark-mode .map-explorer-subtitle,
+body.dark-mode .warp-dest-id,
+body.dark-mode .no-warps {
+    color: rgba(224, 224, 224, 0.6);
+}
+
+body.dark-mode .warp-card {
+    background: var(--bg-medium);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .warp-card:hover {
+    border-color: var(--light-blue);
+}
+
+body.dark-mode .warp-map-preview {
+    background: linear-gradient(135deg, var(--bg-dark), #0f0f1e);
+}
+
+body.dark-mode .warp-card h4,
+body.dark-mode .warp-destinations h3,
+body.dark-mode .spawns-section h3 {
+    color: var(--light-blue);
+}
+
+body.dark-mode .spawn-item {
+    background: var(--bg-medium);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .spawn-item:hover {
+    border-color: var(--light-blue);
 }
