@@ -705,6 +705,11 @@ function displayMaps(maps) {
         return `
         <div class="map-card" onclick="exploreMap('${map.name}')">
             <div class="map-type-badge ${map.type.toLowerCase()}">${map.type}</div>
+            <div class="map-preview">
+                <img src="https://www.divine-pride.net/img/map/original/${map.name}" 
+                     alt="${map.name}"
+                     onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect width=%22100%25%22 height=%22100%25%22 fill=%22%23f0f0f0%22/><text x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22 font-size=%2224%22>🗺️</text></svg>'">
+            </div>
             <h3>${map.name}</h3>
             <p class="map-id">${formatMapName(map.name)}</p>
             <div class="map-card-footer">

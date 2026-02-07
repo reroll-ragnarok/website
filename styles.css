@@ -898,6 +898,22 @@ h1, h2, h3, h4, h5, h6 {
     border-color: var(--primary-blue);
 }
 
+.map-preview {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.map-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
 .map-card h3 {
     color: var(--primary-blue);
     margin-bottom: 0.5rem;
