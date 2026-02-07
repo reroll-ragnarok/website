@@ -1,0 +1,16 @@
+if player is at least 20 levels below monster, exp given is 10%
+if player is 11 to 19 levels below monster, exp given is 40%
+if player is 10 levels bellow monster, exp given is 150%
+if player is 9 levels bellow monster, exp given is 145%
+if player is 8 levels bellow monster, exp given is 140%
+if player is 7 levels bellow monster, exp given is 135%
+if player is 6 levels bellow monster, exp given is 130%
+if player is 5 levels bellow monster, exp given is 125%
+if player is 4 levels bellow monster, exp given is 120%
+if player is 3 levels bellow monster, exp given is 115%
+if player is 2 levels bellow monster, exp given is 110%
+if player is 1 levels bellow monster, exp given is 105%
+if player is equal to monster, exp given is 100%
+if player is 1,2,3,4,5,6,7,8,9 or 10 levels above monster, exp given is 100%
+if player is 11 to 19 levels above monster, exp given is 40%
+if player is 20 or more levels above monster, exp given is 10%
