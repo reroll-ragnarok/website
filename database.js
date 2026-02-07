@@ -13,7 +13,6 @@ let monsterTypeTags = {
     boss: new Set()
 };
 let monsterTypeTagsReady = false;
-let levelPenaltyData = [];
 let currentPage = 1;
 const itemsPerPage = 50;
 
@@ -369,79 +368,34 @@ function parseTagFileIds(text, targetSet) {
 }
 
 async function loadLevelPenalty() {
-    try {
-        const response = await fetch('/db/level_penalty.yml');
-        const text = await response.text();
-        parseLevelPenalty(text);
-    } catch (error) {
-        console.error('Error loading level penalty data:', error);
-    }
-}
-
-function parseLevelPenalty(text) {
-    if (!text) return;
-    
-    const lines = text.split(/\r?\n/);
-    let inExpSection = false;
-    
-    lines.forEach(rawLine => {
-        const line = rawLine.trim();
-        
-        // Check if we're in the Exp section
-        if (line.includes('Type: Exp')) {
-            inExpSection = true;
-            return;
-        }
-        
-        // Exit Exp section if we hit another Type
-        if (inExpSection && line.startsWith('- Type:') && !line.includes('Exp')) {
-            inExpSection = false;
-            return;
-        }
-        
-        // Parse difference and rate
-        if (inExpSection) {
-            const diffMatch = line.match(/^-?\s*Difference:\s*(-?\d+)/);
-            if (diffMatch) {
-                const difference = parseInt(diffMatch[1], 10);
-                // Look ahead for Rate on next line or same section
-                levelPenaltyData.push({ difference, rate: null, tempIndex: levelPenaltyData.length });
-            }
-            
-            const rateMatch = line.match(/Rate:\s*(\d+)/);
-            if (rateMatch && levelPenaltyData.length > 0) {
-                const lastEntry = levelPenaltyData[levelPenaltyData.length - 1];
-                if (lastEntry.rate === null) {
-                    lastEntry.rate = parseInt(rateMatch[1], 10);
-                }
-            }
-        }
-    });
-    
-    // Sort by difference (descending) for easier lookup
-    levelPenaltyData.sort((a, b) => b.difference - a.difference);
+    // Level penalty rules are now hardcoded based on level_penalty.txt
+    // No need to load external file
 }
 
 function getExpModifier(monsterLevel, playerLevel) {
-    if (!playerLevel || levelPenaltyData.length === 0) {
+    if (!playerLevel) {
         return 1.0; // No modifier
     }
     
     const levelDiff = monsterLevel - playerLevel;
     
-    // Find the appropriate penalty entry
-    for (let i = 0; i < levelPenaltyData.length; i++) {
-        if (levelDiff >= levelPenaltyData[i].difference) {
-            return levelPenaltyData[i].rate / 100; // Convert percentage to multiplier
-        }
-    }
-    
-    // Default to lowest penalty if not found
-    if (levelPenaltyData.length > 0) {
-        return levelPenaltyData[levelPenaltyData.length - 1].rate / 100;
-    }
-    
-    return 1.0;
+    // Apply level penalty rules based on level_penalty.txt
+    if (levelDiff >= 20) return 0.10;
+    if (levelDiff >= 11) return 0.40;
+    if (levelDiff === 10) return 1.50;
+    if (levelDiff === 9) return 1.45;
+    if (levelDiff === 8) return 1.40;
+    if (levelDiff === 7) return 1.35;
+    if (levelDiff === 6) return 1.30;
+    if (levelDiff === 5) return 1.25;
+    if (levelDiff === 4) return 1.20;
+    if (levelDiff === 3) return 1.15;
+    if (levelDiff === 2) return 1.10;
+    if (levelDiff === 1) return 1.05;
+    if (levelDiff === 0) return 1.00;
+    if (levelDiff >= -10) return 1.00;
+    if (levelDiff >= -19) return 0.40;
+    return 0.10;
 }
 
 function applyFilters() {
@@ -526,7 +480,6 @@ async function loadAllData() {
         mapGraph = parsedMaps.graph;
 
         await loadMonsterTypeTags();
-        await loadLevelPenalty();
         
     } catch (error) {
         console.error('Error loading data:', error);
@@ -549,16 +502,29 @@ function displayMonsters(monsters) {
     const tbody = document.getElementById('monsters-tbody');
     const countEl = document.getElementById('monster-count');
     
-    countEl.textContent = `${monsters.length} monsters found`;
+    // Filter out invalid monsters (those without names)
+    const validMonsters = monsters.filter(m => m.Name && m.Id);
     
-    if (monsters.length === 0) {
+    countEl.textContent = `${validMonsters.length} monsters found`;
+    
+    if (validMonsters.length === 0) {
         tbody.innerHTML = '<tr><td colspan="9" class="loading">No monsters found</td></tr>';
         return;
     }
     
+    // Sort monsters by level (ascending), then by ID
+    const sortedMonsters = [...validMonsters].sort((a, b) => {
+        const levelA = a.Level || 1;
+        const levelB = b.Level || 1;
+        if (levelA !== levelB) {
+            return levelA - levelB;
+        }
+        return a.Id - b.Id;
+    });
+    
     const start = (currentPage - 1) * itemsPerPage;
     const end = start + itemsPerPage;
-    const paginatedMonsters = monsters.slice(start, end);
+    const paginatedMonsters = sortedMonsters.slice(start, end);
     
     // Get player level for exp modifier
     const playerLevel = parseInt(document.getElementById('playerLevelFilter')?.value, 10) || null;
@@ -567,6 +533,16 @@ function displayMonsters(monsters) {
         const expModifier = playerLevel ? getExpModifier(monster.Level || 1, playerLevel) : 1.0;
         const baseExp = Math.floor((monster.BaseExp || 0) * serverRates.baseExp * expModifier);
         const jobExp = Math.floor((monster.JobExp || 0) * serverRates.jobExp * expModifier);
+        
+        // Determine exp color class based on modifier
+        let expClass = '';
+        if (playerLevel) {
+            if (expModifier > 1.0) {
+                expClass = 'exp-bonus';
+            } else if (expModifier < 1.0) {
+                expClass = 'exp-penalty';
+            }
+        }
         
         return `
         <tr onclick="showMonsterDetails(${monster.Id})">
@@ -583,13 +559,13 @@ function displayMonsters(monsters) {
             <td>${monster.Element || 'Neutral'}${monster.ElementLevel || 1}</td>
             <td>${monster.Race || 'Formless'}</td>
             <td>${monster.Size || 'Small'}</td>
-            <td>${formatNumber(baseExp)}</td>
-            <td>${formatNumber(jobExp)}</td>
+            <td class="${expClass}">${formatNumber(baseExp)}</td>
+            <td class="${expClass}">${formatNumber(jobExp)}</td>
         </tr>
     `;
     }).join('');
     
-    createPagination('monsters', monsters.length);
+    createPagination('monsters', validMonsters.length);
 }
 
 // Display items

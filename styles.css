@@ -675,6 +675,17 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(51, 51, 51, 0.5);
 }
 
+/* Experience Color Coding */
+.exp-bonus {
+    color: #22c55e;
+    font-weight: 600;
+}
+
+.exp-penalty {
+    color: #ef4444;
+    font-weight: 600;
+}
+
 /* Filter Loading */
 .filter-loading {
     display: flex;
