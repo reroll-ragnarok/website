@@ -13,6 +13,7 @@ let monsterTypeTags = {
     boss: new Set()
 };
 let monsterTypeTagsReady = false;
+let levelPenaltyData = [];
 let currentPage = 1;
 const itemsPerPage = 50;
 
@@ -202,6 +203,12 @@ function updateFilterOptions(tab) {
                         </div>
                     </div>
                 </div>
+                <div class="filter-column filter-column-player-level">
+                    <div class="filter-group player-level-filter">
+                        <label>Player Level</label>
+                        <input type="number" id="playerLevelFilter" placeholder="Enter level" min="1" max="255" class="player-level-input">
+                    </div>
+                </div>
             </div>
         `;
         document.querySelectorAll('#filterOptions select').forEach(select => {
@@ -210,6 +217,7 @@ function updateFilterOptions(tab) {
         document.querySelectorAll('.monsterTypeFilter').forEach(checkbox => {
             checkbox.addEventListener('change', applyFilters);
         });
+        document.getElementById('playerLevelFilter')?.addEventListener('input', applyFilters);
         initializeMonsterLevelRange();
     } else if (tab === 'items') {
         filterSection.innerHTML = `
@@ -360,6 +368,82 @@ function parseTagFileIds(text, targetSet) {
     });
 }
 
+async function loadLevelPenalty() {
+    try {
+        const response = await fetch('/db/level_penalty.yml');
+        const text = await response.text();
+        parseLevelPenalty(text);
+    } catch (error) {
+        console.error('Error loading level penalty data:', error);
+    }
+}
+
+function parseLevelPenalty(text) {
+    if (!text) return;
+    
+    const lines = text.split(/\r?\n/);
+    let inExpSection = false;
+    
+    lines.forEach(rawLine => {
+        const line = rawLine.trim();
+        
+        // Check if we're in the Exp section
+        if (line.includes('Type: Exp')) {
+            inExpSection = true;
+            return;
+        }
+        
+        // Exit Exp section if we hit another Type
+        if (inExpSection && line.startsWith('- Type:') && !line.includes('Exp')) {
+            inExpSection = false;
+            return;
+        }
+        
+        // Parse difference and rate
+        if (inExpSection) {
+            const diffMatch = line.match(/^-?\s*Difference:\s*(-?\d+)/);
+            if (diffMatch) {
+                const difference = parseInt(diffMatch[1], 10);
+                // Look ahead for Rate on next line or same section
+                levelPenaltyData.push({ difference, rate: null, tempIndex: levelPenaltyData.length });
+            }
+            
+            const rateMatch = line.match(/Rate:\s*(\d+)/);
+            if (rateMatch && levelPenaltyData.length > 0) {
+                const lastEntry = levelPenaltyData[levelPenaltyData.length - 1];
+                if (lastEntry.rate === null) {
+                    lastEntry.rate = parseInt(rateMatch[1], 10);
+                }
+            }
+        }
+    });
+    
+    // Sort by difference (descending) for easier lookup
+    levelPenaltyData.sort((a, b) => b.difference - a.difference);
+}
+
+function getExpModifier(monsterLevel, playerLevel) {
+    if (!playerLevel || levelPenaltyData.length === 0) {
+        return 1.0; // No modifier
+    }
+    
+    const levelDiff = monsterLevel - playerLevel;
+    
+    // Find the appropriate penalty entry
+    for (let i = 0; i < levelPenaltyData.length; i++) {
+        if (levelDiff >= levelPenaltyData[i].difference) {
+            return levelPenaltyData[i].rate / 100; // Convert percentage to multiplier
+        }
+    }
+    
+    // Default to lowest penalty if not found
+    if (levelPenaltyData.length > 0) {
+        return levelPenaltyData[levelPenaltyData.length - 1].rate / 100;
+    }
+    
+    return 1.0;
+}
+
 function applyFilters() {
     currentPage = 1;
     
@@ -442,6 +526,7 @@ async function loadAllData() {
         mapGraph = parsedMaps.graph;
 
         await loadMonsterTypeTags();
+        await loadLevelPenalty();
         
     } catch (error) {
         console.error('Error loading data:', error);
@@ -475,7 +560,15 @@ function displayMonsters(monsters) {
     const end = start + itemsPerPage;
     const paginatedMonsters = monsters.slice(start, end);
     
-    tbody.innerHTML = paginatedMonsters.map(monster => `
+    // Get player level for exp modifier
+    const playerLevel = parseInt(document.getElementById('playerLevelFilter')?.value, 10) || null;
+    
+    tbody.innerHTML = paginatedMonsters.map(monster => {
+        const expModifier = playerLevel ? getExpModifier(monster.Level || 1, playerLevel) : 1.0;
+        const baseExp = Math.floor((monster.BaseExp || 0) * serverRates.baseExp * expModifier);
+        const jobExp = Math.floor((monster.JobExp || 0) * serverRates.jobExp * expModifier);
+        
+        return `
         <tr onclick="showMonsterDetails(${monster.Id})">
             <td>${monster.Id}</td>
             <td class="monster-name" data-monster-id="${monster.Id}">
@@ -490,10 +583,11 @@ function displayMonsters(monsters) {
             <td>${monster.Element || 'Neutral'}${monster.ElementLevel || 1}</td>
             <td>${monster.Race || 'Formless'}</td>
             <td>${monster.Size || 'Small'}</td>
-            <td>${formatNumber(monster.BaseExp || 0)}</td>
-            <td>${formatNumber(monster.JobExp || 0)}</td>
+            <td>${formatNumber(baseExp)}</td>
+            <td>${formatNumber(jobExp)}</td>
         </tr>
-    `).join('');
+    `;
+    }).join('');
     
     createPagination('monsters', monsters.length);
 }
