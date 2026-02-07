@@ -654,6 +654,76 @@ h1, h2, h3, h4, h5, h6 {
 .player-level-filter {
 }
 
+/* Map Filters */
+.map-filters-container {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.map-type-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+}
+
+/* Help Icon */
+.help-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    margin-left: 0.3rem;
+    background-color: var(--primary-blue);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.75rem;
+    font-weight: bold;
+    cursor: help;
+    vertical-align: middle;
+    position: relative;
+}
+
+.help-icon:hover {
+    background-color: #1e5a9e;
+}
+
+.help-overlay {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #1a1a2e;
+    color: white;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    font-weight: normal;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.help-overlay::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: #1a1a2e;
+}
+
+.help-icon:hover .help-overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
 .player-level-input {
     width: 100%;
     padding: 0.5rem 0.75rem;
@@ -886,10 +956,10 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 1px solid #e0e0e0;
 }
 
-.explore-btn {
+.recommended-level {
     color: var(--primary-purple);
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 /* Map Explorer Modal */

@@ -236,6 +236,42 @@ function updateFilterOptions(tab) {
         document.querySelectorAll('#filterOptions select').forEach(select => {
             select.addEventListener('change', applyFilters);
         });
+    } else if (tab === 'maps') {
+        filterSection.innerHTML = `
+            <div class="map-filters-container">
+                <div class="filter-group">
+                    <label>Map Type</label>
+                    <div class="map-type-checkboxes">
+                        <label class="checkbox-label">
+                            <input type="checkbox" class="mapTypeFilter" value="City" checked>
+                            <span>City</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" class="mapTypeFilter" value="Field" checked>
+                            <span>Field</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" class="mapTypeFilter" value="Dungeon" checked>
+                            <span>Dungeon</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <label>
+                        Player Level
+                        <span class="help-icon">
+                            ?
+                            <span class="help-overlay">Shows maps with monsters that won't have negative experience penalty</span>
+                        </span>
+                    </label>
+                    <input type="number" id="mapPlayerLevelFilter" placeholder="Enter level" min="1" max="255" class="player-level-input">
+                </div>
+            </div>
+        `;
+        document.querySelectorAll('.mapTypeFilter').forEach(checkbox => {
+            checkbox.addEventListener('change', applyFilters);
+        });
+        document.getElementById('mapPlayerLevelFilter')?.addEventListener('input', applyFilters);
     } else {
         filterSection.innerHTML = '';
     }
@@ -448,6 +484,38 @@ function applyFilters() {
         }
         
         displayItems(filtered);
+    } else if (currentTab === 'maps') {
+        let filtered = [...mapsData];
+        
+        // Filter by map type (multi-select)
+        const selectedMapTypes = Array.from(document.querySelectorAll('.mapTypeFilter:checked'))
+            .map(cb => cb.value);
+        
+        if (selectedMapTypes.length > 0 && selectedMapTypes.length < 3) {
+            filtered = filtered.filter(m => selectedMapTypes.includes(m.type));
+        }
+        
+        // Filter by player level (maps with monsters ±10 levels)
+        const playerLevel = parseInt(document.getElementById('mapPlayerLevelFilter')?.value, 10) || null;
+        
+        if (playerLevel) {
+            filtered = filtered.filter(map => {
+                // Get spawns for this map
+                const mapSpawns = spawnsData.filter(spawn => spawn.map === map.name);
+                
+                // Check if any monster in this map is within ±10 levels of player
+                return mapSpawns.some(spawn => {
+                    const monster = monstersData.find(m => m.Id === spawn.mobId);
+                    if (!monster) return false;
+                    
+                    const monsterLevel = monster.Level || 1;
+                    const levelDiff = Math.abs(monsterLevel - playerLevel);
+                    return levelDiff <= 10;
+                });
+            });
+        }
+        
+        displayMaps(filtered);
     }
 }
 
@@ -613,16 +681,38 @@ function displayMaps(maps) {
         return;
     }
     
-    grid.innerHTML = maps.map(map => `
+    grid.innerHTML = maps.map(map => {
+        // Calculate recommended level range based on lowest monster level
+        const mapSpawns = spawnsData.filter(spawn => spawn.map === map.name);
+        let levelText = 'No Monsters';
+        
+        if (mapSpawns.length > 0) {
+            const monsterLevels = mapSpawns
+                .map(spawn => {
+                    const monster = monstersData.find(m => m.Id === spawn.mobId);
+                    return monster ? (monster.Level || 1) : null;
+                })
+                .filter(level => level !== null);
+            
+            if (monsterLevels.length > 0) {
+                const lowestMonsterLevel = Math.min(...monsterLevels);
+                const recommendedMin = Math.max(1, lowestMonsterLevel - 10);
+                const recommendedMax = Math.min(99, lowestMonsterLevel + 10);
+                levelText = `⚔️ Lv ${recommendedMin}-${recommendedMax}`;
+            }
+        }
+        
+        return `
         <div class="map-card" onclick="exploreMap('${map.name}')">
             <div class="map-type-badge ${map.type.toLowerCase()}">${map.type}</div>
             <h3>${map.name}</h3>
             <p class="map-id">${formatMapName(map.name)}</p>
             <div class="map-card-footer">
-                <span class="explore-btn">🧭 Explore</span>
+                <span class="recommended-level">${levelText}</span>
             </div>
         </div>
-    `).join('');
+        `;
+    }).join('');
 }
 
 // Parse mapinfo.txt to extract display names
