@@ -15,6 +15,84 @@
     --shadow: rgba(0, 0, 0, 0.2);
 }
 
+/* Dark Mode Variables */
+body.dark-mode {
+    --bg-light: #1a1a2e;
+    --bg-medium: #16213e;
+    --text-dark: #e0e0e0;
+    --text-light: #ffffff;
+    --border-color: #3a3a4e;
+    --shadow: rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+body.dark-mode h1, 
+body.dark-mode h2, 
+body.dark-mode h3, 
+body.dark-mode h4, 
+body.dark-mode h5, 
+body.dark-mode h6 {
+    color: var(--light-blue);
+}
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    transition: background 0.3s ease;
+    z-index: 1001;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.dark-mode-toggle .toggle-circle {
+    width: 24px;
+    height: 24px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode-toggle .toggle-circle svg {
+    width: 16px;
+    height: 16px;
+    fill: #f4c542;
+}
+
+body.dark-mode .dark-mode-toggle {
+    background: rgba(0, 0, 0, 0.3);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode .dark-mode-toggle .toggle-circle {
+    transform: translateX(30px);
+    background: #2c5aa0;
+}
+
+body.dark-mode .dark-mode-toggle .toggle-circle svg {
+    fill: #ffffff;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -1538,4 +1616,94 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-purple);
     border-color: var(--primary-purple);
     background: #eef1ff;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .rate-card,
+body.dark-mode .step,
+body.dark-mode .modal-content,
+body.dark-mode .database-card,
+body.dark-mode .monster-card,
+body.dark-mode .item-card {
+    background: var(--bg-medium);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .monster-types-section,
+body.dark-mode .download-section {
+    background: linear-gradient(135deg, #0f0f1e, #1a1a2e);
+}
+
+body.dark-mode .data-table {
+    background: var(--bg-medium);
+    color: var(--text-dark);
+}
+
+body.dark-mode .data-table th {
+    background: var(--dark-blue);
+    color: var(--text-light);
+}
+
+body.dark-mode .data-table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.02);
+}
+
+body.dark-mode .data-table tr:hover {
+    background: rgba(74, 123, 200, 0.1);
+}
+
+body.dark-mode .search-box input,
+body.dark-mode .search-box select {
+    background: var(--bg-medium);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .search-box input::placeholder {
+    color: rgba(224, 224, 224, 0.5);
+}
+
+body.dark-mode .tab-btn {
+    background: var(--bg-medium);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .tab-btn.active {
+    background: var(--primary-blue);
+    color: var(--text-light);
+}
+
+body.dark-mode .modal-content {
+    background: var(--bg-medium);
+}
+
+body.dark-mode .modal-content h2 {
+    color: var(--light-blue);
+}
+
+body.dark-mode .modal-content input {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .spawn-map-link {
+    background: var(--bg-dark);
+    color: var(--light-blue);
+    border-color: var(--border-color);
+}
+
+body.dark-mode .spawn-map-link:hover {
+    background: rgba(74, 123, 200, 0.2);
+    border-color: var(--light-blue);
+}
+
+body.dark-mode .database-container {
+    background: var(--bg-light);
+}
+
+body.dark-mode .page-title {
+    color: var(--light-blue);
 }
