@@ -319,6 +319,7 @@ Body:
         Rate: 10
         StealProtected: true
 
+  ### SCARCE ###
   - Id: 1001
     AegisName: SCORPION
     Name: Scorpion

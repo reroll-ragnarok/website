@@ -199,14 +199,14 @@ Body:
         Rate: 20
         StealProtected: true
 
-### CHAMPION MOB ###
+### SCARCE ###
   - Id: 1019
     AegisName: PECOPECO
     Name: Peco Peco
     Level: 10
-    Hp: 269
-    BaseExp: 500
-    JobExp: 250
+    Hp: 169
+    BaseExp: 300
+    JobExp: 150
     Attack: 16
     Attack2: 7
     Defense: 15
@@ -434,7 +434,7 @@ Body:
         Rate: 1
         StealProtected: true
 
-  ### SCARCE MOB ###
+  ### SCARCE ###
   - Id: 1277
     AegisName: GREATEST_GENERAL
     Name: Greatest General

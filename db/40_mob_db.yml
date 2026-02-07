@@ -332,6 +332,7 @@ Body:
         Rate: 20
         StealProtected: true
 
+  ### SCARCE ###
   - Id: 1040
     AegisName: GOLEM
     Name: Golem

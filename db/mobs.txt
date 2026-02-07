@@ -93,7 +93,7 @@ moc_fild19,0,0	monster	Scorpion	1001,30,5000
 moc_fild12,0,0	monster	Peco Peco Egg	1047,100,5000
 moc_fild12,0,0	monster	Picky	1049,100,5000
 moc_fild12,0,0	monster	Picky	1050,100,5000
-moc_fild12,0,0	monster	Peco Peco	1019,5,5000
+moc_fild12,0,0	monster	Peco Peco	1019,25,5000
 
 //==================================================
 // moc_fild17 - Morocc Field South 2
@@ -248,7 +248,7 @@ gef_fild10,0,0	monster	Orc Lord	1190,1,1200000,900000
 //==================================================
 // gef_fild11 - Geffen Field South 2
 //==================================================
-gef_fild11,0,0	monster	Goblin Leader	1087,1,600000
+gef_fild11,0,0	monster	Goblin Leader	1299,1,600000
 gef_fild11,0,0	monster	Goblin (Axe)	1124,20,5000
 gef_fild11,0,0	monster	Goblin (Hammer)	1125,20,5000
 gef_fild11,0,0	monster	Goblin (Knife)	1122,20,5000
@@ -457,8 +457,8 @@ mjolnir_05,0,0	monster	Mistress	1059,1,1200000,900000
 //==================================================
 // mjolnir_02 - Geffen Field North 2
 //==================================================
-mjolnir_02,0,0	monster	Poison Spore	1077,50,5000
-mjolnir_02,0,0	monster	Mantis	1139,50,5000
+mjolnir_02,0,0	monster	Poison Spore	1077,25,5000
+mjolnir_02,0,0	monster	Mantis	1139,75,5000
 
 //==================================================
 // mjolnir_01 - Mjolnir Pit Level 1

@@ -6,6 +6,13 @@ let mapsData = [];
 let spawnsData = [];
 let mapGraph = {};
 let mapDisplayNames = {};
+let monsterTypeTags = {
+    scarce: new Set(),
+    champion: new Set(),
+    mini: new Set(),
+    boss: new Set()
+};
+let monsterTypeTagsReady = false;
 let currentPage = 1;
 const itemsPerPage = 50;
 
@@ -100,52 +107,110 @@ function updateFilterOptions(tab) {
     const filterSection = document.getElementById('filterOptions');
     
     if (tab === 'monsters') {
+        if (!monsterTypeTagsReady) {
+            filterSection.innerHTML = `
+                <div class="filter-loading">
+                    <span class="spinner"></span>
+                    <span>Loading monster filters...</span>
+                </div>
+            `;
+            return;
+        }
+        const { minLevel, maxLevel } = getMonsterLevelBounds();
         filterSection.innerHTML = `
-            <div class="filter-group">
-                <label>Element</label>
-                <select id="elementFilter">
-                    <option value="">All Elements</option>
-                    <option value="Neutral">Neutral</option>
-                    <option value="Water">Water</option>
-                    <option value="Earth">Earth</option>
-                    <option value="Fire">Fire</option>
-                    <option value="Wind">Wind</option>
-                    <option value="Poison">Poison</option>
-                    <option value="Holy">Holy</option>
-                    <option value="Dark">Dark</option>
-                    <option value="Ghost">Ghost</option>
-                    <option value="Undead">Undead</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>Race</label>
-                <select id="raceFilter">
-                    <option value="">All Races</option>
-                    <option value="Formless">Formless</option>
-                    <option value="Undead">Undead</option>
-                    <option value="Brute">Brute</option>
-                    <option value="Plant">Plant</option>
-                    <option value="Insect">Insect</option>
-                    <option value="Fish">Fish</option>
-                    <option value="Demon">Demon</option>
-                    <option value="DemiHuman">Demi-Human</option>
-                    <option value="Angel">Angel</option>
-                    <option value="Dragon">Dragon</option>
-                </select>
-            </div>
-            <div class="filter-group">
-                <label>Size</label>
-                <select id="sizeFilter">
-                    <option value="">All Sizes</option>
-                    <option value="Small">Small</option>
-                    <option value="Medium">Medium</option>
-                    <option value="Large">Large</option>
-                </select>
+            <div class="monster-filters-container">
+                <div class="filter-column filter-column-selects">
+                    <div class="filter-group">
+                        <label>Element</label>
+                        <select id="elementFilter">
+                            <option value="">All Elements</option>
+                            <option value="Neutral">Neutral</option>
+                            <option value="Water">Water</option>
+                            <option value="Earth">Earth</option>
+                            <option value="Fire">Fire</option>
+                            <option value="Wind">Wind</option>
+                            <option value="Poison">Poison</option>
+                            <option value="Holy">Holy</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Ghost">Ghost</option>
+                            <option value="Undead">Undead</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Race</label>
+                        <select id="raceFilter">
+                            <option value="">All Races</option>
+                            <option value="Formless">Formless</option>
+                            <option value="Undead">Undead</option>
+                            <option value="Brute">Brute</option>
+                            <option value="Plant">Plant</option>
+                            <option value="Insect">Insect</option>
+                            <option value="Fish">Fish</option>
+                            <option value="Demon">Demon</option>
+                            <option value="DemiHuman">Demi-Human</option>
+                            <option value="Angel">Angel</option>
+                            <option value="Dragon">Dragon</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Size</label>
+                        <select id="sizeFilter">
+                            <option value="">All Sizes</option>
+                            <option value="Small">Small</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="filter-column filter-column-range">
+                    <div class="filter-group level-range-filter">
+                        <label>Level Range</label>
+                        <div class="level-range-group">
+                            <div class="range-row">
+                                <span class="range-label">Min</span>
+                                <input type="range" id="minLevelRange" min="${minLevel}" max="${maxLevel}" value="${minLevel}" step="1" class="level-range-input">
+                                <span id="minLevelValue" class="range-value">${minLevel}</span>
+                            </div>
+                            <div class="range-row">
+                                <span class="range-label">Max</span>
+                                <input type="range" id="maxLevelRange" min="${minLevel}" max="${maxLevel}" value="${maxLevel}" step="1" class="level-range-input">
+                                <span id="maxLevelValue" class="range-value">${maxLevel}</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-column filter-column-types">
+                    <div class="filter-group monster-type-filter">
+                        <label>Monster Type</label>
+                        <div class="monster-type-checkboxes">
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="monsterTypeFilter" value="scarce">
+                                <span>Scarce</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="monsterTypeFilter" value="champion">
+                                <span>Champion</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="monsterTypeFilter" value="mini">
+                                <span>Mini Boss</span>
+                            </label>
+                            <label class="checkbox-label">
+                                <input type="checkbox" class="monsterTypeFilter" value="boss">
+                                <span>Boss</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
             </div>
         `;
         document.querySelectorAll('#filterOptions select').forEach(select => {
             select.addEventListener('change', applyFilters);
         });
+        document.querySelectorAll('.monsterTypeFilter').forEach(checkbox => {
+            checkbox.addEventListener('change', applyFilters);
+        });
+        initializeMonsterLevelRange();
     } else if (tab === 'items') {
         filterSection.innerHTML = `
             <div class="filter-group">
@@ -169,6 +234,132 @@ function updateFilterOptions(tab) {
     }
 }
 
+function getMonsterLevelBounds() {
+    const levels = monstersData.map(monster => monster.Level || 1);
+    if (levels.length === 0) {
+        return { minLevel: 1, maxLevel: 99 };
+    }
+    return {
+        minLevel: Math.min(...levels),
+        maxLevel: Math.max(...levels)
+    };
+}
+
+function initializeMonsterLevelRange() {
+    const minRange = document.getElementById('minLevelRange');
+    const maxRange = document.getElementById('maxLevelRange');
+    const minValue = document.getElementById('minLevelValue');
+    const maxValue = document.getElementById('maxLevelValue');
+
+    if (!minRange || !maxRange || !minValue || !maxValue) {
+        return;
+    }
+
+    const syncValues = (source) => {
+        let minLevel = parseInt(minRange.value, 10);
+        let maxLevel = parseInt(maxRange.value, 10);
+
+        if (minLevel > maxLevel) {
+            if (source === 'min') {
+                maxLevel = minLevel;
+                maxRange.value = minLevel;
+            } else {
+                minLevel = maxLevel;
+                minRange.value = maxLevel;
+            }
+        }
+
+        minValue.textContent = minLevel;
+        maxValue.textContent = maxLevel;
+    };
+
+    syncValues();
+
+    minRange.addEventListener('input', () => {
+        syncValues('min');
+        applyFilters();
+    });
+
+    maxRange.addEventListener('input', () => {
+        syncValues('max');
+        applyFilters();
+    });
+}
+
+async function loadMonsterTypeTags() {
+    monsterTypeTagsReady = false;
+    const mobDbFiles = [
+        '1_mob_db.yml',
+        '10_mob_db.yml',
+        '20_mob_db.yml',
+        '30_mob_db.yml',
+        '40_mob_db.yml',
+        '50_mob_db.yml',
+        '60_mob_db.yml',
+        '70_mob_db.yml',
+        '80_mob_db.yml',
+        '90_mob_db.yml',
+        '99_mob_db.yml'
+    ];
+
+    const [mobDbTexts, bossText, miniText] = await Promise.all([
+        Promise.all(mobDbFiles.map(file => fetch(`/db/${file}`).then(response => response.text()).catch(() => ''))),
+        fetch('/db/boss_mob_db.yml').then(response => response.text()).catch(() => ''),
+        fetch('/db/mini_mob_db.yml').then(response => response.text()).catch(() => '')
+    ]);
+
+    mobDbTexts.forEach(text => parseChampionScarceTags(text));
+    parseTagFileIds(bossText, monsterTypeTags.boss);
+    parseTagFileIds(miniText, monsterTypeTags.mini);
+
+    monsterTypeTagsReady = true;
+    if (currentTab === 'monsters') {
+        updateFilterOptions('monsters');
+    }
+}
+
+function parseChampionScarceTags(text) {
+    if (!text) return;
+
+    const lines = text.split(/\r?\n/);
+    let nextMonsterTag = null;
+
+    lines.forEach(rawLine => {
+        const line = rawLine.trim();
+
+        // Check if this line is a tag marker
+        if (line.startsWith('###')) {
+            if (/CHAMPION/i.test(line)) {
+                nextMonsterTag = 'champion';
+            } else if (/SCARCE/i.test(line)) {
+                nextMonsterTag = 'scarce';
+            }
+            return;
+        }
+
+        // If we have a pending tag and find a monster ID, apply the tag
+        if (nextMonsterTag) {
+            const idMatch = line.match(/^-\s*Id:\s*(\d+)/i);
+            if (idMatch) {
+                monsterTypeTags[nextMonsterTag].add(parseInt(idMatch[1], 10));
+                nextMonsterTag = null; // Reset after capturing one ID
+            }
+        }
+    });
+}
+
+function parseTagFileIds(text, targetSet) {
+    if (!text) return;
+    const lines = text.split(/\r?\n/);
+    lines.forEach(rawLine => {
+        const line = rawLine.trim();
+        const idMatch = line.match(/^-\s*Id:\s*(\d+)/i);
+        if (idMatch) {
+            targetSet.add(parseInt(idMatch[1], 10));
+        }
+    });
+}
+
 function applyFilters() {
     currentPage = 1;
     
@@ -187,6 +378,25 @@ function applyFilters() {
         }
         if (sizeFilter) {
             filtered = filtered.filter(m => m.Size === sizeFilter);
+        }
+
+        const minLevel = parseInt(document.getElementById('minLevelRange')?.value, 10);
+        const maxLevel = parseInt(document.getElementById('maxLevelRange')?.value, 10);
+
+        if (!Number.isNaN(minLevel) && !Number.isNaN(maxLevel)) {
+            filtered = filtered.filter(m => {
+                const level = m.Level || 1;
+                return level >= minLevel && level <= maxLevel;
+            });
+        }
+
+        const selectedMonsterTypes = Array.from(document.querySelectorAll('.monsterTypeFilter:checked'))
+            .map(cb => cb.value);
+
+        if (selectedMonsterTypes.length > 0) {
+            filtered = filtered.filter(monster =>
+                selectedMonsterTypes.some(type => monsterTypeTags[type]?.has(monster.Id))
+            );
         }
         
         displayMonsters(filtered);
@@ -230,6 +440,8 @@ async function loadAllData() {
         const parsedMaps = parseMapNavigatorText(mapText);
         mapsData = parsedMaps.maps;
         mapGraph = parsedMaps.graph;
+
+        await loadMonsterTypeTags();
         
     } catch (error) {
         console.error('Error loading data:', error);

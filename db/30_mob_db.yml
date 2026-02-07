@@ -352,13 +352,14 @@ Body:
         Rate: 1
         StealProtected: true
 
+  ### SCARCE ###
   - Id: 1121
     AegisName: GIEARTH
     Name: Giearth
     Level: 30
     Hp: 999
-    BaseExp: 200
-    JobExp: 175
+    BaseExp: 600
+    JobExp: 525
     Attack: 99
     Attack2: 33
     Defense: 20
@@ -548,6 +549,7 @@ Body:
         Rate: 1
         StealProtected: true
 
+  ### SCARCE ###
   - Id: 1512
     AegisName: HYEGUN
     Name: Yao Jun

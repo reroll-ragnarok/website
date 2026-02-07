@@ -231,13 +231,14 @@ Body:
 
 ###################################### Geffen ######################################
 
+  ### SCARCE ###
   - Id: 1077
     AegisName: POISON_SPORE
     Name: Poison Spore
     Level: 20
     Hp: 280
-    BaseExp: 150
-    JobExp: 100
+    BaseExp: 450
+    JobExp: 300
     Attack: 30
     Attack2: 8
     Defense: 18
