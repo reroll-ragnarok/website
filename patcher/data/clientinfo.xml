@@ -5,7 +5,7 @@
 	<servertype>primary</servertype>
 	<connection>
 		<display>Local</display>
-      		<address>25.46.50.15</address>
+      		<address>bigolandia.ddns.net</address>
       		<port>6900</port>
       		<version>55</version>
       		<langtype>12</langtype>
