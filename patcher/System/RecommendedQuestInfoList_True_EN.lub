@@ -1,0 +1,25 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+RecommendedQuestInfoList = {}
+RecommendedQuestInfoList = {
+	[1] = {
+		Title = "Welcome to reROll!",
+		IconName = "ico_gq.bmp",
+		Summary = "Starting your journey.",
+		NpcSpr = "M_GAMEMASTER",
+		NpcNavi = "prontera",
+		NpcPosX = 136,
+		NpcPosY = 186,
+		BgName = "reco_95.bmp",
+		QuestInfo1 = {
+			"Welcome! Check out the Convenience Hub in Prontera for various services at your disposal.",
+		},
+		QuestInfo3 = {
+			"^F4C542For information only, quest won't be deleted after completed.",
+		}
+	},
+}

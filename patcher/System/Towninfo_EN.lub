@@ -1,0 +1,97 @@
+-- Original translation works of zackdreaver: https://github.com/zackdreaver/ROenglishRE
+-- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
+-- This file can be distributed, used and modified freely
+-- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
+-- Last updated: 20230321
+
+-- 2012/03/09 Change 'Staff' name to 'Kafra Employee'
+-- 2012/03/26 Correct coordinate to prevent navigation error, add moscovia Armor Dealer
+-- 2012/04/12 Added missing Mora Guide
+-- 2014/02/19 Added Lutie Kafra
+-- 2015/07/13 Added Lasagna
+
+-- type 0 = Tool Dealer
+-- type 1 = Weapon Dealer
+-- type 2 = Armor Dealer
+-- type 3 = Smith
+-- type 4 = Guide
+-- type 5 = Inn
+-- type 6 = Kafra Employee
+-- For additional type support, please contact the programmer team if there any resource issues
+
+mapNPCInfoTable = {
+	prontera = {
+		{ name = [=[Kafra Employee]=], X = 160, Y = 192, TYPE = 6, },
+		{ name = [=[Convenience Hub]=], X = 136, Y = 186, TYPE = 5, },
+		{ name = [=[Equipment Enhancement]=], X = 174, Y = 218, TYPE = 3, },
+		{ name = [=[Job Quest]=], X = 234, Y = 314, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 48, Y = 343, TYPE = 1, },
+	},
+
+	morocc = {
+		{ name = [=[Kafra Employee]=], X = 156, Y = 97, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 100, Y = 70, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 55, Y = 259, TYPE = 1, },
+	},
+
+	geffen = {
+		{ name = [=[Kafra Employee]=], X = 120, Y = 63, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 120, Y = 110, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 61, Y = 181, TYPE = 1, },
+	},
+
+	payon_mem = {
+		{ name = [=[Kafra Employee]=], X = 89, Y = 119, TYPE = 6, },
+	},
+
+	alberta = {
+		{ name = [=[Kafra Employee]=], X = 28, Y = 230, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 37, Y = 41, TYPE = 1, },
+	},
+
+	izlude = {
+		{ name = [=[Kafra Employee]=], X = 127, Y = 116, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 51, Y = 140, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 128, Y = 222, TYPE = 1, },
+	},
+
+	aldebaran = {
+		{ name = [=[Kafra Employee]=], X = 143, Y = 120, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 73, Y = 197, TYPE = 1, },
+	},
+
+	xmas = {
+		{ name = [=[Kafra Employee]=], X = 143, Y = 113, TYPE = 6, },
+	},
+
+	comodo = {
+		{ name = [=[Kafra Employee]=], X = 195, Y = 151, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 140, Y = 114, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 129, Y = 193, TYPE = 1, },
+	},
+
+	yuno = {
+		{ name = [=[Kafra Employee]=], X = 152, Y = 188, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 196, Y = 139, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 324, Y = 284, TYPE = 1, },
+	},
+
+	umbala = {
+		{ name = [=[Kafra Employee]=], X = 87, Y = 160, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 109, Y = 120, TYPE = 1, },
+	},
+
+	niflheim = {
+		{ name = [=[Kafra Employee]=], X = 181, Y = 193, TYPE = 6, },
+	},
+}
+
+--function
+
+function main()
+	for mapName ,info in pairs( mapNPCInfoTable ) do
+		for k ,v in pairs( info ) do result , msg = AddTownInfo( mapName , v.name , v.X , v.Y , v.TYPE ) if( not result ) then return false , msg ; end
+		end
+	end
+	return true, "good";
+end
