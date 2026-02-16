@@ -38,16 +38,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Sweet_Potato",
-      "Rate": 2500
-    },
-    {
-      "Item": "Cat_Hairband",
-      "Rate": 50
-    },
-    {
       "Item": "Smokie_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -31,9 +31,10 @@ function loadMonsters() {
         const files = fs.readdirSync(dbDir).filter(file => file.endsWith('_mob_db.yml'));
         files.forEach(file => {
             const monsters = loadYAMLFile(path.join(dbDir, file));
+            console.log(`  📄 ${file}: ${monsters.length} monsters`);
             allMonsters.push(...monsters);
         });
-        console.log(`✅ Loaded ${allMonsters.length} monsters from ${files.length} files`);
+        console.log(`✅ Loaded ${allMonsters.length} total monsters from ${files.length} files`);
     } catch (error) {
         console.error('❌ Error loading monsters:', error.message);
     }
@@ -85,15 +86,19 @@ function loadItems() {
     let allItems = [];
     
     try {
-        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml'];
+        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml', 'item_db_card.yml'];
+        
         itemFiles.forEach(file => {
             const filePath = path.join(dbDir, file);
             if (fs.existsSync(filePath)) {
                 const items = loadYAMLFile(filePath);
+                console.log(`  📄 ${file}: ${items.length} items`);
                 allItems.push(...items);
+            } else {
+                console.log(`  ⚠️  ${file}: not found, skipping`);
             }
         });
-        console.log(`✅ Loaded ${allItems.length} items`);
+        console.log(`✅ Loaded ${allItems.length} total items`);
     } catch (error) {
         console.error('❌ Error loading items:', error.message);
     }

@@ -30,32 +30,16 @@
   "Ai": 13,
   "Drops": [
     {
-      "Item": "Dragon's_Skin",
-      "Rate": 1000
-    },
-    {
-      "Item": "Dragon_Canine",
-      "Rate": 1300
-    },
-    {
       "Item": "Dragon_Train",
-      "Rate": 1000
+      "Rate": 10000
     },
     {
-      "Item": "Dragon_Scale",
-      "Rate": 1000
-    },
-    {
-      "Item": "Strange_Foxtail",
-      "Rate": 20
-    },
-    {
-      "Item": "Doram_Only_Cape",
-      "Rate": 20
+      "Item": "Dragon's_Skin",
+      "Rate": 5000
     },
     {
       "Item": "Flying_Deleter_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -36,28 +36,16 @@
   },
   "Drops": [
     {
-      "Item": "Sparkling_Dust",
-      "Rate": 75
-    },
-    {
       "Item": "Transparent_Cloth",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
-      "Item": "Spirit_Chain",
-      "Rate": 1
-    },
-    {
-      "Item": "Silver_Robe_",
-      "Rate": 5
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Item": "Sparkling_Dust",
+      "Rate": 5000
     },
     {
       "Item": "Whisper_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

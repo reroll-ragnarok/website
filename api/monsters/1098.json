@@ -30,36 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Runstone_Ancient",
-      "Rate": 5
-    },
-    {
-      "Item": "Healing_Staff",
-      "Rate": 5
-    },
-    {
-      "Item": "White_Wing_Suits",
-      "Rate": 50
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 53
-    },
-    {
       "Item": "Sacred_Masque",
-      "Rate": 2183
+      "Rate": 10000
     },
     {
-      "Item": "Mitten_Of_Presbyter",
-      "Rate": 1
-    },
-    {
-      "Item": "Blessed_Wand",
-      "Rate": 2
+      "Item": "Skel_Bone",
+      "Rate": 5000
     },
     {
       "Item": "Anubis_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

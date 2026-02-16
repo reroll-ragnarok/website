@@ -48,6 +48,7 @@ let monsterTypeTags = {
 };
 let monsterTypeTagsReady = false;
 let currentPage = 1;
+let currentFilteredData = null; // Track currently filtered/searched data (null means no filter active)
 const itemsPerPage = 50;
 
 // Server rates configuration
@@ -77,6 +78,10 @@ function initializeTabs() {
 function switchTab(tab) {
     currentTab = tab;
     currentPage = 1;
+    currentFilteredData = null; // Reset filtered data when switching tabs
+    
+    // Clear search input
+    document.getElementById('searchInput').value = '';
 
     // Update active tab button
     document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -121,17 +126,20 @@ function performSearch() {
             monster.Name.toLowerCase().includes(searchTerm) ||
             monster.Id.toString().includes(searchTerm)
         );
+        currentFilteredData = filtered;
         displayMonsters(filtered);
     } else if (currentTab === 'items') {
         const filtered = itemsData.filter(item =>
             item.Name.toLowerCase().includes(searchTerm) ||
             item.Id.toString().includes(searchTerm)
         );
+        currentFilteredData = filtered;
         displayItems(filtered);
     } else if (currentTab === 'maps') {
         const filtered = mapsData.filter(map =>
             map.name.toLowerCase().includes(searchTerm)
         );
+        currentFilteredData = filtered;
         displayMaps(filtered);
     }
 }
@@ -260,10 +268,10 @@ function updateFilterOptions(tab) {
                     <option value="">All Types</option>
                     <option value="Weapon">Weapon</option>
                     <option value="Armor">Armor</option>
+                    <option value="Healing">Healing</option>
                     <option value="Usable">Usable</option>
                     <option value="Etc">Etc</option>
                     <option value="Card">Card</option>
-                    <option value="Ammo">Ammo</option>
                 </select>
             </div>
         `;
@@ -507,6 +515,7 @@ function applyFilters() {
             );
         }
         
+        currentFilteredData = filtered;
         displayMonsters(filtered);
     } else if (currentTab === 'items') {
         let filtered = [...itemsData];
@@ -514,9 +523,15 @@ function applyFilters() {
         const typeFilter = document.getElementById('typeFilter')?.value;
         
         if (typeFilter) {
-            filtered = filtered.filter(i => i.Type === typeFilter);
+            // Merge DelayConsume into Usable category
+            if (typeFilter === 'Usable') {
+                filtered = filtered.filter(i => i.Type === 'Usable' || i.Type === 'DelayConsume');
+            } else {
+                filtered = filtered.filter(i => i.Type === typeFilter);
+            }
         }
         
+        currentFilteredData = filtered;
         displayItems(filtered);
     } else if (currentTab === 'maps') {
         let filtered = [...mapsData];
@@ -549,6 +564,7 @@ function applyFilters() {
             });
         }
         
+        currentFilteredData = filtered;
         displayMaps(filtered);
     }
 }
@@ -590,12 +606,24 @@ async function loadAllData() {
 }
 
 function displayCurrentTabData() {
-    if (currentTab === 'monsters') {
-        displayMonsters(monstersData);
-    } else if (currentTab === 'items') {
-        displayItems(itemsData);
-    } else if (currentTab === 'maps') {
-        displayMaps(mapsData);
+    // If we have filtered data (even if empty), use it; otherwise use full dataset
+    if (currentFilteredData !== null) {
+        if (currentTab === 'monsters') {
+            displayMonsters(currentFilteredData);
+        } else if (currentTab === 'items') {
+            displayItems(currentFilteredData);
+        } else if (currentTab === 'maps') {
+            displayMaps(currentFilteredData);
+        }
+    } else {
+        // No filters/search active, show all data
+        if (currentTab === 'monsters') {
+            displayMonsters(monstersData);
+        } else if (currentTab === 'items') {
+            displayItems(itemsData);
+        } else if (currentTab === 'maps') {
+            displayMaps(mapsData);
+        }
     }
 }
 
@@ -678,29 +706,110 @@ function displayItems(items) {
     countEl.textContent = `${items.length} items found`;
     
     if (items.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="9" class="loading">No items found</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="4" class="loading">No items found</td></tr>';
         return;
     }
+    
+    // Determine which item types are in the list
+    const itemTypes = new Set(items.map(i => i.Type));
+    const isAllTypes = itemTypes.size > 1; // Multiple types = All Types filter
+    const displayType = isAllTypes ? 'AllTypes' : getDisplayType(itemTypes);
+    
+    // Update table headers
+    updateItemTableHeaders(displayType, itemTypes);
     
     const start = (currentPage - 1) * itemsPerPage;
     const end = start + itemsPerPage;
     const paginatedItems = items.slice(start, end);
     
-    tbody.innerHTML = paginatedItems.map(item => `
+    const colSpan = isAllTypes ? 4 : 6; // Adjust colspan for no items message
+    tbody.innerHTML = paginatedItems.map(item => {
+        const sell = item.Sell || Math.floor((item.Buy || 0) / 2);
+        return `
         <tr onclick="showItemDetails(${item.Id})">
-            <td>${item.Id}</td>
-            <td>${item.Name}</td>
-            <td>${item.Type || 'Etc'}</td>
-            <td>${item.Weight || 0}</td>
-            <td>${formatNumber(item.Buy || 0)}z</td>
-            <td>${formatNumber(item.Sell || 0)}z</td>
-            <td>${item.Slots || 0}</td>
-            <td>${item.Defense || '-'}</td>
-            <td>${item.Attack || '-'}</td>
+            <td class="col-id">${item.Id}</td>
+            <td class="col-icon">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${item.Id}" 
+                     alt="${item.Name}" 
+                     class="item-sprite-small"
+                     onerror="this.style.display='none'">
+            </td>
+            <td class="col-name">${item.Name}</td>
+            <td class="col-type">${item.Type || 'Etc'}</td>
+            ${isAllTypes ? '' : getItemTypeColumns(item, displayType, sell)}
         </tr>
-    `).join('');
+    `;
+    }).join('');
     
     createPagination('items', items.length);
+}
+
+// Helper function to determine the primary display type
+function getDisplayType(typeSet) {
+    const typeOrder = ['Weapon', 'Armor', 'Healing', 'Usable', 'DelayConsume', 'Etc', 'Card'];
+    for (const type of typeOrder) {
+        if (typeSet.has(type)) {
+            return type;
+        }
+    }
+    return 'Etc';
+}
+
+// Helper function to get the appropriate columns for an item type
+function getItemTypeColumns(item, displayType, sell) {
+    switch (displayType) {
+        case 'Weapon':
+            return `<td>${item.Attack || 0}</td><td>${item.Slots || 0}</td>`;
+        case 'Armor':
+            return `<td>${item.Defense || 0}</td><td>${item.Slots || 0}</td>`;
+        case 'Healing':
+        case 'Usable':
+        case 'DelayConsume':
+            return `<td>${formatNumber(sell)}z</td><td>${item.Weight || 0}</td>`;
+        case 'Etc':
+            return `<td>${formatNumber(sell)}z</td><td>${item.Weight || 0}</td>`;
+        case 'Card':
+            return '';
+        default:
+            return `<td>${formatNumber(sell)}z</td><td>${item.Weight || 0}</td>`;
+    }
+}
+
+// Helper function to update table headers dynamically
+function updateItemTableHeaders(displayType, typeSet) {
+    const thead = document.getElementById('items-thead');
+    let headers = '<tr><th class="col-id">ID</th><th class="col-icon">Icon</th><th class="col-name">Name</th><th class="col-type">Type</th>';
+    
+    // If showing all types (multiple types), only show base headers
+    if (displayType === 'AllTypes') {
+        headers += '</tr>';
+        thead.innerHTML = headers;
+        return;
+    }
+    
+    switch (displayType) {
+        case 'Weapon':
+            headers += '<th>Attack</th><th>Slots</th>';
+            break;
+        case 'Armor':
+            headers += '<th>Defense</th><th>Slots</th>';
+            break;
+        case 'Healing':
+        case 'Usable':
+        case 'DelayConsume':
+            headers += '<th>Sell</th><th>Weight</th>';
+            break;
+        case 'Etc':
+            headers += '<th>Sell</th><th>Weight</th>';
+            break;
+        case 'Card':
+            break;
+        default:
+            headers += '<th>Sell</th><th>Weight</th>';
+    }
+    
+    headers += '</tr>';
+    thead.innerHTML = headers;
 }
 
 // Display maps
@@ -1180,12 +1289,21 @@ function displayMonsterModal(monster) {
                         </tr>
                     </thead>
                     <tbody>
-                        ${monster.Drops.map(drop => `
-                            <tr>
-                                <td>${drop.Item}</td>
-                                <td>${((drop.Rate / 10000) * 100).toFixed(2)}%</td>
-                            </tr>
-                        `).join('')}
+                        ${monster.Drops.map(drop => {
+                            const item = itemsData.find(i => i.Name === drop.Item || i.AegisName === drop.Item);
+                            const itemId = item ? item.Id : null;
+                            const itemName = item ? item.Name : drop.Item;
+                            const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                            const itemDisplay = itemId ? 
+                                `<span class="spawn-map-link" onclick="showItemDetails(${itemId})">${itemName}</span>` :
+                                drop.Item;
+                            return `
+                                <tr>
+                                    <td>${itemDisplay}</td>
+                                    <td>${percent}%</td>
+                                </tr>
+                            `;
+                        }).join('')}
                     </tbody>
                 </table>
             </div>
@@ -1361,8 +1479,56 @@ function showItemDetails(itemId) {
     const modal = document.getElementById('itemModal');
     const details = document.getElementById('itemDetails');
     
+    // Calculate sell price
+    const sellPrice = item.Sell || Math.floor((item.Buy || 0) / 2);
+    
+    // Find monsters that drop this item
+    let dropsFromHtml = '';
+    if (monstersData && monstersData.length > 0) {
+        const dropMonsters = monstersData.filter(m => 
+            m.Drops && m.Drops.some(drop => drop.Item === item.Name || drop.Item === item.AegisName)
+        );
+        
+        if (dropMonsters.length > 0) {
+            dropsFromHtml = `
+                <div class="detail-section">
+                    <h3>Dropped By</h3>
+                    <table class="drops-table">
+                        <thead>
+                            <tr>
+                                <th>Monster</th>
+                                <th>Rate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${dropMonsters.map(monster => {
+                                const drop = monster.Drops.find(d => d.Item === item.Name || d.Item === item.AegisName);
+                                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                                return `
+                                    <tr>
+                                        <td><span class="spawn-map-link" onclick="closeItemModalAndShowMonster(${monster.Id})">${monster.Name}</span></td>
+                                        <td>${percent}%</td>
+                                    </tr>
+                                `;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+    }
+    
     details.innerHTML = `
-        <h2>${item.Name}</h2>
+        <div class="item-header">
+            <img src="https://www.divine-pride.net/img/items/item/iRO/${item.Id}" 
+                 alt="${item.Name}" 
+                 class="item-sprite"
+                 onerror="this.style.display='none'">
+            <div class="item-title-section">
+                <h2>${item.Name}</h2>
+            </div>
+        </div>
+        
         <div class="detail-section">
             <h3>Basic Information</h3>
             <div class="detail-grid">
@@ -1379,12 +1545,8 @@ function showItemDetails(itemId) {
                     <div class="detail-value">${item.Weight || 0}</div>
                 </div>
                 <div class="detail-item">
-                    <div class="detail-label">Buy Price</div>
-                    <div class="detail-value">${formatNumber(item.Buy || 0)}z</div>
-                </div>
-                <div class="detail-item">
                     <div class="detail-label">Sell Price</div>
-                    <div class="detail-value">${formatNumber(item.Sell || 0)}z</div>
+                    <div class="detail-value">${formatNumber(sellPrice)}z</div>
                 </div>
                 <div class="detail-item">
                     <div class="detail-label">Slots</div>
@@ -1410,6 +1572,8 @@ function showItemDetails(itemId) {
                 ` : ''}
             </div>
         </div>
+        
+        ${dropsFromHtml}
     `;
     
     modal.style.display = 'block';
@@ -1419,6 +1583,13 @@ function showItemDetails(itemId) {
 function closeMapModalAndShowMonster(monsterId) {
     const mapModal = document.getElementById('mapModal');
     mapModal.style.display = 'none';
+    showMonsterDetails(monsterId);
+}
+
+// Helper function to close item modal and show monster details
+function closeItemModalAndShowMonster(monsterId) {
+    const itemModal = document.getElementById('itemModal');
+    itemModal.style.display = 'none';
     showMonsterDetails(monsterId);
 }
 

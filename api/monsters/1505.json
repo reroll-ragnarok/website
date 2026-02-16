@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Black_Kitty_Doll",
-      "Rate": 400
-    },
-    {
-      "Item": "Striped_Socks",
-      "Rate": 1500
+      "Rate": 10000
     },
     {
       "Item": "Bat_Cage",
-      "Rate": 2522
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 50
-    },
-    {
-      "Item": "Loki's_Whispers",
-      "Rate": 1
-    },
-    {
-      "Item": "Lunatic_Brooch",
-      "Rate": 3
-    },
-    {
-      "Item": "Sabah_Cloth",
-      "Rate": 5
+      "Rate": 5000
     },
     {
       "Item": "Loli_Ruri_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

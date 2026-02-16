@@ -34,7 +34,7 @@
   },
   "Drops": [
     {
-      "Item": "Banana_Juice",
+      "Item": "Monkey_Doll",
       "Rate": 10000
     },
     {
@@ -42,16 +42,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Monkey_Doll",
-      "Rate": 2500
-    },
-    {
-      "Item": "Tropical_Banana",
-      "Rate": 1000
-    },
-    {
       "Item": "Choco_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

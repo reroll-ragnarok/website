@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Pumpkin_Bucket",
-      "Rate": 1600
+      "Rate": 10000
     },
     {
       "Item": "Ectoplasm",
-      "Rate": 2862
-    },
-    {
-      "Item": "Transparent_Cloth",
-      "Rate": 500
-    },
-    {
-      "Item": "Spirit_Chain",
-      "Rate": 5
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 5
-    },
-    {
-      "Item": "Holy_Scroll_1_3",
-      "Rate": 50
-    },
-    {
-      "Item": "Yellow_Powder",
-      "Rate": 150
+      "Rate": 5000
     },
     {
       "Item": "Lude_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -30,36 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 1000
-    },
-    {
-      "Item": "Old_Card_Album",
-      "Rate": 1
-    },
-    {
-      "Item": "Contracts_In_Shadow",
-      "Rate": 10
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 500
-    },
-    {
-      "Item": "Katar_Of_Piercing_Wind",
-      "Rate": 1
+      "Item": "Manacles",
+      "Rate": 5000
     },
     {
       "Item": "Oridecon",
-      "Rate": 50
-    },
-    {
-      "Item": "Ghost_Scroll_1_5",
-      "Rate": 50
+      "Rate": 1000
     },
     {
       "Item": "Joker_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

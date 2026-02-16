@@ -34,36 +34,12 @@
   },
   "Drops": [
     {
-      "Item": "Western_Grace",
-      "Rate": 100
-    },
-    {
-      "Item": "Claw_Of_Wolves",
-      "Rate": 4000
-    },
-    {
       "Item": "Golden_Jewel",
-      "Rate": 750
-    },
-    {
-      "Item": "Star_Dust_Blade",
-      "Rate": 50
-    },
-    {
-      "Item": "Angel's_Warmth",
-      "Rate": 500
-    },
-    {
-      "Item": "Light_Granule",
-      "Rate": 250
-    },
-    {
-      "Item": "Monster_Juice",
-      "Rate": 25
+      "Rate": 10000
     },
     {
       "Item": "Vagabond_Wolf_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

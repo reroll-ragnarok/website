@@ -37,21 +37,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Chinese_Ink
-        Rate: 4500
+        Rate: 10000
       - Item: Tentacle
-        Rate: 1500
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Skyblue_Jewel
-        Rate: 5
-      - Item: Mistic_Frozen
-        Rate: 6
-      - Item: Penetration
-        Rate: 3
-      - Item: Grape
-        Rate: 150
+        Rate: 5000
       - Item: Marse_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1045
@@ -84,20 +74,12 @@ Body:
     DamageMotion: 480
     Ai: 04
     Drops:
-      - Item: Mistic_Frozen
-        Rate: 9
-      - Item: Gill
-        Rate: 4500
-      - Item: Oridecon_Stone
-        Rate: 48
       - Item: Fin
-        Rate: 500
-      - Item: Skyblue_Jewel
-        Rate: 5
-      - Item: White_Herb
-        Rate: 350
+        Rate: 10000
+      - Item: Gill
+        Rate: 5000
       - Item: Marc_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1069
@@ -130,22 +112,12 @@ Body:
     DamageMotion: 384
     Ai: 04
     Drops:
-      - Item: Mistic_Frozen
-        Rate: 5
       - Item: Sharp_Scale
-        Rate: 4500
-      - Item: Oridecon_Stone
-        Rate: 17
-      - Item: Snowy_Horn
-        Rate: 1
-      - Item: Elunium_Stone
-        Rate: 25
-      - Item: Katana_
-        Rate: 13
+        Rate: 10000
       - Item: Gill
-        Rate: 300
+        Rate: 5000
       - Item: Sword_Fish_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1158
@@ -179,21 +151,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Fish_Tail
-        Rate: 2750
-      - Item: Sharp_Scale
-        Rate: 1000
-      - Item: Skyblue_Jewel
-        Rate: 3
-      - Item: Meat
-        Rate: 500
-      - Item: Fin
-        Rate: 250
-      - Item: Oridecon_Stone
-        Rate: 13
-      - Item: Fish_With_Blue_Back
-        Rate: 500
+        Rate: 10000
+      - Item: Gill
+        Rate: 5000
       - Item: Phen_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Morocc #######################################
@@ -233,7 +195,7 @@ Body:
       - Item: Rotten_Bandage
         Rate: 5000
       - Item: Verit_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1041
@@ -271,7 +233,7 @@ Body:
       - Item: Immortal_Heart
         Rate: 5000
       - Item: Mummy_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -311,12 +273,8 @@ Body:
         Rate: 10000
       - Item: Shining_Scales
         Rate: 5000
-      - Item: Circlet_
-        Rate: 500
-      - Item: Necklace
-        Rate: 100
       - Item: Isis_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -325,8 +283,8 @@ Body:
     Name: Scorpion
     Level: 60
     Hp: 2523
-    BaseExp: 400
-    JobExp: 425
+    BaseExp: 1200
+    JobExp: 1275
     Attack: 187
     Attack2: 176
     Defense: 34
@@ -354,12 +312,10 @@ Body:
     Drops:
       - Item: Scorpion's_Tail
         Rate: 10000
-      - Item: Solid_Shell
-        Rate: 5000
       - Item: Fine_Grit
-        Rate: 2500
+        Rate: 5000
       - Item: Scorpion_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -398,21 +354,11 @@ Body:
     Ai: 19
     Drops:
       - Item: Sharpened_Cuspid
-        Rate: 2328
-      - Item: Steel_Arrow
-        Rate: 500
-      - Item: Stone_Arrow
-        Rate: 1250 
-      - Item: Arrow_Of_Wind
-        Rate: 1250
-      - Item: Orc_Archer_Bow
-        Rate: 1
-      - Item: Red_Herb
-        Rate: 700
-      - Item: White_Herb
-        Rate: 450
+        Rate: 10000
+      - Item: Orcish_Voucher
+        Rate: 5000
       - Item: Orc_Archer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1023
@@ -448,22 +394,12 @@ Body:
     DamageMotion: 288
     Ai: 04
     Drops:
-      - Item: Wing_Of_Fly
-        Rate: 500
+      - Item: Orcish_Cuspid
+        Rate: 10000
       - Item: Orcish_Voucher
-        Rate: 4500
-      - Item: Oridecon_Stone
-        Rate: 20
-      - Item: Cigar
-        Rate: 2
-      - Item: Battle_Axe_
-        Rate: 5
-      - Item: Orcish_Axe
-        Rate: 3
-      - Item: Round_Buckler
-        Rate: 2
+        Rate: 5000
       - Item: Orc_Warrior_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1273
@@ -499,19 +435,9 @@ Body:
     Ai: 21
     Drops:
       - Item: Cyfar
-        Rate: 2328
-      - Item: Puente_Robe
-        Rate: 2
-      - Item: Earring
-        Rate: 1
-      - Item: Wedding_Veil
-        Rate: 1
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Cookbook06
-        Rate: 2
-      - Item: Wedding_Dress
-        Rate: 1
+        Rate: 10000
+      - Item: Orcish_Voucher
+        Rate: 5000
       - Item: Orc_Lady_Card
         Rate: 1
         StealProtected: true
@@ -549,22 +475,12 @@ Body:
     DamageMotion: 288
     Ai: 04
     Drops:
-      - Item: Large_Jellopy
-        Rate: 500
-      - Item: Pacifier
-        Rate: 50
-      - Item: Viking_Helm
-        Rate: 1
-      - Item: Milk
-        Rate: 2500
       - Item: Milk_Bottle
-        Rate: 100
+        Rate: 10000
       - Item: Bib
-        Rate: 50
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Orc_Baby_Card_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -599,18 +515,12 @@ Body:
     DamageMotion: 480
     Ai: 17
     Drops:
-      - Item: Zargon
-        Rate: 500
       - Item: Worn_Out_Prison_Uniform
-        Rate: 300
+        Rate: 10000
       - Item: Anolian_Skin
-        Rate: 1000
-      - Item: Seed_Of_Yggdrasil
-        Rate: 1
-      - Item: Oridecon_Stone
-        Rate: 65
+        Rate: 5000
       - Item: Alligator_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1206
@@ -644,21 +554,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Anolian_Skin
-        Rate: 2425
-      - Item: Crystal_Arrow
-        Rate: 1000
-      - Item: Royal_Jelly
-        Rate: 3
-      - Item: Red_Muffler
-        Rate: 5
-      - Item: Carga_Mace
-        Rate: 1
-      - Item: Brooch_
-        Rate: 1
-      - Item: Oridecon
-        Rate: 67
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Anolian_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Al De Baran #######################################
@@ -694,21 +594,11 @@ Body:
     Ai: 03
     Drops:
       - Item: Well_Baked_Cookie
-        Rate: 1500
+        Rate: 10000
       - Item: Candy_Striper
-        Rate: 75
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Great_Chef_Orleans01
-        Rate: 25
-      - Item: Sandals_
-        Rate: 15
-      - Item: Holy_Scroll_1_3
-        Rate: 50
-      - Item: Candy
-        Rate: 160
+        Rate: 5000
       - Item: Cookie_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1246
@@ -742,21 +632,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Well_Baked_Cookie
-        Rate: 2000
-      - Item: Scarlet_Jewel
-        Rate: 23
-      - Item: Zargon
-        Rate: 100
-      - Item: Hood_
-        Rate: 13
-      - Item: Gift_Box
-        Rate: 3
-      - Item: Cold_Scroll_1_3
-        Rate: 50
-      - Item: Red_Herb
-        Rate: 850
+        Rate: 10000
+      - Item: Candy_Striper
+        Rate: 5000
       - Item: Cookie_XMAS_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1249
@@ -789,20 +669,10 @@ Body:
     DamageMotion: 432
     Ai: 17
     Drops:
-      - Item: Candy_Striper
-        Rate: 45
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Old_Blue_Box
-        Rate: 10
       - Item: Piece_Of_Cake
-        Rate: 1000
-      - Item: Scarlet_Jewel
-        Rate: 75
-      - Item: Crystal_Jewel_
-        Rate: 3
-      - Item: Candy
-        Rate: 170
+        Rate: 10000
+      - Item: Candy_Striper
+        Rate: 5000
       - Item: Mystcase_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

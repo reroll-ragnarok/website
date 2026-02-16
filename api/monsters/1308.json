@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Cyfar",
-      "Rate": 2207
-    },
-    {
-      "Item": "Brigan",
-      "Rate": 1750
-    },
-    {
-      "Item": "Steel",
-      "Rate": 90
-    },
-    {
-      "Item": "Iron",
-      "Rate": 180
+      "Rate": 10000
     },
     {
       "Item": "Coal",
-      "Rate": 290
-    },
-    {
-      "Item": "Butcher",
-      "Rate": 3
-    },
-    {
-      "Item": "Flame_Heart",
-      "Rate": 80
+      "Rate": 5000
     },
     {
       "Item": "Panzer_Goblin_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -33,36 +33,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Large_Jellopy",
-      "Rate": 500
-    },
-    {
-      "Item": "Pacifier",
-      "Rate": 50
-    },
-    {
-      "Item": "Viking_Helm",
-      "Rate": 1
-    },
-    {
-      "Item": "Milk",
-      "Rate": 2500
-    },
-    {
       "Item": "Milk_Bottle",
-      "Rate": 100
+      "Rate": 10000
     },
     {
       "Item": "Bib",
-      "Rate": 50
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Orc_Baby_Card_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

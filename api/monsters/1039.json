@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 2000
-    },
-    {
       "Item": "Baphomet_Doll",
-      "Rate": 500
-    },
-    {
-      "Item": "Evil_Horn",
-      "Rate": 5000
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Crescent_Scythe",
-      "Rate": 200
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
     },
     {
-      "Item": "Magestic_Goat",
-      "Rate": 150
-    },
-    {
-      "Item": "Crescent_Scythe_",
-      "Rate": 25
-    },
-    {
-      "Item": "Emperium",
-      "Rate": 250
-    },
-    {
-      "Item": "Magestic_Goat_",
-      "Rate": 5
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2716
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 2086
+      "Item": "Baphomet_Doll",
+      "Rate": 5000
     },
     {
       "Item": "Baphomet_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

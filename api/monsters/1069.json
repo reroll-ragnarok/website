@@ -30,36 +30,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Mistic_Frozen",
-      "Rate": 5
-    },
-    {
       "Item": "Sharp_Scale",
-      "Rate": 4500
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 17
-    },
-    {
-      "Item": "Snowy_Horn",
-      "Rate": 1
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 25
-    },
-    {
-      "Item": "Katana_",
-      "Rate": 13
+      "Rate": 10000
     },
     {
       "Item": "Gill",
-      "Rate": 300
+      "Rate": 5000
     },
     {
       "Item": "Sword_Fish_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

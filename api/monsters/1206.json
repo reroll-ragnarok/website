@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Anolian_Skin",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
-      "Item": "Crystal_Arrow",
-      "Rate": 1000
-    },
-    {
-      "Item": "Royal_Jelly",
-      "Rate": 3
-    },
-    {
-      "Item": "Red_Muffler",
-      "Rate": 5
-    },
-    {
-      "Item": "Carga_Mace",
-      "Rate": 1
-    },
-    {
-      "Item": "Brooch_",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 67
+      "Item": "Cyfar",
+      "Rate": 5000
     },
     {
       "Item": "Anolian_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

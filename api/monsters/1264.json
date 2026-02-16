@@ -34,32 +34,12 @@
       "Rate": 650
     },
     {
-      "Item": "Plate_Armor_",
-      "Rate": 1
-    },
-    {
-      "Item": "Lemon",
-      "Rate": 200
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 20
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 18
-    },
-    {
-      "Item": "Trident",
-      "Rate": 2
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 102
+      "Item": "Fin",
+      "Rate": 5000
     },
     {
       "Item": "Merman_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

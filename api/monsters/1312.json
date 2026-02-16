@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Turtle_Shell",
-      "Rate": 5500
-    },
-    {
-      "Item": "Yggdrasilberry",
-      "Rate": 1500
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 2000
+      "Item": "Union_Of_Tribe",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Iron_Driver",
-      "Rate": 4
-    },
-    {
-      "Item": "War_Axe",
-      "Rate": 3
-    },
-    {
-      "Item": "Cookbook09",
-      "Rate": 100
-    },
-    {
-      "Item": "Pole_Axe",
-      "Rate": 5
-    },
-    {
-      "Item": "Broken_Shell",
-      "Rate": 2668
-    },
-    {
-      "Item": "Immaterial_Sword",
-      "Rate": 40
+      "Item": "Great_Nature",
+      "Rate": 10000
     },
     {
       "Item": "Union_Of_Tribe",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Turtle_General_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -39,14 +39,12 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Apple_Juice
+      - Item: Poring_Doll
         Rate: 10000
       - Item: Scarlet_Jewel
         Rate: 5000
-      - Item: Poring_Doll
-        Rate: 2500
       - Item: Mastering_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
   - Id: 1089
@@ -82,22 +80,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Big_Sis'_Ribbon
-        Rate: 25
-      - Item: Honey
-        Rate: 1000
       - Item: Bluish_Green_Jewel
-        Rate: 500
-      - Item: Light_Granule
-        Rate: 250
-      - Item: Alchol
-        Rate: 50
-      - Item: Detrimindexta
-        Rate: 50
-      - Item: Kiss_Of_Angel
-        Rate: 500
+        Rate: 10000
       - Item: Toad_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 20 ######################################
@@ -135,16 +121,12 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Carrot_Juice
-        Rate: 10000
       - Item: White_Jewel
-        Rate: 5000
-      - Item: Stuffed_Doll
-        Rate: 2500
+        Rate: 10000
       - Item: Four_Leaf_Clover
         Rate: 777
       - Item: Eclipse_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
       
   - Id: 1091
@@ -180,14 +162,12 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Grape_Juice
+      - Item: Chonchon_Doll
         Rate: 10000
       - Item: Violet_Jewel
         Rate: 5000
-      - Item: Chonchon_Doll
-        Rate: 2500
       - Item: Dragon_Fly_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 30 ######################################
@@ -226,16 +206,12 @@ Body:
       Mvp: true
       Detector: true
     Drops:
-      - Item: Orange_Juice
+      - Item: Grasshopper_Doll
         Rate: 10000
       - Item: Azure_Jewel
         Rate: 5000
-      - Item: Grasshopper_Doll
-        Rate: 2500
-      - Item: Guitar_Of_Gentle_Breeze
-        Rate: 50
       - Item: Vocal_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
   - Id: 1214
@@ -271,16 +247,12 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Banana_Juice
+      - Item: Monkey_Doll
         Rate: 10000
       - Item: Golden_Jewel
         Rate: 5000
-      - Item: Monkey_Doll
-        Rate: 2500
-      - Item: Tropical_Banana
-        Rate: 1000
       - Item: Choco_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
   - Id: 1092
@@ -316,22 +288,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Western_Grace
-        Rate: 100
-      - Item: Claw_Of_Wolves
-        Rate: 4000
       - Item: Golden_Jewel
-        Rate: 750
-      - Item: Star_Dust_Blade
-        Rate: 50
-      - Item: Angel's_Warmth
-        Rate: 500
-      - Item: Light_Granule
-        Rate: 250
-      - Item: Monster_Juice
-        Rate: 25
+        Rate: 10000
       - Item: Vagabond_Wolf_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 40 ######################################
@@ -369,10 +329,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Queen's_Hair_Ornament
-        Rate: 1000
+      - Item: Violet_Jewel
+        Rate: 10000
       - Item: Maya_Puple_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 50 ######################################
@@ -410,22 +370,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Puppy_Love
-        Rate: 1
-      - Item: Silver_Knife_Of_Chaste
-        Rate: 75
-      - Item: Punisher
-        Rate: 3
-      - Item: Elunium
-        Rate: 300
-      - Item: Oridecon
-        Rate: 400
-      - Item: Gold
-        Rate: 1
-      - Item: Old_Violet_Box
-        Rate: 1
+      - Item: Blue_Jewel
+        Rate: 10000
       - Item: Cat_O_Nine_Tail_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 60 ######################################
@@ -465,22 +413,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Brigan
-        Rate: 750
-      - Item: Steel
-        Rate: 400
-      - Item: Oridecon_Stone
-        Rate: 60
-      - Item: Goblin_Mask_04
-        Rate: 25
-      - Item: Shield_
-        Rate: 1
-      - Item: Yellow_Herb
-        Rate: 325
-      - Item: Angry_Mouth
-        Rate: 5
+      - Item: Red_Jewel
+        Rate: 10000
       - Item: Goblin_Leader_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 70 ######################################
@@ -518,20 +454,12 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Angelic_Chain
-        Rate: 50
-      - Item: Scapulare_
-        Rate: 30
-      - Item: Spirit_Chain
-        Rate: 1
-      - Item: White_Herb
-        Rate: 1000
-      - Item: Apple
-        Rate: 14
-      - Item: Emperium
-        Rate: 20
+      - Item: Poring_Doll
+        Rate: 10000
+      - Item: Cardinal_Jewel
+        Rate: 5000
       - Item: Angeling_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 80 ######################################
@@ -571,23 +499,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Steel
-        Rate: 225
-      - Item: Cobold_Hair
-        Rate: 3153
-      - Item: Zargon
-        Rate: 600
-      - Item: Scarlet_Mace
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Mighty_Staff
-        Rate: 1
-      - Item: Panacea
-        Rate: 75
-      - Item: Royal_Jelly
-        Rate: 50
+      - Item: Golden_Jewel
+        Rate: 10000
       - Item: Kobold_Leader_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1120
@@ -624,22 +539,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Transparent_Cloth
-        Rate: 2668
-      - Item: Ghost_Bandana
-        Rate: 50
-      - Item: Thief_Clothes_
-        Rate: 25
-      - Item: Branch_Of_Dead_Tree
-        Rate: 250
-      - Item: Old_Blue_Box
-        Rate: 5
-      - Item: Emperium
-        Rate: 15
-      - Item: Ghost_Scroll_1_5
-        Rate: 50
+      - Item: White_Jewel
+        Rate: 10000
       - Item: Ghostring_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 90 ######################################
@@ -676,20 +579,12 @@ Body:
     Ai: 21
     Class: Boss
     Drops:
-      - Item: Satanic_Chain
-        Rate: 3
-      - Item: Seed_Of_Yggdrasil
-        Rate: 75
-      - Item: Agate
-        Rate: 750
-      - Item: Angelic_Chain
-        Rate: 3
-      - Item: Plate_Armor_
-        Rate: 2
       - Item: Turquoise
-        Rate: 750
+        Rate: 10000
+      - Item: Blue_Jewel
+        Rate: 5000
       - Item: Archangeling_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
   
   - Id: 1582
@@ -725,26 +620,11 @@ Body:
     Class: Boss
     Modes:
       Mvp: true
-    MvpDrops:
-      - Item: Blade_Lost_In_Darkness
-        Rate: 1000
     Drops:
-      - Item: Petite_DiablOfs_Wing
-        Rate: 1500
-      - Item: Zargon
-        Rate: 2425
-      - Item: Satanic_Chain
-        Rate: 50
-      - Item: Apple
-        Rate: 2500
-      - Item: Blade_Lost_In_Darkness
-        Rate: 1
-      - Item: Black_Dyestuffs
-        Rate: 50
-      - Item: Ghost_Scroll_1_3
-        Rate: 50
+      - Item: Skyblue_Jewel
+        Rate: 10000
       - Item: Deviling_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Level 99 ######################################
@@ -782,22 +662,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Brigan
-        Rate: 2668
-      - Item: Slender_Snake
-        Rate: 1250
-      - Item: Lemon
-        Rate: 500
-      - Item: War_Axe
-        Rate: 1
       - Item: Citrine
-        Rate: 750
-      - Item: Great_Axe
-        Rate: 1
-      - Item: Oridecon
-        Rate: 80
+        Rate: 10000
       - Item: Chimera_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1204
@@ -836,24 +704,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Old_Hilt
-        Rate: 1
-      - Item: Silver_Knife_Of_Chaste
-        Rate: 25
       - Item: Muscovite
-        Rate: 750
-      - Item: Scarlet_Dagger
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Scarlet_Saber
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Steel
-        Rate: 60
-      - Item: Oridecon
-        Rate: 95
+        Rate: 10000
       - Item: Tirfing_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1205
@@ -891,23 +745,10 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Bloody_Edge
-        Rate: 3
       - Item: Phlogopite
-        Rate: 750
-      - Item: Lapier_
-        Rate: 40
-      - Item: Scimiter_
-        Rate: 30
-      - Item: Scarlet_Saber
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Steel
-        Rate: 60
-      - Item: Oridecon
-        Rate: 73
+        Rate: 10000
       - Item: Executioner_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1203
@@ -945,23 +786,8 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Loki's_Whispers
-        Rate: 1
       - Item: Biotite
-        Rate: 750
-      - Item: Scarlet_Dagger
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Scarlet_Saber
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Scarlet_Twohand_Sword
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Runstone_Mystic
-        Rate: 150
-      - Item: Oridecon
-        Rate: 122
+        Rate: 10000
       - Item: Mysteltainn_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

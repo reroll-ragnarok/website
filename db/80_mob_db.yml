@@ -37,21 +37,11 @@ Body:
     Ai: 19
     Drops:
       - Item: Vroken_Sword
-        Rate: 2183
+        Rate: 10000
       - Item: Honey_Jar
-        Rate: 1250
-      - Item: Elunium_Stone
-        Rate: 10
-      - Item: Scarlet_Saber
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Scarlet_Dagger
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Undershirt
-        Rate: 50
+        Rate: 5000
       - Item: Pasana_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1146
@@ -84,18 +74,12 @@ Body:
     DamageMotion: 360
     Ai: 19
     Drops:
-      - Item: Matyr's_Flea_Guard
-        Rate: 5
-      - Item: Monster's_Feed
-        Rate: 2500
+      - Item: Pet_Food
+        Rate: 10000
       - Item: Animal's_Skin
-        Rate: 2750
-      - Item: Elunium_Stone
-        Rate: 50
-      - Item: Grape
-        Rate: 100
+        Rate: 5000
       - Item: Matyr_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -129,22 +113,12 @@ Body:
     DamageMotion: 576
     Ai: 21
     Drops:
-      - Item: Runstone_Ancient
-        Rate: 5
-      - Item: Healing_Staff
-        Rate: 5
-      - Item: White_Wing_Suits
-        Rate: 50
-      - Item: Oridecon
-        Rate: 53
       - Item: Sacred_Masque
-        Rate: 2183
-      - Item: Mitten_Of_Presbyter
-        Rate: 1
-      - Item: Blessed_Wand
-        Rate: 2
+        Rate: 10000
+      - Item: Skel_Bone
+        Rate: 5000
       - Item: Anubis_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -182,21 +156,11 @@ Body:
       Detector: true
     Drops:
       - Item: Horseshoe
-        Rate: 3000
-      - Item: Blue_Herb
-        Rate: 250
-      - Item: Rosary
-        Rate: 1
-      - Item: Old_Blue_Box
-        Rate: 15
+        Rate: 10000
       - Item: Blue_Potion
-        Rate: 50
-      - Item: Infiltrator
-        Rate: 1
-      - Item: Oridecon
-        Rate: 30
+        Rate: 1000
       - Item: Nightmare_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1109
@@ -234,21 +198,11 @@ Body:
       Detector: true
     Drops:
       - Item: Petite_DiablOfs_Horn
-        Rate: 2668
+        Rate: 10000
       - Item: Petite_DiablOfs_Wing
-        Rate: 200
-      - Item: Oridecon
-        Rate: 1
-      - Item: Partizan_
-        Rate: 1
-      - Item: Sacred_Marks
-        Rate: 3
-      - Item: Strange_Foxtail
-        Rate: 20
-      - Item: Oridecon_Stone
-        Rate: 77
+        Rate: 2500
       - Item: Deviruchi_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Alberta #######################################
@@ -285,22 +239,12 @@ Body:
     DamageMotion: 600
     Ai: 10
     Drops:
-      - Item: Emveretarcon
-        Rate: 13
       - Item: Tentacle
-        Rate: 2750
+        Rate: 10000
       - Item: Sticky_Mucus
-        Rate: 750
-      - Item: Detrimindexta
-        Rate: 10
-      - Item: Panacea
-        Rate: 3
-      - Item: Meat
-        Rate: 350
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Hydra_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1216
@@ -336,21 +280,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Coral_Reef
-        Rate: 2425
+        Rate: 10000
       - Item: Tentacle
-        Rate: 4000
-      - Item: Sticky_Mucus
-        Rate: 3500
-      - Item: Panacea
-        Rate: 100
-      - Item: Violet_Jewel
-        Rate: 8
-      - Item: Katar_Of_Raging_Blaze
-        Rate: 1
-      - Item: Red_Gemstone
-        Rate: 275
+        Rate: 5000
       - Item: Penomena_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -388,18 +322,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Sparkling_Dust
-        Rate: 75
       - Item: Transparent_Cloth
-        Rate: 2668
-      - Item: Spirit_Chain
-        Rate: 1
-      - Item: Silver_Robe_
-        Rate: 5
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 10000
+      - Item: Sparkling_Dust
+        Rate: 5000
       - Item: Whisper_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -436,15 +364,11 @@ Body:
       Detector: true
     Drops:
       - Item: Sparkling_Dust
-        Rate: 75
+        Rate: 10000
       - Item: Transparent_Cloth
-        Rate: 2668
-      - Item: Spirit_Chain
-        Rate: 1
-      - Item: Silver_Robe_
-        Rate: 5
+        Rate: 5000
       - Item: Whisper_Boss_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -481,17 +405,11 @@ Body:
       Detector: true
     Drops:
       - Item: Dragon_Fly_Wing
-        Rate: 2207
+        Rate: 10000
       - Item: Round_Shell
-        Rate: 200
-      - Item: Solid_Shell
-        Rate: 400
-      - Item: Fancy_Flower
-        Rate: 4
-      - Item: Cap
-        Rate: 1
+        Rate: 5000
       - Item: Dragon_Tail_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -529,21 +447,11 @@ Body:
       Detector: true
     Drops:
       - Item: Slender_Snake
-        Rate: 2668
-      - Item: Whip_Of_Red_Flame
-        Rate: 125
+        Rate: 10000
       - Item: Animal_Blood
-        Rate: 100
-      - Item: Sea_Witch_Foot
-        Rate: 10
-      - Item: Scarlet_Jewel
-        Rate: 125
-      - Item: Rafini_Staff
-        Rate: 3
-      - Item: Penetration
-        Rate: 2
+        Rate: 5000
       - Item: Medusa_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1493
@@ -576,22 +484,12 @@ Body:
     DamageMotion: 576
     Ai: 04
     Drops:
-      - Item: Tough_Vines
-        Rate: 2668
-      - Item: Great_Leaf
-        Rate: 500
-      - Item: Browny_Root
-        Rate: 1500
-      - Item: Pineapple
-        Rate: 150
-      - Item: Chemeti
-        Rate: 1
-      - Item: Centimental_Leaf
-        Rate: 5
       - Item: Sharp_Leaf
-        Rate: 1500
+        Rate: 10000
+      - Item: Tough_Vines
+        Rate: 5000
       - Item: Dryad_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1114
@@ -627,19 +525,11 @@ Body:
       Detector: true
     Drops:
       - Item: Moth_Dust
-        Rate: 4500
+        Rate: 10000
       - Item: Wing_Of_Moth
-        Rate: 250
-      - Item: Masquerade
-        Rate: 2
-      - Item: Insect_Feeler
-        Rate: 1000
-      - Item: Sparkling_Dust
-        Rate: 5
-      - Item: Red_Herb
-        Rate: 600
+        Rate: 5000
       - Item: Dustiness_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Al De Baran #######################################
@@ -677,21 +567,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Needle_Of_Alarm
-        Rate: 2668
-      - Item: Wooden_Block
-        Rate: 400
-      - Item: White_Herb
-        Rate: 950
-      - Item: Lemon
-        Rate: 160
+        Rate: 10000
       - Item: Key_Of_Clock_Tower
-        Rate: 15
-      - Item: Underground_Key
-        Rate: 15
-      - Item: Elunium
-        Rate: 82
+        Rate: 5000
       - Item: Clock_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1193
@@ -727,19 +607,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Needle_Of_Alarm
-        Rate: 2668
-      - Item: Clip
-        Rate: 1
+        Rate: 10000
       - Item: Skull
-        Rate: 750
-      - Item: Oridecon
-        Rate: 53
-      - Item: Key_Of_Clock_Tower
-        Rate: 10
-      - Item: Zargon
-        Rate: 750
+        Rate: 5000
       - Item: Alarm_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -775,22 +647,12 @@ Body:
     DamageMotion: 384
     Ai: 17
     Drops:
-      - Item: Needle_Of_Alarm
-        Rate: 2668
-      - Item: Brigan
-        Rate: 2668
       - Item: Steel
-        Rate: 250
-      - Item: Leaflet_Of_Hinal
-        Rate: 425
-      - Item: Memorize_Book
-        Rate: 1
-      - Item: Key_Of_Clock_Tower
-        Rate: 1000
+        Rate: 10000
       - Item: Underground_Key
         Rate: 1000
       - Item: C_Tower_Manager_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Yuno #######################################
@@ -826,19 +688,11 @@ Body:
     Ai: 03
     Drops:
       - Item: Goat's_Horn
-        Rate: 2280
+        Rate: 10000
       - Item: Gaoat's_Skin
-        Rate: 1250
-      - Item: Red_Herb
-        Rate: 250
-      - Item: Blue_Herb
-        Rate: 500
-      - Item: Yellow_Herb
-        Rate: 1250
-      - Item: Green_Herb
-        Rate: 2750
+        Rate: 5000
       - Item: Goat_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1368
@@ -872,19 +726,11 @@ Body:
     Ai: 10
     Drops:
       - Item: Blossom_Of_Maneater
-        Rate: 3100
+        Rate: 10000
       - Item: Root_Of_Maneater
-        Rate: 2750
-      - Item: Sunflower
-        Rate: 15
-      - Item: Fancy_Flower
-        Rate: 25
-      - Item: Holy_Scroll_1_5
-        Rate: 50
-      - Item: Very_Soft_Plant
-        Rate: 5
+        Rate: 5000
       - Item: Geographer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Glastheim #######################################
@@ -919,23 +765,12 @@ Body:
     DamageMotion: 336
     Ai: 21
     Drops:
-      - Item: Biretta_
-        Rate: 5
-      - Item: Bone_Wand
-        Rate: 1
-      - Item: Ragamuffin_Cape
-        Rate: 1
-      - Item: Scarlet_Bible
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Elixir_Bandage
-        Rate: 5
-      - Item: Cookbook07
-        Rate: 2
-      - Item: White_Herb
-        Rate: 1000
+      - Item: Rent_Spell_Book
+        Rate: 10000
+      - Item: Skull
+        Rate: 5000
       - Item: Evil_Druid_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1192
@@ -968,20 +803,12 @@ Body:
     DamageMotion: 240
     Ai: 21
     Drops:
+      - Item: Skull
+        Rate: 10000
       - Item: Transparent_Cloth
-        Rate: 2910
-      - Item: Wedding_Veil
-        Rate: 5
-      - Item: Manteau_
-        Rate: 1
-      - Item: Red_Gemstone
-        Rate: 325
-      - Item: Manteau
-        Rate: 5
-      - Item: Crystal_Jewel_
-        Rate: 3
+        Rate: 5000
       - Item: Wraith_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1291
@@ -1014,22 +841,12 @@ Body:
     DamageMotion: 240
     Ai: 21
     Drops:
+      - Item: Skull
+        Rate: 10000
       - Item: Transparent_Cloth
-        Rate: 2207
-      - Item: Wedding_Veil
-        Rate: 5
-      - Item: Manteau_
-        Rate: 4
-      - Item: Red_Gemstone
-        Rate: 350
-      - Item: Crystal_Jewel__
-        Rate: 3
-      - Item: Old_Blue_Box
-        Rate: 2
-      - Item: Black_Rosary
-        Rate: 2
+        Rate: 5000
       - Item: Wraith_Dead_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -1064,23 +881,12 @@ Body:
     Ai: 21
     Class: Boss
     Drops:
-      - Item: Bone_Wand
-        Rate: 2
-      - Item: Bone_Helm
-        Rate: 1
-      - Item: Ragamuffin_Cape
-        Rate: 2
+      - Item: Skull
+        Rate: 10000
       - Item: Brigan
-        Rate: 2668
-      - Item: Fruit_Of_Mastela
-        Rate: 60
-      - Item: White_Herb
-        Rate: 775
-      - Item: Scarlet_Twohand_Sword
-        Rate: 50
-        RandomOptionGroup: Group_5
+        Rate: 5000
       - Item: Dark_Illusion_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1257
@@ -1113,23 +919,12 @@ Body:
     DamageMotion: 336
     Ai: 21
     Drops:
-      - Item: Steel
-        Rate: 150
-      - Item: Brigan
-        Rate: 2668
+      - Item: Manacles
+        Rate: 10000
       - Item: Cyfar
-        Rate: 1750
-      - Item: Padded_Armor_
-        Rate: 3
-      - Item: Plate_Armor
-        Rate: 1
-      - Item: Prohibition_Red_Candle
-        Rate: 1
-      - Item: Scarlet_Katar
-        Rate: 50
-        RandomOptionGroup: Group_5
+        Rate: 5000
       - Item: Injustice_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1201
@@ -1165,21 +960,11 @@ Body:
       Detector: true
     Drops:
       - Item: Thin_N'_Long_Tongue
-        Rate: 1940
+        Rate: 10000
       - Item: Executioner's_Mitten
-        Rate: 2
-      - Item: White_Herb
-        Rate: 900
-      - Item: Oil_Bottle
-        Rate: 150
-      - Item: Frozen_Heart
-        Rate: 5
-      - Item: Oridecon
-        Rate: 50
-      - Item: Izidor
-        Rate: 15
+        Rate: 1000
       - Item: Rybio_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1202
@@ -1215,17 +1000,9 @@ Body:
       - Item: Thin_N'_Long_Tongue
         Rate: 1940
       - Item: Executioner's_Mitten
-        Rate: 2
-      - Item: White_Herb
-        Rate: 900
-      - Item: Oridecon
-        Rate: 75
-      - Item: Electric_Wire
-        Rate: 50
-      - Item: Oil_Bottle
-        Rate: 250
+        Rate: 1000
       - Item: Phendark_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -1261,19 +1038,9 @@ Body:
     Ai: 13
     Drops:
       - Item: Executioner's_Mitten
-        Rate: 3
-      - Item: Black_Butterfly_Mask
-        Rate: 5
+        Rate: 10000
       - Item: Rose_Quartz
-        Rate: 750
-      - Item: Tights_
-        Rate: 4
-      - Item: Earring_
-        Rate: 1
-      - Item: Queen's_Whip
-        Rate: 50
-      - Item: Masquerade
-        Rate: 2
+        Rate: 5000
       - Item: Zherlthsh_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

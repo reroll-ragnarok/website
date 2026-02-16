@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Rotten_Bandage",
-      "Rate": 2207
+      "Rate": 10000
     },
     {
       "Item": "Mementos",
-      "Rate": 900
-    },
-    {
-      "Item": "Glove_",
-      "Rate": 1
-    },
-    {
-      "Item": "Silver_Ring",
-      "Rate": 75
-    },
-    {
-      "Item": "Runstone_Ancient",
-      "Rate": 5
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 75
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Ancient_Mummy_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

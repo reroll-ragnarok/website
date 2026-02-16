@@ -33,28 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 2328
-    },
-    {
       "Item": "Red_Frame",
-      "Rate": 500
-    },
-    {
-      "Item": "Manteau",
-      "Rate": 15
-    },
-    {
-      "Item": "Star_Crumb",
-      "Rate": 40
+      "Rate": 5000
     },
     {
       "Item": "Crystal_Mirror",
-      "Rate": 2
+      "Rate": 1000
     },
     {
       "Item": "Dark_Frame_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

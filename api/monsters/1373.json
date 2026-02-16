@@ -37,50 +37,30 @@
   },
   "MvpDrops": [
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 5500
+      "Item": "Boroken_Shiled_Piece",
+      "Rate": 10000
     },
     {
-      "Item": "Crystal_Jewel__",
-      "Rate": 5000
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 5000
+      "Item": "Shine_Spear_Blade",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
+    },
+    {
       "Item": "Boroken_Shiled_Piece",
-      "Rate": 2668
-    },
-    {
-      "Item": "Pole_Axe",
-      "Rate": 3
-    },
-    {
-      "Item": "House_Auger",
-      "Rate": 5
-    },
-    {
-      "Item": "Ring_",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Shine_Spear_Blade",
-      "Rate": 5
-    },
-    {
-      "Item": "War_Axe",
-      "Rate": 1
-    },
-    {
-      "Item": "Iron_Driver",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Lord_Of_Death_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

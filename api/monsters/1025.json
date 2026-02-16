@@ -32,35 +32,15 @@
   "Drops": [
     {
       "Item": "Scale_Of_Snakes",
-      "Rate": 8000
-    },
-    {
-      "Item": "Katana_",
-      "Rate": 20
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 800
-    },
-    {
-      "Item": "Emveretarcon",
-      "Rate": 100
-    },
-    {
-      "Item": "Posionous_Canine",
-      "Rate": 800
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 10000
     },
     {
       "Item": "Strawberry",
-      "Rate": 3000
+      "Rate": 2500
     },
     {
       "Item": "Snake_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

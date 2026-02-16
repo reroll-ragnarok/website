@@ -35,7 +35,7 @@
   },
   "Drops": [
     {
-      "Item": "Orange_Juice",
+      "Item": "Grasshopper_Doll",
       "Rate": 10000
     },
     {
@@ -43,16 +43,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Grasshopper_Doll",
-      "Rate": 2500
-    },
-    {
-      "Item": "Guitar_Of_Gentle_Breeze",
-      "Rate": 50
-    },
-    {
       "Item": "Vocal_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

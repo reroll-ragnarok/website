@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Danggie",
-      "Rate": 4500
-    },
-    {
-      "Item": "Munak_Turban",
-      "Rate": 1
-    },
-    {
-      "Item": "Shoes_",
-      "Rate": 8
+      "Rate": 10000
     },
     {
       "Item": "Amulet",
-      "Rate": 10
-    },
-    {
-      "Item": "Ninja_Suit",
-      "Rate": 1
-    },
-    {
-      "Item": "Adventure_Suit",
-      "Rate": 50
-    },
-    {
-      "Item": "Girl's_Diary",
-      "Rate": 3
+      "Rate": 5000
     },
     {
       "Item": "Munak_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

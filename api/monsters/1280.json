@@ -31,36 +31,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Scell",
-      "Rate": 1250
-    },
-    {
-      "Item": "Cyfar",
-      "Rate": 1940
-    },
-    {
-      "Item": "Iron",
-      "Rate": 150
+      "Item": "Coal",
+      "Rate": 10000
     },
     {
       "Item": "Steel",
-      "Rate": 28
-    },
-    {
-      "Item": "Coal",
-      "Rate": 160
-    },
-    {
-      "Item": "The_Garrison",
-      "Rate": 3
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 62
+      "Rate": 5000
     },
     {
       "Item": "Steam_Goblin_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

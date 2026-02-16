@@ -37,49 +37,25 @@
   "MvpDrops": [
     {
       "Item": "Fox_Tail",
-      "Rate": 5000
+      "Rate": 10000
     },
     {
-      "Item": "White_Potion",
-      "Rate": 1500
+      "Item": "Fox_Tail",
+      "Rate": 10000
     },
     {
-      "Item": "Golden_Jewel",
-      "Rate": 500
+      "Item": "Fox_Tail",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Spectral_Spear",
-      "Rate": 250
-    },
-    {
-      "Item": "Moonlight_Sword",
-      "Rate": 50
-    },
-    {
-      "Item": "Long_Mace",
-      "Rate": 75
-    },
-    {
-      "Item": "Punisher",
-      "Rate": 250
-    },
-    {
-      "Item": "Silver_Knife_Of_Chaste",
-      "Rate": 325
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1300
-    },
-    {
-      "Item": "Staff_Of_Bordeaux",
-      "Rate": 50
+      "Item": "Flame_Heart",
+      "Rate": 10000
     },
     {
       "Item": "Moonlight_Flower_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

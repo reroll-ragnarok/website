@@ -33,37 +33,16 @@
   "Ai": 13,
   "Drops": [
     {
-      "Item": "Boody_Red",
-      "Rate": 18
-    },
-    {
-      "Item": "Steel",
-      "Rate": 50
-    },
-    {
       "Item": "Cobold_Hair",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
-      "Item": "Zargon",
-      "Rate": 100
-    },
-    {
-      "Item": "Scarlet_Twohand_Axe",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Doram_Only_Cape",
-      "Rate": 20
-    },
-    {
-      "Item": "Doram_Only_Suit",
-      "Rate": 20
+      "Item": "Animal_Blood",
+      "Rate": 5000
     },
     {
       "Item": "Kobold_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

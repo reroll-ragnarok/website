@@ -32,36 +32,16 @@
   "Class": "Boss",
   "Drops": [
     {
-      "Item": "Ice_Fragment",
-      "Rate": 50
-    },
-    {
       "Item": "Nipper",
-      "Rate": 2500
+      "Rate": 10000
     },
     {
       "Item": "Solid_Shell",
-      "Rate": 2500
-    },
-    {
-      "Item": "Spike",
-      "Rate": 25
-    },
-    {
-      "Item": "Light_Granule",
-      "Rate": 100
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 25
-    },
-    {
-      "Item": "Crystal_Blue",
-      "Rate": 25
+      "Rate": 5000
     },
     {
       "Item": "King_Dramoh_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

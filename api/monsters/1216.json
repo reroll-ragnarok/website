@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Coral_Reef",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
       "Item": "Tentacle",
-      "Rate": 4000
-    },
-    {
-      "Item": "Sticky_Mucus",
-      "Rate": 3500
-    },
-    {
-      "Item": "Panacea",
-      "Rate": 100
-    },
-    {
-      "Item": "Violet_Jewel",
-      "Rate": 8
-    },
-    {
-      "Item": "Katar_Of_Raging_Blaze",
-      "Rate": 1
-    },
-    {
-      "Item": "Red_Gemstone",
-      "Rate": 275
+      "Rate": 5000
     },
     {
       "Item": "Penomena_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

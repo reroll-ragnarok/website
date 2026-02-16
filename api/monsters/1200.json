@@ -32,35 +32,15 @@
   "Drops": [
     {
       "Item": "Executioner's_Mitten",
-      "Rate": 3
-    },
-    {
-      "Item": "Black_Butterfly_Mask",
-      "Rate": 5
+      "Rate": 10000
     },
     {
       "Item": "Rose_Quartz",
-      "Rate": 750
-    },
-    {
-      "Item": "Tights_",
-      "Rate": 4
-    },
-    {
-      "Item": "Earring_",
-      "Rate": 1
-    },
-    {
-      "Item": "Queen's_Whip",
-      "Rate": 50
-    },
-    {
-      "Item": "Masquerade",
-      "Rate": 2
+      "Rate": 5000
     },
     {
       "Item": "Zherlthsh_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

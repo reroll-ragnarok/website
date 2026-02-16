@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Horseshoe",
-      "Rate": 3000
-    },
-    {
-      "Item": "Blue_Herb",
-      "Rate": 250
-    },
-    {
-      "Item": "Rosary",
-      "Rate": 1
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 15
+      "Rate": 10000
     },
     {
       "Item": "Blue_Potion",
-      "Rate": 50
-    },
-    {
-      "Item": "Infiltrator",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 30
+      "Rate": 1000
     },
     {
       "Item": "Nightmare_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

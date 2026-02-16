@@ -34,36 +34,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Item": "Orcish_Cuspid",
+      "Rate": 10000
     },
     {
       "Item": "Orcish_Voucher",
-      "Rate": 4500
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 20
-    },
-    {
-      "Item": "Cigar",
-      "Rate": 2
-    },
-    {
-      "Item": "Battle_Axe_",
-      "Rate": 5
-    },
-    {
-      "Item": "Orcish_Axe",
-      "Rate": 3
-    },
-    {
-      "Item": "Round_Buckler",
-      "Rate": 2
+      "Rate": 5000
     },
     {
       "Item": "Orc_Warrior_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -37,16 +37,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Insect_Feeler",
-      "Rate": 5000
-    },
-    {
       "Item": "Crystal_Blue",
-      "Rate": 500
+      "Rate": 2500
     },
     {
       "Item": "Vitata_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

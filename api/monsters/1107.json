@@ -35,11 +35,11 @@
     },
     {
       "Item": "Meat",
-      "Rate": 2500
+      "Rate": 5000
     },
     {
       "Item": "Desert_Wolf_Babe_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

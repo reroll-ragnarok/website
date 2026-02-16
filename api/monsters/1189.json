@@ -35,35 +35,15 @@
   "Drops": [
     {
       "Item": "Sharpened_Cuspid",
-      "Rate": 2328
+      "Rate": 10000
     },
     {
-      "Item": "Steel_Arrow",
-      "Rate": 500
-    },
-    {
-      "Item": "Stone_Arrow",
-      "Rate": 1250
-    },
-    {
-      "Item": "Arrow_Of_Wind",
-      "Rate": 1250
-    },
-    {
-      "Item": "Orc_Archer_Bow",
-      "Rate": 1
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 700
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 450
+      "Item": "Orcish_Voucher",
+      "Rate": 5000
     },
     {
       "Item": "Orc_Archer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

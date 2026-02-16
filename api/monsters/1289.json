@@ -34,12 +34,12 @@
   },
   "Drops": [
     {
-      "Item": "Queen's_Hair_Ornament",
-      "Rate": 1000
+      "Item": "Violet_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Maya_Puple_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

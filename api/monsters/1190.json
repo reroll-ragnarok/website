@@ -40,45 +40,21 @@
   "MvpDrops": [
     {
       "Item": "Voucher_Of_Orcish_Hero",
-      "Rate": 5500
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 2000
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Brood_Axe",
-      "Rate": 200
+      "Item": "Great_Nature",
+      "Rate": 10000
     },
     {
-      "Item": "Ring_",
-      "Rate": 200
-    },
-    {
-      "Item": "Loard_Circlet",
-      "Rate": 200
-    },
-    {
-      "Item": "Doom_Slayer_",
-      "Rate": 200
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 500
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2134
-    },
-    {
-      "Item": "Erde",
-      "Rate": 1550
+      "Item": "Voucher_Of_Orcish_Hero",
+      "Rate": 5000
     },
     {
       "Item": "Orc_Load_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

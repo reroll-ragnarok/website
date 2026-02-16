@@ -3,9 +3,9 @@
   "AegisName": "PECOPECO",
   "Name": "Peco Peco",
   "Level": 10,
-  "Hp": 269,
-  "BaseExp": 500,
-  "JobExp": 250,
+  "Hp": 169,
+  "BaseExp": 300,
+  "JobExp": 150,
   "Attack": 16,
   "Attack2": 7,
   "Defense": 15,
@@ -38,7 +38,7 @@
     },
     {
       "Item": "Pecopeco_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
@@ -51,7 +51,7 @@
       "ys": 0,
       "mobId": 1019,
       "mobName": "Peco Peco",
-      "amount": 5,
+      "amount": 25,
       "respawnTime": 5000
     }
   ]

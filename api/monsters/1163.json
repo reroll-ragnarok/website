@@ -30,36 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Elunium",
-      "Rate": 53
-    },
-    {
-      "Item": "Iron_Cane",
-      "Rate": 1
-    },
-    {
-      "Item": "Chain_Mail_",
-      "Rate": 1
-    },
-    {
-      "Item": "Two_Hand_Sword_",
-      "Rate": 1
-    },
-    {
-      "Item": "Peuz_Plate",
-      "Rate": 5
-    },
-    {
-      "Item": "Patriotism_Marks",
-      "Rate": 5
-    },
-    {
       "Item": "Brigan",
-      "Rate": 2425
+      "Rate": 10000
+    },
+    {
+      "Item": "Elunium",
+      "Rate": 1000
     },
     {
       "Item": "Daydric_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

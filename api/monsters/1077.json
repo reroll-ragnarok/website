@@ -4,8 +4,8 @@
   "Name": "Poison Spore",
   "Level": 20,
   "Hp": 280,
-  "BaseExp": 150,
-  "JobExp": 100,
+  "BaseExp": 450,
+  "JobExp": 300,
   "Attack": 30,
   "Attack2": 8,
   "Defense": 18,
@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Poison_Spore",
-      "Rate": 4500
-    },
-    {
-      "Item": "Hat_",
-      "Rate": 10
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 275
-    },
-    {
-      "Item": "Blue_Herb",
-      "Rate": 30
-    },
-    {
-      "Item": "Karvodailnirol",
-      "Rate": 25
+      "Rate": 10000
     },
     {
       "Item": "Mushroom_Spore",
-      "Rate": 600
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Poison_Spore_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
@@ -72,7 +52,7 @@
       "ys": 0,
       "mobId": 1077,
       "mobName": "Poison Spore",
-      "amount": 50,
+      "amount": 25,
       "respawnTime": 5000
     }
   ]

@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Skel_Bone",
-      "Rate": 1500
+      "Rate": 10000
     },
     {
-      "Item": "Pirate_Bandana",
-      "Rate": 8
-    },
-    {
-      "Item": "Cookbook06",
-      "Rate": 3
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Falchion",
-      "Rate": 125
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 22
-    },
-    {
-      "Item": "Well_Dried_Bone",
-      "Rate": 10
+      "Item": "Unripe_Apple",
+      "Rate": 1000
     },
     {
       "Item": "Pirate_Skel_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

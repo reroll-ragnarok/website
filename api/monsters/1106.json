@@ -30,37 +30,16 @@
   "Ai": 13,
   "Drops": [
     {
-      "Item": "Katar_",
-      "Rate": 1
-    },
-    {
       "Item": "Claw_Of_Desert_Wolf",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
-      "Item": "Mink_Coat",
-      "Rate": 1
-    },
-    {
-      "Item": "Wolf_Blood",
-      "Rate": 5
-    },
-    {
-      "Item": "Durga",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 27
-    },
-    {
-      "Item": "Scarlet_Dagger",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Item": "Animal's_Skin",
+      "Rate": 5000
     },
     {
       "Item": "Desert_Wolf_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

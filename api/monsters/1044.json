@@ -30,36 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Mistic_Frozen",
-      "Rate": 7
-    },
-    {
       "Item": "Heart_Of_Mermaid",
-      "Rate": 4500
-    },
-    {
-      "Item": "Fin_Helm",
-      "Rate": 1
-    },
-    {
-      "Item": "Saint_Robe_",
-      "Rate": 5
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 5
+      "Rate": 10000
     },
     {
       "Item": "Fin",
-      "Rate": 250
-    },
-    {
-      "Item": "Witherless_Rose",
-      "Rate": 15
+      "Rate": 5000
     },
     {
       "Item": "Obeaune_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

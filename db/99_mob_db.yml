@@ -40,21 +40,11 @@ Body:
     Ai: 19
     Drops:
       - Item: Cold_Magma
-        Rate: 2280
+        Rate: 10000
       - Item: Burning_Heart
-        Rate: 1843
-      - Item: Plate_Armor_
-        Rate: 1
-      - Item: Crimson_Robe
-        Rate: 1
-      - Item: White_Herb
-        Rate: 1250
-      - Item: Magma_Fist
-        Rate: 10
-      - Item: Black_Powder
-        Rate: 250
+        Rate: 5000
       - Item: Lava_Golem_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1367
@@ -89,14 +79,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Burning_Heart
-        Rate: 1200
       - Item: Live_Coal
-        Rate: 850
-      - Item: White_Herb
-        Rate: 700
+        Rate: 10000
+      - Item: Burning_Heart
+        Rate: 5000
       - Item: Blazzer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1383
@@ -129,18 +117,12 @@ Body:
     DamageMotion: 336
     Ai: 04
     Drops:
-      - Item: Wing_Of_Red_Bat
-        Rate: 2750
-      - Item: Burning_Heart
-        Rate: 1100
       - Item: Hot_Hair
-        Rate: 1600
-      - Item: Oridecon_Stone
-        Rate: 400
-      - Item: Fruit_Of_Mastela
-        Rate: 200
+        Rate: 10000
+      - Item: Burning_Heart
+        Rate: 5000
       - Item: Explosion_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1072
@@ -175,22 +157,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Flame_Heart
-        Rate: 15
-      - Item: Coal
-        Rate: 75
-      - Item: Burning_Heart
-        Rate: 1500
-      - Item: Fire_Scroll_1_3
-        Rate: 50
-      - Item: Elunium_Stone
-        Rate: 500
-      - Item: Red_Gemstone
-        Rate: 150
       - Item: Alchol
-        Rate: 3
+        Rate: 10000
+      - Item: Burning_Heart
+        Rate: 5000
       - Item: Kaho_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
   
 ####################################### Nifhleim #######################################
@@ -226,19 +198,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Dullahan's_Helm
-        Rate: 1600
+        Rate: 10000
       - Item: Dullahan_Armor
-        Rate: 2425
-      - Item: An_Eye_Of_Dullahan
-        Rate: 1
-      - Item: Manteau
-        Rate: 7
-      - Item: Manteau_
-        Rate: 1
-      - Item: Nab_Cloth
-        Rate: 5
+        Rate: 5000
       - Item: Dullahan_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1505
@@ -274,21 +238,11 @@ Body:
       Detector: true
     Drops:
       - Item: Black_Kitty_Doll
-        Rate: 400
-      - Item: Striped_Socks
-        Rate: 1500
+        Rate: 10000
       - Item: Bat_Cage
-        Rate: 2522
-      - Item: Elunium
-        Rate: 50
-      - Item: Loki's_Whispers
-        Rate: 1
-      - Item: Lunatic_Brooch
-        Rate: 3
-      - Item: Sabah_Cloth
-        Rate: 5
+        Rate: 5000
       - Item: Loli_Ruri_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -323,21 +277,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Old_Manteau
-        Rate: 2086
-      - Item: Distorted_Portrait
-        Rate: 500
+        Rate: 10000
       - Item: Rusty_Cleaver
-        Rate: 1000
-      - Item: Mr_Scream
-        Rate: 25
-      - Item: Oridecon
-        Rate: 50
-      - Item: Mama's_Knife
-        Rate: 2
-      - Item: Ginnungagap
-        Rate: 1
+        Rate: 5000
       - Item: Bloody_Murderer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Glastheim #######################################
@@ -376,22 +320,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Reins
-        Rate: 2668
+        Rate: 10000
       - Item: Blade_Lost_In_Darkness
-        Rate: 3
-      - Item: Clothes_Of_The_Lord
-        Rate: 1
-      - Item: Battle_Hook
-        Rate: 13
-      - Item: Scarlet_Twohand_Sword
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Elunium
-        Rate: 185
-      - Item: Ebone_Armor
-        Rate: 5
+        Rate: 5000
       - Item: Knight_Of_Abyss_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ### CHAMPION ###
@@ -426,21 +359,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Brigan
-        Rate: 2425
-      - Item: Helm_
-        Rate: 23
-      - Item: Plate_Armor_
-        Rate: 3
-      - Item: Strong_Shield
-        Rate: 31
-      - Item: Katzbalger
-        Rate: 1
-      - Item: Pole_Axe
-        Rate: 1
-      - Item: Ebone_Armor
-        Rate: 3
+        Rate: 10000
+      - Item: Boroken_Shiled_Piece
+        Rate: 5000
       - Item: Bloody_Knight_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1320
@@ -475,22 +398,11 @@ Body:
     Class: Boss
     Drops:
       - Item: Tatters_Clothes
-        Rate: 2207
+        Rate: 10000
       - Item: Soft_Feather
-        Rate: 750
-      - Item: Wind_Scroll_1_5
-        Rate: 50
-      - Item: Crystal_Mirror
-        Rate: 1
-      - Item: Scarlet_Lance
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Scarlet_Staff
-        Rate: 50
-      - Item: Magician_Hat
-        Rate: 1
+        Rate: 5000
       - Item: Owl_Duke_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1295
@@ -525,21 +437,11 @@ Body:
     Class: Boss
     Drops:
       - Item: Tatters_Clothes
-        Rate: 1750
+        Rate: 10000
       - Item: Soft_Feather
-        Rate: 1250
-      - Item: Scarlet_Bow
-        Rate: 50
-      - Item: Staff_Of_Soul
-        Rate: 1
-      - Item: Walking_Stick
-        Rate: 1
-      - Item: Wind_Scroll_1_5
-        Rate: 50
-      - Item: Magician_Hat
-        Rate: 3
+        Rate: 5000
       - Item: Owl_Baron_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -576,21 +478,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Alice's_Apron
-        Rate: 1250
-      - Item: Old_Broom
-        Rate: 20
-      - Item: Chrystal_Pumps
-        Rate: 2
-      - Item: Rotha_Shield
-        Rate: 1
-      - Item: Pair_Of_Red_Ribbon
-        Rate: 1
-      - Item: Imperial_Cooking_Kits
-        Rate: 5
-      - Item: Holy_Scroll_1_5
-        Rate: 50
+        Rate: 10000
+      - Item: Rouge
+        Rate: 5000
       - Item: Alice_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -626,18 +518,10 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Zargon
-        Rate: 1940
       - Item: Petite_DiablOfs_Wing
-        Rate: 250
-      - Item: Elven_Bow
-        Rate: 3
-      - Item: Thimble_Of_Archer
-        Rate: 1
-      - Item: Silence_Arrow
-        Rate: 1000
-      - Item: Elunium_Stone
-        Rate: 119
+        Rate: 10000
+      - Item: Brigan
+        Rate: 5000
       - Item: Gargoyle_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

@@ -30,28 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Matyr's_Flea_Guard",
-      "Rate": 5
-    },
-    {
-      "Item": "Monster's_Feed",
-      "Rate": 2500
+      "Item": "Pet_Food",
+      "Rate": 10000
     },
     {
       "Item": "Animal's_Skin",
-      "Rate": 2750
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 50
-    },
-    {
-      "Item": "Grape",
-      "Rate": 100
+      "Rate": 5000
     },
     {
       "Item": "Matyr_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

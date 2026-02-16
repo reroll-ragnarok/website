@@ -37,21 +37,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Rotten_Bandage
-        Rate: 2207
+        Rate: 10000
       - Item: Mementos
-        Rate: 900
-      - Item: Glove_
-        Rate: 1
-      - Item: Silver_Ring
-        Rate: 75
-      - Item: Runstone_Ancient
-        Rate: 5
-      - Item: Oridecon_Stone
-        Rate: 75
-      - Item: Elunium_Stone
-        Rate: 50
+        Rate: 5000
       - Item: Ancient_Mummy_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -90,21 +80,11 @@ Body:
       Detector: true
     Drops:
       - Item: Burning_Horse_Shoe
-        Rate: 1200
-      - Item: Rosary_
-        Rate: 1
-      - Item: Rosary
-        Rate: 15
-      - Item: Blue_Potion
-        Rate: 25
-      - Item: Blue_Herb
-        Rate: 75
-      - Item: Ghost_Scroll_1_5
-        Rate: 50
-      - Item: Infiltrator
-        Rate: 1
+        Rate: 10000
+      - Item: Flame_Heart
+        Rate: 1500
       - Item: Nightmare_Terror_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Alberta #######################################
@@ -139,22 +119,12 @@ Body:
     DamageMotion: 528
     Ai: 17
     Drops:
+      - Item: Turtle_Shell_
+        Rate: 10000
       - Item: Turtle_Shell
-        Rate: 2207
-      - Item: Coconut_Fruit
-        Rate: 100
-      - Item: Elder_Branch
-        Rate: 50
-      - Item: Red_Herb
-        Rate: 1225
-      - Item: Zargon
-        Rate: 620
-      - Item: Fruit_Of_Mastela
-        Rate: 13
-      - Item: Anodyne
-        Rate: 1
+        Rate: 5000
       - Item: Permeter_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1315
@@ -189,22 +159,12 @@ Body:
     DamageMotion: 504
     Ai: 21
     Drops:
-      - Item: Turtle_Shell
-        Rate: 2207
-      - Item: Broken_Armor_Piece
-        Rate: 600
       - Item: Rust_Suriken
-        Rate: 420
+        Rate: 10000
       - Item: Smoke_Powder
-        Rate: 100
-      - Item: Doram_Only_Cape
-        Rate: 20
-      - Item: Huuma_Bird_Wing
-        Rate: 3
-      - Item: Old_Blue_Box
-        Rate: 1
+        Rate: 5000
       - Item: Assulter_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1316
@@ -237,23 +197,12 @@ Body:
     DamageMotion: 528
     Ai: 17
     Drops:
-      - Item: Turtle_Shell
-        Rate: 2207
       - Item: Broken_Shell
-        Rate: 32
+        Rate: 10000
       - Item: Stone_Piece
-        Rate: 425
-      - Item: Yellow_Herb
-        Rate: 1050
-      - Item: Doram_Only_Shoes
-        Rate: 20
-      - Item: Honey
-        Rate: 425
-      - Item: Scarlet_Mace
-        Rate: 50
-        RandomOptionGroup: Group_5
+        Rate: 5000
       - Item: Solider_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1318
@@ -287,21 +236,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Turtle_Shell
-        Rate: 2207
-      - Item: Broken_Shell
-        Rate: 375
-      - Item: Fire_Scroll_2_5
-        Rate: 50
-      - Item: Gun_Powder
-        Rate: 500
-      - Item: Royal_Jelly
-        Rate: 70
-      - Item: Doram_Only_Suit
-        Rate: 20
+        Rate: 10000
       - Item: Burn_Tree
-        Rate: 625
+        Rate: 5000
       - Item: Heater_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1319
@@ -335,21 +274,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Turtle_Shell
-        Rate: 2207
-      - Item: Broken_Shell
-        Rate: 425
+        Rate: 10000
       - Item: Ice_Piece
-        Rate: 625
-      - Item: Zargon
-        Rate: 900
-      - Item: Royal_Jelly
-        Rate: 80
-      - Item: Ice_Fragment
-        Rate: 100
-      - Item: Cold_Scroll_1_5
-        Rate: 50
+        Rate: 5000
       - Item: Freezer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Al De Baran #######################################
@@ -389,19 +318,11 @@ Body:
       Detector: true
     Drops:
       - Item: Evil_Horn
-        Rate: 250
+        Rate: 10000
       - Item: Oridecon
-        Rate: 32
-      - Item: Halberd_
-        Rate: 1
-      - Item: Yggdrasilberry
-        Rate: 25
-      - Item: Yellow_Herb
-        Rate: 650
-      - Item: Boots
-        Rate: 25
+        Rate: 1000
       - Item: Baphomet__Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Yuno #######################################
@@ -439,19 +360,11 @@ Body:
       Detector: true
     Drops:
       - Item: Harpy's_Feather
-        Rate: 2425
+        Rate: 10000
       - Item: Harpy's_Claw
-        Rate: 1250
-      - Item: Yellow_Herb
-        Rate: 750
-      - Item: Yellow_Herb
-        Rate: 400
-      - Item: Izidor
-        Rate: 10
-      - Item: Electric_Fist
-        Rate: 10
+        Rate: 5000
       - Item: Harpy_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1259
@@ -485,23 +398,12 @@ Body:
     Ai: 21
     Class: Boss
     Drops:
-      - Item: Talon_Of_Griffin
-        Rate: 1250
-      - Item: Brigan
-        Rate: 2668
       - Item: Soft_Feather
-        Rate: 60
-      - Item: Scarlet_Lance
-        Rate: 250
-        RandomOptionGroup: Group_5
-      - Item: Pole_Axe
-        Rate: 1
-      - Item: Oridecon
-        Rate: 93
-      - Item: Rough_Wind
-        Rate: 75
+        Rate: 10000
+      - Item: Talon_Of_Griffin
+        Rate: 2500
       - Item: Gryphon_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Niflheim #######################################
@@ -539,22 +441,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Broken_Needle
-        Rate: 2183
-      - Item: Spool
-        Rate: 2668
-      - Item: Needle_Pouch
-        Rate: 1000
       - Item: Stuffed_Doll
-        Rate: 40
-      - Item: Ectoplasm
-        Rate: 150
-      - Item: Elunium_Stone
-        Rate: 5
-      - Item: Angry_Mouth
-        Rate: 1
+        Rate: 10000
+      - Item: Spool
+        Rate: 5000
       - Item: Hylozoist_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1508
@@ -588,17 +480,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Piece_Of_Black_Cloth
-        Rate: 1600
+        Rate: 10000
       - Item: Ectoplasm
-        Rate: 2862
-      - Item: Poison_Powder
-        Rate: 50
-      - Item: Oridecon_Stone
-        Rate: 5
-      - Item: Black_Powder
-        Rate: 250
+        Rate: 5000
       - Item: Quve_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1509
@@ -632,21 +518,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Pumpkin_Bucket
-        Rate: 1600
+        Rate: 10000
       - Item: Ectoplasm
-        Rate: 2862
-      - Item: Transparent_Cloth
-        Rate: 500
-      - Item: Spirit_Chain
-        Rate: 5
-      - Item: Elunium_Stone
-        Rate: 5
-      - Item: Holy_Scroll_1_3
-        Rate: 50
-      - Item: Yellow_Powder
-        Rate: 150
+        Rate: 5000
       - Item: Lude_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Glastheim #######################################
@@ -684,19 +560,11 @@ Body:
       Detector: true
     Drops:
       - Item: Brigan
-        Rate: 2328
-      - Item: Chain_Mail_
-        Rate: 1
-      - Item: Claire_Suits
-        Rate: 3
-      - Item: Incisive_Arrow
-        Rate: 1000
-      - Item: Arbalest_
-        Rate: 2
+        Rate: 10000
       - Item: Elunium
-        Rate: 53
+        Rate: 1000
       - Item: Raydric_Archer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1163
@@ -729,22 +597,12 @@ Body:
     DamageMotion: 420
     Ai: 19
     Drops:
-      - Item: Elunium
-        Rate: 53
-      - Item: Iron_Cane
-        Rate: 1
-      - Item: Chain_Mail_
-        Rate: 1
-      - Item: Two_Hand_Sword_
-        Rate: 1
-      - Item: Peuz_Plate
-        Rate: 5
-      - Item: Patriotism_Marks
-        Rate: 5
       - Item: Brigan
-        Rate: 2425
+        Rate: 10000
+      - Item: Elunium
+        Rate: 1000
       - Item: Daydric_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1132
@@ -777,22 +635,12 @@ Body:
     DamageMotion: 396
     Ai: 21
     Drops:
-      - Item: Skel_Bone
-        Rate: 4000
+      - Item: Brigan
+        Rate: 10000
       - Item: Elunium
-        Rate: 96
-      - Item: Bone_Helm
-        Rate: 1
-      - Item: Mirror_Shield_
-        Rate: 1
-      - Item: Patriotism_Marks
-        Rate: 5
-      - Item: Ebone_Armor
-        Rate: 1
-      - Item: Ur_Plate
-        Rate: 50
+        Rate: 1000
       - Item: Khalitzburg_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1130
@@ -826,21 +674,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Pumpkin_Head
-        Rate: 4500
-      - Item: Zargon
-        Rate: 450
-      - Item: Elunium
-        Rate: 16
-      - Item: Tights_
-        Rate: 3
-      - Item: Frozen_Heart
-        Rate: 3
-      - Item: Pumpkin
-        Rate: 500
-      - Item: Light_Granule
-        Rate: 5
+        Rate: 10000
+      - Item: Oridecon
+        Rate: 1000
       - Item: Jakk_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1131
@@ -873,22 +711,12 @@ Body:
     DamageMotion: 432
     Ai: 21
     Drops:
-      - Item: Zargon
-        Rate: 1000
-      - Item: Old_Card_Album
-        Rate: 1
-      - Item: Contracts_In_Shadow
-        Rate: 10
-      - Item: Yellow_Herb
-        Rate: 500
-      - Item: Katar_Of_Piercing_Wind
-        Rate: 1
+      - Item: Manacles
+        Rate: 5000
       - Item: Oridecon
-        Rate: 50
-      - Item: Ghost_Scroll_1_5
-        Rate: 50
+        Rate: 1000
       - Item: Joker_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1267
@@ -923,22 +751,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Brigan
-        Rate: 1600
       - Item: Ice_Cream
-        Rate: 500
-      - Item: Spiky_Heel
-        Rate: 3
-      - Item: Joker_Jester
-        Rate: 1
-      - Item: Robe_Of_Affection
-        Rate: 5
-      - Item: Robe_Of_Judgement
-        Rate: 5
-      - Item: White_Herb
-        Rate: 725
+        Rate: 10000
+      - Item: Oridecon
+        Rate: 1000
       - Item: Carat_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1260
@@ -973,16 +791,10 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Brigan
-        Rate: 2328
       - Item: Red_Frame
-        Rate: 500
-      - Item: Manteau
-        Rate: 15
-      - Item: Star_Crumb
-        Rate: 40
+        Rate: 5000
       - Item: Crystal_Mirror
-        Rate: 2
+        Rate: 1000
       - Item: Dark_Frame_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

@@ -38,38 +38,12 @@
   },
   "Drops": [
     {
-      "Item": "Old_Hilt",
-      "Rate": 1
-    },
-    {
-      "Item": "Silver_Knife_Of_Chaste",
-      "Rate": 25
-    },
-    {
       "Item": "Muscovite",
-      "Rate": 750
-    },
-    {
-      "Item": "Scarlet_Dagger",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Scarlet_Saber",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Steel",
-      "Rate": 60
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 95
+      "Rate": 10000
     },
     {
       "Item": "Tirfing_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

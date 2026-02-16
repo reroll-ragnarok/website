@@ -31,12 +31,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Guard_",
-      "Rate": 50
+      "Item": "White_Platter",
+      "Rate": 5000
     },
     {
       "Item": "Pecopeco_Egg_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

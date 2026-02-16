@@ -4,8 +4,8 @@
   "Name": "Giearth",
   "Level": 30,
   "Hp": 999,
-  "BaseExp": 200,
-  "JobExp": 175,
+  "BaseExp": 600,
+  "JobExp": 525,
   "Attack": 99,
   "Attack2": 33,
   "Defense": 20,
@@ -33,36 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Great_Nature",
-      "Rate": 15
-    },
-    {
-      "Item": "Coal",
-      "Rate": 75
-    },
-    {
       "Item": "Elder_Pixie's_Beard",
-      "Rate": 2750
-    },
-    {
-      "Item": "Elven_Ears",
-      "Rate": 1
-    },
-    {
-      "Item": "Cap_",
-      "Rate": 5
+      "Rate": 10000
     },
     {
       "Item": "Sparkling_Dust",
-      "Rate": 50
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Giearth_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

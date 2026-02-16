@@ -33,36 +33,16 @@
   "Ai": 13,
   "Drops": [
     {
-      "Item": "Steel",
-      "Rate": 50
-    },
-    {
       "Item": "Cobold_Hair",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
-      "Item": "Zargon",
-      "Rate": 350
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 13
-    },
-    {
-      "Item": "Gladius_",
-      "Rate": 1
-    },
-    {
-      "Item": "Buckler_",
-      "Rate": 3
-    },
-    {
-      "Item": "Golden_Rod_Orb",
-      "Rate": 5
+      "Item": "Animal_Blood",
+      "Rate": 5000
     },
     {
       "Item": "Kobold_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

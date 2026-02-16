@@ -30,36 +30,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Old_Blue_Box",
-      "Rate": 18
-    },
-    {
-      "Item": "Emperium",
-      "Rate": 1
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 1250
-    },
-    {
-      "Item": "Horrendous_Mouth",
-      "Rate": 1750
-    },
-    {
       "Item": "Mementos",
-      "Rate": 750
+      "Rate": 10000
     },
     {
-      "Item": "Mantle_",
-      "Rate": 5
-    },
-    {
-      "Item": "Cookbook06",
-      "Rate": 1
+      "Item": "Manacles",
+      "Rate": 5000
     },
     {
       "Item": "Requiem_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

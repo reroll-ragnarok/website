@@ -31,15 +31,15 @@
   "Drops": [
     {
       "Item": "Feather_Of_Birds",
-      "Rate": 7000
+      "Rate": 10000
     },
     {
-      "Item": "Tiny_Egg_Shell",
-      "Rate": 50
+      "Item": "Milk",
+      "Rate": 5000
     },
     {
       "Item": "Picky__Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

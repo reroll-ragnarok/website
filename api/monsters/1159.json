@@ -36,50 +36,26 @@
   },
   "MvpDrops": [
     {
-      "Item": "Frozen_Heart",
-      "Rate": 500
+      "Item": "Jaws_Of_Ant",
+      "Rate": 10000
     },
     {
-      "Item": "Crystal_Jewel",
-      "Rate": 1000
-    },
-    {
-      "Item": "Star_Crumb",
-      "Rate": 4000
+      "Item": "Thin_N'_Long_Tongue",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
+      "Item": "Star_Crumb",
+      "Rate": 10000
+    },
+    {
       "Item": "Thin_N'_Long_Tongue",
-      "Rate": 4850
-    },
-    {
-      "Item": "Forturn_Sword",
-      "Rate": 250
-    },
-    {
-      "Item": "Sucsamad",
-      "Rate": 75
-    },
-    {
-      "Item": "Jaws_Of_Ant",
-      "Rate": 2500
-    },
-    {
-      "Item": "Mr_Scream",
-      "Rate": 150
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1450
-    },
-    {
-      "Item": "Weihna",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Phreeoni_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

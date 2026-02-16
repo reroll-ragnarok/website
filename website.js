@@ -40,7 +40,7 @@ function loadMonsters() {
     let allMonsters = [];
     
     try {
-        const files = fs.readdirSync(rerollDir).filter(file => file.endsWith('.yml'));
+        const files = fs.readdirSync(rerollDir).filter(file => file.endsWith('_mob_db.yml'));
         
         files.forEach(file => {
             const filePath = path.join(rerollDir, file);
@@ -115,7 +115,7 @@ function loadItems() {
     
     try {
         // Load from multiple item database files
-        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml'];
+        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml', 'item_db_card.yml'];
         
         itemFiles.forEach(file => {
             const filePath = path.join(itemDbDir, file);

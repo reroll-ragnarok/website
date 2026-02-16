@@ -30,36 +30,16 @@
   "Ai": 3,
   "Drops": [
     {
-      "Item": "Emveretarcon",
-      "Rate": 10
-    },
-    {
       "Item": "Claw_Of_Wolves",
-      "Rate": 4500
-    },
-    {
-      "Item": "Mantle_",
-      "Rate": 5
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Monster's_Feed",
-      "Rate": 525
+      "Rate": 10000
     },
     {
       "Item": "Animal's_Skin",
-      "Rate": 2750
-    },
-    {
-      "Item": "Strawberry",
-      "Rate": 300
+      "Rate": 5000
     },
     {
       "Item": "Wolf_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

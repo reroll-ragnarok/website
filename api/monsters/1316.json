@@ -30,37 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Turtle_Shell",
-      "Rate": 2207
-    },
-    {
       "Item": "Broken_Shell",
-      "Rate": 32
+      "Rate": 10000
     },
     {
       "Item": "Stone_Piece",
-      "Rate": 425
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 1050
-    },
-    {
-      "Item": "Doram_Only_Shoes",
-      "Rate": 20
-    },
-    {
-      "Item": "Honey",
-      "Rate": 425
-    },
-    {
-      "Item": "Scarlet_Mace",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Rate": 5000
     },
     {
       "Item": "Solider_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

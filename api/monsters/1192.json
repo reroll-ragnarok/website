@@ -30,32 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
+      "Item": "Skull",
+      "Rate": 10000
+    },
+    {
       "Item": "Transparent_Cloth",
-      "Rate": 2910
-    },
-    {
-      "Item": "Wedding_Veil",
-      "Rate": 5
-    },
-    {
-      "Item": "Manteau_",
-      "Rate": 1
-    },
-    {
-      "Item": "Red_Gemstone",
-      "Rate": 325
-    },
-    {
-      "Item": "Manteau",
-      "Rate": 5
-    },
-    {
-      "Item": "Crystal_Jewel_",
-      "Rate": 3
+      "Rate": 5000
     },
     {
       "Item": "Wraith_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

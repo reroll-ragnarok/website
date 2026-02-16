@@ -36,46 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "White_Potion",
-      "Rate": 5000
-    },
-    {
-      "Item": "Violet_Jewel",
-      "Rate": 500
+      "Item": "Treasure_Box",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Saber_",
-      "Rate": 300
+      "Item": "Mistic_Frozen",
+      "Rate": 10000
     },
     {
-      "Item": "Ring_Pommel_Saber_",
-      "Rate": 475
-    },
-    {
-      "Item": "Cutlas",
-      "Rate": 75
-    },
-    {
-      "Item": "Hae_Dong_Gum_",
-      "Rate": 200
-    },
-    {
-      "Item": "Corsair",
-      "Rate": 175
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1600
-    },
-    {
-      "Item": "Krasnaya",
-      "Rate": 50
+      "Item": "Treasure_Box",
+      "Rate": 1000
     },
     {
       "Item": "Drake_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -33,28 +33,8 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Needle_Of_Alarm",
-      "Rate": 2668
-    },
-    {
-      "Item": "Brigan",
-      "Rate": 2668
-    },
-    {
       "Item": "Steel",
-      "Rate": 250
-    },
-    {
-      "Item": "Leaflet_Of_Hinal",
-      "Rate": 425
-    },
-    {
-      "Item": "Memorize_Book",
-      "Rate": 1
-    },
-    {
-      "Item": "Key_Of_Clock_Tower",
-      "Rate": 1000
+      "Rate": 10000
     },
     {
       "Item": "Underground_Key",
@@ -62,7 +42,7 @@
     },
     {
       "Item": "C_Tower_Manager_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

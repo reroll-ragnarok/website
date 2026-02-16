@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 5500
-    },
-    {
-      "Item": "Seed_Of_Yggdrasil",
-      "Rate": 3500
-    },
-    {
-      "Item": "Crystal_Jewel__",
-      "Rate": 5500
+      "Item": "Rojerta_Piece",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Spinx_Helm",
-      "Rate": 75
-    },
-    {
-      "Item": "Safety_Ring",
-      "Rate": 25
+      "Item": "Flame_Heart",
+      "Rate": 10000
     },
     {
       "Item": "Rojerta_Piece",
-      "Rate": 3880
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1940
-    },
-    {
-      "Item": "Old_Card_Album",
-      "Rate": 200
-    },
-    {
-      "Item": "Tablet",
-      "Rate": 5
-    },
-    {
-      "Item": "Yggdrasilberry",
-      "Rate": 1500
+      "Rate": 5000
     },
     {
       "Item": "Amon_Ra_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

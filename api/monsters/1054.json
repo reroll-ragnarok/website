@@ -42,7 +42,7 @@
     },
     {
       "Item": "Thief_Bug_Male_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

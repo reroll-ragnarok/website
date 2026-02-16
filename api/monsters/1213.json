@@ -35,35 +35,15 @@
   "Drops": [
     {
       "Item": "Ogre_Tooth",
-      "Rate": 1250
-    },
-    {
-      "Item": "Orcish_Axe",
-      "Rate": 5
+      "Rate": 10000
     },
     {
       "Item": "Steel",
-      "Rate": 45
-    },
-    {
-      "Item": "Orcish_Voucher",
-      "Rate": 3750
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 650
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 98
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 450
+      "Rate": 5000
     },
     {
       "Item": "High_Orc_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

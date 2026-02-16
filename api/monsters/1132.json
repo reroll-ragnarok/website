@@ -30,36 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Skel_Bone",
-      "Rate": 4000
+      "Item": "Brigan",
+      "Rate": 10000
     },
     {
       "Item": "Elunium",
-      "Rate": 96
-    },
-    {
-      "Item": "Bone_Helm",
-      "Rate": 1
-    },
-    {
-      "Item": "Mirror_Shield_",
-      "Rate": 1
-    },
-    {
-      "Item": "Patriotism_Marks",
-      "Rate": 5
-    },
-    {
-      "Item": "Ebone_Armor",
-      "Rate": 1
-    },
-    {
-      "Item": "Ur_Plate",
-      "Rate": 50
+      "Rate": 1000
     },
     {
       "Item": "Khalitzburg_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -35,15 +35,11 @@
     },
     {
       "Item": "Grape",
-      "Rate": 2500
-    },
-    {
-      "Item": "Center_Potion",
-      "Rate": 1000
+      "Rate": 5000
     },
     {
       "Item": "Farmiliar_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -34,16 +34,8 @@
   },
   "Drops": [
     {
-      "Item": "Carrot_Juice",
-      "Rate": 10000
-    },
-    {
       "Item": "White_Jewel",
-      "Rate": 5000
-    },
-    {
-      "Item": "Stuffed_Doll",
-      "Rate": 2500
+      "Rate": 10000
     },
     {
       "Item": "Four_Leaf_Clover",
@@ -51,7 +43,7 @@
     },
     {
       "Item": "Eclipse_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

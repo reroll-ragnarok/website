@@ -33,20 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Worm_Peelings",
-      "Rate": 4500
-    },
-    {
       "Item": "Insect_Feeler",
-      "Rate": 5000
+      "Rate": 10000
     },
     {
       "Item": "Yellow_Live",
-      "Rate": 500
+      "Rate": 2500
     },
     {
       "Item": "Andre_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

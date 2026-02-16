@@ -37,38 +37,26 @@
   },
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 750
-    },
-    {
-      "Item": "Steel",
-      "Rate": 400
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 60
-    },
-    {
-      "Item": "Goblin_Mask_04",
-      "Rate": 25
-    },
-    {
-      "Item": "Shield_",
-      "Rate": 1
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 325
-    },
-    {
-      "Item": "Angry_Mouth",
-      "Rate": 5
+      "Item": "Red_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Goblin_Leader_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
-  "spawns": []
+  "spawns": [
+    {
+      "map": "gef_fild11",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1299,
+      "mobName": "Goblin Leader",
+      "amount": 1,
+      "respawnTime": 600000
+    }
+  ]
 }

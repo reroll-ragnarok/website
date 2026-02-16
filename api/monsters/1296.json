@@ -37,37 +37,12 @@
   },
   "Drops": [
     {
-      "Item": "Steel",
-      "Rate": 225
-    },
-    {
-      "Item": "Cobold_Hair",
-      "Rate": 3153
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 600
-    },
-    {
-      "Item": "Scarlet_Mace",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Mighty_Staff",
-      "Rate": 1
-    },
-    {
-      "Item": "Panacea",
-      "Rate": 75
-    },
-    {
-      "Item": "Royal_Jelly",
-      "Rate": 50
+      "Item": "Golden_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Kobold_Leader_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

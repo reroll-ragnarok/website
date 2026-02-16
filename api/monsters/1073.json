@@ -31,31 +31,15 @@
   "Drops": [
     {
       "Item": "Crap_Shell",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
       "Item": "Nipper",
-      "Rate": 750
-    },
-    {
-      "Item": "Stone",
-      "Rate": 350
-    },
-    {
-      "Item": "Sparkling_Dust",
-      "Rate": 7
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 19
+      "Rate": 5000
     },
     {
       "Item": "Crab_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -30,36 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
+      "Item": "Turtle_Shell_",
+      "Rate": 10000
+    },
+    {
       "Item": "Turtle_Shell",
-      "Rate": 2207
-    },
-    {
-      "Item": "Coconut_Fruit",
-      "Rate": 100
-    },
-    {
-      "Item": "Elder_Branch",
-      "Rate": 50
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 1225
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 620
-    },
-    {
-      "Item": "Fruit_Of_Mastela",
-      "Rate": 13
-    },
-    {
-      "Item": "Anodyne",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Permeter_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

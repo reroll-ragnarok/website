@@ -41,16 +41,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Circlet_",
-      "Rate": 500
-    },
-    {
-      "Item": "Necklace",
-      "Rate": 100
-    },
-    {
       "Item": "Isis_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

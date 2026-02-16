@@ -29,20 +29,16 @@
   "Ai": 2,
   "Drops": [
     {
-      "Item": "Scell",
+      "Item": "Sticky_Mucus",
       "Rate": 10000
     },
     {
-      "Item": "Sticky_Mucus",
+      "Item": "Orange",
       "Rate": 5000
     },
     {
-      "Item": "Orange",
-      "Rate": 2500
-    },
-    {
       "Item": "Drops_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

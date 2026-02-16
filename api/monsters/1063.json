@@ -29,28 +29,16 @@
   "Ai": 1,
   "Drops": [
     {
-      "Item": "Clover",
+      "Item": "Feather",
       "Rate": 10000
     },
     {
-      "Item": "Feather",
+      "Item": "Carrot",
       "Rate": 5000
     },
     {
-      "Item": "Carrot",
-      "Rate": 2500
-    },
-    {
-      "Item": "Rainbow_Carrot",
-      "Rate": 1000
-    },
-    {
-      "Item": "Pierrot_Nose",
-      "Rate": 50
-    },
-    {
       "Item": "Lunatic_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

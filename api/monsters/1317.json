@@ -31,36 +31,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 2183
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Coat_",
-      "Rate": 3
-    },
-    {
-      "Item": "Cyfar",
-      "Rate": 600
-    },
-    {
-      "Item": "Guisarme_",
-      "Rate": 1
-    },
-    {
-      "Item": "Panacea",
-      "Rate": 100
+      "Item": "Clam_Shell",
+      "Rate": 10000
     },
     {
       "Item": "Glass_Bead",
-      "Rate": 60
+      "Rate": 5000
     },
     {
       "Item": "Fur_Seal_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

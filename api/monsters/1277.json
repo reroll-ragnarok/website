@@ -30,36 +30,16 @@
   "Ai": 10,
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 1000
-    },
-    {
       "Item": "Wooden_Block",
-      "Rate": 1000
+      "Rate": 10000
     },
     {
-      "Item": "Club",
-      "Rate": 50
-    },
-    {
-      "Item": "Inspector_Certificate",
-      "Rate": 150
-    },
-    {
-      "Item": "Stop_Post",
-      "Rate": 1
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 125
-    },
-    {
-      "Item": "Earth_Scroll_1_3",
-      "Rate": 50
+      "Item": "Heart_Of_Tree",
+      "Rate": 5000
     },
     {
       "Item": "Greatest_General_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

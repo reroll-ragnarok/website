@@ -31,31 +31,15 @@
   "Drops": [
     {
       "Item": "Blossom_Of_Maneater",
-      "Rate": 3100
+      "Rate": 10000
     },
     {
       "Item": "Root_Of_Maneater",
-      "Rate": 2750
-    },
-    {
-      "Item": "Sunflower",
-      "Rate": 15
-    },
-    {
-      "Item": "Fancy_Flower",
-      "Rate": 25
-    },
-    {
-      "Item": "Holy_Scroll_1_5",
-      "Rate": 50
-    },
-    {
-      "Item": "Very_Soft_Plant",
-      "Rate": 5
+      "Rate": 5000
     },
     {
       "Item": "Geographer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

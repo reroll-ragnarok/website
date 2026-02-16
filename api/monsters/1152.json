@@ -33,32 +33,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Orcish_Cuspid",
-      "Rate": 2750
-    },
-    {
       "Item": "Skel_Bone",
-      "Rate": 1750
+      "Rate": 10000
     },
     {
-      "Item": "Elunium_Stone",
-      "Rate": 40
-    },
-    {
-      "Item": "Viking_Helm",
-      "Rate": 1
-    },
-    {
-      "Item": "Buster_",
-      "Rate": 5
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 25
+      "Item": "Orcish_Cuspid",
+      "Rate": 5000
     },
     {
       "Item": "Orc_Skeleton_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

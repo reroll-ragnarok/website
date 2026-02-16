@@ -30,36 +30,16 @@
   "Ai": 10,
   "Drops": [
     {
-      "Item": "Yellow_Live",
-      "Rate": 60
-    },
-    {
       "Item": "Stem",
-      "Rate": 8000
+      "Rate": 10000
     },
     {
-      "Item": "Spear_",
-      "Rate": 30
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 400
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Four_Leaf_Clover",
-      "Rate": 1
-    },
-    {
-      "Item": "Whip_Of_Earth",
-      "Rate": 5
+      "Item": "Clover",
+      "Rate": 5000
     },
     {
       "Item": "Mandragora_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

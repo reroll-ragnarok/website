@@ -392,7 +392,7 @@
     "ys": 0,
     "mobId": 1019,
     "mobName": "Peco Peco",
-    "amount": 5,
+    "amount": 25,
     "respawnTime": 5000
   },
   {
@@ -1413,7 +1413,7 @@
     "y": 0,
     "xs": 0,
     "ys": 0,
-    "mobId": 1087,
+    "mobId": 1299,
     "mobName": "Goblin Leader",
     "amount": 1,
     "respawnTime": 600000
@@ -2581,7 +2581,7 @@
     "ys": 0,
     "mobId": 1077,
     "mobName": "Poison Spore",
-    "amount": 50,
+    "amount": 25,
     "respawnTime": 5000
   },
   {
@@ -2592,7 +2592,7 @@
     "ys": 0,
     "mobId": 1139,
     "mobName": "Mantis",
-    "amount": 50,
+    "amount": 75,
     "respawnTime": 5000
   },
   {

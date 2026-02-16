@@ -33,36 +33,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Turtle_Shell",
-      "Rate": 2207
-    },
-    {
-      "Item": "Broken_Armor_Piece",
-      "Rate": 600
-    },
-    {
       "Item": "Rust_Suriken",
-      "Rate": 420
+      "Rate": 10000
     },
     {
       "Item": "Smoke_Powder",
-      "Rate": 100
-    },
-    {
-      "Item": "Doram_Only_Cape",
-      "Rate": 20
-    },
-    {
-      "Item": "Huuma_Bird_Wing",
-      "Rate": 3
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Assulter_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

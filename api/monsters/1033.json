@@ -29,36 +29,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Boody_Red",
-      "Rate": 25
+      "Item": "Young_Twig",
+      "Rate": 10000
     },
     {
       "Item": "Resin",
-      "Rate": 4500
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 20
-    },
-    {
-      "Item": "Elder_Branch",
-      "Rate": 1
-    },
-    {
-      "Item": "Fire_Scroll_1_3",
-      "Rate": 50
-    },
-    {
-      "Item": "Branch_Of_Dead_Tree",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Elder_Wilow_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

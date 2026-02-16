@@ -33,36 +33,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Item": "Sticky_Mucus",
+      "Rate": 10000
     },
     {
-      "Item": "Scell",
-      "Rate": 4500
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 22
-    },
-    {
-      "Item": "Goblini_Mask",
-      "Rate": 2
-    },
-    {
-      "Item": "Dirk_",
-      "Rate": 5
-    },
-    {
-      "Item": "Buckler_",
-      "Rate": 3
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 900
+      "Item": "Cyfar",
+      "Rate": 5000
     },
     {
       "Item": "Goblin_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

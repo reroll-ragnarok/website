@@ -30,36 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Candy_Striper",
-      "Rate": 45
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 10
-    },
-    {
       "Item": "Piece_Of_Cake",
-      "Rate": 1000
+      "Rate": 10000
     },
     {
-      "Item": "Scarlet_Jewel",
-      "Rate": 75
-    },
-    {
-      "Item": "Crystal_Jewel_",
-      "Rate": 3
-    },
-    {
-      "Item": "Candy",
-      "Rate": 170
+      "Item": "Candy_Striper",
+      "Rate": 5000
     },
     {
       "Item": "Mystcase_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

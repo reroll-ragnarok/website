@@ -30,36 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 375
+      "Item": "Ice_Piece",
+      "Rate": 10000
     },
     {
-      "Item": "White_Herb",
-      "Rate": 400
-    },
-    {
-      "Item": "Feather",
-      "Rate": 500
-    },
-    {
-      "Item": "Panda_Cap",
-      "Rate": 1
-    },
-    {
-      "Item": "Bear's_Foot",
-      "Rate": 2500
-    },
-    {
-      "Item": "White_Jewel",
-      "Rate": 15
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 45
+      "Item": "Stuffed_Doll",
+      "Rate": 5000
     },
     {
       "Item": "Sasquatch_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

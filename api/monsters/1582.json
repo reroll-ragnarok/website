@@ -33,44 +33,14 @@
   "Modes": {
     "Mvp": true
   },
-  "MvpDrops": [
-    {
-      "Item": "Blade_Lost_In_Darkness",
-      "Rate": 1000
-    }
-  ],
   "Drops": [
     {
-      "Item": "Petite_DiablOfs_Wing",
-      "Rate": 1500
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 2425
-    },
-    {
-      "Item": "Satanic_Chain",
-      "Rate": 50
-    },
-    {
-      "Item": "Apple",
-      "Rate": 2500
-    },
-    {
-      "Item": "Blade_Lost_In_Darkness",
-      "Rate": 1
-    },
-    {
-      "Item": "Black_Dyestuffs",
-      "Rate": 50
-    },
-    {
-      "Item": "Ghost_Scroll_1_3",
-      "Rate": 50
+      "Item": "Skyblue_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Deviling_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

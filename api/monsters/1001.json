@@ -4,8 +4,8 @@
   "Name": "Scorpion",
   "Level": 60,
   "Hp": 2523,
-  "BaseExp": 400,
-  "JobExp": 425,
+  "BaseExp": 1200,
+  "JobExp": 1275,
   "Attack": 187,
   "Attack2": 176,
   "Defense": 34,
@@ -37,16 +37,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Solid_Shell",
+      "Item": "Fine_Grit",
       "Rate": 5000
     },
     {
-      "Item": "Fine_Grit",
-      "Rate": 2500
-    },
-    {
       "Item": "Scorpion_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -29,12 +29,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Guard_",
-      "Rate": 50
+      "Item": "Sticky_Mucus",
+      "Rate": 5000
     },
     {
       "Item": "Andre_Egg_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

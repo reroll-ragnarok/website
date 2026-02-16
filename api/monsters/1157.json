@@ -36,50 +36,30 @@
   },
   "MvpDrops": [
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 5500
+      "Item": "Broken_Pharaoh_Symbol",
+      "Rate": 10000
     },
     {
-      "Item": "Royal_Jelly",
-      "Rate": 5000
-    },
-    {
-      "Item": "Crystal_Jewel__",
+      "Item": "Tutankhamen's_Mask",
       "Rate": 5000
     }
   ],
   "Drops": [
     {
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
+    },
+    {
       "Item": "Broken_Pharaoh_Symbol",
-      "Rate": 2910
+      "Rate": 5000
     },
     {
       "Item": "Tutankhamen's_Mask",
-      "Rate": 1250
-    },
-    {
-      "Item": "Solar_Sword",
-      "Rate": 50
-    },
-    {
-      "Item": "Holy_Robe",
-      "Rate": 75
-    },
-    {
-      "Item": "Gemmed_Crown",
-      "Rate": 250
-    },
-    {
-      "Item": "Tablet",
-      "Rate": 150
-    },
-    {
-      "Item": "Bazerald",
-      "Rate": 40
+      "Rate": 5000
     },
     {
       "Item": "Pharaoh_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

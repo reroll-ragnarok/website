@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Burning_Horse_Shoe",
-      "Rate": 1200
+      "Rate": 10000
     },
     {
-      "Item": "Rosary_",
-      "Rate": 1
-    },
-    {
-      "Item": "Rosary",
-      "Rate": 15
-    },
-    {
-      "Item": "Blue_Potion",
-      "Rate": 25
-    },
-    {
-      "Item": "Blue_Herb",
-      "Rate": 75
-    },
-    {
-      "Item": "Ghost_Scroll_1_5",
-      "Rate": 50
-    },
-    {
-      "Item": "Infiltrator",
-      "Rate": 1
+      "Item": "Flame_Heart",
+      "Rate": 1500
     },
     {
       "Item": "Nightmare_Terror_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -33,36 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Flame_Heart",
-      "Rate": 15
-    },
-    {
-      "Item": "Coal",
-      "Rate": 75
+      "Item": "Alchol",
+      "Rate": 10000
     },
     {
       "Item": "Burning_Heart",
-      "Rate": 1500
-    },
-    {
-      "Item": "Fire_Scroll_1_3",
-      "Rate": 50
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 500
-    },
-    {
-      "Item": "Red_Gemstone",
-      "Rate": 150
-    },
-    {
-      "Item": "Alchol",
-      "Rate": 3
+      "Rate": 5000
     },
     {
       "Item": "Kaho_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

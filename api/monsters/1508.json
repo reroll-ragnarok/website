@@ -31,27 +31,15 @@
   "Drops": [
     {
       "Item": "Piece_Of_Black_Cloth",
-      "Rate": 1600
+      "Rate": 10000
     },
     {
       "Item": "Ectoplasm",
-      "Rate": 2862
-    },
-    {
-      "Item": "Poison_Powder",
-      "Rate": 50
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 5
-    },
-    {
-      "Item": "Black_Powder",
-      "Rate": 250
+      "Rate": 5000
     },
     {
       "Item": "Quve_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

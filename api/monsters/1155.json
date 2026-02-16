@@ -31,36 +31,15 @@
   "Drops": [
     {
       "Item": "Dragon_Canine",
-      "Rate": 2668
-    },
-    {
-      "Item": "Dragon_Train",
-      "Rate": 150
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 70
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 500
-    },
-    {
-      "Item": "Scarlet_Mace",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Rate": 10000
     },
     {
       "Item": "Petti_Tail",
-      "Rate": 50
-    },
-    {
-      "Item": "Aloebera",
-      "Rate": 8
+      "Rate": 5000
     },
     {
       "Item": "Petit_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

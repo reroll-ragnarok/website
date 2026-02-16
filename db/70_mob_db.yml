@@ -36,22 +36,12 @@ Body:
     DamageMotion: 288
     Ai: 19
     Drops:
-      - Item: Mistic_Frozen
-        Rate: 7
       - Item: Heart_Of_Mermaid
-        Rate: 4500
-      - Item: Fin_Helm
-        Rate: 1
-      - Item: Saint_Robe_
-        Rate: 5
-      - Item: Skyblue_Jewel
-        Rate: 5
+        Rate: 10000
       - Item: Fin
-        Rate: 250
-      - Item: Witherless_Rose
-        Rate: 15
+        Rate: 5000
       - Item: Obeaune_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1264
@@ -86,20 +76,10 @@ Body:
     Drops:
       - Item: Lip_Of_Ancient_Fish
         Rate: 650
-      - Item: Plate_Armor_
-        Rate: 1
-      - Item: Lemon
-        Rate: 200
-      - Item: Skyblue_Jewel
-        Rate: 20
-      - Item: Mistic_Frozen
-        Rate: 18
-      - Item: Trident
-        Rate: 2
-      - Item: Oridecon_Stone
-        Rate: 102
+      - Item: Fin
+        Rate: 5000
       - Item: Merman_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1065
@@ -133,21 +113,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Fin
-        Rate: 2668
-      - Item: Oridecon_Stone
-        Rate: 58
-      - Item: Chain_Mail_
-        Rate: 1
-      - Item: Trident_
-        Rate: 1
-      - Item: Feather
-        Rate: 1500
-      - Item: Skyblue_Jewel
-        Rate: 10
-      - Item: Gill
-        Rate: 750
+        Rate: 10000
+      - Item: Rough_Wind
+        Rate: 1000
       - Item: Strouf_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Morocc #######################################
@@ -182,22 +152,12 @@ Body:
     DamageMotion: 432
     Ai: 04
     Drops:
-      - Item: Emveretarcon
-        Rate: 28
-      - Item: Iron
-        Rate: 95
-      - Item: G_Strings
-        Rate: 100
-      - Item: Ganster_Mask
-        Rate: 2
-      - Item: Cuffs
-        Rate: 5
-      - Item: Iron_Ore
-        Rate: 150
-      - Item: Light_Granule
-        Rate: 1
+      - Item: Manacles
+        Rate: 10000
+      - Item: Mementos
+        Rate: 5000
       - Item: Zerom_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1164
@@ -230,22 +190,12 @@ Body:
     DamageMotion: 432
     Ai: 04
     Drops:
-      - Item: Old_Blue_Box
-        Rate: 18
-      - Item: Emperium
-        Rate: 1
-      - Item: Zargon
-        Rate: 1250
-      - Item: Horrendous_Mouth
-        Rate: 1750
       - Item: Mementos
-        Rate: 750
-      - Item: Mantle_
-        Rate: 5
-      - Item: Cookbook06
-        Rate: 1
+        Rate: 10000
+      - Item: Manacles
+        Rate: 5000
       - Item: Requiem_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1140
@@ -278,22 +228,12 @@ Body:
     DamageMotion: 504
     Ai: 19
     Drops:
-      - Item: Flame_Heart
-        Rate: 18
       - Item: Sacred_Masque
-        Rate: 2183
-      - Item: Staff_
-        Rate: 5
-      - Item: Mitten_Of_Presbyter
-        Rate: 1
-      - Item: Blessed_Wand
-        Rate: 2
-      - Item: Fire_Scroll_1_5
-        Rate: 50
-      - Item: Book_Of_Devil
-        Rate: 10
+        Rate: 10000
+      - Item: Clattering_Skull
+        Rate: 5000
       - Item: Marduk_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -330,20 +270,12 @@ Body:
     DamageMotion: 648
     Ai: 04
     Drops:
-      - Item: Orcish_Cuspid
-        Rate: 2750
       - Item: Skel_Bone
-        Rate: 1750
-      - Item: Elunium_Stone
-        Rate: 40
-      - Item: Viking_Helm
-        Rate: 1
-      - Item: Buster_
-        Rate: 5
-      - Item: Green_Herb
-        Rate: 25
+        Rate: 10000
+      - Item: Orcish_Cuspid
+        Rate: 5000
       - Item: Orc_Skeleton_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1153
@@ -378,14 +310,12 @@ Body:
     DamageMotion: 840
     Ai: 04
     Drops:
+      - Item: Skel_Bone
+        Rate: 10000
       - Item: Nail_Of_Orc
-        Rate: 2750
-      - Item: Sticky_Mucus
-        Rate: 1500
-      - Item: Emperium
-        Rate: 1
+        Rate: 5000
       - Item: Orc_Zombie_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -423,21 +353,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Ogre_Tooth
-        Rate: 1250
-      - Item: Orcish_Axe
-        Rate: 5
+        Rate: 10000
       - Item: Steel
-        Rate: 45
-      - Item: Orcish_Voucher
-        Rate: 3750
-      - Item: Zargon
-        Rate: 650
-      - Item: Oridecon_Stone
-        Rate: 98
-      - Item: Yellow_Herb
-        Rate: 450
+        Rate: 5000
       - Item: High_Orc_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1133
@@ -472,22 +392,12 @@ Body:
     DamageMotion: 360
     Ai: 13
     Drops:
-      - Item: Steel
-        Rate: 50
       - Item: Cobold_Hair
-        Rate: 2668
-      - Item: Zargon
-        Rate: 350
-      - Item: Elunium_Stone
-        Rate: 13
-      - Item: Gladius_
-        Rate: 1
-      - Item: Buckler_
-        Rate: 3
-      - Item: Golden_Rod_Orb
-        Rate: 5
+        Rate: 10000
+      - Item: Animal_Blood
+        Rate: 5000
       - Item: Kobold_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1134
@@ -522,22 +432,12 @@ Body:
     DamageMotion: 360
     Ai: 13
     Drops:
-      - Item: Steel
-        Rate: 50
       - Item: Cobold_Hair
-        Rate: 2668
-      - Item: Zargon
-        Rate: 100
-      - Item: Buckler_
-        Rate: 2
-      - Item: Yellow_Herb
-        Rate: 50
-      - Item: Doram_Only_Shoes
-        Rate: 20
-      - Item: Fresh_G_Necklace
-        Rate: 20
+        Rate: 10000
+      - Item: Animal_Blood
+        Rate: 5000
       - Item: Kobold_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1135
@@ -572,23 +472,12 @@ Body:
     DamageMotion: 360
     Ai: 13
     Drops:
-      - Item: Boody_Red
-        Rate: 18
-      - Item: Steel
-        Rate: 50
       - Item: Cobold_Hair
-        Rate: 2668
-      - Item: Zargon
-        Rate: 100
-      - Item: Scarlet_Twohand_Axe
-        Rate: 50
-        RandomOptionGroup: Group_5
-      - Item: Doram_Only_Cape
-        Rate: 20
-      - Item: Doram_Only_Suit
-        Rate: 20
+        Rate: 10000
+      - Item: Animal_Blood
+        Rate: 5000
       - Item: Kobold_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1282
@@ -623,22 +512,12 @@ Body:
     DamageMotion: 384
     Ai: 05
     Drops:
-      - Item: Zargon
-        Rate: 125
-      - Item: Steel
-        Rate: 30
       - Item: Cobold_Hair
-        Rate: 2425
-      - Item: Ear_Of_Puppy
-        Rate: 25
-      - Item: Poison_Arrow
-        Rate: 1000
-      - Item: CrossBow_
-        Rate: 3
-      - Item: Oridecon_Stone
-        Rate: 40
+        Rate: 10000
+      - Item: Animal_Blood
+        Rate: 5000
       - Item: Kobold_Archer_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Alberta #######################################
@@ -675,21 +554,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Skel_Bone
-        Rate: 1500
-      - Item: Pirate_Bandana
-        Rate: 8
-      - Item: Cookbook06
-        Rate: 3
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Falchion
-        Rate: 125
-      - Item: Oridecon_Stone
-        Rate: 22
-      - Item: Well_Dried_Bone
-        Rate: 10
+        Rate: 10000
+      - Item: Unripe_Apple
+        Rate: 1000
       - Item: Pirate_Skel_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -725,19 +594,11 @@ Body:
     Ai: 03
     Drops:
       - Item: Crap_Shell
-        Rate: 2750
+        Rate: 10000
       - Item: Nipper
-        Rate: 750
-      - Item: Stone
-        Rate: 350
-      - Item: Sparkling_Dust
-        Rate: 7
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Elunium_Stone
-        Rate: 19
+        Rate: 5000
       - Item: Crab_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### CHAMPION ###
@@ -773,22 +634,12 @@ Body:
     Ai: 21
     Class: Boss
     Drops:
-      - Item: Ice_Fragment
-        Rate: 50
       - Item: Nipper
-        Rate: 2500
+        Rate: 10000
       - Item: Solid_Shell
-        Rate: 2500
-      - Item: Spike
-        Rate: 25
-      - Item: Light_Granule
-        Rate: 100
-      - Item: Mistic_Frozen
-        Rate: 25
-      - Item: Crystal_Blue
-        Rate: 25
+        Rate: 5000
       - Item: King_Dramoh_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1278
@@ -824,21 +675,11 @@ Body:
     Ai: 17
     Drops:
       - Item: Mud_Lump
-        Rate: 1000
-      - Item: Brigan
-        Rate: 2425
-      - Item: Star_Crumb
-        Rate: 125
+        Rate: 10000
       - Item: Great_Nature
-        Rate: 15
-      - Item: Elunium_Stone
-        Rate: 125
-      - Item: Round_Buckler
-        Rate: 3
-      - Item: Elunium
-        Rate: 82
+        Rate: 1000
       - Item: Stalactic_Golem_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Al De Baran #######################################
@@ -874,15 +715,9 @@ Body:
     Ai: 03
     Drops:
       - Item: Peco_Wing_Feather
-        Rate: 2425
+        Rate: 10000
       - Item: Fruit_Of_Mastela
-        Rate: 150
-      - Item: Wind_Of_Verdure
-        Rate: 500
-      - Item: Gold
-        Rate: 1
-      - Item: Orange
-        Rate: 250
+        Rate: 1000
       - Item: Grand_Peco_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

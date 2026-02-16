@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 5500
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 2250
-    },
-    {
-      "Item": "Old_Card_Album",
-      "Rate": 450
+      "Item": "Treasure_Box",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
-      "Item": "Tentacle",
-      "Rate": 2500
-    },
-    {
-      "Item": "Cardo",
-      "Rate": 250
-    },
-    {
-      "Item": "Ice_Falchon",
-      "Rate": 250
-    },
-    {
-      "Item": "Hunting_Spear",
-      "Rate": 250
-    },
-    {
-      "Item": "Water_Sprits_Armor_",
-      "Rate": 250
+      "Item": "Mistic_Frozen",
+      "Rate": 10000
     },
     {
       "Item": "Treasure_Box",
-      "Rate": 2500
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 250
+      "Rate": 1000
     },
     {
       "Item": "Kraken_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

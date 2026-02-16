@@ -34,7 +34,7 @@
   },
   "Drops": [
     {
-      "Item": "Grape_Juice",
+      "Item": "Chonchon_Doll",
       "Rate": 10000
     },
     {
@@ -42,12 +42,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Chonchon_Doll",
-      "Rate": 2500
-    },
-    {
       "Item": "Dragon_Fly_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

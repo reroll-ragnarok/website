@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Alice's_Apron",
-      "Rate": 1250
+      "Rate": 10000
     },
     {
-      "Item": "Old_Broom",
-      "Rate": 20
-    },
-    {
-      "Item": "Chrystal_Pumps",
-      "Rate": 2
-    },
-    {
-      "Item": "Rotha_Shield",
-      "Rate": 1
-    },
-    {
-      "Item": "Pair_Of_Red_Ribbon",
-      "Rate": 1
-    },
-    {
-      "Item": "Imperial_Cooking_Kits",
-      "Rate": 5
-    },
-    {
-      "Item": "Holy_Scroll_1_5",
-      "Rate": 50
+      "Item": "Rouge",
+      "Rate": 5000
     },
     {
       "Item": "Alice_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

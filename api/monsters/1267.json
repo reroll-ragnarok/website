@@ -33,36 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 1600
-    },
-    {
       "Item": "Ice_Cream",
-      "Rate": 500
+      "Rate": 10000
     },
     {
-      "Item": "Spiky_Heel",
-      "Rate": 3
-    },
-    {
-      "Item": "Joker_Jester",
-      "Rate": 1
-    },
-    {
-      "Item": "Robe_Of_Affection",
-      "Rate": 5
-    },
-    {
-      "Item": "Robe_Of_Judgement",
-      "Rate": 5
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 725
+      "Item": "Oridecon",
+      "Rate": 1000
     },
     {
       "Item": "Carat_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

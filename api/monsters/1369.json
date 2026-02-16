@@ -31,27 +31,15 @@
   "Drops": [
     {
       "Item": "Peco_Wing_Feather",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
       "Item": "Fruit_Of_Mastela",
-      "Rate": 150
-    },
-    {
-      "Item": "Wind_Of_Verdure",
-      "Rate": 500
-    },
-    {
-      "Item": "Gold",
-      "Rate": 1
-    },
-    {
-      "Item": "Orange",
-      "Rate": 250
+      "Rate": 1000
     },
     {
       "Item": "Grand_Peco_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

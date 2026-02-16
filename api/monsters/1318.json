@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Turtle_Shell",
-      "Rate": 2207
-    },
-    {
-      "Item": "Broken_Shell",
-      "Rate": 375
-    },
-    {
-      "Item": "Fire_Scroll_2_5",
-      "Rate": 50
-    },
-    {
-      "Item": "Gun_Powder",
-      "Rate": 500
-    },
-    {
-      "Item": "Royal_Jelly",
-      "Rate": 70
-    },
-    {
-      "Item": "Doram_Only_Suit",
-      "Rate": 20
+      "Rate": 10000
     },
     {
       "Item": "Burn_Tree",
-      "Rate": 625
+      "Rate": 5000
     },
     {
       "Item": "Heater_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

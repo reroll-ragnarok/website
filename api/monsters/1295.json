@@ -32,35 +32,15 @@
   "Drops": [
     {
       "Item": "Tatters_Clothes",
-      "Rate": 1750
+      "Rate": 10000
     },
     {
       "Item": "Soft_Feather",
-      "Rate": 1250
-    },
-    {
-      "Item": "Scarlet_Bow",
-      "Rate": 50
-    },
-    {
-      "Item": "Staff_Of_Soul",
-      "Rate": 1
-    },
-    {
-      "Item": "Walking_Stick",
-      "Rate": 1
-    },
-    {
-      "Item": "Wind_Scroll_1_5",
-      "Rate": 50
-    },
-    {
-      "Item": "Magician_Hat",
-      "Rate": 3
+      "Rate": 5000
     },
     {
       "Item": "Owl_Baron_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

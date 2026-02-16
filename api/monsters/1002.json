@@ -30,24 +30,16 @@
   "Ai": 2,
   "Drops": [
     {
-      "Item": "Jellopy",
+      "Item": "Sticky_Mucus",
       "Rate": 10000
     },
     {
-      "Item": "Sticky_Mucus",
+      "Item": "Apple",
       "Rate": 5000
     },
     {
-      "Item": "Apple",
-      "Rate": 2500
-    },
-    {
-      "Item": "Unripe_Apple",
-      "Rate": 1000
-    },
-    {
       "Item": "Poring_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

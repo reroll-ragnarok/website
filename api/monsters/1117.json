@@ -30,37 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Biretta_",
-      "Rate": 5
+      "Item": "Rent_Spell_Book",
+      "Rate": 10000
     },
     {
-      "Item": "Bone_Wand",
-      "Rate": 1
-    },
-    {
-      "Item": "Ragamuffin_Cape",
-      "Rate": 1
-    },
-    {
-      "Item": "Scarlet_Bible",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Elixir_Bandage",
-      "Rate": 5
-    },
-    {
-      "Item": "Cookbook07",
-      "Rate": 2
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 1000
+      "Item": "Skull",
+      "Rate": 5000
     },
     {
       "Item": "Evil_Druid_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

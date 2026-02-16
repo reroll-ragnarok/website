@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Mushroom_Spore",
-      "Rate": 8000
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 1000
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Spore_Doll",
-      "Rate": 10
-    },
-    {
-      "Item": "Hat",
-      "Rate": 30
-    },
-    {
-      "Item": "Poison_Spore",
-      "Rate": 10
+      "Rate": 10000
     },
     {
       "Item": "Strawberry",
-      "Rate": 600
+      "Rate": 2500
     },
     {
       "Item": "Spore_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

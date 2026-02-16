@@ -29,36 +29,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Yellow_Live",
-      "Rate": 30
-    },
-    {
-      "Item": "Emveretarcon",
-      "Rate": 13
-    },
-    {
       "Item": "Pointed_Scale",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
-      "Item": "Pike_",
-      "Rate": 15
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 35
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Green_Lace",
-      "Rate": 50
+      "Item": "Animal's_Skin",
+      "Rate": 5000
     },
     {
       "Item": "Worm_Tail_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

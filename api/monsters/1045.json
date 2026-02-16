@@ -30,32 +30,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Mistic_Frozen",
-      "Rate": 9
+      "Item": "Fin",
+      "Rate": 10000
     },
     {
       "Item": "Gill",
-      "Rate": 4500
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 48
-    },
-    {
-      "Item": "Fin",
-      "Rate": 500
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 5
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 350
+      "Rate": 5000
     },
     {
       "Item": "Marc_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

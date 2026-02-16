@@ -36,16 +36,12 @@ Body:
     DamageMotion: 480
     Ai: 02
     Drops:
-      - Item: Jellopy
-        Rate: 10000
       - Item: Sticky_Mucus
-        Rate: 5000
+        Rate: 10000
       - Item: Apple
-        Rate: 2500
-      - Item: Unripe_Apple
-        Rate: 1000
+        Rate: 5000
       - Item: Poring_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1007
@@ -82,9 +78,9 @@ Body:
       - Item: Fluff
         Rate: 10000
       - Item: Green_Herb
-        Rate: 2500
+        Rate: 5000
       - Item: Fabre_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1008
@@ -122,10 +118,8 @@ Body:
         Rate: 10000
       - Item: Sticky_Mucus
         Rate: 5000
-      - Item: Guard_
-        Rate: 50
       - Item: Pupa_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
 ###################################### Morroc ######################################
@@ -159,14 +153,12 @@ Body:
     DamageMotion: 480
     Ai: 02
     Drops:
-      - Item: Scell
-        Rate: 10000
       - Item: Sticky_Mucus
-        Rate: 5000
+        Rate: 10000
       - Item: Orange
-        Rate: 2500
+        Rate: 5000
       - Item: Drops_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1107
@@ -202,9 +194,9 @@ Body:
       - Item: Animal's_Skin
         Rate: 10000
       - Item: Meat
-        Rate: 2500
+        Rate: 5000
       - Item: Desert_Wolf_Babe_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Geffen ######################################
@@ -240,17 +232,11 @@ Body:
     Ai: 01
     Drops:
       - Item: Sticky_Webfoot
-        Rate: 4500
+        Rate: 10000
       - Item: Spawn
-        Rate: 500
-      - Item: Green_Herb
-        Rate: 300
-      - Item: Azure_Jewel
-        Rate: 8
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Roda_Frog_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
   
   - Id: 1034
@@ -283,22 +269,12 @@ Body:
     DamageMotion: 288
     Ai: 01
     Drops:
-      - Item: Emveretarcon
-        Rate: 23
       - Item: Spawn
-        Rate: 2750
-      - Item: Scell
-        Rate: 300
-      - Item: White_Herb
-        Rate: 15
-      - Item: Red_Jewel
-        Rate: 3
+        Rate: 10000
       - Item: Sticky_Webfoot
-        Rate: 1000
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Thara_Frog_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Payon & Alberta ######################################
@@ -334,21 +310,11 @@ Body:
     Ai: 01
     Drops:
       - Item: Mushroom_Spore
-        Rate: 8000
-      - Item: Red_Herb
-        Rate: 1000
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Spore_Doll
-        Rate: 10
-      - Item: Hat
-        Rate: 30
-      - Item: Poison_Spore
-        Rate: 10
+        Rate: 10000
       - Item: Strawberry
-        Rate: 600
+        Rate: 2500
       - Item: Spore_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true
 
   - Id: 1024
@@ -380,22 +346,12 @@ Body:
     DamageMotion: 192
     Ai: 17
     Drops:
-      - Item: Yellow_Live
-        Rate: 30
-      - Item: Emveretarcon
-        Rate: 13
       - Item: Pointed_Scale
-        Rate: 2750
-      - Item: Pike_
-        Rate: 15
-      - Item: Yellow_Herb
-        Rate: 35
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Green_Lace
-        Rate: 50
+        Rate: 10000
+      - Item: Animal's_Skin
+        Rate: 5000
       - Item: Worm_Tail_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1010
@@ -429,19 +385,9 @@ Body:
     Ai: 01
     Drops:
       - Item: Tree_Root
-        Rate: 9000
-      - Item: Wooden_Block
-        Rate: 100
+        Rate: 10000
       - Item: Resin
-        Rate: 2000
-      - Item: Sweet_Potato
-        Rate: 1000
-      - Item: Tree_Of_Archer_3
-        Rate: 3000
-      - Item: Tree_Of_Archer_2
-        Rate: 2000
-      - Item: Tree_Of_Archer_1
-        Rate: 1000
+        Rate: 5000
       - Item: Wilow_Card
-        Rate: 10
+        Rate: 50
         StealProtected: true

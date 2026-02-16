@@ -33,36 +33,16 @@
   "Ai": 13,
   "Drops": [
     {
-      "Item": "Yellow_Live",
-      "Rate": 50
+      "Item": "Sticky_Mucus",
+      "Rate": 10000
     },
     {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Goblin_Mask_01",
-      "Rate": 8
-    },
-    {
-      "Item": "Gangster_Patch",
-      "Rate": 2
-    },
-    {
-      "Item": "Smasher_",
-      "Rate": 5
-    },
-    {
-      "Item": "Siver_Guard",
-      "Rate": 3
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 750
+      "Item": "Cyfar",
+      "Rate": 5000
     },
     {
       "Item": "Goblin_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -33,32 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 1940
-    },
-    {
       "Item": "Petite_DiablOfs_Wing",
-      "Rate": 250
+      "Rate": 10000
     },
     {
-      "Item": "Elven_Bow",
-      "Rate": 3
-    },
-    {
-      "Item": "Thimble_Of_Archer",
-      "Rate": 1
-    },
-    {
-      "Item": "Silence_Arrow",
-      "Rate": 1000
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 119
+      "Item": "Brigan",
+      "Rate": 5000
     },
     {
       "Item": "Gargoyle_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

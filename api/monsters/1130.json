@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Pumpkin_Head",
-      "Rate": 4500
+      "Rate": 10000
     },
     {
-      "Item": "Zargon",
-      "Rate": 450
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 16
-    },
-    {
-      "Item": "Tights_",
-      "Rate": 3
-    },
-    {
-      "Item": "Frozen_Heart",
-      "Rate": 3
-    },
-    {
-      "Item": "Pumpkin",
-      "Rate": 500
-    },
-    {
-      "Item": "Light_Granule",
-      "Rate": 5
+      "Item": "Oridecon",
+      "Rate": 1000
     },
     {
       "Item": "Jakk_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

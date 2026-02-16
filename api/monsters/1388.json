@@ -32,32 +32,16 @@
   "Class": "Boss",
   "Drops": [
     {
-      "Item": "Satanic_Chain",
-      "Rate": 3
-    },
-    {
-      "Item": "Seed_Of_Yggdrasil",
-      "Rate": 75
-    },
-    {
-      "Item": "Agate",
-      "Rate": 750
-    },
-    {
-      "Item": "Angelic_Chain",
-      "Rate": 3
-    },
-    {
-      "Item": "Plate_Armor_",
-      "Rate": 2
-    },
-    {
       "Item": "Turquoise",
-      "Rate": 750
+      "Rate": 10000
+    },
+    {
+      "Item": "Blue_Jewel",
+      "Rate": 5000
     },
     {
       "Item": "Archangeling_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -34,36 +34,12 @@
   },
   "Drops": [
     {
-      "Item": "Big_Sis'_Ribbon",
-      "Rate": 25
-    },
-    {
-      "Item": "Honey",
-      "Rate": 1000
-    },
-    {
       "Item": "Bluish_Green_Jewel",
-      "Rate": 500
-    },
-    {
-      "Item": "Light_Granule",
-      "Rate": 250
-    },
-    {
-      "Item": "Alchol",
-      "Rate": 50
-    },
-    {
-      "Item": "Detrimindexta",
-      "Rate": 50
-    },
-    {
-      "Item": "Kiss_Of_Angel",
-      "Rate": 500
+      "Rate": 10000
     },
     {
       "Item": "Toad_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Powder_Of_Butterfly",
-      "Rate": 8000
-    },
-    {
-      "Item": "Silk_Robe_",
-      "Rate": 20
+      "Rate": 10000
     },
     {
       "Item": "Honey",
-      "Rate": 200
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Fancy_Flower",
-      "Rate": 20
-    },
-    {
-      "Item": "Flower",
-      "Rate": 500
-    },
-    {
-      "Item": "Wind_Scroll_1_3",
-      "Rate": 100
+      "Rate": 2500
     },
     {
       "Item": "Creamy_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

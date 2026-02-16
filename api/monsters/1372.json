@@ -31,31 +31,15 @@
   "Drops": [
     {
       "Item": "Goat's_Horn",
-      "Rate": 2280
+      "Rate": 10000
     },
     {
       "Item": "Gaoat's_Skin",
-      "Rate": 1250
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 250
-    },
-    {
-      "Item": "Blue_Herb",
-      "Rate": 500
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 1250
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 2750
+      "Rate": 5000
     },
     {
       "Item": "Goat_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

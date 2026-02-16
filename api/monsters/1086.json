@@ -37,12 +37,16 @@
   "MvpDrops": [
     {
       "Item": "Ora_Ora",
-      "Rate": 1000
+      "Rate": 5000
+    },
+    {
+      "Item": "Gold_Ring",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
-      "Item": "Gold_Ring",
+      "Item": "Flame_Heart",
       "Rate": 10000
     },
     {
@@ -51,15 +55,11 @@
     },
     {
       "Item": "Gold",
-      "Rate": 2500
-    },
-    {
-      "Item": "Golden_Bell",
-      "Rate": 1000
+      "Rate": 500
     },
     {
       "Item": "Golden_Bug_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

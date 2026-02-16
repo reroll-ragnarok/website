@@ -34,36 +34,16 @@
   },
   "Drops": [
     {
-      "Item": "Broken_Needle",
-      "Rate": 2183
+      "Item": "Stuffed_Doll",
+      "Rate": 10000
     },
     {
       "Item": "Spool",
-      "Rate": 2668
-    },
-    {
-      "Item": "Needle_Pouch",
-      "Rate": 1000
-    },
-    {
-      "Item": "Stuffed_Doll",
-      "Rate": 40
-    },
-    {
-      "Item": "Ectoplasm",
-      "Rate": 150
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 5
-    },
-    {
-      "Item": "Angry_Mouth",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Hylozoist_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

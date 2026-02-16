@@ -30,36 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Flame_Heart",
-      "Rate": 18
-    },
-    {
       "Item": "Sacred_Masque",
-      "Rate": 2183
+      "Rate": 10000
     },
     {
-      "Item": "Staff_",
-      "Rate": 5
-    },
-    {
-      "Item": "Mitten_Of_Presbyter",
-      "Rate": 1
-    },
-    {
-      "Item": "Blessed_Wand",
-      "Rate": 2
-    },
-    {
-      "Item": "Fire_Scroll_1_5",
-      "Rate": 50
-    },
-    {
-      "Item": "Book_Of_Devil",
-      "Rate": 10
+      "Item": "Clattering_Skull",
+      "Rate": 5000
     },
     {
       "Item": "Marduk_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Fox_Tail",
-      "Rate": 2328
+      "Rate": 10000
     },
     {
       "Item": "Glass_Bead",
-      "Rate": 100
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 50
-    },
-    {
-      "Item": "Branch_Of_Dead_Tree",
-      "Rate": 50
-    },
-    {
-      "Item": "Royal_Jelly",
-      "Rate": 125
-    },
-    {
-      "Item": "Panacea",
-      "Rate": 175
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Nine_Tail_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

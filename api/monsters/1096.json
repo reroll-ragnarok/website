@@ -34,32 +34,16 @@
   },
   "Drops": [
     {
-      "Item": "Angelic_Chain",
-      "Rate": 50
+      "Item": "Poring_Doll",
+      "Rate": 10000
     },
     {
-      "Item": "Scapulare_",
-      "Rate": 30
-    },
-    {
-      "Item": "Spirit_Chain",
-      "Rate": 1
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 1000
-    },
-    {
-      "Item": "Apple",
-      "Rate": 14
-    },
-    {
-      "Item": "Emperium",
-      "Rate": 20
+      "Item": "Cardinal_Jewel",
+      "Rate": 5000
     },
     {
       "Item": "Angeling_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

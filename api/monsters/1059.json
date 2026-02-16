@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Rough_Wind",
-      "Rate": 1500
-    },
-    {
       "Item": "Royal_Jelly",
-      "Rate": 4000
-    },
-    {
-      "Item": "Scarlet_Jewel",
-      "Rate": 3000
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Gungnir",
-      "Rate": 75
+      "Item": "Rough_Wind",
+      "Rate": 10000
     },
     {
-      "Item": "Honey",
+      "Item": "Royal_Jelly",
       "Rate": 5000
     },
     {
-      "Item": "Coronet",
-      "Rate": 125
-    },
-    {
-      "Item": "Old_Card_Album",
-      "Rate": 500
-    },
-    {
-      "Item": "Young_Twig",
-      "Rate": 5
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2134
-    },
-    {
-      "Item": "Red_Square_Bag",
-      "Rate": 50
-    },
-    {
       "Item": "Mistress_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

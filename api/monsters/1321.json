@@ -34,27 +34,15 @@
   "Drops": [
     {
       "Item": "Dragon_Fly_Wing",
-      "Rate": 2207
+      "Rate": 10000
     },
     {
       "Item": "Round_Shell",
-      "Rate": 200
-    },
-    {
-      "Item": "Solid_Shell",
-      "Rate": 400
-    },
-    {
-      "Item": "Fancy_Flower",
-      "Rate": 4
-    },
-    {
-      "Item": "Cap",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Dragon_Tail_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

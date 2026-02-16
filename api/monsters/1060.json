@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Bear's_Foot",
-      "Rate": 4500
-    },
-    {
-      "Item": "Poo_Poo_Hat",
-      "Rate": 3
+      "Rate": 10000
     },
     {
       "Item": "Animal's_Skin",
-      "Rate": 2500
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Sweet_Potato",
-      "Rate": 750
-    },
-    {
-      "Item": "Honey",
-      "Rate": 225
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 22
+      "Rate": 5000
     },
     {
       "Item": "BigFoot_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

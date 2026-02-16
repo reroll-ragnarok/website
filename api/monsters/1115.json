@@ -37,49 +37,25 @@
   "MvpDrops": [
     {
       "Item": "Tiger's_Skin",
-      "Rate": 5000
+      "Rate": 10000
     },
     {
       "Item": "Tiger_Footskin",
-      "Rate": 1000
-    },
-    {
-      "Item": "Flame_Heart",
-      "Rate": 3000
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
-      "Item": "Fire_Brand",
-      "Rate": 75
-    },
-    {
-      "Item": "Smoking_Pipe",
-      "Rate": 125
-    },
-    {
-      "Item": "Honey",
-      "Rate": 5000
-    },
-    {
-      "Item": "Katar_Of_Raging_Blaze",
-      "Rate": 250
+      "Item": "Flame_Heart",
+      "Rate": 10000
     },
     {
       "Item": "Tiger_Footskin",
-      "Rate": 400
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1200
-    },
-    {
-      "Item": "Krieg",
-      "Rate": 100
+      "Rate": 5000
     },
     {
       "Item": "Eddga_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

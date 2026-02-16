@@ -37,35 +37,15 @@
   "Drops": [
     {
       "Item": "Petite_DiablOfs_Horn",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
       "Item": "Petite_DiablOfs_Wing",
-      "Rate": 200
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 1
-    },
-    {
-      "Item": "Partizan_",
-      "Rate": 1
-    },
-    {
-      "Item": "Sacred_Marks",
-      "Rate": 3
-    },
-    {
-      "Item": "Strange_Foxtail",
-      "Rate": 20
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 77
+      "Rate": 2500
     },
     {
       "Item": "Deviruchi_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

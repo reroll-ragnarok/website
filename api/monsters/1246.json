@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Well_Baked_Cookie",
-      "Rate": 2000
+      "Rate": 10000
     },
     {
-      "Item": "Scarlet_Jewel",
-      "Rate": 23
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 100
-    },
-    {
-      "Item": "Hood_",
-      "Rate": 13
-    },
-    {
-      "Item": "Gift_Box",
-      "Rate": 3
-    },
-    {
-      "Item": "Cold_Scroll_1_3",
-      "Rate": 50
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 850
+      "Item": "Candy_Striper",
+      "Rate": 5000
     },
     {
       "Item": "Cookie_XMAS_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

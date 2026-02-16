@@ -33,36 +33,16 @@
   "Ai": 5,
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 125
-    },
-    {
-      "Item": "Steel",
-      "Rate": 30
-    },
-    {
       "Item": "Cobold_Hair",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
-      "Item": "Ear_Of_Puppy",
-      "Rate": 25
-    },
-    {
-      "Item": "Poison_Arrow",
-      "Rate": 1000
-    },
-    {
-      "Item": "CrossBow_",
-      "Rate": 3
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 40
+      "Item": "Animal_Blood",
+      "Rate": 5000
     },
     {
       "Item": "Kobold_Archer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

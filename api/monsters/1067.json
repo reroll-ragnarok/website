@@ -30,36 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Crystal_Blue",
-      "Rate": 23
-    },
-    {
       "Item": "Conch",
-      "Rate": 2750
-    },
-    {
-      "Item": "Scell",
-      "Rate": 400
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 27
-    },
-    {
-      "Item": "Shield_",
-      "Rate": 3
+      "Rate": 10000
     },
     {
       "Item": "Solid_Shell",
-      "Rate": 500
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Cornutus_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

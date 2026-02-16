@@ -31,37 +31,16 @@
   "Class": "Boss",
   "Drops": [
     {
-      "Item": "Bone_Wand",
-      "Rate": 2
-    },
-    {
-      "Item": "Bone_Helm",
-      "Rate": 1
-    },
-    {
-      "Item": "Ragamuffin_Cape",
-      "Rate": 2
+      "Item": "Skull",
+      "Rate": 10000
     },
     {
       "Item": "Brigan",
-      "Rate": 2668
-    },
-    {
-      "Item": "Fruit_Of_Mastela",
-      "Rate": 60
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 775
-    },
-    {
-      "Item": "Scarlet_Twohand_Sword",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Rate": 5000
     },
     {
       "Item": "Dark_Illusion_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

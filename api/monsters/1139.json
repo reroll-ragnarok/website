@@ -33,36 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Yellow_Live",
-      "Rate": 55
-    },
-    {
       "Item": "Limb_Of_Mantis",
-      "Rate": 4500
-    },
-    {
-      "Item": "Scell",
-      "Rate": 700
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 35
+      "Rate": 10000
     },
     {
       "Item": "Solid_Shell",
-      "Rate": 125
-    },
-    {
-      "Item": "Azure_Jewel",
-      "Rate": 5
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 325
+      "Rate": 5000
     },
     {
       "Item": "Mantis_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
@@ -75,7 +55,7 @@
       "ys": 0,
       "mobId": 1139,
       "mobName": "Mantis",
-      "amount": 50,
+      "amount": 75,
       "respawnTime": 5000
     }
   ]

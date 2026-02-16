@@ -32,36 +32,16 @@
   "Ai": 5,
   "Drops": [
     {
-      "Item": "Goblini_Mask",
-      "Rate": 2
+      "Item": "Sticky_Mucus",
+      "Rate": 10000
     },
     {
-      "Item": "Iron",
-      "Rate": 125
+      "Item": "Cyfar",
+      "Rate": 5000
     },
     {
-      "Item": "Scell",
-      "Rate": 500
-    },
-    {
-      "Item": "Oridecon_Arrow",
-      "Rate": 1500
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 300
-    },
-    {
-      "Item": "Composite_Bow_",
-      "Rate": 13
-    },
-    {
-      "Item": "Grape",
-      "Rate": 150
-    },
-    {
-      "Item": "Goblin_Archer_Card",
-      "Rate": 1,
+      "Item": "Goblin_Card",
+      "Rate": 50,
       "StealProtected": true
     }
   ],

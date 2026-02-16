@@ -30,28 +30,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Wing_Of_Red_Bat",
-      "Rate": 2750
+      "Item": "Hot_Hair",
+      "Rate": 10000
     },
     {
       "Item": "Burning_Heart",
-      "Rate": 1100
-    },
-    {
-      "Item": "Hot_Hair",
-      "Rate": 1600
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 400
-    },
-    {
-      "Item": "Fruit_Of_Mastela",
-      "Rate": 200
+      "Rate": 5000
     },
     {
       "Item": "Explosion_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

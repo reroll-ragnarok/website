@@ -31,27 +31,15 @@
   "Drops": [
     {
       "Item": "Sticky_Webfoot",
-      "Rate": 4500
+      "Rate": 10000
     },
     {
       "Item": "Spawn",
-      "Rate": 500
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 300
-    },
-    {
-      "Item": "Azure_Jewel",
-      "Rate": 8
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Roda_Frog_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

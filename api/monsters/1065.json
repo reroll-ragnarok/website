@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Fin",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
-      "Item": "Oridecon_Stone",
-      "Rate": 58
-    },
-    {
-      "Item": "Chain_Mail_",
-      "Rate": 1
-    },
-    {
-      "Item": "Trident_",
-      "Rate": 1
-    },
-    {
-      "Item": "Feather",
-      "Rate": 1500
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 10
-    },
-    {
-      "Item": "Gill",
-      "Rate": 750
+      "Item": "Rough_Wind",
+      "Rate": 1000
     },
     {
       "Item": "Strouf_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

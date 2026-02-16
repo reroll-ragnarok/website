@@ -39,7 +39,7 @@
     },
     {
       "Item": "Verit_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

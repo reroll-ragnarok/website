@@ -34,31 +34,15 @@
   "Drops": [
     {
       "Item": "Harpy's_Feather",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
       "Item": "Harpy's_Claw",
-      "Rate": 1250
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 750
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 400
-    },
-    {
-      "Item": "Izidor",
-      "Rate": 10
-    },
-    {
-      "Item": "Electric_Fist",
-      "Rate": 10
+      "Rate": 5000
     },
     {
       "Item": "Harpy_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

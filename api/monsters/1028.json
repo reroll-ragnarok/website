@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Skel_Bone",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
-      "Item": "Oridecon_Stone",
-      "Rate": 30
-    },
-    {
-      "Item": "Dagger_",
-      "Rate": 6
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 350
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Chain_Mail_",
-      "Rate": 1
-    },
-    {
-      "Item": "Stiletto",
-      "Rate": 25
+      "Item": "Horrendous_Mouth",
+      "Rate": 5000
     },
     {
       "Item": "Soldier_Skeleton_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

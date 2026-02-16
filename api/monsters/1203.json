@@ -37,39 +37,12 @@
   },
   "Drops": [
     {
-      "Item": "Loki's_Whispers",
-      "Rate": 1
-    },
-    {
       "Item": "Biotite",
-      "Rate": 750
-    },
-    {
-      "Item": "Scarlet_Dagger",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Scarlet_Saber",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Scarlet_Twohand_Sword",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Runstone_Mystic",
-      "Rate": 150
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 122
+      "Rate": 10000
     },
     {
       "Item": "Mysteltainn_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

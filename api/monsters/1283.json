@@ -34,36 +34,12 @@
   },
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 2668
-    },
-    {
-      "Item": "Slender_Snake",
-      "Rate": 1250
-    },
-    {
-      "Item": "Lemon",
-      "Rate": 500
-    },
-    {
-      "Item": "War_Axe",
-      "Rate": 1
-    },
-    {
       "Item": "Citrine",
-      "Rate": 750
-    },
-    {
-      "Item": "Great_Axe",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 80
+      "Rate": 10000
     },
     {
       "Item": "Chimera_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

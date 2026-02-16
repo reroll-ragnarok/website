@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Slender_Snake",
-      "Rate": 2668
-    },
-    {
-      "Item": "Whip_Of_Red_Flame",
-      "Rate": 125
+      "Rate": 10000
     },
     {
       "Item": "Animal_Blood",
-      "Rate": 100
-    },
-    {
-      "Item": "Sea_Witch_Foot",
-      "Rate": 10
-    },
-    {
-      "Item": "Scarlet_Jewel",
-      "Rate": 125
-    },
-    {
-      "Item": "Rafini_Staff",
-      "Rate": 3
-    },
-    {
-      "Item": "Penetration",
-      "Rate": 2
+      "Rate": 5000
     },
     {
       "Item": "Medusa_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

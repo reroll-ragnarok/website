@@ -37,45 +37,21 @@
   "MvpDrops": [
     {
       "Item": "Cardinal_Jewel_",
-      "Rate": 1500
-    },
-    {
-      "Item": "Blue_Potion",
-      "Rate": 6000
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Plate_Armor_",
-      "Rate": 125
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
     },
     {
-      "Item": "Broad_Sword_",
-      "Rate": 110
-    },
-    {
-      "Item": "Zweihander",
-      "Rate": 75
-    },
-    {
-      "Item": "Sharp_Gear",
-      "Rate": 175
-    },
-    {
-      "Item": "Lance_",
-      "Rate": 275
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1843
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 1350
+      "Item": "Cardinal_Jewel_",
+      "Rate": 5000
     },
     {
       "Item": "Doppelganger_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

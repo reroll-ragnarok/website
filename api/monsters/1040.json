@@ -4,8 +4,8 @@
   "Name": "Golem",
   "Level": 40,
   "Hp": 1750,
-  "BaseExp": 250,
-  "JobExp": 275,
+  "BaseExp": 750,
+  "JobExp": 825,
   "Attack": 125,
   "Attack2": 100,
   "Defense": 50,
@@ -37,16 +37,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Iron",
+      "Item": "Steel",
       "Rate": 2500
     },
     {
-      "Item": "Steel",
-      "Rate": 1000
-    },
-    {
       "Item": "Golem_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

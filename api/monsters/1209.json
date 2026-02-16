@@ -38,16 +38,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Animal's_Skin",
+      "Item": "Fluff",
       "Rate": 5000
     },
     {
-      "Item": "Fluff",
-      "Rate": 2500
-    },
-    {
       "Item": "Cramp_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

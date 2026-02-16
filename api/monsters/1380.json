@@ -39,7 +39,7 @@
     },
     {
       "Item": "Driller_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

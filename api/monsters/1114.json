@@ -34,31 +34,15 @@
   "Drops": [
     {
       "Item": "Moth_Dust",
-      "Rate": 4500
+      "Rate": 10000
     },
     {
       "Item": "Wing_Of_Moth",
-      "Rate": 250
-    },
-    {
-      "Item": "Masquerade",
-      "Rate": 2
-    },
-    {
-      "Item": "Insect_Feeler",
-      "Rate": 1000
-    },
-    {
-      "Item": "Sparkling_Dust",
-      "Rate": 5
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 600
+      "Rate": 5000
     },
     {
       "Item": "Dustiness_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

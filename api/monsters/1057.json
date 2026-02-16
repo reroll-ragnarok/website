@@ -38,12 +38,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Cacao",
-      "Rate": 2500
-    },
-    {
       "Item": "Yoyo_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

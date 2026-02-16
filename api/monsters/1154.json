@@ -31,33 +31,15 @@
   "Drops": [
     {
       "Item": "Vroken_Sword",
-      "Rate": 2183
+      "Rate": 10000
     },
     {
       "Item": "Honey_Jar",
-      "Rate": 1250
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 10
-    },
-    {
-      "Item": "Scarlet_Saber",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Scarlet_Dagger",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Undershirt",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Pasana_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

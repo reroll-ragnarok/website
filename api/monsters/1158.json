@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Fish_Tail",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
-      "Item": "Sharp_Scale",
-      "Rate": 1000
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 3
-    },
-    {
-      "Item": "Meat",
-      "Rate": 500
-    },
-    {
-      "Item": "Fin",
-      "Rate": 250
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 13
-    },
-    {
-      "Item": "Fish_With_Blue_Back",
-      "Rate": 500
+      "Item": "Gill",
+      "Rate": 5000
     },
     {
       "Item": "Phen_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

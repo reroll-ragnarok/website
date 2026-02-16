@@ -37,31 +37,15 @@
   "Drops": [
     {
       "Item": "Evil_Horn",
-      "Rate": 250
+      "Rate": 10000
     },
     {
       "Item": "Oridecon",
-      "Rate": 32
-    },
-    {
-      "Item": "Halberd_",
-      "Rate": 1
-    },
-    {
-      "Item": "Yggdrasilberry",
-      "Rate": 25
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 650
-    },
-    {
-      "Item": "Boots",
-      "Rate": 25
+      "Rate": 1000
     },
     {
       "Item": "Baphomet__Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

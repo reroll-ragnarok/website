@@ -33,36 +33,16 @@
   "Ai": 5,
   "Drops": [
     {
+      "Item": "Horrendous_Mouth",
+      "Rate": 10000
+    },
+    {
       "Item": "Skel_Bone",
-      "Rate": 2250
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 35
-    },
-    {
-      "Item": "Apple_Of_Archer",
-      "Rate": 2
-    },
-    {
-      "Item": "Great_Bow_",
-      "Rate": 18
-    },
-    {
-      "Item": "Fire_Arrow",
-      "Rate": 500
-    },
-    {
-      "Item": "Red_Herb",
-      "Rate": 900
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Archer_Skeleton_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

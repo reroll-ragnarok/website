@@ -30,36 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Scarlet_Jewel",
-      "Rate": 75
-    },
-    {
-      "Item": "Clam_Shell",
-      "Rate": 2750
-    },
-    {
       "Item": "Sea_Otter_Leather",
-      "Rate": 2183
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Blue_Jewel",
-      "Rate": 25
+      "Rate": 10000
     },
     {
       "Item": "Glass_Bead",
-      "Rate": 325
-    },
-    {
-      "Item": "Cyfar",
-      "Rate": 600
+      "Rate": 5000
     },
     {
       "Item": "See_Otter_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -37,49 +37,25 @@
   "MvpDrops": [
     {
       "Item": "Skull",
-      "Rate": 6000
+      "Rate": 10000
     },
     {
-      "Item": "Blue_Coif_",
-      "Rate": 500
+      "Item": "Skull",
+      "Rate": 1000
     },
     {
-      "Item": "Old_Violet_Box",
-      "Rate": 2000
+      "Item": "Skull",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Bone_Wand",
-      "Rate": 400
-    },
-    {
-      "Item": "Kronos",
-      "Rate": 50
-    },
-    {
-      "Item": "Grimtooth_",
-      "Rate": 150
-    },
-    {
-      "Item": "Mage_Coat",
-      "Rate": 150
-    },
-    {
-      "Item": "Cape_Of_Ancient_Lord",
-      "Rate": 50
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2571
-    },
-    {
-      "Item": "Bone_Helm_",
-      "Rate": 5
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
     },
     {
       "Item": "Dark_Lord_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

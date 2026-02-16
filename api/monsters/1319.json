@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Turtle_Shell",
-      "Rate": 2207
-    },
-    {
-      "Item": "Broken_Shell",
-      "Rate": 425
+      "Rate": 10000
     },
     {
       "Item": "Ice_Piece",
-      "Rate": 625
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 900
-    },
-    {
-      "Item": "Royal_Jelly",
-      "Rate": 80
-    },
-    {
-      "Item": "Ice_Fragment",
-      "Rate": 100
-    },
-    {
-      "Item": "Cold_Scroll_1_5",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Freezer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

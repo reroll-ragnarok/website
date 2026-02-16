@@ -35,36 +35,15 @@
   "Drops": [
     {
       "Item": "Reins",
-      "Rate": 2668
+      "Rate": 10000
     },
     {
       "Item": "Blade_Lost_In_Darkness",
-      "Rate": 3
-    },
-    {
-      "Item": "Clothes_Of_The_Lord",
-      "Rate": 1
-    },
-    {
-      "Item": "Battle_Hook",
-      "Rate": 13
-    },
-    {
-      "Item": "Scarlet_Twohand_Sword",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 185
-    },
-    {
-      "Item": "Ebone_Armor",
-      "Rate": 5
+      "Rate": 5000
     },
     {
       "Item": "Knight_Of_Abyss_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

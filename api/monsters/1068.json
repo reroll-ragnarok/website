@@ -33,36 +33,16 @@
   "Ai": 10,
   "Drops": [
     {
-      "Item": "Emveretarcon",
-      "Rate": 13
-    },
-    {
       "Item": "Tentacle",
-      "Rate": 2750
+      "Rate": 10000
     },
     {
       "Item": "Sticky_Mucus",
-      "Rate": 750
-    },
-    {
-      "Item": "Detrimindexta",
-      "Rate": 10
-    },
-    {
-      "Item": "Panacea",
-      "Rate": 3
-    },
-    {
-      "Item": "Meat",
-      "Rate": 350
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Hydra_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

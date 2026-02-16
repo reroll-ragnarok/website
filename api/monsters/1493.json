@@ -30,36 +30,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Tough_Vines",
-      "Rate": 2668
-    },
-    {
-      "Item": "Great_Leaf",
-      "Rate": 500
-    },
-    {
-      "Item": "Browny_Root",
-      "Rate": 1500
-    },
-    {
-      "Item": "Pineapple",
-      "Rate": 150
-    },
-    {
-      "Item": "Chemeti",
-      "Rate": 1
-    },
-    {
-      "Item": "Centimental_Leaf",
-      "Rate": 5
-    },
-    {
       "Item": "Sharp_Leaf",
-      "Rate": 1500
+      "Rate": 10000
+    },
+    {
+      "Item": "Tough_Vines",
+      "Rate": 5000
     },
     {
       "Item": "Dryad_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

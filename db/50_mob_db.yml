@@ -36,22 +36,12 @@ Body:
     DamageMotion: 540
     Ai: 17
     Drops:
-      - Item: Crystal_Blue
-        Rate: 20
       - Item: Nipper
-        Rate: 4500
-      - Item: Garlet
-        Rate: 1500
-      - Item: Padded_Armor_
-        Rate: 3
+        Rate: 10000
       - Item: Solid_Shell
-        Rate: 50
-      - Item: Elunium_Stone
-        Rate: 20
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Vadon_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1067
@@ -84,22 +74,12 @@ Body:
     DamageMotion: 480
     Ai: 17
     Drops:
-      - Item: Crystal_Blue
-        Rate: 23
       - Item: Conch
-        Rate: 2750
-      - Item: Scell
-        Rate: 400
-      - Item: Elunium_Stone
-        Rate: 27
-      - Item: Shield_
-        Rate: 3
+        Rate: 10000
       - Item: Solid_Shell
-        Rate: 500
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Cornutus_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1070
@@ -132,22 +112,12 @@ Body:
     DamageMotion: 288
     Ai: 02
     Drops:
-      - Item: Crystal_Blue
-        Rate: 15
       - Item: Worm_Peelings
-        Rate: 2750
-      - Item: Garlet
-        Rate: 200
-      - Item: Monster's_Feed
-        Rate: 250
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 10000
       - Item: Insect_Feeler
-        Rate: 225
-      - Item: Earthworm_The_Dude
-        Rate: 10
+        Rate: 5000
       - Item: Kukre_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Morocc #######################################
@@ -183,21 +153,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Skel_Bone
-        Rate: 2750
-      - Item: Oridecon_Stone
-        Rate: 30
-      - Item: Dagger_
-        Rate: 6
-      - Item: Red_Herb
-        Rate: 350
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Chain_Mail_
-        Rate: 1
-      - Item: Stiletto
-        Rate: 25
+        Rate: 10000
+      - Item: Horrendous_Mouth
+        Rate: 5000
       - Item: Soldier_Skeleton_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1016
@@ -232,22 +192,12 @@ Body:
     DamageMotion: 576
     Ai: 05
     Drops:
+      - Item: Horrendous_Mouth
+        Rate: 10000
       - Item: Skel_Bone
-        Rate: 2250
-      - Item: Oridecon_Stone
-        Rate: 35
-      - Item: Apple_Of_Archer
-        Rate: 2
-      - Item: Great_Bow_
-        Rate: 18
-      - Item: Fire_Arrow
-        Rate: 500
-      - Item: Red_Herb
-        Rate: 900
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Archer_Skeleton_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -284,22 +234,12 @@ Body:
     DamageMotion: 240
     Ai: 21
     Drops:
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Scell
-        Rate: 4500
-      - Item: Oridecon_Stone
-        Rate: 22
-      - Item: Goblini_Mask
-        Rate: 2
-      - Item: Dirk_
-        Rate: 5
-      - Item: Buckler_
-        Rate: 3
-      - Item: Red_Herb
-        Rate: 900
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1123
@@ -334,22 +274,12 @@ Body:
     DamageMotion: 240
     Ai: 19
     Drops:
-      - Item: Iron
-        Rate: 125
-      - Item: Scell
-        Rate: 4500
-      - Item: Indian_Hair_Piece
-        Rate: 2
-      - Item: Flail_
-        Rate: 5
-      - Item: Siver_Guard
-        Rate: 3
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Goblini_Mask
-        Rate: 2
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1124
@@ -384,22 +314,12 @@ Body:
     DamageMotion: 240
     Ai: 13
     Drops:
-      - Item: Iron
-        Rate: 115
-      - Item: Scell
-        Rate: 4500
-      - Item: Red_Bandana
-        Rate: 2
-      - Item: Goblin_Mask_02
-        Rate: 8
-      - Item: Buckler_
-        Rate: 1
-      - Item: Red_Herb
-        Rate: 500
-      - Item: Wing_Of_Fly
-        Rate: 500
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1125
@@ -434,22 +354,12 @@ Body:
     DamageMotion: 240
     Ai: 13
     Drops:
-      - Item: Yellow_Live
-        Rate: 50
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Goblin_Mask_01
-        Rate: 8
-      - Item: Gangster_Patch
-        Rate: 2
-      - Item: Smasher_
-        Rate: 5
-      - Item: Siver_Guard
-        Rate: 3
-      - Item: Red_Herb
-        Rate: 750
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1126
@@ -484,22 +394,12 @@ Body:
     DamageMotion: 480
     Ai: 13
     Drops:
-      - Item: Model_Foxtail
-        Rate: 20
-      - Item: Scell
-        Rate: 4500
-      - Item: Wand_
-        Rate: 8
-      - Item: Amazing_Foxtail
-        Rate: 20
-      - Item: Goblin_Mask_03
-        Rate: 8
-      - Item: Red_Herb
-        Rate: 750
-      - Item: Yellow_Herb
-        Rate: 110
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
       - Item: Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1258
@@ -533,22 +433,12 @@ Body:
     DamageMotion: 420
     Ai: 05
     Drops:
-      - Item: Goblini_Mask
-        Rate: 2
-      - Item: Iron
-        Rate: 125
-      - Item: Scell
-        Rate: 500
-      - Item: Oridecon_Arrow
-        Rate: 1500
-      - Item: Red_Herb
-        Rate: 300
-      - Item: Composite_Bow_
-        Rate: 13
-      - Item: Grape
-        Rate: 150
-      - Item: Goblin_Archer_Card
-        Rate: 1
+      - Item: Sticky_Mucus
+        Rate: 10000
+      - Item: Cyfar
+        Rate: 5000
+      - Item: Goblin_Card
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -583,21 +473,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Cyfar
-        Rate: 2207
-      - Item: Brigan
-        Rate: 1750
-      - Item: Steel
-        Rate: 90
-      - Item: Iron
-        Rate: 180
+        Rate: 10000
       - Item: Coal
-        Rate: 290
-      - Item: Butcher
-        Rate: 3
-      - Item: Flame_Heart
-        Rate: 80
+        Rate: 5000
       - Item: Panzer_Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -632,22 +512,12 @@ Body:
     DamageMotion: 528
     Ai: 17
     Drops:
-      - Item: Scell
-        Rate: 1250
-      - Item: Cyfar
-        Rate: 1940
-      - Item: Iron
-        Rate: 150
-      - Item: Steel
-        Rate: 28
       - Item: Coal
-        Rate: 160
-      - Item: The_Garrison
-        Rate: 3
-      - Item: Elunium_Stone
-        Rate: 62
+        Rate: 10000
+      - Item: Steel
+        Rate: 5000
       - Item: Steam_Goblin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -683,22 +553,12 @@ Body:
     DamageMotion: 583
     Ai: 19
     Drops:
-      - Item: Zargon
-        Rate: 2183
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Coat_
-        Rate: 3
-      - Item: Cyfar
-        Rate: 600
-      - Item: Guisarme_
-        Rate: 1
-      - Item: Panacea
-        Rate: 100
+      - Item: Clam_Shell
+        Rate: 10000
       - Item: Glass_Bead
-        Rate: 60
+        Rate: 5000
       - Item: Fur_Seal_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1323
@@ -731,27 +591,16 @@ Body:
     DamageMotion: 532
     Ai: 19
     Drops:
-      - Item: Scarlet_Jewel
-        Rate: 75
-      - Item: Clam_Shell
-        Rate: 2750
       - Item: Sea_Otter_Leather
-        Rate: 2183
-      - Item: Wing_Of_Fly
-        Rate: 500
-      - Item: Blue_Jewel
-        Rate: 25
+        Rate: 10000
       - Item: Glass_Bead
-        Rate: 325
-      - Item: Cyfar
-        Rate: 600
+        Rate: 5000
       - Item: See_Otter_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ####################################### Al De Baran #######################################
 
-  ### SCARCE ###
   - Id: 1243
     AegisName: SASQUATCH
     Name: Sasquatch
@@ -782,22 +631,12 @@ Body:
     DamageMotion: 192
     Ai: 21
     Drops:
-      - Item: Zargon
-        Rate: 375
-      - Item: White_Herb
-        Rate: 400
-      - Item: Feather
-        Rate: 500
-      - Item: Panda_Cap
-        Rate: 1
-      - Item: Bear's_Foot
-        Rate: 2500
-      - Item: White_Jewel
-        Rate: 15
-      - Item: Elunium_Stone
-        Rate: 45
+      - Item: Ice_Piece
+        Rate: 10000
+      - Item: Stuffed_Doll
+        Rate: 5000
       - Item: Sasquatch_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -832,16 +671,10 @@ Body:
     DamageMotion: 576
     Ai: 04
     Drops:
-      - Item: Milk_Bottle
-        Rate: 750
       - Item: Bib
-        Rate: 1250
-      - Item: Ice_Piece
-        Rate: 2183
-      - Item: Frozen_Rose
-        Rate: 50
-      - Item: Cold_Scroll_2_5
-        Rate: 50
+        Rate: 10000
+      - Item: Milk_Bottle
+        Rate: 5000
       - Item: Garm_Baby_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

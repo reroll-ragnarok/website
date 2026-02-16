@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Well_Baked_Cookie",
-      "Rate": 1500
+      "Rate": 10000
     },
     {
       "Item": "Candy_Striper",
-      "Rate": 75
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Great_Chef_Orleans01",
-      "Rate": 25
-    },
-    {
-      "Item": "Sandals_",
-      "Rate": 15
-    },
-    {
-      "Item": "Holy_Scroll_1_3",
-      "Rate": 50
-    },
-    {
-      "Item": "Candy",
-      "Rate": 160
+      "Rate": 5000
     },
     {
       "Item": "Cookie_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

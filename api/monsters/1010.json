@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Tree_Root",
-      "Rate": 9000
-    },
-    {
-      "Item": "Wooden_Block",
-      "Rate": 100
+      "Rate": 10000
     },
     {
       "Item": "Resin",
-      "Rate": 2000
-    },
-    {
-      "Item": "Sweet_Potato",
-      "Rate": 1000
-    },
-    {
-      "Item": "Tree_Of_Archer_3",
-      "Rate": 3000
-    },
-    {
-      "Item": "Tree_Of_Archer_2",
-      "Rate": 2000
-    },
-    {
-      "Item": "Tree_Of_Archer_1",
-      "Rate": 1000
+      "Rate": 5000
     },
     {
       "Item": "Wilow_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -38,45 +38,21 @@
   "MvpDrops": [
     {
       "Item": "Fang_Of_Garm",
-      "Rate": 1000
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 3000
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 3000
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
+      "Item": "Mistic_Frozen",
+      "Rate": 10000
+    },
+    {
       "Item": "Fang_Of_Garm",
-      "Rate": 2750
-    },
-    {
-      "Item": "Ice_Falchon",
-      "Rate": 75
-    },
-    {
-      "Item": "Katar_Of_Cold_Icicle",
-      "Rate": 250
-    },
-    {
-      "Item": "Claw_Of_Garm",
-      "Rate": 250
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1989
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 1450
+      "Rate": 5000
     },
     {
       "Item": "Garm_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

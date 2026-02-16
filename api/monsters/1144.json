@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Chinese_Ink",
-      "Rate": 4500
+      "Rate": 10000
     },
     {
       "Item": "Tentacle",
-      "Rate": 1500
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Skyblue_Jewel",
-      "Rate": 5
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 6
-    },
-    {
-      "Item": "Penetration",
-      "Rate": 3
-    },
-    {
-      "Item": "Grape",
-      "Rate": 150
+      "Rate": 5000
     },
     {
       "Item": "Marse_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

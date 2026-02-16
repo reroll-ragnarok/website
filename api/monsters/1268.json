@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Brigan",
-      "Rate": 2425
+      "Rate": 10000
     },
     {
-      "Item": "Helm_",
-      "Rate": 23
-    },
-    {
-      "Item": "Plate_Armor_",
-      "Rate": 3
-    },
-    {
-      "Item": "Strong_Shield",
-      "Rate": 31
-    },
-    {
-      "Item": "Katzbalger",
-      "Rate": 1
-    },
-    {
-      "Item": "Pole_Axe",
-      "Rate": 1
-    },
-    {
-      "Item": "Ebone_Armor",
-      "Rate": 3
+      "Item": "Boroken_Shiled_Piece",
+      "Rate": 5000
     },
     {
       "Item": "Bloody_Knight_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

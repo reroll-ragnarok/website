@@ -31,37 +31,16 @@
   "Class": "Boss",
   "Drops": [
     {
-      "Item": "Talon_Of_Griffin",
-      "Rate": 1250
-    },
-    {
-      "Item": "Brigan",
-      "Rate": 2668
-    },
-    {
       "Item": "Soft_Feather",
-      "Rate": 60
+      "Rate": 10000
     },
     {
-      "Item": "Scarlet_Lance",
-      "Rate": 250,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Pole_Axe",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 93
-    },
-    {
-      "Item": "Rough_Wind",
-      "Rate": 75
+      "Item": "Talon_Of_Griffin",
+      "Rate": 2500
     },
     {
       "Item": "Gryphon_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

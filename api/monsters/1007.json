@@ -37,11 +37,11 @@
     },
     {
       "Item": "Green_Herb",
-      "Rate": 2500
+      "Rate": 5000
     },
     {
       "Item": "Fabre_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -37,37 +37,12 @@
   },
   "Drops": [
     {
-      "Item": "Bloody_Edge",
-      "Rate": 3
-    },
-    {
       "Item": "Phlogopite",
-      "Rate": 750
-    },
-    {
-      "Item": "Lapier_",
-      "Rate": 40
-    },
-    {
-      "Item": "Scimiter_",
-      "Rate": 30
-    },
-    {
-      "Item": "Scarlet_Saber",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
-    },
-    {
-      "Item": "Steel",
-      "Rate": 60
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 73
+      "Rate": 10000
     },
     {
       "Item": "Executioner_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

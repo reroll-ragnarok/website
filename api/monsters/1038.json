@@ -35,50 +35,18 @@
   },
   "MvpDrops": [
     {
-      "Item": "Old_Blue_Box",
-      "Rate": 4000
-    },
-    {
-      "Item": "Seed_Of_Yggdrasil",
-      "Rate": 3000
-    },
-    {
       "Item": "Osiris_Doll",
-      "Rate": 500
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
-      "Item": "Old_Violet_Box",
-      "Rate": 1000
-    },
-    {
-      "Item": "Assasin_Dagger",
-      "Rate": 75
-    },
-    {
-      "Item": "Crown",
-      "Rate": 100
-    },
-    {
-      "Item": "Jamadhar_",
-      "Rate": 300
-    },
-    {
-      "Item": "Sacred_Marks",
-      "Rate": 500
-    },
-    {
-      "Item": "Spinx_Helm",
-      "Rate": 75
-    },
-    {
-      "Item": "Cakram",
-      "Rate": 50
+      "Item": "Rune_Of_Darkness",
+      "Rate": 10000
     },
     {
       "Item": "Osiris_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

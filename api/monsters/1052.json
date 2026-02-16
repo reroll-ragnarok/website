@@ -41,12 +41,8 @@
       "Rate": 2500
     },
     {
-      "Item": "Green_Feeler",
-      "Rate": 50
-    },
-    {
       "Item": "Rocker_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

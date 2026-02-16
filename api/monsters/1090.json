@@ -34,7 +34,7 @@
   },
   "Drops": [
     {
-      "Item": "Apple_Juice",
+      "Item": "Poring_Doll",
       "Rate": 10000
     },
     {
@@ -42,12 +42,8 @@
       "Rate": 5000
     },
     {
-      "Item": "Poring_Doll",
-      "Rate": 2500
-    },
-    {
       "Item": "Mastering_Card",
-      "Rate": 10,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

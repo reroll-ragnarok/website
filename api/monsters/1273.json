@@ -34,31 +34,11 @@
   "Drops": [
     {
       "Item": "Cyfar",
-      "Rate": 2328
+      "Rate": 10000
     },
     {
-      "Item": "Puente_Robe",
-      "Rate": 2
-    },
-    {
-      "Item": "Earring",
-      "Rate": 1
-    },
-    {
-      "Item": "Wedding_Veil",
-      "Rate": 1
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
-    },
-    {
-      "Item": "Cookbook06",
-      "Rate": 2
-    },
-    {
-      "Item": "Wedding_Dress",
-      "Rate": 1
+      "Item": "Orcish_Voucher",
+      "Rate": 5000
     },
     {
       "Item": "Orc_Lady_Card",

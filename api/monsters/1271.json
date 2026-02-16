@@ -30,28 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "Zargon",
-      "Rate": 500
-    },
-    {
       "Item": "Worn_Out_Prison_Uniform",
-      "Rate": 300
+      "Rate": 10000
     },
     {
       "Item": "Anolian_Skin",
-      "Rate": 1000
-    },
-    {
-      "Item": "Seed_Of_Yggdrasil",
-      "Rate": 1
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 65
+      "Rate": 5000
     },
     {
       "Item": "Alligator_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

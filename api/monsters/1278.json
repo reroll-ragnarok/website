@@ -34,35 +34,15 @@
   "Drops": [
     {
       "Item": "Mud_Lump",
-      "Rate": 1000
-    },
-    {
-      "Item": "Brigan",
-      "Rate": 2425
-    },
-    {
-      "Item": "Star_Crumb",
-      "Rate": 125
+      "Rate": 10000
     },
     {
       "Item": "Great_Nature",
-      "Rate": 15
-    },
-    {
-      "Item": "Elunium_Stone",
-      "Rate": 125
-    },
-    {
-      "Item": "Round_Buckler",
-      "Rate": 3
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 82
+      "Rate": 1000
     },
     {
       "Item": "Stalactic_Golem_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

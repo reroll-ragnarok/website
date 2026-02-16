@@ -30,37 +30,16 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Steel",
-      "Rate": 150
-    },
-    {
-      "Item": "Brigan",
-      "Rate": 2668
+      "Item": "Manacles",
+      "Rate": 10000
     },
     {
       "Item": "Cyfar",
-      "Rate": 1750
-    },
-    {
-      "Item": "Padded_Armor_",
-      "Rate": 3
-    },
-    {
-      "Item": "Plate_Armor",
-      "Rate": 1
-    },
-    {
-      "Item": "Prohibition_Red_Candle",
-      "Rate": 1
-    },
-    {
-      "Item": "Scarlet_Katar",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Rate": 5000
     },
     {
       "Item": "Injustice_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

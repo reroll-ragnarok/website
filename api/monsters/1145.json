@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Moustache_Of_Mole",
-      "Rate": 4500
+      "Rate": 10000
     },
     {
       "Item": "Nail_Of_Mole",
-      "Rate": 2500
-    },
-    {
-      "Item": "Jur_",
-      "Rate": 5
-    },
-    {
-      "Item": "Goggle_",
-      "Rate": 3
-    },
-    {
-      "Item": "Safety_Helmet",
-      "Rate": 1
-    },
-    {
-      "Item": "Battered_Pot",
-      "Rate": 5
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 5000
     },
     {
       "Item": "Martin_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

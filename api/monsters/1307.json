@@ -34,36 +34,12 @@
   },
   "Drops": [
     {
-      "Item": "Puppy_Love",
-      "Rate": 1
-    },
-    {
-      "Item": "Silver_Knife_Of_Chaste",
-      "Rate": 75
-    },
-    {
-      "Item": "Punisher",
-      "Rate": 3
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 300
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 400
-    },
-    {
-      "Item": "Gold",
-      "Rate": 1
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 1
+      "Item": "Blue_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Cat_O_Nine_Tail_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

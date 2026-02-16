@@ -36,50 +36,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Oridecon",
-      "Rate": 6000
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 3000
-    },
-    {
-      "Item": "Blue_Potion",
-      "Rate": 6000
+      "Item": "Gemstone",
+      "Rate": 10000
     }
   ],
   "Drops": [
     {
+      "Item": "Star_Crumb",
+      "Rate": 10000
+    },
+    {
       "Item": "Gemstone",
-      "Rate": 2425
-    },
-    {
-      "Item": "Stone_Piece",
-      "Rate": 2425
-    },
-    {
-      "Item": "Golden_Jewel",
-      "Rate": 500
-    },
-    {
-      "Item": "Binoculars",
-      "Rate": 200
-    },
-    {
-      "Item": "White_Potion",
-      "Rate": 1500
-    },
-    {
-      "Item": "Runstone_Rare",
-      "Rate": 100
-    },
-    {
-      "Item": "Gemmed_Sallet_",
-      "Rate": 3
+      "Rate": 5000
     },
     {
       "Item": "Tao_Gunka_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

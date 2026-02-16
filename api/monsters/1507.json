@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Old_Manteau",
-      "Rate": 2086
-    },
-    {
-      "Item": "Distorted_Portrait",
-      "Rate": 500
+      "Rate": 10000
     },
     {
       "Item": "Rusty_Cleaver",
-      "Rate": 1000
-    },
-    {
-      "Item": "Mr_Scream",
-      "Rate": 25
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 50
-    },
-    {
-      "Item": "Mama's_Knife",
-      "Rate": 2
-    },
-    {
-      "Item": "Ginnungagap",
-      "Rate": 1
+      "Rate": 5000
     },
     {
       "Item": "Bloody_Murderer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

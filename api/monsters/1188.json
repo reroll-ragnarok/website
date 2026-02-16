@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Short_Daenggie",
-      "Rate": 2750
-    },
-    {
-      "Item": "Old_Portrait",
-      "Rate": 20
+      "Rate": 10000
     },
     {
       "Item": "Worn_Out_Scroll",
-      "Rate": 30
-    },
-    {
-      "Item": "Bongun_Hat",
-      "Rate": 1
-    },
-    {
-      "Item": "Amulet",
-      "Rate": 8
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 500
-    },
-    {
-      "Item": "Yellow_Herb",
-      "Rate": 625
+      "Rate": 5000
     },
     {
       "Item": "Bon_Gun_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

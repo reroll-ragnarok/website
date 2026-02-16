@@ -30,37 +30,16 @@
   "Ai": 17,
   "Drops": [
     {
-      "Item": "White_Powder",
-      "Rate": 100
-    },
-    {
       "Item": "Posionous_Canine",
-      "Rate": 4500
-    },
-    {
-      "Item": "Scarlet_Lance",
-      "Rate": 50,
-      "RandomOptionGroup": "Group_5"
+      "Rate": 10000
     },
     {
       "Item": "Scale_Of_Snakes",
-      "Rate": 750
-    },
-    {
-      "Item": "Scales_Shell",
-      "Rate": 100
-    },
-    {
-      "Item": "Doram_Only_Suit",
-      "Rate": 20
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 25
+      "Rate": 5000
     },
     {
       "Item": "Anacondaq_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -30,36 +30,16 @@
   "Ai": 2,
   "Drops": [
     {
-      "Item": "Crystal_Blue",
-      "Rate": 15
-    },
-    {
       "Item": "Worm_Peelings",
-      "Rate": 2750
-    },
-    {
-      "Item": "Garlet",
-      "Rate": 200
-    },
-    {
-      "Item": "Monster's_Feed",
-      "Rate": 250
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 10000
     },
     {
       "Item": "Insect_Feeler",
-      "Rate": 225
-    },
-    {
-      "Item": "Earthworm_The_Dude",
-      "Rate": 10
+      "Rate": 5000
     },
     {
       "Item": "Kukre_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

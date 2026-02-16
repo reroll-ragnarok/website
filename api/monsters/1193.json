@@ -34,31 +34,15 @@
   "Drops": [
     {
       "Item": "Needle_Of_Alarm",
-      "Rate": 2668
-    },
-    {
-      "Item": "Clip",
-      "Rate": 1
+      "Rate": 10000
     },
     {
       "Item": "Skull",
-      "Rate": 750
-    },
-    {
-      "Item": "Oridecon",
-      "Rate": 53
-    },
-    {
-      "Item": "Key_Of_Clock_Tower",
-      "Rate": 10
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 750
+      "Rate": 5000
     },
     {
       "Item": "Alarm_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

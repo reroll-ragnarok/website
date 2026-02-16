@@ -39,65 +39,30 @@
   },
   "MvpDrops": [
     {
-      "Item": "Red_Jewel",
-      "Rate": 2000
+      "Item": "Voucher_Of_Orcish_Hero",
+      "Rate": 10000
     },
     {
-      "Item": "Yggdrasilberry",
-      "Rate": 1500
-    },
-    {
-      "Item": "Steel",
+      "Item": "Voucher_Of_Orcish_Hero",
       "Rate": 5000
     }
   ],
   "Drops": [
     {
+      "Item": "Great_Nature",
+      "Rate": 10000
+    },
+    {
       "Item": "Voucher_Of_Orcish_Hero",
-      "Rate": 4850
-    },
-    {
-      "Item": "Monkey_Circlet",
-      "Rate": 250
-    },
-    {
-      "Item": "Right_Epsilon",
-      "Rate": 75
-    },
-    {
-      "Item": "Shield_",
-      "Rate": 125
-    },
-    {
-      "Item": "Orcish_Sword",
-      "Rate": 500
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2280
-    },
-    {
-      "Item": "Giant_Axe",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Orc_Hero_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
   "spawns": [
-    {
-      "map": "gef_fild11",
-      "x": 0,
-      "y": 0,
-      "xs": 0,
-      "ys": 0,
-      "mobId": 1087,
-      "mobName": "Goblin Leader",
-      "amount": 1,
-      "respawnTime": 600000
-    },
     {
       "map": "orcsdun02",
       "x": 0,

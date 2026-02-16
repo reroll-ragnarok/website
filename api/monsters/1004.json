@@ -33,36 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Wind_Of_Verdure",
-      "Rate": 80
-    },
-    {
       "Item": "Bee_Sting",
-      "Rate": 8000
-    },
-    {
-      "Item": "Jellopy",
-      "Rate": 3000
-    },
-    {
-      "Item": "Main_Gauche_",
-      "Rate": 20
-    },
-    {
-      "Item": "Green_Herb",
-      "Rate": 500
+      "Rate": 10000
     },
     {
       "Item": "Honey",
-      "Rate": 100
-    },
-    {
-      "Item": "Wing_Of_Fly",
-      "Rate": 500
+      "Rate": 3000
     },
     {
       "Item": "Hornet_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -35,36 +35,12 @@
   },
   "Drops": [
     {
-      "Item": "Transparent_Cloth",
-      "Rate": 2668
-    },
-    {
-      "Item": "Ghost_Bandana",
-      "Rate": 50
-    },
-    {
-      "Item": "Thief_Clothes_",
-      "Rate": 25
-    },
-    {
-      "Item": "Branch_Of_Dead_Tree",
-      "Rate": 250
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 5
-    },
-    {
-      "Item": "Emperium",
-      "Rate": 15
-    },
-    {
-      "Item": "Ghost_Scroll_1_5",
-      "Rate": 50
+      "Item": "White_Jewel",
+      "Rate": 10000
     },
     {
       "Item": "Ghostring_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -30,36 +30,16 @@
   "Ai": 19,
   "Drops": [
     {
-      "Item": "Shining_Scales",
-      "Rate": 2668
-    },
-    {
-      "Item": "Zargon",
-      "Rate": 700
-    },
-    {
-      "Item": "Oridecon_Stone",
-      "Rate": 67
-    },
-    {
-      "Item": "Tsurugi_",
-      "Rate": 1
-    },
-    {
       "Item": "Posionous_Canine",
-      "Rate": 1250
+      "Rate": 10000
     },
     {
-      "Item": "Scale_Of_Snakes",
-      "Rate": 2500
-    },
-    {
-      "Item": "White_Herb",
-      "Rate": 500
+      "Item": "Shining_Scales",
+      "Rate": 5000
     },
     {
       "Item": "Side_Winder_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

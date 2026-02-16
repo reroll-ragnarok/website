@@ -37,50 +37,22 @@
   },
   "MvpDrops": [
     {
-      "Item": "Skyblue_Jewel",
-      "Rate": 4500
+      "Item": "Ice_Scale",
+      "Rate": 10000
     },
     {
-      "Item": "Boots_",
-      "Rate": 500
-    },
-    {
-      "Item": "Mistic_Frozen",
-      "Rate": 3000
+      "Item": "Ice_Scale",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
-      "Item": "Zephyrus",
-      "Rate": 75
-    },
-    {
-      "Item": "Old_Blue_Box",
-      "Rate": 1500
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 2000
-    },
-    {
-      "Item": "Ring_",
-      "Rate": 100
-    },
-    {
-      "Item": "Manteau_",
-      "Rate": 250
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 2280
-    },
-    {
-      "Item": "Loard_Circlet",
-      "Rate": 1
+      "Item": "Rough_Wind",
+      "Rate": 10000
     },
     {
       "Item": "Knight_Windstorm_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -33,7 +33,7 @@
   "Drops": [
     {
       "Item": "Shell",
-      "Rate": 7000
+      "Rate": 10000
     },
     {
       "Item": "Wing_Of_Fly",
@@ -41,7 +41,7 @@
     },
     {
       "Item": "Chonchon_Card",
-      "Rate": 20,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

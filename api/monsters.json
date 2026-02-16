@@ -34,7 +34,7 @@
     "Drops": [
       {
         "Item": "Shell",
-        "Rate": 7000
+        "Rate": 10000
       },
       {
         "Item": "Wing_Of_Fly",
@@ -42,7 +42,7 @@
       },
       {
         "Item": "Chonchon_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -78,28 +78,16 @@
     "Ai": 1,
     "Drops": [
       {
-        "Item": "Clover",
+        "Item": "Feather",
         "Rate": 10000
       },
       {
-        "Item": "Feather",
+        "Item": "Carrot",
         "Rate": 5000
       },
       {
-        "Item": "Carrot",
-        "Rate": 2500
-      },
-      {
-        "Item": "Rainbow_Carrot",
-        "Rate": 1000
-      },
-      {
-        "Item": "Pierrot_Nose",
-        "Rate": 50
-      },
-      {
         "Item": "Lunatic_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -137,12 +125,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Guard_",
-        "Rate": 50
+        "Item": "White_Platter",
+        "Rate": 5000
       },
       {
         "Item": "Pecopeco_Egg_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -183,8 +171,12 @@
         "Rate": 10000
       },
       {
+        "Item": "Milk",
+        "Rate": 5000
+      },
+      {
         "Item": "Picky_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -222,15 +214,15 @@
     "Drops": [
       {
         "Item": "Feather_Of_Birds",
-        "Rate": 7000
+        "Rate": 10000
       },
       {
-        "Item": "Tiny_Egg_Shell",
-        "Rate": 50
+        "Item": "Milk",
+        "Rate": 5000
       },
       {
         "Item": "Picky__Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -240,9 +232,9 @@
     "AegisName": "PECOPECO",
     "Name": "Peco Peco",
     "Level": 10,
-    "Hp": 269,
-    "BaseExp": 500,
-    "JobExp": 250,
+    "Hp": 169,
+    "BaseExp": 300,
+    "JobExp": 150,
     "Attack": 16,
     "Attack2": 7,
     "Defense": 15,
@@ -275,7 +267,7 @@
       },
       {
         "Item": "Pecopeco_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -316,35 +308,15 @@
     "Drops": [
       {
         "Item": "Powder_Of_Butterfly",
-        "Rate": 8000
-      },
-      {
-        "Item": "Silk_Robe_",
-        "Rate": 20
+        "Rate": 10000
       },
       {
         "Item": "Honey",
-        "Rate": 200
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Fancy_Flower",
-        "Rate": 20
-      },
-      {
-        "Item": "Flower",
-        "Rate": 500
-      },
-      {
-        "Item": "Wind_Scroll_1_3",
-        "Rate": 100
+        "Rate": 2500
       },
       {
         "Item": "Creamy_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -381,36 +353,16 @@
     "Ai": 10,
     "Drops": [
       {
-        "Item": "Yellow_Live",
-        "Rate": 60
-      },
-      {
         "Item": "Stem",
-        "Rate": 8000
+        "Rate": 10000
       },
       {
-        "Item": "Spear_",
-        "Rate": 30
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 400
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Four_Leaf_Clover",
-        "Rate": 1
-      },
-      {
-        "Item": "Whip_Of_Earth",
-        "Rate": 5
+        "Item": "Clover",
+        "Rate": 5000
       },
       {
         "Item": "Mandragora_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -446,36 +398,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Boody_Red",
-        "Rate": 25
+        "Item": "Young_Twig",
+        "Rate": 10000
       },
       {
         "Item": "Resin",
-        "Rate": 4500
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 20
-      },
-      {
-        "Item": "Elder_Branch",
-        "Rate": 1
-      },
-      {
-        "Item": "Fire_Scroll_1_3",
-        "Rate": 50
-      },
-      {
-        "Item": "Branch_Of_Dead_Tree",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Elder_Wilow_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -513,35 +445,15 @@
     "Drops": [
       {
         "Item": "Bear's_Foot",
-        "Rate": 4500
-      },
-      {
-        "Item": "Poo_Poo_Hat",
-        "Rate": 3
+        "Rate": 10000
       },
       {
         "Item": "Animal's_Skin",
-        "Rate": 2500
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Sweet_Potato",
-        "Rate": 750
-      },
-      {
-        "Item": "Honey",
-        "Rate": 225
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 22
+        "Rate": 5000
       },
       {
         "Item": "BigFoot_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -578,36 +490,16 @@
     "Ai": 10,
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 1000
-      },
-      {
         "Item": "Wooden_Block",
-        "Rate": 1000
+        "Rate": 10000
       },
       {
-        "Item": "Club",
-        "Rate": 50
-      },
-      {
-        "Item": "Inspector_Certificate",
-        "Rate": 150
-      },
-      {
-        "Item": "Stop_Post",
-        "Rate": 1
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 125
-      },
-      {
-        "Item": "Earth_Scroll_1_3",
-        "Rate": 50
+        "Item": "Heart_Of_Tree",
+        "Rate": 5000
       },
       {
         "Item": "Greatest_General_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -644,24 +536,16 @@
     "Ai": 2,
     "Drops": [
       {
-        "Item": "Jellopy",
+        "Item": "Sticky_Mucus",
         "Rate": 10000
       },
       {
-        "Item": "Sticky_Mucus",
+        "Item": "Apple",
         "Rate": 5000
       },
       {
-        "Item": "Apple",
-        "Rate": 2500
-      },
-      {
-        "Item": "Unripe_Apple",
-        "Rate": 1000
-      },
-      {
         "Item": "Poring_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -705,11 +589,11 @@
       },
       {
         "Item": "Green_Herb",
-        "Rate": 2500
+        "Rate": 5000
       },
       {
         "Item": "Fabre_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -756,12 +640,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Guard_",
-        "Rate": 50
-      },
-      {
         "Item": "Pupa_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -797,20 +677,16 @@
     "Ai": 2,
     "Drops": [
       {
-        "Item": "Scell",
+        "Item": "Sticky_Mucus",
         "Rate": 10000
       },
       {
-        "Item": "Sticky_Mucus",
+        "Item": "Orange",
         "Rate": 5000
       },
       {
-        "Item": "Orange",
-        "Rate": 2500
-      },
-      {
         "Item": "Drops_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -852,11 +728,11 @@
       },
       {
         "Item": "Meat",
-        "Rate": 2500
+        "Rate": 5000
       },
       {
         "Item": "Desert_Wolf_Babe_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -894,27 +770,15 @@
     "Drops": [
       {
         "Item": "Sticky_Webfoot",
-        "Rate": 4500
+        "Rate": 10000
       },
       {
         "Item": "Spawn",
-        "Rate": 500
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 300
-      },
-      {
-        "Item": "Azure_Jewel",
-        "Rate": 8
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Roda_Frog_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -951,36 +815,16 @@
     "Ai": 1,
     "Drops": [
       {
-        "Item": "Emveretarcon",
-        "Rate": 23
-      },
-      {
         "Item": "Spawn",
-        "Rate": 2750
-      },
-      {
-        "Item": "Scell",
-        "Rate": 300
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 15
-      },
-      {
-        "Item": "Red_Jewel",
-        "Rate": 3
+        "Rate": 10000
       },
       {
         "Item": "Sticky_Webfoot",
-        "Rate": 1000
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Thara_Frog_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1018,35 +862,15 @@
     "Drops": [
       {
         "Item": "Mushroom_Spore",
-        "Rate": 8000
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 1000
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Spore_Doll",
-        "Rate": 10
-      },
-      {
-        "Item": "Hat",
-        "Rate": 30
-      },
-      {
-        "Item": "Poison_Spore",
-        "Rate": 10
+        "Rate": 10000
       },
       {
         "Item": "Strawberry",
-        "Rate": 600
+        "Rate": 2500
       },
       {
         "Item": "Spore_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1082,36 +906,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Yellow_Live",
-        "Rate": 30
-      },
-      {
-        "Item": "Emveretarcon",
-        "Rate": 13
-      },
-      {
         "Item": "Pointed_Scale",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
-        "Item": "Pike_",
-        "Rate": 15
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 35
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Green_Lace",
-        "Rate": 50
+        "Item": "Animal's_Skin",
+        "Rate": 5000
       },
       {
         "Item": "Worm_Tail_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1149,35 +953,15 @@
     "Drops": [
       {
         "Item": "Tree_Root",
-        "Rate": 9000
-      },
-      {
-        "Item": "Wooden_Block",
-        "Rate": 100
+        "Rate": 10000
       },
       {
         "Item": "Resin",
-        "Rate": 2000
-      },
-      {
-        "Item": "Sweet_Potato",
-        "Rate": 1000
-      },
-      {
-        "Item": "Tree_Of_Archer_3",
-        "Rate": 3000
-      },
-      {
-        "Item": "Tree_Of_Archer_2",
-        "Rate": 2000
-      },
-      {
-        "Item": "Tree_Of_Archer_1",
-        "Rate": 1000
+        "Rate": 5000
       },
       {
         "Item": "Wilow_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1225,12 +1009,8 @@
         "Rate": 2500
       },
       {
-        "Item": "Green_Feeler",
-        "Rate": 50
-      },
-      {
         "Item": "Rocker_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1275,12 +1055,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Cacao",
-        "Rate": 2500
-      },
-      {
         "Item": "Yoyo_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1325,16 +1101,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Sweet_Potato",
-        "Rate": 2500
-      },
-      {
-        "Item": "Cat_Hairband",
-        "Rate": 50
-      },
-      {
         "Item": "Smokie_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1371,36 +1139,16 @@
     "Ai": 3,
     "Drops": [
       {
-        "Item": "Emveretarcon",
-        "Rate": 10
-      },
-      {
         "Item": "Claw_Of_Wolves",
-        "Rate": 4500
-      },
-      {
-        "Item": "Mantle_",
-        "Rate": 5
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Monster's_Feed",
-        "Rate": 525
+        "Rate": 10000
       },
       {
         "Item": "Animal's_Skin",
-        "Rate": 2750
-      },
-      {
-        "Item": "Strawberry",
-        "Rate": 300
+        "Rate": 5000
       },
       {
         "Item": "Wolf_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1437,37 +1185,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Katar_",
-        "Rate": 1
-      },
-      {
         "Item": "Claw_Of_Desert_Wolf",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
-        "Item": "Mink_Coat",
-        "Rate": 1
-      },
-      {
-        "Item": "Wolf_Blood",
-        "Rate": 5
-      },
-      {
-        "Item": "Durga",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 27
-      },
-      {
-        "Item": "Scarlet_Dagger",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Item": "Animal's_Skin",
+        "Rate": 5000
       },
       {
         "Item": "Desert_Wolf_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1478,8 +1205,8 @@
     "Name": "Poison Spore",
     "Level": 20,
     "Hp": 280,
-    "BaseExp": 150,
-    "JobExp": 100,
+    "BaseExp": 450,
+    "JobExp": 300,
     "Attack": 30,
     "Attack2": 8,
     "Defense": 18,
@@ -1505,35 +1232,15 @@
     "Drops": [
       {
         "Item": "Poison_Spore",
-        "Rate": 4500
-      },
-      {
-        "Item": "Hat_",
-        "Rate": 10
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 275
-      },
-      {
-        "Item": "Blue_Herb",
-        "Rate": 30
-      },
-      {
-        "Item": "Karvodailnirol",
-        "Rate": 25
+        "Rate": 10000
       },
       {
         "Item": "Mushroom_Spore",
-        "Rate": 600
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Poison_Spore_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1573,36 +1280,16 @@
     },
     "Drops": [
       {
-        "Item": "Yellow_Live",
-        "Rate": 55
-      },
-      {
         "Item": "Limb_Of_Mantis",
-        "Rate": 4500
-      },
-      {
-        "Item": "Scell",
-        "Rate": 700
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 35
+        "Rate": 10000
       },
       {
         "Item": "Solid_Shell",
-        "Rate": 125
-      },
-      {
-        "Item": "Azure_Jewel",
-        "Rate": 5
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 325
+        "Rate": 5000
       },
       {
         "Item": "Mantis_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1651,7 +1338,7 @@
       },
       {
         "Item": "Thief_Bug_Female_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1693,15 +1380,11 @@
       },
       {
         "Item": "Grape",
-        "Rate": 2500
-      },
-      {
-        "Item": "Center_Potion",
-        "Rate": 1000
+        "Rate": 5000
       },
       {
         "Item": "Farmiliar_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1746,12 +1429,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Feather",
-        "Rate": 2500
-      },
-      {
         "Item": "Tarou_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1797,7 +1476,7 @@
       },
       {
         "Item": "Driller_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1843,7 +1522,7 @@
       },
       {
         "Item": "Frilldora_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1883,36 +1562,16 @@
     },
     "Drops": [
       {
-        "Item": "Wind_Of_Verdure",
-        "Rate": 80
-      },
-      {
         "Item": "Bee_Sting",
-        "Rate": 8000
-      },
-      {
-        "Item": "Jellopy",
-        "Rate": 3000
-      },
-      {
-        "Item": "Main_Gauche_",
-        "Rate": 20
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 500
+        "Rate": 10000
       },
       {
         "Item": "Honey",
-        "Rate": 100
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 3000
       },
       {
         "Item": "Hornet_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -1950,35 +1609,15 @@
     "Drops": [
       {
         "Item": "Blossom_Of_Maneater",
-        "Rate": 4500
-      },
-      {
-        "Item": "Sunflower",
-        "Rate": 2
-      },
-      {
-        "Item": "Aloe",
-        "Rate": 5
+        "Rate": 10000
       },
       {
         "Item": "Leaflet_Of_Aloe",
-        "Rate": 25
-      },
-      {
-        "Item": "Singing_Flower",
-        "Rate": 10
-      },
-      {
-        "Item": "Stem",
-        "Rate": 1000
-      },
-      {
-        "Item": "Witherless_Rose",
-        "Rate": 1
+        "Rate": 2500
       },
       {
         "Item": "Flora_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2015,36 +1654,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Iron",
-        "Rate": 200
-      },
-      {
         "Item": "Lantern",
-        "Rate": 2750
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 45
-      },
-      {
-        "Item": "Safety_Helmet",
-        "Rate": 1
-      },
-      {
-        "Item": "Steel",
-        "Rate": 50
+        "Rate": 10000
       },
       {
         "Item": "Coal",
-        "Rate": 100
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Skel_Worker_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2055,8 +1674,8 @@
     "Name": "Giearth",
     "Level": 30,
     "Hp": 999,
-    "BaseExp": 200,
-    "JobExp": 175,
+    "BaseExp": 600,
+    "JobExp": 525,
     "Attack": 99,
     "Attack2": 33,
     "Defense": 20,
@@ -2084,36 +1703,16 @@
     },
     "Drops": [
       {
-        "Item": "Great_Nature",
-        "Rate": 15
-      },
-      {
-        "Item": "Coal",
-        "Rate": 75
-      },
-      {
         "Item": "Elder_Pixie's_Beard",
-        "Rate": 2750
-      },
-      {
-        "Item": "Elven_Ears",
-        "Rate": 1
-      },
-      {
-        "Item": "Cap_",
-        "Rate": 5
+        "Rate": 10000
       },
       {
         "Item": "Sparkling_Dust",
-        "Rate": 50
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Giearth_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2151,35 +1750,15 @@
     "Drops": [
       {
         "Item": "Moustache_Of_Mole",
-        "Rate": 4500
+        "Rate": 10000
       },
       {
         "Item": "Nail_Of_Mole",
-        "Rate": 2500
-      },
-      {
-        "Item": "Jur_",
-        "Rate": 5
-      },
-      {
-        "Item": "Goggle_",
-        "Rate": 3
-      },
-      {
-        "Item": "Safety_Helmet",
-        "Rate": 1
-      },
-      {
-        "Item": "Battered_Pot",
-        "Rate": 5
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Martin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2217,35 +1796,15 @@
     "Drops": [
       {
         "Item": "Danggie",
-        "Rate": 4500
-      },
-      {
-        "Item": "Munak_Turban",
-        "Rate": 1
-      },
-      {
-        "Item": "Shoes_",
-        "Rate": 8
+        "Rate": 10000
       },
       {
         "Item": "Amulet",
-        "Rate": 10
-      },
-      {
-        "Item": "Ninja_Suit",
-        "Rate": 1
-      },
-      {
-        "Item": "Adventure_Suit",
-        "Rate": 50
-      },
-      {
-        "Item": "Girl's_Diary",
-        "Rate": 3
+        "Rate": 5000
       },
       {
         "Item": "Munak_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2283,35 +1842,15 @@
     "Drops": [
       {
         "Item": "Short_Daenggie",
-        "Rate": 2750
-      },
-      {
-        "Item": "Old_Portrait",
-        "Rate": 20
+        "Rate": 10000
       },
       {
         "Item": "Worn_Out_Scroll",
-        "Rate": 30
-      },
-      {
-        "Item": "Bongun_Hat",
-        "Rate": 1
-      },
-      {
-        "Item": "Amulet",
-        "Rate": 8
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 625
+        "Rate": 5000
       },
       {
         "Item": "Bon_Gun_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2349,36 +1888,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 1940
-      },
-      {
-        "Item": "Amulet",
-        "Rate": 50
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 5
-      },
-      {
-        "Item": "Boots_",
-        "Rate": 1
+        "Item": "Old_Portrait",
+        "Rate": 10000
       },
       {
         "Item": "Munak_Doll",
-        "Rate": 150
-      },
-      {
-        "Item": "Claire_Suits",
-        "Rate": 5
-      },
-      {
-        "Item": "Hyegun_Hat",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Hyegun_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2427,7 +1946,7 @@
       },
       {
         "Item": "Thief_Bug_Male_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2476,7 +1995,7 @@
       },
       {
         "Item": "Drainliar_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2521,16 +2040,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Animal's_Skin",
+        "Item": "Fluff",
         "Rate": 5000
       },
       {
-        "Item": "Fluff",
-        "Rate": 2500
-      },
-      {
         "Item": "Cramp_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2566,12 +2081,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Guard_",
-        "Rate": 50
+        "Item": "Sticky_Mucus",
+        "Rate": 5000
       },
       {
         "Item": "Andre_Egg_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2611,20 +2126,16 @@
     },
     "Drops": [
       {
-        "Item": "Worm_Peelings",
+        "Item": "Insect_Feeler",
         "Rate": 10000
       },
       {
-        "Item": "Insect_Feeler",
-        "Rate": 5000
-      },
-      {
         "Item": "Wind_Of_Verdure",
-        "Rate": 500
+        "Rate": 2500
       },
       {
         "Item": "Andre_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2664,20 +2175,16 @@
     },
     "Drops": [
       {
-        "Item": "Worm_Peelings",
+        "Item": "Insect_Feeler",
         "Rate": 10000
       },
       {
-        "Item": "Insect_Feeler",
-        "Rate": 5000
-      },
-      {
         "Item": "Boody_Red",
-        "Rate": 500
+        "Rate": 2500
       },
       {
         "Item": "Andre_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2717,20 +2224,16 @@
     },
     "Drops": [
       {
-        "Item": "Worm_Peelings",
-        "Rate": 4500
-      },
-      {
         "Item": "Insect_Feeler",
-        "Rate": 5000
+        "Rate": 10000
       },
       {
         "Item": "Yellow_Live",
-        "Rate": 500
+        "Rate": 2500
       },
       {
         "Item": "Andre_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2774,16 +2277,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Insect_Feeler",
-        "Rate": 5000
-      },
-      {
         "Item": "Crystal_Blue",
-        "Rate": 500
+        "Rate": 2500
       },
       {
         "Item": "Vitata_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2794,8 +2293,8 @@
     "Name": "Golem",
     "Level": 40,
     "Hp": 1750,
-    "BaseExp": 250,
-    "JobExp": 275,
+    "BaseExp": 750,
+    "JobExp": 825,
     "Attack": 125,
     "Attack2": 100,
     "Defense": 50,
@@ -2827,16 +2326,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Iron",
+        "Item": "Steel",
         "Rate": 2500
       },
       {
-        "Item": "Steel",
-        "Rate": 1000
-      },
-      {
         "Item": "Golem_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2874,36 +2369,15 @@
     "Drops": [
       {
         "Item": "Dragon_Canine",
-        "Rate": 2668
-      },
-      {
-        "Item": "Dragon_Train",
-        "Rate": 150
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 70
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Scarlet_Mace",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Rate": 10000
       },
       {
         "Item": "Petti_Tail",
-        "Rate": 50
-      },
-      {
-        "Item": "Aloebera",
-        "Rate": 8
+        "Rate": 5000
       },
       {
         "Item": "Petit_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -2941,35 +2415,15 @@
     "Drops": [
       {
         "Item": "Dragon_Scale",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Dragon_Train",
-        "Rate": 150
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 31
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Khukri",
-        "Rate": 3
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 750
-      },
-      {
-        "Item": "Aloebera",
-        "Rate": 8
+        "Item": "Petti_Tail",
+        "Rate": 5000
       },
       {
         "Item": "Petit__Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3006,32 +2460,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Dragon's_Skin",
-        "Rate": 1000
-      },
-      {
-        "Item": "Dragon_Canine",
-        "Rate": 1300
-      },
-      {
         "Item": "Dragon_Train",
-        "Rate": 1000
+        "Rate": 10000
       },
       {
-        "Item": "Dragon_Scale",
-        "Rate": 1000
-      },
-      {
-        "Item": "Strange_Foxtail",
-        "Rate": 20
-      },
-      {
-        "Item": "Doram_Only_Cape",
-        "Rate": 20
+        "Item": "Dragon's_Skin",
+        "Rate": 5000
       },
       {
         "Item": "Flying_Deleter_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3068,36 +2506,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Dragon's_Skin",
-        "Rate": 1000
-      },
-      {
-        "Item": "Dragon_Canine",
-        "Rate": 1300
-      },
-      {
         "Item": "Dragon_Train",
-        "Rate": 1000
+        "Rate": 10000
       },
       {
-        "Item": "Dragon_Scale",
-        "Rate": 1000
-      },
-      {
-        "Item": "Stone_Buckler",
-        "Rate": 5
-      },
-      {
-        "Item": "Detail_Model_Foxtail",
-        "Rate": 20
-      },
-      {
-        "Item": "Doram_Only_Shoes",
-        "Rate": 20
+        "Item": "Dragon's_Skin",
+        "Rate": 5000
       },
       {
         "Item": "Deleter_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3135,35 +2553,15 @@
     "Drops": [
       {
         "Item": "Fox_Tail",
-        "Rate": 2328
+        "Rate": 10000
       },
       {
         "Item": "Glass_Bead",
-        "Rate": 100
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 50
-      },
-      {
-        "Item": "Branch_Of_Dead_Tree",
-        "Rate": 50
-      },
-      {
-        "Item": "Royal_Jelly",
-        "Rate": 125
-      },
-      {
-        "Item": "Panacea",
-        "Rate": 175
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Nine_Tail_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3200,36 +2598,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Shining_Scales",
-        "Rate": 2668
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 700
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 67
-      },
-      {
-        "Item": "Tsurugi_",
-        "Rate": 1
-      },
-      {
         "Item": "Posionous_Canine",
-        "Rate": 1250
+        "Rate": 10000
       },
       {
-        "Item": "Scale_Of_Snakes",
-        "Rate": 2500
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 500
+        "Item": "Shining_Scales",
+        "Rate": 5000
       },
       {
         "Item": "Side_Winder_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3268,35 +2646,15 @@
     "Drops": [
       {
         "Item": "Scale_Of_Snakes",
-        "Rate": 8000
-      },
-      {
-        "Item": "Katana_",
-        "Rate": 20
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 800
-      },
-      {
-        "Item": "Emveretarcon",
-        "Rate": 100
-      },
-      {
-        "Item": "Posionous_Canine",
-        "Rate": 800
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 10000
       },
       {
         "Item": "Strawberry",
-        "Rate": 3000
+        "Rate": 2500
       },
       {
         "Item": "Snake_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3333,37 +2691,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "White_Powder",
-        "Rate": 100
-      },
-      {
         "Item": "Posionous_Canine",
-        "Rate": 4500
-      },
-      {
-        "Item": "Scarlet_Lance",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Rate": 10000
       },
       {
         "Item": "Scale_Of_Snakes",
-        "Rate": 750
-      },
-      {
-        "Item": "Scales_Shell",
-        "Rate": 100
-      },
-      {
-        "Item": "Doram_Only_Suit",
-        "Rate": 20
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 25
+        "Rate": 5000
       },
       {
         "Item": "Anacondaq_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3400,36 +2737,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Crystal_Blue",
-        "Rate": 20
-      },
-      {
         "Item": "Nipper",
-        "Rate": 4500
-      },
-      {
-        "Item": "Garlet",
-        "Rate": 1500
-      },
-      {
-        "Item": "Padded_Armor_",
-        "Rate": 3
+        "Rate": 10000
       },
       {
         "Item": "Solid_Shell",
-        "Rate": 50
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 20
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Vadon_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3466,36 +2783,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Crystal_Blue",
-        "Rate": 23
-      },
-      {
         "Item": "Conch",
-        "Rate": 2750
-      },
-      {
-        "Item": "Scell",
-        "Rate": 400
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 27
-      },
-      {
-        "Item": "Shield_",
-        "Rate": 3
+        "Rate": 10000
       },
       {
         "Item": "Solid_Shell",
-        "Rate": 500
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Cornutus_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3532,36 +2829,16 @@
     "Ai": 2,
     "Drops": [
       {
-        "Item": "Crystal_Blue",
-        "Rate": 15
-      },
-      {
         "Item": "Worm_Peelings",
-        "Rate": 2750
-      },
-      {
-        "Item": "Garlet",
-        "Rate": 200
-      },
-      {
-        "Item": "Monster's_Feed",
-        "Rate": 250
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 10000
       },
       {
         "Item": "Insect_Feeler",
-        "Rate": 225
-      },
-      {
-        "Item": "Earthworm_The_Dude",
-        "Rate": 10
+        "Rate": 5000
       },
       {
         "Item": "Kukre_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3599,35 +2876,15 @@
     "Drops": [
       {
         "Item": "Skel_Bone",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
-        "Item": "Oridecon_Stone",
-        "Rate": 30
-      },
-      {
-        "Item": "Dagger_",
-        "Rate": 6
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 350
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Chain_Mail_",
-        "Rate": 1
-      },
-      {
-        "Item": "Stiletto",
-        "Rate": 25
+        "Item": "Horrendous_Mouth",
+        "Rate": 5000
       },
       {
         "Item": "Soldier_Skeleton_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3667,36 +2924,16 @@
     "Ai": 5,
     "Drops": [
       {
+        "Item": "Horrendous_Mouth",
+        "Rate": 10000
+      },
+      {
         "Item": "Skel_Bone",
-        "Rate": 2250
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 35
-      },
-      {
-        "Item": "Apple_Of_Archer",
-        "Rate": 2
-      },
-      {
-        "Item": "Great_Bow_",
-        "Rate": 18
-      },
-      {
-        "Item": "Fire_Arrow",
-        "Rate": 500
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 900
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Archer_Skeleton_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3736,36 +2973,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Scell",
-        "Rate": 4500
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 22
-      },
-      {
-        "Item": "Goblini_Mask",
-        "Rate": 2
-      },
-      {
-        "Item": "Dirk_",
-        "Rate": 5
-      },
-      {
-        "Item": "Buckler_",
-        "Rate": 3
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 900
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3805,36 +3022,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Iron",
-        "Rate": 125
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Scell",
-        "Rate": 4500
-      },
-      {
-        "Item": "Indian_Hair_Piece",
-        "Rate": 2
-      },
-      {
-        "Item": "Flail_",
-        "Rate": 5
-      },
-      {
-        "Item": "Siver_Guard",
-        "Rate": 3
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Goblini_Mask",
-        "Rate": 2
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3874,36 +3071,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Iron",
-        "Rate": 115
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Scell",
-        "Rate": 4500
-      },
-      {
-        "Item": "Red_Bandana",
-        "Rate": 2
-      },
-      {
-        "Item": "Goblin_Mask_02",
-        "Rate": 8
-      },
-      {
-        "Item": "Buckler_",
-        "Rate": 1
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -3943,36 +3120,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Yellow_Live",
-        "Rate": 50
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Goblin_Mask_01",
-        "Rate": 8
-      },
-      {
-        "Item": "Gangster_Patch",
-        "Rate": 2
-      },
-      {
-        "Item": "Smasher_",
-        "Rate": 5
-      },
-      {
-        "Item": "Siver_Guard",
-        "Rate": 3
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 750
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4012,36 +3169,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Model_Foxtail",
-        "Rate": 20
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Scell",
-        "Rate": 4500
-      },
-      {
-        "Item": "Wand_",
-        "Rate": 8
-      },
-      {
-        "Item": "Amazing_Foxtail",
-        "Rate": 20
-      },
-      {
-        "Item": "Goblin_Mask_03",
-        "Rate": 8
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 750
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 110
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4080,36 +3217,16 @@
     "Ai": 5,
     "Drops": [
       {
-        "Item": "Goblini_Mask",
-        "Rate": 2
+        "Item": "Sticky_Mucus",
+        "Rate": 10000
       },
       {
-        "Item": "Iron",
-        "Rate": 125
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
-        "Item": "Scell",
-        "Rate": 500
-      },
-      {
-        "Item": "Oridecon_Arrow",
-        "Rate": 1500
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 300
-      },
-      {
-        "Item": "Composite_Bow_",
-        "Rate": 13
-      },
-      {
-        "Item": "Grape",
-        "Rate": 150
-      },
-      {
-        "Item": "Goblin_Archer_Card",
-        "Rate": 1,
+        "Item": "Goblin_Card",
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4147,35 +3264,15 @@
     "Drops": [
       {
         "Item": "Cyfar",
-        "Rate": 2207
-      },
-      {
-        "Item": "Brigan",
-        "Rate": 1750
-      },
-      {
-        "Item": "Steel",
-        "Rate": 90
-      },
-      {
-        "Item": "Iron",
-        "Rate": 180
+        "Rate": 10000
       },
       {
         "Item": "Coal",
-        "Rate": 290
-      },
-      {
-        "Item": "Butcher",
-        "Rate": 3
-      },
-      {
-        "Item": "Flame_Heart",
-        "Rate": 80
+        "Rate": 5000
       },
       {
         "Item": "Panzer_Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4213,36 +3310,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Scell",
-        "Rate": 1250
-      },
-      {
-        "Item": "Cyfar",
-        "Rate": 1940
-      },
-      {
-        "Item": "Iron",
-        "Rate": 150
+        "Item": "Coal",
+        "Rate": 10000
       },
       {
         "Item": "Steel",
-        "Rate": 28
-      },
-      {
-        "Item": "Coal",
-        "Rate": 160
-      },
-      {
-        "Item": "The_Garrison",
-        "Rate": 3
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 62
+        "Rate": 5000
       },
       {
         "Item": "Steam_Goblin_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4280,36 +3357,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 2183
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Coat_",
-        "Rate": 3
-      },
-      {
-        "Item": "Cyfar",
-        "Rate": 600
-      },
-      {
-        "Item": "Guisarme_",
-        "Rate": 1
-      },
-      {
-        "Item": "Panacea",
-        "Rate": 100
+        "Item": "Clam_Shell",
+        "Rate": 10000
       },
       {
         "Item": "Glass_Bead",
-        "Rate": 60
+        "Rate": 5000
       },
       {
         "Item": "Fur_Seal_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4346,36 +3403,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Scarlet_Jewel",
-        "Rate": 75
-      },
-      {
-        "Item": "Clam_Shell",
-        "Rate": 2750
-      },
-      {
         "Item": "Sea_Otter_Leather",
-        "Rate": 2183
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Blue_Jewel",
-        "Rate": 25
+        "Rate": 10000
       },
       {
         "Item": "Glass_Bead",
-        "Rate": 325
-      },
-      {
-        "Item": "Cyfar",
-        "Rate": 600
+        "Rate": 5000
       },
       {
         "Item": "See_Otter_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4412,36 +3449,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 375
+        "Item": "Ice_Piece",
+        "Rate": 10000
       },
       {
-        "Item": "White_Herb",
-        "Rate": 400
-      },
-      {
-        "Item": "Feather",
-        "Rate": 500
-      },
-      {
-        "Item": "Panda_Cap",
-        "Rate": 1
-      },
-      {
-        "Item": "Bear's_Foot",
-        "Rate": 2500
-      },
-      {
-        "Item": "White_Jewel",
-        "Rate": 15
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 45
+        "Item": "Stuffed_Doll",
+        "Rate": 5000
       },
       {
         "Item": "Sasquatch_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4479,28 +3496,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Milk_Bottle",
-        "Rate": 750
-      },
-      {
         "Item": "Bib",
-        "Rate": 1250
+        "Rate": 10000
       },
       {
-        "Item": "Ice_Piece",
-        "Rate": 2183
-      },
-      {
-        "Item": "Frozen_Rose",
-        "Rate": 50
-      },
-      {
-        "Item": "Cold_Scroll_2_5",
-        "Rate": 50
+        "Item": "Milk_Bottle",
+        "Rate": 5000
       },
       {
         "Item": "Garm_Baby_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4538,35 +3543,15 @@
     "Drops": [
       {
         "Item": "Chinese_Ink",
-        "Rate": 4500
+        "Rate": 10000
       },
       {
         "Item": "Tentacle",
-        "Rate": 1500
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 5
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 6
-      },
-      {
-        "Item": "Penetration",
-        "Rate": 3
-      },
-      {
-        "Item": "Grape",
-        "Rate": 150
+        "Rate": 5000
       },
       {
         "Item": "Marse_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4603,32 +3588,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Mistic_Frozen",
-        "Rate": 9
+        "Item": "Fin",
+        "Rate": 10000
       },
       {
         "Item": "Gill",
-        "Rate": 4500
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 48
-      },
-      {
-        "Item": "Fin",
-        "Rate": 500
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 5
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 350
+        "Rate": 5000
       },
       {
         "Item": "Marc_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4665,36 +3634,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Mistic_Frozen",
-        "Rate": 5
-      },
-      {
         "Item": "Sharp_Scale",
-        "Rate": 4500
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 17
-      },
-      {
-        "Item": "Snowy_Horn",
-        "Rate": 1
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 25
-      },
-      {
-        "Item": "Katana_",
-        "Rate": 13
+        "Rate": 10000
       },
       {
         "Item": "Gill",
-        "Rate": 300
+        "Rate": 5000
       },
       {
         "Item": "Sword_Fish_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4732,35 +3681,15 @@
     "Drops": [
       {
         "Item": "Fish_Tail",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
-        "Item": "Sharp_Scale",
-        "Rate": 1000
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 3
-      },
-      {
-        "Item": "Meat",
-        "Rate": 500
-      },
-      {
-        "Item": "Fin",
-        "Rate": 250
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 13
-      },
-      {
-        "Item": "Fish_With_Blue_Back",
-        "Rate": 500
+        "Item": "Gill",
+        "Rate": 5000
       },
       {
         "Item": "Phen_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4806,7 +3735,7 @@
       },
       {
         "Item": "Verit_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4852,7 +3781,7 @@
       },
       {
         "Item": "Mummy_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4900,16 +3829,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Circlet_",
-        "Rate": 500
-      },
-      {
-        "Item": "Necklace",
-        "Rate": 100
-      },
-      {
         "Item": "Isis_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -4920,8 +3841,8 @@
     "Name": "Scorpion",
     "Level": 60,
     "Hp": 2523,
-    "BaseExp": 400,
-    "JobExp": 425,
+    "BaseExp": 1200,
+    "JobExp": 1275,
     "Attack": 187,
     "Attack2": 176,
     "Defense": 34,
@@ -4953,16 +3874,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Solid_Shell",
+        "Item": "Fine_Grit",
         "Rate": 5000
       },
       {
-        "Item": "Fine_Grit",
-        "Rate": 2500
-      },
-      {
         "Item": "Scorpion_Card",
-        "Rate": 20,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5004,35 +3921,15 @@
     "Drops": [
       {
         "Item": "Sharpened_Cuspid",
-        "Rate": 2328
+        "Rate": 10000
       },
       {
-        "Item": "Steel_Arrow",
-        "Rate": 500
-      },
-      {
-        "Item": "Stone_Arrow",
-        "Rate": 1250
-      },
-      {
-        "Item": "Arrow_Of_Wind",
-        "Rate": 1250
-      },
-      {
-        "Item": "Orc_Archer_Bow",
-        "Rate": 1
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 700
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 450
+        "Item": "Orcish_Voucher",
+        "Rate": 5000
       },
       {
         "Item": "Orc_Archer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5073,36 +3970,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Item": "Orcish_Cuspid",
+        "Rate": 10000
       },
       {
         "Item": "Orcish_Voucher",
-        "Rate": 4500
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 20
-      },
-      {
-        "Item": "Cigar",
-        "Rate": 2
-      },
-      {
-        "Item": "Battle_Axe_",
-        "Rate": 5
-      },
-      {
-        "Item": "Orcish_Axe",
-        "Rate": 3
-      },
-      {
-        "Item": "Round_Buckler",
-        "Rate": 2
+        "Rate": 5000
       },
       {
         "Item": "Orc_Warrior_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5143,31 +4020,11 @@
     "Drops": [
       {
         "Item": "Cyfar",
-        "Rate": 2328
+        "Rate": 10000
       },
       {
-        "Item": "Puente_Robe",
-        "Rate": 2
-      },
-      {
-        "Item": "Earring",
-        "Rate": 1
-      },
-      {
-        "Item": "Wedding_Veil",
-        "Rate": 1
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Cookbook06",
-        "Rate": 2
-      },
-      {
-        "Item": "Wedding_Dress",
-        "Rate": 1
+        "Item": "Orcish_Voucher",
+        "Rate": 5000
       },
       {
         "Item": "Orc_Lady_Card",
@@ -5211,36 +4068,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Large_Jellopy",
-        "Rate": 500
-      },
-      {
-        "Item": "Pacifier",
-        "Rate": 50
-      },
-      {
-        "Item": "Viking_Helm",
-        "Rate": 1
-      },
-      {
-        "Item": "Milk",
-        "Rate": 2500
-      },
-      {
         "Item": "Milk_Bottle",
-        "Rate": 100
+        "Rate": 10000
       },
       {
         "Item": "Bib",
-        "Rate": 50
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Orc_Baby_Card_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5277,28 +4114,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 500
-      },
-      {
         "Item": "Worn_Out_Prison_Uniform",
-        "Rate": 300
+        "Rate": 10000
       },
       {
         "Item": "Anolian_Skin",
-        "Rate": 1000
-      },
-      {
-        "Item": "Seed_Of_Yggdrasil",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 65
+        "Rate": 5000
       },
       {
         "Item": "Alligator_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5336,35 +4161,15 @@
     "Drops": [
       {
         "Item": "Anolian_Skin",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
-        "Item": "Crystal_Arrow",
-        "Rate": 1000
-      },
-      {
-        "Item": "Royal_Jelly",
-        "Rate": 3
-      },
-      {
-        "Item": "Red_Muffler",
-        "Rate": 5
-      },
-      {
-        "Item": "Carga_Mace",
-        "Rate": 1
-      },
-      {
-        "Item": "Brooch_",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 67
+        "Item": "Cyfar",
+        "Rate": 5000
       },
       {
         "Item": "Anolian_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5402,35 +4207,15 @@
     "Drops": [
       {
         "Item": "Well_Baked_Cookie",
-        "Rate": 1500
+        "Rate": 10000
       },
       {
         "Item": "Candy_Striper",
-        "Rate": 75
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Great_Chef_Orleans01",
-        "Rate": 25
-      },
-      {
-        "Item": "Sandals_",
-        "Rate": 15
-      },
-      {
-        "Item": "Holy_Scroll_1_3",
-        "Rate": 50
-      },
-      {
-        "Item": "Candy",
-        "Rate": 160
+        "Rate": 5000
       },
       {
         "Item": "Cookie_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5468,35 +4253,15 @@
     "Drops": [
       {
         "Item": "Well_Baked_Cookie",
-        "Rate": 2000
+        "Rate": 10000
       },
       {
-        "Item": "Scarlet_Jewel",
-        "Rate": 23
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 100
-      },
-      {
-        "Item": "Hood_",
-        "Rate": 13
-      },
-      {
-        "Item": "Gift_Box",
-        "Rate": 3
-      },
-      {
-        "Item": "Cold_Scroll_1_3",
-        "Rate": 50
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 850
+        "Item": "Candy_Striper",
+        "Rate": 5000
       },
       {
         "Item": "Cookie_XMAS_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5533,36 +4298,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Candy_Striper",
-        "Rate": 45
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 10
-      },
-      {
         "Item": "Piece_Of_Cake",
-        "Rate": 1000
+        "Rate": 10000
       },
       {
-        "Item": "Scarlet_Jewel",
-        "Rate": 75
-      },
-      {
-        "Item": "Crystal_Jewel_",
-        "Rate": 3
-      },
-      {
-        "Item": "Candy",
-        "Rate": 170
+        "Item": "Candy_Striper",
+        "Rate": 5000
       },
       {
         "Item": "Mystcase_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5599,36 +4344,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Mistic_Frozen",
-        "Rate": 7
-      },
-      {
         "Item": "Heart_Of_Mermaid",
-        "Rate": 4500
-      },
-      {
-        "Item": "Fin_Helm",
-        "Rate": 1
-      },
-      {
-        "Item": "Saint_Robe_",
-        "Rate": 5
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 5
+        "Rate": 10000
       },
       {
         "Item": "Fin",
-        "Rate": 250
-      },
-      {
-        "Item": "Witherless_Rose",
-        "Rate": 15
+        "Rate": 5000
       },
       {
         "Item": "Obeaune_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5669,32 +4394,12 @@
         "Rate": 650
       },
       {
-        "Item": "Plate_Armor_",
-        "Rate": 1
-      },
-      {
-        "Item": "Lemon",
-        "Rate": 200
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 20
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 18
-      },
-      {
-        "Item": "Trident",
-        "Rate": 2
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 102
+        "Item": "Fin",
+        "Rate": 5000
       },
       {
         "Item": "Merman_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5732,35 +4437,15 @@
     "Drops": [
       {
         "Item": "Fin",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Oridecon_Stone",
-        "Rate": 58
-      },
-      {
-        "Item": "Chain_Mail_",
-        "Rate": 1
-      },
-      {
-        "Item": "Trident_",
-        "Rate": 1
-      },
-      {
-        "Item": "Feather",
-        "Rate": 1500
-      },
-      {
-        "Item": "Skyblue_Jewel",
-        "Rate": 10
-      },
-      {
-        "Item": "Gill",
-        "Rate": 750
+        "Item": "Rough_Wind",
+        "Rate": 1000
       },
       {
         "Item": "Strouf_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5797,36 +4482,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Emveretarcon",
-        "Rate": 28
+        "Item": "Manacles",
+        "Rate": 10000
       },
       {
-        "Item": "Iron",
-        "Rate": 95
-      },
-      {
-        "Item": "G_Strings",
-        "Rate": 100
-      },
-      {
-        "Item": "Ganster_Mask",
-        "Rate": 2
-      },
-      {
-        "Item": "Cuffs",
-        "Rate": 5
-      },
-      {
-        "Item": "Iron_Ore",
-        "Rate": 150
-      },
-      {
-        "Item": "Light_Granule",
-        "Rate": 1
+        "Item": "Mementos",
+        "Rate": 5000
       },
       {
         "Item": "Zerom_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5863,36 +4528,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Old_Blue_Box",
-        "Rate": 18
-      },
-      {
-        "Item": "Emperium",
-        "Rate": 1
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 1250
-      },
-      {
-        "Item": "Horrendous_Mouth",
-        "Rate": 1750
-      },
-      {
         "Item": "Mementos",
-        "Rate": 750
+        "Rate": 10000
       },
       {
-        "Item": "Mantle_",
-        "Rate": 5
-      },
-      {
-        "Item": "Cookbook06",
-        "Rate": 1
+        "Item": "Manacles",
+        "Rate": 5000
       },
       {
         "Item": "Requiem_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5929,36 +4574,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Flame_Heart",
-        "Rate": 18
-      },
-      {
         "Item": "Sacred_Masque",
-        "Rate": 2183
+        "Rate": 10000
       },
       {
-        "Item": "Staff_",
-        "Rate": 5
-      },
-      {
-        "Item": "Mitten_Of_Presbyter",
-        "Rate": 1
-      },
-      {
-        "Item": "Blessed_Wand",
-        "Rate": 2
-      },
-      {
-        "Item": "Fire_Scroll_1_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Book_Of_Devil",
-        "Rate": 10
+        "Item": "Clattering_Skull",
+        "Rate": 5000
       },
       {
         "Item": "Marduk_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -5998,32 +4623,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Orcish_Cuspid",
-        "Rate": 2750
-      },
-      {
         "Item": "Skel_Bone",
-        "Rate": 1750
+        "Rate": 10000
       },
       {
-        "Item": "Elunium_Stone",
-        "Rate": 40
-      },
-      {
-        "Item": "Viking_Helm",
-        "Rate": 1
-      },
-      {
-        "Item": "Buster_",
-        "Rate": 5
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 25
+        "Item": "Orcish_Cuspid",
+        "Rate": 5000
       },
       {
         "Item": "Orc_Skeleton_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6063,20 +4672,16 @@
     "Ai": 4,
     "Drops": [
       {
+        "Item": "Skel_Bone",
+        "Rate": 10000
+      },
+      {
         "Item": "Nail_Of_Orc",
-        "Rate": 2750
-      },
-      {
-        "Item": "Sticky_Mucus",
-        "Rate": 1500
-      },
-      {
-        "Item": "Emperium",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Orc_Zombie_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6118,35 +4723,15 @@
     "Drops": [
       {
         "Item": "Ogre_Tooth",
-        "Rate": 1250
-      },
-      {
-        "Item": "Orcish_Axe",
-        "Rate": 5
+        "Rate": 10000
       },
       {
         "Item": "Steel",
-        "Rate": 45
-      },
-      {
-        "Item": "Orcish_Voucher",
-        "Rate": 3750
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 650
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 98
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 450
+        "Rate": 5000
       },
       {
         "Item": "High_Orc_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6186,36 +4771,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Steel",
-        "Rate": 50
-      },
-      {
         "Item": "Cobold_Hair",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Zargon",
-        "Rate": 350
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 13
-      },
-      {
-        "Item": "Gladius_",
-        "Rate": 1
-      },
-      {
-        "Item": "Buckler_",
-        "Rate": 3
-      },
-      {
-        "Item": "Golden_Rod_Orb",
-        "Rate": 5
+        "Item": "Animal_Blood",
+        "Rate": 5000
       },
       {
         "Item": "Kobold_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6255,36 +4820,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Steel",
-        "Rate": 50
-      },
-      {
         "Item": "Cobold_Hair",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Zargon",
-        "Rate": 100
-      },
-      {
-        "Item": "Buckler_",
-        "Rate": 2
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 50
-      },
-      {
-        "Item": "Doram_Only_Shoes",
-        "Rate": 20
-      },
-      {
-        "Item": "Fresh_G_Necklace",
-        "Rate": 20
+        "Item": "Animal_Blood",
+        "Rate": 5000
       },
       {
         "Item": "Kobold_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6324,37 +4869,16 @@
     "Ai": 13,
     "Drops": [
       {
-        "Item": "Boody_Red",
-        "Rate": 18
-      },
-      {
-        "Item": "Steel",
-        "Rate": 50
-      },
-      {
         "Item": "Cobold_Hair",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Zargon",
-        "Rate": 100
-      },
-      {
-        "Item": "Scarlet_Twohand_Axe",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Doram_Only_Cape",
-        "Rate": 20
-      },
-      {
-        "Item": "Doram_Only_Suit",
-        "Rate": 20
+        "Item": "Animal_Blood",
+        "Rate": 5000
       },
       {
         "Item": "Kobold_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6394,36 +4918,16 @@
     "Ai": 5,
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 125
-      },
-      {
-        "Item": "Steel",
-        "Rate": 30
-      },
-      {
         "Item": "Cobold_Hair",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
-        "Item": "Ear_Of_Puppy",
-        "Rate": 25
-      },
-      {
-        "Item": "Poison_Arrow",
-        "Rate": 1000
-      },
-      {
-        "Item": "CrossBow_",
-        "Rate": 3
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 40
+        "Item": "Animal_Blood",
+        "Rate": 5000
       },
       {
         "Item": "Kobold_Archer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6461,35 +4965,15 @@
     "Drops": [
       {
         "Item": "Skel_Bone",
-        "Rate": 1500
+        "Rate": 10000
       },
       {
-        "Item": "Pirate_Bandana",
-        "Rate": 8
-      },
-      {
-        "Item": "Cookbook06",
-        "Rate": 3
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Falchion",
-        "Rate": 125
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 22
-      },
-      {
-        "Item": "Well_Dried_Bone",
-        "Rate": 10
+        "Item": "Unripe_Apple",
+        "Rate": 1000
       },
       {
         "Item": "Pirate_Skel_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6527,31 +5011,15 @@
     "Drops": [
       {
         "Item": "Crap_Shell",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
         "Item": "Nipper",
-        "Rate": 750
-      },
-      {
-        "Item": "Stone",
-        "Rate": 350
-      },
-      {
-        "Item": "Sparkling_Dust",
-        "Rate": 7
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 19
+        "Rate": 5000
       },
       {
         "Item": "Crab_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6590,36 +5058,16 @@
     "Class": "Boss",
     "Drops": [
       {
-        "Item": "Ice_Fragment",
-        "Rate": 50
-      },
-      {
         "Item": "Nipper",
-        "Rate": 2500
+        "Rate": 10000
       },
       {
         "Item": "Solid_Shell",
-        "Rate": 2500
-      },
-      {
-        "Item": "Spike",
-        "Rate": 25
-      },
-      {
-        "Item": "Light_Granule",
-        "Rate": 100
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 25
-      },
-      {
-        "Item": "Crystal_Blue",
-        "Rate": 25
+        "Rate": 5000
       },
       {
         "Item": "King_Dramoh_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6660,35 +5108,15 @@
     "Drops": [
       {
         "Item": "Mud_Lump",
-        "Rate": 1000
-      },
-      {
-        "Item": "Brigan",
-        "Rate": 2425
-      },
-      {
-        "Item": "Star_Crumb",
-        "Rate": 125
+        "Rate": 10000
       },
       {
         "Item": "Great_Nature",
-        "Rate": 15
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 125
-      },
-      {
-        "Item": "Round_Buckler",
-        "Rate": 3
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 82
+        "Rate": 1000
       },
       {
         "Item": "Stalactic_Golem_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6726,27 +5154,15 @@
     "Drops": [
       {
         "Item": "Peco_Wing_Feather",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
         "Item": "Fruit_Of_Mastela",
-        "Rate": 150
-      },
-      {
-        "Item": "Wind_Of_Verdure",
-        "Rate": 500
-      },
-      {
-        "Item": "Gold",
-        "Rate": 1
-      },
-      {
-        "Item": "Orange",
-        "Rate": 250
+        "Rate": 1000
       },
       {
         "Item": "Grand_Peco_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6784,33 +5200,15 @@
     "Drops": [
       {
         "Item": "Vroken_Sword",
-        "Rate": 2183
+        "Rate": 10000
       },
       {
         "Item": "Honey_Jar",
-        "Rate": 1250
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 10
-      },
-      {
-        "Item": "Scarlet_Saber",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Scarlet_Dagger",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Undershirt",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Pasana_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6847,28 +5245,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Matyr's_Flea_Guard",
-        "Rate": 5
-      },
-      {
-        "Item": "Monster's_Feed",
-        "Rate": 2500
+        "Item": "Pet_Food",
+        "Rate": 10000
       },
       {
         "Item": "Animal's_Skin",
-        "Rate": 2750
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 50
-      },
-      {
-        "Item": "Grape",
-        "Rate": 100
+        "Rate": 5000
       },
       {
         "Item": "Matyr_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6905,36 +5291,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Runstone_Ancient",
-        "Rate": 5
-      },
-      {
-        "Item": "Healing_Staff",
-        "Rate": 5
-      },
-      {
-        "Item": "White_Wing_Suits",
-        "Rate": 50
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 53
-      },
-      {
         "Item": "Sacred_Masque",
-        "Rate": 2183
+        "Rate": 10000
       },
       {
-        "Item": "Mitten_Of_Presbyter",
-        "Rate": 1
-      },
-      {
-        "Item": "Blessed_Wand",
-        "Rate": 2
+        "Item": "Skel_Bone",
+        "Rate": 5000
       },
       {
         "Item": "Anubis_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -6975,35 +5341,15 @@
     "Drops": [
       {
         "Item": "Horseshoe",
-        "Rate": 3000
-      },
-      {
-        "Item": "Blue_Herb",
-        "Rate": 250
-      },
-      {
-        "Item": "Rosary",
-        "Rate": 1
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 15
+        "Rate": 10000
       },
       {
         "Item": "Blue_Potion",
-        "Rate": 50
-      },
-      {
-        "Item": "Infiltrator",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 30
+        "Rate": 1000
       },
       {
         "Item": "Nightmare_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7047,35 +5393,15 @@
     "Drops": [
       {
         "Item": "Petite_DiablOfs_Horn",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
         "Item": "Petite_DiablOfs_Wing",
-        "Rate": 200
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 1
-      },
-      {
-        "Item": "Partizan_",
-        "Rate": 1
-      },
-      {
-        "Item": "Sacred_Marks",
-        "Rate": 3
-      },
-      {
-        "Item": "Strange_Foxtail",
-        "Rate": 20
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 77
+        "Rate": 2500
       },
       {
         "Item": "Deviruchi_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7115,36 +5441,16 @@
     "Ai": 10,
     "Drops": [
       {
-        "Item": "Emveretarcon",
-        "Rate": 13
-      },
-      {
         "Item": "Tentacle",
-        "Rate": 2750
+        "Rate": 10000
       },
       {
         "Item": "Sticky_Mucus",
-        "Rate": 750
-      },
-      {
-        "Item": "Detrimindexta",
-        "Rate": 10
-      },
-      {
-        "Item": "Panacea",
-        "Rate": 3
-      },
-      {
-        "Item": "Meat",
-        "Rate": 350
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Rate": 5000
       },
       {
         "Item": "Hydra_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7185,35 +5491,15 @@
     "Drops": [
       {
         "Item": "Coral_Reef",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
         "Item": "Tentacle",
-        "Rate": 4000
-      },
-      {
-        "Item": "Sticky_Mucus",
-        "Rate": 3500
-      },
-      {
-        "Item": "Panacea",
-        "Rate": 100
-      },
-      {
-        "Item": "Violet_Jewel",
-        "Rate": 8
-      },
-      {
-        "Item": "Katar_Of_Raging_Blaze",
-        "Rate": 1
-      },
-      {
-        "Item": "Red_Gemstone",
-        "Rate": 275
+        "Rate": 5000
       },
       {
         "Item": "Penomena_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7256,28 +5542,16 @@
     },
     "Drops": [
       {
-        "Item": "Sparkling_Dust",
-        "Rate": 75
-      },
-      {
         "Item": "Transparent_Cloth",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
-        "Item": "Spirit_Chain",
-        "Rate": 1
-      },
-      {
-        "Item": "Silver_Robe_",
-        "Rate": 5
-      },
-      {
-        "Item": "Wing_Of_Fly",
-        "Rate": 500
+        "Item": "Sparkling_Dust",
+        "Rate": 5000
       },
       {
         "Item": "Whisper_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7318,23 +5592,15 @@
     "Drops": [
       {
         "Item": "Sparkling_Dust",
-        "Rate": 75
+        "Rate": 10000
       },
       {
         "Item": "Transparent_Cloth",
-        "Rate": 2668
-      },
-      {
-        "Item": "Spirit_Chain",
-        "Rate": 1
-      },
-      {
-        "Item": "Silver_Robe_",
-        "Rate": 5
+        "Rate": 5000
       },
       {
         "Item": "Whisper_Boss_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7375,27 +5641,15 @@
     "Drops": [
       {
         "Item": "Dragon_Fly_Wing",
-        "Rate": 2207
+        "Rate": 10000
       },
       {
         "Item": "Round_Shell",
-        "Rate": 200
-      },
-      {
-        "Item": "Solid_Shell",
-        "Rate": 400
-      },
-      {
-        "Item": "Fancy_Flower",
-        "Rate": 4
-      },
-      {
-        "Item": "Cap",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Dragon_Tail_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7436,35 +5690,15 @@
     "Drops": [
       {
         "Item": "Slender_Snake",
-        "Rate": 2668
-      },
-      {
-        "Item": "Whip_Of_Red_Flame",
-        "Rate": 125
+        "Rate": 10000
       },
       {
         "Item": "Animal_Blood",
-        "Rate": 100
-      },
-      {
-        "Item": "Sea_Witch_Foot",
-        "Rate": 10
-      },
-      {
-        "Item": "Scarlet_Jewel",
-        "Rate": 125
-      },
-      {
-        "Item": "Rafini_Staff",
-        "Rate": 3
-      },
-      {
-        "Item": "Penetration",
-        "Rate": 2
+        "Rate": 5000
       },
       {
         "Item": "Medusa_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7501,36 +5735,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Tough_Vines",
-        "Rate": 2668
-      },
-      {
-        "Item": "Great_Leaf",
-        "Rate": 500
-      },
-      {
-        "Item": "Browny_Root",
-        "Rate": 1500
-      },
-      {
-        "Item": "Pineapple",
-        "Rate": 150
-      },
-      {
-        "Item": "Chemeti",
-        "Rate": 1
-      },
-      {
-        "Item": "Centimental_Leaf",
-        "Rate": 5
-      },
-      {
         "Item": "Sharp_Leaf",
-        "Rate": 1500
+        "Rate": 10000
+      },
+      {
+        "Item": "Tough_Vines",
+        "Rate": 5000
       },
       {
         "Item": "Dryad_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7571,31 +5785,15 @@
     "Drops": [
       {
         "Item": "Moth_Dust",
-        "Rate": 4500
+        "Rate": 10000
       },
       {
         "Item": "Wing_Of_Moth",
-        "Rate": 250
-      },
-      {
-        "Item": "Masquerade",
-        "Rate": 2
-      },
-      {
-        "Item": "Insect_Feeler",
-        "Rate": 1000
-      },
-      {
-        "Item": "Sparkling_Dust",
-        "Rate": 5
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 600
+        "Rate": 5000
       },
       {
         "Item": "Dustiness_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7636,35 +5834,15 @@
     "Drops": [
       {
         "Item": "Needle_Of_Alarm",
-        "Rate": 2668
-      },
-      {
-        "Item": "Wooden_Block",
-        "Rate": 400
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 950
-      },
-      {
-        "Item": "Lemon",
-        "Rate": 160
+        "Rate": 10000
       },
       {
         "Item": "Key_Of_Clock_Tower",
-        "Rate": 15
-      },
-      {
-        "Item": "Underground_Key",
-        "Rate": 15
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 82
+        "Rate": 5000
       },
       {
         "Item": "Clock_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7705,31 +5883,15 @@
     "Drops": [
       {
         "Item": "Needle_Of_Alarm",
-        "Rate": 2668
-      },
-      {
-        "Item": "Clip",
-        "Rate": 1
+        "Rate": 10000
       },
       {
         "Item": "Skull",
-        "Rate": 750
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 53
-      },
-      {
-        "Item": "Key_Of_Clock_Tower",
-        "Rate": 10
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 750
+        "Rate": 5000
       },
       {
         "Item": "Alarm_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7769,28 +5931,8 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Needle_Of_Alarm",
-        "Rate": 2668
-      },
-      {
-        "Item": "Brigan",
-        "Rate": 2668
-      },
-      {
         "Item": "Steel",
-        "Rate": 250
-      },
-      {
-        "Item": "Leaflet_Of_Hinal",
-        "Rate": 425
-      },
-      {
-        "Item": "Memorize_Book",
-        "Rate": 1
-      },
-      {
-        "Item": "Key_Of_Clock_Tower",
-        "Rate": 1000
+        "Rate": 10000
       },
       {
         "Item": "Underground_Key",
@@ -7798,7 +5940,7 @@
       },
       {
         "Item": "C_Tower_Manager_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7836,31 +5978,15 @@
     "Drops": [
       {
         "Item": "Goat's_Horn",
-        "Rate": 2280
+        "Rate": 10000
       },
       {
         "Item": "Gaoat's_Skin",
-        "Rate": 1250
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 250
-      },
-      {
-        "Item": "Blue_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 1250
-      },
-      {
-        "Item": "Green_Herb",
-        "Rate": 2750
+        "Rate": 5000
       },
       {
         "Item": "Goat_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7898,31 +6024,15 @@
     "Drops": [
       {
         "Item": "Blossom_Of_Maneater",
-        "Rate": 3100
+        "Rate": 10000
       },
       {
         "Item": "Root_Of_Maneater",
-        "Rate": 2750
-      },
-      {
-        "Item": "Sunflower",
-        "Rate": 15
-      },
-      {
-        "Item": "Fancy_Flower",
-        "Rate": 25
-      },
-      {
-        "Item": "Holy_Scroll_1_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Very_Soft_Plant",
-        "Rate": 5
+        "Rate": 5000
       },
       {
         "Item": "Geographer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -7959,37 +6069,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Biretta_",
-        "Rate": 5
+        "Item": "Rent_Spell_Book",
+        "Rate": 10000
       },
       {
-        "Item": "Bone_Wand",
-        "Rate": 1
-      },
-      {
-        "Item": "Ragamuffin_Cape",
-        "Rate": 1
-      },
-      {
-        "Item": "Scarlet_Bible",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Elixir_Bandage",
-        "Rate": 5
-      },
-      {
-        "Item": "Cookbook07",
-        "Rate": 2
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 1000
+        "Item": "Skull",
+        "Rate": 5000
       },
       {
         "Item": "Evil_Druid_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8026,32 +6115,16 @@
     "Ai": 21,
     "Drops": [
       {
+        "Item": "Skull",
+        "Rate": 10000
+      },
+      {
         "Item": "Transparent_Cloth",
-        "Rate": 2910
-      },
-      {
-        "Item": "Wedding_Veil",
-        "Rate": 5
-      },
-      {
-        "Item": "Manteau_",
-        "Rate": 1
-      },
-      {
-        "Item": "Red_Gemstone",
-        "Rate": 325
-      },
-      {
-        "Item": "Manteau",
-        "Rate": 5
-      },
-      {
-        "Item": "Crystal_Jewel_",
-        "Rate": 3
+        "Rate": 5000
       },
       {
         "Item": "Wraith_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8088,36 +6161,16 @@
     "Ai": 21,
     "Drops": [
       {
+        "Item": "Skull",
+        "Rate": 10000
+      },
+      {
         "Item": "Transparent_Cloth",
-        "Rate": 2207
-      },
-      {
-        "Item": "Wedding_Veil",
-        "Rate": 5
-      },
-      {
-        "Item": "Manteau_",
-        "Rate": 4
-      },
-      {
-        "Item": "Red_Gemstone",
-        "Rate": 350
-      },
-      {
-        "Item": "Crystal_Jewel__",
-        "Rate": 3
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 2
-      },
-      {
-        "Item": "Black_Rosary",
-        "Rate": 2
+        "Rate": 5000
       },
       {
         "Item": "Wraith_Dead_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8155,37 +6208,16 @@
     "Class": "Boss",
     "Drops": [
       {
-        "Item": "Bone_Wand",
-        "Rate": 2
-      },
-      {
-        "Item": "Bone_Helm",
-        "Rate": 1
-      },
-      {
-        "Item": "Ragamuffin_Cape",
-        "Rate": 2
+        "Item": "Skull",
+        "Rate": 10000
       },
       {
         "Item": "Brigan",
-        "Rate": 2668
-      },
-      {
-        "Item": "Fruit_Of_Mastela",
-        "Rate": 60
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 775
-      },
-      {
-        "Item": "Scarlet_Twohand_Sword",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Rate": 5000
       },
       {
         "Item": "Dark_Illusion_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8222,37 +6254,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Steel",
-        "Rate": 150
-      },
-      {
-        "Item": "Brigan",
-        "Rate": 2668
+        "Item": "Manacles",
+        "Rate": 10000
       },
       {
         "Item": "Cyfar",
-        "Rate": 1750
-      },
-      {
-        "Item": "Padded_Armor_",
-        "Rate": 3
-      },
-      {
-        "Item": "Plate_Armor",
-        "Rate": 1
-      },
-      {
-        "Item": "Prohibition_Red_Candle",
-        "Rate": 1
-      },
-      {
-        "Item": "Scarlet_Katar",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Rate": 5000
       },
       {
         "Item": "Injustice_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8293,35 +6304,15 @@
     "Drops": [
       {
         "Item": "Thin_N'_Long_Tongue",
-        "Rate": 1940
+        "Rate": 10000
       },
       {
         "Item": "Executioner's_Mitten",
-        "Rate": 2
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 900
-      },
-      {
-        "Item": "Oil_Bottle",
-        "Rate": 150
-      },
-      {
-        "Item": "Frozen_Heart",
-        "Rate": 5
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 50
-      },
-      {
-        "Item": "Izidor",
-        "Rate": 15
+        "Rate": 1000
       },
       {
         "Item": "Rybio_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8363,27 +6354,11 @@
       },
       {
         "Item": "Executioner's_Mitten",
-        "Rate": 2
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 900
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 75
-      },
-      {
-        "Item": "Electric_Wire",
-        "Rate": 50
-      },
-      {
-        "Item": "Oil_Bottle",
-        "Rate": 250
+        "Rate": 1000
       },
       {
         "Item": "Phendark_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8422,35 +6397,15 @@
     "Drops": [
       {
         "Item": "Executioner's_Mitten",
-        "Rate": 3
-      },
-      {
-        "Item": "Black_Butterfly_Mask",
-        "Rate": 5
+        "Rate": 10000
       },
       {
         "Item": "Rose_Quartz",
-        "Rate": 750
-      },
-      {
-        "Item": "Tights_",
-        "Rate": 4
-      },
-      {
-        "Item": "Earring_",
-        "Rate": 1
-      },
-      {
-        "Item": "Queen's_Whip",
-        "Rate": 50
-      },
-      {
-        "Item": "Masquerade",
-        "Rate": 2
+        "Rate": 5000
       },
       {
         "Item": "Zherlthsh_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8488,35 +6443,15 @@
     "Drops": [
       {
         "Item": "Rotten_Bandage",
-        "Rate": 2207
+        "Rate": 10000
       },
       {
         "Item": "Mementos",
-        "Rate": 900
-      },
-      {
-        "Item": "Glove_",
-        "Rate": 1
-      },
-      {
-        "Item": "Silver_Ring",
-        "Rate": 75
-      },
-      {
-        "Item": "Runstone_Ancient",
-        "Rate": 5
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 75
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Ancient_Mummy_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8557,35 +6492,15 @@
     "Drops": [
       {
         "Item": "Burning_Horse_Shoe",
-        "Rate": 1200
+        "Rate": 10000
       },
       {
-        "Item": "Rosary_",
-        "Rate": 1
-      },
-      {
-        "Item": "Rosary",
-        "Rate": 15
-      },
-      {
-        "Item": "Blue_Potion",
-        "Rate": 25
-      },
-      {
-        "Item": "Blue_Herb",
-        "Rate": 75
-      },
-      {
-        "Item": "Ghost_Scroll_1_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Infiltrator",
-        "Rate": 1
+        "Item": "Flame_Heart",
+        "Rate": 1500
       },
       {
         "Item": "Nightmare_Terror_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8622,36 +6537,16 @@
     "Ai": 17,
     "Drops": [
       {
+        "Item": "Turtle_Shell_",
+        "Rate": 10000
+      },
+      {
         "Item": "Turtle_Shell",
-        "Rate": 2207
-      },
-      {
-        "Item": "Coconut_Fruit",
-        "Rate": 100
-      },
-      {
-        "Item": "Elder_Branch",
-        "Rate": 50
-      },
-      {
-        "Item": "Red_Herb",
-        "Rate": 1225
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 620
-      },
-      {
-        "Item": "Fruit_Of_Mastela",
-        "Rate": 13
-      },
-      {
-        "Item": "Anodyne",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Permeter_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8691,36 +6586,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Turtle_Shell",
-        "Rate": 2207
-      },
-      {
-        "Item": "Broken_Armor_Piece",
-        "Rate": 600
-      },
-      {
         "Item": "Rust_Suriken",
-        "Rate": 420
+        "Rate": 10000
       },
       {
         "Item": "Smoke_Powder",
-        "Rate": 100
-      },
-      {
-        "Item": "Doram_Only_Cape",
-        "Rate": 20
-      },
-      {
-        "Item": "Huuma_Bird_Wing",
-        "Rate": 3
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Assulter_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8757,37 +6632,16 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Turtle_Shell",
-        "Rate": 2207
-      },
-      {
         "Item": "Broken_Shell",
-        "Rate": 32
+        "Rate": 10000
       },
       {
         "Item": "Stone_Piece",
-        "Rate": 425
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 1050
-      },
-      {
-        "Item": "Doram_Only_Shoes",
-        "Rate": 20
-      },
-      {
-        "Item": "Honey",
-        "Rate": 425
-      },
-      {
-        "Item": "Scarlet_Mace",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
+        "Rate": 5000
       },
       {
         "Item": "Solider_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8825,35 +6679,15 @@
     "Drops": [
       {
         "Item": "Turtle_Shell",
-        "Rate": 2207
-      },
-      {
-        "Item": "Broken_Shell",
-        "Rate": 375
-      },
-      {
-        "Item": "Fire_Scroll_2_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Gun_Powder",
-        "Rate": 500
-      },
-      {
-        "Item": "Royal_Jelly",
-        "Rate": 70
-      },
-      {
-        "Item": "Doram_Only_Suit",
-        "Rate": 20
+        "Rate": 10000
       },
       {
         "Item": "Burn_Tree",
-        "Rate": 625
+        "Rate": 5000
       },
       {
         "Item": "Heater_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8891,35 +6725,15 @@
     "Drops": [
       {
         "Item": "Turtle_Shell",
-        "Rate": 2207
-      },
-      {
-        "Item": "Broken_Shell",
-        "Rate": 425
+        "Rate": 10000
       },
       {
         "Item": "Ice_Piece",
-        "Rate": 625
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 900
-      },
-      {
-        "Item": "Royal_Jelly",
-        "Rate": 80
-      },
-      {
-        "Item": "Ice_Fragment",
-        "Rate": 100
-      },
-      {
-        "Item": "Cold_Scroll_1_5",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Freezer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -8963,31 +6777,15 @@
     "Drops": [
       {
         "Item": "Evil_Horn",
-        "Rate": 250
+        "Rate": 10000
       },
       {
         "Item": "Oridecon",
-        "Rate": 32
-      },
-      {
-        "Item": "Halberd_",
-        "Rate": 1
-      },
-      {
-        "Item": "Yggdrasilberry",
-        "Rate": 25
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 650
-      },
-      {
-        "Item": "Boots",
-        "Rate": 25
+        "Rate": 1000
       },
       {
         "Item": "Baphomet__Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9028,31 +6826,15 @@
     "Drops": [
       {
         "Item": "Harpy's_Feather",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
         "Item": "Harpy's_Claw",
-        "Rate": 1250
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 750
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 400
-      },
-      {
-        "Item": "Izidor",
-        "Rate": 10
-      },
-      {
-        "Item": "Electric_Fist",
-        "Rate": 10
+        "Rate": 5000
       },
       {
         "Item": "Harpy_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9090,37 +6872,16 @@
     "Class": "Boss",
     "Drops": [
       {
-        "Item": "Talon_Of_Griffin",
-        "Rate": 1250
-      },
-      {
-        "Item": "Brigan",
-        "Rate": 2668
-      },
-      {
         "Item": "Soft_Feather",
-        "Rate": 60
+        "Rate": 10000
       },
       {
-        "Item": "Scarlet_Lance",
-        "Rate": 250,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Pole_Axe",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 93
-      },
-      {
-        "Item": "Rough_Wind",
-        "Rate": 75
+        "Item": "Talon_Of_Griffin",
+        "Rate": 2500
       },
       {
         "Item": "Gryphon_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9161,36 +6922,16 @@
     },
     "Drops": [
       {
-        "Item": "Broken_Needle",
-        "Rate": 2183
+        "Item": "Stuffed_Doll",
+        "Rate": 10000
       },
       {
         "Item": "Spool",
-        "Rate": 2668
-      },
-      {
-        "Item": "Needle_Pouch",
-        "Rate": 1000
-      },
-      {
-        "Item": "Stuffed_Doll",
-        "Rate": 40
-      },
-      {
-        "Item": "Ectoplasm",
-        "Rate": 150
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 5
-      },
-      {
-        "Item": "Angry_Mouth",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Hylozoist_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9228,27 +6969,15 @@
     "Drops": [
       {
         "Item": "Piece_Of_Black_Cloth",
-        "Rate": 1600
+        "Rate": 10000
       },
       {
         "Item": "Ectoplasm",
-        "Rate": 2862
-      },
-      {
-        "Item": "Poison_Powder",
-        "Rate": 50
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 5
-      },
-      {
-        "Item": "Black_Powder",
-        "Rate": 250
+        "Rate": 5000
       },
       {
         "Item": "Quve_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9286,35 +7015,15 @@
     "Drops": [
       {
         "Item": "Pumpkin_Bucket",
-        "Rate": 1600
+        "Rate": 10000
       },
       {
         "Item": "Ectoplasm",
-        "Rate": 2862
-      },
-      {
-        "Item": "Transparent_Cloth",
-        "Rate": 500
-      },
-      {
-        "Item": "Spirit_Chain",
-        "Rate": 5
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 5
-      },
-      {
-        "Item": "Holy_Scroll_1_3",
-        "Rate": 50
-      },
-      {
-        "Item": "Yellow_Powder",
-        "Rate": 150
+        "Rate": 5000
       },
       {
         "Item": "Lude_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9355,31 +7064,15 @@
     "Drops": [
       {
         "Item": "Brigan",
-        "Rate": 2328
-      },
-      {
-        "Item": "Chain_Mail_",
-        "Rate": 1
-      },
-      {
-        "Item": "Claire_Suits",
-        "Rate": 3
-      },
-      {
-        "Item": "Incisive_Arrow",
-        "Rate": 1000
-      },
-      {
-        "Item": "Arbalest_",
-        "Rate": 2
+        "Rate": 10000
       },
       {
         "Item": "Elunium",
-        "Rate": 53
+        "Rate": 1000
       },
       {
         "Item": "Raydric_Archer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9416,36 +7109,16 @@
     "Ai": 19,
     "Drops": [
       {
-        "Item": "Elunium",
-        "Rate": 53
-      },
-      {
-        "Item": "Iron_Cane",
-        "Rate": 1
-      },
-      {
-        "Item": "Chain_Mail_",
-        "Rate": 1
-      },
-      {
-        "Item": "Two_Hand_Sword_",
-        "Rate": 1
-      },
-      {
-        "Item": "Peuz_Plate",
-        "Rate": 5
-      },
-      {
-        "Item": "Patriotism_Marks",
-        "Rate": 5
-      },
-      {
         "Item": "Brigan",
-        "Rate": 2425
+        "Rate": 10000
+      },
+      {
+        "Item": "Elunium",
+        "Rate": 1000
       },
       {
         "Item": "Daydric_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9482,36 +7155,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Skel_Bone",
-        "Rate": 4000
+        "Item": "Brigan",
+        "Rate": 10000
       },
       {
         "Item": "Elunium",
-        "Rate": 96
-      },
-      {
-        "Item": "Bone_Helm",
-        "Rate": 1
-      },
-      {
-        "Item": "Mirror_Shield_",
-        "Rate": 1
-      },
-      {
-        "Item": "Patriotism_Marks",
-        "Rate": 5
-      },
-      {
-        "Item": "Ebone_Armor",
-        "Rate": 1
-      },
-      {
-        "Item": "Ur_Plate",
-        "Rate": 50
+        "Rate": 1000
       },
       {
         "Item": "Khalitzburg_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9549,35 +7202,15 @@
     "Drops": [
       {
         "Item": "Pumpkin_Head",
-        "Rate": 4500
+        "Rate": 10000
       },
       {
-        "Item": "Zargon",
-        "Rate": 450
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 16
-      },
-      {
-        "Item": "Tights_",
-        "Rate": 3
-      },
-      {
-        "Item": "Frozen_Heart",
-        "Rate": 3
-      },
-      {
-        "Item": "Pumpkin",
-        "Rate": 500
-      },
-      {
-        "Item": "Light_Granule",
-        "Rate": 5
+        "Item": "Oridecon",
+        "Rate": 1000
       },
       {
         "Item": "Jakk_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9614,36 +7247,16 @@
     "Ai": 21,
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 1000
-      },
-      {
-        "Item": "Old_Card_Album",
-        "Rate": 1
-      },
-      {
-        "Item": "Contracts_In_Shadow",
-        "Rate": 10
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 500
-      },
-      {
-        "Item": "Katar_Of_Piercing_Wind",
-        "Rate": 1
+        "Item": "Manacles",
+        "Rate": 5000
       },
       {
         "Item": "Oridecon",
-        "Rate": 50
-      },
-      {
-        "Item": "Ghost_Scroll_1_5",
-        "Rate": 50
+        "Rate": 1000
       },
       {
         "Item": "Joker_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9683,36 +7296,16 @@
     },
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 1600
-      },
-      {
         "Item": "Ice_Cream",
-        "Rate": 500
+        "Rate": 10000
       },
       {
-        "Item": "Spiky_Heel",
-        "Rate": 3
-      },
-      {
-        "Item": "Joker_Jester",
-        "Rate": 1
-      },
-      {
-        "Item": "Robe_Of_Affection",
-        "Rate": 5
-      },
-      {
-        "Item": "Robe_Of_Judgement",
-        "Rate": 5
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 725
+        "Item": "Oridecon",
+        "Rate": 1000
       },
       {
         "Item": "Carat_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9752,28 +7345,16 @@
     },
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 2328
-      },
-      {
         "Item": "Red_Frame",
-        "Rate": 500
-      },
-      {
-        "Item": "Manteau",
-        "Rate": 15
-      },
-      {
-        "Item": "Star_Crumb",
-        "Rate": 40
+        "Rate": 5000
       },
       {
         "Item": "Crystal_Mirror",
-        "Rate": 2
+        "Rate": 1000
       },
       {
         "Item": "Dark_Frame_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9814,35 +7395,15 @@
     "Drops": [
       {
         "Item": "Cold_Magma",
-        "Rate": 2280
+        "Rate": 10000
       },
       {
         "Item": "Burning_Heart",
-        "Rate": 1843
-      },
-      {
-        "Item": "Plate_Armor_",
-        "Rate": 1
-      },
-      {
-        "Item": "Crimson_Robe",
-        "Rate": 1
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 1250
-      },
-      {
-        "Item": "Magma_Fist",
-        "Rate": 10
-      },
-      {
-        "Item": "Black_Powder",
-        "Rate": 250
+        "Rate": 5000
       },
       {
         "Item": "Lava_Golem_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9882,20 +7443,16 @@
     },
     "Drops": [
       {
-        "Item": "Burning_Heart",
-        "Rate": 1200
-      },
-      {
         "Item": "Live_Coal",
-        "Rate": 850
+        "Rate": 10000
       },
       {
-        "Item": "White_Herb",
-        "Rate": 700
+        "Item": "Burning_Heart",
+        "Rate": 5000
       },
       {
         "Item": "Blazzer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9932,28 +7489,16 @@
     "Ai": 4,
     "Drops": [
       {
-        "Item": "Wing_Of_Red_Bat",
-        "Rate": 2750
+        "Item": "Hot_Hair",
+        "Rate": 10000
       },
       {
         "Item": "Burning_Heart",
-        "Rate": 1100
-      },
-      {
-        "Item": "Hot_Hair",
-        "Rate": 1600
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 400
-      },
-      {
-        "Item": "Fruit_Of_Mastela",
-        "Rate": 200
+        "Rate": 5000
       },
       {
         "Item": "Explosion_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -9993,36 +7538,16 @@
     },
     "Drops": [
       {
-        "Item": "Flame_Heart",
-        "Rate": 15
-      },
-      {
-        "Item": "Coal",
-        "Rate": 75
+        "Item": "Alchol",
+        "Rate": 10000
       },
       {
         "Item": "Burning_Heart",
-        "Rate": 1500
-      },
-      {
-        "Item": "Fire_Scroll_1_3",
-        "Rate": 50
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 500
-      },
-      {
-        "Item": "Red_Gemstone",
-        "Rate": 150
-      },
-      {
-        "Item": "Alchol",
-        "Rate": 3
+        "Rate": 5000
       },
       {
         "Item": "Kaho_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10060,31 +7585,15 @@
     "Drops": [
       {
         "Item": "Dullahan's_Helm",
-        "Rate": 1600
+        "Rate": 10000
       },
       {
         "Item": "Dullahan_Armor",
-        "Rate": 2425
-      },
-      {
-        "Item": "An_Eye_Of_Dullahan",
-        "Rate": 1
-      },
-      {
-        "Item": "Manteau",
-        "Rate": 7
-      },
-      {
-        "Item": "Manteau_",
-        "Rate": 1
-      },
-      {
-        "Item": "Nab_Cloth",
-        "Rate": 5
+        "Rate": 5000
       },
       {
         "Item": "Dullahan_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10125,35 +7634,15 @@
     "Drops": [
       {
         "Item": "Black_Kitty_Doll",
-        "Rate": 400
-      },
-      {
-        "Item": "Striped_Socks",
-        "Rate": 1500
+        "Rate": 10000
       },
       {
         "Item": "Bat_Cage",
-        "Rate": 2522
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 50
-      },
-      {
-        "Item": "Loki's_Whispers",
-        "Rate": 1
-      },
-      {
-        "Item": "Lunatic_Brooch",
-        "Rate": 3
-      },
-      {
-        "Item": "Sabah_Cloth",
-        "Rate": 5
+        "Rate": 5000
       },
       {
         "Item": "Loli_Ruri_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10191,35 +7680,15 @@
     "Drops": [
       {
         "Item": "Old_Manteau",
-        "Rate": 2086
-      },
-      {
-        "Item": "Distorted_Portrait",
-        "Rate": 500
+        "Rate": 10000
       },
       {
         "Item": "Rusty_Cleaver",
-        "Rate": 1000
-      },
-      {
-        "Item": "Mr_Scream",
-        "Rate": 25
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 50
-      },
-      {
-        "Item": "Mama's_Knife",
-        "Rate": 2
-      },
-      {
-        "Item": "Ginnungagap",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Bloody_Murderer_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10261,36 +7730,15 @@
     "Drops": [
       {
         "Item": "Reins",
-        "Rate": 2668
+        "Rate": 10000
       },
       {
         "Item": "Blade_Lost_In_Darkness",
-        "Rate": 3
-      },
-      {
-        "Item": "Clothes_Of_The_Lord",
-        "Rate": 1
-      },
-      {
-        "Item": "Battle_Hook",
-        "Rate": 13
-      },
-      {
-        "Item": "Scarlet_Twohand_Sword",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 185
-      },
-      {
-        "Item": "Ebone_Armor",
-        "Rate": 5
+        "Rate": 5000
       },
       {
         "Item": "Knight_Of_Abyss_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10328,35 +7776,15 @@
     "Drops": [
       {
         "Item": "Brigan",
-        "Rate": 2425
+        "Rate": 10000
       },
       {
-        "Item": "Helm_",
-        "Rate": 23
-      },
-      {
-        "Item": "Plate_Armor_",
-        "Rate": 3
-      },
-      {
-        "Item": "Strong_Shield",
-        "Rate": 31
-      },
-      {
-        "Item": "Katzbalger",
-        "Rate": 1
-      },
-      {
-        "Item": "Pole_Axe",
-        "Rate": 1
-      },
-      {
-        "Item": "Ebone_Armor",
-        "Rate": 3
+        "Item": "Boroken_Shiled_Piece",
+        "Rate": 5000
       },
       {
         "Item": "Bloody_Knight_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10395,36 +7823,15 @@
     "Drops": [
       {
         "Item": "Tatters_Clothes",
-        "Rate": 2207
+        "Rate": 10000
       },
       {
         "Item": "Soft_Feather",
-        "Rate": 750
-      },
-      {
-        "Item": "Wind_Scroll_1_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Crystal_Mirror",
-        "Rate": 1
-      },
-      {
-        "Item": "Scarlet_Lance",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Scarlet_Staff",
-        "Rate": 50
-      },
-      {
-        "Item": "Magician_Hat",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Owl_Duke_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10463,35 +7870,15 @@
     "Drops": [
       {
         "Item": "Tatters_Clothes",
-        "Rate": 1750
+        "Rate": 10000
       },
       {
         "Item": "Soft_Feather",
-        "Rate": 1250
-      },
-      {
-        "Item": "Scarlet_Bow",
-        "Rate": 50
-      },
-      {
-        "Item": "Staff_Of_Soul",
-        "Rate": 1
-      },
-      {
-        "Item": "Walking_Stick",
-        "Rate": 1
-      },
-      {
-        "Item": "Wind_Scroll_1_5",
-        "Rate": 50
-      },
-      {
-        "Item": "Magician_Hat",
-        "Rate": 3
+        "Rate": 5000
       },
       {
         "Item": "Owl_Baron_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10532,35 +7919,15 @@
     "Drops": [
       {
         "Item": "Alice's_Apron",
-        "Rate": 1250
+        "Rate": 10000
       },
       {
-        "Item": "Old_Broom",
-        "Rate": 20
-      },
-      {
-        "Item": "Chrystal_Pumps",
-        "Rate": 2
-      },
-      {
-        "Item": "Rotha_Shield",
-        "Rate": 1
-      },
-      {
-        "Item": "Pair_Of_Red_Ribbon",
-        "Rate": 1
-      },
-      {
-        "Item": "Imperial_Cooking_Kits",
-        "Rate": 5
-      },
-      {
-        "Item": "Holy_Scroll_1_5",
-        "Rate": 50
+        "Item": "Rouge",
+        "Rate": 5000
       },
       {
         "Item": "Alice_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10600,32 +7967,16 @@
     },
     "Drops": [
       {
-        "Item": "Zargon",
-        "Rate": 1940
-      },
-      {
         "Item": "Petite_DiablOfs_Wing",
-        "Rate": 250
+        "Rate": 10000
       },
       {
-        "Item": "Elven_Bow",
-        "Rate": 3
-      },
-      {
-        "Item": "Thimble_Of_Archer",
-        "Rate": 1
-      },
-      {
-        "Item": "Silence_Arrow",
-        "Rate": 1000
-      },
-      {
-        "Item": "Elunium_Stone",
-        "Rate": 119
+        "Item": "Brigan",
+        "Rate": 5000
       },
       {
         "Item": "Gargoyle_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10669,49 +8020,25 @@
     "MvpDrops": [
       {
         "Item": "Tiger's_Skin",
-        "Rate": 5000
+        "Rate": 10000
       },
       {
         "Item": "Tiger_Footskin",
-        "Rate": 1000
-      },
-      {
-        "Item": "Flame_Heart",
-        "Rate": 3000
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
-        "Item": "Fire_Brand",
-        "Rate": 75
-      },
-      {
-        "Item": "Smoking_Pipe",
-        "Rate": 125
-      },
-      {
-        "Item": "Honey",
-        "Rate": 5000
-      },
-      {
-        "Item": "Katar_Of_Raging_Blaze",
-        "Rate": 250
+        "Item": "Flame_Heart",
+        "Rate": 10000
       },
       {
         "Item": "Tiger_Footskin",
-        "Rate": 400
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1200
-      },
-      {
-        "Item": "Krieg",
-        "Rate": 100
+        "Rate": 5000
       },
       {
         "Item": "Eddga_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10754,50 +8081,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Rough_Wind",
-        "Rate": 1500
-      },
-      {
         "Item": "Royal_Jelly",
-        "Rate": 4000
-      },
-      {
-        "Item": "Scarlet_Jewel",
-        "Rate": 3000
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Gungnir",
-        "Rate": 75
+        "Item": "Rough_Wind",
+        "Rate": 10000
       },
       {
-        "Item": "Honey",
+        "Item": "Royal_Jelly",
         "Rate": 5000
       },
       {
-        "Item": "Coronet",
-        "Rate": 125
-      },
-      {
-        "Item": "Old_Card_Album",
-        "Rate": 500
-      },
-      {
-        "Item": "Young_Twig",
-        "Rate": 5
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2134
-      },
-      {
-        "Item": "Red_Square_Bag",
-        "Rate": 50
-      },
-      {
         "Item": "Mistress_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10840,50 +8139,26 @@
     },
     "MvpDrops": [
       {
-        "Item": "Frozen_Heart",
-        "Rate": 500
+        "Item": "Jaws_Of_Ant",
+        "Rate": 10000
       },
       {
-        "Item": "Crystal_Jewel",
-        "Rate": 1000
-      },
-      {
-        "Item": "Star_Crumb",
-        "Rate": 4000
+        "Item": "Thin_N'_Long_Tongue",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
+        "Item": "Star_Crumb",
+        "Rate": 10000
+      },
+      {
         "Item": "Thin_N'_Long_Tongue",
-        "Rate": 4850
-      },
-      {
-        "Item": "Forturn_Sword",
-        "Rate": 250
-      },
-      {
-        "Item": "Sucsamad",
-        "Rate": 75
-      },
-      {
-        "Item": "Jaws_Of_Ant",
-        "Rate": 2500
-      },
-      {
-        "Item": "Mr_Scream",
-        "Rate": 150
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1450
-      },
-      {
-        "Item": "Weihna",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Phreeoni_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -10926,50 +8201,26 @@
     },
     "MvpDrops": [
       {
-        "Item": "Crystal_Jewel",
-        "Rate": 2000
+        "Item": "Mother's_Nightmare",
+        "Rate": 10000
       },
       {
-        "Item": "Old_Blue_Box",
-        "Rate": 3000
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 2000
+        "Item": "Armlet_Of_Obedience",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
-        "Item": "Queen's_Hair_Ornament",
-        "Rate": 250
-      },
-      {
-        "Item": "Safety_Ring",
-        "Rate": 100
-      },
-      {
-        "Item": "Tiara",
-        "Rate": 100
-      },
-      {
-        "Item": "Armlet_Of_Obedience",
-        "Rate": 250
+        "Item": "Great_Nature",
+        "Rate": 10000
       },
       {
         "Item": "Mother's_Nightmare",
-        "Rate": 5
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1750
-      },
-      {
-        "Item": "Dea_Staff",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Maya_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11013,12 +8264,16 @@
     "MvpDrops": [
       {
         "Item": "Ora_Ora",
-        "Rate": 1000
+        "Rate": 5000
+      },
+      {
+        "Item": "Gold_Ring",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
-        "Item": "Gold_Ring",
+        "Item": "Flame_Heart",
         "Rate": 10000
       },
       {
@@ -11027,15 +8282,11 @@
       },
       {
         "Item": "Gold",
-        "Rate": 2500
-      },
-      {
-        "Item": "Golden_Bell",
-        "Rate": 1000
+        "Rate": 500
       },
       {
         "Item": "Golden_Bug_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11079,49 +8330,25 @@
     "MvpDrops": [
       {
         "Item": "Fox_Tail",
-        "Rate": 5000
+        "Rate": 10000
       },
       {
-        "Item": "White_Potion",
-        "Rate": 1500
+        "Item": "Fox_Tail",
+        "Rate": 10000
       },
       {
-        "Item": "Golden_Jewel",
-        "Rate": 500
+        "Item": "Fox_Tail",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Spectral_Spear",
-        "Rate": 250
-      },
-      {
-        "Item": "Moonlight_Sword",
-        "Rate": 50
-      },
-      {
-        "Item": "Long_Mace",
-        "Rate": 75
-      },
-      {
-        "Item": "Punisher",
-        "Rate": 250
-      },
-      {
-        "Item": "Silver_Knife_Of_Chaste",
-        "Rate": 325
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1300
-      },
-      {
-        "Item": "Staff_Of_Bordeaux",
-        "Rate": 50
+        "Item": "Flame_Heart",
+        "Rate": 10000
       },
       {
         "Item": "Moonlight_Flower_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11166,45 +8393,21 @@
     "MvpDrops": [
       {
         "Item": "Fang_Of_Garm",
-        "Rate": 1000
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 3000
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 3000
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
+        "Item": "Mistic_Frozen",
+        "Rate": 10000
+      },
+      {
         "Item": "Fang_Of_Garm",
-        "Rate": 2750
-      },
-      {
-        "Item": "Ice_Falchon",
-        "Rate": 75
-      },
-      {
-        "Item": "Katar_Of_Cold_Icicle",
-        "Rate": 250
-      },
-      {
-        "Item": "Claw_Of_Garm",
-        "Rate": 250
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1989
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 1450
+        "Rate": 5000
       },
       {
         "Item": "Garm_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11251,45 +8454,21 @@
     "MvpDrops": [
       {
         "Item": "Voucher_Of_Orcish_Hero",
-        "Rate": 5500
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 2000
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Brood_Axe",
-        "Rate": 200
+        "Item": "Great_Nature",
+        "Rate": 10000
       },
       {
-        "Item": "Ring_",
-        "Rate": 200
-      },
-      {
-        "Item": "Loard_Circlet",
-        "Rate": 200
-      },
-      {
-        "Item": "Doom_Slayer_",
-        "Rate": 200
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 500
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2134
-      },
-      {
-        "Item": "Erde",
-        "Rate": 1550
+        "Item": "Voucher_Of_Orcish_Hero",
+        "Rate": 5000
       },
       {
         "Item": "Orc_Load_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11331,50 +8510,18 @@
     },
     "MvpDrops": [
       {
-        "Item": "Old_Blue_Box",
-        "Rate": 4000
-      },
-      {
-        "Item": "Seed_Of_Yggdrasil",
-        "Rate": 3000
-      },
-      {
         "Item": "Osiris_Doll",
-        "Rate": 500
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Old_Violet_Box",
-        "Rate": 1000
-      },
-      {
-        "Item": "Assasin_Dagger",
-        "Rate": 75
-      },
-      {
-        "Item": "Crown",
-        "Rate": 100
-      },
-      {
-        "Item": "Jamadhar_",
-        "Rate": 300
-      },
-      {
-        "Item": "Sacred_Marks",
-        "Rate": 500
-      },
-      {
-        "Item": "Spinx_Helm",
-        "Rate": 75
-      },
-      {
-        "Item": "Cakram",
-        "Rate": 50
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
       },
       {
         "Item": "Osiris_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11418,50 +8565,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Skyblue_Jewel",
-        "Rate": 4500
+        "Item": "Ice_Scale",
+        "Rate": 10000
       },
       {
-        "Item": "Boots_",
-        "Rate": 500
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 3000
+        "Item": "Ice_Scale",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
-        "Item": "Zephyrus",
-        "Rate": 75
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 1500
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 2000
-      },
-      {
-        "Item": "Ring_",
-        "Rate": 100
-      },
-      {
-        "Item": "Manteau_",
-        "Rate": 250
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2280
-      },
-      {
-        "Item": "Loard_Circlet",
-        "Rate": 1
+        "Item": "Rough_Wind",
+        "Rate": 10000
       },
       {
         "Item": "Knight_Windstorm_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11507,50 +8626,26 @@
     },
     "MvpDrops": [
       {
-        "Item": "Red_Jewel",
-        "Rate": 2000
+        "Item": "Voucher_Of_Orcish_Hero",
+        "Rate": 10000
       },
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 1500
-      },
-      {
-        "Item": "Steel",
+        "Item": "Voucher_Of_Orcish_Hero",
         "Rate": 5000
       }
     ],
     "Drops": [
       {
+        "Item": "Great_Nature",
+        "Rate": 10000
+      },
+      {
         "Item": "Voucher_Of_Orcish_Hero",
-        "Rate": 4850
-      },
-      {
-        "Item": "Monkey_Circlet",
-        "Rate": 250
-      },
-      {
-        "Item": "Right_Epsilon",
-        "Rate": 75
-      },
-      {
-        "Item": "Shield_",
-        "Rate": 125
-      },
-      {
-        "Item": "Orcish_Sword",
-        "Rate": 500
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2280
-      },
-      {
-        "Item": "Giant_Axe",
-        "Rate": 50
+        "Rate": 5000
       },
       {
         "Item": "Orc_Hero_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11593,50 +8688,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 5500
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 2250
-      },
-      {
-        "Item": "Old_Card_Album",
-        "Rate": 450
+        "Item": "Treasure_Box",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
-        "Item": "Tentacle",
-        "Rate": 2500
-      },
-      {
-        "Item": "Cardo",
-        "Rate": 250
-      },
-      {
-        "Item": "Ice_Falchon",
-        "Rate": 250
-      },
-      {
-        "Item": "Hunting_Spear",
-        "Rate": 250
-      },
-      {
-        "Item": "Water_Sprits_Armor_",
-        "Rate": 250
+        "Item": "Mistic_Frozen",
+        "Rate": 10000
       },
       {
         "Item": "Treasure_Box",
-        "Rate": 2500
-      },
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 250
+        "Rate": 1000
       },
       {
         "Item": "Kraken_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11679,50 +8746,30 @@
     },
     "MvpDrops": [
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 5500
+        "Item": "Broken_Pharaoh_Symbol",
+        "Rate": 10000
       },
       {
-        "Item": "Royal_Jelly",
-        "Rate": 5000
-      },
-      {
-        "Item": "Crystal_Jewel__",
+        "Item": "Tutankhamen's_Mask",
         "Rate": 5000
       }
     ],
     "Drops": [
       {
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
+      },
+      {
         "Item": "Broken_Pharaoh_Symbol",
-        "Rate": 2910
+        "Rate": 5000
       },
       {
         "Item": "Tutankhamen's_Mask",
-        "Rate": 1250
-      },
-      {
-        "Item": "Solar_Sword",
-        "Rate": 50
-      },
-      {
-        "Item": "Holy_Robe",
-        "Rate": 75
-      },
-      {
-        "Item": "Gemmed_Crown",
-        "Rate": 250
-      },
-      {
-        "Item": "Tablet",
-        "Rate": 150
-      },
-      {
-        "Item": "Bazerald",
-        "Rate": 40
+        "Rate": 5000
       },
       {
         "Item": "Pharaoh_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11765,46 +8812,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "White_Potion",
-        "Rate": 5000
-      },
-      {
-        "Item": "Violet_Jewel",
-        "Rate": 500
+        "Item": "Treasure_Box",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Saber_",
-        "Rate": 300
+        "Item": "Mistic_Frozen",
+        "Rate": 10000
       },
       {
-        "Item": "Ring_Pommel_Saber_",
-        "Rate": 475
-      },
-      {
-        "Item": "Cutlas",
-        "Rate": 75
-      },
-      {
-        "Item": "Hae_Dong_Gum_",
-        "Rate": 200
-      },
-      {
-        "Item": "Corsair",
-        "Rate": 175
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1600
-      },
-      {
-        "Item": "Krasnaya",
-        "Rate": 50
+        "Item": "Treasure_Box",
+        "Rate": 1000
       },
       {
         "Item": "Drake_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11847,50 +8870,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Oridecon",
-        "Rate": 6000
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 3000
-      },
-      {
-        "Item": "Blue_Potion",
-        "Rate": 6000
+        "Item": "Gemstone",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
+        "Item": "Star_Crumb",
+        "Rate": 10000
+      },
+      {
         "Item": "Gemstone",
-        "Rate": 2425
-      },
-      {
-        "Item": "Stone_Piece",
-        "Rate": 2425
-      },
-      {
-        "Item": "Golden_Jewel",
-        "Rate": 500
-      },
-      {
-        "Item": "Binoculars",
-        "Rate": 200
-      },
-      {
-        "Item": "White_Potion",
-        "Rate": 1500
-      },
-      {
-        "Item": "Runstone_Rare",
-        "Rate": 100
-      },
-      {
-        "Item": "Gemmed_Sallet_",
-        "Rate": 3
+        "Rate": 5000
       },
       {
         "Item": "Tao_Gunka_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -11934,49 +8929,25 @@
     "MvpDrops": [
       {
         "Item": "Skull",
-        "Rate": 6000
+        "Rate": 10000
       },
       {
-        "Item": "Blue_Coif_",
-        "Rate": 500
+        "Item": "Skull",
+        "Rate": 1000
       },
       {
-        "Item": "Old_Violet_Box",
-        "Rate": 2000
+        "Item": "Skull",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Bone_Wand",
-        "Rate": 400
-      },
-      {
-        "Item": "Kronos",
-        "Rate": 50
-      },
-      {
-        "Item": "Grimtooth_",
-        "Rate": 150
-      },
-      {
-        "Item": "Mage_Coat",
-        "Rate": 150
-      },
-      {
-        "Item": "Cape_Of_Ancient_Lord",
-        "Rate": 50
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2571
-      },
-      {
-        "Item": "Bone_Helm_",
-        "Rate": 5
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
       },
       {
         "Item": "Dark_Lord_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12019,50 +8990,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 5500
-      },
-      {
-        "Item": "Seed_Of_Yggdrasil",
-        "Rate": 3500
-      },
-      {
-        "Item": "Crystal_Jewel__",
-        "Rate": 5500
+        "Item": "Rojerta_Piece",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Spinx_Helm",
-        "Rate": 75
-      },
-      {
-        "Item": "Safety_Ring",
-        "Rate": 25
+        "Item": "Flame_Heart",
+        "Rate": 10000
       },
       {
         "Item": "Rojerta_Piece",
-        "Rate": 3880
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1940
-      },
-      {
-        "Item": "Old_Card_Album",
-        "Rate": 200
-      },
-      {
-        "Item": "Tablet",
-        "Rate": 5
-      },
-      {
-        "Item": "Yggdrasilberry",
-        "Rate": 1500
+        "Rate": 5000
       },
       {
         "Item": "Amon_Ra_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12106,45 +9049,21 @@
     "MvpDrops": [
       {
         "Item": "Cardinal_Jewel_",
-        "Rate": 1500
-      },
-      {
-        "Item": "Blue_Potion",
-        "Rate": 6000
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Plate_Armor_",
-        "Rate": 125
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
       },
       {
-        "Item": "Broad_Sword_",
-        "Rate": 110
-      },
-      {
-        "Item": "Zweihander",
-        "Rate": 75
-      },
-      {
-        "Item": "Sharp_Gear",
-        "Rate": 175
-      },
-      {
-        "Item": "Lance_",
-        "Rate": 275
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 1843
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 1350
+        "Item": "Cardinal_Jewel_",
+        "Rate": 5000
       },
       {
         "Item": "Doppelganger_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12187,50 +9106,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Turtle_Shell",
-        "Rate": 5500
-      },
-      {
-        "Item": "Yggdrasilberry",
-        "Rate": 1500
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 2000
+        "Item": "Union_Of_Tribe",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Iron_Driver",
-        "Rate": 4
-      },
-      {
-        "Item": "War_Axe",
-        "Rate": 3
-      },
-      {
-        "Item": "Cookbook09",
-        "Rate": 100
-      },
-      {
-        "Item": "Pole_Axe",
-        "Rate": 5
-      },
-      {
-        "Item": "Broken_Shell",
-        "Rate": 2668
-      },
-      {
-        "Item": "Immaterial_Sword",
-        "Rate": 40
+        "Item": "Great_Nature",
+        "Rate": 10000
       },
       {
         "Item": "Union_Of_Tribe",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Turtle_General_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12273,50 +9164,22 @@
     },
     "MvpDrops": [
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 2000
-      },
-      {
         "Item": "Baphomet_Doll",
-        "Rate": 500
-      },
-      {
-        "Item": "Evil_Horn",
-        "Rate": 5000
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
-        "Item": "Crescent_Scythe",
-        "Rate": 200
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
       },
       {
-        "Item": "Magestic_Goat",
-        "Rate": 150
-      },
-      {
-        "Item": "Crescent_Scythe_",
-        "Rate": 25
-      },
-      {
-        "Item": "Emperium",
-        "Rate": 250
-      },
-      {
-        "Item": "Magestic_Goat_",
-        "Rate": 5
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 2716
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 2086
+        "Item": "Baphomet_Doll",
+        "Rate": 5000
       },
       {
         "Item": "Baphomet_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12360,50 +9223,30 @@
     },
     "MvpDrops": [
       {
-        "Item": "Yggdrasilberry",
-        "Rate": 5500
+        "Item": "Boroken_Shiled_Piece",
+        "Rate": 10000
       },
       {
-        "Item": "Crystal_Jewel__",
-        "Rate": 5000
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 5000
+        "Item": "Shine_Spear_Blade",
+        "Rate": 10000
       }
     ],
     "Drops": [
       {
+        "Item": "Rune_Of_Darkness",
+        "Rate": 10000
+      },
+      {
         "Item": "Boroken_Shiled_Piece",
-        "Rate": 2668
-      },
-      {
-        "Item": "Pole_Axe",
-        "Rate": 3
-      },
-      {
-        "Item": "House_Auger",
-        "Rate": 5
-      },
-      {
-        "Item": "Ring_",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Shine_Spear_Blade",
-        "Rate": 5
-      },
-      {
-        "Item": "War_Axe",
-        "Rate": 1
-      },
-      {
-        "Item": "Iron_Driver",
-        "Rate": 1
+        "Rate": 5000
       },
       {
         "Item": "Lord_Of_Death_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12444,7 +9287,7 @@
     },
     "Drops": [
       {
-        "Item": "Apple_Juice",
+        "Item": "Poring_Doll",
         "Rate": 10000
       },
       {
@@ -12452,12 +9295,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Poring_Doll",
-        "Rate": 2500
-      },
-      {
         "Item": "Mastering_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12498,36 +9337,12 @@
     },
     "Drops": [
       {
-        "Item": "Big_Sis'_Ribbon",
-        "Rate": 25
-      },
-      {
-        "Item": "Honey",
-        "Rate": 1000
-      },
-      {
         "Item": "Bluish_Green_Jewel",
-        "Rate": 500
-      },
-      {
-        "Item": "Light_Granule",
-        "Rate": 250
-      },
-      {
-        "Item": "Alchol",
-        "Rate": 50
-      },
-      {
-        "Item": "Detrimindexta",
-        "Rate": 50
-      },
-      {
-        "Item": "Kiss_Of_Angel",
-        "Rate": 500
+        "Rate": 10000
       },
       {
         "Item": "Toad_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12568,16 +9383,8 @@
     },
     "Drops": [
       {
-        "Item": "Carrot_Juice",
-        "Rate": 10000
-      },
-      {
         "Item": "White_Jewel",
-        "Rate": 5000
-      },
-      {
-        "Item": "Stuffed_Doll",
-        "Rate": 2500
+        "Rate": 10000
       },
       {
         "Item": "Four_Leaf_Clover",
@@ -12585,7 +9392,7 @@
       },
       {
         "Item": "Eclipse_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12626,7 +9433,7 @@
     },
     "Drops": [
       {
-        "Item": "Grape_Juice",
+        "Item": "Chonchon_Doll",
         "Rate": 10000
       },
       {
@@ -12634,12 +9441,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Chonchon_Doll",
-        "Rate": 2500
-      },
-      {
         "Item": "Dragon_Fly_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12681,7 +9484,7 @@
     },
     "Drops": [
       {
-        "Item": "Orange_Juice",
+        "Item": "Grasshopper_Doll",
         "Rate": 10000
       },
       {
@@ -12689,16 +9492,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Grasshopper_Doll",
-        "Rate": 2500
-      },
-      {
-        "Item": "Guitar_Of_Gentle_Breeze",
-        "Rate": 50
-      },
-      {
         "Item": "Vocal_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12739,7 +9534,7 @@
     },
     "Drops": [
       {
-        "Item": "Banana_Juice",
+        "Item": "Monkey_Doll",
         "Rate": 10000
       },
       {
@@ -12747,16 +9542,8 @@
         "Rate": 5000
       },
       {
-        "Item": "Monkey_Doll",
-        "Rate": 2500
-      },
-      {
-        "Item": "Tropical_Banana",
-        "Rate": 1000
-      },
-      {
         "Item": "Choco_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12797,36 +9584,12 @@
     },
     "Drops": [
       {
-        "Item": "Western_Grace",
-        "Rate": 100
-      },
-      {
-        "Item": "Claw_Of_Wolves",
-        "Rate": 4000
-      },
-      {
         "Item": "Golden_Jewel",
-        "Rate": 750
-      },
-      {
-        "Item": "Star_Dust_Blade",
-        "Rate": 50
-      },
-      {
-        "Item": "Angel's_Warmth",
-        "Rate": 500
-      },
-      {
-        "Item": "Light_Granule",
-        "Rate": 250
-      },
-      {
-        "Item": "Monster_Juice",
-        "Rate": 25
+        "Rate": 10000
       },
       {
         "Item": "Vagabond_Wolf_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12867,12 +9630,12 @@
     },
     "Drops": [
       {
-        "Item": "Queen's_Hair_Ornament",
-        "Rate": 1000
+        "Item": "Violet_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Maya_Puple_Card",
-        "Rate": 10,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12913,36 +9676,12 @@
     },
     "Drops": [
       {
-        "Item": "Puppy_Love",
-        "Rate": 1
-      },
-      {
-        "Item": "Silver_Knife_Of_Chaste",
-        "Rate": 75
-      },
-      {
-        "Item": "Punisher",
-        "Rate": 3
-      },
-      {
-        "Item": "Elunium",
-        "Rate": 300
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 400
-      },
-      {
-        "Item": "Gold",
-        "Rate": 1
-      },
-      {
-        "Item": "Old_Violet_Box",
-        "Rate": 1
+        "Item": "Blue_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Cat_O_Nine_Tail_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -12986,36 +9725,12 @@
     },
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 750
-      },
-      {
-        "Item": "Steel",
-        "Rate": 400
-      },
-      {
-        "Item": "Oridecon_Stone",
-        "Rate": 60
-      },
-      {
-        "Item": "Goblin_Mask_04",
-        "Rate": 25
-      },
-      {
-        "Item": "Shield_",
-        "Rate": 1
-      },
-      {
-        "Item": "Yellow_Herb",
-        "Rate": 325
-      },
-      {
-        "Item": "Angry_Mouth",
-        "Rate": 5
+        "Item": "Red_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Goblin_Leader_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13056,32 +9771,16 @@
     },
     "Drops": [
       {
-        "Item": "Angelic_Chain",
-        "Rate": 50
+        "Item": "Poring_Doll",
+        "Rate": 10000
       },
       {
-        "Item": "Scapulare_",
-        "Rate": 30
-      },
-      {
-        "Item": "Spirit_Chain",
-        "Rate": 1
-      },
-      {
-        "Item": "White_Herb",
-        "Rate": 1000
-      },
-      {
-        "Item": "Apple",
-        "Rate": 14
-      },
-      {
-        "Item": "Emperium",
-        "Rate": 20
+        "Item": "Cardinal_Jewel",
+        "Rate": 5000
       },
       {
         "Item": "Angeling_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13125,37 +9824,12 @@
     },
     "Drops": [
       {
-        "Item": "Steel",
-        "Rate": 225
-      },
-      {
-        "Item": "Cobold_Hair",
-        "Rate": 3153
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 600
-      },
-      {
-        "Item": "Scarlet_Mace",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Mighty_Staff",
-        "Rate": 1
-      },
-      {
-        "Item": "Panacea",
-        "Rate": 75
-      },
-      {
-        "Item": "Royal_Jelly",
-        "Rate": 50
+        "Item": "Golden_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Kobold_Leader_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13197,36 +9871,12 @@
     },
     "Drops": [
       {
-        "Item": "Transparent_Cloth",
-        "Rate": 2668
-      },
-      {
-        "Item": "Ghost_Bandana",
-        "Rate": 50
-      },
-      {
-        "Item": "Thief_Clothes_",
-        "Rate": 25
-      },
-      {
-        "Item": "Branch_Of_Dead_Tree",
-        "Rate": 250
-      },
-      {
-        "Item": "Old_Blue_Box",
-        "Rate": 5
-      },
-      {
-        "Item": "Emperium",
-        "Rate": 15
-      },
-      {
-        "Item": "Ghost_Scroll_1_5",
-        "Rate": 50
+        "Item": "White_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Ghostring_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13265,32 +9915,16 @@
     "Class": "Boss",
     "Drops": [
       {
-        "Item": "Satanic_Chain",
-        "Rate": 3
-      },
-      {
-        "Item": "Seed_Of_Yggdrasil",
-        "Rate": 75
-      },
-      {
-        "Item": "Agate",
-        "Rate": 750
-      },
-      {
-        "Item": "Angelic_Chain",
-        "Rate": 3
-      },
-      {
-        "Item": "Plate_Armor_",
-        "Rate": 2
-      },
-      {
         "Item": "Turquoise",
-        "Rate": 750
+        "Rate": 10000
+      },
+      {
+        "Item": "Blue_Jewel",
+        "Rate": 5000
       },
       {
         "Item": "Archangeling_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13330,44 +9964,14 @@
     "Modes": {
       "Mvp": true
     },
-    "MvpDrops": [
-      {
-        "Item": "Blade_Lost_In_Darkness",
-        "Rate": 1000
-      }
-    ],
     "Drops": [
       {
-        "Item": "Petite_DiablOfs_Wing",
-        "Rate": 1500
-      },
-      {
-        "Item": "Zargon",
-        "Rate": 2425
-      },
-      {
-        "Item": "Satanic_Chain",
-        "Rate": 50
-      },
-      {
-        "Item": "Apple",
-        "Rate": 2500
-      },
-      {
-        "Item": "Blade_Lost_In_Darkness",
-        "Rate": 1
-      },
-      {
-        "Item": "Black_Dyestuffs",
-        "Rate": 50
-      },
-      {
-        "Item": "Ghost_Scroll_1_3",
-        "Rate": 50
+        "Item": "Skyblue_Jewel",
+        "Rate": 10000
       },
       {
         "Item": "Deviling_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13408,36 +10012,12 @@
     },
     "Drops": [
       {
-        "Item": "Brigan",
-        "Rate": 2668
-      },
-      {
-        "Item": "Slender_Snake",
-        "Rate": 1250
-      },
-      {
-        "Item": "Lemon",
-        "Rate": 500
-      },
-      {
-        "Item": "War_Axe",
-        "Rate": 1
-      },
-      {
         "Item": "Citrine",
-        "Rate": 750
-      },
-      {
-        "Item": "Great_Axe",
-        "Rate": 1
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 80
+        "Rate": 10000
       },
       {
         "Item": "Chimera_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13482,38 +10062,12 @@
     },
     "Drops": [
       {
-        "Item": "Old_Hilt",
-        "Rate": 1
-      },
-      {
-        "Item": "Silver_Knife_Of_Chaste",
-        "Rate": 25
-      },
-      {
         "Item": "Muscovite",
-        "Rate": 750
-      },
-      {
-        "Item": "Scarlet_Dagger",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Scarlet_Saber",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Steel",
-        "Rate": 60
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 95
+        "Rate": 10000
       },
       {
         "Item": "Tirfing_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13557,37 +10111,12 @@
     },
     "Drops": [
       {
-        "Item": "Bloody_Edge",
-        "Rate": 3
-      },
-      {
         "Item": "Phlogopite",
-        "Rate": 750
-      },
-      {
-        "Item": "Lapier_",
-        "Rate": 40
-      },
-      {
-        "Item": "Scimiter_",
-        "Rate": 30
-      },
-      {
-        "Item": "Scarlet_Saber",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Steel",
-        "Rate": 60
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 73
+        "Rate": 10000
       },
       {
         "Item": "Executioner_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]
@@ -13631,39 +10160,12 @@
     },
     "Drops": [
       {
-        "Item": "Loki's_Whispers",
-        "Rate": 1
-      },
-      {
         "Item": "Biotite",
-        "Rate": 750
-      },
-      {
-        "Item": "Scarlet_Dagger",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Scarlet_Saber",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Scarlet_Twohand_Sword",
-        "Rate": 50,
-        "RandomOptionGroup": "Group_5"
-      },
-      {
-        "Item": "Runstone_Mystic",
-        "Rate": 150
-      },
-      {
-        "Item": "Oridecon",
-        "Rate": 122
+        "Rate": 10000
       },
       {
         "Item": "Mysteltainn_Card",
-        "Rate": 1,
+        "Rate": 50,
         "StealProtected": true
       }
     ]

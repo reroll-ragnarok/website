@@ -36,50 +36,26 @@
   },
   "MvpDrops": [
     {
-      "Item": "Crystal_Jewel",
-      "Rate": 2000
+      "Item": "Mother's_Nightmare",
+      "Rate": 10000
     },
     {
-      "Item": "Old_Blue_Box",
-      "Rate": 3000
-    },
-    {
-      "Item": "Old_Violet_Box",
-      "Rate": 2000
+      "Item": "Armlet_Of_Obedience",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
-      "Item": "Queen's_Hair_Ornament",
-      "Rate": 250
-    },
-    {
-      "Item": "Safety_Ring",
-      "Rate": 100
-    },
-    {
-      "Item": "Tiara",
-      "Rate": 100
-    },
-    {
-      "Item": "Armlet_Of_Obedience",
-      "Rate": 250
+      "Item": "Great_Nature",
+      "Rate": 10000
     },
     {
       "Item": "Mother's_Nightmare",
-      "Rate": 5
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 1750
-    },
-    {
-      "Item": "Dea_Staff",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Maya_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

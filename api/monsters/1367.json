@@ -33,20 +33,16 @@
   },
   "Drops": [
     {
-      "Item": "Burning_Heart",
-      "Rate": 1200
-    },
-    {
       "Item": "Live_Coal",
-      "Rate": 850
+      "Rate": 10000
     },
     {
-      "Item": "White_Herb",
-      "Rate": 700
+      "Item": "Burning_Heart",
+      "Rate": 5000
     },
     {
       "Item": "Blazzer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

@@ -43,7 +43,7 @@ Body:
       - Item: Insect_Feeler
         Rate: 5000
       - Item: Thief_Bug_Female_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1005
@@ -79,11 +79,9 @@ Body:
       - Item: Tooth_Of_Bat
         Rate: 10000
       - Item: Grape
-        Rate: 2500
-      - Item: Center_Potion
-        Rate: 1000
+        Rate: 5000
       - Item: Farmiliar_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1175
@@ -120,10 +118,8 @@ Body:
         Rate: 10000
       - Item: Animal's_Skin
         Rate: 5000
-      - Item: Feather
-        Rate: 2500
       - Item: Tarou_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
 ###################################### Morocc ######################################
@@ -163,7 +159,7 @@ Body:
       - Item: Lizard_Scruff
         Rate: 5000
       - Item: Driller_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1119
@@ -201,7 +197,7 @@ Body:
       - Item: Reptile_Tongue
         Rate: 5000
       - Item: Frilldora_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
 ###################################### Geffen ######################################
@@ -238,22 +234,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Wind_Of_Verdure
-        Rate: 80
       - Item: Bee_Sting
-        Rate: 8000
-      - Item: Jellopy
-        Rate: 3000
-      - Item: Main_Gauche_
-        Rate: 20
-      - Item: Green_Herb
-        Rate: 500
+        Rate: 10000
       - Item: Honey
-        Rate: 100
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 3000
       - Item: Hornet_Card
-        Rate: 20
+        Rate: 50
         StealProtected: true
 
   - Id: 1118
@@ -287,21 +273,11 @@ Body:
     Ai: 10
     Drops:
       - Item: Blossom_Of_Maneater
-        Rate: 4500
-      - Item: Sunflower
-        Rate: 2
-      - Item: Aloe
-        Rate: 5
+        Rate: 10000
       - Item: Leaflet_Of_Aloe
-        Rate: 25
-      - Item: Singing_Flower
-        Rate: 10
-      - Item: Stem
-        Rate: 1000
-      - Item: Witherless_Rose
-        Rate: 1
+        Rate: 2500
       - Item: Flora_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1169
@@ -334,22 +310,12 @@ Body:
     DamageMotion: 300
     Ai: 04
     Drops:
-      - Item: Iron
-        Rate: 200
       - Item: Lantern
-        Rate: 2750
-      - Item: Elunium_Stone
-        Rate: 45
-      - Item: Safety_Helmet
-        Rate: 1
-      - Item: Steel
-        Rate: 50
+        Rate: 10000
       - Item: Coal
-        Rate: 100
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Skel_Worker_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -385,22 +351,12 @@ Body:
     Modes:
       Detector: true
     Drops:
-      - Item: Great_Nature
-        Rate: 15
-      - Item: Coal
-        Rate: 75
       - Item: Elder_Pixie's_Beard
-        Rate: 2750
-      - Item: Elven_Ears
-        Rate: 1
-      - Item: Cap_
-        Rate: 5
+        Rate: 10000
       - Item: Sparkling_Dust
-        Rate: 50
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Giearth_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1145
@@ -434,21 +390,11 @@ Body:
     Ai: 01
     Drops:
       - Item: Moustache_Of_Mole
-        Rate: 4500
+        Rate: 10000
       - Item: Nail_Of_Mole
-        Rate: 2500
-      - Item: Jur_
-        Rate: 5
-      - Item: Goggle_
-        Rate: 3
-      - Item: Safety_Helmet
-        Rate: 1
-      - Item: Battered_Pot
-        Rate: 5
-      - Item: Wing_Of_Fly
-        Rate: 500
+        Rate: 5000
       - Item: Martin_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
 ###################################### Payon ######################################
@@ -484,21 +430,11 @@ Body:
     Ai: 04
     Drops:
       - Item: Danggie
-        Rate: 4500
-      - Item: Munak_Turban
-        Rate: 1
-      - Item: Shoes_
-        Rate: 8
+        Rate: 10000
       - Item: Amulet
-        Rate: 10
-      - Item: Ninja_Suit
-        Rate: 1
-      - Item: Adventure_Suit
-        Rate: 50
-      - Item: Girl's_Diary
-        Rate: 3
+        Rate: 5000
       - Item: Munak_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   - Id: 1188
@@ -532,21 +468,11 @@ Body:
     Ai: 19
     Drops:
       - Item: Short_Daenggie
-        Rate: 2750
-      - Item: Old_Portrait
-        Rate: 20
+        Rate: 10000
       - Item: Worn_Out_Scroll
-        Rate: 30
-      - Item: Bongun_Hat
-        Rate: 1
-      - Item: Amulet
-        Rate: 8
-      - Item: Yellow_Herb
-        Rate: 500
-      - Item: Yellow_Herb
-        Rate: 625
+        Rate: 5000
       - Item: Bon_Gun_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true
 
   ### SCARCE ###
@@ -581,20 +507,10 @@ Body:
     DamageMotion: 700
     Ai: 04
     Drops:
-      - Item: Brigan
-        Rate: 1940
-      - Item: Amulet
-        Rate: 50
-      - Item: Elunium
-        Rate: 5
-      - Item: Boots_
-        Rate: 1
+      - Item: Old_Portrait
+        Rate: 10000
       - Item: Munak_Doll
-        Rate: 150
-      - Item: Claire_Suits
-        Rate: 5
-      - Item: Hyegun_Hat
-        Rate: 50
+        Rate: 5000
       - Item: Hyegun_Card
-        Rate: 1
+        Rate: 50
         StealProtected: true

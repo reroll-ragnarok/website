@@ -31,31 +31,15 @@
   "Drops": [
     {
       "Item": "Dullahan's_Helm",
-      "Rate": 1600
+      "Rate": 10000
     },
     {
       "Item": "Dullahan_Armor",
-      "Rate": 2425
-    },
-    {
-      "Item": "An_Eye_Of_Dullahan",
-      "Rate": 1
-    },
-    {
-      "Item": "Manteau",
-      "Rate": 7
-    },
-    {
-      "Item": "Manteau_",
-      "Rate": 1
-    },
-    {
-      "Item": "Nab_Cloth",
-      "Rate": 5
+      "Rate": 5000
     },
     {
       "Item": "Dullahan_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

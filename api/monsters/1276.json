@@ -34,31 +34,15 @@
   "Drops": [
     {
       "Item": "Brigan",
-      "Rate": 2328
-    },
-    {
-      "Item": "Chain_Mail_",
-      "Rate": 1
-    },
-    {
-      "Item": "Claire_Suits",
-      "Rate": 3
-    },
-    {
-      "Item": "Incisive_Arrow",
-      "Rate": 1000
-    },
-    {
-      "Item": "Arbalest_",
-      "Rate": 2
+      "Rate": 10000
     },
     {
       "Item": "Elunium",
-      "Rate": 53
+      "Rate": 1000
     },
     {
       "Item": "Raydric_Archer_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

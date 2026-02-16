@@ -31,35 +31,15 @@
   "Drops": [
     {
       "Item": "Blossom_Of_Maneater",
-      "Rate": 4500
-    },
-    {
-      "Item": "Sunflower",
-      "Rate": 2
-    },
-    {
-      "Item": "Aloe",
-      "Rate": 5
+      "Rate": 10000
     },
     {
       "Item": "Leaflet_Of_Aloe",
-      "Rate": 25
-    },
-    {
-      "Item": "Singing_Flower",
-      "Rate": 10
-    },
-    {
-      "Item": "Stem",
-      "Rate": 1000
-    },
-    {
-      "Item": "Witherless_Rose",
-      "Rate": 1
+      "Rate": 2500
     },
     {
       "Item": "Flora_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],

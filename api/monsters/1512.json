@@ -31,36 +31,16 @@
   "Ai": 4,
   "Drops": [
     {
-      "Item": "Brigan",
-      "Rate": 1940
-    },
-    {
-      "Item": "Amulet",
-      "Rate": 50
-    },
-    {
-      "Item": "Elunium",
-      "Rate": 5
-    },
-    {
-      "Item": "Boots_",
-      "Rate": 1
+      "Item": "Old_Portrait",
+      "Rate": 10000
     },
     {
       "Item": "Munak_Doll",
-      "Rate": 150
-    },
-    {
-      "Item": "Claire_Suits",
-      "Rate": 5
-    },
-    {
-      "Item": "Hyegun_Hat",
-      "Rate": 50
+      "Rate": 5000
     },
     {
       "Item": "Hyegun_Card",
-      "Rate": 1,
+      "Rate": 50,
       "StealProtected": true
     }
   ],
