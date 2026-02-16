@@ -49,6 +49,8 @@ let monsterTypeTags = {
 let monsterTypeTagsReady = false;
 let currentPage = 1;
 let currentFilteredData = null; // Track currently filtered/searched data (null means no filter active)
+let itemSortField = null; // Current sort field for items (e.g., 'Sell')
+let itemSortDirection = 'asc'; // 'asc' or 'desc'
 const itemsPerPage = 50;
 
 // Server rates configuration
@@ -79,6 +81,8 @@ function switchTab(tab) {
     currentTab = tab;
     currentPage = 1;
     currentFilteredData = null; // Reset filtered data when switching tabs
+    itemSortField = null; // Reset sort field when switching tabs
+    itemSortDirection = 'asc'; // Reset sort direction
     
     // Clear search input
     document.getElementById('searchInput').value = '';
@@ -133,6 +137,9 @@ function performSearch() {
             item.Name.toLowerCase().includes(searchTerm) ||
             item.Id.toString().includes(searchTerm)
         );
+        // Reset sort when searching
+        itemSortField = null;
+        itemSortDirection = 'asc';
         currentFilteredData = filtered;
         displayItems(filtered);
     } else if (currentTab === 'maps') {
@@ -531,6 +538,9 @@ function applyFilters() {
             }
         }
         
+        // Reset sort when filter is applied
+        itemSortField = null;
+        itemSortDirection = 'asc';
         currentFilteredData = filtered;
         displayItems(filtered);
     } else if (currentTab === 'maps') {
@@ -715,14 +725,40 @@ function displayItems(items) {
     const isAllTypes = itemTypes.size > 1; // Multiple types = All Types filter
     const displayType = isAllTypes ? 'AllTypes' : getDisplayType(itemTypes);
     
+    // Sort items if a sort field is set
+    let sortedItems = items;
+    if (itemSortField) {
+        sortedItems = [...items].sort((a, b) => {
+            let aValue, bValue;
+            
+            if (itemSortField === 'Sell') {
+                aValue = a.Sell || Math.floor((a.Buy || 0) / 2);
+                bValue = b.Sell || Math.floor((b.Buy || 0) / 2);
+            } else {
+                aValue = a[itemSortField] || 0;
+                bValue = b[itemSortField] || 0;
+            }
+            
+            // Handle numeric comparison
+            if (typeof aValue === 'number' && typeof bValue === 'number') {
+                return itemSortDirection === 'asc' ? aValue - bValue : bValue - aValue;
+            }
+            
+            // Handle string comparison
+            return itemSortDirection === 'asc' 
+                ? String(aValue).localeCompare(String(bValue))
+                : String(bValue).localeCompare(String(aValue));
+        });
+    }
+    
     // Update table headers
     updateItemTableHeaders(displayType, itemTypes);
     
     const start = (currentPage - 1) * itemsPerPage;
     const end = start + itemsPerPage;
-    const paginatedItems = items.slice(start, end);
+    const paginatedItems = sortedItems.slice(start, end);
     
-    const colSpan = isAllTypes ? 4 : 6; // Adjust colspan for no items message
+    const colSpan = isAllTypes ? 5 : 6; // Adjust colspan for no items message
     tbody.innerHTML = paginatedItems.map(item => {
         const sell = item.Sell || Math.floor((item.Buy || 0) / 2);
         return `
@@ -736,7 +772,7 @@ function displayItems(items) {
             </td>
             <td class="col-name">${item.Name}</td>
             <td class="col-type">${item.Type || 'Etc'}</td>
-            ${isAllTypes ? '' : getItemTypeColumns(item, displayType, sell)}
+            ${isAllTypes ? `<td>${formatNumber(sell)}z</td>` : getItemTypeColumns(item, displayType, sell)}
         </tr>
     `;
     }).join('');
@@ -780,8 +816,10 @@ function updateItemTableHeaders(displayType, typeSet) {
     const thead = document.getElementById('items-thead');
     let headers = '<tr><th class="col-id">ID</th><th class="col-icon">Icon</th><th class="col-name">Name</th><th class="col-type">Type</th>';
     
-    // If showing all types (multiple types), only show base headers
+    // If showing all types (multiple types), show base headers + sell
     if (displayType === 'AllTypes') {
+        const sellArrow = itemSortField === 'Sell' ? (itemSortDirection === 'desc' ? ' ▼' : ' ▲') : ' ▶';
+        headers += `<th onclick="sortItemsByField('Sell')" style="cursor: pointer;">${itemSortField === 'Sell' ? '<strong>' : ''}Sell${sellArrow}${itemSortField === 'Sell' ? '</strong>' : ''}</th>`;
         headers += '</tr>';
         thead.innerHTML = headers;
         return;
@@ -797,19 +835,39 @@ function updateItemTableHeaders(displayType, typeSet) {
         case 'Healing':
         case 'Usable':
         case 'DelayConsume':
-            headers += '<th>Sell</th><th>Weight</th>';
+            const sellArrow = itemSortField === 'Sell' ? (itemSortDirection === 'desc' ? ' ▼' : ' ▲') : ' ▶';
+            headers += `<th onclick="sortItemsByField('Sell')" style="cursor: pointer;">${itemSortField === 'Sell' ? '<strong>' : ''}Sell${sellArrow}${itemSortField === 'Sell' ? '</strong>' : ''}</th><th>Weight</th>`;
             break;
         case 'Etc':
-            headers += '<th>Sell</th><th>Weight</th>';
+            const etcSellArrow = itemSortField === 'Sell' ? (itemSortDirection === 'desc' ? ' ▼' : ' ▲') : ' ▶';
+            headers += `<th onclick="sortItemsByField('Sell')" style="cursor: pointer;">${itemSortField === 'Sell' ? '<strong>' : ''}Sell${etcSellArrow}${itemSortField === 'Sell' ? '</strong>' : ''}</th><th>Weight</th>`;
             break;
         case 'Card':
             break;
         default:
-            headers += '<th>Sell</th><th>Weight</th>';
+            const defSellArrow = itemSortField === 'Sell' ? (itemSortDirection === 'desc' ? ' ▼' : ' ▲') : ' ▶';
+            headers += `<th onclick="sortItemsByField('Sell')" style="cursor: pointer;">${itemSortField === 'Sell' ? '<strong>' : ''}Sell${defSellArrow}${itemSortField === 'Sell' ? '</strong>' : ''}</th><th>Weight</th>`;
     }
     
     headers += '</tr>';
     thead.innerHTML = headers;
+}
+
+// Function to sort items by field
+function sortItemsByField(field) {
+    if (itemSortField === field) {
+        // Toggle direction if clicking the same field
+        itemSortDirection = itemSortDirection === 'desc' ? 'asc' : 'desc';
+    } else {
+        // Set new sort field with desc direction (first tap sorts descending)
+        itemSortField = field;
+        itemSortDirection = 'desc';
+    }
+    
+    // Reset to first page and redisplay
+    currentPage = 1;
+    const displayData = currentFilteredData || itemsData;
+    displayItems(displayData);
 }
 
 // Display maps
@@ -1572,6 +1630,17 @@ function showItemDetails(itemId) {
                 ` : ''}
             </div>
         </div>
+        
+        ${item.Script ? `
+            <div class="detail-section">
+                <h3>Script</h3>
+                <div class="detail-grid">
+                    <div class="detail-item" style="grid-column: 1 / -1;">
+                        <div class="detail-value" style="font-family: monospace; white-space: pre-wrap; background: #f5f5f5; padding: 10px; border-radius: 5px;">${item.Script.trim()}</div>
+                    </div>
+                </div>
+            </div>
+        ` : ''}
         
         ${dropsFromHtml}
     `;
