@@ -81415,6 +81415,18 @@ QuestInfoList = {
 		NpcPosX = 128,
 		NpcPosY = 193,
 	},
+	[90020] = {
+		Title = "Road to Transcendent",
+		IconName = "ico_jq.bmp",
+		Description = {
+			"To transcend mortal limitations, you must ^ff0000reach Base Level 99 and Job Level 50^000000 as a second job class. Once you have achieved the apex of mortal strength, you must overcome your biggest fear: <NAVI>[Death]<INFO>nif_in,32,168,0,101,0</INFO></NAVI>  itself. Go to the depths of Niflheim to face the ultimate choice between stagnation and transcendence."
+		},
+		Summary = "Road to Transcendent",
+		NpcSpr = "1_JOURNEY_STONE_F",
+		NpcNavi = "niflheim",
+		NpcPosX = 32,
+		NpcPosY = 168,
+	},
 }
 
 -- This quests below are not used by anything, they are just here for legacy uses
