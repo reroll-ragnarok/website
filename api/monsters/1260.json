@@ -33,12 +33,12 @@
   },
   "Drops": [
     {
-      "Item": "Red_Frame",
-      "Rate": 5000
+      "Item": "Crystal_Mirror",
+      "Rate": 10000
     },
     {
-      "Item": "Crystal_Mirror",
-      "Rate": 1000
+      "Item": "Red_Frame",
+      "Rate": 5000
     },
     {
       "Item": "Dark_Frame_Card",

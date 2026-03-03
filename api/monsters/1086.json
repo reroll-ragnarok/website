@@ -37,10 +37,10 @@
   "MvpDrops": [
     {
       "Item": "Ora_Ora",
-      "Rate": 5000
+      "Rate": 10000
     },
     {
-      "Item": "Gold_Ring",
+      "Item": "Gold",
       "Rate": 5000
     }
   ],
@@ -50,12 +50,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Emperium",
+      "Item": "Ora_Ora",
       "Rate": 5000
     },
     {
-      "Item": "Gold",
-      "Rate": 500
+      "Item": "Ancient_Gold_Deco_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Golden_Bug_Card",

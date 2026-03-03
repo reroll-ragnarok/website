@@ -38,10 +38,6 @@
     {
       "Item": "Jaws_Of_Ant",
       "Rate": 10000
-    },
-    {
-      "Item": "Thin_N'_Long_Tongue",
-      "Rate": 5000
     }
   ],
   "Drops": [
@@ -50,8 +46,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Thin_N'_Long_Tongue",
+      "Item": "Jaws_Of_Ant",
       "Rate": 5000
+    },
+    {
+      "Item": "Long_Tongue_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Phreeoni_Card",

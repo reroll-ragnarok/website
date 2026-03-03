@@ -36,11 +36,11 @@
   },
   "MvpDrops": [
     {
-      "Item": "Broken_Pharaoh_Symbol",
+      "Item": "Tutankhamen's_Mask",
       "Rate": 10000
     },
     {
-      "Item": "Tutankhamen's_Mask",
+      "Item": "Broken_Pharaoh_Symbol",
       "Rate": 5000
     }
   ],
@@ -50,12 +50,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Broken_Pharaoh_Symbol",
+      "Item": "Tutankhamen's_Mask",
       "Rate": 5000
     },
     {
-      "Item": "Tutankhamen's_Mask",
-      "Rate": 5000
+      "Item": "Mask_of_Hero_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Pharaoh_Card",

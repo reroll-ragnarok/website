@@ -42,7 +42,7 @@
     },
     {
       "Item": "Whisper_Boss_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

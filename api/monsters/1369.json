@@ -38,6 +38,10 @@
       "Rate": 1000
     },
     {
+      "Item": "Pecopeco_Wing_Ears_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Grand_Peco_Card",
       "Rate": 50,
       "StealProtected": true

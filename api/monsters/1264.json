@@ -31,11 +31,15 @@
   "Drops": [
     {
       "Item": "Lip_Of_Ancient_Fish",
-      "Rate": 650
+      "Rate": 10000
     },
     {
       "Item": "Fin",
       "Rate": 5000
+    },
+    {
+      "Item": "Fish_Head_Hat_Blueprint",
+      "Rate": 100
     },
     {
       "Item": "Merman_Card",

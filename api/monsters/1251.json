@@ -39,16 +39,20 @@
     {
       "Item": "Ice_Scale",
       "Rate": 10000
-    },
-    {
-      "Item": "Ice_Scale",
-      "Rate": 5000
     }
   ],
   "Drops": [
     {
       "Item": "Rough_Wind",
       "Rate": 10000
+    },
+    {
+      "Item": "Ice_Scale",
+      "Rate": 5000
+    },
+    {
+      "Item": "Event_Pierrot_Nose_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Knight_Windstorm_Card",

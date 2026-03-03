@@ -38,6 +38,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Fish_In_Mouth_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Phen_Card",
       "Rate": 50,
       "StealProtected": true

@@ -1634,11 +1634,7 @@ function showItemDetails(itemId) {
         ${item.Script ? `
             <div class="detail-section">
                 <h3>Script</h3>
-                <div class="detail-grid">
-                    <div class="detail-item" style="grid-column: 1 / -1;">
-                        <div class="detail-value" style="font-family: monospace; white-space: pre-wrap; background: #f5f5f5; padding: 10px; border-radius: 5px;">${item.Script.trim()}</div>
-                    </div>
-                </div>
+                <div class="detail-value">${parseItemScript(item.Script)}</div>
             </div>
         ` : ''}
         

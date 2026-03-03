@@ -50,6 +50,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Mistress_Crown_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Mistress_Card",
       "Rate": 50,
       "StealProtected": true

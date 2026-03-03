@@ -51,6 +51,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Charm_Of_Frozen_BR_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Garm_Card",
       "Rate": 50,
       "StealProtected": true

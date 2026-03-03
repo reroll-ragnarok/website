@@ -118,7 +118,7 @@ Body:
       - Item: Skel_Bone
         Rate: 5000
       - Item: Anubis_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Geffen #######################################
@@ -224,8 +224,8 @@ Body:
     Int: 80
     Dex: 70
     Luk: 13
-    AttackRange: 7
-    SkillRange: 10
+    AttackRange: 3
+    SkillRange: 4
     ChaseRange: 12
     Size: Small
     Race: Plant
@@ -327,7 +327,7 @@ Body:
       - Item: Sparkling_Dust
         Rate: 5000
       - Item: Whisper_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   ### CHAMPION ###
@@ -368,7 +368,7 @@ Body:
       - Item: Transparent_Cloth
         Rate: 5000
       - Item: Whisper_Boss_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   ### SCARCE ###
@@ -409,7 +409,7 @@ Body:
       - Item: Round_Shell
         Rate: 5000
       - Item: Dragon_Tail_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -610,6 +610,8 @@ Body:
         Rate: 10000
       - Item: Skull
         Rate: 5000
+      - Item: Phantom_Of_Opera_Blueprint
+        Rate: 100
       - Item: Alarm_Card
         Rate: 50
         StealProtected: true
@@ -650,9 +652,9 @@ Body:
       - Item: Steel
         Rate: 10000
       - Item: Underground_Key
-        Rate: 1000
+        Rate: 5000
       - Item: C_Tower_Manager_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Yuno #######################################
@@ -886,7 +888,7 @@ Body:
       - Item: Brigan
         Rate: 5000
       - Item: Dark_Illusion_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1257
@@ -923,6 +925,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Gang_Scarf_Blueprint
+        Rate: 100
       - Item: Injustice_Card
         Rate: 50
         StealProtected: true
@@ -963,6 +967,8 @@ Body:
         Rate: 10000
       - Item: Executioner's_Mitten
         Rate: 1000
+      - Item: Cap_Of_Blindness_Blueprint
+        Rate: 100
       - Item: Rybio_Card
         Rate: 50
         StealProtected: true
@@ -1042,5 +1048,5 @@ Body:
       - Item: Rose_Quartz
         Rate: 5000
       - Item: Zherlthsh_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

@@ -75,9 +75,11 @@ Body:
     Ai: 21
     Drops:
       - Item: Lip_Of_Ancient_Fish
-        Rate: 650
+        Rate: 10000
       - Item: Fin
         Rate: 5000
+      - Item: Fish_Head_Hat_Blueprint
+        Rate: 100
       - Item: Merman_Card
         Rate: 50
         StealProtected: true
@@ -357,7 +359,7 @@ Body:
       - Item: Steel
         Rate: 5000
       - Item: High_Orc_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1133
@@ -558,7 +560,7 @@ Body:
       - Item: Unripe_Apple
         Rate: 1000
       - Item: Pirate_Skel_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -718,6 +720,8 @@ Body:
         Rate: 10000
       - Item: Fruit_Of_Mastela
         Rate: 1000
+      - Item: Pecopeco_Wing_Ears_Blueprint
+        Rate: 100
       - Item: Grand_Peco_Card
         Rate: 50
         StealProtected: true

@@ -50,6 +50,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Spinx_Helm__Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Amon_Ra_Card",
       "Rate": 50,
       "StealProtected": true

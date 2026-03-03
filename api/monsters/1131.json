@@ -35,7 +35,11 @@
     },
     {
       "Item": "Oridecon",
-      "Rate": 1000
+      "Rate": 1500
+    },
+    {
+      "Item": "CD_In_Mouth_Blueprint",
+      "Rate": 100
     },
     {
       "Item": "Joker_Card",

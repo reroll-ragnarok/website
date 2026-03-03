@@ -50,6 +50,10 @@
       "Rate": 1000
     },
     {
+      "Item": "Chatty_Parrot_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Drake_Card",
       "Rate": 50,
       "StealProtected": true

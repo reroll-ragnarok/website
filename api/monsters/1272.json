@@ -36,15 +36,7 @@
   },
   "MvpDrops": [
     {
-      "Item": "Skull",
-      "Rate": 10000
-    },
-    {
-      "Item": "Skull",
-      "Rate": 1000
-    },
-    {
-      "Item": "Skull",
+      "Item": "Skul_Ring",
       "Rate": 10000
     }
   ],
@@ -52,6 +44,14 @@
     {
       "Item": "Rune_Of_Darkness",
       "Rate": 10000
+    },
+    {
+      "Item": "Skul_Ring",
+      "Rate": 5000
+    },
+    {
+      "Item": "Skull_Cap_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Dark_Lord_Card",

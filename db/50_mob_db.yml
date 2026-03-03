@@ -238,6 +238,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -278,6 +280,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -318,6 +322,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -358,6 +364,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -398,6 +406,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -437,6 +447,8 @@ Body:
         Rate: 10000
       - Item: Cyfar
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 100
       - Item: Goblin_Card
         Rate: 50
         StealProtected: true
@@ -476,8 +488,10 @@ Body:
         Rate: 10000
       - Item: Coal
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 200
       - Item: Panzer_Goblin_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   ### SCARCE ###
@@ -516,8 +530,10 @@ Body:
         Rate: 10000
       - Item: Steel
         Rate: 5000
+      - Item: Goblin_Mask_04_Blueprint
+        Rate: 200
       - Item: Steam_Goblin_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Comodo #######################################
@@ -675,6 +691,8 @@ Body:
         Rate: 10000
       - Item: Milk_Bottle
         Rate: 5000
+      - Item: Baby_Pacifier_Blueprint
+        Rate: 200
       - Item: Garm_Baby_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

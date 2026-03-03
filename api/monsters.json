@@ -86,6 +86,10 @@
         "Rate": 5000
       },
       {
+        "Item": "4Leaf_Clover_In_Mouth_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Lunatic_Card",
         "Rate": 50,
         "StealProtected": true
@@ -266,8 +270,12 @@
         "Rate": 5000
       },
       {
+        "Item": "Pecopeco_Hairband_Blueprint",
+        "Rate": 200
+      },
+      {
         "Item": "Pecopeco_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -499,7 +507,7 @@
       },
       {
         "Item": "Greatest_General_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -1240,7 +1248,7 @@
       },
       {
         "Item": "Poison_Spore_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -1381,6 +1389,10 @@
       {
         "Item": "Grape",
         "Rate": 5000
+      },
+      {
+        "Item": "Jakk_Castle_Bat_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Farmiliar_Card",
@@ -1712,7 +1724,7 @@
       },
       {
         "Item": "Giearth_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -1897,7 +1909,7 @@
       },
       {
         "Item": "Hyegun_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -2331,7 +2343,7 @@
       },
       {
         "Item": "Golem_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -2374,6 +2386,10 @@
       {
         "Item": "Petti_Tail",
         "Rate": 5000
+      },
+      {
+        "Item": "B_Dragon_Hat_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Petit_Card",
@@ -2651,6 +2667,10 @@
       {
         "Item": "Strawberry",
         "Rate": 2500
+      },
+      {
+        "Item": "Snake_Head_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Snake_Card",
@@ -2981,6 +3001,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Goblin_Card",
         "Rate": 50,
         "StealProtected": true
@@ -3028,6 +3052,10 @@
       {
         "Item": "Cyfar",
         "Rate": 5000
+      },
+      {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Goblin_Card",
@@ -3079,6 +3107,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Goblin_Card",
         "Rate": 50,
         "StealProtected": true
@@ -3126,6 +3158,10 @@
       {
         "Item": "Cyfar",
         "Rate": 5000
+      },
+      {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Goblin_Card",
@@ -3177,6 +3213,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Goblin_Card",
         "Rate": 50,
         "StealProtected": true
@@ -3225,6 +3265,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Goblin_Card",
         "Rate": 50,
         "StealProtected": true
@@ -3271,8 +3315,12 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 200
+      },
+      {
         "Item": "Panzer_Goblin_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -3318,8 +3366,12 @@
         "Rate": 5000
       },
       {
+        "Item": "Goblin_Mask_04_Blueprint",
+        "Rate": 200
+      },
+      {
         "Item": "Steam_Goblin_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -3504,8 +3556,12 @@
         "Rate": 5000
       },
       {
+        "Item": "Baby_Pacifier_Blueprint",
+        "Rate": 200
+      },
+      {
         "Item": "Garm_Baby_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -3688,6 +3744,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Fish_In_Mouth_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Phen_Card",
         "Rate": 50,
         "StealProtected": true
@@ -3830,7 +3890,7 @@
       },
       {
         "Item": "Isis_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -3879,7 +3939,7 @@
       },
       {
         "Item": "Scorpion_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -4077,7 +4137,7 @@
       },
       {
         "Item": "Orc_Baby_Card_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -4298,11 +4358,11 @@
     "Ai": 17,
     "Drops": [
       {
-        "Item": "Piece_Of_Cake",
+        "Item": "Candy_Striper",
         "Rate": 10000
       },
       {
-        "Item": "Candy_Striper",
+        "Item": "Piece_Of_Cake",
         "Rate": 5000
       },
       {
@@ -4391,11 +4451,15 @@
     "Drops": [
       {
         "Item": "Lip_Of_Ancient_Fish",
-        "Rate": 650
+        "Rate": 10000
       },
       {
         "Item": "Fin",
         "Rate": 5000
+      },
+      {
+        "Item": "Fish_Head_Hat_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Merman_Card",
@@ -4731,7 +4795,7 @@
       },
       {
         "Item": "High_Orc_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -4973,7 +5037,7 @@
       },
       {
         "Item": "Pirate_Skel_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -5161,6 +5225,10 @@
         "Rate": 1000
       },
       {
+        "Item": "Pecopeco_Wing_Ears_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Grand_Peco_Card",
         "Rate": 50,
         "StealProtected": true
@@ -5300,7 +5368,7 @@
       },
       {
         "Item": "Anubis_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -5424,8 +5492,8 @@
     "Int": 80,
     "Dex": 70,
     "Luk": 13,
-    "AttackRange": 7,
-    "SkillRange": 10,
+    "AttackRange": 3,
+    "SkillRange": 4,
     "ChaseRange": 12,
     "Size": "Small",
     "Race": "Plant",
@@ -5551,7 +5619,7 @@
       },
       {
         "Item": "Whisper_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -5600,7 +5668,7 @@
       },
       {
         "Item": "Whisper_Boss_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -5649,7 +5717,7 @@
       },
       {
         "Item": "Dragon_Tail_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -5890,6 +5958,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Phantom_Of_Opera_Blueprint",
+        "Rate": 100
+      },
+      {
         "Item": "Alarm_Card",
         "Rate": 50,
         "StealProtected": true
@@ -5936,11 +6008,11 @@
       },
       {
         "Item": "Underground_Key",
-        "Rate": 1000
+        "Rate": 5000
       },
       {
         "Item": "C_Tower_Manager_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -6217,7 +6289,7 @@
       },
       {
         "Item": "Dark_Illusion_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -6260,6 +6332,10 @@
       {
         "Item": "Cyfar",
         "Rate": 5000
+      },
+      {
+        "Item": "Gang_Scarf_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Injustice_Card",
@@ -6309,6 +6385,10 @@
       {
         "Item": "Executioner's_Mitten",
         "Rate": 1000
+      },
+      {
+        "Item": "Cap_Of_Blindness_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Rybio_Card",
@@ -6405,7 +6485,7 @@
       },
       {
         "Item": "Zherlthsh_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -6446,8 +6526,8 @@
         "Rate": 10000
       },
       {
-        "Item": "Mementos",
-        "Rate": 5000
+        "Item": "Elunium",
+        "Rate": 2000
       },
       {
         "Item": "Ancient_Mummy_Card",
@@ -6500,7 +6580,7 @@
       },
       {
         "Item": "Nightmare_Terror_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -6781,7 +6861,7 @@
       },
       {
         "Item": "Oridecon",
-        "Rate": 1000
+        "Rate": 2000
       },
       {
         "Item": "Baphomet__Card",
@@ -6834,7 +6914,7 @@
       },
       {
         "Item": "Harpy_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -6880,8 +6960,12 @@
         "Rate": 2500
       },
       {
+        "Item": "Falconer_Flute_C_Blueprint",
+        "Rate": 200
+      },
+      {
         "Item": "Gryphon_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7068,7 +7152,7 @@
       },
       {
         "Item": "Elunium",
-        "Rate": 1000
+        "Rate": 1500
       },
       {
         "Item": "Raydric_Archer_Card",
@@ -7114,7 +7198,7 @@
       },
       {
         "Item": "Elunium",
-        "Rate": 1000
+        "Rate": 1500
       },
       {
         "Item": "Daydric_Card",
@@ -7160,7 +7244,7 @@
       },
       {
         "Item": "Elunium",
-        "Rate": 1000
+        "Rate": 1500
       },
       {
         "Item": "Khalitzburg_Card",
@@ -7206,7 +7290,7 @@
       },
       {
         "Item": "Oridecon",
-        "Rate": 1000
+        "Rate": 1500
       },
       {
         "Item": "Jakk_Card",
@@ -7252,7 +7336,11 @@
       },
       {
         "Item": "Oridecon",
-        "Rate": 1000
+        "Rate": 1500
+      },
+      {
+        "Item": "CD_In_Mouth_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Joker_Card",
@@ -7301,7 +7389,7 @@
       },
       {
         "Item": "Oridecon",
-        "Rate": 1000
+        "Rate": 1500
       },
       {
         "Item": "Carat_Card",
@@ -7345,12 +7433,12 @@
     },
     "Drops": [
       {
-        "Item": "Red_Frame",
-        "Rate": 5000
+        "Item": "Crystal_Mirror",
+        "Rate": 10000
       },
       {
-        "Item": "Crystal_Mirror",
-        "Rate": 1000
+        "Item": "Red_Frame",
+        "Rate": 5000
       },
       {
         "Item": "Dark_Frame_Card",
@@ -7403,7 +7491,7 @@
       },
       {
         "Item": "Lava_Golem_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7495,6 +7583,10 @@
       {
         "Item": "Burning_Heart",
         "Rate": 5000
+      },
+      {
+        "Item": "Ifrits_Ear_Blueprint",
+        "Rate": 100
       },
       {
         "Item": "Explosion_Card",
@@ -7688,7 +7780,7 @@
       },
       {
         "Item": "Bloody_Murderer_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7784,7 +7876,7 @@
       },
       {
         "Item": "Bloody_Knight_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7927,7 +8019,7 @@
       },
       {
         "Item": "Alice_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7976,7 +8068,7 @@
       },
       {
         "Item": "Gargoyle_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -8037,6 +8129,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Smoking_Pipe_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Eddga_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8095,6 +8191,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Mistress_Crown_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Mistress_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8141,10 +8241,6 @@
       {
         "Item": "Jaws_Of_Ant",
         "Rate": 10000
-      },
-      {
-        "Item": "Thin_N'_Long_Tongue",
-        "Rate": 5000
       }
     ],
     "Drops": [
@@ -8153,8 +8249,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Thin_N'_Long_Tongue",
+        "Item": "Jaws_Of_Ant",
         "Rate": 5000
+      },
+      {
+        "Item": "Long_Tongue_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Phreeoni_Card",
@@ -8219,6 +8319,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Ascendant_Crown__Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Maya_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8264,10 +8368,10 @@
     "MvpDrops": [
       {
         "Item": "Ora_Ora",
-        "Rate": 5000
+        "Rate": 10000
       },
       {
-        "Item": "Gold_Ring",
+        "Item": "Gold",
         "Rate": 5000
       }
     ],
@@ -8277,12 +8381,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Emperium",
+        "Item": "Ora_Ora",
         "Rate": 5000
       },
       {
-        "Item": "Gold",
-        "Rate": 500
+        "Item": "Ancient_Gold_Deco_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Golden_Bug_Card",
@@ -8329,22 +8433,26 @@
     },
     "MvpDrops": [
       {
-        "Item": "Fox_Tail",
+        "Item": "Zero_Merchant_Bell",
         "Rate": 10000
       },
       {
-        "Item": "Fox_Tail",
-        "Rate": 10000
-      },
-      {
-        "Item": "Fox_Tail",
-        "Rate": 10000
+        "Item": "Emperium",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
         "Item": "Flame_Heart",
         "Rate": 10000
+      },
+      {
+        "Item": "Zero_Merchant_Bell",
+        "Rate": 5000
+      },
+      {
+        "Item": "Moonlight_Flower_Hat_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Moonlight_Flower_Card",
@@ -8406,6 +8514,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Charm_Of_Frozen_BR_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Garm_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8453,7 +8565,7 @@
     },
     "MvpDrops": [
       {
-        "Item": "Voucher_Of_Orcish_Hero",
+        "Item": "Tooth_Of_",
         "Rate": 10000
       }
     ],
@@ -8463,8 +8575,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Voucher_Of_Orcish_Hero",
+        "Item": "Tooth_Of_",
         "Rate": 5000
+      },
+      {
+        "Item": "Cigar_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Orc_Load_Card",
@@ -8510,14 +8626,26 @@
     },
     "MvpDrops": [
       {
-        "Item": "Osiris_Doll",
+        "Item": "Sacred_Marks",
         "Rate": 10000
+      },
+      {
+        "Item": "Osiris_Doll",
+        "Rate": 5000
       }
     ],
     "Drops": [
       {
         "Item": "Rune_Of_Darkness",
         "Rate": 10000
+      },
+      {
+        "Item": "Sacred_Marks",
+        "Rate": 5000
+      },
+      {
+        "Item": "Crown_Of_Saint_Jp_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Osiris_Card",
@@ -8567,16 +8695,20 @@
       {
         "Item": "Ice_Scale",
         "Rate": 10000
-      },
-      {
-        "Item": "Ice_Scale",
-        "Rate": 5000
       }
     ],
     "Drops": [
       {
         "Item": "Rough_Wind",
         "Rate": 10000
+      },
+      {
+        "Item": "Ice_Scale",
+        "Rate": 5000
+      },
+      {
+        "Item": "Event_Pierrot_Nose_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Knight_Windstorm_Card",
@@ -8630,7 +8762,7 @@
         "Rate": 10000
       },
       {
-        "Item": "Voucher_Of_Orcish_Hero",
+        "Item": "Round_Feather",
         "Rate": 5000
       }
     ],
@@ -8642,6 +8774,10 @@
       {
         "Item": "Voucher_Of_Orcish_Hero",
         "Rate": 5000
+      },
+      {
+        "Item": "Orc_Hero_Helm_TW_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Orc_Hero_Card",
@@ -8746,11 +8882,11 @@
     },
     "MvpDrops": [
       {
-        "Item": "Broken_Pharaoh_Symbol",
+        "Item": "Tutankhamen's_Mask",
         "Rate": 10000
       },
       {
-        "Item": "Tutankhamen's_Mask",
+        "Item": "Broken_Pharaoh_Symbol",
         "Rate": 5000
       }
     ],
@@ -8760,12 +8896,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Broken_Pharaoh_Symbol",
+        "Item": "Tutankhamen's_Mask",
         "Rate": 5000
       },
       {
-        "Item": "Tutankhamen's_Mask",
-        "Rate": 5000
+        "Item": "Mask_of_Hero_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Pharaoh_Card",
@@ -8826,6 +8962,10 @@
         "Rate": 1000
       },
       {
+        "Item": "Chatty_Parrot_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Drake_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8884,6 +9024,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Binoculars_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Tao_Gunka_Card",
         "Rate": 50,
         "StealProtected": true
@@ -8928,15 +9072,7 @@
     },
     "MvpDrops": [
       {
-        "Item": "Skull",
-        "Rate": 10000
-      },
-      {
-        "Item": "Skull",
-        "Rate": 1000
-      },
-      {
-        "Item": "Skull",
+        "Item": "Skul_Ring",
         "Rate": 10000
       }
     ],
@@ -8944,6 +9080,14 @@
       {
         "Item": "Rune_Of_Darkness",
         "Rate": 10000
+      },
+      {
+        "Item": "Skul_Ring",
+        "Rate": 5000
+      },
+      {
+        "Item": "Skull_Cap_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Dark_Lord_Card",
@@ -9004,6 +9148,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Spinx_Helm__Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Amon_Ra_Card",
         "Rate": 50,
         "StealProtected": true
@@ -9060,6 +9208,10 @@
       {
         "Item": "Cardinal_Jewel_",
         "Rate": 5000
+      },
+      {
+        "Item": "Prontera_Army_Cap_Repl_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Doppelganger_Card",
@@ -9120,6 +9272,10 @@
         "Rate": 5000
       },
       {
+        "Item": "General_Helmet_Blueprint",
+        "Rate": 2000
+      },
+      {
         "Item": "Turtle_General_Card",
         "Rate": 50,
         "StealProtected": true
@@ -9164,8 +9320,12 @@
     },
     "MvpDrops": [
       {
-        "Item": "Baphomet_Doll",
+        "Item": "Wild_Boar's_Mane",
         "Rate": 10000
+      },
+      {
+        "Item": "Baphomet_Doll",
+        "Rate": 5000
       }
     ],
     "Drops": [
@@ -9174,8 +9334,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Baphomet_Doll",
+        "Item": "Wild_Boar's_Mane",
         "Rate": 5000
+      },
+      {
+        "Item": "L_Magestic_Goat2_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Baphomet_Card",
@@ -9223,10 +9387,6 @@
     },
     "MvpDrops": [
       {
-        "Item": "Boroken_Shiled_Piece",
-        "Rate": 10000
-      },
-      {
         "Item": "Shine_Spear_Blade",
         "Rate": 10000
       }
@@ -9237,12 +9397,12 @@
         "Rate": 10000
       },
       {
-        "Item": "Boroken_Shiled_Piece",
+        "Item": "Shine_Spear_Blade",
         "Rate": 5000
       },
       {
-        "Item": "Shine_Spear_Blade",
-        "Rate": 5000
+        "Item": "Lord_of_Death_Blueprint",
+        "Rate": 2000
       },
       {
         "Item": "Lord_Of_Death_Card",
@@ -9296,7 +9456,7 @@
       },
       {
         "Item": "Mastering_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9342,7 +9502,7 @@
       },
       {
         "Item": "Toad_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9392,7 +9552,7 @@
       },
       {
         "Item": "Eclipse_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9442,7 +9602,7 @@
       },
       {
         "Item": "Dragon_Fly_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9493,7 +9653,7 @@
       },
       {
         "Item": "Vocal_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9543,7 +9703,7 @@
       },
       {
         "Item": "Choco_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9589,7 +9749,7 @@
       },
       {
         "Item": "Vagabond_Wolf_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9635,7 +9795,7 @@
       },
       {
         "Item": "Maya_Puple_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9681,7 +9841,7 @@
       },
       {
         "Item": "Cat_O_Nine_Tail_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9730,7 +9890,7 @@
       },
       {
         "Item": "Goblin_Leader_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9780,7 +9940,7 @@
       },
       {
         "Item": "Angeling_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9829,7 +9989,7 @@
       },
       {
         "Item": "Kobold_Leader_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9876,7 +10036,7 @@
       },
       {
         "Item": "Ghostring_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9924,7 +10084,7 @@
       },
       {
         "Item": "Archangeling_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -9971,7 +10131,7 @@
       },
       {
         "Item": "Deviling_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -10017,7 +10177,7 @@
       },
       {
         "Item": "Chimera_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -10067,7 +10227,7 @@
       },
       {
         "Item": "Tirfing_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -10116,7 +10276,7 @@
       },
       {
         "Item": "Executioner_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -10165,7 +10325,7 @@
       },
       {
         "Item": "Mysteltainn_Card",
-        "Rate": 50,
+        "Rate": 100,
         "StealProtected": true
       }
     ]

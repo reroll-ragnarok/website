@@ -26,63 +26,114 @@ mapNPCInfoTable = {
 		{ name = [=[Equipment Enhancement]=], X = 174, Y = 218, TYPE = 3, },
 		{ name = [=[Job Quest]=], X = 234, Y = 314, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 48, Y = 343, TYPE = 1, },
+		{ name = [=[Quest]=], X = 204, Y = 188, TYPE = 4, },
+		{ name = [=[Quest]=], X = 263, Y = 275, TYPE = 4, },
+		{ name = [=[Quest]=], X = 46, Y = 67, TYPE = 4, },
+		{ name = [=[Quest]=], X = 261, Y = 356, TYPE = 4, },
+		{ name = [=[Quest]=], X = 155, Y = 282, TYPE = 4, },
 	},
 
 	morocc = {
 		{ name = [=[Kafra Employee]=], X = 156, Y = 97, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 100, Y = 70, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 55, Y = 259, TYPE = 1, },
+		{ name = [=[Quest]=], X = 185, Y = 294, TYPE = 4, },
+		{ name = [=[Quest]=], X = 271, Y = 269, TYPE = 4, },
+		{ name = [=[Quest]=], X = 30, Y = 172, TYPE = 4, },
 	},
 
 	geffen = {
 		{ name = [=[Kafra Employee]=], X = 120, Y = 63, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 120, Y = 110, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 61, Y = 181, TYPE = 1, },
+		{ name = [=[Quest]=], X = 138, Y = 104, TYPE = 4, },
+		{ name = [=[Quest]=], X = 46, Y = 88, TYPE = 4, },
 	},
 
 	payon_mem = {
 		{ name = [=[Kafra Employee]=], X = 89, Y = 119, TYPE = 6, },
+		{ name = [=[Quest]=], X = 34, Y = 107, TYPE = 4, },
+		{ name = [=[Quest]=], X = 71, Y = 173, TYPE = 4, },
+		{ name = [=[Quest]=], X = 150, Y = 43, TYPE = 4, },
 	},
 
 	alberta = {
 		{ name = [=[Kafra Employee]=], X = 28, Y = 230, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 37, Y = 41, TYPE = 1, },
+		{ name = [=[Quest]=], X = 215, Y = 199, TYPE = 4, },
+		{ name = [=[Quest]=], X = 168, Y = 214, TYPE = 4, },
+		{ name = [=[Quest]=], X = 247, Y = 87, TYPE = 4, },
 	},
 
 	izlude = {
 		{ name = [=[Kafra Employee]=], X = 127, Y = 116, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 51, Y = 140, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 128, Y = 222, TYPE = 1, },
+		{ name = [=[Quest]=], X = 210, Y = 121, TYPE = 4, },
+		{ name = [=[Quest]=], X = 100, Y = 105, TYPE = 4, },
 	},
 
 	aldebaran = {
 		{ name = [=[Kafra Employee]=], X = 143, Y = 120, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 73, Y = 197, TYPE = 1, },
+		{ name = [=[Quest]=], X = 231, Y = 107, TYPE = 4, },
 	},
 
 	xmas = {
 		{ name = [=[Kafra Employee]=], X = 143, Y = 113, TYPE = 6, },
+		{ name = [=[Quest]=], X = 172, Y = 131, TYPE = 4, },
+		{ name = [=[Quest]=], X = 104, Y = 286, TYPE = 4, },
+		{ name = [=[Quest]=], X = 189, Y = 275, TYPE = 4, },
 	},
 
 	comodo = {
 		{ name = [=[Kafra Employee]=], X = 195, Y = 151, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 140, Y = 114, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 129, Y = 193, TYPE = 1, },
+		{ name = [=[Quest]=], X = 269, Y = 274, TYPE = 4, },
+		{ name = [=[Quest]=], X = 173, Y = 231, TYPE = 4, },
 	},
 
 	yuno = {
 		{ name = [=[Kafra Employee]=], X = 152, Y = 188, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 196, Y = 139, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 324, Y = 284, TYPE = 1, },
+		{ name = [=[Quest]=], X = 209, Y = 309, TYPE = 4, },
+		{ name = [=[Quest]=], X = 284, Y = 363, TYPE = 4, },
+		{ name = [=[Quest]=], X = 245, Y = 144, TYPE = 4, },
 	},
 
 	umbala = {
 		{ name = [=[Kafra Employee]=], X = 87, Y = 160, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 109, Y = 120, TYPE = 1, },
+		{ name = [=[Quest]=], X = 217, Y = 186, TYPE = 4, },
 	},
 
 	niflheim = {
 		{ name = [=[Kafra Employee]=], X = 181, Y = 193, TYPE = 6, },
+		{ name = [=[Job Quest]=], X = 254, Y = 192	, TYPE = 1, },
+		{ name = [=[Quest]=], X = 167, Y = 191, TYPE = 4, },
+	},
+	
+	glast_01 = {
+		{ name = [=[Quest]=], X = 42, Y = 244, TYPE = 4, },
+		{ name = [=[Quest]=], X = 204, Y = 203, TYPE = 4, },
+	},
+	
+	moc_ruins = {
+		{ name = [=[Quest]=], X = 101, Y = 67, TYPE = 4, },
+		{ name = [=[Quest]=], X = 172, Y = 155, TYPE = 4, },
+	},
+	
+	pay_arche = {
+		{ name = [=[Job Quest]=], X = 74, Y = 153, TYPE = 1, },
+		{ name = [=[Job Quest]=], X = 141, Y = 161, TYPE = 1, },
+		{ name = [=[Quest]=], X = 100, Y = 132, TYPE = 4, },
+		{ name = [=[Quest]=], X = 140, Y = 34, TYPE = 4, },
+	},
+	
+	gef_fild10 = {
+		{ name = [=[Quest]=], X = 223, Y = 203, TYPE = 4, },
 	},
 }
 

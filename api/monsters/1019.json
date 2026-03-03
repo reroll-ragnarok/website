@@ -37,8 +37,12 @@
       "Rate": 5000
     },
     {
+      "Item": "Pecopeco_Hairband_Blueprint",
+      "Rate": 200
+    },
+    {
       "Item": "Pecopeco_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

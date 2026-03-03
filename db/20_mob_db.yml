@@ -238,7 +238,7 @@ Body:
       - Item: Mushroom_Spore
         Rate: 5000
       - Item: Poison_Spore_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1139

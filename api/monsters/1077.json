@@ -39,7 +39,7 @@
     },
     {
       "Item": "Poison_Spore_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

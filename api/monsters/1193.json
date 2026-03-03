@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Phantom_Of_Opera_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Alarm_Card",
       "Rate": 50,
       "StealProtected": true

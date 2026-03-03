@@ -54,6 +54,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Smoking_Pipe_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Eddga_Card",
       "Rate": 50,
       "StealProtected": true

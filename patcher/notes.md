@@ -1,4 +1,4 @@
-## v2.0 (24022026)
+## v2.1 (02032026)
 
-### Transcendent Jobs
- - Added Transcendent Jobs
+### Headgear Quests
+ - 36 new headgears

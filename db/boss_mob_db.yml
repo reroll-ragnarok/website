@@ -50,8 +50,8 @@ Body:
         Rate: 10000
       - Item: Tiger_Footskin
         Rate: 5000
-      # - Item: Smoking_Pipe
-      #   Rate: 500
+      - Item: Smoking_Pipe_Blueprint
+        Rate: 2000
       - Item: Eddga_Card
         Rate: 50
         StealProtected: true
@@ -100,8 +100,8 @@ Body:
         Rate: 10000
       - Item: Royal_Jelly
         Rate: 5000
-      # - Item: Mistress_Crown
-      #   Rate: 500
+      - Item: Mistress_Crown_Blueprint
+        Rate: 2000
       - Item: Mistress_Card
         Rate: 50
         StealProtected: true
@@ -143,16 +143,13 @@ Body:
     MvpDrops:
       - Item: Jaws_Of_Ant
         Rate: 10000
-      - Item: Thin_N'_Long_Tongue
-        Rate: 5000
-
     Drops:
       - Item: Star_Crumb
         Rate: 10000
-      - Item: Thin_N'_Long_Tongue
+      - Item: Jaws_Of_Ant
         Rate: 5000
-      # - Item: Forturn_Sword
-      #   Rate: 500
+      - Item: Long_Tongue_Blueprint
+        Rate: 2000
       - Item: Phreeoni_Card
         Rate: 50
         StealProtected: true
@@ -203,8 +200,8 @@ Body:
         Rate: 10000
       - Item: Mother's_Nightmare
         Rate: 5000
-      # - Item: Gold_Tiara
-      #   Rate: 500
+      - Item: Ascendant_Crown__Blueprint
+        Rate: 2000
       - Item: Maya_Card
         Rate: 50
         StealProtected: true
@@ -245,16 +242,16 @@ Body:
       Mvp: true
     MvpDrops:
       - Item: Ora_Ora
-        Rate: 5000
-      - Item: Gold_Ring
+        Rate: 10000
+      - Item: Gold
         Rate: 5000
     Drops:
       - Item: Flame_Heart
         Rate: 10000
-      - Item: Emperium
+      - Item: Ora_Ora
         Rate: 5000
-      - Item: Gold
-        Rate: 500
+      - Item: Ancient_Gold_Deco_Blueprint
+        Rate: 2000
       - Item: Golden_Bug_Card
         Rate: 50
         StealProtected: true
@@ -294,19 +291,17 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Fox_Tail
+      - Item: Zero_Merchant_Bell
         Rate: 10000
-      - Item: Fox_Tail
-        Rate: 10000
-      - Item: Fox_Tail
-        Rate: 10000
+      - Item: Emperium
+        Rate: 5000
     Drops:
       - Item: Flame_Heart
         Rate: 10000
-      # - Item: Moonlight_Flower_Hat
-      #   Rate: 500
-      # - Item: Moonlight_Sword
-      #   Rate: 500
+      - Item: Zero_Merchant_Bell
+        Rate: 5000
+      - Item: Moonlight_Flower_Hat_Blueprint
+        Rate: 2000
       - Item: Moonlight_Flower_Card
         Rate: 50
         StealProtected: true
@@ -356,11 +351,12 @@ Body:
         Rate: 10000
       - Item: Fang_Of_Garm
         Rate: 5000
-      # - Item: Claw_Of_Garm
-      #   Rate: 500
+      - Item: Charm_Of_Frozen_BR_Blueprint
+        Rate: 2000
       - Item: Garm_Card
         Rate: 50
         StealProtected: true
+
 
 ###################################### Level 70 ######################################
 
@@ -401,15 +397,15 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Voucher_Of_Orcish_Hero
+      - Item: Tooth_Of_
         Rate: 10000
     Drops:
       - Item: Great_Nature
         Rate: 10000
-      - Item: Voucher_Of_Orcish_Hero
+      - Item: Tooth_Of_
         Rate: 5000
-      # - Item: Viking_Helm_
-      #   Rate: 500
+      - Item: Cigar_Blueprint
+        Rate: 2000
       - Item: Orc_Load_Card
         Rate: 50
         StealProtected: true
@@ -448,15 +444,18 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Osiris_Doll
+      - Item: Sacred_Marks
         Rate: 10000
+      - Item: Osiris_Doll
+        Rate: 5000
+        
     Drops:
       - Item: Rune_Of_Darkness
         Rate: 10000
-      # - Item: Assasin_Dagger
-      #   Rate: 500
-      # - Item: Crown
-      #   Rate: 500
+      - Item: Sacred_Marks
+        Rate: 5000
+      - Item: Crown_Of_Saint_Jp_Blueprint
+        Rate: 2000
       - Item: Osiris_Card
         Rate: 50
         StealProtected: true
@@ -499,15 +498,13 @@ Body:
     MvpDrops:
       - Item: Ice_Scale
         Rate: 10000
-      - Item: Ice_Scale
-        Rate: 5000
     Drops:
       - Item: Rough_Wind
         Rate: 10000
-      # - Item: Rudolf_Santa_Hat
-      #   Rate: 500
-      # - Item: Event_Pierrot_Nose
-      #   Rate: 500
+      - Item: Ice_Scale
+        Rate: 5000
+      - Item: Event_Pierrot_Nose_Blueprint
+        Rate: 2000
       - Item: Knight_Windstorm_Card
         Rate: 50
         StealProtected: true
@@ -553,15 +550,15 @@ Body:
     MvpDrops:
       - Item: Voucher_Of_Orcish_Hero
         Rate: 10000
-      - Item: Voucher_Of_Orcish_Hero
+      - Item: Round_Feather
         Rate: 5000
     Drops:
       - Item: Great_Nature
         Rate: 10000
       - Item: Voucher_Of_Orcish_Hero
         Rate: 5000
-      # - Item: Orcish_Sword
-      #   Rate: 500
+      - Item: Orc_Hero_Helm_TW_Blueprint
+        Rate: 2000
       - Item: Orc_Hero_Card
         Rate: 50
         StealProtected: true
@@ -651,19 +648,17 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Broken_Pharaoh_Symbol
-        Rate: 10000
       - Item: Tutankhamen's_Mask
+        Rate: 10000
+      - Item: Broken_Pharaoh_Symbol
         Rate: 5000
     Drops:
       - Item: Rune_Of_Darkness
         Rate: 10000
-      - Item: Broken_Pharaoh_Symbol
-        Rate: 5000
       - Item: Tutankhamen's_Mask
         Rate: 5000
-      # - Item: Bazerald
-      #   Rate: 500
+      - Item: Mask_of_Hero_Blueprint
+        Rate: 2000
       - Item: Pharaoh_Card
         Rate: 50
         StealProtected: true
@@ -710,10 +705,8 @@ Body:
         Rate: 10000
       - Item: Treasure_Box
         Rate: 1000
-      # - Item: Corsair
-      #   Rate: 500
-      # - Item: Krasnaya
-      #   Rate: 500
+      - Item: Chatty_Parrot_Blueprint
+        Rate: 2000
       - Item: Drake_Card
         Rate: 50
         StealProtected: true
@@ -760,8 +753,8 @@ Body:
         Rate: 10000
       - Item: Gemstone
         Rate: 5000
-      # - Item: Binoculars
-      #   Rate: 500
+      - Item: Binoculars_Blueprint
+        Rate: 2000
       - Item: Tao_Gunka_Card
         Rate: 50
         StealProtected: true
@@ -801,21 +794,15 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Skull
-        Rate: 10000
-      - Item: Skull
-        Rate: 1000
-      - Item: Skull
+      - Item: Skul_Ring
         Rate: 10000
     Drops:
       - Item: Rune_Of_Darkness
         Rate: 10000
-      # - Item: Bone_Wand
-      #   Rate: 500
-      # - Item: Cape_Of_Ancient_Lord
-      #   Rate: 500
-      # - Item: Bone_Helm_
-      #   Rate: 500
+      - Item: Skul_Ring
+        Rate: 5000
+      - Item: Skull_Cap_Blueprint
+        Rate: 2000
       - Item: Dark_Lord_Card
         Rate: 50
         StealProtected: true
@@ -864,10 +851,8 @@ Body:
         Rate: 10000
       - Item: Rojerta_Piece
         Rate: 5000
-      # - Item: Spinx_Helm
-      #   Rate: 500
-      # - Item: Tablet
-      #   Rate: 500
+      - Item: Spinx_Helm__Blueprint
+        Rate: 2000
       - Item: Amon_Ra_Card
         Rate: 50
         StealProtected: true
@@ -914,8 +899,8 @@ Body:
         Rate: 10000
       - Item: Cardinal_Jewel_
         Rate: 5000
-      # - Item: Zweihander_
-      #   Rate: 500
+      - Item: Prontera_Army_Cap_Repl_Blueprint
+        Rate: 2000
       - Item: Doppelganger_Card
         Rate: 50
         StealProtected: true
@@ -962,8 +947,8 @@ Body:
         Rate: 10000
       - Item: Union_Of_Tribe
         Rate: 5000
-      # - Item: Immaterial_Sword
-      #   Rate: 500
+      - Item: General_Helmet_Blueprint
+        Rate: 2000
       - Item: Turtle_General_Card
         Rate: 50
         StealProtected: true
@@ -1003,17 +988,17 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Baphomet_Doll
-        Rate: 10000
-    Drops:
-      - Item: Rune_Of_Darkness
+      - Item: Wild_Boar's_Mane
         Rate: 10000
       - Item: Baphomet_Doll
         Rate: 5000
-      # - Item: Magestic_Goat_
-      #   Rate: 500
-      # - Item: Crescent_Scythe_
-      #   Rate: 500
+    Drops:
+      - Item: Rune_Of_Darkness
+        Rate: 10000
+      - Item: Wild_Boar's_Mane
+        Rate: 5000
+      - Item: L_Magestic_Goat2_Blueprint
+        Rate: 2000
       - Item: Baphomet_Card
         Rate: 50
         StealProtected: true
@@ -1054,19 +1039,15 @@ Body:
     Modes:
       Mvp: true
     MvpDrops:
-      - Item: Boroken_Shiled_Piece
-        Rate: 10000
       - Item: Shine_Spear_Blade
         Rate: 10000
     Drops:
       - Item: Rune_Of_Darkness
         Rate: 10000
-      - Item: Boroken_Shiled_Piece
-        Rate: 5000
       - Item: Shine_Spear_Blade
         Rate: 5000
-      # - Item: House_Auger_
-      #   Rate: 500
+      - Item: Lord_of_Death_Blueprint
+        Rate: 2000
       - Item: Lord_Of_Death_Card
         Rate: 50
         StealProtected: true

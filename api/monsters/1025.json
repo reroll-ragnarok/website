@@ -39,6 +39,10 @@
       "Rate": 2500
     },
     {
+      "Item": "Snake_Head_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Snake_Card",
       "Rate": 50,
       "StealProtected": true

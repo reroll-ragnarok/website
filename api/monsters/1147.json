@@ -54,6 +54,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Ascendant_Crown__Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Maya_Card",
       "Rate": 50,
       "StealProtected": true

@@ -41,6 +41,10 @@
       "Rate": 1000
     },
     {
+      "Item": "Cap_Of_Blindness_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Rybio_Card",
       "Rate": 50,
       "StealProtected": true

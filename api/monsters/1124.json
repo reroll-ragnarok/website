@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Goblin_Mask_04_Blueprint",
+      "Rate": 100
+    },
+    {
       "Item": "Goblin_Card",
       "Rate": 50,
       "StealProtected": true

@@ -36,8 +36,12 @@
   },
   "MvpDrops": [
     {
-      "Item": "Baphomet_Doll",
+      "Item": "Wild_Boar's_Mane",
       "Rate": 10000
+    },
+    {
+      "Item": "Baphomet_Doll",
+      "Rate": 5000
     }
   ],
   "Drops": [
@@ -46,8 +50,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Baphomet_Doll",
+      "Item": "Wild_Boar's_Mane",
       "Rate": 5000
+    },
+    {
+      "Item": "L_Magestic_Goat2_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Baphomet_Card",

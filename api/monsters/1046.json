@@ -50,6 +50,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Prontera_Army_Cap_Repl_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Doppelganger_Card",
       "Rate": 50,
       "StealProtected": true

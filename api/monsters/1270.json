@@ -38,11 +38,11 @@
     },
     {
       "Item": "Underground_Key",
-      "Rate": 1000
+      "Rate": 5000
     },
     {
       "Item": "C_Tower_Manager_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

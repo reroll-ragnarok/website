@@ -1353,7 +1353,7 @@ Body:
     AegisName: Crystal_Mirror
     Name: Crystal Mirror
     Type: Etc
-    Buy: 15000
+    Buy: 2000
     Weight: 50
     Flags:
       BuyingStore: true
@@ -1363,6 +1363,14 @@ Body:
     Name: Lava
     Type: Etc
     Buy: 1109
+    Weight: 10
+    Flags:
+      BuyingStore: true
+  - Id: 7122
+    AegisName: Hot_Hair
+    Name: Burning Hair
+    Type: Etc
+    Buy: 974
     Weight: 10
     Flags:
       BuyingStore: true
@@ -1832,3 +1840,408 @@ Body:
     Weight: 10
     Flags:
       BuyingStore: true
+  - Id: 1044
+    AegisName: Tooth_Of_
+    Name: Zenorc's Fang
+    Type: Etc
+    Buy: 12264
+    Weight: 10
+    Flags:
+      BuyingStore: true
+######################################## Bluepritns #########################################
+  - Id: 10000073
+    AegisName: Jakk_Castle_Bat_Blueprint
+    Name: Jakk Castle Bat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000074
+    AegisName: Baby_Pacifier_Blueprint
+    Name: Baby Pacifier Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000075
+    AegisName: Gang_Scarf_Blueprint
+    Name: Gangster Scarf Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000076
+    AegisName: CD_In_Mouth_Blueprint
+    Name: CD In Mouth Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000077
+    AegisName: 4Leaf_Clover_In_Mouth_Blueprint
+    Name: Four Leaf Clover Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000078
+    AegisName: Fish_In_Mouth_Blueprint
+    Name: Fish In Mouth Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000079
+    AegisName: Falconer_Flute_C_Blueprint
+    Name: Feather In Mouth Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000080
+    AegisName: Pecopeco_Wing_Ears_Blueprint
+    Name: Peco Ears Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000081
+    AegisName: Goblin_Mask_04_Blueprint
+    Name: Goblin Leader Mask Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000082
+    AegisName: Ifrits_Ear_Blueprint
+    Name: Ears Of Ifrit Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000083
+    AegisName: Phantom_Of_Opera_Blueprint
+    Name: Opera Masque Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000084
+    AegisName: Pecopeco_Hairband_Blueprint
+    Name: Pecopeco Hairband Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000085
+    AegisName: Snake_Head_Blueprint
+    Name: Snake Head Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000086
+    AegisName: B_Dragon_Hat_Blueprint
+    Name: Baby Dragon Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000087
+    AegisName: Cap_Of_Blindness_Blueprint
+    Name: Cap Of Blindness Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000088
+    AegisName: Fish_Head_Hat_Blueprint
+    Name: Fish Head Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000089
+    AegisName: Smoking_Pipe_Blueprint
+    Name: Pipe Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000090
+    AegisName: Long_Tongue_Blueprint
+    Name: Long Tongue Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000091
+    AegisName: Charm_Of_Frozen_BR_Blueprint
+    Name: Mystic Frozen Rose Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000092
+    AegisName: Cigar_Blueprint
+    Name: Cigarette Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000093
+    AegisName: Event_Pierrot_Nose_Blueprint
+    Name: Rudolph's Nose Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000094
+    AegisName: Mask_of_Hero_Blueprint
+    Name: Mask of Hero Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000095
+    AegisName: Binoculars_Blueprint
+    Name: Binoculars Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000096
+    AegisName: Chatty_Parrot_Blueprint
+    Name: Chatty Parrot Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000097
+    AegisName: Mistress_Crown_Blueprint
+    Name: Crown of Mistress Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000098
+    AegisName: Ancient_Gold_Deco_Blueprint
+    Name: Ancient Gold Ornament Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000099
+    AegisName: Ascendant_Crown__Blueprint
+    Name: Crown of Deceit Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000100
+    AegisName: Moonlight_Flower_Hat_Blueprint
+    Name: Moonlight Flower Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000101
+    AegisName: Crown_Of_Saint_Jp_Blueprint
+    Name: Sacred Crown Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000102
+    AegisName: Orc_Hero_Helm_TW_Blueprint
+    Name: Evolved Orc Hero Helm Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000103
+    AegisName: Skull_Cap_Blueprint
+    Name: Skull Cap Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000104
+    AegisName: L_Magestic_Goat2_Blueprint
+    Name: Gigantic Majestic Goat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000105
+    AegisName: Prontera_Army_Cap_Repl_Blueprint
+    Name: Army Cap Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000106
+    AegisName: General_Helmet_Blueprint
+    Name: General Helmet Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000107
+    AegisName: Lord_of_Death_Blueprint
+    Name: Lord of Death Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000108
+    AegisName: Spinx_Helm__Blueprint
+    Name: Sphinx Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true

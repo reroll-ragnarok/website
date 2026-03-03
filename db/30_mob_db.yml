@@ -80,6 +80,8 @@ Body:
         Rate: 10000
       - Item: Grape
         Rate: 5000
+      - Item: Jakk_Castle_Bat_Blueprint
+        Rate: 100
       - Item: Farmiliar_Card
         Rate: 50
         StealProtected: true
@@ -356,7 +358,7 @@ Body:
       - Item: Sparkling_Dust
         Rate: 5000
       - Item: Giearth_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1145
@@ -512,5 +514,5 @@ Body:
       - Item: Munak_Doll
         Rate: 5000
       - Item: Hyegun_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

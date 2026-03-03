@@ -360,7 +360,7 @@ Body:
       - Item: Steel
         Rate: 2500
       - Item: Golem_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Geffen ######################################
@@ -399,6 +399,8 @@ Body:
         Rate: 10000
       - Item: Petti_Tail
         Rate: 5000
+      - Item: B_Dragon_Hat_Blueprint
+        Rate: 100
       - Item: Petit_Card
         Rate: 50
         StealProtected: true
@@ -632,6 +634,8 @@ Body:
         Rate: 10000
       - Item: Strawberry
         Rate: 2500
+      - Item: Snake_Head_Blueprint
+        Rate: 100
       - Item: Snake_Card
         Rate: 50
         StealProtected: true

@@ -42,7 +42,7 @@
     },
     {
       "Item": "Kobold_Leader_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

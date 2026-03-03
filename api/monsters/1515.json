@@ -39,8 +39,12 @@
       "Rate": 5000
     },
     {
+      "Item": "Baby_Pacifier_Blueprint",
+      "Rate": 200
+    },
+    {
       "Item": "Garm_Baby_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

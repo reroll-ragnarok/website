@@ -38,8 +38,8 @@ Body:
     Drops:
       - Item: Rotten_Bandage
         Rate: 10000
-      - Item: Mementos
-        Rate: 5000
+      - Item: Elunium
+        Rate: 2000
       - Item: Ancient_Mummy_Card
         Rate: 50
         StealProtected: true
@@ -84,7 +84,7 @@ Body:
       - Item: Flame_Heart
         Rate: 1500
       - Item: Nightmare_Terror_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Alberta #######################################
@@ -320,13 +320,14 @@ Body:
       - Item: Evil_Horn
         Rate: 10000
       - Item: Oridecon
-        Rate: 1000
+        Rate: 2000
       - Item: Baphomet__Card
         Rate: 50
         StealProtected: true
 
 ####################################### Yuno #######################################
 
+  ### SCARCE ###
   - Id: 1376
     AegisName: HARPY
     Name: Harpy
@@ -364,9 +365,10 @@ Body:
       - Item: Harpy's_Claw
         Rate: 5000
       - Item: Harpy_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
+  ### SCARCE ###
   - Id: 1259
     AegisName: GRYPHON
     Name: Gryphon
@@ -402,8 +404,10 @@ Body:
         Rate: 10000
       - Item: Talon_Of_Griffin
         Rate: 2500
+      - Item: Falconer_Flute_C_Blueprint
+        Rate: 200
       - Item: Gryphon_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Niflheim #######################################
@@ -562,7 +566,7 @@ Body:
       - Item: Brigan
         Rate: 10000
       - Item: Elunium
-        Rate: 1000
+        Rate: 1500
       - Item: Raydric_Archer_Card
         Rate: 50
         StealProtected: true
@@ -600,7 +604,7 @@ Body:
       - Item: Brigan
         Rate: 10000
       - Item: Elunium
-        Rate: 1000
+        Rate: 1500
       - Item: Daydric_Card
         Rate: 50
         StealProtected: true
@@ -638,7 +642,7 @@ Body:
       - Item: Brigan
         Rate: 10000
       - Item: Elunium
-        Rate: 1000
+        Rate: 1500
       - Item: Khalitzburg_Card
         Rate: 50
         StealProtected: true
@@ -676,7 +680,7 @@ Body:
       - Item: Pumpkin_Head
         Rate: 10000
       - Item: Oridecon
-        Rate: 1000
+        Rate: 1500
       - Item: Jakk_Card
         Rate: 50
         StealProtected: true
@@ -714,7 +718,9 @@ Body:
       - Item: Manacles
         Rate: 5000
       - Item: Oridecon
-        Rate: 1000
+        Rate: 1500
+      - Item: CD_In_Mouth_Blueprint
+        Rate: 100
       - Item: Joker_Card
         Rate: 50
         StealProtected: true
@@ -754,7 +760,7 @@ Body:
       - Item: Ice_Cream
         Rate: 10000
       - Item: Oridecon
-        Rate: 1000
+        Rate: 1500
       - Item: Carat_Card
         Rate: 50
         StealProtected: true
@@ -791,10 +797,10 @@ Body:
     Modes:
       Detector: true
     Drops:
+      - Item: Crystal_Mirror
+        Rate: 10000
       - Item: Red_Frame
         Rate: 5000
-      - Item: Crystal_Mirror
-        Rate: 1000
       - Item: Dark_Frame_Card
         Rate: 50
         StealProtected: true

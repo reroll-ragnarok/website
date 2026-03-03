@@ -78,6 +78,8 @@ Body:
         Rate: 10000
       - Item: Carrot
         Rate: 5000
+      - Item: 4Leaf_Clover_In_Mouth_Blueprint
+        Rate: 100
       - Item: Lunatic_Card
         Rate: 50
         StealProtected: true
@@ -229,8 +231,10 @@ Body:
         Rate: 10000
       - Item: Talon
         Rate: 5000
+      - Item: Pecopeco_Hairband_Blueprint
+        Rate: 200
       - Item: Pecopeco_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Geffen ######################################
@@ -426,5 +430,5 @@ Body:
       - Item: Heart_Of_Tree
         Rate: 5000
       - Item: Greatest_General_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

@@ -35,14 +35,26 @@
   },
   "MvpDrops": [
     {
-      "Item": "Osiris_Doll",
+      "Item": "Sacred_Marks",
       "Rate": 10000
+    },
+    {
+      "Item": "Osiris_Doll",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
       "Item": "Rune_Of_Darkness",
       "Rate": 10000
+    },
+    {
+      "Item": "Sacred_Marks",
+      "Rate": 5000
+    },
+    {
+      "Item": "Crown_Of_Saint_Jp_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Osiris_Card",

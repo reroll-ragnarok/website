@@ -44,7 +44,7 @@ Body:
       - Item: Scarlet_Jewel
         Rate: 5000
       - Item: Mastering_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1089
@@ -83,7 +83,7 @@ Body:
       - Item: Bluish_Green_Jewel
         Rate: 10000
       - Item: Toad_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 20 ######################################
@@ -126,7 +126,7 @@ Body:
       - Item: Four_Leaf_Clover
         Rate: 777
       - Item: Eclipse_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
       
   - Id: 1091
@@ -167,7 +167,7 @@ Body:
       - Item: Violet_Jewel
         Rate: 5000
       - Item: Dragon_Fly_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 30 ######################################
@@ -211,7 +211,7 @@ Body:
       - Item: Azure_Jewel
         Rate: 5000
       - Item: Vocal_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1214
@@ -252,7 +252,7 @@ Body:
       - Item: Golden_Jewel
         Rate: 5000
       - Item: Choco_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1092
@@ -291,7 +291,7 @@ Body:
       - Item: Golden_Jewel
         Rate: 10000
       - Item: Vagabond_Wolf_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 40 ######################################
@@ -332,7 +332,7 @@ Body:
       - Item: Violet_Jewel
         Rate: 10000
       - Item: Maya_Puple_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 50 ######################################
@@ -373,7 +373,7 @@ Body:
       - Item: Blue_Jewel
         Rate: 10000
       - Item: Cat_O_Nine_Tail_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 60 ######################################
@@ -416,7 +416,7 @@ Body:
       - Item: Red_Jewel
         Rate: 10000
       - Item: Goblin_Leader_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 70 ######################################
@@ -459,7 +459,7 @@ Body:
       - Item: Cardinal_Jewel
         Rate: 5000
       - Item: Angeling_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 80 ######################################
@@ -502,7 +502,7 @@ Body:
       - Item: Golden_Jewel
         Rate: 10000
       - Item: Kobold_Leader_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1120
@@ -542,7 +542,7 @@ Body:
       - Item: White_Jewel
         Rate: 10000
       - Item: Ghostring_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 90 ######################################
@@ -584,7 +584,7 @@ Body:
       - Item: Blue_Jewel
         Rate: 5000
       - Item: Archangeling_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
   
   - Id: 1582
@@ -624,7 +624,7 @@ Body:
       - Item: Skyblue_Jewel
         Rate: 10000
       - Item: Deviling_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ###################################### Level 99 ######################################
@@ -665,7 +665,7 @@ Body:
       - Item: Citrine
         Rate: 10000
       - Item: Chimera_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1204
@@ -707,7 +707,7 @@ Body:
       - Item: Muscovite
         Rate: 10000
       - Item: Tirfing_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1205
@@ -748,7 +748,7 @@ Body:
       - Item: Phlogopite
         Rate: 10000
       - Item: Executioner_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1203
@@ -789,5 +789,5 @@ Body:
       - Item: Biotite
         Rate: 10000
       - Item: Mysteltainn_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

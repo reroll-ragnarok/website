@@ -43,7 +43,7 @@
       "Rate": 10000
     },
     {
-      "Item": "Voucher_Of_Orcish_Hero",
+      "Item": "Round_Feather",
       "Rate": 5000
     }
   ],
@@ -55,6 +55,10 @@
     {
       "Item": "Voucher_Of_Orcish_Hero",
       "Rate": 5000
+    },
+    {
+      "Item": "Orc_Hero_Helm_TW_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Orc_Hero_Card",

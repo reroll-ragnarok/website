@@ -2550,38 +2550,6 @@ Body:
       Head_Mid: true
     ArmorLevel: 1
     View: 63
-  - Id: 2267
-    AegisName: Cigar
-    Name: Cigarette
-    Type: Armor
-    Buy: 0
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Head_Low: true
-    ArmorLevel: 1
-    View: 54
-    Script: |
-      bonus2 bSubRace,RC_Insect,3;
-  - Id: 2268
-    AegisName: Smoking_Pipe
-    Name: Pipe
-    Type: Armor
-    Buy: 0
-    Weight: 100
-    Jobs:
-      All: true
-      Novice: false
-      SuperNovice: false
-    Locations:
-      Head_Low: true
-    ArmorLevel: 1
-    View: 55
-    Script: |
-      bonus2 bSubRace,RC_Insect,3;
   - Id: 2269
     AegisName: Centimental_Flower
     Name: Romantic Flower
@@ -2614,3 +2582,625 @@ Body:
     View: 57
     Script: |
       bonus2 bSubRace,RC_Plant,3;
+######################################## Regular Droppable Headgears #########################################
+  - Id: 18919
+    AegisName: Jack_Castle_Bat
+    Name: Jakk Castle Bat
+    Type: Armor
+    Weight: 200
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 1041
+    Script: |
+      bonus2 bHPDrainRate,100,5;
+      bonus2 bSPDrainRate,100,1;
+  - Id: 5110
+    AegisName: Baby_Pacifier
+    Name: Baby Pacifier
+    Type: Armor
+    Buy: 20
+    Weight: 50
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 191
+    Script: |
+      bonus2 bAddItemHealRate,512,25;
+      bonus2 bAddItemHealRate,582,25;
+      bonus2 bAddItemHealRate,517,25;
+      bonus2 bAddItemHealRate,578,25;
+      bonus2 bAddItemHealRate,515,25;
+      bonus2 bAddItemHealRate,519,25;
+      bonus2 bAddItemHealRate,518,25;
+      bonus2 bAddItemHealRate,520,25;
+      bonus2 bAddItemHealRate,513,25;
+      bonus2 bAddItemHealRate,514,25;
+      bonus2 bAddItemHealRate,521,25;
+      bonus2 bAddItemHealRate,538,25;
+      bonus2 bAddItemHealRate,530,25;
+      bonus2 bAddItemHealRate,539,25;
+      bonus2 bAddItemHealRate,522,25;
+      bonus2 bAddItemHealRate,537,25;
+      bonus2 bAddItemHealRate,505,25;
+      bonus2 bAddItemHealRate,536,25;
+      bonus2 bAddItemHealRate,526,25;
+      bonus2 bAddItemHealRate,501,25;
+      bonus2 bAddItemHealRate,502,25;
+      bonus2 bAddItemHealRate,503,25;
+      bonus2 bAddItemHealRate,504,25;
+  - Id: 5361
+    AegisName: Gang_Scarf
+    Name: Gangster Scarf
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 369
+    Script: |
+      bonus3 bAutoSpell,"RG_STEALCOIN",5,100;
+  - Id: 18666
+    AegisName: CD_In_Mouth
+    Name: CD In Mouth
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 815
+    Script: |
+      autobonus "{ bonus3 bAutoSpell,\"MG_FIREBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_LIGHTNINGBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_COLDBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"WZ_EARTHSPIKE\",rand(1,5),400; bonus3 bAutoSpell,\"MG_SOULSTRIKE\",rand(1,5),400; }",60,5000,BF_NORMAL,"{ specialeffect2 EF_ENHANCE; }";
+  - Id: 5596
+    AegisName: 4Leaf_Clover_In_Mouth
+    Name: Four Leaf Clover
+    Type: Armor
+    Buy: 20
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    View: 571
+    Script: |
+      bonus bFlee2,7;
+      bonus bFlee2,readparam(bLuk)/7;
+  - Id: 5403
+    AegisName: Fish_In_Mouth
+    Name: Fish In Mouth
+    Type: Armor
+    Buy: 10
+    Weight: 200
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 406
+    Script: |
+      bonus2 bMagicAtkEle,Ele_Water,10;
+      bonus2 bAddEle,Ele_Fire,10;
+  - Id: 420030
+    AegisName: Falconer_Flute_C
+    Name: Feather In Mouth
+    Type: Armor
+    View: 1143
+    Weight: 10
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    Script: |
+      bonus2 bMagicAtkEle,Ele_Wind,10;
+      bonus2 bAddEle,Ele_Water,10;
+  - Id: 5358
+    AegisName: Pecopeco_Wing_Ears
+    Name: Peco Ears
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    View: 366
+    Script: |
+      bonus bFlee,30;
+  - Id: 5090
+    AegisName: Goblin_Mask_04
+    Name: Goblin Leader Mask
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Low: true
+      Head_Mid: true
+    ArmorLevel: 1
+    View: 174
+    Script: |
+      bonus bHit,30;
+  - Id: 5421
+    AegisName: Ifrit's_Ear
+    Name: Ears Of Ifrit
+    Type: Armor
+    Buy: 20
+    Weight: 300
+    Slots: 1
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    View: 422
+    Script: |
+      bonus2 bMagicAtkEle,Ele_Fire,10;
+      bonus2 bAddEle,Ele_Earth,10;
+      bonus2 bAddEle,Ele_Undead,10;
+  - Id: 2281
+    AegisName: Phantom_Of_Opera
+    Name: Opera Masque
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Slots: 1
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    View: 68
+    Script: |
+      bonus2 bMagicAtkEle,Ele_Earth,10;
+      bonus2 bAddEle,Ele_Wind,10;
+  - Id: 5286
+    AegisName: Pecopeco_Hairband
+    Name: Pecopeco Hairband
+    Type: Armor
+    Buy: 20
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 314
+    Script: |
+      bonus bSpeedRate,25;
+      bonus bAspdRate,5;
+      bonus bVariableCastrate,-5;
+  - Id: 5388
+    AegisName: Snake_Head
+    Name: Snake Head Hat
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 393
+    Script: |
+      skill "TF_DOUBLE",5;
+  - Id: 5531
+    AegisName: B_Dragon_Hat
+    Name: Baby Dragon Hat
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 525
+    Script: |
+      skill "MO_TRIPLEATTACK",5;
+  - Id: 5304
+    AegisName: Cap_Of_Blindness
+    Name: Cap Of Blindness
+    Type: Armor
+    Buy: 20
+    Weight: 800
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 326
+    Script: |
+      bonus3 bAutoSpell,"AS_SONICBLOW",5,100;
+  - Id: 5380
+    AegisName: Fish_Head_Hat
+    Name: Fish Head Hat
+    Type: Armor
+    Buy: 20
+    Weight: 400
+    Locations:
+      Head_Top: true
+    Slots: 1
+    Refineable: true
+    View: 386
+    Script: |
+      skill "SA_DELUGE",5;
+######################################## Boss Droppable Headgears #########################################
+  - Id: 2268
+    AegisName: Smoking_Pipe
+    Name: Pipe
+    Type: Armor
+    Buy: 0
+    Weight: 100
+    Jobs:
+      All: true
+      Novice: false
+      SuperNovice: false
+    Locations:
+      Head_Low: true
+    Slots: 1
+    ArmorLevel: 1
+    View: 55
+    Script: |
+      bonus2 bSubSize,Size_All,5;
+      bonus bStr,1;
+      bonus bVit,1;
+  - Id: 18616
+    AegisName: Long_Tongue
+    Name: Long Tongue
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Locations:
+      Head_Low: true
+    Slots: 1
+    ArmorLevel: 1
+    EquipLevelMin: 20
+    View: 773
+    Script: |
+      bonus bAspdRate,10;
+      bonus bAgi,1;
+      bonus bLuk,1;
+  - Id: 5878
+    AegisName: Miracle_Blue_Rose
+    Name: Miracle Blue Rose
+    Type: Armor
+    Weight: 300
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    Slots: 1
+    View: 1064
+    Script: |
+      bonus bInt,1;
+      bonus bCastrate,-10;
+  - Id: 2267
+    AegisName: Cigar
+    Name: Cigarette
+    Type: Armor
+    Buy: 0
+    Weight: 100
+    Jobs:
+      All: true
+      Novice: false
+      SuperNovice: false
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    Slots: 1
+    View: 54
+    Script: |
+      bonus bDex,1;
+      bonus bLongAtkRate,5;
+
+  - Id: 5204
+    AegisName: Event_Pierrot_Nose
+    Name: Rudolph's Nose
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Low: true
+    ArmorLevel: 1
+    View: 49
+    Script: |
+      bonus bCritical,5;
+      bonus bAgi,2;
+      bonus bLuk,2;
+  - Id: 19083
+    AegisName: Mask_of_Hero
+    Name: Mask of Hero
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    Slots: 1
+    View: 1367
+    Script: |
+      bonus bMagicDamageReturn,10;
+      bonus bShortWeaponDamageReturn,10;
+      bonus bLongWeaponDamageReturn,10;
+      bonus bStr,2;
+      bonus bVit,2;
+  - Id: 2296
+    AegisName: Binoculars
+    Name: Binoculars
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Slots: 1
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    View: 83
+    Script: |
+      bonus bDex,2;
+      bonus bLongAtkRate,5;
+  - Id: 5972
+    AegisName: Chatty_Parrot
+    Name: Chatty Parrot
+    Type: Armor
+    Weight: 100
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    Slots: 1
+    View: 1116
+    Script: |
+      bonus bInt,2;
+      bonus2 bMagicAddSize,Size_All,10;
+
+  - Id: 5081
+    AegisName: Mistress_Crown
+    Name: Crown of Mistress
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Defense: 5
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 165
+    Script: |
+      bonus bMaxSP,300;
+      bonus bInt,3;
+      if (getrefine()>=7) {
+         bonus bMaxSP,10;
+      }
+  - Id: 18570
+    AegisName: Ancient_Gold_Deco
+    Name: Ancient Gold Ornament
+    Type: Armor
+    Buy: 20
+    Weight: 400
+    Defense: 5
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 739
+    Script: |
+      bonus2 bAddClass,Class_All,10;
+      bonus2 bMagicAddClass,Class_All,10;
+      bonus bStr,3;
+      bonus bInt,3;
+      if (getrefine()>=7) {
+         bonus2 bAddClass,Class_All,5;
+         bonus2 bMagicAddClass,Class_All,5;
+      }
+  - Id: 5897
+    AegisName: Ascendant_Crown_
+    Name: Ascendant Crown
+    Type: Armor
+    Buy: 20
+    Weight: 50
+    Defense: 5
+    Slots: 1
+    Jobs:
+      SuperNovice: true
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    EquipLevelMin: 100
+    Refineable: true
+    View: 1118
+    Script: |
+      bonus bCastrate,-15;
+      bonus bDelayRate,-5;
+      bonus bAgi,3;
+      bonus bDex,3;
+      if (getrefine()>=7) {
+         bonus bCastrate,-5;
+         bonus bDelayRate,-5;
+      }
+  - Id: 5214
+    AegisName: Moonlight_Flower_Hat
+    Name: Moonlight Flower Hat
+    Type: Armor
+    Weight: 200
+    Defense: 5
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Slots: 1
+    Refineable: true
+    View: 268
+    Script: |
+      bonus bAgi,3;
+      bonus bAspdRate,10;
+      if (getrefine()>=7) {
+         bonus bAspd,1;
+      }
+  - Id: 19469
+    AegisName: Crown_Of_Saint_Jp
+    Name: Sacred Crown
+    Type: Armor
+    Buy: 20
+    Weight: 600
+    Defense: 5
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Slots: 1
+    Refineable: true
+    View: 1117
+    Script: |
+      bonus bInt,3;
+      bonus bUseSPrate,-20;
+      bonus bHealPower,25;
+      if (getrefine()>=7) {
+         bonus bUseSPrate,-5;
+         bonus bHealPower,10;
+      }
+  - Id: 5224
+    AegisName: Orc_Hero_Helm_TW
+    Name: Evolved Orc Hero Helm
+    Type: Armor
+    Buy: 20
+    Weight: 900
+    Defense: 5
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Slots: 1
+    Refineable: true
+    View: 178
+    Script: |
+      bonus bVit,3;
+      bonus2 bSubSize,Size_All,10;
+      bonus bNoWalkDelay;
+      if (getrefine()>=7) {
+         bonus2 bSubSize,Size_All,5;
+      }
+  - Id: 18539
+    AegisName: Skull_Cap
+    Name: Skull Cap
+    Type: Armor
+    Buy: 40
+    Weight: 200
+    Defense: 5
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 713
+    Script: |
+      bonus bInt,3;
+      bonus bMatk,JobLevel*1;
+      bonus2 bIgnoreMdefClassRate,Class_All,5;
+      if (getrefine()>=7) {
+         bonus bMatkRate,10;
+         bonus2 bIgnoreMdefClassRate,Class_All,5;
+      }
+  - Id: 5518
+    AegisName: L_Magestic_Goat2
+    Name: Gigantic Majestic Goat
+    Type: Armor
+    Buy: 20
+    Weight: 800
+    Defense: 5
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Slots: 1
+    Refineable: true
+    View: 513
+    Script: |
+      bonus bStr,3;
+      bonus bAtk,JobLevel*1;
+      bonus2 bIgnoreDefClassRate,Class_All,5;
+      if (getrefine()>=7) {
+         bonus bAtkRate,10;
+         bonus2 bIgnoreDefClassRate,Class_All,5;
+      }
+  - Id: 5685
+    AegisName: Prontera_Army_Cap_Repl
+    Name: Army Cap
+    Type: Armor
+    Buy: 20
+    Weight: 100
+    Defense: 5
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 48
+    Script: |
+      bonus bVit,3;
+      bonus bMaxHP,3000;
+      if (getrefine()>=7) {
+         bonus bMaxHPrate,10;
+      }
+  - Id: 18555
+    AegisName: General_Helmet
+    Name: General Helmet
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Defense: 3
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 729
+    Script: |
+      bonus bDex,3;
+      bonus bLongAtkRate,10;
+      if (getrefine()>=7) {
+         bonus bLongAtkRate,5;
+      }
+  - Id: 18574
+    AegisName: Lord_of_Death
+    Name: Lord of Death
+    Type: Armor
+    Buy: 20
+    Weight: 1000
+    Defense: 10
+    Slots: 1
+    Locations:
+      Head_Top: true
+    ArmorLevel: 1
+    Refineable: true
+    View: 742
+    Script: |
+      bonus bLuk,3;
+      bonus bCritical,10;
+      bonus bCritAtkRate,10;
+      if (getrefine()>=7) {
+         bonus bCritical,5;
+         bonus bCritAtkRate,5;
+      }
+  - Id: 5166
+    AegisName: Spinx_Helm_
+    Name: Sphinx Hat
+    Type: Armor
+    Buy: 20
+    Weight: 3000
+    Defense: 5
+    Slots: 1
+    Locations:
+      Head_Top: true
+    Refineable: true
+    ArmorLevel: 1
+    View: 137
+    Script: |
+      bonus bVit,3;
+      bonus bInt,3;
+      bonus bDef,10;
+      bonus bMdef,10;
+      bonus bMagicDamageReturn,10;
+      bonus bShortWeaponDamageReturn,10;
+      bonus bLongWeaponDamageReturn,10;
+      if (getrefine()>=7) {
+         bonus bMagicDamageReturn,5;
+         bonus bShortWeaponDamageReturn,5;
+         bonus bLongWeaponDamageReturn,5;
+      }

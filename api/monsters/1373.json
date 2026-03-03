@@ -37,10 +37,6 @@
   },
   "MvpDrops": [
     {
-      "Item": "Boroken_Shiled_Piece",
-      "Rate": 10000
-    },
-    {
       "Item": "Shine_Spear_Blade",
       "Rate": 10000
     }
@@ -51,12 +47,12 @@
       "Rate": 10000
     },
     {
-      "Item": "Boroken_Shiled_Piece",
+      "Item": "Shine_Spear_Blade",
       "Rate": 5000
     },
     {
-      "Item": "Shine_Spear_Blade",
-      "Rate": 5000
+      "Item": "Lord_of_Death_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Lord_Of_Death_Card",

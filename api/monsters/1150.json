@@ -36,22 +36,26 @@
   },
   "MvpDrops": [
     {
-      "Item": "Fox_Tail",
+      "Item": "Zero_Merchant_Bell",
       "Rate": 10000
     },
     {
-      "Item": "Fox_Tail",
-      "Rate": 10000
-    },
-    {
-      "Item": "Fox_Tail",
-      "Rate": 10000
+      "Item": "Emperium",
+      "Rate": 5000
     }
   ],
   "Drops": [
     {
       "Item": "Flame_Heart",
       "Rate": 10000
+    },
+    {
+      "Item": "Zero_Merchant_Bell",
+      "Rate": 5000
+    },
+    {
+      "Item": "Moonlight_Flower_Hat_Blueprint",
+      "Rate": 2000
     },
     {
       "Item": "Moonlight_Flower_Card",

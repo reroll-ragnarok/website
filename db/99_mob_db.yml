@@ -44,7 +44,7 @@ Body:
       - Item: Burning_Heart
         Rate: 5000
       - Item: Lava_Golem_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1367
@@ -121,6 +121,8 @@ Body:
         Rate: 10000
       - Item: Burning_Heart
         Rate: 5000
+      - Item: Ifrits_Ear_Blueprint
+        Rate: 100
       - Item: Explosion_Card
         Rate: 50
         StealProtected: true
@@ -281,7 +283,7 @@ Body:
       - Item: Rusty_Cleaver
         Rate: 5000
       - Item: Bloody_Murderer_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
 ####################################### Glastheim #######################################
@@ -363,7 +365,7 @@ Body:
       - Item: Boroken_Shiled_Piece
         Rate: 5000
       - Item: Bloody_Knight_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   - Id: 1320
@@ -482,7 +484,7 @@ Body:
       - Item: Rouge
         Rate: 5000
       - Item: Alice_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true
 
   ### SCARCE ###
@@ -523,5 +525,5 @@ Body:
       - Item: Brigan
         Rate: 5000
       - Item: Gargoyle_Card
-        Rate: 50
+        Rate: 100
         StealProtected: true

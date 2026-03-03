@@ -42,7 +42,7 @@
     },
     {
       "Item": "Nightmare_Terror_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

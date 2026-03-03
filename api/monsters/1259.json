@@ -39,8 +39,12 @@
       "Rate": 2500
     },
     {
+      "Item": "Falconer_Flute_C_Blueprint",
+      "Rate": 200
+    },
+    {
       "Item": "Gryphon_Card",
-      "Rate": 50,
+      "Rate": 100,
       "StealProtected": true
     }
   ],

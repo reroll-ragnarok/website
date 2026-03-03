@@ -50,6 +50,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Binoculars_Blueprint",
+      "Rate": 2000
+    },
+    {
       "Item": "Tao_Gunka_Card",
       "Rate": 50,
       "StealProtected": true
