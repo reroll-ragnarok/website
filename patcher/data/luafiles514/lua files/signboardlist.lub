@@ -76,6 +76,7 @@ SignBoardList = {
 	{ "yuno_in01", 103, 102, 0, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
 	{ "um_in", 37, 72, 0, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
 	{ "morocc", 30, 172, 0, IT_BMP, "유저인터페이스\\information\\over_guide.bmp" },
+	{ "prt_in", 174, 136, 0, IT_SIGNBOARD, "유저인터페이스\\item\\heros_iron_ore.bmp","  ore", "#0x00FFFFFF" },
 	{ "prt_in", 173, 132, 0, IT_SIGNBOARD, "유저인터페이스\\item\\ein_1hhammer.bmp","  smith", "#0x00FFFFFF" },
 	{ "prt_in", 172, 140, 0, IT_SIGNBOARD, "유저인터페이스\\item\\gold_card.bmp","  options", "#0x00FFFFFF" },
 	{ "prt_in", 162, 141, 0, IT_SIGNBOARD, "유저인터페이스\\item\\snow_festa_cardpack.bmp","  slot", "#0x00FFFFFF" },

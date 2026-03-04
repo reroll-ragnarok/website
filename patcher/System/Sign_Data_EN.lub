@@ -36,6 +36,7 @@ SignBoardData = {
 	["  slot"] = "  Slot Addition",
 	["  cash"] = "  Cash Shop",
 	["  headgear"] = "  Headgear Quests",
+	["  ore"] = "  HD Ores",
 	["  마일리지 스톤교환"] = "  Mileage Stone Exchange",
 	["  180Lv미만 출입금지"] = "  Entry: Level 180+",
 	["  190Lv미만 출입금지"] = "  Entry: Level 190+",
