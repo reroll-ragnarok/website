@@ -39,9 +39,9 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Poring_Doll
-        Rate: 10000
       - Item: Scarlet_Jewel
+        Rate: 10000
+      - Item: Poring_Doll
         Rate: 5000
       - Item: Mastering_Card
         Rate: 100
@@ -162,9 +162,9 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Chonchon_Doll
-        Rate: 10000
       - Item: Violet_Jewel
+        Rate: 10000
+      - Item: Chonchon_Doll
         Rate: 5000
       - Item: Dragon_Fly_Card
         Rate: 100
@@ -206,9 +206,9 @@ Body:
       Mvp: true
       Detector: true
     Drops:
-      - Item: Grasshopper_Doll
-        Rate: 10000
       - Item: Azure_Jewel
+        Rate: 10000
+      - Item: Grasshopper_Doll
         Rate: 5000
       - Item: Vocal_Card
         Rate: 100
@@ -247,9 +247,9 @@ Body:
     Modes:
       Mvp: true
     Drops:
-      - Item: Monkey_Doll
+      - Item: Dark_Red_Jewel
         Rate: 10000
-      - Item: Golden_Jewel
+      - Item: Monkey_Doll
         Rate: 5000
       - Item: Choco_Card
         Rate: 100

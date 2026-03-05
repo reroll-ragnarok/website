@@ -82,7 +82,7 @@ Body:
       - Item: Burning_Horse_Shoe
         Rate: 10000
       - Item: Flame_Heart
-        Rate: 1500
+        Rate: 1000
       - Item: Nightmare_Terror_Card
         Rate: 100
         StealProtected: true
@@ -235,9 +235,9 @@ Body:
     DamageMotion: 528
     Ai: 21
     Drops:
-      - Item: Turtle_Shell
-        Rate: 10000
       - Item: Burn_Tree
+        Rate: 10000
+      - Item: Turtle_Shell
         Rate: 5000
       - Item: Heater_Card
         Rate: 50
@@ -273,10 +273,10 @@ Body:
     DamageMotion: 672
     Ai: 21
     Drops:
-      - Item: Turtle_Shell
-        Rate: 10000
       - Item: Ice_Piece
-        Rate: 5000
+        Rate: 10000
+      - Item: Mistic_Frozen
+        Rate: 1000
       - Item: Freezer_Card
         Rate: 50
         StealProtected: true
@@ -716,7 +716,7 @@ Body:
     Ai: 21
     Drops:
       - Item: Manacles
-        Rate: 5000
+        Rate: 10000
       - Item: Oridecon
         Rate: 1500
       - Item: CD_In_Mouth_Blueprint

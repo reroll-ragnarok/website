@@ -1085,7 +1085,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      skill "MC_DISCOUNT",5;
+      skill "RG_STEALCOIN",5;
   - Id: 4074
     AegisName: BigFoot_Card
     Name: Bigfoot Card

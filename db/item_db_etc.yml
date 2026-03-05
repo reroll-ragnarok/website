@@ -1527,6 +1527,14 @@ Body:
     Weight: 100
     Flags:
       BuyingStore: true
+  - Id: 718
+    AegisName: Dark_Red_Jewel
+    Name: Garnet
+    Type: Etc
+    Buy: 6000
+    Weight: 100
+    Flags:
+      BuyingStore: true
   - Id: 722
     AegisName: Scarlet_Jewel
     Name: Pearl
