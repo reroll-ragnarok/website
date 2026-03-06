@@ -243,7 +243,7 @@ Body:
     AegisName: CREAMY
     Name: Creamy
     Level: 10
-    Hp: 138
+    Hp: 108
     BaseExp: 100
     JobExp: 50
     Attack: 13
@@ -399,7 +399,7 @@ Body:
     AegisName: GREATEST_GENERAL
     Name: Greatest General
     Level: 10
-    Hp: 500
+    Hp: 999
     BaseExp: 300
     JobExp: 150
     Attack: 18

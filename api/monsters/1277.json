@@ -3,7 +3,7 @@
   "AegisName": "GREATEST_GENERAL",
   "Name": "Greatest General",
   "Level": 10,
-  "Hp": 500,
+  "Hp": 999,
   "BaseExp": 300,
   "JobExp": 150,
   "Attack": 18,

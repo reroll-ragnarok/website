@@ -3,7 +3,7 @@
   "AegisName": "HEATER",
   "Name": "Heater",
   "Level": 90,
-  "Hp": 19864,
+  "Hp": 8264,
   "BaseExp": 1500,
   "JobExp": 650,
   "Attack": 762,
@@ -30,11 +30,11 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Turtle_Shell",
+      "Item": "Burn_Tree",
       "Rate": 10000
     },
     {
-      "Item": "Burn_Tree",
+      "Item": "Turtle_Shell",
       "Rate": 5000
     },
     {

@@ -10,7 +10,7 @@ Body:
     AegisName: PASANA
     Name: Pasana
     Level: 80
-    Hp: 7421
+    Hp: 5421
     BaseExp: 750
     JobExp: 550
     Attack: 366
@@ -48,7 +48,7 @@ Body:
     AegisName: MATYR
     Name: Matyr
     Level: 80
-    Hp: 6844
+    Hp: 5844
     BaseExp: 750
     JobExp: 550
     Attack: 322
@@ -87,7 +87,7 @@ Body:
     AegisName: ANUBIS
     Name: Anubis
     Level: 80
-    Hp: 15823
+    Hp: 10000
     BaseExp: 2250
     JobExp: 1650
     Attack: 488
@@ -127,7 +127,7 @@ Body:
     AegisName: NIGHTMARE
     Name: Nightmare
     Level: 80
-    Hp: 5366
+    Hp: 6366
     BaseExp: 750
     JobExp: 550
     Attack: 354
@@ -167,7 +167,7 @@ Body:
     AegisName: DEVIRUCHI
     Name: Deviruchi
     Level: 80
-    Hp: 7557
+    Hp: 5557
     BaseExp: 750
     JobExp: 550
     Attack: 401
@@ -211,7 +211,7 @@ Body:
     AegisName: HYDRA
     Name: Hydra
     Level: 80
-    Hp: 7724
+    Hp: 5424
     BaseExp: 750
     JobExp: 550
     Attack: 297
@@ -251,7 +251,7 @@ Body:
     AegisName: PENOMENA
     Name: Penomena
     Level: 80
-    Hp: 6242
+    Hp: 5842
     BaseExp: 750
     JobExp: 550
     Attack: 318
@@ -292,7 +292,7 @@ Body:
     AegisName: WHISPER
     Name: Whisper
     Level: 80
-    Hp: 5124
+    Hp: 10000
     BaseExp: 2250
     JobExp: 1650
     Attack: 307
@@ -335,7 +335,7 @@ Body:
     AegisName: WHISPER_BOSS
     Name: Giant Whisper
     Level: 80
-    Hp: 30000
+    Hp: 25000
     BaseExp: 3750
     JobExp: 2750
     Attack: 333
@@ -376,7 +376,7 @@ Body:
     AegisName: DRAGON_TAIL
     Name: Dragon Tail
     Level: 80
-    Hp: 8742
+    Hp: 10000
     BaseExp: 2250
     JobExp: 1650
     Attack: 426
@@ -418,7 +418,7 @@ Body:
     AegisName: MEDUSA
     Name: Medusa
     Level: 80
-    Hp: 9317
+    Hp: 6317
     BaseExp: 750
     JobExp: 550
     Attack: 477
@@ -458,7 +458,7 @@ Body:
     AegisName: DRYAD
     Name: Dryad
     Level: 80
-    Hp: 6869
+    Hp: 5869
     BaseExp: 750
     JobExp: 550
     Attack: 359
@@ -496,7 +496,7 @@ Body:
     AegisName: DUSTINESS
     Name: Dustiness
     Level: 80
-    Hp: 5281
+    Hp: 5481
     BaseExp: 750
     JobExp: 550
     Attack: 328
@@ -538,7 +538,7 @@ Body:
     AegisName: CLOCK
     Name: Clock
     Level: 80
-    Hp: 7442
+    Hp: 6442
     BaseExp: 750
     JobExp: 550
     Attack: 392
@@ -578,7 +578,7 @@ Body:
     AegisName: ALARM
     Name: Alarm
     Level: 80
-    Hp: 7016
+    Hp: 5916
     BaseExp: 750
     JobExp: 550
     Attack: 418
@@ -621,7 +621,7 @@ Body:
     AegisName: C_TOWER_MANAGER
     Name: Clock Tower Manager
     Level: 80
-    Hp: 30000
+    Hp: 25000
     BaseExp: 3750
     JobExp: 2750
     Attack: 433
@@ -663,7 +663,7 @@ Body:
     AegisName: GOAT
     Name: Goat
     Level: 80
-    Hp: 6897
+    Hp: 5997
     BaseExp: 750
     JobExp: 550
     Attack: 387
@@ -701,7 +701,7 @@ Body:
     AegisName: GEOGRAPHER
     Name: Geographer
     Level: 80
-    Hp: 6037
+    Hp: 6337
     BaseExp: 750
     JobExp: 550
     Attack: 341
@@ -741,7 +741,7 @@ Body:
     AegisName: EVIL_DRUID
     Name: Evil Druid
     Level: 80
-    Hp: 7288
+    Hp: 6288
     BaseExp: 750
     JobExp: 550
     Attack: 369
@@ -779,7 +779,7 @@ Body:
     AegisName: WRAITH
     Name: Wraith
     Level: 80
-    Hp: 7541
+    Hp: 5541
     BaseExp: 750
     JobExp: 550
     Attack: 347
@@ -817,7 +817,7 @@ Body:
     AegisName: WRAITH_DEAD
     Name: Wraith Dead
     Level: 80
-    Hp: 9944
+    Hp: 6144
     BaseExp: 750
     JobExp: 550
     Attack: 462
@@ -856,7 +856,7 @@ Body:
     AegisName: DARK_ILLUSION
     Name: Dark Illusion
     Level: 80
-    Hp: 30000
+    Hp: 25000
     BaseExp: 3750
     JobExp: 2750
     Attack: 498
@@ -895,7 +895,7 @@ Body:
     AegisName: INJUSTICE
     Name: Injustice
     Level: 80
-    Hp: 8123
+    Hp: 5923
     BaseExp: 750
     JobExp: 550
     Attack: 358
@@ -935,7 +935,7 @@ Body:
     AegisName: RYBIO
     Name: Rybio
     Level: 80
-    Hp: 8457
+    Hp: 6157
     BaseExp: 750
     JobExp: 550
     Attack: 421
@@ -977,7 +977,7 @@ Body:
     AegisName: PHENDARK
     Name: Phendark
     Level: 80
-    Hp: 9022
+    Hp: 6422
     BaseExp: 750
     JobExp: 550
     Attack: 459
@@ -1004,7 +1004,7 @@ Body:
     Ai: 13
     Drops:
       - Item: Thin_N'_Long_Tongue
-        Rate: 1940
+        Rate: 10000
       - Item: Executioner's_Mitten
         Rate: 1000
       - Item: Phendark_Card
@@ -1017,7 +1017,7 @@ Body:
     Name: Zealotus
     JapaneseName: Zherlthsh
     Level: 80
-    Hp: 30000
+    Hp: 25000
     BaseExp: 3750
     JobExp: 2750
     Attack: 486

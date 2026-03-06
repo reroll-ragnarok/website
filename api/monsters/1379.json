@@ -3,7 +3,7 @@
   "AegisName": "NIGHTMARE_TERROR",
   "Name": "Nightmare Terror",
   "Level": 90,
-  "Hp": 12456,
+  "Hp": 17500,
   "BaseExp": 4500,
   "JobExp": 1950,
   "Attack": 543,
@@ -38,7 +38,7 @@
     },
     {
       "Item": "Flame_Heart",
-      "Rate": 1500
+      "Rate": 1000
     },
     {
       "Item": "Nightmare_Terror_Card",

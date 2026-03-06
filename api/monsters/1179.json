@@ -3,7 +3,7 @@
   "AegisName": "WHISPER",
   "Name": "Whisper",
   "Level": 80,
-  "Hp": 5124,
+  "Hp": 10000,
   "BaseExp": 2250,
   "JobExp": 1650,
   "Attack": 307,

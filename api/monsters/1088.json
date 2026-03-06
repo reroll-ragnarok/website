@@ -35,11 +35,11 @@
   },
   "Drops": [
     {
-      "Item": "Grasshopper_Doll",
+      "Item": "Azure_Jewel",
       "Rate": 10000
     },
     {
-      "Item": "Azure_Jewel",
+      "Item": "Grasshopper_Doll",
       "Rate": 5000
     },
     {

@@ -128,7 +128,7 @@ Body:
     AegisName: WOLF
     Name: Wolf
     Level: 20
-    Hp: 350
+    Hp: 450
     BaseExp: 150
     JobExp: 100
     Attack: 42
@@ -166,7 +166,7 @@ Body:
     AegisName: DESERT_WOLF
     Name: Desert Wolf
     Level: 20
-    Hp: 420
+    Hp: 320
     BaseExp: 150
     JobExp: 100
     Attack: 36
@@ -207,7 +207,7 @@ Body:
     AegisName: POISON_SPORE
     Name: Poison Spore
     Level: 20
-    Hp: 280
+    Hp: 555
     BaseExp: 450
     JobExp: 300
     Attack: 30

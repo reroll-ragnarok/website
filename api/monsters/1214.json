@@ -34,11 +34,11 @@
   },
   "Drops": [
     {
-      "Item": "Monkey_Doll",
+      "Item": "Dark_Red_Jewel",
       "Rate": 10000
     },
     {
-      "Item": "Golden_Jewel",
+      "Item": "Monkey_Doll",
       "Rate": 5000
     },
     {

@@ -10,7 +10,7 @@ Body:
     AegisName: THIEF_BUG__
     Name: Thief Bug Male
     Level: 40
-    Hp: 1127
+    Hp: 897
     BaseExp: 250
     JobExp: 275
     Attack: 97
@@ -50,7 +50,7 @@ Body:
     AegisName: DRAINLIAR
     Name: Drainliar
     Level: 40
-    Hp: 1352
+    Hp: 751
     BaseExp: 250
     JobExp: 275
     Attack: 121
@@ -166,7 +166,7 @@ Body:
     AegisName: ANDRE
     Name: Andre
     Level: 40
-    Hp: 1278
+    Hp: 978
     BaseExp: 250
     JobExp: 275
     Attack: 110
@@ -206,7 +206,7 @@ Body:
     AegisName: DENIRO
     Name: Deniro
     Level: 40
-    Hp: 1164
+    Hp: 864
     BaseExp: 250
     JobExp: 275
     Attack: 125
@@ -246,7 +246,7 @@ Body:
     AegisName: PIERE
     Name: Piere
     Level: 40
-    Hp: 1042
+    Hp: 842
     BaseExp: 250
     JobExp: 275
     Attack: 72
@@ -327,7 +327,7 @@ Body:
     AegisName: GOLEM
     Name: Golem
     Level: 40
-    Hp: 1750
+    Hp: 2500
     BaseExp: 750
     JobExp: 825
     Attack: 125
@@ -369,7 +369,7 @@ Body:
     AegisName: PETIT
     Name: Petite
     Level: 40
-    Hp: 1421
+    Hp: 821
     BaseExp: 250
     JobExp: 275
     Attack: 110
@@ -409,7 +409,7 @@ Body:
     AegisName: PETIT_
     Name: Petite
     Level: 40
-    Hp: 1467
+    Hp: 867
     BaseExp: 250
     JobExp: 275
     Attack: 123
@@ -447,7 +447,7 @@ Body:
     AegisName: DELETER
     Name: Deleter
     Level: 40
-    Hp: 1322
+    Hp: 922
     BaseExp: 250
     JobExp: 275
     Attack: 109
@@ -485,7 +485,7 @@ Body:
     AegisName: DELETER_
     Name: Deleter
     Level: 40
-    Hp: 1173
+    Hp: 973
     BaseExp: 250
     JobExp: 275
     Attack: 98
@@ -525,7 +525,7 @@ Body:
     AegisName: NINE_TAIL
     Name: Nine Tail
     Level: 40
-    Hp: 1382
+    Hp: 1182
     BaseExp: 250
     JobExp: 275
     Attack: 119
@@ -565,7 +565,7 @@ Body:
     AegisName: SIDE_WINDER
     Name: Side Winder
     Level: 40
-    Hp: 1240
+    Hp: 1040
     BaseExp: 250
     JobExp: 275
     Attack: 100
@@ -604,7 +604,7 @@ Body:
     Name: Boa
     JapaneseName: Snake
     Level: 40
-    Hp: 1150
+    Hp: 950
     BaseExp: 250
     JobExp: 275
     Attack: 85
@@ -644,7 +644,7 @@ Body:
     AegisName: ANACONDAQ
     Name: Anacondaq
     Level: 40
-    Hp: 1679
+    Hp: 979
     BaseExp: 250
     JobExp: 275
     Attack: 120

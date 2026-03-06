@@ -51,7 +51,7 @@ Body:
     AegisName: BLAZZER
     Name: Blazer
     Level: 99
-    Hp: 28934
+    Hp: 12934
     BaseExp: 3000
     JobExp: 775
     Attack: 1128
@@ -91,7 +91,7 @@ Body:
     AegisName: EXPLOSION
     Name: Explosion
     Level: 99
-    Hp: 26147
+    Hp: 11147
     BaseExp: 3000
     JobExp: 775
     Attack: 1389
@@ -131,7 +131,7 @@ Body:
     AegisName: KAHO
     Name: Kaho
     Level: 99
-    Hp: 27653
+    Hp: 14653
     BaseExp: 3000
     JobExp: 775
     Attack: 1067
@@ -173,7 +173,7 @@ Body:
     AegisName: DULLAHAN
     Name: Dullahan
     Level: 99
-    Hp: 31298
+    Hp: 12983
     BaseExp: 3000
     JobExp: 775
     Attack: 1412
@@ -211,7 +211,7 @@ Body:
     AegisName: LOLI_RURI
     Name: Loli Ruri
     Level: 99
-    Hp: 26821
+    Hp: 16821
     BaseExp: 3000
     JobExp: 775
     Attack: 1143
@@ -293,7 +293,7 @@ Body:
     Name: Abysmal Knight
     JapaneseName: Knight of Abyss
     Level: 99
-    Hp: 32867
+    Hp: 18867
     BaseExp: 3000
     JobExp: 775
     Attack: 1328
@@ -372,7 +372,7 @@ Body:
     AegisName: OWL_DUKE
     Name: Owl Duke
     Level: 99
-    Hp: 28123
+    Hp: 12123
     BaseExp: 3000
     JobExp: 775
     Attack: 1098
@@ -411,7 +411,7 @@ Body:
     AegisName: OWL_BARON
     Name: Owl Baron
     Level: 99
-    Hp: 29746
+    Hp: 14746
     BaseExp: 3000
     JobExp: 775
     Attack: 1056
@@ -492,7 +492,7 @@ Body:
     AegisName: GARGOYLE
     Name: Gargoyle
     Level: 99
-    Hp: 25912
+    Hp: 35000
     BaseExp: 9000
     JobExp: 2325
     Attack: 1174

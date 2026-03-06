@@ -10,7 +10,7 @@ Body:
     AegisName: ANCIENT_MUMMY
     Name: Ancient Mummy
     Level: 90
-    Hp: 18234
+    Hp: 8234
     BaseExp: 1500
     JobExp: 650
     Attack: 687
@@ -51,7 +51,7 @@ Body:
     AegisName: NIGHTMARE_TERROR
     Name: Nightmare Terror
     Level: 90
-    Hp: 12456
+    Hp: 17500
     BaseExp: 4500
     JobExp: 1950
     Attack: 543
@@ -93,7 +93,7 @@ Body:
     AegisName: PERMETER
     Name: Permeter
     Level: 90
-    Hp: 17789
+    Hp: 8389
     BaseExp: 1500
     JobExp: 650
     Attack: 823
@@ -127,13 +127,14 @@ Body:
         Rate: 50
         StealProtected: true
 
+  ### CHAMPION ###
   - Id: 1315
     AegisName: ASSULTER
     Name: Assaulter
     Level: 90
-    Hp: 13342
-    BaseExp: 1500
-    JobExp: 650
+    Hp: 30000
+    BaseExp: 7500
+    JobExp: 3250
     Attack: 718
     Attack2: 489
     Defense: 69
@@ -142,7 +143,7 @@ Body:
     Agi: 87
     Vit: 46
     Int: 35
-    Dex: 85
+    Dex: 95
     Luk: 83
     AttackRange: 2
     SkillRange: 10
@@ -171,7 +172,7 @@ Body:
     AegisName: SOLIDER
     Name: Solider
     Level: 90
-    Hp: 22156
+    Hp: 8556
     BaseExp: 1500
     JobExp: 650
     Attack: 834
@@ -209,7 +210,7 @@ Body:
     AegisName: HEATER
     Name: Heater
     Level: 90
-    Hp: 19864
+    Hp: 8264
     BaseExp: 1500
     JobExp: 650
     Attack: 762
@@ -247,7 +248,7 @@ Body:
     AegisName: FREEZER
     Name: Freezer
     Level: 90
-    Hp: 20341
+    Hp: 8341
     BaseExp: 1500
     JobExp: 650
     Attack: 654
@@ -287,7 +288,7 @@ Body:
     AegisName: BAPHOMET_
     Name: Baphomet Jr.
     Level: 90
-    Hp: 11234
+    Hp: 8123
     BaseExp: 1500
     JobExp: 650
     Attack: 567
@@ -332,7 +333,7 @@ Body:
     AegisName: HARPY
     Name: Harpy
     Level: 90
-    Hp: 20673
+    Hp: 17500
     BaseExp: 4500
     JobExp: 1950
     Attack: 698
@@ -373,7 +374,7 @@ Body:
     AegisName: GRYPHON
     Name: Gryphon
     Level: 90
-    Hp: 24906
+    Hp: 17500
     BaseExp: 4500
     JobExp: 1950
     Attack: 847
@@ -400,10 +401,10 @@ Body:
     Ai: 21
     Class: Boss
     Drops:
-      - Item: Soft_Feather
-        Rate: 10000
       - Item: Talon_Of_Griffin
-        Rate: 2500
+        Rate: 10000
+      - Item: Soft_Feather
+        Rate: 5000
       - Item: Falconer_Flute_C_Blueprint
         Rate: 200
       - Item: Gryphon_Card
@@ -417,7 +418,7 @@ Body:
     Name: Heirozoist
     JapaneseName: Hylozoist
     Level: 90
-    Hp: 21543
+    Hp: 8543
     BaseExp: 1500
     JobExp: 650
     Attack: 712
@@ -457,7 +458,7 @@ Body:
     AegisName: QUVE
     Name: Quve
     Level: 90
-    Hp: 20123
+    Hp: 8069
     BaseExp: 1500
     JobExp: 650
     Attack: 674
@@ -495,7 +496,7 @@ Body:
     AegisName: LUDE
     Name: Lude
     Level: 90
-    Hp: 19876
+    Hp: 8096
     BaseExp: 1500
     JobExp: 650
     Attack: 698
@@ -535,7 +536,7 @@ Body:
     AegisName: RAYDRIC_ARCHER
     Name: Raydric Archer
     Level: 90
-    Hp: 13456
+    Hp: 8456
     BaseExp: 1500
     JobExp: 650
     Attack: 562
@@ -575,7 +576,7 @@ Body:
     AegisName: RAYDRIC
     Name: Raydric
     Level: 90
-    Hp: 20678
+    Hp: 8678
     BaseExp: 1500
     JobExp: 650
     Attack: 813
@@ -609,13 +610,14 @@ Body:
         Rate: 50
         StealProtected: true
 
+  ### CHAMPION ###
   - Id: 1132
     AegisName: KHALITZBURG
     Name: Khalitzburg
     Level: 90
-    Hp: 27834
-    BaseExp: 1500
-    JobExp: 650
+    Hp: 30000
+    BaseExp: 7500
+    JobExp: 3250
     Attack: 872
     Attack2: 564
     Defense: 125
@@ -624,7 +626,7 @@ Body:
     Agi: 31
     Vit: 89
     Int: 49
-    Dex: 86
+    Dex: 96
     Luk: 51
     AttackRange: 1
     SkillRange: 10
@@ -639,7 +641,7 @@ Body:
     DamageMotion: 396
     Ai: 21
     Drops:
-      - Item: Brigan
+      - Item: Patriotism_Marks
         Rate: 10000
       - Item: Elunium
         Rate: 1500
@@ -651,7 +653,7 @@ Body:
     AegisName: JAKK
     Name: Jakk
     Level: 90
-    Hp: 14923
+    Hp: 8492
     BaseExp: 1500
     JobExp: 650
     Attack: 623
@@ -689,7 +691,7 @@ Body:
     AegisName: JOKER
     Name: Joker
     Level: 90
-    Hp: 17542
+    Hp: 9042
     BaseExp: 1500
     JobExp: 650
     Attack: 741
@@ -729,7 +731,7 @@ Body:
     AegisName: CARAT
     Name: Carat
     Level: 90
-    Hp: 19156
+    Hp: 8556
     BaseExp: 1500
     JobExp: 650
     Attack: 789
@@ -765,13 +767,14 @@ Body:
         Rate: 50
         StealProtected: true
 
+  ### CHAMPION ###
   - Id: 1260
     AegisName: DARK_FRAME
     Name: Dark Frame
     Level: 90
-    Hp: 23894
-    BaseExp: 1500
-    JobExp: 650
+    Hp: 30000
+    BaseExp: 7500
+    JobExp: 3250
     Attack: 587
     Attack2: 431
     Defense: 67
@@ -780,7 +783,7 @@ Body:
     Agi: 56
     Vit: 89
     Int: 82
-    Dex: 79
+    Dex: 99
     Luk: 28
     AttackRange: 1
     SkillRange: 10

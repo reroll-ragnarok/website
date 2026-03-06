@@ -10,7 +10,7 @@ Body:
     AegisName: THIEF_BUG_
     Name: Thief Bug Female
     Level: 30
-    Hp: 737
+    Hp: 497
     BaseExp: 200
     JobExp: 175
     Attack: 60
@@ -50,7 +50,7 @@ Body:
     AegisName: FARMILIAR
     Name: Familiar
     Level: 30
-    Hp: 589
+    Hp: 459
     BaseExp: 200
     JobExp: 175
     Attack: 40
@@ -90,7 +90,7 @@ Body:
     AegisName: TAROU
     Name: Tarou
     Level: 30
-    Hp: 815
+    Hp: 515
     BaseExp: 200
     JobExp: 175
     Attack: 33
@@ -130,7 +130,7 @@ Body:
     AegisName: DRILLER
     Name: Driller
     Level: 30
-    Hp: 725
+    Hp: 625
     BaseExp: 200
     JobExp: 175
     Attack: 70
@@ -168,7 +168,7 @@ Body:
     AegisName: FRILLDORA
     Name: Frilldora
     Level: 30
-    Hp: 725
+    Hp: 625
     BaseExp: 200
     JobExp: 175
     Attack: 45
@@ -208,7 +208,7 @@ Body:
     AegisName: HORNET
     Name: Hornet
     Level: 30
-    Hp: 505
+    Hp: 800
     BaseExp: 200
     JobExp: 175
     Attack: 81
@@ -325,7 +325,7 @@ Body:
     AegisName: GIEARTH
     Name: Giearth
     Level: 30
-    Hp: 999
+    Hp: 1500
     BaseExp: 600
     JobExp: 525
     Attack: 99
@@ -356,7 +356,7 @@ Body:
       - Item: Elder_Pixie's_Beard
         Rate: 10000
       - Item: Sparkling_Dust
-        Rate: 5000
+        Rate: 1000
       - Item: Giearth_Card
         Rate: 100
         StealProtected: true
@@ -443,7 +443,7 @@ Body:
     AegisName: BON_GUN
     Name: Bongun
     Level: 30
-    Hp: 660
+    Hp: 860
     BaseExp: 200
     JobExp: 175
     Attack: 75
@@ -483,7 +483,7 @@ Body:
     Name: Yao Jun
     JapaneseName: Hyegun
     Level: 30
-    Hp: 1000
+    Hp: 1750
     BaseExp: 600
     JobExp: 525
     Attack: 130
@@ -512,7 +512,7 @@ Body:
       - Item: Old_Portrait
         Rate: 10000
       - Item: Munak_Doll
-        Rate: 5000
+        Rate: 1000
       - Item: Hyegun_Card
         Rate: 100
         StealProtected: true

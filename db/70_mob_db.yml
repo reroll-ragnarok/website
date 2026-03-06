@@ -10,7 +10,7 @@ Body:
     AegisName: OBEAUNE
     Name: Obeaune
     Level: 70
-    Hp: 4123
+    Hp: 3523
     BaseExp: 500
     JobExp: 475
     Attack: 214
@@ -48,7 +48,7 @@ Body:
     AegisName: MERMAN
     Name: Merman
     Level: 70
-    Hp: 4387
+    Hp: 3897
     BaseExp: 500
     JobExp: 475
     Attack: 246
@@ -88,7 +88,7 @@ Body:
     AegisName: STROUF
     Name: Strouf
     Level: 70
-    Hp: 5894
+    Hp: 4094
     BaseExp: 500
     JobExp: 475
     Attack: 232
@@ -166,7 +166,7 @@ Body:
     AegisName: REQUIEM
     Name: Requiem
     Level: 70
-    Hp: 5796
+    Hp: 4096
     BaseExp: 500
     JobExp: 475
     Attack: 224
@@ -204,7 +204,7 @@ Body:
     AegisName: MARDUK
     Name: Marduk
     Level: 70
-    Hp: 4672
+    Hp: 3672
     BaseExp: 500
     JobExp: 475
     Attack: 208
@@ -244,7 +244,7 @@ Body:
     AegisName: ORC_SKELETON
     Name: Orc Skeleton
     Level: 70
-    Hp: 3981
+    Hp: 3581
     BaseExp: 500
     JobExp: 475
     Attack: 219
@@ -284,7 +284,7 @@ Body:
     AegisName: ORC_ZOMBIE
     Name: Orc Zombie
     Level: 70
-    Hp: 4742
+    Hp: 3742
     BaseExp: 500
     JobExp: 475
     Attack: 213
@@ -325,7 +325,7 @@ Body:
     AegisName: HIGH_ORC
     Name: High Orc
     Level: 70
-    Hp: 20000
+    Hp: 15000
     BaseExp: 2500
     JobExp: 2375
     Attack: 356
@@ -366,7 +366,7 @@ Body:
     AegisName: KOBOLD_1
     Name: Kobold
     Level: 70
-    Hp: 4129
+    Hp: 3429
     BaseExp: 500
     JobExp: 475
     Attack: 241
@@ -406,7 +406,7 @@ Body:
     AegisName: KOBOLD_2
     Name: Kobold
     Level: 70
-    Hp: 4987
+    Hp: 3587
     BaseExp: 500
     JobExp: 475
     Attack: 233
@@ -446,7 +446,7 @@ Body:
     AegisName: KOBOLD_3
     Name: Kobold
     Level: 70
-    Hp: 5364
+    Hp: 3664
     BaseExp: 500
     JobExp: 475
     Attack: 268
@@ -486,7 +486,7 @@ Body:
     AegisName: KOBOLD_ARCHER
     Name: Kobold Archer
     Level: 70
-    Hp: 3553
+    Hp: 3252
     BaseExp: 500
     JobExp: 475
     Attack: 249
@@ -529,7 +529,7 @@ Body:
     AegisName: PIRATE_SKEL
     Name: Pirate Skeleton
     Level: 70
-    Hp: 5513
+    Hp: 7500
     BaseExp: 1500
     JobExp: 1425
     Attack: 238
@@ -569,7 +569,7 @@ Body:
     AegisName: CRAB
     Name: Crab
     Level: 70
-    Hp: 4988
+    Hp: 3588
     BaseExp: 500
     JobExp: 475
     Attack: 208
@@ -609,7 +609,7 @@ Body:
     Name: King Dramoh
     JapaneseName: King Kray
     Level: 70
-    Hp: 20000
+    Hp: 15000
     BaseExp: 2500
     JobExp: 2375
     Attack: 286
@@ -648,7 +648,7 @@ Body:
     AegisName: STALACTIC_GOLEM
     Name: Stalactic Golem
     Level: 70
-    Hp: 5906
+    Hp: 4006
     BaseExp: 500
     JobExp: 475
     Attack: 252
@@ -690,7 +690,7 @@ Body:
     AegisName: GRAND_PECO
     Name: Grand Peco
     Level: 70
-    Hp: 4687
+    Hp: 4187
     BaseExp: 500
     JobExp: 475
     Attack: 259

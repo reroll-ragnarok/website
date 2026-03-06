@@ -4,7 +4,7 @@
   "Name": "Yao Jun",
   "JapaneseName": "Hyegun",
   "Level": 30,
-  "Hp": 1000,
+  "Hp": 1750,
   "BaseExp": 600,
   "JobExp": 525,
   "Attack": 130,
@@ -36,7 +36,7 @@
     },
     {
       "Item": "Munak_Doll",
-      "Rate": 5000
+      "Rate": 1000
     },
     {
       "Item": "Hyegun_Card",

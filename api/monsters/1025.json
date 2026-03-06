@@ -4,7 +4,7 @@
   "Name": "Boa",
   "JapaneseName": "Snake",
   "Level": 40,
-  "Hp": 1150,
+  "Hp": 950,
   "BaseExp": 250,
   "JobExp": 275,
   "Attack": 85,

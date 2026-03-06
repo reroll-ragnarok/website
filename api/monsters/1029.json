@@ -3,7 +3,7 @@
   "AegisName": "ISIS",
   "Name": "Isis",
   "Level": 60,
-  "Hp": 15000,
+  "Hp": 10000,
   "BaseExp": 2000,
   "JobExp": 2125,
   "Attack": 241,

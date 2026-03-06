@@ -3,7 +3,7 @@
   "AegisName": "GOLEM",
   "Name": "Golem",
   "Level": 40,
-  "Hp": 1750,
+  "Hp": 2500,
   "BaseExp": 750,
   "JobExp": 825,
   "Attack": 125,

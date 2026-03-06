@@ -3,7 +3,7 @@
   "AegisName": "WOLF",
   "Name": "Wolf",
   "Level": 20,
-  "Hp": 350,
+  "Hp": 450,
   "BaseExp": 150,
   "JobExp": 100,
   "Attack": 42,

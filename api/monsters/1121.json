@@ -3,7 +3,7 @@
   "AegisName": "GIEARTH",
   "Name": "Giearth",
   "Level": 30,
-  "Hp": 999,
+  "Hp": 1500,
   "BaseExp": 600,
   "JobExp": 525,
   "Attack": 99,
@@ -38,7 +38,7 @@
     },
     {
       "Item": "Sparkling_Dust",
-      "Rate": 5000
+      "Rate": 1000
     },
     {
       "Item": "Giearth_Card",

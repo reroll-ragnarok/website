@@ -34,11 +34,11 @@
   },
   "Drops": [
     {
-      "Item": "Chonchon_Doll",
+      "Item": "Violet_Jewel",
       "Rate": 10000
     },
     {
-      "Item": "Violet_Jewel",
+      "Item": "Chonchon_Doll",
       "Rate": 5000
     },
     {

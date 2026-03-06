@@ -3,7 +3,7 @@
   "AegisName": "DRILLER",
   "Name": "Driller",
   "Level": 30,
-  "Hp": 725,
+  "Hp": 625,
   "BaseExp": 200,
   "JobExp": 175,
   "Attack": 70,

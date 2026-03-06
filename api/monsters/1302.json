@@ -3,7 +3,7 @@
   "AegisName": "DARK_ILLUSION",
   "Name": "Dark Illusion",
   "Level": 80,
-  "Hp": 30000,
+  "Hp": 25000,
   "BaseExp": 3750,
   "JobExp": 2750,
   "Attack": 498,

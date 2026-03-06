@@ -3883,7 +3883,7 @@
     "AegisName": "Pointed_Scale",
     "Name": "Pointed Scale",
     "Type": "Etc",
-    "Buy": 68,
+    "Buy": 78,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3894,7 +3894,7 @@
     "AegisName": "Resin",
     "Name": "Resin",
     "Type": "Etc",
-    "Buy": 120,
+    "Buy": 60,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3905,7 +3905,7 @@
     "AegisName": "Spawn",
     "Name": "Spawn",
     "Type": "Etc",
-    "Buy": 140,
+    "Buy": 90,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3927,7 +3927,7 @@
     "AegisName": "Chrysalis",
     "Name": "Chrysalis",
     "Type": "Etc",
-    "Buy": 8,
+    "Buy": 80,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3938,7 +3938,7 @@
     "AegisName": "Sticky_Webfoot",
     "Name": "Sticky Webfoot",
     "Type": "Etc",
-    "Buy": 20,
+    "Buy": 10,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3949,7 +3949,7 @@
     "AegisName": "Animal's_Skin",
     "Name": "Animal Skin",
     "Type": "Etc",
-    "Buy": 27,
+    "Buy": 87,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3971,7 +3971,7 @@
     "AegisName": "Sticky_Mucus",
     "Name": "Sticky Mucus",
     "Type": "Etc",
-    "Buy": 70,
+    "Buy": 40,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -3982,7 +3982,7 @@
     "AegisName": "Shell",
     "Name": "Shell",
     "Type": "Etc",
-    "Buy": 14,
+    "Buy": 54,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4015,7 +4015,7 @@
     "AegisName": "Feather_Of_Birds",
     "Name": "Feather of Birds",
     "Type": "Etc",
-    "Buy": 10,
+    "Buy": 25,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4026,7 +4026,7 @@
     "AegisName": "Bill_Of_Birds",
     "Name": "Bill of Birds",
     "Type": "Etc",
-    "Buy": 48,
+    "Buy": 38,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4037,7 +4037,7 @@
     "AegisName": "Talon",
     "Name": "Talon",
     "Type": "Etc",
-    "Buy": 20,
+    "Buy": 50,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4070,7 +4070,7 @@
     "AegisName": "Clover",
     "Name": "Clover",
     "Type": "Etc",
-    "Buy": 10,
+    "Buy": 22,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4081,7 +4081,7 @@
     "AegisName": "Young_Twig",
     "Name": "Young Twig",
     "Type": "Etc",
-    "Buy": 50,
+    "Buy": 78,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4092,7 +4092,7 @@
     "AegisName": "Bear's_Foot",
     "Name": "Bear's Footskin",
     "Type": "Etc",
-    "Buy": 174,
+    "Buy": 124,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4114,7 +4114,7 @@
     "AegisName": "Heart_Of_Tree",
     "Name": "Wooden Heart",
     "Type": "Etc",
-    "Buy": 280,
+    "Buy": 80,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4125,7 +4125,7 @@
     "AegisName": "Grasshopper's_Leg",
     "Name": "Grasshopper's Leg",
     "Type": "Etc",
-    "Buy": 36,
+    "Buy": 86,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4136,7 +4136,7 @@
     "AegisName": "Yoyo_Tail",
     "Name": "Yoyo Tail",
     "Type": "Etc",
-    "Buy": 114,
+    "Buy": 104,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4147,7 +4147,7 @@
     "AegisName": "Raccoon_Leaf",
     "Name": "Raccoon Leaf",
     "Type": "Etc",
-    "Buy": 106,
+    "Buy": 126,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4158,7 +4158,7 @@
     "AegisName": "Claw_Of_Wolves",
     "Name": "Wolf Claw",
     "Type": "Etc",
-    "Buy": 58,
+    "Buy": 78,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4169,7 +4169,7 @@
     "AegisName": "Claw_Of_Desert_Wolf",
     "Name": "Claw of Desert Wolf",
     "Type": "Etc",
-    "Buy": 208,
+    "Buy": 158,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4180,7 +4180,7 @@
     "AegisName": "Poison_Spore",
     "Name": "Poison Spore",
     "Type": "Etc",
-    "Buy": 114,
+    "Buy": 90,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4191,7 +4191,7 @@
     "AegisName": "Limb_Of_Mantis",
     "Name": "Mantis Scythe",
     "Type": "Etc",
-    "Buy": 196,
+    "Buy": 126,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4202,7 +4202,7 @@
     "AegisName": "Solid_Shell",
     "Name": "Solid Shell",
     "Type": "Etc",
-    "Buy": 148,
+    "Buy": 186,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4213,7 +4213,7 @@
     "AegisName": "Worm_Peelings",
     "Name": "Worm Peeling",
     "Type": "Etc",
-    "Buy": 52,
+    "Buy": 92,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4224,7 +4224,7 @@
     "AegisName": "Insect_Feeler",
     "Name": "Insect Feeler",
     "Type": "Etc",
-    "Buy": 114,
+    "Buy": 144,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4235,7 +4235,7 @@
     "AegisName": "Tooth_Of_Bat",
     "Name": "Tooth of Bat",
     "Type": "Etc",
-    "Buy": 34,
+    "Buy": 84,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4246,7 +4246,7 @@
     "AegisName": "Rat_Tail",
     "Name": "Rat Tail",
     "Type": "Etc",
-    "Buy": 52,
+    "Buy": 152,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4268,7 +4268,7 @@
     "AegisName": "Lizard_Scruff",
     "Name": "Frill",
     "Type": "Etc",
-    "Buy": 250,
+    "Buy": 185,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4279,7 +4279,7 @@
     "AegisName": "Bee_Sting",
     "Name": "Bee Sting",
     "Type": "Etc",
-    "Buy": 32,
+    "Buy": 72,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4301,7 +4301,7 @@
     "AegisName": "Lantern",
     "Name": "Lantern",
     "Type": "Etc",
-    "Buy": 250,
+    "Buy": 150,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4312,7 +4312,7 @@
     "AegisName": "Coal",
     "Name": "Coal",
     "Type": "Etc",
-    "Buy": 500,
+    "Buy": 300,
     "Weight": 50,
     "Flags": {
       "BuyingStore": true
@@ -4323,7 +4323,7 @@
     "AegisName": "Elder_Pixie's_Beard",
     "Name": "Elder Pixie's Moustache",
     "Type": "Etc",
-    "Buy": 232,
+    "Buy": 182,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4345,7 +4345,7 @@
     "AegisName": "Moustache_Of_Mole",
     "Name": "Mole Whiskers",
     "Type": "Etc",
-    "Buy": 106,
+    "Buy": 146,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4389,7 +4389,7 @@
     "AegisName": "Old_Portrait",
     "Name": "Old Portrait",
     "Type": "Etc",
-    "Buy": 500,
+    "Buy": 200,
     "Weight": 100,
     "Flags": {
       "BuyingStore": true
@@ -4400,7 +4400,7 @@
     "AegisName": "Munak_Doll",
     "Name": "Munak Doll",
     "Type": "Etc",
-    "Buy": 3000,
+    "Buy": 1000,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4411,7 +4411,7 @@
     "AegisName": "Wing_Of_Red_Bat",
     "Name": "Wing of Red Bat",
     "Type": "Etc",
-    "Buy": 168,
+    "Buy": 268,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4422,7 +4422,7 @@
     "AegisName": "Claw_Of_Rat",
     "Name": "Claw of Rat",
     "Type": "Etc",
-    "Buy": 748,
+    "Buy": 348,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4499,7 +4499,7 @@
     "AegisName": "Dragon_Canine",
     "Name": "Dragon Canine",
     "Type": "Etc",
-    "Buy": 284,
+    "Buy": 384,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4510,7 +4510,7 @@
     "AegisName": "Petti_Tail",
     "Name": "Petite's Tail",
     "Type": "Etc",
-    "Buy": 200,
+    "Buy": 300,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4521,7 +4521,7 @@
     "AegisName": "Dragon_Scale",
     "Name": "Dragon Scale",
     "Type": "Etc",
-    "Buy": 250,
+    "Buy": 350,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4532,7 +4532,7 @@
     "AegisName": "Dragon_Train",
     "Name": "Dragon Tail",
     "Type": "Etc",
-    "Buy": 600,
+    "Buy": 400,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4543,7 +4543,7 @@
     "AegisName": "Dragon's_Skin",
     "Name": "Dragon Skin",
     "Type": "Etc",
-    "Buy": 525,
+    "Buy": 425,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4554,7 +4554,7 @@
     "AegisName": "Fox_Tail",
     "Name": "Nine Tails",
     "Type": "Etc",
-    "Buy": 650,
+    "Buy": 500,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4565,7 +4565,7 @@
     "AegisName": "Glass_Bead",
     "Name": "Glass Bead",
     "Type": "Etc",
-    "Buy": 400,
+    "Buy": 375,
     "Weight": 50,
     "Flags": {
       "BuyingStore": true
@@ -4576,7 +4576,7 @@
     "AegisName": "Posionous_Canine",
     "Name": "Venom Canine",
     "Type": "Etc",
-    "Buy": 148,
+    "Buy": 248,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4598,7 +4598,7 @@
     "AegisName": "Scale_Of_Snakes",
     "Name": "Snake Scale",
     "Type": "Etc",
-    "Buy": 82,
+    "Buy": 182,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4631,7 +4631,7 @@
     "AegisName": "Skel_Bone",
     "Name": "Skel-Bone",
     "Type": "Etc",
-    "Buy": 232,
+    "Buy": 432,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4664,7 +4664,7 @@
     "AegisName": "Clam_Shell",
     "Name": "Clam Shell",
     "Type": "Etc",
-    "Buy": 256,
+    "Buy": 356,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4675,7 +4675,7 @@
     "AegisName": "Sea_Otter_Leather",
     "Name": "Sea-Otter Fur",
     "Type": "Etc",
-    "Buy": 820,
+    "Buy": 520,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4730,7 +4730,7 @@
     "AegisName": "Chinese_Ink",
     "Name": "Squid Ink",
     "Type": "Etc",
-    "Buy": 264,
+    "Buy": 464,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4741,7 +4741,7 @@
     "AegisName": "Tentacle",
     "Name": "Tentacle",
     "Type": "Etc",
-    "Buy": 370,
+    "Buy": 570,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4752,7 +4752,7 @@
     "AegisName": "Fin",
     "Name": "Fin",
     "Type": "Etc",
-    "Buy": 412,
+    "Buy": 612,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4763,7 +4763,7 @@
     "AegisName": "Gill",
     "Name": "Gill",
     "Type": "Etc",
-    "Buy": 342,
+    "Buy": 742,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4774,7 +4774,7 @@
     "AegisName": "Sharp_Scale",
     "Name": "Sharp Scale",
     "Type": "Etc",
-    "Buy": 250,
+    "Buy": 550,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4785,7 +4785,7 @@
     "AegisName": "Fish_Tail",
     "Name": "Fish Tail",
     "Type": "Etc",
-    "Buy": 196,
+    "Buy": 396,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4796,7 +4796,7 @@
     "AegisName": "Immortal_Heart",
     "Name": "Immortal Heart",
     "Type": "Etc",
-    "Buy": 374,
+    "Buy": 574,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4807,7 +4807,7 @@
     "AegisName": "Rotten_Bandage",
     "Name": "Rotten Bandage",
     "Type": "Etc",
-    "Buy": 350,
+    "Buy": 550,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4829,7 +4829,7 @@
     "AegisName": "Scorpion's_Tail",
     "Name": "Scorpion Tail",
     "Type": "Etc",
-    "Buy": 124,
+    "Buy": 224,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4840,7 +4840,7 @@
     "AegisName": "Fine_Grit",
     "Name": "Fine Grit",
     "Type": "Etc",
-    "Buy": 520,
+    "Buy": 420,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4862,7 +4862,7 @@
     "AegisName": "Orcish_Voucher",
     "Name": "Orcish Voucher",
     "Type": "Etc",
-    "Buy": 142,
+    "Buy": 472,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4873,7 +4873,7 @@
     "AegisName": "Orcish_Cuspid",
     "Name": "Orc's Fang",
     "Type": "Etc",
-    "Buy": 220,
+    "Buy": 520,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4895,7 +4895,7 @@
     "AegisName": "Anolian_Skin",
     "Name": "Anolian Skin",
     "Type": "Etc",
-    "Buy": 968,
+    "Buy": 768,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4906,7 +4906,7 @@
     "AegisName": "Heart_Of_Mermaid",
     "Name": "Heart of Mermaid",
     "Type": "Etc",
-    "Buy": 764,
+    "Buy": 664,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4939,7 +4939,7 @@
     "AegisName": "Manacles",
     "Name": "Manacles",
     "Type": "Etc",
-    "Buy": 658,
+    "Buy": 758,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4950,7 +4950,7 @@
     "AegisName": "Mementos",
     "Name": "Memento",
     "Type": "Etc",
-    "Buy": 600,
+    "Buy": 700,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4961,7 +4961,7 @@
     "AegisName": "Sacred_Masque",
     "Name": "Cultish Masque",
     "Type": "Etc",
-    "Buy": 412,
+    "Buy": 832,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4972,7 +4972,7 @@
     "AegisName": "Clattering_Skull",
     "Name": "Clattering Skull",
     "Type": "Etc",
-    "Buy": 840,
+    "Buy": 740,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -4983,7 +4983,7 @@
     "AegisName": "Nail_Of_Orc",
     "Name": "Orc Claw",
     "Type": "Etc",
-    "Buy": 368,
+    "Buy": 768,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5005,7 +5005,7 @@
     "AegisName": "Cobold_Hair",
     "Name": "Blue Hair",
     "Type": "Etc",
-    "Buy": 342,
+    "Buy": 842,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5016,7 +5016,7 @@
     "AegisName": "Animal_Blood",
     "Name": "Animal Gore",
     "Type": "Etc",
-    "Buy": 450,
+    "Buy": 750,
     "Weight": 100,
     "Flags": {
       "BuyingStore": true
@@ -5027,7 +5027,7 @@
     "AegisName": "Mud_Lump",
     "Name": "Mud Lump",
     "Type": "Etc",
-    "Buy": 876,
+    "Buy": 676,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5045,11 +5045,22 @@
     }
   },
   {
+    "Id": 964,
+    "AegisName": "Crap_Shell",
+    "Name": "Crab Shell",
+    "Type": "Etc",
+    "Buy": 790,
+    "Weight": 10,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
     "Id": 7101,
     "AegisName": "Peco_Wing_Feather",
     "Name": "Peco Peco Feather",
     "Type": "Etc",
-    "Buy": 454,
+    "Buy": 754,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5060,7 +5071,7 @@
     "AegisName": "Vroken_Sword",
     "Name": "Broken Sword",
     "Type": "Etc",
-    "Buy": 588,
+    "Buy": 888,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5071,7 +5082,7 @@
     "AegisName": "Honey_Jar",
     "Name": "Honey Pot",
     "Type": "Etc",
-    "Buy": 622,
+    "Buy": 722,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5082,7 +5093,7 @@
     "AegisName": "Horseshoe",
     "Name": "Horseshoe",
     "Type": "Etc",
-    "Buy": 588,
+    "Buy": 854,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5104,7 +5115,7 @@
     "AegisName": "Petite_DiablOfs_Wing",
     "Name": "Little Evil Wing",
     "Type": "Etc",
-    "Buy": 2000,
+    "Buy": 1000,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5115,7 +5126,7 @@
     "AegisName": "Coral_Reef",
     "Name": "Coral Reef",
     "Type": "Etc",
-    "Buy": 772,
+    "Buy": 972,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5126,7 +5137,7 @@
     "AegisName": "Transparent_Cloth",
     "Name": "Fabric",
     "Type": "Etc",
-    "Buy": 306,
+    "Buy": 706,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5137,7 +5148,7 @@
     "AegisName": "Dragon_Fly_Wing",
     "Name": "Wing of Dragonfly",
     "Type": "Etc",
-    "Buy": 520,
+    "Buy": 720,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5148,7 +5159,7 @@
     "AegisName": "Round_Shell",
     "Name": "Round Shell",
     "Type": "Etc",
-    "Buy": 780,
+    "Buy": 870,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5159,7 +5170,7 @@
     "AegisName": "Slender_Snake",
     "Name": "Horrendous Hair",
     "Type": "Etc",
-    "Buy": 800,
+    "Buy": 920,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5170,7 +5181,7 @@
     "AegisName": "Sharp_Leaf",
     "Name": "Sharp Leaf",
     "Type": "Etc",
-    "Buy": 806,
+    "Buy": 906,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5181,7 +5192,7 @@
     "AegisName": "Tough_Vines",
     "Name": "Tough Vines",
     "Type": "Etc",
-    "Buy": 500,
+    "Buy": 850,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5192,7 +5203,7 @@
     "AegisName": "Moth_Dust",
     "Name": "Moth Dust",
     "Type": "Etc",
-    "Buy": 238,
+    "Buy": 838,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5203,7 +5214,7 @@
     "AegisName": "Wing_Of_Moth",
     "Name": "Moth Wings",
     "Type": "Etc",
-    "Buy": 300,
+    "Buy": 800,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5214,7 +5225,7 @@
     "AegisName": "Needle_Of_Alarm",
     "Name": "Needle of Alarm",
     "Type": "Etc",
-    "Buy": 546,
+    "Buy": 846,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5225,7 +5236,7 @@
     "AegisName": "Key_Of_Clock_Tower",
     "Name": "Key of Clock Tower",
     "Type": "Etc",
-    "Buy": 800,
+    "Buy": 900,
     "Weight": 30,
     "Flags": {
       "BuyingStore": true
@@ -5258,7 +5269,7 @@
     "AegisName": "Goat's_Horn",
     "Name": "Antelope Horn",
     "Type": "Etc",
-    "Buy": 672,
+    "Buy": 872,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5269,7 +5280,7 @@
     "AegisName": "Gaoat's_Skin",
     "Name": "Antelope Skin",
     "Type": "Etc",
-    "Buy": 756,
+    "Buy": 956,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5280,7 +5291,7 @@
     "AegisName": "Root_Of_Maneater",
     "Name": "Maneater Root",
     "Type": "Etc",
-    "Buy": 208,
+    "Buy": 908,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5302,7 +5313,7 @@
     "AegisName": "Brigan",
     "Name": "Brigan",
     "Type": "Etc",
-    "Buy": 746,
+    "Buy": 1446,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5313,7 +5324,7 @@
     "AegisName": "Thin_N'_Long_Tongue",
     "Name": "Tongue",
     "Type": "Etc",
-    "Buy": 528,
+    "Buy": 828,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5346,7 +5357,7 @@
     "AegisName": "Burning_Horse_Shoe",
     "Name": "Burning Horseshoe",
     "Type": "Etc",
-    "Buy": 823,
+    "Buy": 523,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5368,7 +5379,7 @@
     "AegisName": "Turtle_Shell_",
     "Name": "Broken Turtle Shell",
     "Type": "Etc",
-    "Buy": 580,
+    "Buy": 1280,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5379,7 +5390,7 @@
     "AegisName": "Turtle_Shell",
     "Name": "Turtle Shell",
     "Type": "Etc",
-    "Buy": 1080,
+    "Buy": 1580,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5390,7 +5401,7 @@
     "AegisName": "Rust_Suriken",
     "Name": "Old Shuriken",
     "Type": "Etc",
-    "Buy": 1780,
+    "Buy": 4120,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5401,7 +5412,7 @@
     "AegisName": "Smoke_Powder",
     "Name": "Smoke Powder",
     "Type": "Etc",
-    "Buy": 500,
+    "Buy": 4750,
     "Weight": 1,
     "Flags": {
       "BuyingStore": true
@@ -5412,7 +5423,7 @@
     "AegisName": "Broken_Shell",
     "Name": "Broken Shell",
     "Type": "Etc",
-    "Buy": 900,
+    "Buy": 1352,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5423,7 +5434,7 @@
     "AegisName": "Stone_Piece",
     "Name": "Stone Fragment",
     "Type": "Etc",
-    "Buy": 640,
+    "Buy": 1240,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5434,7 +5445,7 @@
     "AegisName": "Burn_Tree",
     "Name": "Burnt Tree",
     "Type": "Etc",
-    "Buy": 722,
+    "Buy": 1122,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5445,7 +5456,7 @@
     "AegisName": "Evil_Horn",
     "Name": "Evil Horn",
     "Type": "Etc",
-    "Buy": 1200,
+    "Buy": 1332,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5480,7 +5491,7 @@
     "AegisName": "Harpy's_Feather",
     "Name": "Harpy Feather",
     "Type": "Etc",
-    "Buy": 1142,
+    "Buy": 1042,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5491,7 +5502,7 @@
     "AegisName": "Harpy's_Claw",
     "Name": "Harpy Talon",
     "Type": "Etc",
-    "Buy": 1210,
+    "Buy": 1110,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5502,7 +5513,7 @@
     "AegisName": "Soft_Feather",
     "Name": "Soft Feather",
     "Type": "Etc",
-    "Buy": 1580,
+    "Buy": 2280,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5513,7 +5524,7 @@
     "AegisName": "Talon_Of_Griffin",
     "Name": "Talon of Griffon",
     "Type": "Etc",
-    "Buy": 5418,
+    "Buy": 1018,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5524,7 +5535,7 @@
     "AegisName": "Spool",
     "Name": "Spool",
     "Type": "Etc",
-    "Buy": 424,
+    "Buy": 1424,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5535,7 +5546,7 @@
     "AegisName": "Piece_Of_Black_Cloth",
     "Name": "Piece of Black Cloth",
     "Type": "Etc",
-    "Buy": 526,
+    "Buy": 1526,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5546,7 +5557,7 @@
     "AegisName": "Ectoplasm",
     "Name": "Ectoplasm",
     "Type": "Etc",
-    "Buy": 322,
+    "Buy": 1322,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5557,7 +5568,7 @@
     "AegisName": "Pumpkin_Bucket",
     "Name": "Pumpkin Lantern",
     "Type": "Etc",
-    "Buy": 486,
+    "Buy": 1486,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5568,7 +5579,7 @@
     "AegisName": "Pumpkin_Head",
     "Name": "Jack o' Pumpkin",
     "Type": "Etc",
-    "Buy": 374,
+    "Buy": 1374,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5579,7 +5590,7 @@
     "AegisName": "Red_Frame",
     "Name": "Red Frame",
     "Type": "Etc",
-    "Buy": 3000,
+    "Buy": 5000,
     "Weight": 200,
     "Flags": {
       "BuyingStore": true
@@ -5590,8 +5601,19 @@
     "AegisName": "Crystal_Mirror",
     "Name": "Crystal Mirror",
     "Type": "Etc",
-    "Buy": 2000,
+    "Buy": 3500,
     "Weight": 50,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
+    "Id": 1004,
+    "AegisName": "Patriotism_Marks",
+    "Name": "Chivalry Emblem",
+    "Type": "Etc",
+    "Buy": 5000,
+    "Weight": 100,
     "Flags": {
       "BuyingStore": true
     }
@@ -5601,7 +5623,7 @@
     "AegisName": "Cold_Magma",
     "Name": "Lava",
     "Type": "Etc",
-    "Buy": 1109,
+    "Buy": 4109,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5612,7 +5634,7 @@
     "AegisName": "Hot_Hair",
     "Name": "Burning Hair",
     "Type": "Etc",
-    "Buy": 974,
+    "Buy": 1874,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5623,7 +5645,7 @@
     "AegisName": "Burning_Heart",
     "Name": "Burning Heart",
     "Type": "Etc",
-    "Buy": 924,
+    "Buy": 2324,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5634,7 +5656,7 @@
     "AegisName": "Live_Coal",
     "Name": "Live Coal",
     "Type": "Etc",
-    "Buy": 638,
+    "Buy": 1638,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5645,7 +5667,7 @@
     "AegisName": "Alchol",
     "Name": "Alcohol",
     "Type": "Etc",
-    "Buy": 800,
+    "Buy": 1800,
     "Weight": 30,
     "Flags": {
       "BuyingStore": true
@@ -5656,7 +5678,7 @@
     "AegisName": "Dullahan's_Helm",
     "Name": "Helm of Dullahan",
     "Type": "Etc",
-    "Buy": 1350,
+    "Buy": 1650,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5667,7 +5689,7 @@
     "AegisName": "Dullahan_Armor",
     "Name": "Armor Piece of Dullahan",
     "Type": "Etc",
-    "Buy": 790,
+    "Buy": 1790,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5678,7 +5700,7 @@
     "AegisName": "Black_Kitty_Doll",
     "Name": "Black Cat Doll",
     "Type": "Etc",
-    "Buy": 1440,
+    "Buy": 1840,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5689,7 +5711,7 @@
     "AegisName": "Bat_Cage",
     "Name": "Bat Cage",
     "Type": "Etc",
-    "Buy": 880,
+    "Buy": 2380,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5700,7 +5722,7 @@
     "AegisName": "Old_Manteau",
     "Name": "Old Manteau",
     "Type": "Etc",
-    "Buy": 1050,
+    "Buy": 3050,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5711,7 +5733,7 @@
     "AegisName": "Rusty_Cleaver",
     "Name": "Rusty Kitchen Knife",
     "Type": "Etc",
-    "Buy": 1780,
+    "Buy": 4780,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5722,7 +5744,7 @@
     "AegisName": "Reins",
     "Name": "Reins",
     "Type": "Etc",
-    "Buy": 802,
+    "Buy": 1802,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5733,7 +5755,7 @@
     "AegisName": "Blade_Lost_In_Darkness",
     "Name": "Blade Lost in Darkness",
     "Type": "Etc",
-    "Buy": 12000,
+    "Buy": 2500,
     "Weight": 40,
     "Flags": {
       "BuyingStore": true
@@ -5744,7 +5766,7 @@
     "AegisName": "Boroken_Shiled_Piece",
     "Name": "Piece of Shield",
     "Type": "Etc",
-    "Buy": 1680,
+    "Buy": 6680,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5755,7 +5777,7 @@
     "AegisName": "Tatters_Clothes",
     "Name": "Tattered Clothes",
     "Type": "Etc",
-    "Buy": 1280,
+    "Buy": 2280,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5766,7 +5788,7 @@
     "AegisName": "Alice's_Apron",
     "Name": "Alice's Apron",
     "Type": "Etc",
-    "Buy": 2424,
+    "Buy": 4424,
     "Weight": 10,
     "Flags": {
       "BuyingStore": true
@@ -5822,6 +5844,17 @@
     "Name": "Yoyo Doll",
     "Type": "Etc",
     "Buy": 3000,
+    "Weight": 100,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
+    "Id": 718,
+    "AegisName": "Dark_Red_Jewel",
+    "Name": "Garnet",
+    "Type": "Etc",
+    "Buy": 6000,
     "Weight": 100,
     "Flags": {
       "BuyingStore": true
@@ -7984,7 +8017,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "skill \"MC_DISCOUNT\",5;\n"
+    "Script": "skill \"RG_STEALCOIN\",5;\n"
   },
   {
     "Id": 4074,

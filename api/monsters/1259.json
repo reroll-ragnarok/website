@@ -3,7 +3,7 @@
   "AegisName": "GRYPHON",
   "Name": "Gryphon",
   "Level": 90,
-  "Hp": 24906,
+  "Hp": 17500,
   "BaseExp": 4500,
   "JobExp": 1950,
   "Attack": 847,
@@ -31,12 +31,12 @@
   "Class": "Boss",
   "Drops": [
     {
-      "Item": "Soft_Feather",
+      "Item": "Talon_Of_Griffin",
       "Rate": 10000
     },
     {
-      "Item": "Talon_Of_Griffin",
-      "Rate": 2500
+      "Item": "Soft_Feather",
+      "Rate": 5000
     },
     {
       "Item": "Falconer_Flute_C_Blueprint",

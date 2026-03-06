@@ -10,7 +10,7 @@ Body:
     AegisName: VADON
     Name: Vadon
     Level: 50
-    Hp: 1723
+    Hp: 1323
     BaseExp: 300
     JobExp: 400
     Attack: 168
@@ -48,7 +48,7 @@ Body:
     AegisName: CORNUTUS
     Name: Cornutus
     Level: 50
-    Hp: 2856
+    Hp: 1556
     BaseExp: 300
     JobExp: 400
     Attack: 101
@@ -86,7 +86,7 @@ Body:
     AegisName: KUKRE
     Name: Kukre
     Level: 50
-    Hp: 1547
+    Hp: 1247
     BaseExp: 300
     JobExp: 400
     Attack: 152
@@ -126,7 +126,7 @@ Body:
     AegisName: SOLDIER_SKELETON
     Name: Soldier Skeleton
     Level: 50
-    Hp: 2234
+    Hp: 1734
     BaseExp: 300
     JobExp: 400
     Attack: 197
@@ -164,7 +164,7 @@ Body:
     AegisName: ARCHER_SKELETON
     Name: Archer Skeleton
     Level: 50
-    Hp: 1683
+    Hp: 1583
     BaseExp: 300
     JobExp: 400
     Attack: 158
@@ -206,7 +206,7 @@ Body:
     AegisName: GOBLIN_1
     Name: Goblin
     Level: 50
-    Hp: 1821
+    Hp: 1321
     BaseExp: 300
     JobExp: 400
     Attack: 167
@@ -248,7 +248,7 @@ Body:
     AegisName: GOBLIN_2
     Name: Goblin
     Level: 50
-    Hp: 1927
+    Hp: 1527
     BaseExp: 300
     JobExp: 400
     Attack: 174
@@ -290,7 +290,7 @@ Body:
     AegisName: GOBLIN_3
     Name: Goblin
     Level: 50
-    Hp: 2038
+    Hp: 1738
     BaseExp: 300
     JobExp: 400
     Attack: 183
@@ -332,7 +332,7 @@ Body:
     AegisName: GOBLIN_4
     Name: Goblin
     Level: 50
-    Hp: 2149
+    Hp: 1449
     BaseExp: 300
     JobExp: 400
     Attack: 191
@@ -374,7 +374,7 @@ Body:
     AegisName: GOBLIN_5
     Name: Goblin
     Level: 50
-    Hp: 2267
+    Hp: 1567
     BaseExp: 300
     JobExp: 400
     Attack: 199
@@ -416,7 +416,7 @@ Body:
     AegisName: GOBLIN_ARCHER
     Name: Goblin Archer
     Level: 50
-    Hp: 1689
+    Hp: 1289
     BaseExp: 300
     JobExp: 400
     Attack: 162
@@ -458,7 +458,7 @@ Body:
     AegisName: PANZER_GOBLIN
     Name: Panzer Goblin
     Level: 50
-    Hp: 2421
+    Hp: 3500
     BaseExp: 900
     JobExp: 1200
     Attack: 179
@@ -500,7 +500,7 @@ Body:
     Name: Goblin Steamrider
     JapaneseName: Steam Goblin
     Level: 50
-    Hp: 2341
+    Hp: 3500
     BaseExp: 900
     JobExp: 1200
     Attack: 154
@@ -543,7 +543,7 @@ Body:
     Name: Seal
     JapaneseName: Fur Seal
     Level: 50
-    Hp: 1847
+    Hp: 1447
     BaseExp: 300
     JobExp: 400
     Attack: 172
@@ -581,7 +581,7 @@ Body:
     AegisName: SEE_OTTER
     Name: Sea Otter
     Level: 50
-    Hp: 2096
+    Hp: 1596
     BaseExp: 300
     JobExp: 400
     Attack: 181
@@ -621,7 +621,7 @@ Body:
     AegisName: SASQUATCH
     Name: Sasquatch
     Level: 50
-    Hp: 2769
+    Hp: 1769
     BaseExp: 300
     JobExp: 400
     Attack: 194
@@ -661,7 +661,7 @@ Body:
     Name: Baby Hatii
     JapaneseName: Garm Baby
     Level: 50
-    Hp: 2516
+    Hp: 3500
     BaseExp: 900
     JobExp: 1200
     Attack: 186

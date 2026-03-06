@@ -3,7 +3,7 @@
   "AegisName": "PHENDARK",
   "Name": "Phendark",
   "Level": 80,
-  "Hp": 9022,
+  "Hp": 6422,
   "BaseExp": 750,
   "JobExp": 550,
   "Attack": 459,
@@ -31,7 +31,7 @@
   "Drops": [
     {
       "Item": "Thin_N'_Long_Tongue",
-      "Rate": 1940
+      "Rate": 10000
     },
     {
       "Item": "Executioner's_Mitten",

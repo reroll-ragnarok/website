@@ -10,7 +10,7 @@ Body:
     AegisName: MARSE
     Name: Marse
     Level: 60
-    Hp: 2747
+    Hp: 2047
     BaseExp: 400
     JobExp: 425
     Attack: 189
@@ -48,7 +48,7 @@ Body:
     AegisName: MARC
     Name: Marc
     Level: 60
-    Hp: 3156
+    Hp: 2556
     BaseExp: 400
     JobExp: 425
     Attack: 218
@@ -86,7 +86,7 @@ Body:
     AegisName: SWORD_FISH
     Name: Swordfish
     Level: 60
-    Hp: 3349
+    Hp: 2349
     BaseExp: 400
     JobExp: 425
     Attack: 234
@@ -124,7 +124,7 @@ Body:
     AegisName: PHEN
     Name: Phen
     Level: 60
-    Hp: 2734
+    Hp: 2134
     BaseExp: 400
     JobExp: 425
     Attack: 201
@@ -166,7 +166,7 @@ Body:
     AegisName: VERIT
     Name: Verit
     Level: 60
-    Hp: 2891
+    Hp: 2291
     BaseExp: 400
     JobExp: 425
     Attack: 227
@@ -204,7 +204,7 @@ Body:
     AegisName: MUMMY
     Name: Mummy
     Level: 60
-    Hp: 3114
+    Hp: 2594
     BaseExp: 400
     JobExp: 425
     Attack: 196
@@ -243,7 +243,7 @@ Body:
     AegisName: ISIS
     Name: Isis
     Level: 60
-    Hp: 15000
+    Hp: 10000
     BaseExp: 2000
     JobExp: 2125
     Attack: 241
@@ -284,7 +284,7 @@ Body:
     AegisName: SCORPION
     Name: Scorpion
     Level: 60
-    Hp: 2523
+    Hp: 4500
     BaseExp: 1200
     JobExp: 1275
     Attack: 187
@@ -326,7 +326,7 @@ Body:
     AegisName: ORC_ARCHER
     Name: Orc Archer
     Level: 60
-    Hp: 2749
+    Hp: 1949
     BaseExp: 400
     JobExp: 425
     Attack: 211
@@ -367,7 +367,7 @@ Body:
     AegisName: ORK_WARRIOR
     Name: Orc Warrior
     Level: 60
-    Hp: 3434
+    Hp: 2434
     BaseExp: 400
     JobExp: 425
     Attack: 248
@@ -408,7 +408,7 @@ Body:
     AegisName: ORC_LADY
     Name: Orc Lady
     Level: 60
-    Hp: 2862
+    Hp: 2662
     BaseExp: 400
     JobExp: 425
     Attack: 193
@@ -449,7 +449,7 @@ Body:
     AegisName: ORC_BABY
     Name: Orc Baby
     Level: 60
-    Hp: 1999
+    Hp: 4500
     BaseExp: 1200
     JobExp: 1275
     Attack: 175
@@ -491,7 +491,7 @@ Body:
     AegisName: ALLIGATOR
     Name: Alligator
     Level: 60
-    Hp: 3021
+    Hp: 2321
     BaseExp: 400
     JobExp: 425
     Attack: 229
@@ -529,7 +529,7 @@ Body:
     AegisName: ANOLIAN
     Name: Anolian
     Level: 60
-    Hp: 3456
+    Hp: 2546
     BaseExp: 400
     JobExp: 425
     Attack: 244
@@ -607,7 +607,7 @@ Body:
     AegisName: COOKIE_XMAS
     Name: Christmas Cookie
     Level: 60
-    Hp: 2876
+    Hp: 2176
     BaseExp: 400
     JobExp: 425
     Attack: 184
@@ -645,7 +645,7 @@ Body:
     AegisName: MYSTCASE
     Name: Myst Case
     Level: 60
-    Hp: 3397
+    Hp: 2697
     BaseExp: 400
     JobExp: 425
     Attack: 205

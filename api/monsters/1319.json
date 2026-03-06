@@ -3,7 +3,7 @@
   "AegisName": "FREEZER",
   "Name": "Freezer",
   "Level": 90,
-  "Hp": 20341,
+  "Hp": 8341,
   "BaseExp": 1500,
   "JobExp": 650,
   "Attack": 654,
@@ -30,12 +30,12 @@
   "Ai": 21,
   "Drops": [
     {
-      "Item": "Turtle_Shell",
+      "Item": "Ice_Piece",
       "Rate": 10000
     },
     {
-      "Item": "Ice_Piece",
-      "Rate": 5000
+      "Item": "Mistic_Frozen",
+      "Rate": 1000
     },
     {
       "Item": "Freezer_Card",
