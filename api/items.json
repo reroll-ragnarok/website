@@ -3846,6 +3846,13 @@
     "Script": "guildgetexp rand(500000,1000000);\n"
   },
   {
+    "Id": 23647,
+    "AegisName": "Zero_Merchant_Bell",
+    "Name": "Golden Bell",
+    "Type": "Usable",
+    "Script": "/* TODO dynamic npc */\n"
+  },
+  {
     "Id": 10000072,
     "AegisName": "C_Wing_Of_Butterfly",
     "Name": "Infinite Butterfly Wing",
@@ -4929,7 +4936,7 @@
     "Name": "Rough Wind",
     "Type": "Etc",
     "Buy": 3000,
-    "Weight": 300,
+    "Weight": 100,
     "Flags": {
       "BuyingStore": true
     }
@@ -5039,7 +5046,7 @@
     "Name": "Great Nature",
     "Type": "Etc",
     "Buy": 3000,
-    "Weight": 300,
+    "Weight": 100,
     "Flags": {
       "BuyingStore": true
     }
@@ -5369,7 +5376,7 @@
     "Name": "Flame Heart",
     "Type": "Etc",
     "Buy": 3000,
-    "Weight": 300,
+    "Weight": 100,
     "Flags": {
       "BuyingStore": true
     }
@@ -6152,7 +6159,7 @@
     "Name": "Mystic Frozen",
     "Type": "Etc",
     "Buy": 3000,
-    "Weight": 300,
+    "Weight": 100,
     "Flags": {
       "BuyingStore": true
     }

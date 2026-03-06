@@ -870,7 +870,7 @@ Body:
     Name: Rough Wind
     Type: Etc
     Buy: 3000
-    Weight: 300
+    Weight: 100
     Flags:
       BuyingStore: true
   - Id: 1098
@@ -950,7 +950,7 @@ Body:
     Name: Great Nature
     Type: Etc
     Buy: 3000
-    Weight: 300
+    Weight: 100
     Flags:
       BuyingStore: true
   - Id: 964
@@ -1192,7 +1192,7 @@ Body:
     Name: Flame Heart
     Type: Etc
     Buy: 3000
-    Weight: 300
+    Weight: 100
     Flags:
       BuyingStore: true
   - Id: 7062
@@ -1765,7 +1765,7 @@ Body:
     Name: Mystic Frozen
     Type: Etc
     Buy: 3000
-    Weight: 300
+    Weight: 100
     Flags:
       BuyingStore: true
   - Id: 968

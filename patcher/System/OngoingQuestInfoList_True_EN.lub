@@ -82005,7 +82005,7 @@ QuestInfoList = {
             "20 <ITEM>Topaz<INFO>728</INFO></ITEM>",
             "10 <ITEM>Zero Merchant Bell<INFO>23647</INFO></ITEM>",
             "5 <ITEM>Tiger Skin<INFO>1029</INFO></ITEM>",
-            "1 <ITEM>Cat O' Nine Tails Card<INFO>4290</INFO></ITEM>",
+            "1 <ITEM>Bapho Jr. Card<INFO>4290</INFO></ITEM>",
         },
         Summary = "Honor the guardian for a Moonlight Flower Hat.",
 		NpcSpr = "4_M_JPN2",

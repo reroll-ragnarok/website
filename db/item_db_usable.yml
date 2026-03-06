@@ -362,6 +362,12 @@ Body:
       BuyingStore: true
     Script: |
       guildgetexp rand(500000,1000000);
+  - Id: 23647
+    AegisName: Zero_Merchant_Bell
+    Name: Golden Bell
+    Type: Usable
+    Script: |
+      /* TODO dynamic npc */
 ###################################### Custom #######################################
   - Id: 10000072
     AegisName: C_Wing_Of_Butterfly
