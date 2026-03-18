@@ -255,8 +255,10 @@ const bonusDB = {
     bUnbreakableShoes: { text: "Shoes cannot be broken." },
     bNoKnockback: { text: "Cannot be knocked back." },
     bNoGemStone: { text: "Skills do not require gemstones." },
-    bIntravision: { text: "Detects hidden enemies." },
-    bNoWalkDelay: { text: "No walk delay (infinite Endure)." },
+    bIntravision: { text: "Enables seeing hidden enemies." },
+    bNoWalkDelay: { text: "Removes staggering when hit (Endure effect)." },
+    bNoSizeFix: { text: "Nullifies weapon size penalty." },
+    bNoMagicDamage: { text: "100% immunity to magic damage." },
 };
 
 const raceMap = {
@@ -307,6 +309,23 @@ const elementMap = {
 const knownItemNames = {
     644: 'Gift Box',
 };
+
+// Collapse adjacent sign pairs so double-negatives become positive, etc.
+// e.g. "--40" → "+40", "+-50" → "-50", "DEF +{n}" with n=-5 → "DEF -5"
+function normalizeSigns(str) {
+    // Repeatedly collapse two adjacent signs before a digit or another sign
+    let prev;
+    do {
+        prev = str;
+        str = str.replace(/([+-])([+-])(?=[\d])/g, (_, a, b) => {
+            return (a === b) ? '+' : '-';
+        });
+    } while (str !== prev);
+    // Clean up a leading standalone '+' that precedes a word (e.g. "+40% damage" → "40% damage" is fine to keep,
+    // but only strip + when it appears as a sign in "DEF +{value}" patterns handled above).
+    // Actually leave it as-is; a pure "+" prefix on a positive number is fine UX.
+    return str;
+}
 
 // Split a script into statements on ; and \n, but never split inside quoted strings
 function splitScriptLines(text) {
@@ -499,12 +518,11 @@ function parseItemScript(script, equipScript) {
                     text = text.replace(/\{(\w+)(?:\/(\d+))?\}/g, (_, key, divisor) => {
                         const val = params[key];
                         if (divisor && val !== undefined && !isNaN(Number(val))) {
-                            // Use toFixed(4) string directly — do NOT convert back to Number first,
-                            // because String(20) → '20' and the regex would strip the trailing 0.
                             return (Number(val) / Number(divisor)).toFixed(4).replace(/\.?0+$/, '');
                         }
                         return val !== undefined ? val : `{${key}}`;
                     });
+                    text = normalizeSigns(text);
                 } else {
                     const nIndex = typeof bonusInfo.nIndex === 'number'
                         ? (bonusInfo.nIndex < 0 ? args.length + bonusInfo.nIndex : bonusInfo.nIndex)
@@ -524,6 +542,7 @@ function parseItemScript(script, equipScript) {
                     }
 
                     text = text.replace(/{n}/g, nValue);
+                    text = normalizeSigns(text);
                 }
                 const finalText = refineCondition ? `${refineCondition} ${text}` : text;
                 effects.push(finalText);

@@ -42,10 +42,60 @@ let mapGraph = {};
 let mapDisplayNames = {};
 let cardsData = [];
 
-// Hardcoded effect descriptions for cards whose EquipScript uses item-spawning logic
+// Hardcoded effect descriptions for cards whose scripts are too complex to parse generically
 const cardEffectOverrides = {
-    4144: 'When equipped, grants a Token of Siegfried allowing resurrection upon death (unlimited uses).',
+    4144: 'When equipped, grants a Token of Siegfried allowing resurrection upon death (unlimited uses)',
+    4147: 'Basic attacks splash in a 9x9 area around the player',
+    4137: 'Nullifies weapon size penalty. <br>ATK + 25. <br>MATK + 25',
+    4123: 'Removes staggering when hit (Endure effect)',
+    4128: '100% immunity to magic damage',
+    4198: 'Enables seeing hidden enemies',
 };
+
+// Hardcoded effect descriptions for quest reward items whose scripts are complex to parse
+const itemEffectOverrides = {
+    5110: 'Healing from items +25%',
+};
+
+// Headgear quest crafting data
+const questsData = [
+    { id: 1,  resultId: 18919, resultName: "Jakk Castle Bat",        locations: ["Head_Low"],  requirements: [{ qty: 300, name: "Tooth of Bat", id: 913 }, { qty: 200, name: "Wing of Red Bat", id: 7006 }, { qty: 100, name: "Pumpkin Head", id: 1062 }, { qty: 20, name: "Bat Cage", id: 7214 }, { qty: 1, name: "Familiar Card", id: 4020 }, { qty: 5, name: "Sapphire", id: 726 }, { qty: 1, name: "Amethyst", id: 719 }] },
+    { id: 2,  resultId: 5110,  resultName: "Baby Pacifier",           locations: ["Head_Low"],  requirements: [{ qty: 50, name: "Nursing Bottle", id: 7270 }, { qty: 50, name: "Pinafore", id: 7269 }, { qty: 50, name: "Puppet", id: 740 }, { qty: 50, name: "Candy Cane", id: 530 }, { qty: 1, name: "Orc Baby Card", id: 4375 }, { qty: 5, name: "Pearl", id: 722 }, { qty: 1, name: "Aquamarine", id: 720 }] },
+    { id: 3,  resultId: 5361,  resultName: "Gangster Scarf",          locations: ["Head_Low"],  requirements: [{ qty: 150, name: "Manacles", id: 1098 }, { qty: 100, name: "Worn-out Prison Uniform", id: 1099 }, { qty: 20, name: "Animal Gore", id: 702 }, { qty: 10, name: "Fabric", id: 1059 }, { qty: 1, name: "Pirate Skel Card", id: 4073 }, { qty: 5, name: "Ruby", id: 723 }, { qty: 1, name: "Garnet", id: 718 }] },
+    { id: 4,  resultId: 18666, resultName: "CD In Mouth",             locations: ["Head_Low"],  requirements: [{ qty: 25, name: "Great Nature", id: 997 }, { qty: 25, name: "Rough Wind", id: 996 }, { qty: 25, name: "Flame Heart", id: 994 }, { qty: 25, name: "Mystic Frozen", id: 995 }, { qty: 1, name: "Joker Card", id: 4139 }, { qty: 5, name: "Opal", id: 727 }, { qty: 1, name: "Turquoise", id: 7294 }] },
+    { id: 5,  resultId: 5596,  resultName: "Four Leaf Clover",        locations: ["Head_Low"],  requirements: [{ qty: 300, name: "Clover", id: 705 }, { qty: 200, name: "Stem", id: 905 }, { qty: 7, name: "Smoke Powder", id: 6214 }, { qty: 7, name: "Four Leaf Clover", id: 706 }, { qty: 1, name: "Yoyo Card", id: 4051 }, { qty: 5, name: "Emerald", id: 721 }, { qty: 1, name: "Zircon", id: 729 }] },
+    { id: 6,  resultId: 5403,  resultName: "Fish In Mouth",           locations: ["Head_Low"],  requirements: [{ qty: 200, name: "Sharp Scale", id: 963 }, { qty: 150, name: "Fish Tail", id: 1023 }, { qty: 100, name: "Squid Ink", id: 1024 }, { qty: 20, name: "Crystal Blue", id: 991 }, { qty: 1, name: "Swordfish Card", id: 4089 }, { qty: 5, name: "Aquamarine", id: 720 }, { qty: 1, name: "Sapphire", id: 726 }] },
+    { id: 7,  resultId: 420030,resultName: "Feather In Mouth",        locations: ["Head_Low"],  requirements: [{ qty: 200, name: "Feather of Birds", id: 916 }, { qty: 150, name: "Harpy Feather", id: 7115 }, { qty: 100, name: "Antelope Horn", id: 7106 }, { qty: 20, name: "Wind of Verdure", id: 992 }, { qty: 1, name: "Harpy Card", id: 4325 }, { qty: 5, name: "Topaz", id: 728 }, { qty: 1, name: "Sardonyx", id: 725 }] },
+    { id: 8,  resultId: 5358,  resultName: "Peco Ears",               locations: ["Head_Mid"],  requirements: [{ qty: 150, name: "Peco Peco Feather", id: 7101 }, { qty: 100, name: "Sharp Leaf", id: 7100 }, { qty: 20, name: "Antelope Skin", id: 7107 }, { qty: 10, name: "Scale Shell", id: 936 }, { qty: 1, name: "Whisper Card", id: 4102 }, { qty: 5, name: "Sardonyx", id: 725 }, { qty: 1, name: "Topaz", id: 728 }] },
+    { id: 9,  resultId: 5090,  resultName: "Goblin Leader Mask",      locations: ["Head_Low", "Head_Mid"], requirements: [{ qty: 150, name: "Cyfar", id: 7053 }, { qty: 100, name: "Moth Dust", id: 1057 }, { qty: 20, name: "Mud Lump", id: 7004 }, { qty: 10, name: "Ogre Tooth", id: 7002 }, { qty: 1, name: "Mummy Card", id: 4106 }, { qty: 5, name: "Garnet", id: 718 }, { qty: 1, name: "Opal", id: 727 }] },
+    { id: 10, resultId: 5421,  resultName: "Ears Of Ifrit",           locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Burning Hair", id: 7122 }, { qty: 150, name: "Alcohol", id: 970 }, { qty: 100, name: "Live Coal", id: 7098 }, { qty: 20, name: "Red Blood", id: 990 }, { qty: 1, name: "Jakk Card", id: 4109 }, { qty: 5, name: "Ruby", id: 723 }, { qty: 1, name: "Garnet", id: 718 }] },
+    { id: 11, resultId: 2281,  resultName: "Opera Masque",            locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Mud Lump", id: 7004 }, { qty: 150, name: "Maneater Root", id: 1033 }, { qty: 100, name: "Tree Root", id: 902 }, { qty: 20, name: "Green Live", id: 993 }, { qty: 1, name: "Giearth Card", id: 4087 }, { qty: 5, name: "Opal", id: 727 }, { qty: 1, name: "Pearl", id: 722 }] },
+    { id: 12, resultId: 5286,  resultName: "Pecopeco Hairband",       locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Soft Feather", id: 7063 }, { qty: 100, name: "Harpy Talon", id: 7116 }, { qty: 50, name: "Talon", id: 917 }, { qty: 20, name: "Talon of Griffon", id: 7048 }, { qty: 1, name: "Grand Peco Card", id: 4161 }, { qty: 5, name: "Amethyst", id: 719 }, { qty: 1, name: "Ruby", id: 723 }] },
+    { id: 13, resultId: 5388,  resultName: "Snake Head Hat",          locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Venom Canine", id: 937 }, { qty: 100, name: "Shining Scale", id: 954 }, { qty: 50, name: "Poison Spore", id: 7033 }, { qty: 20, name: "Snake Scale", id: 926 }, { qty: 1, name: "Side Winder Card", id: 4117 }, { qty: 5, name: "Zircon", id: 729 }, { qty: 1, name: "Ruby", id: 723 }] },
+    { id: 14, resultId: 5531,  resultName: "Baby Dragon Hat",         locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Dragon Skin", id: 7123 }, { qty: 100, name: "Dragon Tail", id: 1037 }, { qty: 50, name: "Wing of Dragonfly", id: 7064 }, { qty: 20, name: "Fang", id: 1063 }, { qty: 1, name: "Penomena Card", id: 4314 }, { qty: 5, name: "Zircon", id: 729 }, { qty: 1, name: "Emerald", id: 721 }] },
+    { id: 15, resultId: 5304,  resultName: "Cap Of Blindness",        locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Piece of Black Cloth", id: 7205 }, { qty: 100, name: "Amulet", id: 609 }, { qty: 50, name: "Tattered Clothes", id: 7071 }, { qty: 20, name: "Executioner's Mitten", id: 7017 }, { qty: 1, name: "Injustice Card", id: 4268 }, { qty: 5, name: "Turquoise", id: 7294 }, { qty: 1, name: "Garnet", id: 718 }] },
+    { id: 16, resultId: 5380,  resultName: "Fish Head Hat",           locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Fin", id: 951 }, { qty: 100, name: "Heart of Mermaid", id: 950 }, { qty: 50, name: "Gill", id: 956 }, { qty: 20, name: "Tentacle", id: 962 }, { qty: 1, name: "Sea Otter Card", id: 4326 }, { qty: 5, name: "Aquamarine", id: 720 }, { qty: 1, name: "Sapphire", id: 726 }] },
+    { id: 17, resultId: 2268,  resultName: "Pipe",                    locations: ["Head_Low"],  requirements: [{ qty: 100, name: "Trunk", id: 1019 }, { qty: 50, name: "Hinalle Leaflet", id: 520 }, { qty: 50, name: "Aloe Leaflet", id: 521 }, { qty: 50, name: "Raccoon Leaf", id: 945 }, { qty: 1, name: "Raydric Card", id: 4133 }, { qty: 10, name: "Tiger Footskin", id: 1030 }, { qty: 5, name: "Royal Jelly", id: 526 }] },
+    { id: 18, resultId: 5272,  resultName: "Long Tongue",             locations: ["Head_Low"],  requirements: [{ qty: 100, name: "Tongue", id: 1015 }, { qty: 50, name: "Reptile Tongue", id: 903 }, { qty: 50, name: "Sticky Mucus", id: 938 }, { qty: 50, name: "Ancient Lips", id: 1054 }, { qty: 1, name: "Matyr Card", id: 4097 }, { qty: 10, name: "Jaws of Ant", id: 1014 }, { qty: 5, name: "Emperium", id: 714 }] },
+    { id: 19, resultId: 5878,  resultName: "Miracle Blue Rose",       locations: ["Head_Low"],  requirements: [{ qty: 100, name: "Ice Cubic", id: 7066 }, { qty: 50, name: "Ice Cream", id: 536 }, { qty: 50, name: "Maneater Blossom", id: 1032 }, { qty: 50, name: "Young Twig", id: 7018 }, { qty: 1, name: "Clock Card", id: 4299 }, { qty: 10, name: "Fang of Garm", id: 7036 }, { qty: 5, name: "Armlet of Obedience", id: 639 }] },
+    { id: 20, resultId: 2267,  resultName: "Cigarette",               locations: ["Head_Low"],  requirements: [{ qty: 100, name: "Coal", id: 1003 }, { qty: 50, name: "Burnt Tree", id: 7068 }, { qty: 50, name: "Grasshopper's Leg", id: 940 }, { qty: 50, name: "Horrendous Mouth", id: 958 }, { qty: 1, name: "Archer Skeleton Card", id: 4094 }, { qty: 10, name: "Tooth", id: 1044 }, { qty: 5, name: "Mother's Nightmare", id: 7020 }] },
+    { id: 21, resultId: 5204,  resultName: "Rudolph's Nose",          locations: ["Head_Low"],  requirements: [{ qty: 200, name: "Round Shell", id: 1096 }, { qty: 100, name: "Elder Pixie's Moustache", id: 1040 }, { qty: 100, name: "Mole Whiskers", id: 1017 }, { qty: 20, name: "Rose Quartz", id: 7293 }, { qty: 1, name: "Soldier Skeleton Card", id: 4086 }, { qty: 10, name: "Ice Scale", id: 7562 }, { qty: 5, name: "Fang of Garm", id: 7036 }] },
+    { id: 22, resultId: 19083, resultName: "Mask of Hero",            locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Cultish Masque", id: 1045 }, { qty: 100, name: "China", id: 736 }, { qty: 100, name: "Solid Shell", id: 943 }, { qty: 20, name: "Armor Piece of Dullahan", id: 7210 }, { qty: 1, name: "High Orc Card", id: 4322 }, { qty: 10, name: "Tutankhamen's Mask", id: 7114 }, { qty: 5, name: "Union of Tribe", id: 658 }] },
+    { id: 23, resultId: 2296,  resultName: "Binoculars",              locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Steel", id: 999 }, { qty: 100, name: "Glass Bead", id: 746 }, { qty: 100, name: "Spool", id: 7217 }, { qty: 20, name: "Broken Shield Piece", id: 7108 }, { qty: 1, name: "Dragon Tail Card", id: 4178 }, { qty: 10, name: "Gemstone", id: 7300 }, { qty: 5, name: "Shine Spear Blade", id: 7109 }] },
+    { id: 24, resultId: 5972,  resultName: "Chatty Parrot",           locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Torn Magic Book", id: 7117 }, { qty: 100, name: "Bill of Birds", id: 925 }, { qty: 100, name: "Feather", id: 949 }, { qty: 20, name: "Rouge", id: 739 }, { qty: 1, name: "Elder Willow Card", id: 4052 }, { qty: 10, name: "Treasure Box", id: 7444 }, { qty: 5, name: "Round Feather", id: 6393 }] },
+    { id: 25, resultId: 5081,  resultName: "Crown of Mistress",       locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Moth Wings", id: 1058 }, { qty: 200, name: "Bee Sting", id: 939 }, { qty: 200, name: "Powder of Butterfly", id: 924 }, { qty: 20, name: "Pearl", id: 722 }, { qty: 1, name: "Carat Card", id: 4288 }, { qty: 10, name: "Royal Jelly", id: 526 }, { qty: 5, name: "Gold", id: 969 }] },
+    { id: 26, resultId: 18570, resultName: "Ancient Gold Ornament",   locations: ["Head_Top"],  requirements: [{ qty: 60, name: "Old Portrait", id: 7014 }, { qty: 60, name: "Old Shuriken", id: 7072 }, { qty: 40, name: "Old Manteau", id: 7207 }, { qty: 20, name: "Turquoise", id: 7294 }, { qty: 1, name: "Anubis Card", id: 4138 }, { qty: 10, name: "Ora Ora", id: 701 }, { qty: 5, name: "Emperium", id: 714 }] },
+    { id: 27, resultId: 5564,  resultName: "Crown of Deceit",         locations: ["Head_Top", "Head_Mid"], requirements: [{ qty: 300, name: "Coral Reef", id: 7013 }, { qty: 200, name: "Insect Feeler", id: 928 }, { qty: 100, name: "Tough Vines", id: 7197 }, { qty: 20, name: "Ruby", id: 723 }, { qty: 1, name: "Clock Tower Manager Card", id: 4229 }, { qty: 10, name: "Mother's Nightmare", id: 7020 }, { qty: 5, name: "Ora Ora", id: 701 }] },
+    { id: 28, resultId: 5214,  resultName: "Moonlight Flower Hat",    locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Star Dust", id: 1001 }, { qty: 200, name: "Nine Tails", id: 1022 }, { qty: 200, name: "Animal Skin", id: 919 }, { qty: 20, name: "Topaz", id: 728 }, { qty: 1, name: "Bapho Jr. Card", id: 4129 }, { qty: 10, name: "Zero Merchant Bell", id: 23647 }, { qty: 5, name: "Tiger's Skin", id: 1029 }] },
+    { id: 29, resultId: 19469, resultName: "Sacred Crown",            locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Memento", id: 934 }, { qty: 200, name: "Rotten Bandage", id: 930 }, { qty: 200, name: "Lantern", id: 1041 }, { qty: 20, name: "Aquamarine", id: 720 }, { qty: 1, name: "Loli Ruri Card", id: 4191 }, { qty: 10, name: "Sacred Marks", id: 1009 }, { qty: 5, name: "Armlet of Obedience", id: 639 }] },
+    { id: 30, resultId: 5224,  resultName: "Evolved Orc Hero Helm",   locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Orcish Voucher", id: 931 }, { qty: 200, name: "Blue Hair", id: 1034 }, { qty: 200, name: "Fluff", id: 914 }, { qty: 20, name: "Emerald", id: 721 }, { qty: 1, name: "Khalitzburg Card", id: 4136 }, { qty: 10, name: "Round Feather", id: 6393 }, { qty: 5, name: "Gold", id: 969 }] },
+    { id: 31, resultId: 18539, resultName: "Skull Cap",               locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Skull", id: 7005 }, { qty: 200, name: "Ectoplasm", id: 7220 }, { qty: 100, name: "Clattering Skull", id: 7752 }, { qty: 20, name: "Sapphire", id: 726 }, { qty: 1, name: "Dark Illusion Card", id: 4169 }, { qty: 10, name: "Skull Ring", id: 2609 }, { qty: 5, name: "Cardinal Jewel", id: 724 }] },
+    { id: 32, resultId: 5518,  resultName: "Gigantic Majestic Goat",  locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Evil Horn", id: 923 }, { qty: 200, name: "Little Evil Horn", id: 1038 }, { qty: 200, name: "Antelope Horn", id: 7106 }, { qty: 20, name: "Zircon", id: 729 }, { qty: 1, name: "Andre Card", id: 4043 }, { qty: 10, name: "Wild Boar's Mane", id: 1028 }, { qty: 5, name: "Cardinal Jewel", id: 724 }] },
+    { id: 33, resultId: 5685,  resultName: "Army Cap",                locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Reins", id: 1064 }, { qty: 200, name: "Burning Horseshoe", id: 7120 }, { qty: 200, name: "Conch", id: 961 }, { qty: 20, name: "Sardonyx", id: 725 }, { qty: 1, name: "Peco Peco Card", id: 4031 }, { qty: 10, name: "Cardinal Jewel", id: 724 }, { qty: 5, name: "Rojerta Piece", id: 7211 }] },
+    { id: 34, resultId: 18555, resultName: "General Helmet",          locations: ["Head_Top"],  requirements: [{ qty: 60, name: "Red Frame", id: 734 }, { qty: 200, name: "Turtle Shell", id: 967 }, { qty: 200, name: "Dragon Scale", id: 1036 }, { qty: 20, name: "Garnet", id: 718 }, { qty: 1, name: "Raydric Archer Card", id: 4187 }, { qty: 10, name: "Union of Tribe", id: 658 }, { qty: 5, name: "Royal Jelly", id: 526 }] },
+    { id: 35, resultId: 18574, resultName: "Lord of Death",           locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Horseshoe", id: 944 }, { qty: 200, name: "Helm of Dullahan", id: 7209 }, { qty: 200, name: "Needle of Alarm", id: 1095 }, { qty: 20, name: "Opal", id: 727 }, { qty: 1, name: "Bloody Murderer Card", id: 4214 }, { qty: 10, name: "Shine Spear Blade", id: 7109 }, { qty: 5, name: "Skull Ring", id: 2609 }] },
+    { id: 36, resultId: 5166,  resultName: "Sphinx Hat",              locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Broken Shell", id: 7070 }, { qty: 200, name: "Armor Piece of Dullahan", id: 7210 }, { qty: 40, name: "Crystal Mirror", id: 747 }, { qty: 20, name: "Amethyst", id: 719 }, { qty: 1, name: "Soldier Card", id: 4220 }, { qty: 10, name: "Rojerta Piece", id: 7211 }, { qty: 5, name: "Broken Pharaoh Symbol", id: 7113 }] },
+];
 
 let monsterTypeTags = {
     scarce: new Set(),
@@ -91,8 +141,16 @@ function switchTab(tab) {
     itemSortField = null; // Reset sort field when switching tabs
     itemSortDirection = 'asc'; // Reset sort direction
     
-    // Clear search input
-    document.getElementById('searchInput').value = '';
+    // Clear search input and update placeholder
+    const searchInput = document.getElementById('searchInput');
+    searchInput.value = '';
+    if (tab === 'cards') {
+        searchInput.placeholder = 'Search by name, ID or effect...';
+    } else if (tab === 'quests') {
+        searchInput.placeholder = 'Search by name or ingredient...';
+    } else {
+        searchInput.placeholder = 'Search by name or ID...';
+    }
 
     // Update active tab button
     document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -156,12 +214,20 @@ function performSearch() {
         currentFilteredData = filtered;
         displayMaps(filtered);
     } else if (currentTab === 'cards') {
-        const filtered = cardsData.filter(card =>
-            card.Name.toLowerCase().includes(searchTerm) ||
-            card.Id.toString().includes(searchTerm)
-        );
+        const filtered = cardsData.filter(card => {
+            if (card.Name.toLowerCase().includes(searchTerm) || card.Id.toString().includes(searchTerm)) return true;
+            const effect = (cardEffectOverrides[card.Id] || parseItemScript(card.Script, card.EquipScript)).toLowerCase();
+            return effect.replace(/<br>/g, ' ').includes(searchTerm);
+        });
         currentFilteredData = filtered;
         displayCards(filtered);
+    } else if (currentTab === 'quests') {
+        const filtered = questsData.filter(q =>
+            q.resultName.toLowerCase().includes(searchTerm) ||
+            q.requirements.some(r => r.name.toLowerCase().includes(searchTerm))
+        );
+        currentFilteredData = filtered;
+        displayQuests(filtered);
     }
 }
 
@@ -352,6 +418,19 @@ function updateFilterOptions(tab) {
             </div>
         `;
         document.getElementById('cardSlotFilter')?.addEventListener('change', applyFilters);
+    } else if (tab === 'quests') {
+        filterSection.innerHTML = `
+            <div class="filter-group">
+                <label>Headgear Slot</label>
+                <select id="questLocationFilter">
+                    <option value="">All Slots</option>
+                    <option value="Head_Top">Top Headgear</option>
+                    <option value="Head_Mid">Mid Headgear</option>
+                    <option value="Head_Low">Low Headgear</option>
+                </select>
+            </div>
+        `;
+        document.getElementById('questLocationFilter')?.addEventListener('change', applyFilters);
     } else {
         filterSection.innerHTML = '';
     }
@@ -617,6 +696,16 @@ function applyFilters() {
 
         currentFilteredData = filtered;
         displayCards(filtered);
+    } else if (currentTab === 'quests') {
+        let filtered = [...questsData];
+
+        const locFilter = document.getElementById('questLocationFilter')?.value;
+        if (locFilter) {
+            filtered = filtered.filter(q => q.locations.includes(locFilter));
+        }
+
+        currentFilteredData = filtered;
+        displayQuests(filtered);
     }
 }
 
@@ -670,6 +759,8 @@ function displayCurrentTabData() {
             displayMaps(currentFilteredData);
         } else if (currentTab === 'cards') {
             displayCards(currentFilteredData);
+        } else if (currentTab === 'quests') {
+            displayQuests(currentFilteredData);
         }
     } else {
         // No filters/search active, show all data
@@ -681,6 +772,8 @@ function displayCurrentTabData() {
             displayMaps(mapsData);
         } else if (currentTab === 'cards') {
             displayCards(cardsData);
+        } else if (currentTab === 'quests') {
+            displayQuests(questsData);
         }
     }
 }
@@ -931,18 +1024,14 @@ function getCardCompoundSlot(card) {
     return 'Unknown';
 }
 
-// Get a brief one-line summary for the card table
+// Get the full card effect for the card table
 function getCardEffectSummary(card) {
     if (cardEffectOverrides[card.Id]) {
-        const text = cardEffectOverrides[card.Id];
-        return text.length > 70 ? text.substring(0, 67) + '…' : text;
+        return cardEffectOverrides[card.Id];
     }
     const script = card.Script || card.EquipScript || '';
     if (!script.trim()) return 'See details';
-    const full = parseItemScript(card.Script, card.EquipScript);
-    // Just show first line
-    const first = full.split('<br>')[0];
-    return first.length > 70 ? first.substring(0, 67) + '…' : first;
+    return parseItemScript(card.Script, card.EquipScript);
 }
 
 // Display cards tab
@@ -1057,6 +1146,120 @@ function showCardDetails(cardId) {
 function closeCardModalAndShowMonster(monsterId) {
     document.getElementById('cardModal').style.display = 'none';
     showMonsterDetails(monsterId);
+}
+
+// ===== Quests Tab =====
+
+function getQuestLocationLabel(loc) {
+    if (loc === 'Head_Top') return 'Top';
+    if (loc === 'Head_Mid') return 'Mid';
+    if (loc === 'Head_Low') return 'Low';
+    return loc;
+}
+
+function getQuestLocationClass(loc) {
+    if (loc === 'Head_Top') return 'quest-loc-top';
+    if (loc === 'Head_Mid') return 'quest-loc-mid';
+    if (loc === 'Head_Low') return 'quest-loc-low';
+    return 'quest-loc-top';
+}
+
+function renderLocationBadges(locations) {
+    return locations.map(loc =>
+        `<span class="quest-location-badge ${getQuestLocationClass(loc)}">${getQuestLocationLabel(loc)}</span>`
+    ).join(' ');
+}
+
+function displayQuests(quests) {
+    const tbody = document.getElementById('quests-tbody');
+    const countEl = document.getElementById('quest-count');
+
+    countEl.textContent = `${quests.length} quest${quests.length !== 1 ? 's' : ''} found`;
+
+    if (quests.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="4" class="loading">No quests found</td></tr>';
+        return;
+    }
+
+    const sorted = [...quests].sort((a, b) => a.resultName.localeCompare(b.resultName));
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const paginated = sorted.slice(start, end);
+
+    tbody.innerHTML = paginated.map(q => {
+        const item = itemsData.find(i => i.Id === q.resultId);
+        const effectHtml = itemEffectOverrides[q.resultId] || (item && item.Script ? parseItemScript(item.Script, item.EquipScript) : '<span style="color:#aaa">—</span>');
+        return `
+        <tr onclick="showQuestDetails(${q.id})">
+            <td class="col-icon">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${q.resultId}"
+                     alt="${q.resultName}"
+                     class="item-sprite-small"
+                     onerror="this.style.display='none'">
+            </td>
+            <td>${q.resultName}</td>
+            <td>${renderLocationBadges(q.locations)}</td>
+            <td class="quest-effect-cell">${effectHtml}</td>
+        </tr>`;
+    }).join('');
+
+    createPagination('quests', quests.length);
+}
+
+function showQuestDetails(questId) {
+    const q = questsData.find(x => x.id === questId);
+    if (!q) return;
+
+    const modal = document.getElementById('questModal');
+    const details = document.getElementById('questDetails');
+
+    // Try to get the item script from loaded itemsData for this headgear
+    const item = itemsData.find(i => i.Id === q.resultId);
+    const effectHtml = itemEffectOverrides[q.resultId] || (item && item.Script ? parseItemScript(item.Script, item.EquipScript) : '');
+
+    const requirementsHtml = q.requirements.map(r => `
+        <tr>
+            <td class="req-icon-cell">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${r.id}"
+                     alt="${r.name}"
+                     class="item-sprite-small"
+                     onerror="this.style.display='none'">
+            </td>
+            <td class="req-qty">${r.qty}x</td>
+            <td><span class="spawn-map-link" onclick="document.getElementById('questModal').style.display='none'; showItemDetails(${r.id})">${r.name}</span></td>
+        </tr>`).join('');
+
+    details.innerHTML = `
+        <div class="quest-detail-header">
+            <div class="quest-illustrations">
+                <img src="https://www.divine-pride.net/img/items/collection/iRO/${q.resultId}"
+                     alt="${q.resultName} illustration"
+                     class="quest-illustration"
+                     onerror="this.style.display='none'">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${q.resultId}"
+                     alt="${q.resultName}"
+                     class="quest-sprite-large"
+                     onerror="this.style.display='none'">
+            </div>
+            <div class="quest-title-section">
+                <h2>${q.resultName}</h2>
+                <div class="quest-meta">
+                    ${renderLocationBadges(q.locations)}
+                    <span class="quest-id">ID: ${q.resultId}</span>
+                </div>
+                ${effectHtml ? `<div class="quest-item-effect">${effectHtml}</div>` : ''}
+            </div>
+        </div>
+
+        <div class="detail-section">
+            <h3>Required Materials</h3>
+            <table class="quest-requirements-table">
+                <tbody>${requirementsHtml}</tbody>
+            </table>
+        </div>
+    `;
+
+    modal.style.display = 'block';
 }
 
 // Display maps
@@ -1541,8 +1744,12 @@ function displayMonsterModal(monster) {
                             const itemId = item ? item.Id : null;
                             const itemName = item ? item.Name : drop.Item;
                             const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                            const isCard = item && item.Type === 'Card';
+                            const clickHandler = isCard
+                                ? `showCardDetails(${itemId})`
+                                : `showItemDetails(${itemId})`;
                             const itemDisplay = itemId ? 
-                                `<span class="spawn-map-link" onclick="showItemDetails(${itemId})">${itemName}</span>` :
+                                `<span class="spawn-map-link" onclick="${clickHandler}">${itemName}</span>` :
                                 drop.Item;
                             return `
                                 <tr>
@@ -1722,7 +1929,12 @@ function displayMonsterModal(monster) {
 function showItemDetails(itemId) {
     const item = itemsData.find(i => i.Id === itemId);
     if (!item) return;
-    
+
+    // Cards use the dedicated card detail modal
+    if (item.Type === 'Card') {
+        showCardDetails(itemId);
+        return;
+    }
     const modal = document.getElementById('itemModal');
     const details = document.getElementById('itemDetails');
     
