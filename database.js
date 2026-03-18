@@ -40,6 +40,13 @@ let mapsData = [];
 let spawnsData = [];
 let mapGraph = {};
 let mapDisplayNames = {};
+let cardsData = [];
+
+// Hardcoded effect descriptions for cards whose EquipScript uses item-spawning logic
+const cardEffectOverrides = {
+    4144: 'When equipped, grants a Token of Siegfried allowing resurrection upon death (unlimited uses).',
+};
+
 let monsterTypeTags = {
     scarce: new Set(),
     champion: new Set(),
@@ -148,6 +155,13 @@ function performSearch() {
         );
         currentFilteredData = filtered;
         displayMaps(filtered);
+    } else if (currentTab === 'cards') {
+        const filtered = cardsData.filter(card =>
+            card.Name.toLowerCase().includes(searchTerm) ||
+            card.Id.toString().includes(searchTerm)
+        );
+        currentFilteredData = filtered;
+        displayCards(filtered);
     }
 }
 
@@ -321,6 +335,23 @@ function updateFilterOptions(tab) {
             checkbox.addEventListener('change', applyFilters);
         });
         document.getElementById('mapPlayerLevelFilter')?.addEventListener('input', applyFilters);
+    } else if (tab === 'cards') {
+        filterSection.innerHTML = `
+            <div class="filter-group">
+                <label>Compound Slot</label>
+                <select id="cardSlotFilter">
+                    <option value="">All Slots</option>
+                    <option value="Weapon">Weapon</option>
+                    <option value="Shield">Shield</option>
+                    <option value="Armor">Armor</option>
+                    <option value="Headgear">Headgear</option>
+                    <option value="Footgear">Footgear</option>
+                    <option value="Garment">Garment</option>
+                    <option value="Accessory">Accessory</option>
+                </select>
+            </div>
+        `;
+        document.getElementById('cardSlotFilter')?.addEventListener('change', applyFilters);
     } else {
         filterSection.innerHTML = '';
     }
@@ -576,6 +607,16 @@ function applyFilters() {
         
         currentFilteredData = filtered;
         displayMaps(filtered);
+    } else if (currentTab === 'cards') {
+        let filtered = [...cardsData];
+
+        const slotFilter = document.getElementById('cardSlotFilter')?.value;
+        if (slotFilter) {
+            filtered = filtered.filter(card => getCardCompoundSlot(card) === slotFilter);
+        }
+
+        currentFilteredData = filtered;
+        displayCards(filtered);
     }
 }
 
@@ -590,6 +631,9 @@ async function loadAllData() {
         // Load items
         const itemsResponse = await fetch('/api/items');
         itemsData = await itemsResponse.json();
+        
+        // Extract cards from items
+        cardsData = itemsData.filter(item => item.Type === 'Card');
         
         // Load spawns
         const spawnsResponse = await fetch('/api/spawns.json');
@@ -624,6 +668,8 @@ function displayCurrentTabData() {
             displayItems(currentFilteredData);
         } else if (currentTab === 'maps') {
             displayMaps(currentFilteredData);
+        } else if (currentTab === 'cards') {
+            displayCards(currentFilteredData);
         }
     } else {
         // No filters/search active, show all data
@@ -633,6 +679,8 @@ function displayCurrentTabData() {
             displayItems(itemsData);
         } else if (currentTab === 'maps') {
             displayMaps(mapsData);
+        } else if (currentTab === 'cards') {
+            displayCards(cardsData);
         }
     }
 }
@@ -868,6 +916,147 @@ function sortItemsByField(field) {
     currentPage = 1;
     const displayData = currentFilteredData || itemsData;
     displayItems(displayData);
+}
+
+// Get compound slot label from card Locations
+function getCardCompoundSlot(card) {
+    const locs = card.Locations || {};
+    if (locs.Right_Hand) return 'Weapon';
+    if (locs.Left_Hand) return 'Shield';
+    if (locs.Armor) return 'Armor';
+    if (locs.Head_Top || locs.Head_Mid || locs.Head_Low) return 'Headgear';
+    if (locs.Shoes) return 'Footgear';
+    if (locs.Garment) return 'Garment';
+    if (locs.Both_Accessory) return 'Accessory';
+    return 'Unknown';
+}
+
+// Get a brief one-line summary for the card table
+function getCardEffectSummary(card) {
+    if (cardEffectOverrides[card.Id]) {
+        const text = cardEffectOverrides[card.Id];
+        return text.length > 70 ? text.substring(0, 67) + '…' : text;
+    }
+    const script = card.Script || card.EquipScript || '';
+    if (!script.trim()) return 'See details';
+    const full = parseItemScript(card.Script, card.EquipScript);
+    // Just show first line
+    const first = full.split('<br>')[0];
+    return first.length > 70 ? first.substring(0, 67) + '…' : first;
+}
+
+// Display cards tab
+function displayCards(cards) {
+    const tbody = document.getElementById('cards-tbody');
+    const countEl = document.getElementById('card-count');
+
+    countEl.textContent = `${cards.length} cards found`;
+
+    if (cards.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="loading">No cards found</td></tr>';
+        return;
+    }
+
+    // Sort cards alphabetically by name
+    const sorted = [...cards].sort((a, b) => a.Name.localeCompare(b.Name));
+
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    const paginated = sorted.slice(start, end);
+
+    tbody.innerHTML = paginated.map(card => {
+        const slot = getCardCompoundSlot(card);
+        const summary = getCardEffectSummary(card);
+        return `
+        <tr onclick="showCardDetails(${card.Id})">
+            <td>${card.Id}</td>
+            <td class="col-icon">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${card.Id}"
+                     alt="${card.Name}"
+                     class="item-sprite-small"
+                     onerror="this.style.display='none'">
+            </td>
+            <td>${card.Name}</td>
+            <td><span class="card-slot-badge card-slot-${slot.toLowerCase()}">${slot}</span></td>
+            <td class="card-effect-summary">${summary}</td>
+        </tr>`;
+    }).join('');
+
+    createPagination('cards', cards.length);
+}
+
+// Show card detail modal
+function showCardDetails(cardId) {
+    const card = cardsData.find(c => c.Id === cardId);
+    if (!card) return;
+
+    const modal = document.getElementById('cardModal');
+    const details = document.getElementById('cardDetails');
+    const slot = getCardCompoundSlot(card);
+    const effectHtml = cardEffectOverrides[card.Id] || parseItemScript(card.Script, card.EquipScript);
+
+    // Find monsters that drop this card
+    let dropsFromHtml = '';
+    if (monstersData && monstersData.length > 0) {
+        const dropMonsters = monstersData.filter(m =>
+            m.Drops && m.Drops.some(drop => drop.Item === card.Name || drop.Item === card.AegisName)
+        );
+        if (dropMonsters.length > 0) {
+            dropsFromHtml = `
+                <div class="detail-section">
+                    <h3>Dropped By</h3>
+                    <table class="drops-table">
+                        <thead><tr><th>Monster</th><th>Rate</th></tr></thead>
+                        <tbody>
+                            ${dropMonsters.map(monster => {
+                                const drop = monster.Drops.find(d => d.Item === card.Name || d.Item === card.AegisName);
+                                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                                return `<tr>
+                                    <td><span class="spawn-map-link" onclick="closeCardModalAndShowMonster(${monster.Id})">${monster.Name}</span></td>
+                                    <td>${percent}%</td>
+                                </tr>`;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>`;
+        }
+    }
+
+    details.innerHTML = `
+        <div class="card-detail-header">
+            <div class="card-illustrations">
+                <img src="https://www.divine-pride.net/img/items/collection/iRO/${card.Id}"
+                     alt="${card.Name} illustration"
+                     class="card-illustration"
+                     onerror="this.style.display='none'">
+                <img src="https://www.divine-pride.net/img/items/item/iRO/${card.Id}"
+                     alt="${card.Name}"
+                     class="card-sprite-large"
+                     onerror="this.style.display='none'">
+            </div>
+            <div class="card-title-section">
+                <h2>${card.Name}</h2>
+                <div class="card-meta">
+                    <span class="card-slot-badge card-slot-${slot.toLowerCase()}">${slot}</span>
+                    <span class="card-id">ID: ${card.Id}</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="detail-section card-effect-section">
+            <h3>Card Effect</h3>
+            <div class="card-effect-text">${effectHtml}</div>
+        </div>
+
+        ${dropsFromHtml}
+    `;
+
+    modal.style.display = 'block';
+}
+
+function closeCardModalAndShowMonster(monsterId) {
+    document.getElementById('cardModal').style.display = 'none';
+    showMonsterDetails(monsterId);
 }
 
 // Display maps

@@ -2656,7 +2656,7 @@ Body:
     ArmorLevel: 1
     View: 815
     Script: |
-      autobonus "{ bonus3 bAutoSpell,\"MG_FIREBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_LIGHTNINGBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_COLDBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"WZ_EARTHSPIKE\",rand(1,5),400; bonus3 bAutoSpell,\"MG_SOULSTRIKE\",rand(1,5),400; }",60,5000,BF_NORMAL,"{ specialeffect2 EF_ENHANCE; }";
+      autobonus "{ bonus3 bAutoSpell,\"MG_FIREBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_LIGHTNINGBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"MG_COLDBOLT\",rand(1,5),400; bonus3 bAutoSpell,\"WZ_EARTHSPIKE\",rand(1,5),400; bonus3 bAutoSpell,\"MG_SOULSTRIKE\",rand(1,5),400; }",100,5000,BF_NORMAL,"{ specialeffect2 EF_ENHANCE; }";
   - Id: 5596
     AegisName: 4Leaf_Clover_In_Mouth
     Name: Four Leaf Clover
@@ -2844,8 +2844,8 @@ Body:
       bonus2 bSubSize,Size_All,5;
       bonus bStr,1;
       bonus bVit,1;
-  - Id: 18616
-    AegisName: Long_Tongue
+  - Id: 5272
+    AegisName: Long_Tongue2
     Name: Long Tongue
     Type: Armor
     Buy: 20
@@ -2854,8 +2854,7 @@ Body:
       Head_Low: true
     Slots: 1
     ArmorLevel: 1
-    EquipLevelMin: 20
-    View: 773
+    View: 801
     Script: |
       bonus bAspdRate,10;
       bonus bAgi,1;
@@ -3009,6 +3008,30 @@ Body:
     EquipLevelMin: 100
     Refineable: true
     View: 1118
+    Script: |
+      bonus bCastrate,-15;
+      bonus bDelayRate,-5;
+      bonus bAgi,3;
+      bonus bDex,3;
+      if (getrefine()>=7) {
+         bonus bCastrate,-5;
+         bonus bDelayRate,-5;
+      }
+  - Id: 5564
+    AegisName: Crown_Of_Deceit
+    Name: Crown of Deceit
+    Type: Armor
+    Buy: 20
+    Weight: 300
+    Defense: 3
+    Slots: 1
+    Locations:
+      Head_Mid: true
+      Head_Top: true
+    ArmorLevel: 1
+    EquipLevelMin: 85
+    Refineable: true
+    View: 544
     Script: |
       bonus bCastrate,-15;
       bonus bDelayRate,-5;

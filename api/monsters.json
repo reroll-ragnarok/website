@@ -3269,7 +3269,7 @@
         "Rate": 100
       },
       {
-        "Item": "Goblin_Card",
+        "Item": "Goblin_Archer_Card",
         "Rate": 50,
         "StealProtected": true
       }
@@ -8781,64 +8781,6 @@
       },
       {
         "Item": "Orc_Hero_Card",
-        "Rate": 50,
-        "StealProtected": true
-      }
-    ]
-  },
-  {
-    "Id": 2202,
-    "AegisName": "KRAKEN",
-    "Name": "Kraken",
-    "Level": 80,
-    "Hp": 175000,
-    "BaseExp": 75000,
-    "JobExp": 55000,
-    "MvpExp": 75000,
-    "Attack": 490,
-    "Attack2": 240,
-    "Defense": 125,
-    "MagicDefense": 90,
-    "Str": 82,
-    "Agi": 70,
-    "Vit": 78,
-    "Int": 72,
-    "Dex": 85,
-    "Luk": 68,
-    "AttackRange": 3,
-    "SkillRange": 10,
-    "ChaseRange": 12,
-    "Size": "Large",
-    "Race": "Fish",
-    "Element": "Water",
-    "ElementLevel": 4,
-    "WalkSpeed": 130,
-    "AttackDelay": 432,
-    "AttackMotion": 864,
-    "DamageMotion": 360,
-    "DamageTaken": 100,
-    "Ai": 21,
-    "Class": "Boss",
-    "Modes": {
-      "Mvp": true
-    },
-    "MvpDrops": [
-      {
-        "Item": "Treasure_Box",
-        "Rate": 5000
-      }
-    ],
-    "Drops": [
-      {
-        "Item": "Mistic_Frozen",
-        "Rate": 10000
-      },
-      {
-        "Item": "Treasure_Box",
-        "Rate": 1000
-      },
-      {
-        "Item": "Kraken_Card",
         "Rate": 50,
         "StealProtected": true
       }

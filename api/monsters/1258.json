@@ -44,7 +44,7 @@
       "Rate": 100
     },
     {
-      "Item": "Goblin_Card",
+      "Item": "Goblin_Archer_Card",
       "Rate": 50,
       "StealProtected": true
     }
