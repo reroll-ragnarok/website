@@ -232,7 +232,7 @@ const bonusDB = {
     bAddMonsterDropItem: { text: "Chance to obtain {i} when killing monsters", params: ['i', 'x'] },
 
     // Autospell
-    bAutoSpell: { text: "{n/10}% chance to cast Lv.{y} {sk}", params: ['sk', 'y', 'n'] },
+    bAutoSpell: { text: "{n/10}% chance to cast Lv.{y} {sk} when attacking", params: ['sk', 'y', 'n'] },
     bAutoSpellWhenHit: { text: "{n/10}% chance to cast Lv.{y} {sk} when hit", params: ['sk', 'y', 'n'] },
 
     // HP/SP drain
