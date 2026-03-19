@@ -1,4 +1,7 @@
-## v2.2 (06032026)
+## v2.3 (18032026)
+
+### Cards Reworked
+ - Updated effects of 100+ cards (check Database for effects)
 
 ### Monsters Rebalance
  - Normal monsters now have reduced HP in comparison to Scarce and Champion monsters
