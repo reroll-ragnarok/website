@@ -2968,7 +2968,7 @@ Body:
       bonus bMaxSP,300;
       bonus bInt,3;
       if (getrefine()>=7) {
-         bonus bMaxSP,10;
+         bonus bMaxSPrate,10;
       }
   - Id: 18570
     AegisName: Ancient_Gold_Deco

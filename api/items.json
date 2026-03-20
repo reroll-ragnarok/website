@@ -3339,7 +3339,7 @@
     "ArmorLevel": 1,
     "Refineable": true,
     "View": 165,
-    "Script": "bonus bMaxSP,300;\nbonus bInt,3;\nif (getrefine()>=7) {\n   bonus bMaxSP,10;\n}\n"
+    "Script": "bonus bMaxSP,300;\nbonus bInt,3;\nif (getrefine()>=7) {\n   bonus bMaxSPrate,10;\n}\n"
   },
   {
     "Id": 18570,
