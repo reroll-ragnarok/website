@@ -1087,25 +1087,26 @@ function showCardDetails(cardId) {
     // Find monsters that drop this card
     let dropsFromHtml = '';
     if (monstersData && monstersData.length > 0) {
-        const dropMonsters = monstersData.filter(m =>
-            m.Drops && m.Drops.some(drop => drop.Item === card.Name || drop.Item === card.AegisName)
-        );
-        if (dropMonsters.length > 0) {
+        const cardDropRows = [];
+        monstersData.forEach(m => {
+            const mvpDrop = m.MvpDrops && m.MvpDrops.find(d => d.Item === card.Name || d.Item === card.AegisName);
+            const drop = m.Drops && m.Drops.find(d => d.Item === card.Name || d.Item === card.AegisName);
+            if (mvpDrop) {
+                const percent = ((mvpDrop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                cardDropRows.push(`<tr><td><span class="spawn-map-link" onclick="closeCardModalAndShowMonster(${m.Id})">${m.Name}</span></td><td>${percent}%</td><td>MVP</td></tr>`);
+            }
+            if (drop) {
+                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                cardDropRows.push(`<tr><td><span class="spawn-map-link" onclick="closeCardModalAndShowMonster(${m.Id})">${m.Name}</span></td><td>${percent}%</td><td></td></tr>`);
+            }
+        });
+        if (cardDropRows.length > 0) {
             dropsFromHtml = `
                 <div class="detail-section">
                     <h3>Dropped By</h3>
                     <table class="drops-table">
-                        <thead><tr><th>Monster</th><th>Rate</th></tr></thead>
-                        <tbody>
-                            ${dropMonsters.map(monster => {
-                                const drop = monster.Drops.find(d => d.Item === card.Name || d.Item === card.AegisName);
-                                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
-                                return `<tr>
-                                    <td><span class="spawn-map-link" onclick="closeCardModalAndShowMonster(${monster.Id})">${monster.Name}</span></td>
-                                    <td>${percent}%</td>
-                                </tr>`;
-                            }).join('')}
-                        </tbody>
+                        <thead><tr><th>Monster</th><th>Rate</th><th></th></tr></thead>
+                        <tbody>${cardDropRows.join('')}</tbody>
                     </table>
                 </div>`;
         }
@@ -1726,11 +1727,11 @@ function displayMonsterModal(monster) {
     const modal = document.getElementById('monsterModal');
     const details = document.getElementById('monsterDetails');
     
-    let dropsHtml = '';
-    if (monster.Drops && monster.Drops.length > 0) {
-        dropsHtml = `
+    const buildDropTableHtml = (drops, heading) => {
+        if (!drops || drops.length === 0) return '';
+        return `
             <div class="detail-section">
-                <h3>Drops</h3>
+                <h3>${heading}</h3>
                 <table class="drops-table">
                     <thead>
                         <tr>
@@ -1739,7 +1740,7 @@ function displayMonsterModal(monster) {
                         </tr>
                     </thead>
                     <tbody>
-                        ${monster.Drops.map(drop => {
+                        ${drops.map(drop => {
                             const item = itemsData.find(i => i.Name === drop.Item || i.AegisName === drop.Item);
                             const itemId = item ? item.Id : null;
                             const itemName = item ? item.Name : drop.Item;
@@ -1748,7 +1749,7 @@ function displayMonsterModal(monster) {
                             const clickHandler = isCard
                                 ? `showCardDetails(${itemId})`
                                 : `showItemDetails(${itemId})`;
-                            const itemDisplay = itemId ? 
+                            const itemDisplay = itemId ?
                                 `<span class="spawn-map-link" onclick="${clickHandler}">${itemName}</span>` :
                                 drop.Item;
                             return `
@@ -1762,7 +1763,10 @@ function displayMonsterModal(monster) {
                 </table>
             </div>
         `;
-    }
+    };
+
+    let mvpDropsHtml = buildDropTableHtml(monster.MvpDrops, 'MVP Drops');
+    let dropsHtml = buildDropTableHtml(monster.Drops, 'Drops');
     
     let spawnsHtml = '';
     if (monster.spawns && monster.spawns.length > 0) {
@@ -1917,6 +1921,7 @@ function displayMonsterModal(monster) {
             
             <div class="detail-column-right">
                 ${spawnsHtml}
+                ${mvpDropsHtml}
                 ${dropsHtml}
             </div>
         </div>
@@ -1944,11 +1949,21 @@ function showItemDetails(itemId) {
     // Find monsters that drop this item
     let dropsFromHtml = '';
     if (monstersData && monstersData.length > 0) {
-        const dropMonsters = monstersData.filter(m => 
-            m.Drops && m.Drops.some(drop => drop.Item === item.Name || drop.Item === item.AegisName)
-        );
-        
-        if (dropMonsters.length > 0) {
+        const dropRows = [];
+        monstersData.forEach(m => {
+            const mvpDrop = m.MvpDrops && m.MvpDrops.find(d => d.Item === item.Name || d.Item === item.AegisName);
+            const drop = m.Drops && m.Drops.find(d => d.Item === item.Name || d.Item === item.AegisName);
+            if (mvpDrop) {
+                const percent = ((mvpDrop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                dropRows.push(`<tr><td><span class="spawn-map-link" onclick="closeItemModalAndShowMonster(${m.Id})">${m.Name}</span></td><td>${percent}%</td><td>MVP</td></tr>`);
+            }
+            if (drop) {
+                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
+                dropRows.push(`<tr><td><span class="spawn-map-link" onclick="closeItemModalAndShowMonster(${m.Id})">${m.Name}</span></td><td>${percent}%</td><td></td></tr>`);
+            }
+        });
+
+        if (dropRows.length > 0) {
             dropsFromHtml = `
                 <div class="detail-section">
                     <h3>Dropped By</h3>
@@ -1957,20 +1972,10 @@ function showItemDetails(itemId) {
                             <tr>
                                 <th>Monster</th>
                                 <th>Rate</th>
+                                <th></th>
                             </tr>
                         </thead>
-                        <tbody>
-                            ${dropMonsters.map(monster => {
-                                const drop = monster.Drops.find(d => d.Item === item.Name || d.Item === item.AegisName);
-                                const percent = ((drop.Rate / 10000) * 100).toFixed(2).replace(/\.?0+$/, '');
-                                return `
-                                    <tr>
-                                        <td><span class="spawn-map-link" onclick="closeItemModalAndShowMonster(${monster.Id})">${monster.Name}</span></td>
-                                        <td>${percent}%</td>
-                                    </tr>
-                                `;
-                            }).join('')}
-                        </tbody>
+                        <tbody>${dropRows.join('')}</tbody>
                     </table>
                 </div>
             `;
