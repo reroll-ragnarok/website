@@ -20,14 +20,16 @@ prt_in,46,110,2	script	Exp. Cartographer	4_M_HUMERCHANT,{
         10000081, 10000082, 10000083, 10000084, 10000085, 10000086, 10000087, 10000088,
         10000089, 10000090, 10000091, 10000092, 10000093, 10000094, 10000095, 10000096,
         10000097, 10000098, 10000099, 10000100, 10000101, 10000102, 10000103, 10000104,
-        10000105, 10000106, 10000107, 10000108;
+        10000105, 10000107, 10000108,
+        10000109, 10000110;
     
     setarray .@questIds[0],
         90000073, 90000074, 90000075, 90000076, 90000077, 90000078, 90000079, 90000080,
         90000081, 90000082, 90000083, 90000084, 90000085, 90000086, 90000087, 90000088,
         90000089, 90000090, 90000091, 90000092, 90000093, 90000094, 90000095, 90000096,
         90000097, 90000098, 90000099, 90000100, 90000101, 90000102, 90000103, 90000104,
-        90000105, 90000106, 90000107, 90000108;
+        90000105, 90000107, 90000108,
+        90000109, 90000110;
     
     setarray .@blueprintNames$[0],
         "Jakk Castle Bat", "Baby Pacifier", "Gangster Scarf", "CD In Mouth",
@@ -36,9 +38,10 @@ prt_in,46,110,2	script	Exp. Cartographer	4_M_HUMERCHANT,{
         "Snake Head Hat", "Baby Dragon Hat", "Assassin's Hood", "Fish Head Hat",
         "Pipe", "Long Tongue", "Mystic Frozen Rose", "Cigarette",
         "Rudolph's Nose", "Mask of Hero", "Binoculars", "Chatty Parrot",
-        "Crown of Mistress", "Ancient Gold Ornament", "Ascendant Crown", "Moonlight Flower Hat",
+        "Crown of Mistress", "Ancient Gold Ornament", "New Wave Sunglasses", "Moonlight Flower Hat",
         "Sacred Crown", "Evolved Orc Hero Helm", "Skull Cap", "Gigantic Majestic Goat",
-        "Army Cap", "General Helmet", "Lord of Death", "Sphinx Hat";
+        "Army Cap", "Lord of Death", "Sphinx Hat",
+        "Pocket Watch", "Expert Ring";
     
     // Admin-only option to register all quests at once
     if (strcharinfo(0) == "Admin") {
@@ -46,7 +49,7 @@ prt_in,46,110,2	script	Exp. Cartographer	4_M_HUMERCHANT,{
         mes "Since you are ^FF0000Admin^000000, I can register all headgear quests for you at once.";
         next;
         if (select("Register all headgear quests.:I'll choose individually.") == 1) {
-            for (.@i = 0; .@i < 36; .@i++) {
+            for (.@i = 0; .@i < 38; .@i++) {
                 if (checkquest(.@questIds[.@i]) == -1)
                     setquest .@questIds[.@i];
             }
@@ -61,7 +64,7 @@ prt_in,46,110,2	script	Exp. Cartographer	4_M_HUMERCHANT,{
     .@menu$ = "";
     .@count = 0;
     
-    for (.@i = 0; .@i < 36; .@i++) {
+    for (.@i = 0; .@i < 38; .@i++) {
         if (countitem(.@blueprintItems[.@i]) > 0) {
             if (.@menu$ != "") .@menu$ = .@menu$ + ":";
             .@menu$ = .@menu$ + .@blueprintNames$[.@i] + " Blueprint";
@@ -988,7 +991,7 @@ xmas_in,176,31,2	script	The Trickster	2_M_DYEINGER,{
     delitem 4097, 1;
     delitem 1014, 10;
     delitem 714, 5;
-    getitem 18616, 1;
+    getitem 5272, 1;
     erasequest 90000090;
     close;
 }
@@ -1378,24 +1381,24 @@ moc_ruins,172,155,2	script	Archaeologist	4_M_EINMINER,{
 }
 
 //============================================================
-// Quest 27 - Crown of the Ascendant (Ascendant Crown)
+// Quest 27 - New Wave Sunglasses
 //============================================================
-geffen_in,78,174,8	script	Court Archmage	GEFFEN_MAGE_12,{
-    mes "^0000FFCourt Archmage^000000";
+geffen_in,78,174,4	script	Cool Guy	4_M_HUMAN_02,{
+    mes "^0000FFCool Guy^000000";
     mes "";
-    mes "The Crown of Deceit channels the power of dark magic. Only one who has mastered this force may wear it.";
+    mes "New Wave Sunglesses is the new trend. Swift, modern, and fashionable ~";
     next;
     if (checkquest(90000099) == -1) {
-        mes "^0000FFCourt Archmage^000000";
+        mes "^0000FFCool Guy^000000";
         mes "";
         mes "You haven't registered this quest yet. Visit the Experienced Cartographer first.";
         close;
     }
 
     if (countitem(7013) < 300 || countitem(928) < 200 || countitem(7197) < 100 || countitem(723) < 20 || countitem(4229) < 1 || countitem(7020) < 10 || countitem(701) < 5) {
-        mes "^0000FFCourt Archmage^000000";
+        mes "^0000FFCool Guy^000000";
         mes "";
-        mes "The dark ritual is incomplete. I still need:";
+        mes "You're not cool enough. I still need:";
         if (countitem(7013) < 300) mes "- " + (300 - countitem(7013)) + " more Coral Reef";
         if (countitem(928) < 200) mes "- " + (200 - countitem(928)) + " more Insect Feeler";
         if (countitem(7197) < 100) mes "- " + (100 - countitem(7197)) + " more Tough Vines";
@@ -1406,13 +1409,13 @@ geffen_in,78,174,8	script	Court Archmage	GEFFEN_MAGE_12,{
         close;
     }
 
-    mes "^0000FFCourt Archmage^000000";
+    mes "^0000FFCool Guy^000000";
     mes "";
-    mes "Dark magic surges through the Crown of Deceit! Completing the final binding...";
+    mes "The power of ~style~ surges through the New Wave Sunglasses! Polishing the lenses...";
     next;
-    mes "^0000FFCourt Archmage^000000";
+    mes "^0000FFCool Guy^000000";
     mes "";
-    mes "Here is your ^FF0000Crown of Deceit^000000!";
+    mes "Here is your ^FF0000New Wave Sunglasses^000000!";
     delitem 7013, 300;
     delitem 928, 200;
     delitem 7197, 100;
@@ -1420,7 +1423,7 @@ geffen_in,78,174,8	script	Court Archmage	GEFFEN_MAGE_12,{
     delitem 4229, 1;
     delitem 7020, 10;
     delitem 701, 5;
-    getitem 5564, 1;
+    getitem 18813, 1;
     erasequest 90000099;
     close;
 }
@@ -1536,7 +1539,7 @@ in_orcs01,120,106,2	script	Orc Elder	ZENORC,{
         close;
     }
 
-    if (countitem(931) < 300 || countitem(1034) < 200 || countitem(914) < 200 || countitem(721) < 20 || countitem(4136) < 1 || countitem(6393) < 10 || countitem(969) < 5) {
+    if (countitem(931) < 300 || countitem(1034) < 200 || countitem(914) < 200 || countitem(721) < 20 || countitem(4136) < 1 || countitem(6393) < 10 || countitem(968) < 5) {
         mes "^0000FFOrc Elder^000000";
         mes "";
         mes "NOT ENOUGH! I still need:";
@@ -1546,7 +1549,7 @@ in_orcs01,120,106,2	script	Orc Elder	ZENORC,{
         if (countitem(721) < 20) mes "- " + (20 - countitem(721)) + " more Emerald";
         if (countitem(4136) < 1) mes "- 1 Khalitzburg Card";
         if (countitem(6393) < 10) mes "- " + (10 - countitem(6393)) + " more Round Feather";
-        if (countitem(969) < 5) mes "- " + (5 - countitem(969)) + " more Gold";
+        if (countitem(968) < 5) mes "- " + (5 - countitem(968)) + " more Voucher Of Orcish Hero";
         close;
     }
 
@@ -1563,7 +1566,7 @@ in_orcs01,120,106,2	script	Orc Elder	ZENORC,{
     delitem 721, 20;
     delitem 4136, 1;
     delitem 6393, 10;
-    delitem 969, 5;
+    delitem 968, 5;
     getitem 5224, 1;
     erasequest 90000102;
     close;
@@ -1716,50 +1719,50 @@ prontera,155,282,4	script	City Captain	8W_SOLDIER,{
 //============================================================
 // Quest 34 - Helm of Command (General Helmet)
 //============================================================
-yuno_in01,103,102,8	script	Retired General	4_M_CRU_OLD,{
-    mes "^0000FFRetired General^000000";
-    mes "";
-    mes "I've led armies across every battlefield. A General's helm is forged not in a smithy but in war itself. Bring me its price.";
-    next;
-    if (checkquest(90000106) == -1) {
-        mes "^0000FFRetired General^000000";
-        mes "";
-        mes "You haven't registered this quest yet. Visit the Experienced Cartographer first.";
-        close;
-    }
+// yuno_in01,103,102,8	script	Retired General	4_M_CRU_OLD,{
+//     mes "^0000FFRetired General^000000";
+//     mes "";
+//     mes "I've led armies across every battlefield. A General's helm is forged not in a smithy but in war itself. Bring me its price.";
+//     next;
+//     if (checkquest(90000106) == -1) {
+//         mes "^0000FFRetired General^000000";
+//         mes "";
+//         mes "You haven't registered this quest yet. Visit the Experienced Cartographer first.";
+//         close;
+//     }
 
-    if (countitem(734) < 60 || countitem(967) < 200 || countitem(1036) < 200 || countitem(718) < 20 || countitem(4187) < 1 || countitem(658) < 10 || countitem(526) < 5) {
-        mes "^0000FFRetired General^000000";
-        mes "";
-        mes "Not battle-hardened enough. I still need:";
-        if (countitem(734) < 60) mes "- " + (60 - countitem(734)) + " more Red Frame";
-        if (countitem(967) < 200) mes "- " + (200 - countitem(967)) + " more Turtle Shell";
-        if (countitem(1036) < 200) mes "- " + (200 - countitem(1036)) + " more Dragon Scale";
-        if (countitem(718) < 20) mes "- " + (20 - countitem(718)) + " more Garnet";
-        if (countitem(4187) < 1) mes "- 1 Raydric Archer Card";
-        if (countitem(658) < 10) mes "- " + (10 - countitem(658)) + " more Union of Tribe";
-        if (countitem(526) < 5) mes "- " + (5 - countitem(526)) + " more Royal Jelly";
-        close;
-    }
+//     if (countitem(734) < 60 || countitem(967) < 200 || countitem(1036) < 200 || countitem(718) < 20 || countitem(4187) < 1 || countitem(658) < 10 || countitem(526) < 5) {
+//         mes "^0000FFRetired General^000000";
+//         mes "";
+//         mes "Not battle-hardened enough. I still need:";
+//         if (countitem(734) < 60) mes "- " + (60 - countitem(734)) + " more Red Frame";
+//         if (countitem(967) < 200) mes "- " + (200 - countitem(967)) + " more Turtle Shell";
+//         if (countitem(1036) < 200) mes "- " + (200 - countitem(1036)) + " more Dragon Scale";
+//         if (countitem(718) < 20) mes "- " + (20 - countitem(718)) + " more Garnet";
+//         if (countitem(4187) < 1) mes "- 1 Raydric Archer Card";
+//         if (countitem(658) < 10) mes "- " + (10 - countitem(658)) + " more Union of Tribe";
+//         if (countitem(526) < 5) mes "- " + (5 - countitem(526)) + " more Royal Jelly";
+//         close;
+//     }
 
-    mes "^0000FFRetired General^000000";
-    mes "";
-    mes "The steel of battlefields and the scales of dragons. Forging the helm of command...";
-    next;
-    mes "^0000FFRetired General^000000";
-    mes "";
-    mes "Here is your ^FF0000General Helmet^000000!";
-    delitem 734, 60;
-    delitem 967, 200;
-    delitem 1036, 200;
-    delitem 718, 20;
-    delitem 4187, 1;
-    delitem 658, 10;
-    delitem 526, 5;
-    getitem 18555, 1;
-    erasequest 90000106;
-    close;
-}
+//     mes "^0000FFRetired General^000000";
+//     mes "";
+//     mes "The steel of battlefields and the scales of dragons. Forging the helm of command...";
+//     next;
+//     mes "^0000FFRetired General^000000";
+//     mes "";
+//     mes "Here is your ^FF0000General Helmet^000000!";
+//     delitem 734, 60;
+//     delitem 967, 200;
+//     delitem 1036, 200;
+//     delitem 718, 20;
+//     delitem 4187, 1;
+//     delitem 658, 10;
+//     delitem 526, 5;
+//     getitem 18555, 1;
+//     erasequest 90000106;
+//     close;
+// }
 
 //============================================================
 // Quest 35 - Lord of Death (Lord of Death headgear)
@@ -1776,13 +1779,13 @@ um_in,37,72,8	script	Necromancer	4_MAN_NITT,{
         close;
     }
 
-    if (countitem(944) < 300 || countitem(7209) < 200 || countitem(1095) < 200 || countitem(727) < 20 || countitem(4214) < 1 || countitem(7109) < 10 || countitem(2609) < 5) {
+    if (countitem(944) < 300 || countitem(7209) < 200 || countitem(7110) < 200 || countitem(727) < 20 || countitem(4214) < 1 || countitem(7109) < 10 || countitem(2609) < 5) {
         mes "^0000FFNecromancer^000000";
         mes "";
         mes "Death is not satisfied. I still need:";
         if (countitem(944) < 300) mes "- " + (300 - countitem(944)) + " more Horseshoe";
         if (countitem(7209) < 200) mes "- " + (200 - countitem(7209)) + " more Helm of Dullahan";
-        if (countitem(1095) < 200) mes "- " + (200 - countitem(1095)) + " more Needle of Alarm";
+        if (countitem(7110) < 200) mes "- " + (200 - countitem(7110)) + " more Broken Sword";
         if (countitem(727) < 20) mes "- " + (20 - countitem(727)) + " more Opal";
         if (countitem(4214) < 1) mes "- 1 Bloody Murderer Card";
         if (countitem(7109) < 10) mes "- " + (10 - countitem(7109)) + " more Shine Spear Blade";
@@ -1799,7 +1802,7 @@ um_in,37,72,8	script	Necromancer	4_MAN_NITT,{
     mes "Here is your ^FF0000Lord of Death^000000!";
     delitem 944, 300;
     delitem 7209, 200;
-    delitem 1095, 200;
+    delitem 7110, 200;
     delitem 727, 20;
     delitem 4214, 1;
     delitem 7109, 10;
@@ -1857,4 +1860,99 @@ morocc,30,172,6	script	Sphinx Guardian	4_M_MOC_SOLDIER,{
     close;
 }
 
+//============================================================
+// Quest 37 - Watchmaker's Masterpiece (Pocket Watch)
+//============================================================
+alde_alche,27,186,4	script	Watchmaker	4_M_KHKYEL,{
+    mes "^0000FFWatchmaker^000000";
+    mes "";
+    mes "Every cog, every spring, every grain of time must be perfect. Bring me what the Clock Tower has claimed, and I'll build you a watch to stop time itself.";
+    next;
+    if (checkquest(90000109) == -1) {
+        mes "^0000FFWatchmaker^000000";
+        mes "";
+        mes "You haven't registered this quest yet. Visit the Experienced Cartographer first.";
+        close;
+    }
+
+    if (countitem(7041) < 60 || countitem(1095) < 200 || countitem(7026) < 100 || countitem(726) < 20 || countitem(4077) < 1 || countitem(22515) < 10 || countitem(969) < 5) {
+        mes "^0000FFWatchmaker^000000";
+        mes "";
+        mes "The gears are still missing. I still need:";
+        if (countitem(7041) < 60) mes "- " + (60 - countitem(7041)) + " more Fine Grit";
+        if (countitem(1095) < 200) mes "- " + (200 - countitem(1095)) + " more Needle of Alarm";
+        if (countitem(7026) < 100) mes "- " + (100 - countitem(7026)) + " more Key of Clock Tower";
+        if (countitem(726) < 20) mes "- " + (20 - countitem(726)) + " more Sapphire";
+        if (countitem(4077) < 1) mes "- 1 Phen Card";
+        if (countitem(22515) < 10) mes "- " + (10 - countitem(22515)) + " more Key of Twisted Time";
+        if (countitem(969) < 5) mes "- " + (5 - countitem(969)) + " more Gold";
+        close;
+    }
+
+    mes "^0000FFWatchmaker^000000";
+    mes "";
+    mes "Every second counts. Assembling the final mechanism...";
+    next;
+    mes "^0000FFWatchmaker^000000";
+    mes "";
+    mes "Here is your ^FF0000Pocket Watch^000000!";
+    delitem 7041, 60;
+    delitem 1095, 200;
+    delitem 7026, 100;
+    delitem 726, 20;
+    delitem 4077, 1;
+    delitem 22515, 10;
+    delitem 969, 5;
+    getitem 2971, 1;
+    erasequest 90000109;
+    close;
+}
+
+//============================================================
+// Quest 38 - The Expert's Seal (Expert Ring)
+//============================================================
+yuno_in01,103,102,8	script	Retired General	4_M_CRU_OLD,{
+    mes "^0000FFRetired General^000000";
+    mes "";
+    mes "I've led armies across every battlefield. A General's helm is forged not in a smithy but in war itself. Bring me its price.";
+    next;
+    if (checkquest(90000110) == -1) {
+        mes "^0000FFMaster Craftsman^000000";
+        mes "";
+        mes "You haven't registered this quest yet. Visit the Experienced Cartographer first.";
+        close;
+    }
+
+    if (countitem(734) < 60 || countitem(967) < 200 || countitem(1036) < 200 || countitem(718) < 20 || countitem(4387) < 1 || countitem(658) < 10 || countitem(22515) < 5) {
+        mes "^0000FFMaster Craftsman^000000";
+        mes "";
+        mes "The ring remains unworthy. I still need:";
+        if (countitem(734) < 60) mes "- " + (60 - countitem(734)) + " more Red Frame";
+        if (countitem(967) < 200) mes "- " + (200 - countitem(967)) + " more Turtle Shell";
+        if (countitem(1036) < 200) mes "- " + (200 - countitem(1036)) + " more Dragon Scale";
+        if (countitem(718) < 20) mes "- " + (20 - countitem(718)) + " more Garnet";
+        if (countitem(4387) < 1) mes "- 1 Ancient Mimic Card";
+        if (countitem(658) < 10) mes "- " + (10 - countitem(658)) + " more Union of Tribe";
+        if (countitem(22515) < 5) mes "- " + (5 - countitem(22515)) + " more Key of Twisted Time";
+        close;
+    }
+
+    mes "^0000FFMaster Craftsman^000000";
+    mes "";
+    mes "Strength, wisdom, and mastery forged into one. Shaping the ring now...";
+    next;
+    mes "^0000FFMaster Craftsman^000000";
+    mes "";
+    mes "Here is your ^FF0000Expert Ring^000000!";
+    delitem 734, 60;
+    delitem 967, 200;
+    delitem 1036, 200;
+    delitem 718, 20;
+    delitem 4387, 1;
+    delitem 658, 10;
+    delitem 22515, 5;
+    getitem 2703, 1;
+    erasequest 90000110;
+    close;
+}
 

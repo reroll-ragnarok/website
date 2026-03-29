@@ -2054,10 +2054,12 @@ body.dark-mode .card-effect-section .card-effect-text {
 .quest-loc-top { background: #8e44ad22; color: #8e44ad; border: 1px solid #8e44ad66; }
 .quest-loc-mid { background: #2980b922; color: #2980b9; border: 1px solid #2980b966; }
 .quest-loc-low { background: #27ae6022; color: #27ae60; border: 1px solid #27ae6066; }
+.quest-loc-accessory { background: #d4ac0d22; color: #b7950b; border: 1px solid #d4ac0d66; }
 
 body.dark-mode .quest-loc-top { color: #c39bd3; border-color: #c39bd366; background: #c39bd315; }
 body.dark-mode .quest-loc-mid { color: #5dade2; border-color: #5dade266; background: #5dade215; }
 body.dark-mode .quest-loc-low { color: #58d68d; border-color: #58d68d66; background: #58d68d15; }
+body.dark-mode .quest-loc-accessory { color: #f7dc6f; border-color: #f7dc6f66; background: #f7dc6f15; }
 
 .quest-effect-cell {
     color: #555;

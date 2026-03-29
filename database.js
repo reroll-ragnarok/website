@@ -85,14 +85,14 @@ const questsData = [
     { id: 24, resultId: 5972,  resultName: "Chatty Parrot",           locations: ["Head_Mid"],  requirements: [{ qty: 200, name: "Torn Magic Book", id: 7117 }, { qty: 100, name: "Bill of Birds", id: 925 }, { qty: 100, name: "Feather", id: 949 }, { qty: 20, name: "Rouge", id: 739 }, { qty: 1, name: "Elder Willow Card", id: 4052 }, { qty: 10, name: "Treasure Box", id: 7444 }, { qty: 5, name: "Round Feather", id: 6393 }] },
     { id: 25, resultId: 5081,  resultName: "Crown of Mistress",       locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Moth Wings", id: 1058 }, { qty: 200, name: "Bee Sting", id: 939 }, { qty: 200, name: "Powder of Butterfly", id: 924 }, { qty: 20, name: "Pearl", id: 722 }, { qty: 1, name: "Carat Card", id: 4288 }, { qty: 10, name: "Royal Jelly", id: 526 }, { qty: 5, name: "Gold", id: 969 }] },
     { id: 26, resultId: 18570, resultName: "Ancient Gold Ornament",   locations: ["Head_Top"],  requirements: [{ qty: 60, name: "Old Portrait", id: 7014 }, { qty: 60, name: "Old Shuriken", id: 7072 }, { qty: 40, name: "Old Manteau", id: 7207 }, { qty: 20, name: "Turquoise", id: 7294 }, { qty: 1, name: "Anubis Card", id: 4138 }, { qty: 10, name: "Ora Ora", id: 701 }, { qty: 5, name: "Emperium", id: 714 }] },
-    { id: 27, resultId: 5564,  resultName: "Crown of Deceit",         locations: ["Head_Top"], requirements: [{ qty: 300, name: "Coral Reef", id: 7013 }, { qty: 200, name: "Insect Feeler", id: 928 }, { qty: 100, name: "Tough Vines", id: 7197 }, { qty: 20, name: "Ruby", id: 723 }, { qty: 1, name: "Clock Tower Manager Card", id: 4229 }, { qty: 10, name: "Mother's Nightmare", id: 7020 }, { qty: 5, name: "Ora Ora", id: 701 }] },
+    { id: 27, resultId: 18813, resultName: "New Wave Sunglasses",      locations: ["Head_Mid"],  requirements: [{ qty: 300, name: "Coral Reef", id: 7013 }, { qty: 200, name: "Insect Feeler", id: 928 }, { qty: 100, name: "Tough Vines", id: 7197 }, { qty: 20, name: "Ruby", id: 723 }, { qty: 1, name: "Clock Tower Manager Card", id: 4229 }, { qty: 10, name: "Mother's Nightmare", id: 7020 }, { qty: 5, name: "Ora Ora", id: 701 }] },
     { id: 28, resultId: 5214,  resultName: "Moonlight Flower Hat",    locations: ["Head_Top"],  requirements: [{ qty: 200, name: "Star Dust", id: 1001 }, { qty: 200, name: "Nine Tails", id: 1022 }, { qty: 200, name: "Animal Skin", id: 919 }, { qty: 20, name: "Topaz", id: 728 }, { qty: 1, name: "Bapho Jr. Card", id: 4129 }, { qty: 10, name: "Zero Merchant Bell", id: 23647 }, { qty: 5, name: "Tiger's Skin", id: 1029 }] },
     { id: 29, resultId: 19469, resultName: "Sacred Crown",            locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Memento", id: 934 }, { qty: 200, name: "Rotten Bandage", id: 930 }, { qty: 200, name: "Lantern", id: 1041 }, { qty: 20, name: "Aquamarine", id: 720 }, { qty: 1, name: "Loli Ruri Card", id: 4191 }, { qty: 10, name: "Sacred Marks", id: 1009 }, { qty: 5, name: "Armlet of Obedience", id: 639 }] },
     { id: 30, resultId: 5224,  resultName: "Evolved Orc Hero Helm",   locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Orcish Voucher", id: 931 }, { qty: 200, name: "Blue Hair", id: 1034 }, { qty: 200, name: "Fluff", id: 914 }, { qty: 20, name: "Emerald", id: 721 }, { qty: 1, name: "Khalitzburg Card", id: 4136 }, { qty: 10, name: "Round Feather", id: 6393 }, { qty: 5, name: "Gold", id: 969 }] },
     { id: 31, resultId: 18539, resultName: "Skull Cap",               locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Skull", id: 7005 }, { qty: 200, name: "Ectoplasm", id: 7220 }, { qty: 100, name: "Clattering Skull", id: 7752 }, { qty: 20, name: "Sapphire", id: 726 }, { qty: 1, name: "Dark Illusion Card", id: 4169 }, { qty: 10, name: "Skull Ring", id: 2609 }, { qty: 5, name: "Cardinal Jewel", id: 724 }] },
     { id: 32, resultId: 5518,  resultName: "Gigantic Majestic Goat",  locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Evil Horn", id: 923 }, { qty: 200, name: "Little Evil Horn", id: 1038 }, { qty: 200, name: "Antelope Horn", id: 7106 }, { qty: 20, name: "Zircon", id: 729 }, { qty: 1, name: "Andre Card", id: 4043 }, { qty: 10, name: "Wild Boar's Mane", id: 1028 }, { qty: 5, name: "Cardinal Jewel", id: 724 }] },
     { id: 33, resultId: 5685,  resultName: "Army Cap",                locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Reins", id: 1064 }, { qty: 200, name: "Burning Horseshoe", id: 7120 }, { qty: 200, name: "Conch", id: 961 }, { qty: 20, name: "Sardonyx", id: 725 }, { qty: 1, name: "Peco Peco Card", id: 4031 }, { qty: 10, name: "Cardinal Jewel", id: 724 }, { qty: 5, name: "Rojerta Piece", id: 7211 }] },
-    { id: 34, resultId: 18555, resultName: "General Helmet",          locations: ["Head_Top"],  requirements: [{ qty: 60, name: "Red Frame", id: 734 }, { qty: 200, name: "Turtle Shell", id: 967 }, { qty: 200, name: "Dragon Scale", id: 1036 }, { qty: 20, name: "Garnet", id: 718 }, { qty: 1, name: "Raydric Archer Card", id: 4187 }, { qty: 10, name: "Union of Tribe", id: 658 }, { qty: 5, name: "Royal Jelly", id: 526 }] },
+    { id: 34, resultId: 2703,  resultName: "Expert Ring",             locations: ["Accessory"], requirements: [{ qty: 60, name: "Red Frame", id: 734 }, { qty: 200, name: "Turtle Shell", id: 967 }, { qty: 200, name: "Dragon Scale", id: 1036 }, { qty: 20, name: "Garnet", id: 718 }, { qty: 1, name: "Raydric Archer Card", id: 4187 }, { qty: 10, name: "Union of Tribe", id: 658 }, { qty: 5, name: "Royal Jelly", id: 526 }] },
     { id: 35, resultId: 18574, resultName: "Lord of Death",           locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Horseshoe", id: 944 }, { qty: 200, name: "Helm of Dullahan", id: 7209 }, { qty: 200, name: "Needle of Alarm", id: 1095 }, { qty: 20, name: "Opal", id: 727 }, { qty: 1, name: "Bloody Murderer Card", id: 4214 }, { qty: 10, name: "Shine Spear Blade", id: 7109 }, { qty: 5, name: "Skull Ring", id: 2609 }] },
     { id: 36, resultId: 5166,  resultName: "Sphinx Hat",              locations: ["Head_Top"],  requirements: [{ qty: 300, name: "Broken Shell", id: 7070 }, { qty: 200, name: "Armor Piece of Dullahan", id: 7210 }, { qty: 40, name: "Crystal Mirror", id: 747 }, { qty: 20, name: "Amethyst", id: 719 }, { qty: 1, name: "Soldier Card", id: 4220 }, { qty: 10, name: "Rojerta Piece", id: 7211 }, { qty: 5, name: "Broken Pharaoh Symbol", id: 7113 }] },
 ];
@@ -421,12 +421,13 @@ function updateFilterOptions(tab) {
     } else if (tab === 'quests') {
         filterSection.innerHTML = `
             <div class="filter-group">
-                <label>Headgear Slot</label>
+                <label>Slot</label>
                 <select id="questLocationFilter">
                     <option value="">All Slots</option>
                     <option value="Head_Top">Top Headgear</option>
                     <option value="Head_Mid">Mid Headgear</option>
                     <option value="Head_Low">Low Headgear</option>
+                    <option value="Accessory">Accessory</option>
                 </select>
             </div>
         `;
@@ -1155,6 +1156,7 @@ function getQuestLocationLabel(loc) {
     if (loc === 'Head_Top') return 'Top';
     if (loc === 'Head_Mid') return 'Mid';
     if (loc === 'Head_Low') return 'Low';
+    if (loc === 'Accessory') return 'Accessory';
     return loc;
 }
 
@@ -1162,6 +1164,7 @@ function getQuestLocationClass(loc) {
     if (loc === 'Head_Top') return 'quest-loc-top';
     if (loc === 'Head_Mid') return 'quest-loc-mid';
     if (loc === 'Head_Low') return 'quest-loc-low';
+    if (loc === 'Accessory') return 'quest-loc-accessory';
     return 'quest-loc-top';
 }
 
