@@ -405,6 +405,14 @@ Body:
       NoSell: true
     Script: |
       getrandgroupitem(IG_VioletBox,1);
+  - Id: 22515
+    AegisName: Key_Of_Twisted_Time
+    Name: Twisted Key of Time
+    Type: DelayConsume
+    Buy: 10
+    Weight: 300
+    Script: |
+      itemskill "NPC_WIDECURSE",2;
 ###################################### Custom #######################################
   - Id: 10000072
     AegisName: C_Wing_Of_Butterfly
