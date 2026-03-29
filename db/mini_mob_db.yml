@@ -458,6 +458,8 @@ Body:
         Rate: 10000
       - Item: Cardinal_Jewel
         Rate: 5000
+      - Item: Ear_Of_Angel's_Wing
+        Rate: 500
       - Item: Angeling_Card
         Rate: 100
         StealProtected: true
@@ -623,6 +625,8 @@ Body:
     Drops:
       - Item: Skyblue_Jewel
         Rate: 10000
+      - Item: Devil's_Wing
+        Rate: 500
       - Item: Deviling_Card
         Rate: 100
         StealProtected: true

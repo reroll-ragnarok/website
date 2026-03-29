@@ -1,22 +1,25 @@
-## v2.3 (18032026)
+## v3.0 (29032026)
 
-### Cards Reworked
- - Updated effects of 100+ cards (check Database for effects)
+### Expansion: Twisted Time
+ - Added new floor to Clock Tower in Aldebaran
+ - 3 new regular monsters, 1 new champion monster, 1 new boss monster
+ - Added new quests
+ - Updated Gift Box, Old Blue Box, and Old Purple Box rewards
+ - New: Gold Coin Mechanic
+ - New: Costumes Mechanic
 
-### Monsters Rebalance
- - Normal monsters now have reduced HP in comparison to Scarce and Champion monsters
- - Adjusted spawn amount for Normal monsters on various maps
- - Adjusted spawn amount for Scarce monsters on various maps
- - Increased spawn of Champion monsters on various maps
- - New level 90 champion monsters (Khalitzburg, Dark Frame, Assaulter)
+### New Quests
+ - REMOVED: Crown of Deceit
+ - REMOVED: General Helmet
+ - ADDED: New Wave Sunglasses, replacing Crown of Deceit (same quest)
+ - ADDED: Expert Ring, replacing General Helmet (pretty much same quest)
+ - ADDED: Pocket Watch (new MVP drops blueprint)
 
-### Items Rebalance
- - Items prices now scale better with monster level, type of monster, and drop rates
- - Adjusted item amounts for headgear quests to reflect new difficulty given to new champion monsters
+### Gold Coin Mechanic
+ - Cool Vending Machine now uses Gold Coin as currency
+ - New monsters drop Gold Coins
+ - Gold Exchanger: Turns Gold and Bag of Gold Coins into Gold Coins (10 and 5 respectively) 
 
-### Minor Adjustments and Enhancements
- - Fixed MVP Tombs, now every Boss and Mini-Boss spawns Tomb on death
- - Moved Personal Trainer (Weight Capacity Increase NPC) to Convenience Hub
- - Added HD Ores (check Equipment Enhancement Hub)
- - Slotting Items is now cheaper and require Steel instead of Ores
- - Every Jewel is now obtainable from Mini-Bosses
+### Costumes Mechanic
+ - Monsters drops classic items
+ - Newer items available in Cool Vending Machine

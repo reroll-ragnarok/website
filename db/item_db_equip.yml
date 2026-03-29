@@ -2719,7 +2719,6 @@ Body:
     Weight: 100
     Slots: 1
     Locations:
-      Head_Low: true
       Head_Mid: true
     ArmorLevel: 1
     View: 174
@@ -2899,7 +2898,7 @@ Body:
     Weight: 100
     Slots: 1
     Locations:
-      Head_Low: true
+      Head_Mid: true
     ArmorLevel: 1
     View: 49
     Script: |
@@ -3026,7 +3025,6 @@ Body:
     Defense: 3
     Slots: 1
     Locations:
-      Head_Mid: true
       Head_Top: true
     ArmorLevel: 1
     EquipLevelMin: 85
@@ -3227,3 +3225,47 @@ Body:
          bonus bShortWeaponDamageReturn,5;
          bonus bLongWeaponDamageReturn,5;
       }
+
+######################################## Boss Droppable Accessory #########################################
+  - Id: 2971
+    AegisName: Pocket_Watch__
+    Name: Pocket Watch
+    Type: Armor
+    Buy: 20
+    Weight: 200
+    Defense: 1
+    Slots: 1
+    Locations:
+      Both_Accessory: true
+    Script: |
+      bonus bCastrate,-10;
+  - Id: 2703
+    AegisName: Expert_Ring
+    Name: Expert Ring
+    Type: Armor
+    Buy: 20
+    Weight: 150
+    Slots: 1
+    Jobs:
+      All: true
+      Novice: false
+      SuperNovice: false
+    Locations:
+      Both_Accessory: true
+    ArmorLevel: 1
+    Script: |
+      bonus bDelayrate,-10;
+  - Id: 18813
+    AegisName: New_Wave_Sunglasses
+    Name: New Wave Sunglasses
+    Type: Armor
+    Buy: 10
+    Weight: 100
+    Locations:
+      Head_Mid: true
+    ArmorLevel: 1
+    EquipLevelMin: 30
+    Slots: 1
+    View: 856
+    Script: |
+      bonus bDelayrate,-15;

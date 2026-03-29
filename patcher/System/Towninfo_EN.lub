@@ -23,7 +23,8 @@ mapNPCInfoTable = {
 	prontera = {
 		{ name = [=[Kafra Employee]=], X = 160, Y = 192, TYPE = 6, },
 		{ name = [=[Convenience Hub]=], X = 136, Y = 186, TYPE = 5, },
-		{ name = [=[Equipment Enhancement]=], X = 174, Y = 218, TYPE = 3, },
+		{ name = [=[Equipment Enhancement Hub]=], X = 174, Y = 218, TYPE = 3, },
+		{ name = [=[Event Hub]=], X = 178, Y = 185, TYPE = 7, },
 		{ name = [=[Job Quest]=], X = 234, Y = 314, TYPE = 1, },
 		{ name = [=[Job Quest]=], X = 48, Y = 343, TYPE = 1, },
 		{ name = [=[Quest]=], X = 204, Y = 188, TYPE = 4, },
@@ -77,6 +78,7 @@ mapNPCInfoTable = {
 		{ name = [=[Kafra Employee]=], X = 143, Y = 120, TYPE = 6, },
 		{ name = [=[Job Quest]=], X = 73, Y = 197, TYPE = 1, },
 		{ name = [=[Quest]=], X = 231, Y = 107, TYPE = 4, },
+		{ name = [=[Quest]=], X = 67, Y = 67, TYPE = 4, },
 	},
 
 	xmas = {

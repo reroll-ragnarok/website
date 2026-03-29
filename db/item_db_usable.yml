@@ -368,6 +368,43 @@ Body:
     Type: Usable
     Script: |
       /* TODO dynamic npc */
+  - Id: 644
+    AegisName: Gift_Box
+    Name: Gift Box
+    Type: Usable
+    Buy: 1000
+    Weight: 100
+    Flags:
+      BuyingStore: true
+      Container: true
+    Script: |
+      getrandgroupitem(IG_GiftBox,1);
+  - Id: 603
+    AegisName: Old_Blue_Box
+    Name: Old Blue Box
+    Type: Usable
+    Buy: 1000
+    Weight: 100
+    Flags:
+      BuyingStore: true
+      Container: true
+    Trade:
+      NoSell: true
+    Script: |
+      getrandgroupitem(IG_BlueBox,1);
+  - Id: 617
+    AegisName: Old_Violet_Box
+    Name: Old Purple Box
+    Type: Usable
+    Buy: 1000
+    Weight: 100
+    Flags:
+      BuyingStore: true
+      Container: true
+    Trade:
+      NoSell: true
+    Script: |
+      getrandgroupitem(IG_VioletBox,1);
 ###################################### Custom #######################################
   - Id: 10000072
     AegisName: C_Wing_Of_Butterfly

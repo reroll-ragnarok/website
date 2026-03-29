@@ -367,6 +367,8 @@ Body:
         Rate: 10000
       - Item: Transparent_Cloth
         Rate: 5000
+      - Item: Opera_Ghost_Mask
+        Rate: 500
       - Item: Whisper_Boss_Card
         Rate: 100
         StealProtected: true
@@ -450,6 +452,8 @@ Body:
         Rate: 10000
       - Item: Animal_Blood
         Rate: 5000
+      - Item: Round_Eyes
+        Rate: 100
       - Item: Medusa_Card
         Rate: 50
         StealProtected: true
@@ -1047,6 +1051,8 @@ Body:
         Rate: 10000
       - Item: Rose_Quartz
         Rate: 5000
+      - Item: Zherlthsh_Mask
+        Rate: 500
       - Item: Zherlthsh_Card
         Rate: 100
         StealProtected: true

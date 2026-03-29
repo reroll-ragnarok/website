@@ -409,8 +409,8 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus3 bAutoSpell,"MO_CALLSPIRITS",5,100;
-      if (!SC_EXPLOSIONSPIRITS) bonus3 bAutoSpell,"MO_EXPLOSIONSPIRITS",1,100;
+      bonus3 bAutoSpell,"MO_CALLSPIRITS",5,250;
+      bonus3 bAutoSpell,"MO_FINGEROFFENSIVE",1,100;
 
   - Id: 4306
     AegisName: Toad_Card
@@ -1482,7 +1482,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus2 bAddMonsterDropItem,644,30;
+      bonus2 bAddMonsterDropItem,644,777;
 
   - Id: 4234
     AegisName: Anolian_Card
@@ -1827,7 +1827,7 @@ Body:
     Buy: 20
     Weight: 10
     Locations:
-      Shoes: true
+      Right_Hand: true
     Flags:
       BuyingStore: true
       DropEffect: CLIENT
@@ -2111,7 +2111,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus bVariableCastrate,-10;
+      bonus bCastrate,-10;
 
   - Id: 4177
     AegisName: Dryad_Card
@@ -2181,7 +2181,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus3 bAutoSpell,"SM_PROVOKE",5,100;
+      bonus4 bAutoSpell,"SM_PROVOKE",5,100,0;
 
   - Id: 4229
     AegisName: C_Tower_Manager_Card
@@ -2239,7 +2239,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus3 bAutoSpell,"CG_ARROWVULCAN",5,100;
+      bonus3 bAutoSpell,"BA_MUSICALSTRIKE",5,100;
 
   - Id: 4280
     AegisName: Geographer_Card
@@ -2487,7 +2487,7 @@ Body:
       BuyingStore: true
       DropEffect: CLIENT
     Script: |
-      bonus bVariableCastrate,-30;
+      bonus bCastrate,-30;
 
   - Id: 4170
     AegisName: Dark_Frame_Card
@@ -3060,3 +3060,46 @@ Body:
       DropEffect: CLIENT
     Script: |
       bonus2 bAddEle,Ele_Earth,20;
+
+  - Id: 4625
+    AegisName: Timeholder_Card
+    Name: Time Holder Card
+    Type: Card
+    Buy: 20
+    Weight: 10
+    Locations:
+      Right_Hand: true
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Script: |
+      bonus2 bMagicAddClass,Class_All,25;
+
+  - Id: 4205
+    AegisName: Mimic_Card
+    Name: Mimic Card
+    Type: Card
+    Buy: 20
+    Weight: 10
+    Locations:
+      Both_Accessory: true
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Script: |
+      bonus2 bAddMonsterDropItem,603,777;
+  
+  - Id: 4387
+    AegisName: Ancient_Mimic_Card
+    Name: Ancient Mimic Card
+    Type: Card
+    Buy: 20
+    Weight: 10
+    Locations:
+      Both_Accessory: true
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Script: |
+      bonus2 bAddMonsterDropItem,617,777;
+      

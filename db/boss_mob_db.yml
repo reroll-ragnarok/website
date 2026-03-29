@@ -52,6 +52,8 @@ Body:
         Rate: 5000
       - Item: Smoking_Pipe_Blueprint
         Rate: 2000
+      - Item: Helm_Of_Sun
+        Rate: 500
       - Item: Eddga_Card
         Rate: 50
         StealProtected: true
@@ -200,7 +202,7 @@ Body:
         Rate: 10000
       - Item: Mother's_Nightmare
         Rate: 5000
-      - Item: Ascendant_Crown__Blueprint
+      - Item: New_Wave_Sunglasses_Blueprint
         Rate: 2000
       - Item: Maya_Card
         Rate: 50
@@ -353,6 +355,8 @@ Body:
         Rate: 5000
       - Item: Charm_Of_Frozen_BR_Blueprint
         Rate: 2000
+      - Item: Helm_Of_Angel
+        Rate: 500
       - Item: Garm_Card
         Rate: 50
         StealProtected: true
@@ -899,7 +903,7 @@ Body:
         Rate: 10000
       - Item: Union_Of_Tribe
         Rate: 5000
-      - Item: General_Helmet_Blueprint
+      - Item: Expert_Ring_Blueprint
         Rate: 2000
       - Item: Turtle_General_Card
         Rate: 50
@@ -1001,5 +1005,55 @@ Body:
       - Item: Lord_of_Death_Blueprint
         Rate: 2000
       - Item: Lord_Of_Death_Card
+        Rate: 50
+        StealProtected: true
+  
+  - Id: 3074
+    AegisName: TIMEHOLDER
+    Name: Time Holder
+    Level: 99
+    Hp: 500000
+    BaseExp: 300000
+    JobExp: 77500
+    MvpExp: 300000
+    Attack: 750
+    Attack2: 350
+    Defense: 200
+    MagicDefense: 200
+    Str: 94
+    Agi: 80
+    Vit: 110
+    Int: 110
+    Dex: 110
+    Luk: 75
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Demon
+    RaceGroups:
+      Clocktower: true
+    Element: Neutral
+    ElementLevel: 4
+    WalkSpeed: 150
+    AttackDelay: 100
+    AttackMotion: 576
+    DamageMotion: 480
+    DamageTaken: 100
+    Ai: 21
+    Class: Boss
+    Modes:
+      Mvp: true
+    MvpDrops:
+      - Item: Key_Of_Twisted_Time
+        Rate: 10000
+    Drops:
+      - Item: Star_Crumb
+        Rate: 10000
+      - Item: Key_Of_Twisted_Time
+        Rate: 5000
+      - Item: Pocket_Watch_Blueprint
+        Rate: 2000
+      - Item: Timeholder_Card
         Rate: 50
         StealProtected: true

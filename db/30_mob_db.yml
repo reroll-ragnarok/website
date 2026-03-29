@@ -357,6 +357,8 @@ Body:
         Rate: 10000
       - Item: Sparkling_Dust
         Rate: 1000
+      - Item: Elven_Ears
+        Rate: 300
       - Item: Giearth_Card
         Rate: 100
         StealProtected: true

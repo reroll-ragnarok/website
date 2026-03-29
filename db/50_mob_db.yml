@@ -196,6 +196,8 @@ Body:
         Rate: 10000
       - Item: Skel_Bone
         Rate: 5000
+      - Item: Takius_Blindfold
+        Rate: 100
       - Item: Archer_Skeleton_Card
         Rate: 50
         StealProtected: true
@@ -573,6 +575,8 @@ Body:
         Rate: 10000
       - Item: Glass_Bead
         Rate: 5000
+      - Item: Fur_Hat
+        Rate: 100
       - Item: Fur_Seal_Card
         Rate: 50
         StealProtected: true

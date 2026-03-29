@@ -606,6 +606,8 @@ Body:
         Rate: 10000
       - Item: Elunium
         Rate: 1500
+      - Item: C_Iron_Cane
+        Rate: 100
       - Item: Daydric_Card
         Rate: 50
         StealProtected: true
@@ -763,6 +765,8 @@ Body:
         Rate: 10000
       - Item: Oridecon
         Rate: 1500
+      - Item: Joker_Jester
+        Rate: 100
       - Item: Carat_Card
         Rate: 50
         StealProtected: true

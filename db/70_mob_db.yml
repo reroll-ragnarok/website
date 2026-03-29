@@ -234,6 +234,8 @@ Body:
         Rate: 10000
       - Item: Clattering_Skull
         Rate: 5000
+      - Item: Dark_Blindfold
+        Rate: 100
       - Item: Marduk_Card
         Rate: 50
         StealProtected: true

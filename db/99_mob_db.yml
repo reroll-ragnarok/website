@@ -4,7 +4,126 @@ Header:
 
 Body:
 
-####################################### Yuno #######################################
+####################################### Al de Baran & Yuno #######################################
+
+  - Id: 1195
+    AegisName: RIDEWORD
+    Name: Rideword
+    Level: 99
+    Hp: 13222
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1387
+    Attack2: 622
+    Defense: 61
+    MagicDefense: 38
+    Str: 97
+    Agi: 43
+    Vit: 72
+    Int: 84
+    Dex: 96
+    Luk: 75
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Small
+    Race: Formless
+    RaceGroups:
+      Clocktower: true
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 150
+    AttackDelay: 864
+    AttackMotion: 500
+    DamageMotion: 192
+    Ai: 21
+    Drops:
+      - Item: Old_Magic_Book
+        Rate: 10000
+      - Item: Bookclip_In_Memory
+        Rate: 5000
+      - Item: Rideword_Card
+        Rate: 50
+        StealProtected: true
+  
+  - Id: 1191
+    AegisName: MIMIC
+    Name: Mimic
+    Level: 99
+    Hp: 16939
+    BaseExp: 3000
+    JobExp: 775
+    Attack: 1232
+    Attack2: 622
+    Defense: 63
+    MagicDefense: 15
+    Str: 98
+    Agi: 43
+    Vit: 53
+    Int: 87
+    Dex: 96
+    Luk: 69
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Medium
+    Race: Formless
+    RaceGroups:
+      Clocktower: true
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 100
+    AttackDelay: 972
+    AttackMotion: 500
+    DamageMotion: 288
+    Ai: 19
+    Drops:
+      - Item: Gold_Coin
+        Rate: 1500
+      - Item: Old_Blue_Box
+        Rate: 1000
+      - Item: Mimic_Card
+        Rate: 50
+        StealProtected: true
+  
+  ### CHAMPION ###
+  - Id: 1699
+    AegisName: ANCIENT_MIMIC
+    Name: Ancient Mimic
+    Level: 99
+    Hp: 50000
+    BaseExp: 15000
+    JobExp: 3875
+    Attack: 1959
+    Attack2: 1384
+    Defense: 100
+    MagicDefense: 40
+    Str: 81
+    Agi: 60
+    Vit: 99
+    Int: 99
+    Dex: 94
+    Luk: 67
+    AttackRange: 1
+    SkillRange: 10
+    ChaseRange: 12
+    Size: Large
+    Race: Formless
+    Element: Neutral
+    ElementLevel: 3
+    WalkSpeed: 100
+    AttackDelay: 168
+    AttackMotion: 480
+    DamageMotion: 360
+    Ai: 04
+    Drops:
+      - Item: Gold_Coin_Moneybag
+        Rate: 1500
+      - Item: Old_Violet_Box
+        Rate: 1000
+      - Item: Ancient_Mimic_Card
+        Rate: 100
+        StealProtected: true
 
   ### CHAMPION ###
   - Id: 1366
@@ -243,6 +362,8 @@ Body:
         Rate: 10000
       - Item: Bat_Cage
         Rate: 5000
+      - Item: Drooping_Kitty
+        Rate: 100
       - Item: Loli_Ruri_Card
         Rate: 50
         StealProtected: true
@@ -403,6 +524,8 @@ Body:
         Rate: 10000
       - Item: Soft_Feather
         Rate: 5000
+      - Item: Feather_Beret
+        Rate: 100
       - Item: Owl_Duke_Card
         Rate: 50
         StealProtected: true
@@ -442,6 +565,8 @@ Body:
         Rate: 10000
       - Item: Soft_Feather
         Rate: 5000
+      - Item: Magician_Hat
+        Rate: 100
       - Item: Owl_Baron_Card
         Rate: 50
         StealProtected: true
@@ -483,6 +608,8 @@ Body:
         Rate: 10000
       - Item: Rouge
         Rate: 5000
+      - Item: Blush
+        Rate: 500
       - Item: Alice_Card
         Rate: 100
         StealProtected: true

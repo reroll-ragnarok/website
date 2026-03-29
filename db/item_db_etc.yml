@@ -1374,6 +1374,22 @@ Body:
     Flags:
       BuyingStore: true
 ######################################## Level 99 #########################################
+  - Id: 670
+    AegisName: Gold_Coin_Moneybag
+    Name: Bag of Gold Coins
+    Type: Etc
+    Buy: 50000
+    Weight: 400
+    Flags:
+      BuyingStore: true
+  - Id: 671
+    AegisName: Gold_Coin
+    Name: Gold Coin
+    Type: Etc
+    Buy: 10000
+    Weight: 40
+    Flags:
+      BuyingStore: true
   - Id: 7096
     AegisName: Cold_Magma
     Name: Lava
@@ -2160,8 +2176,8 @@ Body:
     Trade:
       NoSell: true
   - Id: 10000099
-    AegisName: Ascendant_Crown__Blueprint
-    Name: Crown of Deceit Blueprint
+    AegisName: New_Wave_Sunglasses_Blueprint
+    Name: New Wave Sunglasses Blueprint
     Type: Etc
     Buy: 0
     Weight: 0
@@ -2261,6 +2277,28 @@ Body:
   - Id: 10000108
     AegisName: Spinx_Helm__Blueprint
     Name: Sphinx Hat Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000109
+    AegisName: Pocket_Watch_Blueprint
+    Name: Pocket Watch Blueprint
+    Type: Etc
+    Buy: 0
+    Weight: 0
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Trade:
+      NoSell: true
+  - Id: 10000110
+    AegisName: Expert_Ring_Blueprint
+    Name: Expert Ring Blueprint
     Type: Etc
     Buy: 0
     Weight: 0

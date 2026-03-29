@@ -1,0 +1,638 @@
+# This file is a part of rAthena.
+#   Copyright(C) 2021 rAthena Development Team
+#   https://rathena.org - https://github.com/rathena
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+#
+###########################################################################
+# Item Group Database
+###########################################################################
+#
+# Item Group Settings
+#
+###########################################################################
+# - Group                      Group name of the item.
+#   SubGroups:
+#     - SubGroup:              SubGroup number associated with the list of item. See doc/item_group.txt for more information.
+#       List:                  List of item(s) for the SubGroup.
+#        - Item                AegisName of item that will be obtained from this item group.
+#          Rate                Probability to get the item. See doc/item_group.txt for more information. (Default: 0)
+#          Amount              Amount of item that will be obtained. (Default: 1)
+#          Duration            Makes the item a rental item which will expire within the given amount in minutes. Not intended for use with stackable items. (Default: 0)
+#          Announced           If player obtains this item it will be broadcasted to the server. (Default: false)
+#          UniqueId            Makes the given item(s) have a Unique ID. (Default: UniqueId from item_db)
+#          Stacked             Whether stackable items are given stacked or not. (Default: true)
+#          Named               Inscribes the item with the obtainer's name. (Default: false)
+#          Bound               Binds the obtained item. (Default: None)
+#          RandomOptionGroup   Applies random options of this group to all equipable items (Default: None)
+#          RefineMinimum       Applies at least this refine level to all equipable items (Default: 0)
+#          RefineMaximum       Applies at most this refine level to all equipable items (Default: 0)
+#          Clear               Remove the given item. (Optional)
+#       Clear                  Remove the given SubGroup. (Optional)
+###########################################################################
+
+Header:
+  Type: ITEM_GROUP_DB
+  Version: 2
+
+Body:
+- Group: GIFTBOX
+  SubGroups:
+    - SubGroup: 1
+      List:
+        - Item: Gift_Box
+          Rate: 10
+        - Item: Gold_Coin
+          Rate: 10
+        # Healing items (except Royal Jelly)
+        - Item: Apple
+          Rate: 5
+        - Item: Green_Herb
+          Rate: 5
+        - Item: Orange
+          Rate: 5
+        - Item: Strawberry
+          Rate: 5
+        - Item: Carrot
+          Rate: 5
+        - Item: Milk
+          Rate: 5
+        - Item: Honey
+          Rate: 5
+        - Item: Leaflet_Of_Hinal
+          Rate: 5
+        - Item: Banana
+          Rate: 5
+        - Item: Grape
+          Rate: 5
+        - Item: Leaflet_Of_Aloe
+          Rate: 5
+        - Item: Well_Baked_Cookie
+          Rate: 5
+        - Item: Candy_Striper
+          Rate: 5
+        - Item: Fruit_Of_Mastela
+          Rate: 5
+        - Item: Blue_Potion
+          Rate: 5
+        - Item: Piece_Of_Cake
+          Rate: 10
+        - Item: Ice_Cream
+          Rate: 10
+        - Item: Pet_Food
+          Rate: 10
+        # Misc collectibles
+        - Item: Four_Leaf_Clover
+          Rate: 3
+        - Item: Rouge
+          Rate: 3
+        - Item: Red_Frame
+          Rate: 3
+        - Item: Patriotism_Marks
+          Rate: 3
+        - Item: Executioner's_Mitten
+          Rate: 3
+        - Item: Alice's_Apron
+          Rate: 3
+        - Item: Crystal_Mirror
+          Rate: 3
+        - Item: Rose_Quartz
+          Rate: 3
+        - Item: White_Platter
+          Rate: 3
+        # Jewels
+        - Item: Dark_Red_Jewel
+          Rate: 2
+        - Item: Violet_Jewel
+          Rate: 2
+        - Item: Skyblue_Jewel
+          Rate: 2
+        - Item: Azure_Jewel
+          Rate: 2
+        - Item: Scarlet_Jewel
+          Rate: 2
+        - Item: Cardinal_Jewel
+          Rate: 2
+        - Item: Cardinal_Jewel_
+          Rate: 2
+        - Item: Red_Jewel
+          Rate: 2
+        - Item: Blue_Jewel
+          Rate: 2
+        - Item: White_Jewel
+          Rate: 2
+        - Item: Golden_Jewel
+          Rate: 2
+        - Item: Bluish_Green_Jewel
+          Rate: 2
+        - Item: Turquoise
+          Rate: 2
+        # Dolls
+        - Item: Stuffed_Doll
+          Rate: 3
+        - Item: Munak_Doll
+          Rate: 3
+        - Item: Black_Kitty_Doll
+          Rate: 3
+        - Item: Poring_Doll
+          Rate: 3
+        - Item: Chonchon_Doll
+          Rate: 3
+        - Item: Grasshopper_Doll
+          Rate: 3
+        - Item: Monkey_Doll
+          Rate: 3
+        - Item: Baphomet_Doll
+          Rate: 3
+        - Item: Osiris_Doll
+          Rate: 3
+        # Cute Costumes
+        - Item: C_Blessing_Of_Angels
+          Rate: 1
+        - Item: C_Minions_Of_Devil
+          Rate: 1
+        - Item: C_Angeling_Wanna_Fly
+          Rate: 1
+#########################################################################
+- Group: BLUEBOX
+  SubGroups:
+    - SubGroup: 1
+      List:
+        - Item: Old_Blue_Box
+          Rate: 10
+        - Item: Gold_Coin
+          Rate: 10
+        # MVP Quest Items (Rate: 1)
+        - Item: Tiger_Footskin
+          Rate: 1
+        - Item: Tiger's_Skin
+          Rate: 1
+        - Item: Royal_Jelly
+          Rate: 1
+        - Item: Jaws_Of_Ant
+          Rate: 1
+        - Item: Mother's_Nightmare
+          Rate: 1
+        - Item: Armlet_Of_Obedience
+          Rate: 1
+        - Item: Ora_Ora
+          Rate: 1
+        - Item: Gold
+          Rate: 1
+        - Item: Zero_Merchant_Bell
+          Rate: 1
+        - Item: Emperium
+          Rate: 1
+        - Item: Fang_Of_Garm
+          Rate: 1
+        - Item: Tooth_Of_
+          Rate: 1
+        - Item: Sacred_Marks
+          Rate: 1
+        - Item: Ice_Scale
+          Rate: 1
+        - Item: Voucher_Of_Orcish_Hero
+          Rate: 1
+        - Item: Round_Feather
+          Rate: 1
+        - Item: Tutankhamen's_Mask
+          Rate: 1
+        - Item: Broken_Pharaoh_Symbol
+          Rate: 1
+        - Item: Treasure_Box
+          Rate: 1
+        - Item: Gemstone
+          Rate: 1
+        - Item: Skul_Ring
+          Rate: 1
+        - Item: Rojerta_Piece
+          Rate: 1
+        - Item: Cardinal_Jewel_
+          Rate: 1
+        - Item: Shine_Spear_Blade
+          Rate: 1
+        - Item: Wild_Boar's_Mane
+          Rate: 1
+        - Item: Union_Of_Tribe
+          Rate: 1
+        - Item: Key_Of_Twisted_Time
+          Rate: 1
+        - Item: Flame_Heart
+          Rate: 1
+        - Item: Rough_Wind
+          Rate: 1
+        - Item: Great_Nature
+          Rate: 1
+        - Item: Mistic_Frozen
+          Rate: 1
+        - Item: Rune_Of_Darkness
+          Rate: 1
+        - Item: Star_Crumb
+          Rate: 1
+        # Regular Quest Items (Rates: 5)
+        - Item: Tooth_Of_Bat
+          Rate: 5
+        - Item: Wing_Of_Red_Bat
+          Rate: 5
+        - Item: Pumpkin_Head
+          Rate: 5
+        - Item: Bat_Cage
+          Rate: 5
+        - Item: Milk_Bottle
+          Rate: 5
+        - Item: Bib
+          Rate: 5
+        - Item: Stuffed_Doll
+          Rate: 5
+        - Item: Candy_Striper
+          Rate: 5
+        - Item: Manacles
+          Rate: 5
+        - Item: Worn_Out_Prison_Uniform
+          Rate: 5
+        - Item: Animal_Blood
+          Rate: 5
+        - Item: Transparent_Cloth
+          Rate: 5
+        - Item: Clover
+          Rate: 5
+        - Item: Stem
+          Rate: 5
+        - Item: Smoke_Powder
+          Rate: 5
+        - Item: Sharp_Scale
+          Rate: 5
+        - Item: Fish_Tail
+          Rate: 5
+        - Item: Chinese_Ink
+          Rate: 5
+        - Item: Crystal_Blue
+          Rate: 5
+        - Item: Feather_Of_Birds
+          Rate: 5
+        - Item: Harpy's_Feather
+          Rate: 5
+        - Item: Goat's_Horn
+          Rate: 5
+        - Item: Wind_Of_Verdure
+          Rate: 5
+        - Item: Peco_Wing_Feather
+          Rate: 5
+        - Item: Sharp_Leaf
+          Rate: 5
+        - Item: Gaoat's_Skin
+          Rate: 5
+        - Item: Scales_Shell
+          Rate: 5
+        - Item: Cyfar
+          Rate: 5
+        - Item: Moth_Dust
+          Rate: 5
+        - Item: Mud_Lump
+          Rate: 5
+        - Item: Ogre_Tooth
+          Rate: 5
+        - Item: Hot_Hair
+          Rate: 5
+        - Item: Alchol
+          Rate: 5
+        - Item: Live_Coal
+          Rate: 5
+        - Item: Boody_Red
+          Rate: 5
+        - Item: Root_Of_Maneater
+          Rate: 5
+        - Item: Tree_Root
+          Rate: 5
+        - Item: Yellow_Live
+          Rate: 5
+        - Item: Soft_Feather
+          Rate: 5
+        - Item: Harpy's_Claw
+          Rate: 5
+        - Item: Talon
+          Rate: 5
+        - Item: Talon_Of_Griffin
+          Rate: 5
+        - Item: Posionous_Canine
+          Rate: 5
+        - Item: Shining_Scales
+          Rate: 5
+        - Item: Poison_Spore
+          Rate: 5
+        - Item: Scale_Of_Snakes
+          Rate: 5
+        - Item: Dragon's_Skin
+          Rate: 5
+        - Item: Dragon_Train
+          Rate: 5
+        - Item: Dragon_Fly_Wing
+          Rate: 5
+        - Item: Sharpened_Cuspid
+          Rate: 5
+        - Item: Piece_Of_Black_Cloth
+          Rate: 5
+        - Item: Amulet
+          Rate: 5
+        - Item: Tatters_Clothes
+          Rate: 5
+        - Item: Executioner's_Mitten
+          Rate: 5
+        - Item: Fin
+          Rate: 5
+        - Item: Heart_Of_Mermaid
+          Rate: 5
+        - Item: Gill
+          Rate: 5
+        - Item: Tentacle
+          Rate: 5
+        - Item: Wooden_Block
+          Rate: 5
+        - Item: Leaflet_Of_Hinal
+          Rate: 5
+        - Item: Leaflet_Of_Aloe
+          Rate: 5
+        - Item: Raccoon_Leaf
+          Rate: 5
+        - Item: Thin_N'_Long_Tongue
+          Rate: 5
+        - Item: Reptile_Tongue
+          Rate: 5
+        - Item: Sticky_Mucus
+          Rate: 5
+        - Item: Lip_Of_Ancient_Fish
+          Rate: 5
+        - Item: Ice_Piece
+          Rate: 5
+        - Item: Ice_Cream
+          Rate: 5
+        - Item: Blossom_Of_Maneater
+          Rate: 5
+        - Item: Young_Twig
+          Rate: 5
+        - Item: Armlet_Of_Obedience
+          Rate: 5
+        - Item: Coal
+          Rate: 5
+        - Item: Burn_Tree
+          Rate: 5
+        - Item: Grasshopper's_Leg
+          Rate: 5
+        - Item: Horrendous_Mouth
+          Rate: 5
+        - Item: Round_Shell
+          Rate: 5
+        - Item: Elder_Pixie's_Beard
+          Rate: 5
+        - Item: Moustache_Of_Mole
+          Rate: 5
+        - Item: Rose_Quartz
+          Rate: 5
+        - Item: Sacred_Masque
+          Rate: 5
+        - Item: White_Platter
+          Rate: 5
+        - Item: Solid_Shell
+          Rate: 5
+        - Item: Dullahan_Armor
+          Rate: 5
+        - Item: Steel
+          Rate: 5
+        - Item: Glass_Bead
+          Rate: 5
+        - Item: Spool
+          Rate: 5
+        - Item: Boroken_Shiled_Piece
+          Rate: 5
+        - Item: Rent_Spell_Book
+          Rate: 5
+        - Item: Bill_Of_Birds
+          Rate: 5
+        - Item: Feather
+          Rate: 5
+        - Item: Rouge
+          Rate: 5
+        - Item: Round_Feather
+          Rate: 5
+        - Item: Wing_Of_Moth
+          Rate: 5
+        - Item: Bee_Sting
+          Rate: 5
+        - Item: Powder_Of_Butterfly
+          Rate: 5
+        - Item: Old_Portrait
+          Rate: 5
+        - Item: Rust_Suriken
+          Rate: 5
+        - Item: Old_Manteau
+          Rate: 5
+        - Item: Coral_Reef
+          Rate: 5
+        - Item: Insect_Feeler
+          Rate: 5
+        - Item: Tough_Vines
+          Rate: 5
+        - Item: Sparkling_Dust
+          Rate: 5
+        - Item: Fox_Tail
+          Rate: 5
+        - Item: Animal's_Skin
+          Rate: 5
+        - Item: Mementos
+          Rate: 5
+        - Item: Rotten_Bandage
+          Rate: 5
+        - Item: Lantern
+          Rate: 5
+        - Item: Orcish_Voucher
+          Rate: 5
+        - Item: Cobold_Hair
+          Rate: 5
+        - Item: Fluff
+          Rate: 5
+        - Item: Skull
+          Rate: 5
+        - Item: Ectoplasm
+          Rate: 5
+        - Item: Clattering_Skull
+          Rate: 5
+        - Item: Evil_Horn
+          Rate: 5
+        - Item: Petite_DiablOfs_Horn
+          Rate: 5
+        - Item: Reins
+          Rate: 5
+        - Item: Burning_Horse_Shoe
+          Rate: 5
+        - Item: Conch
+          Rate: 5
+        - Item: Horseshoe
+          Rate: 5
+        - Item: Dullahan's_Helm
+          Rate: 5
+        - Item: Vroken_Sword
+          Rate: 5
+        - Item: Fine_Grit
+          Rate: 5
+        - Item: Needle_Of_Alarm
+          Rate: 5
+        - Item: Key_Of_Clock_Tower
+          Rate: 5
+        - Item: Red_Frame
+          Rate: 5
+        - Item: Turtle_Shell
+          Rate: 5
+        - Item: Dragon_Scale
+          Rate: 5
+        # Slotted Equipment - Body Armor (Rate: 1)
+        - Item: Coat_
+          Rate: 1
+        - Item: Chain_Mail_
+          Rate: 1
+        - Item: Plate_Armor_
+          Rate: 1
+        # Slotted Equipment - Shields (Rate: 1)
+        - Item: Guard_
+          Rate: 1
+        - Item: Buckler_
+          Rate: 1
+        - Item: Shield_
+          Rate: 1
+        # Slotted Equipment - Footgear (Rate: 1)
+        - Item: Shoes_
+          Rate: 1
+        - Item: Boots_
+          Rate: 1
+        # Slotted Equipment - Garments (Rate: 1)
+        - Item: Muffler_
+          Rate: 1
+        - Item: Manteau_
+          Rate: 1
+        # Slotted Equipment - Accessories (Rate: 1)
+        - Item: Clip
+          Rate: 1
+        - Item: Ring_
+          Rate: 1
+        - Item: Earring_
+          Rate: 1
+        - Item: Necklace_
+          Rate: 1
+        - Item: Glove_
+          Rate: 1
+        - Item: Brooch_
+          Rate: 1
+        - Item: Rosary_
+          Rate: 1
+        - Item: Belt
+          Rate: 1
+        # Slotted Equipment - Standard Headgears (Rate: 1)
+        - Item: Sunglasses_
+          Rate: 1
+        - Item: Glasses_
+          Rate: 1
+##############################################################
+- Group: VIOLETBOX
+  SubGroups:
+    - SubGroup: 1
+      List:
+        - Item: Old_Violet_Box
+          Rate: 10
+        - Item: Gold_Coin
+          Rate: 10
+        # Slotted Equipment - Weapons (Rate: 1)
+        - Item: Violin_
+          Rate: 1
+        - Item: Rope_
+          Rate: 1
+        - Item: Waghnakh_
+          Rate: 1
+        - Item: Mace_
+          Rate: 1
+        - Item: Blade_
+          Rate: 1
+        - Item: Pike_
+          Rate: 1
+        - Item: Axe_
+          Rate: 1
+        - Item: Rod_
+          Rate: 1
+        - Item: Katana_
+          Rate: 1
+        - Item: Battle_Axe_
+          Rate: 1
+        - Item: Composite_Bow_
+          Rate: 1
+        - Item: Main_Gauche_
+          Rate: 1
+        - Item: Lute_
+          Rate: 1
+        - Item: Line_
+          Rate: 1
+        - Item: Book
+          Rate: 1
+        - Item: Chain_
+          Rate: 1
+        - Item: Scimiter_
+          Rate: 1
+        - Item: Staff_
+          Rate: 1
+        - Item: Bastard_Sword_
+          Rate: 1
+        - Item: Hammer_
+          Rate: 1
+        - Item: CrossBow_
+          Rate: 1
+        - Item: Jur_
+          Rate: 1
+        - Item: Stiletto_
+          Rate: 1
+        - Item: Guh_Moon_Goh_
+          Rate: 1
+        - Item: Whip_
+          Rate: 1
+        - Item: Finger_
+          Rate: 1
+        - Item: Tsurugi_
+          Rate: 1
+        - Item: Arc_Wand_
+          Rate: 1
+        - Item: Two_Hand_Sword_
+          Rate: 1
+        - Item: Partizan_
+          Rate: 1
+        - Item: Two_Handed_Axe_
+          Rate: 1
+        - Item: Kakkung_
+          Rate: 1
+        - Item: Damascus_
+          Rate: 1
+        - Item: Fist_
+          Rate: 1
+        - Item: Sword_Mace_
+          Rate: 1
+        - Item: Lance_
+          Rate: 1
+        - Item: Jamadhar_
+          Rate: 1
+        # Mini Quest Items (Rate: 2)
+        - Item: Citrine
+          Rate: 2
+        - Item: Phlogopite
+          Rate: 2
+        - Item: Pyroxene
+          Rate: 2
+        - Item: Biotite
+          Rate: 2
+        - Item: Muscovite
+          Rate: 2

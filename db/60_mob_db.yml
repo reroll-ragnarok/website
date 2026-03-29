@@ -599,6 +599,8 @@ Body:
         Rate: 10000
       - Item: Candy_Striper
         Rate: 5000
+      - Item: Well_Baked_Toast
+        Rate: 100
       - Item: Cookie_Card
         Rate: 50
         StealProtected: true
@@ -675,6 +677,10 @@ Body:
         Rate: 10000
       - Item: Piece_Of_Cake
         Rate: 5000
+      - Item: Gift_Box
+        Rate: 500
+      - Item: Red_Tailed_Ribbon
+        Rate: 100
       - Item: Mystcase_Card
         Rate: 50
         StealProtected: true

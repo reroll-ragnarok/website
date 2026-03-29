@@ -555,6 +555,8 @@ Body:
         Rate: 10000
       - Item: Glass_Bead
         Rate: 5000
+      - Item: Mask_Of_Fox
+        Rate: 100
       - Item: Nine_Tail_Card
         Rate: 50
         StealProtected: true
