@@ -8353,10 +8353,6 @@
         "Rate": 2000
       },
       {
-        "Item": "Helm_Of_Sun",
-        "Rate": 500
-      },
-      {
         "Item": "Eddga_Card",
         "Rate": 50,
         "StealProtected": true
@@ -9320,6 +9316,10 @@
       {
         "Item": "Spinx_Helm__Blueprint",
         "Rate": 2000
+      },
+      {
+        "Item": "Helm_Of_Sun",
+        "Rate": 500
       },
       {
         "Item": "Amon_Ra_Card",

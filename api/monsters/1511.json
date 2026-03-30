@@ -54,6 +54,10 @@
       "Rate": 2000
     },
     {
+      "Item": "Helm_Of_Sun",
+      "Rate": 500
+    },
+    {
       "Item": "Amon_Ra_Card",
       "Rate": 50,
       "StealProtected": true
