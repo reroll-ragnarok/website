@@ -86,7 +86,7 @@ function loadItems() {
     let allItems = [];
     
     try {
-        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml', 'item_db_card.yml'];
+        const itemFiles = ['item_db_equip.yml', 'item_db_usable.yml', 'item_db_etc.yml', 'item_db_card.yml', 'item_db_costumes.yml'];
         
         itemFiles.forEach(file => {
             const filePath = path.join(dbDir, file);

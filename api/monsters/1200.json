@@ -39,6 +39,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Zherlthsh_Mask",
+      "Rate": 500
+    },
+    {
       "Item": "Zherlthsh_Card",
       "Rate": 100,
       "StealProtected": true

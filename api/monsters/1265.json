@@ -38,6 +38,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Well_Baked_Toast",
+      "Rate": 100
+    },
+    {
       "Item": "Cookie_Card",
       "Rate": 50,
       "StealProtected": true

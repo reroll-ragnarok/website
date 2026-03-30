@@ -38,6 +38,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Whikebain_Ears",
+      "Rate": 100
+    },
+    {
       "Item": "Smokie_Card",
       "Rate": 50,
       "StealProtected": true

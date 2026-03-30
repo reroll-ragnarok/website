@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Takius_Blindfold",
+      "Rate": 100
+    },
+    {
       "Item": "Archer_Skeleton_Card",
       "Rate": 50,
       "StealProtected": true

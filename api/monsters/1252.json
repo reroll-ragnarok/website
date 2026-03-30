@@ -55,6 +55,10 @@
       "Rate": 2000
     },
     {
+      "Item": "Helm_Of_Angel",
+      "Rate": 500
+    },
+    {
       "Item": "Garm_Card",
       "Rate": 50,
       "StealProtected": true

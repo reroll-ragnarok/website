@@ -42,6 +42,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Ear_Of_Angel's_Wing",
+      "Rate": 500
+    },
+    {
       "Item": "Angeling_Card",
       "Rate": 100,
       "StealProtected": true

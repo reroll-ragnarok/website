@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Drooping_Kitty",
+      "Rate": 100
+    },
+    {
       "Item": "Loli_Ruri_Card",
       "Rate": 50,
       "StealProtected": true

@@ -39,6 +39,10 @@
       "Rate": 10000
     },
     {
+      "Item": "Devil's_Wing",
+      "Rate": 500
+    },
+    {
       "Item": "Deviling_Card",
       "Rate": 100,
       "StealProtected": true

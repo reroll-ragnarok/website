@@ -39,6 +39,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Feather_Beret",
+      "Rate": 100
+    },
+    {
       "Item": "Owl_Duke_Card",
       "Rate": 50,
       "StealProtected": true

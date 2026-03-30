@@ -38,6 +38,14 @@
       "Rate": 5000
     },
     {
+      "Item": "Gift_Box",
+      "Rate": 500
+    },
+    {
+      "Item": "Red_Tailed_Ribbon",
+      "Rate": 100
+    },
+    {
       "Item": "Mystcase_Card",
       "Rate": 50,
       "StealProtected": true

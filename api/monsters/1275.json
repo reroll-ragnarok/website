@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Blush",
+      "Rate": 500
+    },
+    {
       "Item": "Alice_Card",
       "Rate": 100,
       "StealProtected": true

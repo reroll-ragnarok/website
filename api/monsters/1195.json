@@ -1,0 +1,50 @@
+{
+  "Id": 1195,
+  "AegisName": "RIDEWORD",
+  "Name": "Rideword",
+  "Level": 99,
+  "Hp": 13222,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1387,
+  "Attack2": 622,
+  "Defense": 61,
+  "MagicDefense": 38,
+  "Str": 97,
+  "Agi": 43,
+  "Vit": 72,
+  "Int": 84,
+  "Dex": 96,
+  "Luk": 75,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Small",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 150,
+  "AttackDelay": 864,
+  "AttackMotion": 500,
+  "DamageMotion": 192,
+  "Ai": 21,
+  "Drops": [
+    {
+      "Item": "Old_Magic_Book",
+      "Rate": 10000
+    },
+    {
+      "Item": "Bookclip_In_Memory",
+      "Rate": 5000
+    },
+    {
+      "Item": "Rideword_Card",
+      "Rate": 50,
+      "StealProtected": true
+    }
+  ],
+  "spawns": []
+}

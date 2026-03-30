@@ -41,6 +41,10 @@
       "Rate": 1500
     },
     {
+      "Item": "Joker_Jester",
+      "Rate": 100
+    },
+    {
       "Item": "Carat_Card",
       "Rate": 50,
       "StealProtected": true

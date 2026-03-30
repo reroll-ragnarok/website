@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Round_Eyes",
+      "Rate": 100
+    },
+    {
       "Item": "Medusa_Card",
       "Rate": 50,
       "StealProtected": true

@@ -39,6 +39,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Fur_Hat",
+      "Rate": 100
+    },
+    {
       "Item": "Fur_Seal_Card",
       "Rate": 50,
       "StealProtected": true

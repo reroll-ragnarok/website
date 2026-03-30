@@ -506,6 +506,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Sahkkat",
+        "Rate": 300
+      },
+      {
         "Item": "Greatest_General_Card",
         "Rate": 100,
         "StealProtected": true
@@ -1107,6 +1111,10 @@
       {
         "Item": "Animal's_Skin",
         "Rate": 5000
+      },
+      {
+        "Item": "Whikebain_Ears",
+        "Rate": 100
       },
       {
         "Item": "Smokie_Card",
@@ -1721,6 +1729,10 @@
       {
         "Item": "Sparkling_Dust",
         "Rate": 1000
+      },
+      {
+        "Item": "Elven_Ears",
+        "Rate": 300
       },
       {
         "Item": "Giearth_Card",
@@ -2576,6 +2588,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Mask_Of_Fox",
+        "Rate": 100
+      },
+      {
         "Item": "Nine_Tail_Card",
         "Rate": 50,
         "StealProtected": true
@@ -2950,6 +2966,10 @@
       {
         "Item": "Skel_Bone",
         "Rate": 5000
+      },
+      {
+        "Item": "Takius_Blindfold",
+        "Rate": 100
       },
       {
         "Item": "Archer_Skeleton_Card",
@@ -3415,6 +3435,10 @@
       {
         "Item": "Glass_Bead",
         "Rate": 5000
+      },
+      {
+        "Item": "Fur_Hat",
+        "Rate": 100
       },
       {
         "Item": "Fur_Seal_Card",
@@ -4274,6 +4298,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Well_Baked_Toast",
+        "Rate": 100
+      },
+      {
         "Item": "Cookie_Card",
         "Rate": 50,
         "StealProtected": true
@@ -4364,6 +4392,14 @@
       {
         "Item": "Piece_Of_Cake",
         "Rate": 5000
+      },
+      {
+        "Item": "Gift_Box",
+        "Rate": 500
+      },
+      {
+        "Item": "Red_Tailed_Ribbon",
+        "Rate": 100
       },
       {
         "Item": "Mystcase_Card",
@@ -4644,6 +4680,10 @@
       {
         "Item": "Clattering_Skull",
         "Rate": 5000
+      },
+      {
+        "Item": "Dark_Blindfold",
+        "Rate": 100
       },
       {
         "Item": "Marduk_Card",
@@ -5667,6 +5707,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Opera_Ghost_Mask",
+        "Rate": 500
+      },
+      {
         "Item": "Whisper_Boss_Card",
         "Rate": 100,
         "StealProtected": true
@@ -5763,6 +5807,10 @@
       {
         "Item": "Animal_Blood",
         "Rate": 5000
+      },
+      {
+        "Item": "Round_Eyes",
+        "Rate": 100
       },
       {
         "Item": "Medusa_Card",
@@ -6484,6 +6532,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Zherlthsh_Mask",
+        "Rate": 500
+      },
+      {
         "Item": "Zherlthsh_Card",
         "Rate": 100,
         "StealProtected": true
@@ -7201,6 +7253,10 @@
         "Rate": 1500
       },
       {
+        "Item": "C_Iron_Cane",
+        "Rate": 100
+      },
+      {
         "Item": "Daydric_Card",
         "Rate": 50,
         "StealProtected": true
@@ -7392,6 +7448,10 @@
         "Rate": 1500
       },
       {
+        "Item": "Joker_Jester",
+        "Rate": 100
+      },
+      {
         "Item": "Carat_Card",
         "Rate": 50,
         "StealProtected": true
@@ -7443,6 +7503,150 @@
       {
         "Item": "Dark_Frame_Card",
         "Rate": 50,
+        "StealProtected": true
+      }
+    ]
+  },
+  {
+    "Id": 1195,
+    "AegisName": "RIDEWORD",
+    "Name": "Rideword",
+    "Level": 99,
+    "Hp": 13222,
+    "BaseExp": 3000,
+    "JobExp": 775,
+    "Attack": 1387,
+    "Attack2": 622,
+    "Defense": 61,
+    "MagicDefense": 38,
+    "Str": 97,
+    "Agi": 43,
+    "Vit": 72,
+    "Int": 84,
+    "Dex": 96,
+    "Luk": 75,
+    "AttackRange": 1,
+    "SkillRange": 10,
+    "ChaseRange": 12,
+    "Size": "Small",
+    "Race": "Formless",
+    "RaceGroups": {
+      "Clocktower": true
+    },
+    "Element": "Neutral",
+    "ElementLevel": 3,
+    "WalkSpeed": 150,
+    "AttackDelay": 864,
+    "AttackMotion": 500,
+    "DamageMotion": 192,
+    "Ai": 21,
+    "Drops": [
+      {
+        "Item": "Old_Magic_Book",
+        "Rate": 10000
+      },
+      {
+        "Item": "Bookclip_In_Memory",
+        "Rate": 5000
+      },
+      {
+        "Item": "Rideword_Card",
+        "Rate": 50,
+        "StealProtected": true
+      }
+    ]
+  },
+  {
+    "Id": 1191,
+    "AegisName": "MIMIC",
+    "Name": "Mimic",
+    "Level": 99,
+    "Hp": 16939,
+    "BaseExp": 3000,
+    "JobExp": 775,
+    "Attack": 1232,
+    "Attack2": 622,
+    "Defense": 63,
+    "MagicDefense": 15,
+    "Str": 98,
+    "Agi": 43,
+    "Vit": 53,
+    "Int": 87,
+    "Dex": 96,
+    "Luk": 69,
+    "AttackRange": 1,
+    "SkillRange": 10,
+    "ChaseRange": 12,
+    "Size": "Medium",
+    "Race": "Formless",
+    "RaceGroups": {
+      "Clocktower": true
+    },
+    "Element": "Neutral",
+    "ElementLevel": 3,
+    "WalkSpeed": 100,
+    "AttackDelay": 972,
+    "AttackMotion": 500,
+    "DamageMotion": 288,
+    "Ai": 19,
+    "Drops": [
+      {
+        "Item": "Gold_Coin",
+        "Rate": 1500
+      },
+      {
+        "Item": "Old_Blue_Box",
+        "Rate": 1000
+      },
+      {
+        "Item": "Mimic_Card",
+        "Rate": 50,
+        "StealProtected": true
+      }
+    ]
+  },
+  {
+    "Id": 1699,
+    "AegisName": "ANCIENT_MIMIC",
+    "Name": "Ancient Mimic",
+    "Level": 99,
+    "Hp": 50000,
+    "BaseExp": 15000,
+    "JobExp": 3875,
+    "Attack": 1959,
+    "Attack2": 1384,
+    "Defense": 100,
+    "MagicDefense": 40,
+    "Str": 81,
+    "Agi": 60,
+    "Vit": 99,
+    "Int": 99,
+    "Dex": 94,
+    "Luk": 67,
+    "AttackRange": 1,
+    "SkillRange": 10,
+    "ChaseRange": 12,
+    "Size": "Large",
+    "Race": "Formless",
+    "Element": "Neutral",
+    "ElementLevel": 3,
+    "WalkSpeed": 100,
+    "AttackDelay": 168,
+    "AttackMotion": 480,
+    "DamageMotion": 360,
+    "Ai": 4,
+    "Drops": [
+      {
+        "Item": "Gold_Coin_Moneybag",
+        "Rate": 1500
+      },
+      {
+        "Item": "Old_Violet_Box",
+        "Rate": 1000
+      },
+      {
+        "Item": "Ancient_Mimic_Card",
+        "Rate": 100,
         "StealProtected": true
       }
     ]
@@ -7733,6 +7937,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Drooping_Kitty",
+        "Rate": 100
+      },
+      {
         "Item": "Loli_Ruri_Card",
         "Rate": 50,
         "StealProtected": true
@@ -7922,6 +8130,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Feather_Beret",
+        "Rate": 100
+      },
+      {
         "Item": "Owl_Duke_Card",
         "Rate": 50,
         "StealProtected": true
@@ -7967,6 +8179,10 @@
       {
         "Item": "Soft_Feather",
         "Rate": 5000
+      },
+      {
+        "Item": "Magician_Hat",
+        "Rate": 100
       },
       {
         "Item": "Owl_Baron_Card",
@@ -8016,6 +8232,10 @@
       {
         "Item": "Rouge",
         "Rate": 5000
+      },
+      {
+        "Item": "Blush",
+        "Rate": 500
       },
       {
         "Item": "Alice_Card",
@@ -8131,6 +8351,10 @@
       {
         "Item": "Smoking_Pipe_Blueprint",
         "Rate": 2000
+      },
+      {
+        "Item": "Helm_Of_Sun",
+        "Rate": 500
       },
       {
         "Item": "Eddga_Card",
@@ -8319,7 +8543,7 @@
         "Rate": 5000
       },
       {
-        "Item": "Ascendant_Crown__Blueprint",
+        "Item": "New_Wave_Sunglasses_Blueprint",
         "Rate": 2000
       },
       {
@@ -8516,6 +8740,10 @@
       {
         "Item": "Charm_Of_Frozen_BR_Blueprint",
         "Rate": 2000
+      },
+      {
+        "Item": "Helm_Of_Angel",
+        "Rate": 500
       },
       {
         "Item": "Garm_Card",
@@ -9214,7 +9442,7 @@
         "Rate": 5000
       },
       {
-        "Item": "General_Helmet_Blueprint",
+        "Item": "Expert_Ring_Blueprint",
         "Rate": 2000
       },
       {
@@ -9348,6 +9576,71 @@
       },
       {
         "Item": "Lord_Of_Death_Card",
+        "Rate": 50,
+        "StealProtected": true
+      }
+    ]
+  },
+  {
+    "Id": 3074,
+    "AegisName": "TIMEHOLDER",
+    "Name": "Time Holder",
+    "Level": 99,
+    "Hp": 500000,
+    "BaseExp": 300000,
+    "JobExp": 77500,
+    "MvpExp": 300000,
+    "Attack": 750,
+    "Attack2": 350,
+    "Defense": 200,
+    "MagicDefense": 200,
+    "Str": 94,
+    "Agi": 80,
+    "Vit": 110,
+    "Int": 110,
+    "Dex": 110,
+    "Luk": 75,
+    "AttackRange": 1,
+    "SkillRange": 10,
+    "ChaseRange": 12,
+    "Size": "Large",
+    "Race": "Demon",
+    "RaceGroups": {
+      "Clocktower": true
+    },
+    "Element": "Neutral",
+    "ElementLevel": 4,
+    "WalkSpeed": 150,
+    "AttackDelay": 100,
+    "AttackMotion": 576,
+    "DamageMotion": 480,
+    "DamageTaken": 100,
+    "Ai": 21,
+    "Class": "Boss",
+    "Modes": {
+      "Mvp": true
+    },
+    "MvpDrops": [
+      {
+        "Item": "Key_Of_Twisted_Time",
+        "Rate": 10000
+      }
+    ],
+    "Drops": [
+      {
+        "Item": "Star_Crumb",
+        "Rate": 10000
+      },
+      {
+        "Item": "Key_Of_Twisted_Time",
+        "Rate": 5000
+      },
+      {
+        "Item": "Pocket_Watch_Blueprint",
+        "Rate": 2000
+      },
+      {
+        "Item": "Timeholder_Card",
         "Rate": 50,
         "StealProtected": true
       }
@@ -9881,6 +10174,10 @@
         "Rate": 5000
       },
       {
+        "Item": "Ear_Of_Angel's_Wing",
+        "Rate": 500
+      },
+      {
         "Item": "Angeling_Card",
         "Rate": 100,
         "StealProtected": true
@@ -10070,6 +10367,10 @@
       {
         "Item": "Skyblue_Jewel",
         "Rate": 10000
+      },
+      {
+        "Item": "Devil's_Wing",
+        "Rate": 500
       },
       {
         "Item": "Deviling_Card",

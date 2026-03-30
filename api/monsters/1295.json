@@ -39,6 +39,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Magician_Hat",
+      "Rate": 100
+    },
+    {
       "Item": "Owl_Baron_Card",
       "Rate": 50,
       "StealProtected": true

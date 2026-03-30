@@ -41,6 +41,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Opera_Ghost_Mask",
+      "Rate": 500
+    },
+    {
       "Item": "Whisper_Boss_Card",
       "Rate": 100,
       "StealProtected": true

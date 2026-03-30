@@ -1,0 +1,50 @@
+{
+  "Id": 1191,
+  "AegisName": "MIMIC",
+  "Name": "Mimic",
+  "Level": 99,
+  "Hp": 16939,
+  "BaseExp": 3000,
+  "JobExp": 775,
+  "Attack": 1232,
+  "Attack2": 622,
+  "Defense": 63,
+  "MagicDefense": 15,
+  "Str": 98,
+  "Agi": 43,
+  "Vit": 53,
+  "Int": 87,
+  "Dex": 96,
+  "Luk": 69,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Formless",
+  "RaceGroups": {
+    "Clocktower": true
+  },
+  "Element": "Neutral",
+  "ElementLevel": 3,
+  "WalkSpeed": 100,
+  "AttackDelay": 972,
+  "AttackMotion": 500,
+  "DamageMotion": 288,
+  "Ai": 19,
+  "Drops": [
+    {
+      "Item": "Gold_Coin",
+      "Rate": 1500
+    },
+    {
+      "Item": "Old_Blue_Box",
+      "Rate": 1000
+    },
+    {
+      "Item": "Mimic_Card",
+      "Rate": 50,
+      "StealProtected": true
+    }
+  ],
+  "spawns": []
+}

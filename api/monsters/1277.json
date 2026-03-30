@@ -38,6 +38,10 @@
       "Rate": 5000
     },
     {
+      "Item": "Sahkkat",
+      "Rate": 300
+    },
+    {
       "Item": "Greatest_General_Card",
       "Rate": 100,
       "StealProtected": true

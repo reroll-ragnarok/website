@@ -38,6 +38,10 @@
       "Rate": 1500
     },
     {
+      "Item": "C_Iron_Cane",
+      "Rate": 100
+    },
+    {
       "Item": "Daydric_Card",
       "Rate": 50,
       "StealProtected": true

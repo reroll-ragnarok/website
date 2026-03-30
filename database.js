@@ -40,6 +40,9 @@ let mapsData = [];
 let spawnsData = [];
 let mapGraph = {};
 let mapDisplayNames = {};
+
+// Items hidden from the database (not yet in game / internal use only)
+const HIDDEN_ITEM_IDS = new Set([19291, 5979, 20132, 20285, 20405, 20457]);
 let cardsData = [];
 
 // Hardcoded effect descriptions for cards whose scripts are too complex to parse generically
@@ -360,6 +363,7 @@ function updateFilterOptions(tab) {
                     <option value="Usable">Usable</option>
                     <option value="Etc">Etc</option>
                     <option value="Card">Card</option>
+                    <option value="Costume">Costume</option>
                 </select>
             </div>
         `;
@@ -645,6 +649,10 @@ function applyFilters() {
             // Merge DelayConsume into Usable category
             if (typeFilter === 'Usable') {
                 filtered = filtered.filter(i => i.Type === 'Usable' || i.Type === 'DelayConsume');
+            } else if (typeFilter === 'Costume') {
+                filtered = filtered.filter(i => i.Locations && Object.keys(i.Locations).some(k => k.startsWith('Costume_')));
+            } else if (typeFilter === 'Armor') {
+                filtered = filtered.filter(i => i.Type === 'Armor' && !(i.Locations && Object.keys(i.Locations).some(k => k.startsWith('Costume_'))));
             } else {
                 filtered = filtered.filter(i => i.Type === typeFilter);
             }
@@ -721,7 +729,7 @@ async function loadAllData() {
         
         // Load items
         const itemsResponse = await fetch('/api/items');
-        itemsData = await itemsResponse.json();
+        itemsData = (await itemsResponse.json()).filter(i => !HIDDEN_ITEM_IDS.has(i.Id));
         
         // Extract cards from items
         cardsData = itemsData.filter(item => item.Type === 'Card');

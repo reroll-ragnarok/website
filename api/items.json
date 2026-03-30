@@ -3081,7 +3081,6 @@
     "Weight": 100,
     "Slots": 1,
     "Locations": {
-      "Head_Low": true,
       "Head_Mid": true
     },
     "ArmorLevel": 1,
@@ -3274,7 +3273,7 @@
     "Weight": 100,
     "Slots": 1,
     "Locations": {
-      "Head_Low": true
+      "Head_Mid": true
     },
     "ArmorLevel": 1,
     "View": 49,
@@ -3389,7 +3388,6 @@
     "Defense": 3,
     "Slots": 1,
     "Locations": {
-      "Head_Mid": true,
       "Head_Top": true
     },
     "ArmorLevel": 1,
@@ -3549,6 +3547,55 @@
     "ArmorLevel": 1,
     "View": 137,
     "Script": "bonus bVit,3;\nbonus bInt,3;\nbonus bDef,10;\nbonus bMdef,10;\nbonus bMagicDamageReturn,10;\nbonus bShortWeaponDamageReturn,10;\nbonus bLongWeaponDamageReturn,10;\nif (getrefine()>=7) {\n   bonus bMagicDamageReturn,5;\n   bonus bShortWeaponDamageReturn,5;\n   bonus bLongWeaponDamageReturn,5;\n}\n"
+  },
+  {
+    "Id": 2971,
+    "AegisName": "Pocket_Watch__",
+    "Name": "Pocket Watch",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 200,
+    "Defense": 1,
+    "Slots": 1,
+    "Locations": {
+      "Both_Accessory": true
+    },
+    "Script": "bonus bCastrate,-10;\n"
+  },
+  {
+    "Id": 2703,
+    "AegisName": "Expert_Ring",
+    "Name": "Expert Ring",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 150,
+    "Slots": 1,
+    "Jobs": {
+      "All": true,
+      "Novice": false,
+      "SuperNovice": false
+    },
+    "Locations": {
+      "Both_Accessory": true
+    },
+    "ArmorLevel": 1,
+    "Script": "bonus bDelayrate,-10;\n"
+  },
+  {
+    "Id": 18813,
+    "AegisName": "New_Wave_Sunglasses",
+    "Name": "New Wave Sunglasses",
+    "Type": "Armor",
+    "Buy": 10,
+    "Weight": 100,
+    "Locations": {
+      "Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 30,
+    "Slots": 1,
+    "View": 856,
+    "Script": "bonus bDelayrate,-15;\n"
   },
   {
     "Id": 512,
@@ -3869,6 +3916,60 @@
     "Name": "Golden Bell",
     "Type": "Usable",
     "Script": "/* TODO dynamic npc */\n"
+  },
+  {
+    "Id": 644,
+    "AegisName": "Gift_Box",
+    "Name": "Gift Box",
+    "Type": "Usable",
+    "Buy": 1000,
+    "Weight": 100,
+    "Flags": {
+      "BuyingStore": true,
+      "Container": true
+    },
+    "Script": "getrandgroupitem(IG_GiftBox,1);\n"
+  },
+  {
+    "Id": 603,
+    "AegisName": "Old_Blue_Box",
+    "Name": "Old Blue Box",
+    "Type": "Usable",
+    "Buy": 1000,
+    "Weight": 100,
+    "Flags": {
+      "BuyingStore": true,
+      "Container": true
+    },
+    "Trade": {
+      "NoSell": true
+    },
+    "Script": "getrandgroupitem(IG_BlueBox,1);\n"
+  },
+  {
+    "Id": 617,
+    "AegisName": "Old_Violet_Box",
+    "Name": "Old Purple Box",
+    "Type": "Usable",
+    "Buy": 1000,
+    "Weight": 100,
+    "Flags": {
+      "BuyingStore": true,
+      "Container": true
+    },
+    "Trade": {
+      "NoSell": true
+    },
+    "Script": "getrandgroupitem(IG_VioletBox,1);\n"
+  },
+  {
+    "Id": 22515,
+    "AegisName": "Key_Of_Twisted_Time",
+    "Name": "Twisted Key of Time",
+    "Type": "DelayConsume",
+    "Buy": 10,
+    "Weight": 300,
+    "Script": "itemskill \"NPC_WIDECURSE\",2;\n"
   },
   {
     "Id": 10000072,
@@ -5644,6 +5745,28 @@
     }
   },
   {
+    "Id": 670,
+    "AegisName": "Gold_Coin_Moneybag",
+    "Name": "Bag of Gold Coins",
+    "Type": "Etc",
+    "Buy": 50000,
+    "Weight": 400,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
+    "Id": 671,
+    "AegisName": "Gold_Coin",
+    "Name": "Gold Coin",
+    "Type": "Etc",
+    "Buy": 10000,
+    "Weight": 40,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
     "Id": 7096,
     "AegisName": "Cold_Magma",
     "Name": "Lava",
@@ -6717,8 +6840,8 @@
   },
   {
     "Id": 10000099,
-    "AegisName": "Ascendant_Crown__Blueprint",
-    "Name": "Crown of Deceit Blueprint",
+    "AegisName": "New_Wave_Sunglasses_Blueprint",
+    "Name": "New Wave Sunglasses Blueprint",
     "Type": "Etc",
     "Buy": 0,
     "Weight": 0,
@@ -6854,6 +6977,36 @@
     "Id": 10000108,
     "AegisName": "Spinx_Helm__Blueprint",
     "Name": "Sphinx Hat Blueprint",
+    "Type": "Etc",
+    "Buy": 0,
+    "Weight": 0,
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Trade": {
+      "NoSell": true
+    }
+  },
+  {
+    "Id": 10000109,
+    "AegisName": "Pocket_Watch_Blueprint",
+    "Name": "Pocket Watch Blueprint",
+    "Type": "Etc",
+    "Buy": 0,
+    "Weight": 0,
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Trade": {
+      "NoSell": true
+    }
+  },
+  {
+    "Id": 10000110,
+    "AegisName": "Expert_Ring_Blueprint",
+    "Name": "Expert Ring Blueprint",
     "Type": "Etc",
     "Buy": 0,
     "Weight": 0,
@@ -7217,7 +7370,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus3 bAutoSpell,\"MO_CALLSPIRITS\",5,100;\nif (!SC_EXPLOSIONSPIRITS) bonus3 bAutoSpell,\"MO_EXPLOSIONSPIRITS\",1,100;\n"
+    "Script": "bonus3 bAutoSpell,\"MO_CALLSPIRITS\",5,250;\nbonus3 bAutoSpell,\"MO_FINGEROFFENSIVE\",1,100;\n"
   },
   {
     "Id": 4306,
@@ -8397,7 +8550,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus2 bAddMonsterDropItem,644,30;\n"
+    "Script": "bonus2 bAddMonsterDropItem,644,777;\n"
   },
   {
     "Id": 4234,
@@ -8780,7 +8933,7 @@
     "Buy": 20,
     "Weight": 10,
     "Locations": {
-      "Shoes": true
+      "Right_Hand": true
     },
     "Flags": {
       "BuyingStore": true,
@@ -9082,7 +9235,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus bVariableCastrate,-10;\n"
+    "Script": "bonus bCastrate,-10;\n"
   },
   {
     "Id": 4177,
@@ -9162,7 +9315,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus3 bAutoSpell,\"SM_PROVOKE\",5,100;\n"
+    "Script": "bonus4 bAutoSpell,\"SM_PROVOKE\",5,100,0;\n"
   },
   {
     "Id": 4229,
@@ -9228,7 +9381,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus3 bAutoSpell,\"CG_ARROWVULCAN\",5,100;\n"
+    "Script": "bonus3 bAutoSpell,\"BA_MUSICALSTRIKE\",5,100;\n"
   },
   {
     "Id": 4280,
@@ -9488,7 +9641,7 @@
       "BuyingStore": true,
       "DropEffect": "CLIENT"
     },
-    "Script": "bonus bVariableCastrate,-30;\n"
+    "Script": "bonus bCastrate,-30;\n"
   },
   {
     "Id": 4170,
@@ -10107,5 +10260,446 @@
       "DropEffect": "CLIENT"
     },
     "Script": "bonus2 bAddEle,Ele_Earth,20;\n"
+  },
+  {
+    "Id": 4625,
+    "AegisName": "Timeholder_Card",
+    "Name": "Time Holder Card",
+    "Type": "Card",
+    "Buy": 20,
+    "Weight": 10,
+    "Locations": {
+      "Right_Hand": true
+    },
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Script": "bonus2 bMagicAddClass,Class_All,25;\n"
+  },
+  {
+    "Id": 4205,
+    "AegisName": "Mimic_Card",
+    "Name": "Mimic Card",
+    "Type": "Card",
+    "Buy": 20,
+    "Weight": 10,
+    "Locations": {
+      "Both_Accessory": true
+    },
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Script": "bonus2 bAddMonsterDropItem,603,777;\n"
+  },
+  {
+    "Id": 4387,
+    "AegisName": "Ancient_Mimic_Card",
+    "Name": "Ancient Mimic Card",
+    "Type": "Card",
+    "Buy": 20,
+    "Weight": 10,
+    "Locations": {
+      "Both_Accessory": true
+    },
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Script": "bonus2 bAddMonsterDropItem,617,777;\n"
+  },
+  {
+    "Id": 5022,
+    "AegisName": "Helm_Of_Sun",
+    "Name": "Hat of the Sun God",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 10,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 138
+  },
+  {
+    "Id": 5025,
+    "AegisName": "Helm_Of_Angel",
+    "Name": "Helm of Angel",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 1600,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 110
+  },
+  {
+    "Id": 5058,
+    "AegisName": "Drooping_Kitty",
+    "Name": "Drooping Cat",
+    "Type": "Armor",
+    "Buy": 250000,
+    "Weight": 500,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 142
+  },
+  {
+    "Id": 5069,
+    "AegisName": "Mask_Of_Fox",
+    "Name": "Kitsune Mask",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 300,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 153
+  },
+  {
+    "Id": 2280,
+    "AegisName": "Sahkkat",
+    "Name": "Sakkat",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 300,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 67
+  },
+  {
+    "Id": 5360,
+    "AegisName": "Whikebain_Ears",
+    "Name": "Hyuke's Black Cat Ears",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 200,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 368
+  },
+  {
+    "Id": 5076,
+    "AegisName": "Fur_Hat",
+    "Name": "Beanie",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 350,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 160
+  },
+  {
+    "Id": 5170,
+    "AegisName": "Feather_Beret",
+    "Name": "Feather Beret",
+    "Type": "Armor",
+    "Buy": 30000,
+    "Weight": 600,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 224
+  },
+  {
+    "Id": 5045,
+    "AegisName": "Magician_Hat",
+    "Name": "Magician Hat",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 500,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 130
+  },
+  {
+    "Id": 5083,
+    "AegisName": "Red_Tailed_Ribbon",
+    "Name": "Red Ribbon",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 200,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 167
+  },
+  {
+    "Id": 5121,
+    "AegisName": "Zherlthsh_Mask",
+    "Name": "Zealotus Mask",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 400,
+    "Locations": {
+      "Costume_Head_Mid": true,
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 200
+  },
+  {
+    "Id": 5003,
+    "AegisName": "Joker_Jester",
+    "Name": "Joker Jester",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 89
+  },
+  {
+    "Id": 31090,
+    "AegisName": "C_Angeling_Wanna_Fly",
+    "Name": "Costume Angelring Hat",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 348
+  },
+  {
+    "Id": 2286,
+    "AegisName": "Elven_Ears",
+    "Name": "Elven Ears",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 73
+  },
+  {
+    "Id": 5074,
+    "AegisName": "Ear_Of_Angel's_Wing",
+    "Name": "Angel Wing Ears",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 158
+  },
+  {
+    "Id": 5044,
+    "AegisName": "Devil's_Wing",
+    "Name": "Evil Wing Ears",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 350,
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "View": 129
+  },
+  {
+    "Id": 5040,
+    "AegisName": "Blush",
+    "Name": "Blush",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 125
+  },
+  {
+    "Id": 5043,
+    "AegisName": "Opera_Ghost_Mask",
+    "Name": "Opera Phantom Mask",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 200,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 128
+  },
+  {
+    "Id": 5101,
+    "AegisName": "Takius_Blindfold",
+    "Name": "Takius's Blindfold",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 184
+  },
+  {
+    "Id": 5104,
+    "AegisName": "Dark_Blindfold",
+    "Name": "Dark Blinder",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 187
+  },
+  {
+    "Id": 5102,
+    "AegisName": "Round_Eyes",
+    "Name": "Blank Eyes",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 100,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 185
+  },
+  {
+    "Id": 5912,
+    "AegisName": "C_Minions_Of_Devil",
+    "Name": "Costume Servant Deviling",
+    "Type": "Armor",
+    "Buy": 20,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 1036
+  },
+  {
+    "Id": 19291,
+    "AegisName": "C_Shiba_Inu",
+    "Name": "Costume Shiba Inu",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1,
+    "View": 1669
+  },
+  {
+    "Id": 5107,
+    "AegisName": "Well_Baked_Toast",
+    "Name": "Crunch Toast",
+    "Type": "Armor",
+    "Buy": 20,
+    "Weight": 50,
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 188
+  },
+  {
+    "Id": 19528,
+    "AegisName": "C_Iron_Cane",
+    "Name": "Costume Iron Cain",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 53
+  },
+  {
+    "Id": 20404,
+    "AegisName": "C_Blessing_Of_Angels",
+    "Name": "Costume Blessing of Angel",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 1,
+    "View": 1425,
+    "Script": "hateffect(HAT_EF_BLESSING_OF_ANGELS,true);\n",
+    "UnEquipScript": "hateffect(HAT_EF_BLESSING_OF_ANGELS,false);\n"
+  },
+  {
+    "Id": 5979,
+    "AegisName": "C_Angel_Fluttering",
+    "Name": "C Angel Fluttering",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "Script": "hateffect HAT_EF_ANGEL_FLUTTERING,true;\n",
+    "UnEquipScript": "hateffect HAT_EF_ANGEL_FLUTTERING,false;\n"
+  },
+  {
+    "Id": 20132,
+    "AegisName": "C_Subject_Aura",
+    "Name": "Costume Aura Vicious Mind",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 1267
+  },
+  {
+    "Id": 20285,
+    "AegisName": "C_Blossom_Fluttering",
+    "Name": "Costume Dancing Fallen Sakura",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 1331,
+    "Script": "hateffect HAT_EF_BLOSSOM_FLUTTERING,true;\n",
+    "UnEquipScript": "hateffect HAT_EF_BLOSSOM_FLUTTERING,false;\n"
+  },
+  {
+    "Id": 20405,
+    "AegisName": "C_Eremes_Scarf",
+    "Name": "Costume Eremes Scarf",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 1416
+  },
+  {
+    "Id": 20457,
+    "AegisName": "C_Feather_Fluttering",
+    "Name": "Costume Fluttering Feathers",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 1461,
+    "Script": "hateffect(HAT_EF_FEATHER_FLUTTERING,true);\n",
+    "UnEquipScript": "hateffect(HAT_EF_FEATHER_FLUTTERING,false);\n"
   }
 ]
