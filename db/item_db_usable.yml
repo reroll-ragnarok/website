@@ -433,3 +433,57 @@ Body:
       NoAuction: true
     Script: |
       itemskill "AL_TELEPORT",3;
+  - Id: 10000111
+    AegisName: RE_Easter_Egg
+    Name: Easter Egg
+    Type: Usable
+    Buy: 50
+    Weight: 50
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoSell: true
+      NoCart: true
+      NoStorage: false
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+    Script: |
+      getitem 5852, 1;
+      getitem 101047, 3;
+      getitem 6240, 10;
+      getitem 6241 ,10;
+      getitem 985, 20;
+      getitem 984, 20;
+  - Id: 558
+    AegisName: Chocolate
+    Name: Chocolate
+    Type: Healing
+    Buy: 1
+    Weight: 20
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoCart: true
+      NoStorage: false
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+    Script: |
+      percentheal 25,0;
+  - Id: 561
+    AegisName: White_Chocolate
+    Name: White Chocolate
+    Type: Healing
+    Buy: 1
+    Weight: 20
+    Trade:
+      NoDrop: true
+      NoTrade: true
+      NoCart: true
+      NoStorage: false
+      NoGuildStorage: true
+      NoMail: true
+      NoAuction: true
+    Script: |
+      percentheal 0,25;

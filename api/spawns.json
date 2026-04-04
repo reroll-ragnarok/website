@@ -2662,6 +2662,50 @@
     "respawnTime": 5000
   },
   {
+    "map": "c_tower2",
+    "x": 0,
+    "y": 0,
+    "xs": 0,
+    "ys": 0,
+    "mobId": 1191,
+    "mobName": "Mimic",
+    "amount": 75,
+    "respawnTime": 5000
+  },
+  {
+    "map": "c_tower2",
+    "x": 0,
+    "y": 0,
+    "xs": 0,
+    "ys": 0,
+    "mobId": 1699,
+    "mobName": "Ancient Mimic",
+    "amount": 25,
+    "respawnTime": 5000
+  },
+  {
+    "map": "c_tower2",
+    "x": 0,
+    "y": 0,
+    "xs": 0,
+    "ys": 0,
+    "mobId": 1195,
+    "mobName": "Rideword",
+    "amount": 75,
+    "respawnTime": 5000
+  },
+  {
+    "map": "c_tower2",
+    "x": 185,
+    "y": 154,
+    "xs": 20,
+    "ys": 20,
+    "mobId": 3074,
+    "mobName": "Time Holder",
+    "amount": 1,
+    "respawnTime": 1200000
+  },
+  {
     "map": "alde_dun01",
     "x": 0,
     "y": 0,

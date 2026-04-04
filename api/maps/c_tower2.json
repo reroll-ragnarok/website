@@ -1,0 +1,12 @@
+[
+  {
+    "sourceMap": "c_tower2",
+    "sourceX": 82,
+    "sourceY": 3,
+    "direction": "South",
+    "warpName": "ctower2_to_1",
+    "destMap": "c_tower1",
+    "destX": 87,
+    "destY": 6
+  }
+]

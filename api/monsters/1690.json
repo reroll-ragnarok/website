@@ -1,0 +1,47 @@
+{
+  "Id": 1690,
+  "AegisName": "G_SPRING_RABBIT",
+  "Name": "Spring Rabbit",
+  "Level": 1,
+  "Hp": 15,
+  "Defense": 100,
+  "MagicDefense": 99,
+  "AttackRange": 1,
+  "SkillRange": 10,
+  "ChaseRange": 12,
+  "Size": "Medium",
+  "Race": "Brute",
+  "Element": "Neutral",
+  "ElementLevel": 1,
+  "WalkSpeed": 50,
+  "AttackDelay": 250,
+  "AttackMotion": 552,
+  "DamageMotion": 511,
+  "Ai": 2,
+  "Class": "Boss",
+  "Modes": {
+    "IgnoreMagic": true,
+    "IgnoreMelee": true,
+    "IgnoreMisc": true,
+    "IgnoreRanged": true
+  },
+  "Drops": [
+    {
+      "Item": "Rainbow_Carrot",
+      "Rate": 10000
+    },
+    {
+      "Item": "Chocolate",
+      "Rate": 5000
+    },
+    {
+      "Item": "White_Chocolate",
+      "Rate": 5000
+    },
+    {
+      "Item": "RE_Event_Coin",
+      "Rate": 2000
+    }
+  ],
+  "spawns": []
+}

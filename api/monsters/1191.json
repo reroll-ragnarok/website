@@ -46,5 +46,17 @@
       "StealProtected": true
     }
   ],
-  "spawns": []
+  "spawns": [
+    {
+      "map": "c_tower2",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1191,
+      "mobName": "Mimic",
+      "amount": 75,
+      "respawnTime": 5000
+    }
+  ]
 }

@@ -43,5 +43,17 @@
       "StealProtected": true
     }
   ],
-  "spawns": []
+  "spawns": [
+    {
+      "map": "c_tower2",
+      "x": 0,
+      "y": 0,
+      "xs": 0,
+      "ys": 0,
+      "mobId": 1699,
+      "mobName": "Ancient Mimic",
+      "amount": 25,
+      "respawnTime": 5000
+    }
+  ]
 }

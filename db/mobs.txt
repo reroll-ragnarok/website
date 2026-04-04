@@ -475,6 +475,15 @@ c_tower1,0,0	monster	Alarm	1193,50,5000
 c_tower1,0,0	monster	Clock Tower Manager	1270,5,5000
 
 //==================================================
+// c_tower2 - Clock Tower F2
+//==================================================
+c_tower2,0,0	monster	Mimic	1191,75,5000
+c_tower2,0,0	monster	Ancient Mimic	1699,25,5000
+c_tower2,0,0	monster	Rideword	1195,75,5000
+c_tower2,185,154,20,20	boss_monster	Time Holder	3074,1,1200000,900000
+
+
+//==================================================
 // alde_dun01 - Clock Tower Underground
 //==================================================
 alde_dun01,0,0	monster	Baphomet Jr.	1101,100,5000

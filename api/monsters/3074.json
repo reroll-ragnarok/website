@@ -62,5 +62,17 @@
       "StealProtected": true
     }
   ],
-  "spawns": []
+  "spawns": [
+    {
+      "map": "c_tower2",
+      "x": 185,
+      "y": 154,
+      "xs": 20,
+      "ys": 20,
+      "mobId": 3074,
+      "mobName": "Time Holder",
+      "amount": 1,
+      "respawnTime": 1200000
+    }
+  ]
 }

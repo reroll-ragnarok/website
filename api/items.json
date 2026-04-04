@@ -3994,6 +3994,61 @@
     "Script": "itemskill \"AL_TELEPORT\",3;\n"
   },
   {
+    "Id": 10000111,
+    "AegisName": "RE_Easter_Egg",
+    "Name": "Easter Egg",
+    "Type": "Usable",
+    "Buy": 50,
+    "Weight": 50,
+    "Trade": {
+      "NoDrop": true,
+      "NoTrade": true,
+      "NoSell": true,
+      "NoCart": true,
+      "NoStorage": false,
+      "NoGuildStorage": true,
+      "NoMail": true,
+      "NoAuction": true
+    },
+    "Script": "getitem 5852, 1;\ngetitem 101047, 3;\ngetitem 6240, 10;\ngetitem 6241 ,10;\ngetitem 985, 20;\ngetitem 984, 20;\n"
+  },
+  {
+    "Id": 558,
+    "AegisName": "Chocolate",
+    "Name": "Chocolate",
+    "Type": "Healing",
+    "Buy": 1,
+    "Weight": 20,
+    "Trade": {
+      "NoDrop": true,
+      "NoTrade": true,
+      "NoCart": true,
+      "NoStorage": false,
+      "NoGuildStorage": true,
+      "NoMail": true,
+      "NoAuction": true
+    },
+    "Script": "percentheal 25,0;\n"
+  },
+  {
+    "Id": 561,
+    "AegisName": "White_Chocolate",
+    "Name": "White Chocolate",
+    "Type": "Healing",
+    "Buy": 1,
+    "Weight": 20,
+    "Trade": {
+      "NoDrop": true,
+      "NoTrade": true,
+      "NoCart": true,
+      "NoStorage": false,
+      "NoGuildStorage": true,
+      "NoMail": true,
+      "NoAuction": true
+    },
+    "Script": "percentheal 0,25;\n"
+  },
+  {
     "Id": 902,
     "AegisName": "Tree_Root",
     "Name": "Tree Root",
@@ -7019,6 +7074,15 @@
     }
   },
   {
+    "Id": 10000112,
+    "AegisName": "RE_Event_Coin",
+    "Name": "Event Coin",
+    "Type": "Etc",
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
     "Id": 4001,
     "AegisName": "Poring_Card",
     "Name": "Poring Card",
@@ -8967,7 +9031,7 @@
     "Buy": 20,
     "Weight": 10,
     "Locations": {
-      "Right_Hand": true
+      "Both_Accessory": true
     },
     "Flags": {
       "BuyingStore": true,
@@ -9683,7 +9747,7 @@
     "Buy": 20,
     "Weight": 10,
     "Locations": {
-      "Right_Hand": true
+      "Both_Accessory": true
     },
     "Flags": {
       "BuyingStore": true,

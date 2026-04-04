@@ -393,5 +393,10 @@
     "id": 79,
     "name": "c_tower1",
     "type": "Field"
+  },
+  {
+    "id": 80,
+    "name": "c_tower2",
+    "type": "Field"
   }
 ]

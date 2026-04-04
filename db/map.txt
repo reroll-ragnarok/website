@@ -53,7 +53,15 @@ west:
 east:
 north:
 previous: aldebaran
-next: alde_dun01
+next: c_tower2, alde_dun01
+
+c_tower2
+south:
+west:
+east:
+north:
+previous: c_tower1
+next:
 
 alde_dun01
 south:

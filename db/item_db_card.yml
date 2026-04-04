@@ -1859,7 +1859,7 @@ Body:
     Buy: 20
     Weight: 10
     Locations:
-      Right_Hand: true
+      Both_Accessory: true
     Flags:
       BuyingStore: true
       DropEffect: CLIENT
@@ -2533,7 +2533,7 @@ Body:
     Buy: 20
     Weight: 10
     Locations:
-      Right_Hand: true
+      Both_Accessory: true
     Flags:
       BuyingStore: true
       DropEffect: CLIENT

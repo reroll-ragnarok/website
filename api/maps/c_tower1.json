@@ -8,5 +8,15 @@
     "destMap": "aldebaran",
     "destX": 139,
     "destY": 132
+  },
+  {
+    "sourceMap": "c_tower1",
+    "sourceX": 86,
+    "sourceY": 6,
+    "direction": "South",
+    "warpName": "ctower1_to_2",
+    "destMap": "c_tower2",
+    "destX": 82,
+    "destY": 8
   }
 ]
