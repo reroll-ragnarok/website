@@ -32,6 +32,7 @@ mapNPCInfoTable = {
 		{ name = [=[Quest]=], X = 46, Y = 67, TYPE = 4, },
 		{ name = [=[Quest]=], X = 261, Y = 356, TYPE = 4, },
 		{ name = [=[Quest]=], X = 155, Y = 282, TYPE = 4, },
+		{ name = [=[Training Grounds]=], X = 220, Y = 73, TYPE = 1, },
 	},
 
 	morocc = {
