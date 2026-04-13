@@ -110,6 +110,7 @@ let monsterTypeTags = {
 let monsterTypeTagsReady = false;
 let currentPage = 1;
 let currentFilteredData = null; // Track currently filtered/searched data (null means no filter active)
+let currentSearchTerm = ''; // Track current search term to combine with filters
 let itemSortField = null; // Current sort field for items (e.g., 'Sell')
 let itemSortDirection = 'asc'; // 'asc' or 'desc'
 const itemsPerPage = 50;
@@ -145,13 +146,14 @@ function switchTab(tab) {
     itemSortField = null; // Reset sort field when switching tabs
     itemSortDirection = 'asc'; // Reset sort direction
     
-    // Clear search input and update placeholder
+    // Clear search input, term, and update placeholder
+    currentSearchTerm = '';
     const searchInput = document.getElementById('searchInput');
     searchInput.value = '';
     if (tab === 'cards') {
         searchInput.placeholder = 'Search by name, ID or effect...';
     } else if (tab === 'quests') {
-        searchInput.placeholder = 'Search by name or ingredient...';
+        searchInput.placeholder = 'Search by name, effect or ingredient...';
     } else {
         searchInput.placeholder = 'Search by name or ID...';
     }
@@ -191,48 +193,9 @@ function initializeSearch() {
 }
 
 function performSearch() {
-    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    currentSearchTerm = document.getElementById('searchInput').value.toLowerCase();
     currentPage = 1;
-
-    if (currentTab === 'monsters') {
-        const filtered = monstersData.filter(monster => 
-            monster.Name.toLowerCase().includes(searchTerm) ||
-            monster.Id.toString().includes(searchTerm)
-        );
-        currentFilteredData = filtered;
-        displayMonsters(filtered);
-    } else if (currentTab === 'items') {
-        const filtered = itemsData.filter(item =>
-            item.Name.toLowerCase().includes(searchTerm) ||
-            item.Id.toString().includes(searchTerm)
-        );
-        // Reset sort when searching
-        itemSortField = null;
-        itemSortDirection = 'asc';
-        currentFilteredData = filtered;
-        displayItems(filtered);
-    } else if (currentTab === 'maps') {
-        const filtered = mapsData.filter(map =>
-            map.name.toLowerCase().includes(searchTerm)
-        );
-        currentFilteredData = filtered;
-        displayMaps(filtered);
-    } else if (currentTab === 'cards') {
-        const filtered = cardsData.filter(card => {
-            if (card.Name.toLowerCase().includes(searchTerm) || card.Id.toString().includes(searchTerm)) return true;
-            const effect = (cardEffectOverrides[card.Id] || parseItemScript(card.Script, card.EquipScript)).toLowerCase();
-            return effect.replace(/<br>/g, ' ').includes(searchTerm);
-        });
-        currentFilteredData = filtered;
-        displayCards(filtered);
-    } else if (currentTab === 'quests') {
-        const filtered = questsData.filter(q =>
-            q.resultName.toLowerCase().includes(searchTerm) ||
-            q.requirements.some(r => r.name.toLowerCase().includes(searchTerm))
-        );
-        currentFilteredData = filtered;
-        displayQuests(filtered);
-    }
+    applyFilters();
 }
 
 // Update filter options based on current tab
@@ -638,6 +601,13 @@ function applyFilters() {
             );
         }
         
+        // Apply search term
+        if (currentSearchTerm) {
+            filtered = filtered.filter(m =>
+                m.Name.toLowerCase().includes(currentSearchTerm) ||
+                m.Id.toString().includes(currentSearchTerm)
+            );
+        }
         currentFilteredData = filtered;
         displayMonsters(filtered);
     } else if (currentTab === 'items') {
@@ -657,8 +627,16 @@ function applyFilters() {
                 filtered = filtered.filter(i => i.Type === typeFilter);
             }
         }
+
+        // Apply search term
+        if (currentSearchTerm) {
+            filtered = filtered.filter(i =>
+                i.Name.toLowerCase().includes(currentSearchTerm) ||
+                i.Id.toString().includes(currentSearchTerm)
+            );
+        }
         
-        // Reset sort when filter is applied
+        // Reset sort when filter/search is applied
         itemSortField = null;
         itemSortDirection = 'asc';
         currentFilteredData = filtered;
@@ -693,6 +671,11 @@ function applyFilters() {
                 });
             });
         }
+
+        // Apply search term
+        if (currentSearchTerm) {
+            filtered = filtered.filter(m => m.name.toLowerCase().includes(currentSearchTerm));
+        }
         
         currentFilteredData = filtered;
         displayMaps(filtered);
@@ -704,6 +687,15 @@ function applyFilters() {
             filtered = filtered.filter(card => getCardCompoundSlot(card) === slotFilter);
         }
 
+        // Apply search term
+        if (currentSearchTerm) {
+            filtered = filtered.filter(card => {
+                if (card.Name.toLowerCase().includes(currentSearchTerm) || card.Id.toString().includes(currentSearchTerm)) return true;
+                const effect = (cardEffectOverrides[card.Id] || parseItemScript(card.Script, card.EquipScript)).toLowerCase();
+                return effect.replace(/<br>/g, ' ').includes(currentSearchTerm);
+            });
+        }
+
         currentFilteredData = filtered;
         displayCards(filtered);
     } else if (currentTab === 'quests') {
@@ -712,6 +704,17 @@ function applyFilters() {
         const locFilter = document.getElementById('questLocationFilter')?.value;
         if (locFilter) {
             filtered = filtered.filter(q => q.locations.includes(locFilter));
+        }
+
+        // Apply search term
+        if (currentSearchTerm) {
+            filtered = filtered.filter(q => {
+                if (q.resultName.toLowerCase().includes(currentSearchTerm)) return true;
+                if (q.requirements.some(r => r.name.toLowerCase().includes(currentSearchTerm))) return true;
+                const item = itemsData.find(i => i.Id === q.resultId);
+                const effect = (itemEffectOverrides[q.resultId] || (item && item.Script ? parseItemScript(item.Script, item.EquipScript) : '')).toLowerCase();
+                return effect.replace(/<br>/g, ' ').includes(currentSearchTerm);
+            });
         }
 
         currentFilteredData = filtered;
