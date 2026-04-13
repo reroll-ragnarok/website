@@ -1390,6 +1390,22 @@ Body:
     Weight: 40
     Flags:
       BuyingStore: true
+  - Id: 1006
+    AegisName: Old_Magic_Book
+    Name: Old Magicbook
+    Type: Etc
+    Buy: 1750
+    Weight: 30
+    Flags:
+      BuyingStore: true
+  - Id: 7015
+    AegisName: Bookclip_In_Memory
+    Name: Bookclip in Memory
+    Type: Etc
+    Buy: 3000
+    Weight: 20
+    Flags:
+      BuyingStore: true
   - Id: 7096
     AegisName: Cold_Magma
     Name: Lava

@@ -2533,7 +2533,7 @@ Body:
     Buy: 20
     Weight: 10
     Locations:
-      Both_Accessory: true
+      Right_Hand: true
     Flags:
       BuyingStore: true
       DropEffect: CLIENT
@@ -3102,4 +3102,23 @@ Body:
       DropEffect: CLIENT
     Script: |
       bonus2 bAddMonsterDropItem,617,777;
-      
+
+  - Id: 4185
+    AegisName: Rideword_Card
+    Name: Rideword Card
+    Type: Card
+    Buy: 20
+    Weight: 10
+    Locations:
+      Head_Low: true
+      Head_Mid: true
+      Head_Top: true
+    Flags:
+      BuyingStore: true
+      DropEffect: CLIENT
+    Script: |
+      bonus bInt,1;
+      if (BaseClass == Job_Acolyte) {
+         bonus bInt,1;
+         bonus bMdef,1;
+      }

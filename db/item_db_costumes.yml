@@ -94,7 +94,7 @@ Body:
     AegisName: Helm_Of_Sun
     Name: Hat of the Sun God
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 10
     Locations:
       Costume_Head_Top: true
@@ -105,7 +105,7 @@ Body:
     AegisName: Helm_Of_Angel
     Name: Helm of Angel
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 1600
     Locations:
       Costume_Head_Top: true
@@ -116,7 +116,7 @@ Body:
     AegisName: Drooping_Kitty
     Name: Drooping Cat
     Type: Armor
-    Buy: 250000
+    Buy: 10000
     Weight: 500
     Locations:
       Costume_Head_Top: true
@@ -127,7 +127,7 @@ Body:
     AegisName: Mask_Of_Fox
     Name: Kitsune Mask
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 300
     Locations:
       Costume_Head_Top: true
@@ -138,7 +138,7 @@ Body:
     AegisName: Sahkkat
     Name: Sakkat
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 300
     Locations:
       Costume_Head_Top: true
@@ -149,7 +149,7 @@ Body:
     AegisName: Whikebain_Ears
     Name: Hyuke's Black Cat Ears
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 200
     Locations:
       Costume_Head_Top: true
@@ -160,7 +160,7 @@ Body:
     AegisName: Fur_Hat
     Name: Beanie
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 350
     Locations:
       Costume_Head_Top: true
@@ -171,7 +171,7 @@ Body:
     AegisName: Feather_Beret
     Name: Feather Beret
     Type: Armor
-    Buy: 30000
+    Buy: 10000
     Weight: 600
     Locations:
       Costume_Head_Top: true
@@ -182,7 +182,7 @@ Body:
     AegisName: Magician_Hat
     Name: Magician Hat
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 500
     Locations:
       Costume_Head_Top: true
@@ -193,7 +193,7 @@ Body:
     AegisName: Red_Tailed_Ribbon
     Name: Red Ribbon
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 200
     Locations:
       Costume_Head_Top: true
@@ -204,7 +204,7 @@ Body:
     AegisName: Zherlthsh_Mask
     Name: Zealotus Mask
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 400
     Locations:
       Costume_Head_Mid: true
@@ -216,7 +216,7 @@ Body:
     AegisName: Joker_Jester
     Name: Joker Jester
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Top: true
@@ -227,10 +227,31 @@ Body:
     AegisName: C_Angeling_Wanna_Fly
     Name: Costume Angelring Hat
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Top: true
     ArmorLevel: 1
     View: 348
+  
+  - Id: 20237
+    AegisName: C_Pink_Fur_Hat
+    Name: Costume Pink Beanie
+    Type: Armor
+    Locations:
+      Costume_Head_Top: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    View: 281
+  
+  - Id: 19659
+    AegisName: C_Gray_Fur_Hat
+    Name: Costume Brown Beanie
+    Type: Armor
+    Locations:
+      Costume_Head_Top: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    View: 279
 
 ######################### MID HEADGEAR COSTUMES #########################
 
@@ -238,7 +259,7 @@ Body:
     AegisName: Elven_Ears
     Name: Elven Ears
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -249,7 +270,7 @@ Body:
     AegisName: Ear_Of_Angel's_Wing
     Name: Angel Wing Ears
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -260,7 +281,7 @@ Body:
     AegisName: Devil's_Wing
     Name: Evil Wing Ears
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 350
     Locations:
       Costume_Head_Top: true
@@ -271,7 +292,7 @@ Body:
     AegisName: Blush
     Name: Blush
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -282,7 +303,7 @@ Body:
     AegisName: Opera_Ghost_Mask
     Name: Opera Phantom Mask
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 200
     Locations:
       Costume_Head_Mid: true
@@ -293,7 +314,7 @@ Body:
     AegisName: Takius_Blindfold
     Name: Takius's Blindfold
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -304,7 +325,7 @@ Body:
     AegisName: Dark_Blindfold
     Name: Dark Blinder
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -315,7 +336,7 @@ Body:
     AegisName: Round_Eyes
     Name: Blank Eyes
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 100
     Locations:
       Costume_Head_Mid: true
@@ -326,7 +347,7 @@ Body:
     AegisName: C_Minions_Of_Devil
     Name: Costume Servant Deviling
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Locations:
       Costume_Head_Mid: true
     ArmorLevel: 1
@@ -336,10 +357,20 @@ Body:
     AegisName: C_Shiba_Inu
     Name: Costume Shiba Inu
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Mid: true
     ArmorLevel: 1
     View: 1669
+  
+  - Id: 31934
+    AegisName: C_Blink_Eyes_Sakura
+    Name: Costume Blinking Purple Eyes
+    Type: Armor
+    View: 2004
+    Locations:
+      Costume_Head_Mid: true
+    ArmorLevel: 1
 
 ######################### LOW HEADGEAR COSTUMES #########################
 
@@ -347,7 +378,7 @@ Body:
     AegisName: Well_Baked_Toast
     Name: Crunch Toast
     Type: Armor
-    Buy: 20
+    Buy: 10000
     Weight: 50
     Locations:
       Costume_Head_Low: true
@@ -358,6 +389,7 @@ Body:
     AegisName: C_Iron_Cane
     Name: Costume Iron Cain
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1
@@ -367,6 +399,7 @@ Body:
     AegisName: C_Blessing_Of_Angels
     Name: Costume Blessing of Angel
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1
@@ -376,6 +409,44 @@ Body:
       hateffect(HAT_EF_BLESSING_OF_ANGELS,true);
     UnEquipScript: |
       hateffect(HAT_EF_BLESSING_OF_ANGELS,false);
+  
+  - Id: 20285
+    AegisName: C_Blossom_Fluttering
+    Name: Costume Dancing Fallen Sakura
+    Type: Armor
+    Buy: 10000
+    Locations:
+      Costume_Head_Low: true
+    ArmorLevel: 1
+    View: 1331
+    Script: |
+      hateffect HAT_EF_BLOSSOM_FLUTTERING,true;
+    UnEquipScript: |
+      hateffect HAT_EF_BLOSSOM_FLUTTERING,false;
+  
+  - Id: 20259
+    AegisName: C_Pink_Clover
+    Name: Costume Pink Clover
+    Type: Armor
+    Locations:
+      Costume_Head_Low: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    View: 1322
+  
+  - Id: 20154
+    AegisName: C_Maple_Which_Falls
+    Name: Costume Maple Which Falls
+    Type: Armor
+    Locations:
+      Costume_Head_Low: true
+    ArmorLevel: 1
+    EquipLevelMin: 1
+    View: 1275
+    EquipScript: |
+      sc_start SC_MAPLE_FALLS,INFINITE_TICK,0;
+    UnEquipScript: |
+      sc_end SC_MAPLE_FALLS;
 
 ### TO BE ADDED IN THE FUTURE, NOT USED IN CURRENT COSTUME SYSTEM ###
 
@@ -383,6 +454,7 @@ Body:
     AegisName: C_Angel_Fluttering
     Name: C Angel Fluttering
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1
@@ -395,28 +467,17 @@ Body:
     AegisName: C_Subject_Aura
     Name: Costume Aura Vicious Mind
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1
     View: 1267
 
-  - Id: 20285
-    AegisName: C_Blossom_Fluttering
-    Name: Costume Dancing Fallen Sakura
-    Type: Armor
-    Locations:
-      Costume_Head_Low: true
-    ArmorLevel: 1
-    View: 1331
-    Script: |
-      hateffect HAT_EF_BLOSSOM_FLUTTERING,true;
-    UnEquipScript: |
-      hateffect HAT_EF_BLOSSOM_FLUTTERING,false;
-
   - Id: 20405
     AegisName: C_Eremes_Scarf
     Name: Costume Eremes Scarf
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1
@@ -426,6 +487,7 @@ Body:
     AegisName: C_Feather_Fluttering
     Name: Costume Fluttering Feathers
     Type: Armor
+    Buy: 10000
     Locations:
       Costume_Head_Low: true
     ArmorLevel: 1

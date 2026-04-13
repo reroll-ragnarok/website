@@ -51,41 +51,20 @@ Body:
   SubGroups:
     - SubGroup: 1
       List:
+        # Special drops
         - Item: Gift_Box
           Rate: 10
-        - Item: Gold_Coin
+        - Item: Event_Coin
           Rate: 10
-        # Healing items (except Royal Jelly)
-        - Item: Apple
-          Rate: 5
-        - Item: Green_Herb
-          Rate: 5
-        - Item: Orange
-          Rate: 5
-        - Item: Strawberry
-          Rate: 5
-        - Item: Carrot
-          Rate: 5
-        - Item: Milk
-          Rate: 5
-        - Item: Honey
-          Rate: 5
-        - Item: Leaflet_Of_Hinal
-          Rate: 5
-        - Item: Banana
-          Rate: 5
-        - Item: Grape
-          Rate: 5
-        - Item: Leaflet_Of_Aloe
-          Rate: 5
+        # Healing items
         - Item: Well_Baked_Cookie
-          Rate: 5
+          Rate: 10
         - Item: Candy_Striper
-          Rate: 5
+          Rate: 10
         - Item: Fruit_Of_Mastela
-          Rate: 5
+          Rate: 10
         - Item: Blue_Potion
-          Rate: 5
+          Rate: 10
         - Item: Piece_Of_Cake
           Rate: 10
         - Item: Ice_Cream
@@ -123,8 +102,6 @@ Body:
         - Item: Scarlet_Jewel
           Rate: 2
         - Item: Cardinal_Jewel
-          Rate: 2
-        - Item: Cardinal_Jewel_
           Rate: 2
         - Item: Red_Jewel
           Rate: 2
@@ -173,149 +150,89 @@ Body:
           Rate: 10
         - Item: Gold_Coin
           Rate: 10
-        # MVP Quest Items (Rate: 1)
-        - Item: Tiger_Footskin
-          Rate: 1
-        - Item: Tiger's_Skin
-          Rate: 1
-        - Item: Royal_Jelly
-          Rate: 1
-        - Item: Jaws_Of_Ant
-          Rate: 1
-        - Item: Mother's_Nightmare
-          Rate: 1
-        - Item: Armlet_Of_Obedience
-          Rate: 1
-        - Item: Ora_Ora
-          Rate: 1
+        # MVP Quest Items (Rate 1)
         - Item: Gold
-          Rate: 1
-        - Item: Zero_Merchant_Bell
           Rate: 1
         - Item: Emperium
           Rate: 1
-        - Item: Fang_Of_Garm
-          Rate: 1
-        - Item: Tooth_Of_
-          Rate: 1
-        - Item: Sacred_Marks
-          Rate: 1
-        - Item: Ice_Scale
-          Rate: 1
-        - Item: Voucher_Of_Orcish_Hero
-          Rate: 1
-        - Item: Round_Feather
-          Rate: 1
-        - Item: Tutankhamen's_Mask
-          Rate: 1
-        - Item: Broken_Pharaoh_Symbol
-          Rate: 1
         - Item: Treasure_Box
           Rate: 1
+        # MVP Quest Items (Rate 2)
+        - Item: Tiger_Footskin
+          Rate: 2
+        - Item: Tiger's_Skin
+          Rate: 2
+        - Item: Royal_Jelly
+          Rate: 2
+        - Item: Jaws_Of_Ant
+          Rate: 2
+        - Item: Mother's_Nightmare
+          Rate: 2
+        - Item: Armlet_Of_Obedience
+          Rate: 2
+        - Item: Ora_Ora
+          Rate: 2
+        - Item: Zero_Merchant_Bell
+          Rate: 2
+        - Item: Fang_Of_Garm
+          Rate: 2
+        - Item: Tooth_Of_
+          Rate: 2
+        - Item: Sacred_Marks
+          Rate: 2
+        - Item: Ice_Scale
+          Rate: 2
+        - Item: Voucher_Of_Orcish_Hero
+          Rate: 2
+        - Item: Round_Feather
+          Rate: 2
+        - Item: Tutankhamen's_Mask
+          Rate: 2
+        - Item: Broken_Pharaoh_Symbol
+          Rate: 2
         - Item: Gemstone
-          Rate: 1
+          Rate: 2
         - Item: Skul_Ring
-          Rate: 1
+          Rate: 2
         - Item: Rojerta_Piece
-          Rate: 1
+          Rate: 2
         - Item: Cardinal_Jewel_
-          Rate: 1
+          Rate: 2
         - Item: Shine_Spear_Blade
-          Rate: 1
+          Rate: 2
         - Item: Wild_Boar's_Mane
-          Rate: 1
+          Rate: 2
         - Item: Union_Of_Tribe
-          Rate: 1
+          Rate: 2
         - Item: Key_Of_Twisted_Time
-          Rate: 1
+          Rate: 2
+        # MVP Quest Items (Rate 3)
         - Item: Flame_Heart
-          Rate: 1
+          Rate: 3
         - Item: Rough_Wind
-          Rate: 1
+          Rate: 3
         - Item: Great_Nature
-          Rate: 1
+          Rate: 3
         - Item: Mistic_Frozen
-          Rate: 1
+          Rate: 3
         - Item: Rune_Of_Darkness
-          Rate: 1
+          Rate: 3
         - Item: Star_Crumb
-          Rate: 1
+          Rate: 3
         # Regular Quest Items (Rates: 5)
-        - Item: Tooth_Of_Bat
-          Rate: 5
-        - Item: Wing_Of_Red_Bat
-          Rate: 5
-        - Item: Pumpkin_Head
-          Rate: 5
         - Item: Bat_Cage
-          Rate: 5
-        - Item: Milk_Bottle
           Rate: 5
         - Item: Bib
           Rate: 5
-        - Item: Stuffed_Doll
-          Rate: 5
-        - Item: Candy_Striper
-          Rate: 5
-        - Item: Manacles
-          Rate: 5
-        - Item: Worn_Out_Prison_Uniform
-          Rate: 5
         - Item: Animal_Blood
-          Rate: 5
-        - Item: Transparent_Cloth
           Rate: 5
         - Item: Clover
           Rate: 5
-        - Item: Stem
-          Rate: 5
         - Item: Smoke_Powder
-          Rate: 5
-        - Item: Sharp_Scale
-          Rate: 5
-        - Item: Fish_Tail
-          Rate: 5
-        - Item: Chinese_Ink
-          Rate: 5
-        - Item: Crystal_Blue
-          Rate: 5
-        - Item: Feather_Of_Birds
-          Rate: 5
-        - Item: Harpy's_Feather
-          Rate: 5
-        - Item: Goat's_Horn
-          Rate: 5
-        - Item: Wind_Of_Verdure
-          Rate: 5
-        - Item: Peco_Wing_Feather
-          Rate: 5
-        - Item: Sharp_Leaf
           Rate: 5
         - Item: Gaoat's_Skin
           Rate: 5
-        - Item: Scales_Shell
-          Rate: 5
-        - Item: Cyfar
-          Rate: 5
-        - Item: Moth_Dust
-          Rate: 5
-        - Item: Mud_Lump
-          Rate: 5
-        - Item: Ogre_Tooth
-          Rate: 5
-        - Item: Hot_Hair
-          Rate: 5
-        - Item: Alchol
-          Rate: 5
-        - Item: Live_Coal
-          Rate: 5
-        - Item: Boody_Red
-          Rate: 5
         - Item: Root_Of_Maneater
-          Rate: 5
-        - Item: Tree_Root
-          Rate: 5
-        - Item: Yellow_Live
           Rate: 5
         - Item: Soft_Feather
           Rate: 5
@@ -323,91 +240,23 @@ Body:
           Rate: 5
         - Item: Talon
           Rate: 5
-        - Item: Talon_Of_Griffin
-          Rate: 5
-        - Item: Posionous_Canine
-          Rate: 5
         - Item: Shining_Scales
-          Rate: 5
-        - Item: Poison_Spore
-          Rate: 5
-        - Item: Scale_Of_Snakes
           Rate: 5
         - Item: Dragon's_Skin
           Rate: 5
-        - Item: Dragon_Train
-          Rate: 5
-        - Item: Dragon_Fly_Wing
-          Rate: 5
-        - Item: Sharpened_Cuspid
-          Rate: 5
-        - Item: Piece_Of_Black_Cloth
-          Rate: 5
         - Item: Amulet
           Rate: 5
-        - Item: Tatters_Clothes
-          Rate: 5
-        - Item: Executioner's_Mitten
-          Rate: 5
-        - Item: Fin
-          Rate: 5
-        - Item: Heart_Of_Mermaid
-          Rate: 5
         - Item: Gill
-          Rate: 5
-        - Item: Tentacle
-          Rate: 5
-        - Item: Wooden_Block
           Rate: 5
         - Item: Leaflet_Of_Hinal
           Rate: 5
         - Item: Leaflet_Of_Aloe
           Rate: 5
-        - Item: Raccoon_Leaf
-          Rate: 5
-        - Item: Thin_N'_Long_Tongue
-          Rate: 5
-        - Item: Reptile_Tongue
-          Rate: 5
-        - Item: Sticky_Mucus
-          Rate: 5
-        - Item: Lip_Of_Ancient_Fish
-          Rate: 5
-        - Item: Ice_Piece
-          Rate: 5
-        - Item: Ice_Cream
-          Rate: 5
-        - Item: Blossom_Of_Maneater
-          Rate: 5
-        - Item: Young_Twig
-          Rate: 5
-        - Item: Armlet_Of_Obedience
-          Rate: 5
-        - Item: Coal
-          Rate: 5
-        - Item: Burn_Tree
-          Rate: 5
-        - Item: Grasshopper's_Leg
-          Rate: 5
-        - Item: Horrendous_Mouth
-          Rate: 5
         - Item: Round_Shell
-          Rate: 5
-        - Item: Elder_Pixie's_Beard
-          Rate: 5
-        - Item: Moustache_Of_Mole
-          Rate: 5
-        - Item: Rose_Quartz
-          Rate: 5
-        - Item: Sacred_Masque
-          Rate: 5
-        - Item: White_Platter
           Rate: 5
         - Item: Solid_Shell
           Rate: 5
         - Item: Dullahan_Armor
-          Rate: 5
-        - Item: Steel
           Rate: 5
         - Item: Glass_Bead
           Rate: 5
@@ -415,111 +264,52 @@ Body:
           Rate: 5
         - Item: Boroken_Shiled_Piece
           Rate: 5
-        - Item: Rent_Spell_Book
-          Rate: 5
-        - Item: Bill_Of_Birds
-          Rate: 5
-        - Item: Feather
-          Rate: 5
-        - Item: Rouge
-          Rate: 5
-        - Item: Round_Feather
-          Rate: 5
         - Item: Wing_Of_Moth
-          Rate: 5
-        - Item: Bee_Sting
-          Rate: 5
-        - Item: Powder_Of_Butterfly
-          Rate: 5
-        - Item: Old_Portrait
-          Rate: 5
-        - Item: Rust_Suriken
-          Rate: 5
-        - Item: Old_Manteau
-          Rate: 5
-        - Item: Coral_Reef
-          Rate: 5
-        - Item: Insect_Feeler
           Rate: 5
         - Item: Tough_Vines
           Rate: 5
-        - Item: Sparkling_Dust
-          Rate: 5
-        - Item: Fox_Tail
-          Rate: 5
-        - Item: Animal's_Skin
-          Rate: 5
-        - Item: Mementos
-          Rate: 5
-        - Item: Rotten_Bandage
-          Rate: 5
-        - Item: Lantern
-          Rate: 5
         - Item: Orcish_Voucher
-          Rate: 5
-        - Item: Cobold_Hair
-          Rate: 5
-        - Item: Fluff
-          Rate: 5
-        - Item: Skull
           Rate: 5
         - Item: Ectoplasm
           Rate: 5
         - Item: Clattering_Skull
           Rate: 5
-        - Item: Evil_Horn
-          Rate: 5
-        - Item: Petite_DiablOfs_Horn
-          Rate: 5
-        - Item: Reins
-          Rate: 5
-        - Item: Burning_Horse_Shoe
-          Rate: 5
-        - Item: Conch
-          Rate: 5
-        - Item: Horseshoe
-          Rate: 5
-        - Item: Dullahan's_Helm
-          Rate: 5
-        - Item: Vroken_Sword
-          Rate: 5
         - Item: Fine_Grit
-          Rate: 5
-        - Item: Needle_Of_Alarm
           Rate: 5
         - Item: Key_Of_Clock_Tower
           Rate: 5
-        - Item: Red_Frame
-          Rate: 5
         - Item: Turtle_Shell
           Rate: 5
-        - Item: Dragon_Scale
-          Rate: 5
-        # Slotted Equipment - Body Armor (Rate: 1)
+        # Regular Quest Items (Rates: 10)
+        - Item: Crystal_Blue
+          Rate: 10
+        - Item: Wind_Of_Verdure
+          Rate: 10
+        - Item: Yellow_Live
+          Rate: 10
+        - Item: Boody_Red
+          Rate: 10
+        # Slotted Equipment (Rate: 2)
         - Item: Coat_
           Rate: 1
         - Item: Chain_Mail_
           Rate: 1
         - Item: Plate_Armor_
           Rate: 1
-        # Slotted Equipment - Shields (Rate: 1)
         - Item: Guard_
           Rate: 1
         - Item: Buckler_
           Rate: 1
         - Item: Shield_
           Rate: 1
-        # Slotted Equipment - Footgear (Rate: 1)
         - Item: Shoes_
           Rate: 1
         - Item: Boots_
           Rate: 1
-        # Slotted Equipment - Garments (Rate: 1)
         - Item: Muffler_
           Rate: 1
         - Item: Manteau_
           Rate: 1
-        # Slotted Equipment - Accessories (Rate: 1)
         - Item: Clip
           Rate: 1
         - Item: Ring_
@@ -536,7 +326,6 @@ Body:
           Rate: 1
         - Item: Belt
           Rate: 1
-        # Slotted Equipment - Standard Headgears (Rate: 1)
         - Item: Sunglasses_
           Rate: 1
         - Item: Glasses_
@@ -548,7 +337,14 @@ Body:
       List:
         - Item: Old_Violet_Box
           Rate: 10
-        - Item: Gold_Coin
+        - Item: Gold_Coin_Moneybag
+          Rate: 10
+        # Refine Materials (Rate: 10)
+        - Item: Elunium
+          Rate: 10
+        - Item: Oridecon
+          Rate: 10
+        - Item: Steel
           Rate: 10
         # Slotted Equipment - Weapons (Rate: 1)
         - Item: Violin_
@@ -636,3 +432,26 @@ Body:
           Rate: 2
         - Item: Muscovite
           Rate: 2
+        # Mob Materials (Rate: 5)
+        - Item: Blade_Lost_In_Darkness
+          Rate: 5
+        - Item: Bookclip_In_Memory
+          Rate: 5
+        - Item: Burning_Heart
+          Rate: 5
+        - Item: Heart_Of_Tree
+          Rate: 5
+        - Item: Nail_Of_Mole
+          Rate: 5
+        - Item: Nail_Of_Orc
+          Rate: 5
+        - Item: Petti_Tail
+          Rate: 5
+        - Item: Resin
+          Rate: 5
+        - Item: Rusty_Cleaver
+          Rate: 5
+        - Item: Stone_Piece
+          Rate: 5
+        - Item: Worn_Out_Scroll
+          Rate: 5

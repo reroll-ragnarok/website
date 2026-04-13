@@ -898,25 +898,25 @@ Body:
       bonus2 bSPGainRace,RC_Demon,5;
     UnEquipScript: |
       heal 0,-5;
-  - Id: 4185
-    AegisName: Rideword_Card
-    Name: Rideword Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Head_Low: true
-      Head_Mid: true
-      Head_Top: true
-    Flags:
-      BuyingStore: true
-      DropEffect: CLIENT
-    Script: |
-      bonus bInt,1;
-      if (BaseClass == Job_Acolyte) {
-         bonus bInt,1;
-         bonus bMdef,1;
-      }
+  # - Id: 4185
+  #   AegisName: Rideword_Card
+  #   Name: Rideword Card
+  #   Type: Card
+  #   Buy: 20
+  #   Weight: 10
+  #   Locations:
+  #     Head_Low: true
+  #     Head_Mid: true
+  #     Head_Top: true
+  #   Flags:
+  #     BuyingStore: true
+  #     DropEffect: CLIENT
+  #   Script: |
+  #     bonus bInt,1;
+  #     if (BaseClass == Job_Acolyte) {
+  #        bonus bInt,1;
+  #        bonus bMdef,1;
+  #     }
   - Id: 4186
     AegisName: Raggler_Card
     Name: Raggler Card

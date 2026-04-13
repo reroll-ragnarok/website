@@ -42,7 +42,7 @@ let mapGraph = {};
 let mapDisplayNames = {};
 
 // Items hidden from the database (not yet in game / internal use only)
-const HIDDEN_ITEM_IDS = new Set([19291, 5979, 20132, 20285, 20405, 20457]);
+const HIDDEN_ITEM_IDS = new Set([19291, 5979, 20132, 20405, 20457]);
 let cardsData = [];
 
 // Hardcoded effect descriptions for cards whose scripts are too complex to parse generically
@@ -732,7 +732,12 @@ async function loadAllData() {
         
         // Load items
         const itemsResponse = await fetch('/api/items');
-        itemsData = (await itemsResponse.json()).filter(i => !HIDDEN_ITEM_IDS.has(i.Id));
+        const monsterDroppedAegisNames = new Set(monstersData.flatMap(m => (m.Drops || []).map(d => d.Item)));
+        itemsData = (await itemsResponse.json()).filter(i => {
+            if (HIDDEN_ITEM_IDS.has(i.Id)) return false;
+            const isCostume = i.Locations && Object.keys(i.Locations).some(k => k.startsWith('Costume_'));
+            return !isCostume || monsterDroppedAegisNames.has(i.AegisName);
+        });
         
         // Extract cards from items
         cardsData = itemsData.filter(item => item.Type === 'Card');

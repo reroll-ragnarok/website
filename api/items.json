@@ -2996,7 +2996,7 @@
     },
     "ArmorLevel": 1,
     "View": 369,
-    "Script": "bonus3 bAutoSpell,\"RG_STEALCOIN\",5,100;\n"
+    "Script": "skill \"RG_SNATCHER\",10;\nskill \"TF_STEAL\",5;\n"
   },
   {
     "Id": 18666,
@@ -3914,6 +3914,7 @@
     "Id": 23647,
     "AegisName": "Zero_Merchant_Bell",
     "Name": "Golden Bell",
+    "Buy": 8000,
     "Type": "Usable",
     "Script": "/* TODO dynamic npc */\n"
   },
@@ -5817,6 +5818,28 @@
     "Type": "Etc",
     "Buy": 10000,
     "Weight": 40,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
+    "Id": 1006,
+    "AegisName": "Old_Magic_Book",
+    "Name": "Old Magicbook",
+    "Type": "Etc",
+    "Buy": 1750,
+    "Weight": 30,
+    "Flags": {
+      "BuyingStore": true
+    }
+  },
+  {
+    "Id": 7015,
+    "AegisName": "Bookclip_In_Memory",
+    "Name": "Bookclip in Memory",
+    "Type": "Etc",
+    "Buy": 3000,
+    "Weight": 20,
     "Flags": {
       "BuyingStore": true
     }
@@ -9747,7 +9770,7 @@
     "Buy": 20,
     "Weight": 10,
     "Locations": {
-      "Both_Accessory": true
+      "Right_Hand": true
     },
     "Flags": {
       "BuyingStore": true,
@@ -10374,11 +10397,29 @@
     "Script": "bonus2 bAddMonsterDropItem,617,777;\n"
   },
   {
+    "Id": 4185,
+    "AegisName": "Rideword_Card",
+    "Name": "Rideword Card",
+    "Type": "Card",
+    "Buy": 20,
+    "Weight": 10,
+    "Locations": {
+      "Head_Low": true,
+      "Head_Mid": true,
+      "Head_Top": true
+    },
+    "Flags": {
+      "BuyingStore": true,
+      "DropEffect": "CLIENT"
+    },
+    "Script": "bonus bInt,1;\nif (BaseClass == Job_Acolyte) {\n   bonus bInt,1;\n   bonus bMdef,1;\n}\n"
+  },
+  {
     "Id": 5022,
     "AegisName": "Helm_Of_Sun",
     "Name": "Hat of the Sun God",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 10,
     "Locations": {
       "Costume_Head_Top": true
@@ -10391,7 +10432,7 @@
     "AegisName": "Helm_Of_Angel",
     "Name": "Helm of Angel",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 1600,
     "Locations": {
       "Costume_Head_Top": true
@@ -10404,7 +10445,7 @@
     "AegisName": "Drooping_Kitty",
     "Name": "Drooping Cat",
     "Type": "Armor",
-    "Buy": 250000,
+    "Buy": 10000,
     "Weight": 500,
     "Locations": {
       "Costume_Head_Top": true
@@ -10417,7 +10458,7 @@
     "AegisName": "Mask_Of_Fox",
     "Name": "Kitsune Mask",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 300,
     "Locations": {
       "Costume_Head_Top": true
@@ -10430,7 +10471,7 @@
     "AegisName": "Sahkkat",
     "Name": "Sakkat",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 300,
     "Locations": {
       "Costume_Head_Top": true
@@ -10443,7 +10484,7 @@
     "AegisName": "Whikebain_Ears",
     "Name": "Hyuke's Black Cat Ears",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 200,
     "Locations": {
       "Costume_Head_Top": true
@@ -10456,7 +10497,7 @@
     "AegisName": "Fur_Hat",
     "Name": "Beanie",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 350,
     "Locations": {
       "Costume_Head_Top": true
@@ -10469,7 +10510,7 @@
     "AegisName": "Feather_Beret",
     "Name": "Feather Beret",
     "Type": "Armor",
-    "Buy": 30000,
+    "Buy": 10000,
     "Weight": 600,
     "Locations": {
       "Costume_Head_Top": true
@@ -10482,7 +10523,7 @@
     "AegisName": "Magician_Hat",
     "Name": "Magician Hat",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 500,
     "Locations": {
       "Costume_Head_Top": true
@@ -10495,7 +10536,7 @@
     "AegisName": "Red_Tailed_Ribbon",
     "Name": "Red Ribbon",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 200,
     "Locations": {
       "Costume_Head_Top": true
@@ -10508,7 +10549,7 @@
     "AegisName": "Zherlthsh_Mask",
     "Name": "Zealotus Mask",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 400,
     "Locations": {
       "Costume_Head_Mid": true,
@@ -10522,7 +10563,7 @@
     "AegisName": "Joker_Jester",
     "Name": "Joker Jester",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Top": true
@@ -10535,6 +10576,7 @@
     "AegisName": "C_Angeling_Wanna_Fly",
     "Name": "Costume Angelring Hat",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Top": true
     },
@@ -10542,11 +10584,35 @@
     "View": 348
   },
   {
+    "Id": 20237,
+    "AegisName": "C_Pink_Fur_Hat",
+    "Name": "Costume Pink Beanie",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 1,
+    "View": 281
+  },
+  {
+    "Id": 19659,
+    "AegisName": "C_Gray_Fur_Hat",
+    "Name": "Costume Brown Beanie",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Top": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 1,
+    "View": 279
+  },
+  {
     "Id": 2286,
     "AegisName": "Elven_Ears",
     "Name": "Elven Ears",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10559,7 +10625,7 @@
     "AegisName": "Ear_Of_Angel's_Wing",
     "Name": "Angel Wing Ears",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10572,7 +10638,7 @@
     "AegisName": "Devil's_Wing",
     "Name": "Evil Wing Ears",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 350,
     "Locations": {
       "Costume_Head_Top": true
@@ -10585,7 +10651,7 @@
     "AegisName": "Blush",
     "Name": "Blush",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10598,7 +10664,7 @@
     "AegisName": "Opera_Ghost_Mask",
     "Name": "Opera Phantom Mask",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 200,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10611,7 +10677,7 @@
     "AegisName": "Takius_Blindfold",
     "Name": "Takius's Blindfold",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10624,7 +10690,7 @@
     "AegisName": "Dark_Blindfold",
     "Name": "Dark Blinder",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10637,7 +10703,7 @@
     "AegisName": "Round_Eyes",
     "Name": "Blank Eyes",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 100,
     "Locations": {
       "Costume_Head_Mid": true
@@ -10650,7 +10716,7 @@
     "AegisName": "C_Minions_Of_Devil",
     "Name": "Costume Servant Deviling",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Mid": true
     },
@@ -10662,6 +10728,7 @@
     "AegisName": "C_Shiba_Inu",
     "Name": "Costume Shiba Inu",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Mid": true
     },
@@ -10669,11 +10736,22 @@
     "View": 1669
   },
   {
+    "Id": 31934,
+    "AegisName": "C_Blink_Eyes_Sakura",
+    "Name": "Costume Blinking Purple Eyes",
+    "Type": "Armor",
+    "View": 2004,
+    "Locations": {
+      "Costume_Head_Mid": true
+    },
+    "ArmorLevel": 1
+  },
+  {
     "Id": 5107,
     "AegisName": "Well_Baked_Toast",
     "Name": "Crunch Toast",
     "Type": "Armor",
-    "Buy": 20,
+    "Buy": 10000,
     "Weight": 50,
     "Locations": {
       "Costume_Head_Low": true
@@ -10686,6 +10764,7 @@
     "AegisName": "C_Iron_Cane",
     "Name": "Costume Iron Cain",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },
@@ -10697,6 +10776,7 @@
     "AegisName": "C_Blessing_Of_Angels",
     "Name": "Costume Blessing of Angel",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },
@@ -10707,10 +10787,51 @@
     "UnEquipScript": "hateffect(HAT_EF_BLESSING_OF_ANGELS,false);\n"
   },
   {
+    "Id": 20285,
+    "AegisName": "C_Blossom_Fluttering",
+    "Name": "Costume Dancing Fallen Sakura",
+    "Type": "Armor",
+    "Buy": 10000,
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "View": 1331,
+    "Script": "hateffect HAT_EF_BLOSSOM_FLUTTERING,true;\n",
+    "UnEquipScript": "hateffect HAT_EF_BLOSSOM_FLUTTERING,false;\n"
+  },
+  {
+    "Id": 20259,
+    "AegisName": "C_Pink_Clover",
+    "Name": "Costume Pink Clover",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 1,
+    "View": 1322
+  },
+  {
+    "Id": 20154,
+    "AegisName": "C_Maple_Which_Falls",
+    "Name": "Costume Maple Which Falls",
+    "Type": "Armor",
+    "Locations": {
+      "Costume_Head_Low": true
+    },
+    "ArmorLevel": 1,
+    "EquipLevelMin": 1,
+    "View": 1275,
+    "EquipScript": "sc_start SC_MAPLE_FALLS,INFINITE_TICK,0;\n",
+    "UnEquipScript": "sc_end SC_MAPLE_FALLS;\n"
+  },
+  {
     "Id": 5979,
     "AegisName": "C_Angel_Fluttering",
     "Name": "C Angel Fluttering",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },
@@ -10723,6 +10844,7 @@
     "AegisName": "C_Subject_Aura",
     "Name": "Costume Aura Vicious Mind",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },
@@ -10730,23 +10852,11 @@
     "View": 1267
   },
   {
-    "Id": 20285,
-    "AegisName": "C_Blossom_Fluttering",
-    "Name": "Costume Dancing Fallen Sakura",
-    "Type": "Armor",
-    "Locations": {
-      "Costume_Head_Low": true
-    },
-    "ArmorLevel": 1,
-    "View": 1331,
-    "Script": "hateffect HAT_EF_BLOSSOM_FLUTTERING,true;\n",
-    "UnEquipScript": "hateffect HAT_EF_BLOSSOM_FLUTTERING,false;\n"
-  },
-  {
     "Id": 20405,
     "AegisName": "C_Eremes_Scarf",
     "Name": "Costume Eremes Scarf",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },
@@ -10758,6 +10868,7 @@
     "AegisName": "C_Feather_Fluttering",
     "Name": "Costume Fluttering Feathers",
     "Type": "Armor",
+    "Buy": 10000,
     "Locations": {
       "Costume_Head_Low": true
     },

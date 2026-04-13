@@ -2643,7 +2643,8 @@ Body:
     ArmorLevel: 1
     View: 369
     Script: |
-      bonus3 bAutoSpell,"RG_STEALCOIN",5,100;
+      skill "RG_SNATCHER",10;
+      skill "TF_STEAL",5;
   - Id: 18666
     AegisName: CD_In_Mouth
     Name: CD In Mouth

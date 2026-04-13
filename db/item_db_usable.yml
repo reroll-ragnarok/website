@@ -365,6 +365,7 @@ Body:
   - Id: 23647
     AegisName: Zero_Merchant_Bell
     Name: Golden Bell
+    Buy: 8000
     Type: Usable
     Script: |
       /* TODO dynamic npc */
