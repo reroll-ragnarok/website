@@ -46,6 +46,7 @@
                 <button class="tab-btn" data-tab="maps">Maps</button>
                 <button class="tab-btn" data-tab="cards">Cards</button>
                 <button class="tab-btn" data-tab="quests">Quests</button>
+                <button class="tab-btn" data-tab="lootboxes">Loot Boxes</button>
             </div>
 
             <div class="search-section">
@@ -179,6 +180,32 @@
                     </table>
                 </div>
                 <div class="pagination" id="quests-pagination"></div>
+            </div>
+
+            <!-- Lootboxes Tab -->
+            <div id="lootboxes-tab" class="tab-content">
+                <div class="results-header">
+                    <h2>Loot Boxes</h2>
+                    <span id="lootbox-count" class="result-count">Loading...</span>
+                </div>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Icon</th>
+                                <th>Item</th>
+                                <th title="Raw weight used for probability calculation">Rate</th>
+                                <th title="Probability of obtaining this specific item per box open">Item Chance</th>
+                                <th title="Combined probability of obtaining any item in this rate tier">Tier Chance</th>
+                            </tr>
+                        </thead>
+                        <tbody id="lootboxes-tbody">
+                            <tr>
+                                <td colspan="5" class="loading">Loading loot boxes...</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>

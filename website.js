@@ -14,6 +14,7 @@ let monstersCache = null;
 let itemsCache = null;
 let mapsCache = null;
 let spawnsCache = null;
+let lootboxesCache = null;
 
 // Load YAML database files
 function loadYAMLFile(filePath) {
@@ -187,6 +188,46 @@ function loadMaps() {
     }
 }
 
+// Load lootbox groups from item_db_group.yml
+function loadLootboxes() {
+    if (lootboxesCache) return lootboxesCache;
+
+    const filePath = path.join(__dirname, 'db', 'item_db_group.yml');
+    const LOOTBOX_GROUPS = {
+        GIFTBOX:   { displayName: 'Gift Box',       boxAegisName: 'Gift_Box'       },
+        BLUEBOX:   { displayName: 'Old Blue Box',   boxAegisName: 'Old_Blue_Box'   },
+        VIOLETBOX: { displayName: 'Old Purple Box', boxAegisName: 'Old_Violet_Box' },
+    };
+
+    try {
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const data = yaml.parse(fileContent, { strict: false, uniqueKeys: false });
+        const body = data.Body || [];
+        const result = [];
+
+        body.forEach(entry => {
+            const groupName = entry.Group;
+            if (!LOOTBOX_GROUPS[groupName]) return;
+
+            const meta = LOOTBOX_GROUPS[groupName];
+            const subGroup = entry.SubGroups && entry.SubGroups[0];
+            if (!subGroup || !subGroup.List) return;
+
+            const items = subGroup.List.map(i => ({ aegisName: i.Item, rate: i.Rate || 0 }));
+            const totalRate = items.reduce((sum, i) => sum + i.rate, 0);
+
+            result.push({ group: groupName, displayName: meta.displayName, boxAegisName: meta.boxAegisName, totalRate, items });
+        });
+
+        lootboxesCache = result;
+        console.log(`Loaded ${result.length} lootbox groups`);
+        return result;
+    } catch (error) {
+        console.error('Error loading lootboxes:', error.message);
+        return [];
+    }
+}
+
 // Health check endpoint for keeping Render awake
 app.get('/api/health', (req, res) => {
     res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
@@ -259,6 +300,16 @@ app.get('/api/maps', (req, res) => {
     } catch (error) {
         console.error('Error fetching maps:', error);
         res.status(500).json({ error: 'Failed to load maps' });
+    }
+});
+
+app.get('/api/lootboxes', (req, res) => {
+    try {
+        const lootboxes = loadLootboxes();
+        res.json(lootboxes);
+    } catch (error) {
+        console.error('Error fetching lootboxes:', error);
+        res.status(500).json({ error: 'Failed to load lootboxes' });
     }
 });
 

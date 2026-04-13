@@ -1,0 +1,782 @@
+[
+  {
+    "group": "GIFTBOX",
+    "displayName": "Gift Box",
+    "boxAegisName": "Gift_Box",
+    "totalRate": 171,
+    "items": [
+      {
+        "aegisName": "Gift_Box",
+        "rate": 10
+      },
+      {
+        "aegisName": "Event_Coin",
+        "rate": 10
+      },
+      {
+        "aegisName": "Well_Baked_Cookie",
+        "rate": 10
+      },
+      {
+        "aegisName": "Candy_Striper",
+        "rate": 10
+      },
+      {
+        "aegisName": "Fruit_Of_Mastela",
+        "rate": 10
+      },
+      {
+        "aegisName": "Blue_Potion",
+        "rate": 10
+      },
+      {
+        "aegisName": "Piece_Of_Cake",
+        "rate": 10
+      },
+      {
+        "aegisName": "Ice_Cream",
+        "rate": 10
+      },
+      {
+        "aegisName": "Pet_Food",
+        "rate": 10
+      },
+      {
+        "aegisName": "Four_Leaf_Clover",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rouge",
+        "rate": 3
+      },
+      {
+        "aegisName": "Red_Frame",
+        "rate": 3
+      },
+      {
+        "aegisName": "Patriotism_Marks",
+        "rate": 3
+      },
+      {
+        "aegisName": "Executioner's_Mitten",
+        "rate": 3
+      },
+      {
+        "aegisName": "Alice's_Apron",
+        "rate": 3
+      },
+      {
+        "aegisName": "Crystal_Mirror",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rose_Quartz",
+        "rate": 3
+      },
+      {
+        "aegisName": "White_Platter",
+        "rate": 3
+      },
+      {
+        "aegisName": "Dark_Red_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Violet_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Skyblue_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Azure_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Scarlet_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Cardinal_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Red_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Blue_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "White_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Golden_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Bluish_Green_Jewel",
+        "rate": 2
+      },
+      {
+        "aegisName": "Turquoise",
+        "rate": 2
+      },
+      {
+        "aegisName": "Stuffed_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Munak_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Black_Kitty_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Poring_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Chonchon_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Grasshopper_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Monkey_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Baphomet_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "Osiris_Doll",
+        "rate": 3
+      },
+      {
+        "aegisName": "C_Blessing_Of_Angels",
+        "rate": 1
+      },
+      {
+        "aegisName": "C_Minions_Of_Devil",
+        "rate": 1
+      },
+      {
+        "aegisName": "C_Angeling_Wanna_Fly",
+        "rate": 1
+      }
+    ]
+  },
+  {
+    "group": "BLUEBOX",
+    "displayName": "Old Blue Box",
+    "boxAegisName": "Old_Blue_Box",
+    "totalRate": 299,
+    "items": [
+      {
+        "aegisName": "Old_Blue_Box",
+        "rate": 10
+      },
+      {
+        "aegisName": "Gold_Coin",
+        "rate": 10
+      },
+      {
+        "aegisName": "Gold",
+        "rate": 1
+      },
+      {
+        "aegisName": "Emperium",
+        "rate": 1
+      },
+      {
+        "aegisName": "Treasure_Box",
+        "rate": 1
+      },
+      {
+        "aegisName": "Tiger_Footskin",
+        "rate": 2
+      },
+      {
+        "aegisName": "Tiger's_Skin",
+        "rate": 2
+      },
+      {
+        "aegisName": "Royal_Jelly",
+        "rate": 2
+      },
+      {
+        "aegisName": "Jaws_Of_Ant",
+        "rate": 2
+      },
+      {
+        "aegisName": "Mother's_Nightmare",
+        "rate": 2
+      },
+      {
+        "aegisName": "Armlet_Of_Obedience",
+        "rate": 2
+      },
+      {
+        "aegisName": "Ora_Ora",
+        "rate": 2
+      },
+      {
+        "aegisName": "Zero_Merchant_Bell",
+        "rate": 2
+      },
+      {
+        "aegisName": "Fang_Of_Garm",
+        "rate": 2
+      },
+      {
+        "aegisName": "Tooth_Of_",
+        "rate": 2
+      },
+      {
+        "aegisName": "Sacred_Marks",
+        "rate": 2
+      },
+      {
+        "aegisName": "Ice_Scale",
+        "rate": 2
+      },
+      {
+        "aegisName": "Voucher_Of_Orcish_Hero",
+        "rate": 2
+      },
+      {
+        "aegisName": "Round_Feather",
+        "rate": 2
+      },
+      {
+        "aegisName": "Tutankhamen's_Mask",
+        "rate": 2
+      },
+      {
+        "aegisName": "Broken_Pharaoh_Symbol",
+        "rate": 2
+      },
+      {
+        "aegisName": "Gemstone",
+        "rate": 2
+      },
+      {
+        "aegisName": "Skul_Ring",
+        "rate": 2
+      },
+      {
+        "aegisName": "Rojerta_Piece",
+        "rate": 2
+      },
+      {
+        "aegisName": "Cardinal_Jewel_",
+        "rate": 2
+      },
+      {
+        "aegisName": "Shine_Spear_Blade",
+        "rate": 2
+      },
+      {
+        "aegisName": "Wild_Boar's_Mane",
+        "rate": 2
+      },
+      {
+        "aegisName": "Union_Of_Tribe",
+        "rate": 2
+      },
+      {
+        "aegisName": "Key_Of_Twisted_Time",
+        "rate": 2
+      },
+      {
+        "aegisName": "Flame_Heart",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rough_Wind",
+        "rate": 3
+      },
+      {
+        "aegisName": "Great_Nature",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mistic_Frozen",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rune_Of_Darkness",
+        "rate": 3
+      },
+      {
+        "aegisName": "Star_Crumb",
+        "rate": 3
+      },
+      {
+        "aegisName": "Bat_Cage",
+        "rate": 5
+      },
+      {
+        "aegisName": "Bib",
+        "rate": 5
+      },
+      {
+        "aegisName": "Animal_Blood",
+        "rate": 5
+      },
+      {
+        "aegisName": "Clover",
+        "rate": 5
+      },
+      {
+        "aegisName": "Smoke_Powder",
+        "rate": 5
+      },
+      {
+        "aegisName": "Gaoat's_Skin",
+        "rate": 5
+      },
+      {
+        "aegisName": "Root_Of_Maneater",
+        "rate": 5
+      },
+      {
+        "aegisName": "Soft_Feather",
+        "rate": 5
+      },
+      {
+        "aegisName": "Harpy's_Claw",
+        "rate": 5
+      },
+      {
+        "aegisName": "Talon",
+        "rate": 5
+      },
+      {
+        "aegisName": "Shining_Scales",
+        "rate": 5
+      },
+      {
+        "aegisName": "Dragon's_Skin",
+        "rate": 5
+      },
+      {
+        "aegisName": "Amulet",
+        "rate": 5
+      },
+      {
+        "aegisName": "Gill",
+        "rate": 5
+      },
+      {
+        "aegisName": "Leaflet_Of_Hinal",
+        "rate": 5
+      },
+      {
+        "aegisName": "Leaflet_Of_Aloe",
+        "rate": 5
+      },
+      {
+        "aegisName": "Round_Shell",
+        "rate": 5
+      },
+      {
+        "aegisName": "Solid_Shell",
+        "rate": 5
+      },
+      {
+        "aegisName": "Dullahan_Armor",
+        "rate": 5
+      },
+      {
+        "aegisName": "Glass_Bead",
+        "rate": 5
+      },
+      {
+        "aegisName": "Spool",
+        "rate": 5
+      },
+      {
+        "aegisName": "Boroken_Shiled_Piece",
+        "rate": 5
+      },
+      {
+        "aegisName": "Wing_Of_Moth",
+        "rate": 5
+      },
+      {
+        "aegisName": "Tough_Vines",
+        "rate": 5
+      },
+      {
+        "aegisName": "Orcish_Voucher",
+        "rate": 5
+      },
+      {
+        "aegisName": "Ectoplasm",
+        "rate": 5
+      },
+      {
+        "aegisName": "Clattering_Skull",
+        "rate": 5
+      },
+      {
+        "aegisName": "Fine_Grit",
+        "rate": 5
+      },
+      {
+        "aegisName": "Key_Of_Clock_Tower",
+        "rate": 5
+      },
+      {
+        "aegisName": "Turtle_Shell",
+        "rate": 5
+      },
+      {
+        "aegisName": "Crystal_Blue",
+        "rate": 10
+      },
+      {
+        "aegisName": "Wind_Of_Verdure",
+        "rate": 10
+      },
+      {
+        "aegisName": "Yellow_Live",
+        "rate": 10
+      },
+      {
+        "aegisName": "Boody_Red",
+        "rate": 10
+      },
+      {
+        "aegisName": "Coat_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Chain_Mail_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Plate_Armor_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Guard_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Buckler_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Shield_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Shoes_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Boots_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Muffler_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Manteau_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Clip",
+        "rate": 1
+      },
+      {
+        "aegisName": "Ring_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Earring_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Necklace_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Glove_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Brooch_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Rosary_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Belt",
+        "rate": 1
+      },
+      {
+        "aegisName": "Sunglasses_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Glasses_",
+        "rate": 1
+      }
+    ]
+  },
+  {
+    "group": "VIOLETBOX",
+    "displayName": "Old Purple Box",
+    "boxAegisName": "Old_Violet_Box",
+    "totalRate": 152,
+    "items": [
+      {
+        "aegisName": "Old_Violet_Box",
+        "rate": 10
+      },
+      {
+        "aegisName": "Gold_Coin_Moneybag",
+        "rate": 10
+      },
+      {
+        "aegisName": "Elunium",
+        "rate": 10
+      },
+      {
+        "aegisName": "Oridecon",
+        "rate": 10
+      },
+      {
+        "aegisName": "Steel",
+        "rate": 10
+      },
+      {
+        "aegisName": "Violin_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Rope_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Waghnakh_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Mace_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Blade_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Pike_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Axe_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Rod_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Katana_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Battle_Axe_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Composite_Bow_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Main_Gauche_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Lute_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Line_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Book",
+        "rate": 1
+      },
+      {
+        "aegisName": "Chain_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Scimiter_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Staff_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Bastard_Sword_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Hammer_",
+        "rate": 1
+      },
+      {
+        "aegisName": "CrossBow_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Jur_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Stiletto_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Guh_Moon_Goh_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Whip_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Finger_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Tsurugi_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Arc_Wand_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Two_Hand_Sword_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Partizan_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Two_Handed_Axe_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Kakkung_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Damascus_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Fist_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Sword_Mace_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Lance_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Jamadhar_",
+        "rate": 1
+      },
+      {
+        "aegisName": "Citrine",
+        "rate": 2
+      },
+      {
+        "aegisName": "Phlogopite",
+        "rate": 2
+      },
+      {
+        "aegisName": "Pyroxene",
+        "rate": 2
+      },
+      {
+        "aegisName": "Biotite",
+        "rate": 2
+      },
+      {
+        "aegisName": "Muscovite",
+        "rate": 2
+      },
+      {
+        "aegisName": "Blade_Lost_In_Darkness",
+        "rate": 5
+      },
+      {
+        "aegisName": "Bookclip_In_Memory",
+        "rate": 5
+      },
+      {
+        "aegisName": "Burning_Heart",
+        "rate": 5
+      },
+      {
+        "aegisName": "Heart_Of_Tree",
+        "rate": 5
+      },
+      {
+        "aegisName": "Nail_Of_Mole",
+        "rate": 5
+      },
+      {
+        "aegisName": "Nail_Of_Orc",
+        "rate": 5
+      },
+      {
+        "aegisName": "Petti_Tail",
+        "rate": 5
+      },
+      {
+        "aegisName": "Resin",
+        "rate": 5
+      },
+      {
+        "aegisName": "Rusty_Cleaver",
+        "rate": 5
+      },
+      {
+        "aegisName": "Stone_Piece",
+        "rate": 5
+      },
+      {
+        "aegisName": "Worn_Out_Scroll",
+        "rate": 5
+      }
+    ]
+  }
+]

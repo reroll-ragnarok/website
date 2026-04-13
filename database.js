@@ -44,6 +44,7 @@ let mapDisplayNames = {};
 // Items hidden from the database (not yet in game / internal use only)
 const HIDDEN_ITEM_IDS = new Set([19291, 5979, 20132, 20405, 20457]);
 let cardsData = [];
+let lootboxesData = [];
 
 // Hardcoded effect descriptions for cards whose scripts are too complex to parse generically
 const cardEffectOverrides = {
@@ -154,6 +155,8 @@ function switchTab(tab) {
         searchInput.placeholder = 'Search by name, ID or effect...';
     } else if (tab === 'quests') {
         searchInput.placeholder = 'Search by name, effect or ingredient...';
+    } else if (tab === 'lootboxes') {
+        searchInput.placeholder = 'Search items in loot box...';
     } else {
         searchInput.placeholder = 'Search by name or ID...';
     }
@@ -400,6 +403,20 @@ function updateFilterOptions(tab) {
             </div>
         `;
         document.getElementById('questLocationFilter')?.addEventListener('change', applyFilters);
+    } else if (tab === 'lootboxes') {
+        const options = lootboxesData.length
+            ? lootboxesData.map(box => `<option value="${box.group}">${box.displayName}</option>`).join('')
+            : '<option value="">Loading...</option>';
+        filterSection.innerHTML = `
+            <div class="filter-group">
+                <label>Loot Box</label>
+                <select id="lootboxFilter">${options}</select>
+            </div>
+        `;
+        document.getElementById('lootboxFilter')?.addEventListener('change', () => {
+            currentPage = 1;
+            displayLootboxes();
+        });
     } else {
         filterSection.innerHTML = '';
     }
@@ -719,6 +736,8 @@ function applyFilters() {
 
         currentFilteredData = filtered;
         displayQuests(filtered);
+    } else if (currentTab === 'lootboxes') {
+        displayLootboxes();
     }
 }
 
@@ -759,6 +778,11 @@ async function loadAllData() {
         mapGraph = parsedMaps.graph;
 
         await loadMonsterTypeTags();
+
+        // Load lootboxes
+        const lootboxesResponse = await fetch('/api/lootboxes');
+        lootboxesData = await lootboxesResponse.json();
+        if (currentTab === 'lootboxes') updateFilterOptions('lootboxes');
         
     } catch (error) {
         console.error('Error loading data:', error);
@@ -779,6 +803,8 @@ function displayCurrentTabData() {
             displayCards(currentFilteredData);
         } else if (currentTab === 'quests') {
             displayQuests(currentFilteredData);
+        } else if (currentTab === 'lootboxes') {
+            displayLootboxes();
         }
     } else {
         // No filters/search active, show all data
@@ -792,8 +818,78 @@ function displayCurrentTabData() {
             displayCards(cardsData);
         } else if (currentTab === 'quests') {
             displayQuests(questsData);
+        } else if (currentTab === 'lootboxes') {
+            displayLootboxes();
         }
     }
+}
+
+// Display loot boxes
+function displayLootboxes() {
+    const tbody = document.getElementById('lootboxes-tbody');
+    const countEl = document.getElementById('lootbox-count');
+
+    if (!lootboxesData.length) {
+        if (countEl) countEl.textContent = '0 items';
+        tbody.innerHTML = '<tr><td colspan="5" class="loading">Loading loot box data...</td></tr>';
+        return;
+    }
+
+    const boxFilter = document.getElementById('lootboxFilter')?.value || lootboxesData[0].group;
+    const box = lootboxesData.find(b => b.group === boxFilter);
+
+    if (!box) {
+        tbody.innerHTML = '<tr><td colspan="5" class="loading">No loot box selected</td></tr>';
+        return;
+    }
+
+    // Precompute tier totals: rate value → sum of all rates at that tier
+    const tierTotals = {};
+    box.items.forEach(item => {
+        tierTotals[item.rate] = (tierTotals[item.rate] || 0) + item.rate;
+    });
+
+    let items = [...box.items];
+
+    // Apply search filter
+    if (currentSearchTerm) {
+        items = items.filter(item => {
+            const dbItem = itemsData.find(i => i.AegisName === item.aegisName);
+            const name = (dbItem ? dbItem.Name : item.aegisName.replace(/_/g, ' ')).toLowerCase();
+            return name.includes(currentSearchTerm) || item.aegisName.replace(/_/g, ' ').toLowerCase().includes(currentSearchTerm);
+        });
+    }
+
+    items.sort((a, b) => b.rate - a.rate || a.aegisName.localeCompare(b.aegisName));
+
+    if (countEl) countEl.textContent = `${items.length} item${items.length !== 1 ? 's' : ''} found`;
+
+    if (items.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="5" class="loading">No items found</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = items.map(item => {
+        const dbItem = itemsData.find(i => i.AegisName === item.aegisName);
+        const name = dbItem ? dbItem.Name : item.aegisName.replace(/_/g, ' ');
+        const id = dbItem ? dbItem.Id : null;
+
+        const itemChance = (item.rate / box.totalRate * 100);
+        const tierChance = (tierTotals[item.rate] / box.totalRate * 100);
+
+        const iconHtml = id
+            ? `<img src="https://www.divine-pride.net/img/items/item/iRO/${id}" alt="${name}" class="item-sprite-small" onerror="this.style.display='none'">`
+            : '';
+
+        return `
+        <tr>
+            <td class="col-icon">${iconHtml}</td>
+            <td>${name}</td>
+            <td class="lootbox-rate-cell">${item.rate}</td>
+            <td class="lootbox-chance-cell"><span class="loot-item-chance">${itemChance < 0.01 ? '&lt;0.01' : itemChance.toFixed(2)}%</span></td>
+            <td class="lootbox-tier-cell"><span class="loot-tier-chance">${tierChance.toFixed(2)}%</span></td>
+        </tr>`;
+    }).join('');
 }
 
 // Display monsters

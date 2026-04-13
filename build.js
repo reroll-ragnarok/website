@@ -227,6 +227,50 @@ function loadWarps() {
     }
 }
 
+// Load lootboxes
+function loadLootboxes() {
+    const filePath = path.join(__dirname, 'db', 'item_db_group.yml');
+    const LOOTBOX_GROUPS = {
+        GIFTBOX:    { displayName: 'Gift Box',      boxAegisName: 'Gift_Box'      },
+        BLUEBOX:    { displayName: 'Old Blue Box',   boxAegisName: 'Old_Blue_Box'  },
+        VIOLETBOX:  { displayName: 'Old Purple Box', boxAegisName: 'Old_Violet_Box' },
+    };
+
+    try {
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        const data = yaml.parse(fileContent, { strict: false, uniqueKeys: false });
+        const body = data.Body || [];
+
+        const result = [];
+
+        body.forEach(entry => {
+            const groupName = entry.Group;
+            if (!LOOTBOX_GROUPS[groupName]) return;
+
+            const meta = LOOTBOX_GROUPS[groupName];
+            const subGroup = entry.SubGroups && entry.SubGroups[0];
+            if (!subGroup || !subGroup.List) return;
+
+            const items = subGroup.List.map(i => ({ aegisName: i.Item, rate: i.Rate || 0 }));
+            const totalRate = items.reduce((sum, i) => sum + i.rate, 0);
+
+            result.push({
+                group: groupName,
+                displayName: meta.displayName,
+                boxAegisName: meta.boxAegisName,
+                totalRate,
+                items,
+            });
+        });
+
+        console.log(`✅ Loaded ${result.length} lootbox groups`);
+        return result;
+    } catch (error) {
+        console.error('❌ Error loading lootboxes:', error.message);
+        return [];
+    }
+}
+
 // Build everything
 console.log('📦 Processing database files...\n');
 
@@ -235,6 +279,7 @@ const spawns = loadSpawns();
 const items = loadItems();
 const maps = loadMaps();
 const warps = loadWarps();
+const lootboxes = loadLootboxes();
 
 // Write main JSON files
 fs.writeFileSync(path.join(apiDir, 'monsters.json'), JSON.stringify(monsters, null, 2));
@@ -242,6 +287,7 @@ fs.writeFileSync(path.join(apiDir, 'spawns.json'), JSON.stringify(spawns, null, 
 fs.writeFileSync(path.join(apiDir, 'items.json'), JSON.stringify(items, null, 2));
 fs.writeFileSync(path.join(apiDir, 'maps.json'), JSON.stringify(maps, null, 2));
 fs.writeFileSync(path.join(apiDir, 'warps.json'), JSON.stringify(warps, null, 2));
+fs.writeFileSync(path.join(apiDir, 'lootboxes.json'), JSON.stringify(lootboxes, null, 2));
 
 console.log('\n📝 Writing JSON files...');
 console.log(`✅ monsters.json`);
@@ -249,6 +295,7 @@ console.log(`✅ spawns.json`);
 console.log(`✅ items.json`);
 console.log(`✅ maps.json`);
 console.log(`✅ warps.json`);
+console.log(`✅ lootboxes.json`);
 
 // Write individual monster files
 const monstersDir = path.join(apiDir, 'monsters');

@@ -2086,6 +2086,48 @@ body.dark-mode .quest-effect-cell {
     color: rgba(224, 224, 224, 0.7);
 }
 
+/* Lootbox chance badges */
+.lootbox-rate-cell,
+.lootbox-chance-cell,
+.lootbox-tier-cell {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.loot-item-chance {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 4px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    background: #e8f5e9;
+    color: #2e7d32;
+    border: 1px solid #a5d6a7;
+}
+
+.loot-tier-chance {
+    display: inline-block;
+    padding: 2px 9px;
+    border-radius: 4px;
+    font-size: 0.84rem;
+    font-weight: 600;
+    background: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #90caf9;
+}
+
+body.dark-mode .loot-item-chance {
+    background: #1b5e2022;
+    color: #66bb6a;
+    border-color: #66bb6a55;
+}
+
+body.dark-mode .loot-tier-chance {
+    background: #0d47a122;
+    color: #42a5f5;
+    border-color: #42a5f555;
+}
+
 /* Quest detail modal */
 .quest-detail-header {
     display: flex;
