@@ -14,7 +14,7 @@ SignBoardList = {
 	{ "Default", 157, 278, 0, IT_BMP, "유저인터페이스\\collection\\꽃가지.bmp", "입력안하셨습니다", "#0x009EBDFF" },
 	{ "prontera", 82, 108, 0, IT_BMP, "유저인터페이스\\information\\over_mkect.bmp" },
 	{ "prt_in", 37, 95, 15, IT_SIGNBOARD, "item\\콜오브네메시스.bmp", "  메가 부스터 지원", "#0x00FFFFFF" },
-	{ "prt_in", 44, 113, 10, IT_SIGNBOARD, "information\\ebl_manus.bmp", "  등급강화소", "#0x00FFFFFF" },
+	{ "prt_in", 44, 113, 10, IT_SIGNBOARD, "유저인터페이스\\item\\이름없는카드.bmp", "  등급강화소", "#0x00FFFFFF" },
 	{ "prontera", 134, 184, 15, IT_SIGNBOARD, "유저인터페이스\\information\\over_inn.bmp", " 모험가 편의센터", "#0x00FFFFFF" },
 	{ "prontera", 160, 192, 0, IT_BMP, "유저인터페이스\\information\\over_kafra.bmp" },
     { "prontera", 155, 194, 0, IT_BMP, "유저인터페이스\\information\\over_store.bmp" },
