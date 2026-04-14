@@ -1,5 +1,7 @@
 ## v3.2 (04132026)
 
+### It's Sakura Season!
+
 ### New Content
  - New Costume Exchanger NPC added — trade in spare costumes for Event Coins.
  - New Test Dummy NPC added — use it to measure your DPS freely.
