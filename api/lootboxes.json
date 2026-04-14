@@ -778,5 +778,669 @@
         "rate": 5
       }
     ]
+  },
+  {
+    "group": "CARDALBUM",
+    "displayName": "Old Card Album",
+    "boxAegisName": "Old_Card_Album",
+    "totalRate": 443,
+    "items": [
+      {
+        "aegisName": "Poring_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Fabre_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Pupa_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Drops_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Desert_Wolf_Babe_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Roda_Frog_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Thara_Frog_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Spore_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Worm_Tail_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Wilow_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Chonchon_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Lunatic_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Pecopeco_Egg_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Picky_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Picky__Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Creamy_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mandragora_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Elder_Wilow_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "BigFoot_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rocker_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Yoyo_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Smokie_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Wolf_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Desert_Wolf_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Thief_Bug_Female_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Farmiliar_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Tarou_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Driller_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Frilldora_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Hornet_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Flora_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Skel_Worker_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Munak_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Bon_Gun_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Thief_Bug_Male_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Drainliar_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Cramp_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Andre_Egg_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Andre_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Vitata_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Petit_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Petit__Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Flying_Deleter_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Deleter_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Nine_Tail_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Side_Winder_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Snake_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Anacondaq_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Vadon_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Cornutus_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Kukre_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Soldier_Skeleton_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Archer_Skeleton_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Goblin_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Goblin_Archer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Fur_Seal_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "See_Otter_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Sasquatch_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Marse_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Marc_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Sword_Fish_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Phen_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Verit_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mummy_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Orc_Archer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Orc_Warrior_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Orc_Lady_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Alligator_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Anolian_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Cookie_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Cookie_XMAS_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mystcase_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Obeaune_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Merman_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Strouf_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Zerom_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Requiem_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Marduk_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Orc_Skeleton_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Orc_Zombie_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Kobold_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Kobold_Archer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Crab_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Grand_Peco_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Pasana_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Matyr_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Nightmare_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Deviruchi_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Hydra_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Penomena_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Medusa_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Dryad_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Dustiness_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Clock_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Alarm_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Goat_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Geographer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Evil_Druid_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Wraith_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Wraith_Dead_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Ancient_Mummy_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Permeter_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Baphomet__Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Hylozoist_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Quve_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Lude_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Raydric_Archer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Daydric_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rideword_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mimic_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Dullahan_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Loli_Ruri_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Knight_Of_Abyss_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Mantis_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Martin_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Stalactic_Golem_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Injustice_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Rybio_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Phendark_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Solider_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Heater_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Freezer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Jakk_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Joker_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Carat_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Blazzer_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Explosion_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Kaho_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Owl_Duke_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Owl_Baron_Card",
+        "rate": 3
+      },
+      {
+        "aegisName": "Pecopeco_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Greatest_General_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Poison_Spore_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Giearth_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Hyegun_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Golem_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Panzer_Goblin_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Steam_Goblin_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Garm_Baby_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Scorpion_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Orc_Baby_Card_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Pirate_Skel_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Anubis_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Whisper_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Dragon_Tail_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Nightmare_Terror_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Harpy_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Gryphon_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Gargoyle_Card",
+        "rate": 2
+      },
+      {
+        "aegisName": "Isis_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "High_Orc_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "King_Dramoh_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Whisper_Boss_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "C_Tower_Manager_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Dark_Illusion_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Zherlthsh_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Assulter_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Khalitzburg_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Dark_Frame_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Ancient_Mimic_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Lava_Golem_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Bloody_Murderer_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Bloody_Knight_Card",
+        "rate": 1
+      },
+      {
+        "aegisName": "Alice_Card",
+        "rate": 1
+      }
+    ]
   }
 ]

@@ -231,9 +231,10 @@ function loadWarps() {
 function loadLootboxes() {
     const filePath = path.join(__dirname, 'db', 'item_db_group.yml');
     const LOOTBOX_GROUPS = {
-        GIFTBOX:    { displayName: 'Gift Box',      boxAegisName: 'Gift_Box'      },
-        BLUEBOX:    { displayName: 'Old Blue Box',   boxAegisName: 'Old_Blue_Box'  },
-        VIOLETBOX:  { displayName: 'Old Purple Box', boxAegisName: 'Old_Violet_Box' },
+        GIFTBOX:          { displayName: 'Gift Box',        boxAegisName: 'Gift_Box'        },
+        BLUEBOX:          { displayName: 'Old Blue Box',    boxAegisName: 'Old_Blue_Box'    },
+        VIOLETBOX:        { displayName: 'Old Purple Box',  boxAegisName: 'Old_Violet_Box'  },
+        CARDALBUM:        { displayName: 'Old Card Album',  boxAegisName: 'Old_Card_Album'  },
     };
 
     try {

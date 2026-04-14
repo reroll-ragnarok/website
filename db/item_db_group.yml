@@ -455,3 +455,339 @@ Body:
           Rate: 5
         - Item: Worn_Out_Scroll
           Rate: 5
+#########################################################################
+- Group: CARDALBUM
+  SubGroups:
+    - SubGroup: 1
+      List:
+        # Regular Cards (Rate: 3)
+        - Item: Poring_Card
+          Rate: 3
+        - Item: Fabre_Card
+          Rate: 3
+        - Item: Pupa_Card
+          Rate: 3
+        - Item: Drops_Card
+          Rate: 3
+        - Item: Desert_Wolf_Babe_Card
+          Rate: 3
+        - Item: Roda_Frog_Card
+          Rate: 3
+        - Item: Thara_Frog_Card
+          Rate: 3
+        - Item: Spore_Card
+          Rate: 3
+        - Item: Worm_Tail_Card
+          Rate: 3
+        - Item: Wilow_Card
+          Rate: 3
+        - Item: Chonchon_Card
+          Rate: 3
+        - Item: Lunatic_Card
+          Rate: 3
+        - Item: Pecopeco_Egg_Card
+          Rate: 3
+        - Item: Picky_Card
+          Rate: 3
+        - Item: Picky__Card
+          Rate: 3
+        - Item: Creamy_Card
+          Rate: 3
+        - Item: Mandragora_Card
+          Rate: 3
+        - Item: Elder_Wilow_Card
+          Rate: 3
+        - Item: BigFoot_Card
+          Rate: 3
+        - Item: Rocker_Card
+          Rate: 3
+        - Item: Yoyo_Card
+          Rate: 3
+        - Item: Smokie_Card
+          Rate: 3
+        - Item: Wolf_Card
+          Rate: 3
+        - Item: Desert_Wolf_Card
+          Rate: 3
+        - Item: Thief_Bug_Female_Card
+          Rate: 3
+        - Item: Farmiliar_Card
+          Rate: 3
+        - Item: Tarou_Card
+          Rate: 3
+        - Item: Driller_Card
+          Rate: 3
+        - Item: Frilldora_Card
+          Rate: 3
+        - Item: Hornet_Card
+          Rate: 3
+        - Item: Flora_Card
+          Rate: 3
+        - Item: Skel_Worker_Card
+          Rate: 3
+        - Item: Munak_Card
+          Rate: 3
+        - Item: Bon_Gun_Card
+          Rate: 3
+        - Item: Thief_Bug_Male_Card
+          Rate: 3
+        - Item: Drainliar_Card
+          Rate: 3
+        - Item: Cramp_Card
+          Rate: 3
+        - Item: Andre_Egg_Card
+          Rate: 3
+        - Item: Andre_Card
+          Rate: 3
+        - Item: Vitata_Card
+          Rate: 3
+        - Item: Petit_Card
+          Rate: 3
+        - Item: Petit__Card
+          Rate: 3
+        - Item: Flying_Deleter_Card
+          Rate: 3
+        - Item: Deleter_Card
+          Rate: 3
+        - Item: Nine_Tail_Card
+          Rate: 3
+        - Item: Side_Winder_Card
+          Rate: 3
+        - Item: Snake_Card
+          Rate: 3
+        - Item: Anacondaq_Card
+          Rate: 3
+        - Item: Vadon_Card
+          Rate: 3
+        - Item: Cornutus_Card
+          Rate: 3
+        - Item: Kukre_Card
+          Rate: 3
+        - Item: Soldier_Skeleton_Card
+          Rate: 3
+        - Item: Archer_Skeleton_Card
+          Rate: 3
+        - Item: Goblin_Card
+          Rate: 3
+        - Item: Goblin_Archer_Card
+          Rate: 3
+        - Item: Fur_Seal_Card
+          Rate: 3
+        - Item: See_Otter_Card
+          Rate: 3
+        - Item: Sasquatch_Card
+          Rate: 3
+        - Item: Marse_Card
+          Rate: 3
+        - Item: Marc_Card
+          Rate: 3
+        - Item: Sword_Fish_Card
+          Rate: 3
+        - Item: Phen_Card
+          Rate: 3
+        - Item: Verit_Card
+          Rate: 3
+        - Item: Mummy_Card
+          Rate: 3
+        - Item: Orc_Archer_Card
+          Rate: 3
+        - Item: Orc_Warrior_Card
+          Rate: 3
+        - Item: Orc_Lady_Card
+          Rate: 3
+        - Item: Alligator_Card
+          Rate: 3
+        - Item: Anolian_Card
+          Rate: 3
+        - Item: Cookie_Card
+          Rate: 3
+        - Item: Cookie_XMAS_Card
+          Rate: 3
+        - Item: Mystcase_Card
+          Rate: 3
+        - Item: Obeaune_Card
+          Rate: 3
+        - Item: Merman_Card
+          Rate: 3
+        - Item: Strouf_Card
+          Rate: 3
+        - Item: Zerom_Card
+          Rate: 3
+        - Item: Requiem_Card
+          Rate: 3
+        - Item: Marduk_Card
+          Rate: 3
+        - Item: Orc_Skeleton_Card
+          Rate: 3
+        - Item: Orc_Zombie_Card
+          Rate: 3
+        - Item: Kobold_Card
+          Rate: 3
+        - Item: Kobold_Archer_Card
+          Rate: 3
+        - Item: Crab_Card
+          Rate: 3
+        - Item: Grand_Peco_Card
+          Rate: 3
+        - Item: Pasana_Card
+          Rate: 3
+        - Item: Matyr_Card
+          Rate: 3
+        - Item: Nightmare_Card
+          Rate: 3
+        - Item: Deviruchi_Card
+          Rate: 3
+        - Item: Hydra_Card
+          Rate: 3
+        - Item: Penomena_Card
+          Rate: 3
+        - Item: Medusa_Card
+          Rate: 3
+        - Item: Dryad_Card
+          Rate: 3
+        - Item: Dustiness_Card
+          Rate: 3
+        - Item: Clock_Card
+          Rate: 3
+        - Item: Alarm_Card
+          Rate: 3
+        - Item: Goat_Card
+          Rate: 3
+        - Item: Geographer_Card
+          Rate: 3
+        - Item: Evil_Druid_Card
+          Rate: 3
+        - Item: Wraith_Card
+          Rate: 3
+        - Item: Wraith_Dead_Card
+          Rate: 3
+        - Item: Ancient_Mummy_Card
+          Rate: 3
+        - Item: Permeter_Card
+          Rate: 3
+        - Item: Baphomet__Card
+          Rate: 3
+        - Item: Hylozoist_Card
+          Rate: 3
+        - Item: Quve_Card
+          Rate: 3
+        - Item: Lude_Card
+          Rate: 3
+        - Item: Raydric_Archer_Card
+          Rate: 3
+        - Item: Daydric_Card
+          Rate: 3
+        - Item: Rideword_Card
+          Rate: 3
+        - Item: Mimic_Card
+          Rate: 3
+        - Item: Dullahan_Card
+          Rate: 3
+        - Item: Loli_Ruri_Card
+          Rate: 3
+        - Item: Knight_Of_Abyss_Card
+          Rate: 3
+        - Item: Mantis_Card
+          Rate: 3
+        - Item: Martin_Card
+          Rate: 3
+        - Item: Stalactic_Golem_Card
+          Rate: 3
+        - Item: Injustice_Card
+          Rate: 3
+        - Item: Rybio_Card
+          Rate: 3
+        - Item: Phendark_Card
+          Rate: 3
+        - Item: Solider_Card
+          Rate: 3
+        - Item: Heater_Card
+          Rate: 3
+        - Item: Freezer_Card
+          Rate: 3
+        - Item: Jakk_Card
+          Rate: 3
+        - Item: Joker_Card
+          Rate: 3
+        - Item: Carat_Card
+          Rate: 3
+        - Item: Blazzer_Card
+          Rate: 3
+        - Item: Explosion_Card
+          Rate: 3
+        - Item: Kaho_Card
+          Rate: 3
+        - Item: Owl_Duke_Card
+          Rate: 3
+        - Item: Owl_Baron_Card
+          Rate: 3
+        # Scarce Cards (Rate: 2)
+        - Item: Pecopeco_Card
+          Rate: 2
+        - Item: Greatest_General_Card
+          Rate: 2
+        - Item: Poison_Spore_Card
+          Rate: 2
+        - Item: Giearth_Card
+          Rate: 2
+        - Item: Hyegun_Card
+          Rate: 2
+        - Item: Golem_Card
+          Rate: 2
+        - Item: Panzer_Goblin_Card
+          Rate: 2
+        - Item: Steam_Goblin_Card
+          Rate: 2
+        - Item: Garm_Baby_Card
+          Rate: 2
+        - Item: Scorpion_Card
+          Rate: 2
+        - Item: Orc_Baby_Card_Card
+          Rate: 2
+        - Item: Pirate_Skel_Card
+          Rate: 2
+        - Item: Anubis_Card
+          Rate: 2
+        - Item: Whisper_Card
+          Rate: 2
+        - Item: Dragon_Tail_Card
+          Rate: 2
+        - Item: Nightmare_Terror_Card
+          Rate: 2
+        - Item: Harpy_Card
+          Rate: 2
+        - Item: Gryphon_Card
+          Rate: 2
+        - Item: Gargoyle_Card
+          Rate: 2
+        # Champion Cards (Rate: 1)
+        - Item: Isis_Card
+          Rate: 1
+        - Item: High_Orc_Card
+          Rate: 1
+        - Item: King_Dramoh_Card
+          Rate: 1
+        - Item: Whisper_Boss_Card
+          Rate: 1
+        - Item: C_Tower_Manager_Card
+          Rate: 1
+        - Item: Dark_Illusion_Card
+          Rate: 1
+        - Item: Zherlthsh_Card
+          Rate: 1
+        - Item: Assulter_Card
+          Rate: 1
+        - Item: Khalitzburg_Card
+          Rate: 1
+        - Item: Dark_Frame_Card
+          Rate: 1
+        - Item: Ancient_Mimic_Card
+          Rate: 1
+        - Item: Lava_Golem_Card
+          Rate: 1
+        - Item: Bloody_Murderer_Card
+          Rate: 1
+        - Item: Bloody_Knight_Card
+          Rate: 1
+        - Item: Alice_Card
+          Rate: 1
