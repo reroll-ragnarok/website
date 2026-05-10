@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node website.js",
     "dev": "nodemon website.js",
-    "build": "node build.js"
+    "build": "node build.js",
+    "sync:job-sprites": "node scripts/sync-job-sprites.js"
   },
   "keywords": [
     "ragnarok",
