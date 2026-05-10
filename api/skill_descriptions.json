@@ -1,0 +1,1016 @@
+{
+  "archer": {
+    "class_name": "Archer",
+    "skills": {
+      "AC_OWL": {
+        "name": "Owl's Eye",
+        "max_level": 10,
+        "type": "Passive",
+        "description": "Increases DEX.",
+        "levels": [
+          { "level": 1, "effect": "DEX +1" },
+          { "level": 2, "effect": "DEX +2" },
+          { "level": 3, "effect": "DEX +3" },
+          { "level": 4, "effect": "DEX +4" },
+          { "level": 5, "effect": "DEX +5" },
+          { "level": 6, "effect": "DEX +6" },
+          { "level": 7, "effect": "DEX +7" },
+          { "level": 8, "effect": "DEX +8" },
+          { "level": 9, "effect": "DEX +9" },
+          { "level": 10, "effect": "DEX +10" }
+        ]
+      },
+      "AC_VULTURE": {
+        "name": "Vulture's Eye",
+        "max_level": 10,
+        "type": "Passive",
+        "requirement": "Owl's Eye 3",
+        "description": "Increases Attack Range and HIT with Bow class weapons.",
+        "levels": [
+          { "level": 1, "effect": "Range +1, HIT +1%" },
+          { "level": 2, "effect": "Range +2, HIT +2%" },
+          { "level": 3, "effect": "Range +3, HIT +3%" },
+          { "level": 4, "effect": "Range +4, HIT +4%" },
+          { "level": 5, "effect": "Range +5, HIT +5%" },
+          { "level": 6, "effect": "Range +6, HIT +6%" },
+          { "level": 7, "effect": "Range +7, HIT +7%" },
+          { "level": 8, "effect": "Range +8, HIT +8%" },
+          { "level": 9, "effect": "Range +9, HIT +9%" },
+          { "level": 10, "effect": "Range +10, HIT +10%" }
+        ]
+      },
+      "AC_CONCENTRATION": {
+        "name": "Improve Concentration",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Vulture's Eye 1",
+        "description": "Boosts AGI and DEX temporarily as well as detects nearby hidden characters in 3x3 AoE.",
+        "levels": [
+          { "level": 1, "effect": "DEX/AGI +3%, Duration: 60 seconds" },
+          { "level": 2, "effect": "DEX/AGI +4%, Duration: 80 seconds" },
+          { "level": 3, "effect": "DEX/AGI +5%, Duration: 100 seconds" },
+          { "level": 4, "effect": "DEX/AGI +6%, Duration: 120 seconds" },
+          { "level": 5, "effect": "DEX/AGI +7%, Duration: 140 seconds" },
+          { "level": 6, "effect": "DEX/AGI +8%, Duration: 160 seconds" },
+          { "level": 7, "effect": "DEX/AGI +9%, Duration: 180 seconds" },
+          { "level": 8, "effect": "DEX/AGI +10%, Duration: 200 seconds" },
+          { "level": 9, "effect": "DEX/AGI +11%, Duration: 220 seconds" },
+          { "level": 10, "effect": "DEX/AGI +12%, Duration: 240 seconds" }
+        ]
+      },
+      "AC_DOUBLE": {
+        "name": "Double Strafe",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Vulture's Eye 10",
+        "description": "Fires an arrow that will inflict double damage on target. The base range of this skill is 9 cells.",
+        "levels": [
+          { "level": 1, "effect": "ATK 100% x2" },
+          { "level": 2, "effect": "ATK 110% x2" },
+          { "level": 3, "effect": "ATK 120% x2" },
+          { "level": 4, "effect": "ATK 130% x2" },
+          { "level": 5, "effect": "ATK 140% x2" },
+          { "level": 6, "effect": "ATK 150% x2" },
+          { "level": 7, "effect": "ATK 160% x2" },
+          { "level": 8, "effect": "ATK 170% x2" },
+          { "level": 9, "effect": "ATK 180% x2" },
+          { "level": 10, "effect": "ATK 190% x2" }
+        ]
+      },
+      "AC_SHOWER": {
+        "name": "Arrow Shower",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Double Strafe 5",
+        "description": "Fires an arrow at targeted cell damaging all enemies on 3x3 AoE. Enemies that receive damage will be knocked 2 cells backward. The base range of this skill is 9 cells.",
+        "levels": [
+          { "level": 1, "effect": "ATK 160%" },
+          { "level": 2, "effect": "ATK 170%" },
+          { "level": 3, "effect": "ATK 180%" },
+          { "level": 4, "effect": "ATK 190%" },
+          { "level": 5, "effect": "ATK 200%" },
+          { "level": 6, "effect": "ATK 210%" },
+          { "level": 7, "effect": "ATK 220%" },
+          { "level": 8, "effect": "ATK 230%" },
+          { "level": 9, "effect": "ATK 240%" },
+          { "level": 10, "effect": "ATK 250%" }
+        ]
+      },
+      "AC_MAKINGARROW": {
+        "name": "Arrow Crafting",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Crafting",
+        "requirement": "Finish Quest",
+        "description": "Creates Arrows from specific items. The kind of Arrows produced, as well as the amount, is determined by the items used."
+      },
+      "AC_CHARGEARROW": {
+        "name": "Charge Arrow",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Finish Quest",
+        "description": "Draws the bowstring to its limit to fire a volley of arrows which inflicts 150% ATK physical damage and with enough force to push the target 5 cells back."
+      },
+      "AC_ETHARROW": {
+        "name": "Ethereal Arrow",
+        "max_level": 5,
+        "type": "Active (Toggle)",
+        "requirement": "Vulture's Eye 5",
+        "description": "Chance to deal 150% MATK on-hit damage when using bows.",
+        "levels": [
+          { "level": 1, "effect": "10% chance" },
+          { "level": 2, "effect": "20% chance" },
+          { "level": 3, "effect": "30% chance" },
+          { "level": 4, "effect": "40% chance" },
+          { "level": 5, "effect": "50% chance" }
+        ]
+      }
+    }
+  },
+  "hunter": {
+    "class_name": "Hunter",
+    "skills": {
+      "HT_FALCON": {
+        "name": "Falconry Mastery",
+        "max_level": 5,
+        "type": "Passive",
+        "description": "Enables taming of a Falcon. Increases Auto Blitz rate.",
+        "levels": [
+          { "level": 1, "effect": "Auto Blitz rate +3%" },
+          { "level": 2, "effect": "Auto Blitz rate +6%" },
+          { "level": 3, "effect": "Auto Blitz rate +9%" },
+          { "level": 4, "effect": "Auto Blitz rate +12%" },
+          { "level": 5, "effect": "Auto Blitz rate +15%" }
+        ]
+      },
+      "HT_BEASTBANE": {
+        "name": "Beastbane",
+        "max_level": 10,
+        "type": "Passive",
+        "description": "Increases Attack Power against monsters.",
+        "levels": [
+          { "level": 1, "effect": "Damage +4" },
+          { "level": 2, "effect": "Damage +8" },
+          { "level": 3, "effect": "Damage +12" },
+          { "level": 4, "effect": "Damage +16" },
+          { "level": 5, "effect": "Damage +20" },
+          { "level": 6, "effect": "Damage +24" },
+          { "level": 7, "effect": "Damage +28" },
+          { "level": 8, "effect": "Damage +32" },
+          { "level": 9, "effect": "Damage +36" },
+          { "level": 10, "effect": "Damage +40" }
+        ]
+      },
+      "HT_BLITZBEAT": {
+        "name": "Blitz Beat",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Special Physical",
+        "requirement": "Falconry Mastery 1",
+        "description": "Commands Falcon to attack dealing damage based on your AGI and DEX. Learning the skill enables automatic attacks from the Falcon when wielding a Bow, increased by your LUK. The Falcon's range is 3 cells plus the level of Vulture's Eye skill.",
+        "levels": [
+          { "level": 1, "effect": "Hits: 1, 12 SP" },
+          { "level": 2, "effect": "Hits: 2, 14 SP" },
+          { "level": 3, "effect": "Hits: 3, 16 SP" },
+          { "level": 4, "effect": "Hits: 4, 18 SP" },
+          { "level": 5, "effect": "Hits: 5, 20 SP" },
+          { "level": 6, "effect": "Hits: 6, 22 SP" },
+          { "level": 7, "effect": "Hits: 7, 24 SP" },
+          { "level": 8, "effect": "Hits: 8, 26 SP" },
+          { "level": 9, "effect": "Hits: 9, 28 SP" },
+          { "level": 10, "effect": "Hits: 10, 30 SP" }
+        ]
+      },
+      "HT_STEELCROW": {
+        "name": "Steel Crow",
+        "max_level": 10,
+        "type": "Passive",
+        "requirement": "Blitz Beat 10",
+        "description": "Increases the damage inflicted by Falcon.",
+        "levels": [
+          { "level": 1, "effect": "Damage +6" },
+          { "level": 2, "effect": "Damage +12" },
+          { "level": 3, "effect": "Damage +18" },
+          { "level": 4, "effect": "Damage +24" },
+          { "level": 5, "effect": "Damage +30" },
+          { "level": 6, "effect": "Damage +36" },
+          { "level": 7, "effect": "Damage +42" },
+          { "level": 8, "effect": "Damage +48" },
+          { "level": 9, "effect": "Damage +54" },
+          { "level": 10, "effect": "Damage +60" }
+        ]
+      },
+      "HT_ANKLESNARE": {
+        "name": "Anklesnare",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Trap (Hidden)",
+        "description": "Sets a trap with a 3x3 range which will bind an enemy to the ground for the skill's duration, which is affected by the AGI of the target. Snared enemies are marked and have DEF/MDEF reduced 50%.",
+        "levels": [
+          { "level": 1, "effect": "Duration: 250 seconds" },
+          { "level": 2, "effect": "Duration: 200 seconds" },
+          { "level": 3, "effect": "Duration: 150 seconds" },
+          { "level": 4, "effect": "Duration: 100 seconds" },
+          { "level": 5, "effect": "Duration: 50 seconds" }
+        ]
+      },
+      "HT_LANDMINE": {
+        "name": "Land Mine",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Trap (Hidden)",
+        "requirement": "Anklesnare 1",
+        "description": "Trap that explodes when stepped upon, dealing physical damage. It has a 1000 base damage and increases damage by 500 every 10 STR. Deals further increased damage when wielding a dagger, influenced by Sword Mastery level. Has a chance to Stun equal to your DEX. Deals twice as much damage to poisoned enemies.",
+        "levels": [
+          { "level": 1, "effect": "+200 damage | Duration: 200 secs" },
+          { "level": 2, "effect": "+400 damage | Duration: 182 secs" },
+          { "level": 3, "effect": "+600 damage | Duration: 164 secs" },
+          { "level": 4, "effect": "+800 damage | Duration: 146 secs" },
+          { "level": 5, "effect": "+1000 damage | Duration: 128 secs" },
+          { "level": 6, "effect": "+1200 damage | Duration: 110 secs" },
+          { "level": 7, "effect": "+1400 damage | Duration: 92 secs" },
+          { "level": 8, "effect": "+1600 damage | Duration: 74 secs" },
+          { "level": 9, "effect": "+1800 damage | Duration: 57 secs" },
+          { "level": 10, "effect": "+2000 damage | Duration: 40 secs" }
+        ]
+      },
+      "HT_SHOCKWAVE": {
+        "name": "Shockwave Trap",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Trap (Hidden)",
+        "requirement": "Anklesnare 1",
+        "description": "Trap that explodes when stepped upon, dealing magic damage. It has a 1000 base damage and increases damage by 500 every 10 INT. Deals further increased magic damage when wielding a dagger, influenced by Sword Mastery level. Has a chance to Stun equal to your DEX. Deals twice as much damage to poisoned enemies.",
+        "levels": [
+          { "level": 1, "effect": "+200 damage | Duration: 200 secs" },
+          { "level": 2, "effect": "+400 damage | Duration: 182 secs" },
+          { "level": 3, "effect": "+600 damage | Duration: 164 secs" },
+          { "level": 4, "effect": "+800 damage | Duration: 146 secs" },
+          { "level": 5, "effect": "+1000 damage | Duration: 128 secs" },
+          { "level": 6, "effect": "+1200 damage | Duration: 110 secs" },
+          { "level": 7, "effect": "+1400 damage | Duration: 92 secs" },
+          { "level": 8, "effect": "+1600 damage | Duration: 74 secs" },
+          { "level": 9, "effect": "+1800 damage | Duration: 57 secs" },
+          { "level": 10, "effect": "+2000 damage | Duration: 40 secs" }
+        ]
+      },
+      "HT_BLASTMINE": {
+        "name": "Blast Mine",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Trap (Visible)",
+        "requirement": "Land Mine 5, Remove Trap 1",
+        "description": "Trap that explodes after a delay and deals physical damage in a 7x7 AoE when triggered. It has a 750 base damage and increases damage by 150 per skill level and by 375 every 10 STR. Deals further increased damage when wielding a dagger, influenced by Sword Mastery level.",
+        "levels": [
+          { "level": 1, "effect": "+150 damage | Duration: 25 secs" },
+          { "level": 2, "effect": "+300 damage | Duration: 22.5 secs" },
+          { "level": 3, "effect": "+450 damage | Duration: 20.5 secs" },
+          { "level": 4, "effect": "+600 damage | Duration: 18.5 secs" },
+          { "level": 5, "effect": "+750 damage | Duration: 16 secs" },
+          { "level": 6, "effect": "+900 damage | Duration: 14 secs" },
+          { "level": 7, "effect": "+1050 damage | Duration: 12 secs" },
+          { "level": 8, "effect": "+1200 damage | Duration: 9.5 secs" },
+          { "level": 9, "effect": "+1350 damage | Duration: 7 secs" },
+          { "level": 10, "effect": "+1500 damage | Duration: 5 secs" }
+        ]
+      },
+      "HT_FLASHER": {
+        "name": "Photon Trap",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Trap (Visible)",
+        "requirement": "Shockwave Trap 5, Remove Trap 1",
+        "description": "Trap that explodes when triggered and deals magic damage in a 7x7 AoE. It has a 750 base damage and increases damage by 150 per skill level and by 375 every 10 INT. Deals further increased magic damage when wielding a dagger, influenced by Sword Mastery level.",
+        "levels": [
+          { "level": 1, "effect": "+150 damage | Duration: 20 secs" },
+          { "level": 2, "effect": "+300 damage | Duration: 29 secs" },
+          { "level": 3, "effect": "+450 damage | Duration: 38 secs" },
+          { "level": 4, "effect": "+600 damage | Duration: 47 secs" },
+          { "level": 5, "effect": "+750 damage | Duration: 56 secs" },
+          { "level": 6, "effect": "+900 damage | Duration: 64 secs" },
+          { "level": 7, "effect": "+1050 damage | Duration: 73 secs" },
+          { "level": 8, "effect": "+1200 damage | Duration: 82 secs" },
+          { "level": 9, "effect": "+1350 damage | Duration: 91 secs" },
+          { "level": 10, "effect": "+1500 damage | Duration: 100 secs" }
+        ]
+      },
+      "HT_REMOVETRAP": {
+        "name": "Remove Trap",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "description": "Removes a trap that has been set on the ground, as well as regain that Trap."
+      },
+      "HT_SPRINGTRAP": {
+        "name": "Spring Trap",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Remove Trap 1, Falconry Mastery",
+        "description": "Commands Falcon to remove a set Trap from a distance.",
+        "levels": [
+          { "level": 1, "effect": "AoE: 8 cells" }
+        ]
+      },
+      "HT_DETECTING": {
+        "name": "Detect",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Improve Concentration 10, Falconry Mastery 1",
+        "description": "Commands a Falcon to detect hidden characters from a distance.",
+        "levels": [
+          { "level": 1, "effect": "AoE: 8 cells" }
+        ]
+      },
+      "HT_MAGICFALCON": {
+        "name": "Mystical Taming",
+        "max_level": 1,
+        "type": "Passive",
+        "requirement": "Finish Quest",
+        "description": "Empowers Falcon with mystical abilities, converting its damage to magical. Damage scales with INT instead of DEX."
+      },
+      "HT_ROPEDART": {
+        "name": "Rope Dart",
+        "max_level": 1,
+        "type": "Active",
+        "requirement": "Finish Quest",
+        "description": "Attach rope to your dagger to deal ranged AoE damage (like Arrow Shower).",
+        "levels": [
+          { "level": 1, "effect": "250% ATK" }
+        ]
+      },
+      "HT_SANDMAN": {
+        "name": "Acid Trap",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Trap (Hidden)",
+        "requirement": "Blast Mine 1, Photon Trap 1",
+        "description": "Sets a trap with a 3x3 range that will cause the enemy that steps on it to receive physical or magic damage based on whether Mystical Falcon skill is learned or not. Also causes Poison status.",
+        "levels": [
+          { "level": 1, "effect": "400% ATK/600% MATK, 20% Poison" },
+          { "level": 2, "effect": "800% ATK/1200% MATK, 40% Poison" },
+          { "level": 3, "effect": "1200% ATK/1800% MATK, 60% Poison" },
+          { "level": 4, "effect": "1600% ATK/2400% MATK, 80% Poison" },
+          { "level": 5, "effect": "2000% ATK/3000% MATK, 100% Poison" }
+        ]
+      }
+    }
+  },
+  "bard": {
+    "class_name": "Bard",
+    "skills": {
+      "BA_MUSICALLESSON": {
+        "name": "Musical Lesson",
+        "max_level": 10,
+        "type": "Passive",
+        "description": "Increases Damage and Critical with music-related skills. Also increases MaxSP.",
+        "levels": [
+          { "level": 1, "effect": "Damage +3, Critical +1, MaxSP +1%" },
+          { "level": 2, "effect": "Damage +6, Critical +2, MaxSP +2%" },
+          { "level": 3, "effect": "Damage +9, Critical +3, MaxSP +3%" },
+          { "level": 4, "effect": "Damage +12, Critical +4, MaxSP +4%" },
+          { "level": 5, "effect": "Damage +15, Critical +5, MaxSP +5%" },
+          { "level": 6, "effect": "Damage +18, Critical +6, MaxSP +6%" },
+          { "level": 7, "effect": "Damage +21, Critical +7, MaxSP +7%" },
+          { "level": 8, "effect": "Damage +24, Critical +8, MaxSP +8%" },
+          { "level": 9, "effect": "Damage +27, Critical +9, MaxSP +9%" },
+          { "level": 10, "effect": "Damage +30, Critical +10, MaxSP +10%" }
+        ]
+      },
+      "BA_FROSTJOKE": {
+        "name": "Frost Joke",
+        "max_level": 3,
+        "type": "Active",
+        "category": "Debuff",
+        "description": "Inflicts one debuff status to enemies within the caster's view. Success chance is based on 2/3 of INT status.",
+        "levels": [
+          { "level": 1, "effect": "Stun" },
+          { "level": 2, "effect": "Stone Curse" },
+          { "level": 3, "effect": "Freezing" }
+        ]
+      },
+      "BA_DISSONANCE": {
+        "name": "Dissonance",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Song Skill",
+        "description": "Dissonant music that damages and debuffs nearby enemies.",
+        "levels": [
+          { "level": 1, "effect": "MATK 150%" },
+          { "level": 2, "effect": "MATK 200%" },
+          { "level": 3, "effect": "MATK 250%" },
+          { "level": 4, "effect": "MATK 300%" },
+          { "level": 5, "effect": "MATK 350%" }
+        ]
+      },
+      "BA_ASSASSINCROSS": {
+        "name": "Assassin Cross of Sunset",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Song Skill",
+        "requirement": "Dissonance 3",
+        "description": "Decreases the After Attack Delay of all players within the skill's range for 180 seconds. It does not stack with other Song skills.",
+        "levels": [
+          { "level": 1, "effect": "After Attack Delay -1%" },
+          { "level": 2, "effect": "After Attack Delay -3%" },
+          { "level": 3, "effect": "After Attack Delay -5%" },
+          { "level": 4, "effect": "After Attack Delay -7%" },
+          { "level": 5, "effect": "After Attack Delay -9%" },
+          { "level": 6, "effect": "After Attack Delay -11%" },
+          { "level": 7, "effect": "After Attack Delay -13%" },
+          { "level": 8, "effect": "After Attack Delay -15%" },
+          { "level": 9, "effect": "After Attack Delay -17%" },
+          { "level": 10, "effect": "After Attack Delay -20%" }
+        ]
+      },
+      "BA_POEMBRAGI": {
+        "name": "Poem of Bragi",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Song Skill",
+        "requirement": "Dissonance 3",
+        "description": "Reduces Variable Casting Time and After Skill Delay for all players within the skill's range for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "Variable Casting Time -2%, After Skill Delay -3%" },
+          { "level": 2, "effect": "Variable Casting Time -4%, After Skill Delay -6%" },
+          { "level": 3, "effect": "Variable Casting Time -6%, After Skill Delay -9%" },
+          { "level": 4, "effect": "Variable Casting Time -8%, After Skill Delay -12%" },
+          { "level": 5, "effect": "Variable Casting Time -10%, After Skill Delay -15%" },
+          { "level": 6, "effect": "Variable Casting Time -12%, After Skill Delay -18%" },
+          { "level": 7, "effect": "Variable Casting Time -14%, After Skill Delay -21%" },
+          { "level": 8, "effect": "Variable Casting Time -16%, After Skill Delay -24%" },
+          { "level": 9, "effect": "Variable Casting Time -18%, After Skill Delay -27%" },
+          { "level": 10, "effect": "Variable Casting Time -20%, After Skill Delay -30%" }
+        ]
+      },
+      "BA_PANGVOICE": {
+        "name": "Pang Voice",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Debuff",
+        "requirement": "Frost Joke 3",
+        "description": "Scream at an enemy so that it will receive twice as much damage from the next attack that hits it."
+      },
+      "MI_RUSH_WINDMILL": {
+        "name": "Windmill Rush",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Musical Lesson 1",
+        "description": "Increases Movement Speed and Attack Speed of caster for 180 seconds. Attack Speed is further increased by the Musical Lesson skill level.",
+        "levels": [
+          { "level": 1, "effect": "(Musical Lesson+1)% Attack Speed, +2% Movement Speed" },
+          { "level": 2, "effect": "(Musical Lesson+2)% Attack Speed, +4% Movement Speed" },
+          { "level": 3, "effect": "(Musical Lesson+3)% Attack Speed, +6% Movement Speed" },
+          { "level": 4, "effect": "(Musical Lesson+4)% Attack Speed, +8% Movement Speed" },
+          { "level": 5, "effect": "(Musical Lesson+5)% Attack Speed, +10% Movement Speed" }
+        ]
+      },
+      "MI_ECHOSONG": {
+        "name": "Echo Song",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Musical Lesson 1",
+        "description": "Increases CRIT and FLEE based on Musical Lesson level and skill level for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "0.4x Musical Lesson CRIT, 0.2x FLEE" },
+          { "level": 2, "effect": "0.8x Musical Lesson CRIT, 0.4x FLEE" },
+          { "level": 3, "effect": "1.2x Musical Lesson CRIT, 0.6x FLEE" },
+          { "level": 4, "effect": "1.6x Musical Lesson CRIT, 0.8x FLEE" },
+          { "level": 5, "effect": "2x Musical Lesson CRIT, 1x FLEE" }
+        ]
+      },
+      "MI_HARMONIZE": {
+        "name": "Harmonize",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Windmill Rush 1",
+        "description": "Increases ATK and MATK based on Musical Lesson level and skill level for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "0.5x Musical Lesson ATK and MATK" },
+          { "level": 2, "effect": "1x Musical Lesson ATK and MATK" },
+          { "level": 3, "effect": "1.5x Musical Lesson ATK and MATK" },
+          { "level": 4, "effect": "2x Musical Lesson ATK and MATK" },
+          { "level": 5, "effect": "2.5x Musical Lesson ATK and MATK" }
+        ]
+      },
+      "BD_ADAPTATION": {
+        "name": "Adaptation to Circumstances",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "description": "Skill to cope with various unexpected situations occurring during performances. Reduces SP spent by 20% for Song, Dance and Ensemble skills over time. Can be used together with Encore."
+      },
+      "BD_ENCORE": {
+        "name": "Encore",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Adaptation to Circumstances 1",
+        "description": "Recasts the previous Song, Dance or Ensemble skill that was performed. Skills cast by Encore consume only half of the required SP. Encore will fail if the last Song, Dance or Ensemble is not available."
+      },
+      "BD_RICHMANKIM": {
+        "name": "Mr. Kim A Rich Man",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "requirement": "Invulnerable Siegfried 5",
+        "description": "Increases the EXP rewarded by defeating monsters for 180 secs. It does not stack with other Ensemble skills.",
+        "levels": [
+          { "level": 1, "effect": "EXP +60%" }
+        ]
+      },
+      "BD_RINGNIBELUNGEN": {
+        "name": "The Ring of Nibelungen",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "Grants one of the following random buff to yourself and party members within the skill's range for 60 seconds.",
+        "buffs": [
+          "Attack Speed -20%",
+          "ATK +20%",
+          "MATK +20%",
+          "MaxHP +30%",
+          "MaxSP +30%",
+          "All Stats +15",
+          "HIT +50",
+          "FLEE +50",
+          "SP Consumption of skills -30%",
+          "HP Recovery +100%",
+          "SP Recovery +100%"
+        ]
+      },
+      "BD_SIEGFRIED": {
+        "name": "Invulnerable Siegfried",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "Endows resistance to Fire, Water, Earth and Wind as well as tolerance to Blind, Frozen, Petrified, Stun, Curse, Sleep and Silence status for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "+6% Elemental Resistance, +10% Tolerance" },
+          { "level": 2, "effect": "+12% Elemental Resistance, +20% Tolerance" },
+          { "level": 3, "effect": "+18% Elemental Resistance, +30% Tolerance" },
+          { "level": 4, "effect": "+24% Elemental Resistance, +40% Tolerance" },
+          { "level": 5, "effect": "+30% Elemental Resistance, +50% Tolerance" }
+        ]
+      },
+      "BD_ROKISWEIL": {
+        "name": "Loki's Wail",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "requirement": "Ring Of Nibelungen 5",
+        "description": "All Skills and magic spells, except yours, are disabled within the skill's range for 30 seconds."
+      },
+      "CG_SPECIALSINGER": {
+        "name": "Skillful Professional Musician",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Finish Quest",
+        "description": "Gypsys and Clowns can immediately overcome the after effects of Ensemble skills which will occur."
+      },
+      "CG_HERMODE": {
+        "name": "Hermode's Rod",
+        "max_level": 1,
+        "type": "Passive",
+        "requirement": "Finish Quest",
+        "description": "Empowers weapon with magical power, converting damage from Musical Strike, Throw Arrow, Arrow Vulcan and Performances to magical."
+      }
+    }
+  },
+  "dancer": {
+    "class_name": "Dancer",
+    "skills": {
+      "DC_DANCINGLESSON": {
+        "name": "Dancing Lesson",
+        "max_level": 10,
+        "type": "Passive",
+        "description": "Increases Whip class weapon damage. While the MaxSP bonus always applies, the ATK and Critical bonus only when a Whip class weapon is equipped.",
+        "levels": [
+          { "level": 1, "effect": "Damage +3, Critical +1, MaxSP +1%" },
+          { "level": 2, "effect": "Damage +6, Critical +2, MaxSP +2%" },
+          { "level": 3, "effect": "Damage +9, Critical +3, MaxSP +3%" },
+          { "level": 4, "effect": "Damage +12, Critical +4, MaxSP +4%" },
+          { "level": 5, "effect": "Damage +15, Critical +5, MaxSP +5%" },
+          { "level": 6, "effect": "Damage +18, Critical +6, MaxSP +6%" },
+          { "level": 7, "effect": "Damage +21, Critical +7, MaxSP +7%" },
+          { "level": 8, "effect": "Damage +24, Critical +8, MaxSP +8%" },
+          { "level": 9, "effect": "Damage +27, Critical +9, MaxSP +9%" },
+          { "level": 10, "effect": "Damage +30, Critical +10, MaxSP +10%" }
+        ]
+      },
+      "DC_THROWARROW": {
+        "name": "Throw Arrow",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Dancing Lesson 3",
+        "description": "Throws a powerful volley of arrows, even while using Dance skills, by using a Whip. The Arrow's element determines the element of this attack.",
+        "levels": [
+          { "level": 1, "effect": "ATK 120% x2" },
+          { "level": 2, "effect": "ATK 140% x2" },
+          { "level": 3, "effect": "ATK 160% x2" },
+          { "level": 4, "effect": "ATK 180% x2" },
+          { "level": 5, "effect": "ATK 200% x2" },
+          { "level": 6, "effect": "ATK 220% x2" },
+          { "level": 7, "effect": "ATK 240% x2" },
+          { "level": 8, "effect": "ATK 260% x2" },
+          { "level": 9, "effect": "ATK 280% x2" },
+          { "level": 10, "effect": "ATK 300% x2" }
+        ]
+      },
+      "DC_UGLYDANCE": {
+        "name": "Ugly Dance",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Dance Skill",
+        "requirement": "Adaptation to Circumstances 1, Dancing Lesson 1",
+        "description": "Perform a weird dance that disgusts everyone around the caster. Deals magic damage and slows affected targets.",
+        "levels": [
+          { "level": 1, "effect": "300% MATK, 5% Slow" },
+          { "level": 2, "effect": "350% MATK, 10% Slow" },
+          { "level": 3, "effect": "400% MATK, 15% Slow" },
+          { "level": 4, "effect": "450% MATK, 20% Slow" },
+          { "level": 5, "effect": "500% MATK, 25% Slow" }
+        ]
+      },
+      "DC_SCREAM": {
+        "name": "Scream",
+        "max_level": 3,
+        "type": "Active",
+        "category": "Debuff",
+        "description": "Inflicts one debuff status to enemies within the caster's view. Success chance is based on 2/3 of INT status.",
+        "levels": [
+          { "level": 1, "effect": "Stun" },
+          { "level": 2, "effect": "Stone Curse" },
+          { "level": 3, "effect": "Freezing" }
+        ]
+      },
+      "DC_FORTUNEKISS": {
+        "name": "Fortune's Kiss",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Dance Skill",
+        "requirement": "Ugly Dance 3",
+        "description": "Increases Critical rate and Critical Damage of yourself and party members within this skill's range for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "Critical +1, Critical Damage +2%" },
+          { "level": 2, "effect": "Critical +2, Critical Damage +4%" },
+          { "level": 3, "effect": "Critical +3, Critical Damage +6%" },
+          { "level": 4, "effect": "Critical +4, Critical Damage +8%" },
+          { "level": 5, "effect": "Critical +5, Critical Damage +10%" },
+          { "level": 6, "effect": "Critical +6, Critical Damage +12%" },
+          { "level": 7, "effect": "Critical +7, Critical Damage +14%" },
+          { "level": 8, "effect": "Critical +8, Critical Damage +16%" },
+          { "level": 9, "effect": "Critical +9, Critical Damage +18%" },
+          { "level": 10, "effect": "Critical +10, Critical Damage +20%" }
+        ]
+      },
+      "DC_SERVICEFORYOU": {
+        "name": "Service For You",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Dance Skill",
+        "requirement": "Ugly Dance 3",
+        "description": "Increases MaxSP of yourself and party members within this skill's range and reduces their SP consumption for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "MaxSP +10%, SP Consumption -6%" },
+          { "level": 2, "effect": "MaxSP +11%, SP Consumption -7%" },
+          { "level": 3, "effect": "MaxSP +12%, SP Consumption -8%" },
+          { "level": 4, "effect": "MaxSP +13%, SP Consumption -9%" },
+          { "level": 5, "effect": "MaxSP +14%, SP Consumption -10%" },
+          { "level": 6, "effect": "MaxSP +15%, SP Consumption -11%" },
+          { "level": 7, "effect": "MaxSP +16%, SP Consumption -12%" },
+          { "level": 8, "effect": "MaxSP +17%, SP Consumption -13%" },
+          { "level": 9, "effect": "MaxSP +18%, SP Consumption -14%" },
+          { "level": 10, "effect": "MaxSP +20%, SP Consumption -15%" }
+        ]
+      },
+      "DC_WINKCHARM": {
+        "name": "Charming Wink",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Debuff",
+        "requirement": "Scream 3",
+        "description": "Charms an enemy so that it will receive twice as much damage from the next attack that hits it."
+      },
+      "WA_SWING_DANCE": {
+        "name": "Swing Dance",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Dancing Lesson 1",
+        "description": "Increases Movement Speed and Attack Speed for 180 seconds. The bonus for Attack Speed is further increased by the Dancing Lesson skill level.",
+        "levels": [
+          { "level": 1, "effect": "(Dancing Lesson+3)% Attack Speed, +2% Movement Speed" },
+          { "level": 2, "effect": "(Dancing Lesson+6)% Attack Speed, +4% Movement Speed" },
+          { "level": 3, "effect": "(Dancing Lesson+9)% Attack Speed, +6% Movement Speed" },
+          { "level": 4, "effect": "(Dancing Lesson+12)% Attack Speed, +8% Movement Speed" },
+          { "level": 5, "effect": "(Dancing Lesson+15)% Attack Speed, +10% Movement Speed" }
+        ]
+      },
+      "WA_SYMPHONY_OF_LOVER": {
+        "name": "Symphony of Lover",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Swing Dance 1",
+        "description": "Increases ATK and MATK based on Dancing Lesson level and skill level for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "0.5x Dancing Lesson ATK and MATK" },
+          { "level": 2, "effect": "1x Dancing Lesson ATK and MATK" },
+          { "level": 3, "effect": "1.5x Dancing Lesson ATK and MATK" },
+          { "level": 4, "effect": "2x Dancing Lesson ATK and MATK" },
+          { "level": 5, "effect": "2.5x Dancing Lesson ATK and MATK" }
+        ]
+      },
+      "WA_MOONLIT_SERENADE": {
+        "name": "Moonlight Serenade",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Buff",
+        "requirement": "Symphony of Lover 1",
+        "description": "Increases CRIT and FLEE based on Dancing Lesson level and skill level for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "0.2x Dancing Lesson CRIT and FLEE" },
+          { "level": 2, "effect": "0.4x Dancing Lesson CRIT and FLEE" },
+          { "level": 3, "effect": "0.6x Dancing Lesson CRIT and FLEE" },
+          { "level": 4, "effect": "0.8x Dancing Lesson CRIT and FLEE" },
+          { "level": 5, "effect": "1x Dancing Lesson CRIT and FLEE" }
+        ]
+      },
+      "BD_ADAPTATION": {
+        "name": "Adaptation to Circumstances",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "description": "Skill to cope with various unexpected situations occurring during performances. Reduces SP spent by 20% for Song, Dance and Ensemble skills over time."
+      },
+      "BD_ENCORE": {
+        "name": "Encore",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Adaptation to Circumstances 1",
+        "description": "Recasts the previous Song, Dance or Ensemble skill that was performed. Skills cast by Encore consume only half of the required SP."
+      },
+      "BD_RICHMANKIM": {
+        "name": "Mr. Kim A Rich Man",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "Increases the EXP rewarded by defeating monsters for 180 secs.",
+        "levels": [
+          { "level": 1, "effect": "EXP +60%" }
+        ]
+      },
+      "BD_RINGNIBELUNGEN": {
+        "name": "The Ring of Nibelungen",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "Grants one of the following random buff to yourself and party members within the skill's range for 60 seconds.",
+        "buffs": [
+          "Attack Speed -20%",
+          "ATK +20%",
+          "MATK +20%",
+          "MaxHP +30%",
+          "MaxSP +30%",
+          "All Stats +15",
+          "HIT +50",
+          "FLEE +50",
+          "SP Consumption of skills -30%",
+          "HP Recovery +100%",
+          "SP Recovery +100%"
+        ]
+      },
+      "BD_SIEGFRIED": {
+        "name": "Invulnerable Siegfried",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "Endows resistance to Fire, Water, Earth and Wind as well as tolerance to Blind, Frozen, Petrified, Stun, Curse, Sleep and Silence status for 180 seconds.",
+        "levels": [
+          { "level": 1, "effect": "+6% Elemental Resistance, +10% Tolerance" },
+          { "level": 2, "effect": "+12% Elemental Resistance, +20% Tolerance" },
+          { "level": 3, "effect": "+18% Elemental Resistance, +30% Tolerance" },
+          { "level": 4, "effect": "+24% Elemental Resistance, +40% Tolerance" },
+          { "level": 5, "effect": "+30% Elemental Resistance, +50% Tolerance" }
+        ]
+      },
+      "BD_ROKISWEIL": {
+        "name": "Loki's Wail",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "description": "All Skills and magic spells, except yours, are disabled within the skill's range for 30 seconds."
+      },
+      "CG_SPECIALSINGER": {
+        "name": "Skillful Professional Musician",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "description": "Dancers can immediately overcome the after effects of Ensemble skills which will occur."
+      }
+    }
+  },
+  "hunter_h": {
+    "class_name": "Hunter High",
+    "skills": {
+      "SN_SIGHT": {
+        "name": "True Sight",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Owl's Eye 10, Vulture's Eye 10, Improve Concentration 10, Detect 1",
+        "description": "Adds +5 to all Stats, as well as increases HIT, Weapon damage and Critical.",
+        "levels": [
+          { "level": 1, "effect": "HIT +6%, Damage +4%, Critical +2" },
+          { "level": 2, "effect": "HIT +12%, Damage +8%, Critical +4" },
+          { "level": 3, "effect": "HIT +18%, Damage +12%, Critical +6" },
+          { "level": 4, "effect": "HIT +24%, Damage +16%, Critical +8" },
+          { "level": 5, "effect": "HIT +30%, Damage +20%, Critical +10" }
+        ]
+      },
+      "SN_FALCONASSAULT": {
+        "name": "Falcon Assault",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Special Physical Ranged",
+        "requirement": "Vulture's Eye 5, Falconry Mastery 1, Blitz Beat 5, Steel Crow 3",
+        "description": "Commands Falcon to attack an enemy with a mighty strike. Damage grows with skill level and Job Level equally.",
+        "levels": [
+          { "level": 1, "effect": "1~2x Blitz Beat damage, 30 SP" },
+          { "level": 2, "effect": "2~4x Blitz Beat damage, 34 SP" },
+          { "level": 3, "effect": "3~6x Blitz Beat damage, 38 SP" },
+          { "level": 4, "effect": "4~8x Blitz Beat damage, 42 SP" },
+          { "level": 5, "effect": "5~10x Blitz Beat damage, 46 SP" }
+        ]
+      },
+      "SN_SHARPSHOOTING": {
+        "name": "Sharp Shooting",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Double Strafe 5, Improve Concentration 10",
+        "description": "Shoots an arrow with incredible might directly towards a targeted enemy, inflicting ranged physical damage to it and surrounding enemies within 5x5 cells. Has a high chance to inflict half of the total Critical Damage and 50% of the caster's Critical chance will be added.",
+        "levels": [
+          { "level": 1, "effect": "ATK 600%" },
+          { "level": 2, "effect": "ATK 900%" },
+          { "level": 3, "effect": "ATK 1200%" },
+          { "level": 4, "effect": "ATK 1500%" },
+          { "level": 5, "effect": "ATK 1800%" }
+        ]
+      },
+      "SN_WINDWALK": {
+        "name": "Wind Walk",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "True Sight 5",
+        "description": "Increases Movement Speed and FLEE rate of yourself and party members by 2 times the skill level.",
+        "levels": [
+          { "level": 1, "effect": "Movement Speed +2, FLEE +2" },
+          { "level": 2, "effect": "Movement Speed +4, FLEE +4" },
+          { "level": 3, "effect": "Movement Speed +6, FLEE +6" },
+          { "level": 4, "effect": "Movement Speed +8, FLEE +8" },
+          { "level": 5, "effect": "Movement Speed +10, FLEE +10" }
+        ]
+      },
+      "HT_SANDMAN": {
+        "name": "Acid Trap",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Trap (Hidden)",
+        "description": "Sets a trap with a 3x3 range that will cause the enemy that steps on it to receive physical or magic damage based on whether Mystical Falcon skill is learned or not. Also causes Poison status.",
+        "levels": [
+          { "level": 1, "effect": "400% ATK/600% MATK, 20% Poison" },
+          { "level": 2, "effect": "800% ATK/1200% MATK, 40% Poison" },
+          { "level": 3, "effect": "1200% ATK/1800% MATK, 60% Poison" },
+          { "level": 4, "effect": "1600% ATK/2400% MATK, 80% Poison" },
+          { "level": 5, "effect": "2000% ATK/3000% MATK, 100% Poison" }
+        ]
+      }
+    }
+  },
+  "dancer_h": {
+    "class_name": "Dancer High (Gypsy/Wanderer)",
+    "skills": {
+      "CG_ARROWVULCAN": {
+        "name": "Arrow Vulcan",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Musical Strike 1 (Clown) / Throw Arrow 1 (Gypsy), Double Strafe 5, Arrow Shower 5",
+        "description": "Fires an awesome flurry of arrows at an targeted enemy. Requires Musical Instrument for Clown and Whip class weapon for Gypsy.",
+        "levels": [
+          { "level": 1, "effect": "ATK 425%" },
+          { "level": 2, "effect": "ATK 600%" },
+          { "level": 3, "effect": "ATK 775%" },
+          { "level": 4, "effect": "ATK 950%" },
+          { "level": 5, "effect": "ATK 1125%" },
+          { "level": 6, "effect": "ATK 1300%" },
+          { "level": 7, "effect": "ATK 1475%" },
+          { "level": 8, "effect": "ATK 1650%" },
+          { "level": 9, "effect": "ATK 1825%" },
+          { "level": 10, "effect": "ATK 2000%" }
+        ]
+      },
+      "CG_TAROTCARD": {
+        "name": "Tarot Card of Fate",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Debuff",
+        "requirement": "Pang Voice 1 (Clown) / Charming Wink 1 (Gypsy), Improve Concentration 10",
+        "description": "Draws one random Tarot card to trigger a unique effect.\n\nPossible outcomes:\n- The Magician: Taking action. Awareness. Deals 1000% MATK damage.\n- The Tower: Accidents. Loss of command. Failure. Sudden changes. Loss of judgment. Deals 1000% ATK damage.\n- The Chariot: Victory. Hard control. Deals fixed damage of 1000 per second and casts Close Confine.\n- The Sun: Destruction of the land. Dissatisfaction. Chaos. Casts Solar Flare (3700% MATK).\n- The Hanged Man: Letting go. Giving up. Sacrifice. Casts Final Strike.\n- The Devil: Obsession. Danger of sickness. Inevitable curse. Hopelessness. Casts Soul Strike and inflicts Curse.\n- Strength: Inner strength, courage, patience. Increases caster and ally Max HP by 1000.\n- The High Priest: Withdrawal. Mystery. Casts Heal, Increase AGI, and Blessing on target.\n- Wheel of Fortune: Destiny. Turning point. Movement. Randomly causes the effects of two other Tarot cards.\n- Death: Ending. Bad luck. Unexpected catastrophe. Difficulty. Causes Poison. If already poisoned, deals 25% Max HP as damage. If HP is below 25%, inflicts Coma. Also has a 1% chance to inflict Coma at all times.\n- The Fool: Mental disease. Beginning. Reduces enemy SP to 0 and applies Silence and Confusion.\n- The Lovers: Farewell. Discovered cheating on someone. Teleports the enemy to a random location.\n- Temperance: Impossible to control. Tiredness. Stubborn. Vanity. Causes Slow and ASPD reduction.\n- The Star: Destruction of hope. Sad future. Chaos. Casts Shooting Star (2000% ATK)."
+      },
+      "CG_MARIONETTE": {
+        "name": "Marionette Control",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Musical Lesson 5 (Clown) / Dancing Lesson 5 (Gypsy), Improve Concentration 10",
+        "description": "Targeted party member receives a bonus to all Stats equal to half of the Stats of the caster. However, each of the target's Stats cannot exceed 99. This skill is canceled if this party member is more than 7 cells away from the caster."
+      },
+      "CG_MOONLIT": {
+        "name": "Moonlit Water Mill (Sheltering Bliss)",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "requirement": "Musical Lesson 7 (Clown) / Dancing Lesson 7 (Gypsy), Improve Concentration 5",
+        "description": "Clown and Gypsy ensemble skill that creates an area around the casters where other players and monsters cannot enter. This skill cannot offer protection from magic or long ranged attacks. This skill cannot be cast in areas that are adjacent to obstacles.",
+        "levels": [
+          { "level": 1, "effect": "Duration: 20 seconds" },
+          { "level": 2, "effect": "Duration: 25 seconds" },
+          { "level": 3, "effect": "Duration: 30 seconds" },
+          { "level": 4, "effect": "Duration: 35 seconds" },
+          { "level": 5, "effect": "Duration: 40 seconds" }
+        ]
+      }
+    }
+  },
+  "bard_h": {
+    "class_name": "Bard High (Clown/Minstrel)",
+    "skills": {
+      "CG_ARROWVULCAN": {
+        "name": "Arrow Vulcan",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Physical Ranged",
+        "requirement": "Musical Strike 1, Double Strafe 5, Arrow Shower 5",
+        "description": "Fires an awesome flurry of arrows at an targeted enemy. Requires Musical Instrument for Clown.",
+        "levels": [
+          { "level": 1, "effect": "ATK 425%" },
+          { "level": 2, "effect": "ATK 600%" },
+          { "level": 3, "effect": "ATK 775%" },
+          { "level": 4, "effect": "ATK 950%" },
+          { "level": 5, "effect": "ATK 1125%" },
+          { "level": 6, "effect": "ATK 1300%" },
+          { "level": 7, "effect": "ATK 1475%" },
+          { "level": 8, "effect": "ATK 1650%" },
+          { "level": 9, "effect": "ATK 1825%" },
+          { "level": 10, "effect": "ATK 2000%" }
+        ]
+      },
+      "CG_TAROTCARD": {
+        "name": "Tarot Card of Fate",
+        "max_level": 10,
+        "type": "Active",
+        "category": "Debuff",
+        "requirement": "Pang Voice 1, Improve Concentration 10",
+        "description": "Draws one random Tarot card to trigger a unique effect.\n\nPossible outcomes:\n- The Magician: Taking action. Awareness. Deals 1000% MATK damage.\n- The Tower: Accidents. Loss of command. Failure. Sudden changes. Loss of judgment. Deals 1000% ATK damage.\n- The Chariot: Victory. Hard control. Deals fixed damage of 1000 per second and casts Close Confine.\n- The Sun: Destruction of the land. Dissatisfaction. Chaos. Casts Solar Flare (3700% MATK).\n- The Hanged Man: Letting go. Giving up. Sacrifice. Casts Final Strike.\n- The Devil: Obsession. Danger of sickness. Inevitable curse. Hopelessness. Casts Soul Strike and inflicts Curse.\n- Strength: Inner strength, courage, patience. Increases caster and ally Max HP by 1000.\n- The High Priest: Withdrawal. Mystery. Casts Heal, Increase AGI, and Blessing on target.\n- Wheel of Fortune: Destiny. Turning point. Movement. Randomly causes the effects of two other Tarot cards.\n- Death: Ending. Bad luck. Unexpected catastrophe. Difficulty. Causes Poison. If already poisoned, deals 25% Max HP as damage. If HP is below 25%, inflicts Coma. Also has a 1% chance to inflict Coma at all times.\n- The Fool: Mental disease. Beginning. Reduces enemy SP to 0 and applies Silence and Confusion.\n- The Lovers: Farewell. Discovered cheating on someone. Teleports the enemy to a random location.\n- Temperance: Impossible to control. Tiredness. Stubborn. Vanity. Causes Slow and ASPD reduction.\n- The Star: Destruction of hope. Sad future. Chaos. Casts Shooting Star (2000% ATK)."
+      },
+      "CG_MARIONETTE": {
+        "name": "Marionette Control",
+        "max_level": 1,
+        "type": "Active",
+        "category": "Supportive",
+        "requirement": "Musical Lesson 5, Improve Concentration 10",
+        "description": "Targeted party member receives a bonus to all Stats equal to half of the Stats of the caster."
+      },
+      "CG_MOONLIT": {
+        "name": "Moonlit Water Mill (Sheltering Bliss)",
+        "max_level": 5,
+        "type": "Active",
+        "category": "Ensemble Skill",
+        "requirement": "Musical Lesson 7, Improve Concentration 5",
+        "description": "Clown and Gypsy ensemble skill that creates an area around the casters where other players and monsters cannot enter.",
+        "levels": [
+          { "level": 1, "effect": "Duration: 20 seconds" },
+          { "level": 2, "effect": "Duration: 25 seconds" },
+          { "level": 3, "effect": "Duration: 30 seconds" },
+          { "level": 4, "effect": "Duration: 35 seconds" },
+          { "level": 5, "effect": "Duration: 40 seconds" }
+        ]
+      }
+    }
+  }
+}

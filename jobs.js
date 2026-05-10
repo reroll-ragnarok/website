@@ -26,6 +26,142 @@ function getSkillTag(raw) {
 
 // ─── Skill data (loaded async from api/skills.json) ────────────────────────────
 let SKILLS_DB = {};
+let SKILL_DESCRIPTIONS_DB = {};
+
+const CLASS_SKILL_DESCRIPTION_KEYS = {
+    archer: 'archer',
+    hunter: 'hunter',
+    bard: 'bard',
+    dancer: 'dancer',
+    sniper: 'hunter_h',
+    clown: 'bard_h',
+    gypsy: 'dancer_h'
+};
+
+const CLASS_SKILL_DESCRIPTION_INDEX = {};
+
+const SKILL_KEYWORD_STYLES = [
+    { pattern: /\bMATK\b/gi, className: 'skill-term--matk' },
+    { pattern: /\bATK\b/gi, className: 'skill-term--atk' },
+    { pattern: /\bMAX\s*HP\b/gi, className: 'skill-term--hp' },
+    { pattern: /\bMAX\s*SP\b/gi, className: 'skill-term--sp' },
+    { pattern: /\bHP\b/gi, className: 'skill-term--hp' },
+    { pattern: /\bSP\b/gi, className: 'skill-term--sp' },
+    { pattern: /\bSTR\b/gi, className: 'skill-term--str' },
+    { pattern: /\bAGI\b/gi, className: 'skill-term--agi' },
+    { pattern: /\bVIT\b/gi, className: 'skill-term--vit' },
+    { pattern: /\bINT\b/gi, className: 'skill-term--int' },
+    { pattern: /\bDEX\b/gi, className: 'skill-term--dex' },
+    { pattern: /\bLUK\b/gi, className: 'skill-term--luk' },
+    { pattern: /\bASPD\b/gi, className: 'skill-term--aspd' },
+    { pattern: /\bHIT\b/gi, className: 'skill-term--hit' },
+    { pattern: /\bFLEE\b/gi, className: 'skill-term--flee' },
+    { pattern: /\bCRIT(?:ICAL)?\b/gi, className: 'skill-term--crit' },
+    { pattern: /\bMDEF\b/gi, className: 'skill-term--mdef' },
+    { pattern: /\bDEF\b/gi, className: 'skill-term--def' }
+];
+
+function normalizeSkillName(name) {
+    return String(name || '')
+        .toLowerCase()
+        .replace(/[\u2018\u2019]/g, "'")
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
+function escapeRegExp(value) {
+    return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+}
+
+function getCurrentClassSkillNames() {
+    const classData = JOB_CLASS_DATA[currentClassSlug];
+    if (!classData?.skills) return [];
+    return classData.skills.map((rawName) => getSkillBaseName(rawName));
+}
+
+function formatSkillRichText(value, skillMentions = []) {
+    let html = escapeHtml(value || '');
+
+    // Create readable paragraphs for long semicolon-separated descriptions.
+    html = html.replace(/;\s+/g, ';<br>');
+    html = html.replace(/\n/g, '<br>');
+
+    // Support markdown-style emphasis from data files.
+    html = html.replace(/\*\*(.+?)\*\*/g, '<strong class="skill-ref">$1</strong>');
+
+    // For bullet outcomes (e.g., Tarot cards), bold title and split effect sentence.
+    const bulletLines = html.split('<br>').map((line) => {
+        const trimmed = line.trim();
+        if (!trimmed.startsWith('- ')) return line;
+
+        let formatted = line;
+        formatted = formatted.replace(/^\s*-\s*([^:]+):\s*/i, '- <strong class="skill-ref">$1</strong>: ');
+        formatted = formatted.replace(/\.\s+(Deals|Casts|Causes|Increases|Randomly|Teleports|Reduces|Inflicts|Applies|Poisons)\b/gi, '.<br>$1');
+        return formatted;
+    });
+    html = bulletLines.join('<br>');
+
+    const uniqueMentions = [...new Set(skillMentions.filter(Boolean))]
+        .sort((a, b) => b.length - a.length);
+
+    uniqueMentions.forEach((skillName) => {
+        const pattern = new RegExp(`\\b${escapeRegExp(escapeHtml(skillName))}\\b`, 'gi');
+        html = html.replace(pattern, (match) => `<strong class="skill-ref">${match}</strong>`);
+    });
+
+    SKILL_KEYWORD_STYLES.forEach(({ pattern, className }) => {
+        html = html.replace(pattern, (match) => `<span class="skill-term ${className}">${match}</span>`);
+    });
+
+    return html;
+}
+
+function getClassSkillDescription(slug, skillName) {
+    const classIndex = CLASS_SKILL_DESCRIPTION_INDEX[slug];
+    if (!classIndex) return null;
+    return classIndex[normalizeSkillName(skillName)] || null;
+}
+
+function getSkillInfo(skillName) {
+    return getClassSkillDescription(currentClassSlug, skillName) || SKILLS_DB[skillName] || null;
+}
+
+function syncArcherBranchSkillsFromDescriptions() {
+    for (const [classSlug, sourceKey] of Object.entries(CLASS_SKILL_DESCRIPTION_KEYS)) {
+        const source = SKILL_DESCRIPTIONS_DB[sourceKey];
+        const sourceSkills = source?.skills;
+        if (!sourceSkills || !JOB_CLASS_DATA[classSlug]) continue;
+
+        const classIndex = {};
+        const classSkillList = [];
+
+        Object.values(sourceSkills).forEach((skill) => {
+            if (!skill || !skill.name) return;
+
+            const name = skill.name.trim();
+            classSkillList.push(name);
+            classIndex[normalizeSkillName(name)] = {
+                type: skill.type || 'Unknown',
+                maxLevel: skill.max_level ?? skill.maxLevel ?? 1,
+                description: skill.description || 'No description available.',
+                requirement: skill.requirement || '',
+                levels: Array.isArray(skill.levels) ? skill.levels : []
+            };
+        });
+
+        JOB_CLASS_DATA[classSlug].skills = classSkillList;
+        CLASS_SKILL_DESCRIPTION_INDEX[classSlug] = classIndex;
+    }
+}
 
 // ─── Class data ────────────────────────────────────────────────────────────────
 const JOB_CLASS_DATA = {
@@ -366,7 +502,7 @@ function renderDetail() {
     const skillsHtml = classData.skills.map((rawName) => {
         const base = getSkillBaseName(rawName);
         const tag = getSkillTag(rawName);
-        const hasInfo = !!SKILLS_DB[base];
+        const hasInfo = !!getSkillInfo(base);
         return `
             <li>
                 <button class="skill-item${hasInfo ? ' skill-clickable' : ''}"
@@ -420,13 +556,43 @@ function renderDetail() {
 
 // ─── Skill modal ───────────────────────────────────────────────────────────────
 function openSkillModal(skillName) {
-    const data = SKILLS_DB[skillName];
+    const data = getSkillInfo(skillName);
     if (!data) return;
+
+    const classSkillNames = getCurrentClassSkillNames();
 
     document.getElementById('skillModalName').textContent = skillName;
     document.getElementById('skillModalType').textContent = data.type;
     document.getElementById('skillModalMaxLevel').textContent = `Max Lv ${data.maxLevel}`;
-    document.getElementById('skillModalDesc').textContent = data.description;
+    document.getElementById('skillModalDesc').innerHTML = formatSkillRichText(data.description, classSkillNames);
+
+    const requirementSection = document.getElementById('skillModalRequirementSection');
+    const requirementEl = document.getElementById('skillModalReq');
+    if (data.requirement) {
+        requirementEl.innerHTML = formatSkillRichText(data.requirement, classSkillNames);
+        requirementSection.style.display = 'block';
+    } else {
+        requirementSection.style.display = 'none';
+    }
+
+    const levelsSection = document.getElementById('skillModalLevelsSection');
+    const levelsEl = document.getElementById('skillModalLevels');
+    levelsEl.innerHTML = '';
+
+    if (Array.isArray(data.levels) && data.levels.length > 0) {
+        levelsEl.innerHTML = data.levels.map((entry) => {
+            const level = entry?.level ?? '?';
+            const effect = formatSkillRichText(entry?.effect || '-', classSkillNames);
+            return `
+                <li class="skill-level-item">
+                    <span class="skill-level-badge">Lv ${level}</span>
+                    <span class="skill-level-effect">${effect}</span>
+                </li>`;
+        }).join('');
+        levelsSection.style.display = 'block';
+    } else {
+        levelsSection.style.display = 'none';
+    }
 
     document.getElementById('skillModal').classList.add('open');
     document.getElementById('skillModalClose').focus();
@@ -450,8 +616,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     initSkillModal();
 
     try {
-        const res = await fetch('api/skills.json');
-        if (res.ok) SKILLS_DB = await res.json();
+        const [skillsRes, skillDescriptionsRes] = await Promise.all([
+            fetch('api/skills.json'),
+            fetch('api/skill_descriptions.json')
+        ]);
+
+        if (skillsRes.ok) {
+            SKILLS_DB = await skillsRes.json();
+        }
+
+        if (skillDescriptionsRes.ok) {
+            SKILL_DESCRIPTIONS_DB = await skillDescriptionsRes.json();
+            syncArcherBranchSkillsFromDescriptions();
+        }
     } catch (err) {
         console.warn('Could not load skills database:', err);
     }
