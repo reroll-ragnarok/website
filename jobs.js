@@ -1,0 +1,453 @@
+// Base URL for class sprites from nn.ai4rei.net NPC list
+const NPC_IMG = (name) => `https://nn.ai4rei.net/dev/npclist/i/${name}.gif`;
+const FALLBACK_IMG = NPC_IMG('NOVICE');
+
+// Tag extraction helpers
+const SKILL_TAGS = {
+    '[Quest Skill]': 'Quest',
+    '[Soul Link Skill]': 'Soul Link',
+    '[Trap Skill]': 'Trap',
+    '[Song / Dance Skill]': 'Performance',
+    '[Ensemble Skill]': 'Ensemble'
+};
+
+function getSkillBaseName(raw) {
+    return raw.replace(/\s*\[.*?\]/g, '').trim();
+}
+
+function getSkillTag(raw) {
+    for (const [token, label] of Object.entries(SKILL_TAGS)) {
+        if (raw.includes(token)) return label;
+    }
+    return null;
+}
+
+// ─── Skill data (loaded async from api/skills.json) ────────────────────────────
+let SKILLS_DB = {};
+
+// ─── Class data ────────────────────────────────────────────────────────────────
+const JOB_CLASS_DATA = {
+    // ── Swordsman branch ──────────────────────────────────────────────────────
+    swordsman: {
+        name: 'Swordsman',
+        imageUrl: NPC_IMG('SWORDMAN'),
+        skills: ['Sword Mastery', 'Two-Handed Sword Mastery', 'Increase Recuperative Power', 'Bash', 'Provoke', 'Magnum Break', 'Endure', 'Moving HP Recovery [Quest Skill]', 'Fatal Blow [Quest Skill]', 'Auto Berserk [Quest Skill]']
+    },
+    knight: {
+        name: 'Knight',
+        imageUrl: NPC_IMG('KNIGHT'),
+        skills: ['Spear Mastery', 'Pierce', 'Brandish Spear', 'Spear Stab', 'Spear Boomerang', 'Two-Hand Quicken', 'Auto Counter', 'Bowling Bash', 'Riding', 'Cavalry Mastery', 'One-Hand Quicken [Soul Link Skill]', 'Charge Attack [Quest Skill]']
+    },
+    crusader: {
+        name: 'Crusader',
+        imageUrl: NPC_IMG('CRUSADER'),
+        skills: ['Divine Protection', 'Demon Bane', 'Heal', 'Cure', 'Spear Mastery', 'Riding', 'Cavalry Mastery', 'Faith', 'Auto Guard', 'Shield Charge', 'Shield Boomerang', 'Reflect Shield', 'Holy Cross', 'Grand Cross', 'Devotion', 'Providence', 'Defender', 'Spear Quicken', 'Shrink [Quest Skill]']
+    },
+    lord_knight: {
+        name: 'Lord Knight',
+        imageUrl: NPC_IMG('LORD_KNIGHT'),
+        skills: ['Aura Blade', 'Parrying', 'Concentration', 'Tension Relax', 'Berserk', 'Spiral Pierce', 'Head Crush', 'Joint Beat']
+    },
+    paladin: {
+        name: 'Paladin',
+        imageUrl: NPC_IMG('PALADIN'),
+        skills: ['Pressure', 'Sacrifice', 'Gospel', 'Shield Chain']
+    },
+    // ── Mage branch ───────────────────────────────────────────────────────────
+    mage: {
+        name: 'Mage',
+        imageUrl: NPC_IMG('MAGICIAN'),
+        skills: ['Increase Spiritual Power', 'Sight', 'Napalm Beat', 'Safety Wall', 'Soul Strike', 'Cold Bolt', 'Frost Diver', 'Stone Curse', 'Fire Ball', 'Fire Wall', 'Fire Bolt', 'Lightning Bolt', 'Thunder Storm', 'Energy Coat [Quest Skill]']
+    },
+    wizard: {
+        name: 'Wizard',
+        imageUrl: NPC_IMG('WIZARD'),
+        skills: ['Fire Pillar', 'Sightrasher', 'Meteor Storm', 'Jupitel Thunder', 'Lord of Vermillion', 'Water Ball', 'Ice Wall', 'Frost Nova', 'Storm Gust', 'Earth Spike', "Heaven's Drive", 'Quagmire', 'Monster Property', 'Sight Blaster [Quest Skill]']
+    },
+    sage: {
+        name: 'Sage',
+        imageUrl: NPC_IMG('SAGE'),
+        skills: ['Earth Spike', "Heaven's Drive", 'Monster Property', 'Advanced Book', 'Cast Cancel', 'Magic Rod', 'Spell Breaker', 'Free Cast', 'Auto Spell', 'Flame Launcher', 'Frost Weapon', 'Lightning Loader', 'Seismic Weapon', 'Dragonology', 'Volcano', 'Deluge', 'Violent Gale', 'Land Protector', 'Dispell', 'Abracadabra', 'Create Elemental Converter [Quest Skill]', 'Elemental Change (Water) [Quest Skill]', 'Elemental Change (Earth) [Quest Skill]', 'Elemental Change (Fire) [Quest Skill]', 'Elemental Change (Wind) [Quest Skill]']
+    },
+    high_wizard: {
+        name: 'High Wizard',
+        imageUrl: NPC_IMG('HIGH_WIZARD'),
+        skills: ['Soul Drain', 'Magic Crasher', 'Amplify Magic Power', 'Napalm Vulcan', 'Ganbantein', 'Gravitation Field']
+    },
+    professor: {
+        name: 'Professor',
+        imageUrl: NPC_IMG('PROFESSOR'),
+        skills: ['Health Conversion', 'Soul Change', 'Soul Burn', 'Mind Breaker', 'Memorize', 'Wall of Fog', 'Spider Web', 'Double Casting']
+    },
+    // ── Archer branch ─────────────────────────────────────────────────────────
+    archer: {
+        name: 'Archer',
+        imageUrl: NPC_IMG('ARCHER'),
+        skills: ["Owl's Eye", "Vulture's Eye", 'Attention Concentrate', 'Double Strafing', 'Arrow Shower', 'Making Arrow [Quest Skill]', 'Charge Arrow [Quest Skill]']
+    },
+    hunter: {
+        name: 'Hunter',
+        imageUrl: NPC_IMG('HUNTER'),
+        skills: ['Skid Trap [Trap Skill]', 'Land Mine [Trap Skill]', 'Ankle Snare [Trap Skill]', 'Shockwave Trap [Trap Skill]', 'Sandman [Trap Skill]', 'Flasher [Trap Skill]', 'Freezing Trap [Trap Skill]', 'Blast Mine [Trap Skill]', 'Claymore Trap [Trap Skill]', 'Remove Trap', 'Talkie Box', 'Beast Bane', 'Falconry Mastery', 'Steel Crow', 'Blitz Beat', 'Detecting', 'Spring Trap', 'Beast Strafing [Soul Link Skill]', 'Phantasmic Arrow [Quest Skill]']
+    },
+    bard: {
+        name: 'Bard',
+        imageUrl: NPC_IMG('BARD'),
+        skills: ['Adaptation to Circumstances', 'Encore', 'Lullaby [Ensemble Skill]', 'Mr. Kim A Rich Man [Ensemble Skill]', 'Eternal Chaos [Ensemble Skill]', 'A Drum on the Battlefield [Ensemble Skill]', 'The Ring of Nibelungen [Ensemble Skill]', "Loki's Veil [Ensemble Skill]", 'Into the Abyss [Ensemble Skill]', 'Invulnerable Siegfried [Ensemble Skill]', 'Musical Lesson', 'Musical Strike', 'Dissonance [Song / Dance Skill]', 'Frost Joker', 'A Whistle [Song / Dance Skill]', 'Assassin Cross of Sunset [Song / Dance Skill]', 'A Poem of Bragi [Song / Dance Skill]', 'The Apple of Idun [Song / Dance Skill]', 'Pang Voice [Quest Skill]']
+    },
+    dancer: {
+        name: 'Dancer',
+        imageUrl: NPC_IMG('DANCER'),
+        skills: ['Adaptation to Circumstances', 'Encore', 'Lullaby [Ensemble Skill]', 'Mr. Kim A Rich Man [Ensemble Skill]', 'Eternal Chaos [Ensemble Skill]', 'A Drum on the Battlefield [Ensemble Skill]', 'The Ring of Nibelungen [Ensemble Skill]', "Loki's Veil [Ensemble Skill]", 'Into the Abyss [Ensemble Skill]', 'Invulnerable Siegfried [Ensemble Skill]', 'Dancing Lesson', 'Throw Arrow', 'Ugly Dance [Song / Dance Skill]', 'Scream', 'Humming [Song / Dance Skill]', "Please Don't Forget Me [Song / Dance Skill]", "Fortune's Kiss [Song / Dance Skill]", 'Service for You [Song / Dance Skill]', 'Wink of Charm [Quest Skill]']
+    },
+    sniper: {
+        name: 'Sniper',
+        imageUrl: NPC_IMG('SNIPER'),
+        skills: ['True Sight', 'Falcon Assault', 'Sharp Shooting', 'Wind Walk']
+    },
+    clown: {
+        name: 'Clown',
+        imageUrl: NPC_IMG('CLOWN'),
+        skills: ['Arrow Vulcan', 'Moonlit Water Mill [Ensemble Skill]', 'Marionette Control', 'Longing for Freedom', 'Wand of Hermode [Song / Dance Skill]', 'Tarot Card of Fate', 'Skillful Professional Musician']
+    },
+    gypsy: {
+        name: 'Gypsy',
+        imageUrl: NPC_IMG('GYPSY'),
+        skills: ['Arrow Vulcan', 'Moonlit Water Mill [Ensemble Skill]', 'Marionette Control', 'Longing for Freedom', 'Wand of Hermode [Song / Dance Skill]', 'Tarot Card of Fate', 'Skillful Professional Musician']
+    },
+    // ── Duelist branch (Merchant class line with custom server names) ──────────
+    duelist: {
+        name: 'Duelist',
+        imageUrl: NPC_IMG('MERCHANT'),
+        skills: ['Enlarge Weight Limit', 'Discount', 'Overcharge', 'Pushcart', 'Identify', 'Vending', 'Mammonite', 'Cart Revolution [Quest Skill]', 'Change Cart [Quest Skill]', 'Loud Exclamation [Quest Skill]', 'Buying Store [Quest Skill]', 'Cart Decoration [Quest Skill]']
+    },
+    master_of_weapons: {
+        name: 'Master of Weapons',
+        imageUrl: NPC_IMG('BLACKSMITH'),
+        skills: ['Iron Tempering', 'Steel Tempering', 'Enchanted Stone Craft', 'Research Oridecon', 'Smith Dagger', 'Smith Sword', 'Smith Two-Handed Sword', 'Smith Axe', 'Smith Mace', 'Smith Brass Knuckle', 'Smith Spear', 'Hilt Binding', 'Finding Ore', 'Weaponry Research', 'Repair Weapon', 'Skin Tempering', 'Hammer Fall', 'Adrenaline Rush', 'Weapon Perfection', 'Over Thrust', 'Maximize Power', 'Full Adrenaline Rush [Soul Link Skill]', 'Unfair Trick [Quest Skill]', 'Greed [Quest Skill]']
+    },
+    alchemist: {
+        name: 'Alchemist',
+        imageUrl: NPC_IMG('ALCHEMIST'),
+        skills: ['Axe Mastery', 'Learning Potion', 'Pharmacy', 'Demonstration', 'Acid Terror', 'Potion Pitcher', 'Bio Cannibalize', 'Sphere Mine', 'Chemical Protection Weapon', 'Chemical Protection Shield', 'Chemical Protection Armor', 'Chemical Protection Helm', 'Bioethics [Quest Skill]', 'Call Homunculus', 'Rest', 'Resurrect Homunculus', 'Berserk Pitcher [Soul Link Skill]', 'Twilight Alchemy I [Soul Link Skill]', 'Twilight Alchemy II [Soul Link Skill]', 'Twilight Alchemy III [Soul Link Skill]']
+    },
+    whitesmith: {
+        name: 'Whitesmith',
+        imageUrl: NPC_IMG('WHITESMITH'),
+        skills: ['Melt Down', 'Cart Boost', 'Weapon Refine', 'Cart Termination', 'Maximum Over Thrust']
+    },
+    creator: {
+        name: 'Creator',
+        imageUrl: NPC_IMG('CREATOR'),
+        skills: ['Slim Potion Pitcher', 'Full Chemical Protection', 'Acid Demonstration', 'Plant Cultivation']
+    },
+    // ── Acolyte branch ────────────────────────────────────────────────────────
+    acolyte: {
+        name: 'Acolyte',
+        imageUrl: NPC_IMG('ACOLYTE'),
+        skills: ['Divine Protection', 'Demon Bane', 'Ruwach', 'Pneuma', 'Teleportation', 'Warp Portal', 'Heal', 'Increase Agility', 'Decrease Agility', 'Aqua Benedicta', 'Signum Crucis', 'Angelus', 'Blessing', 'Cure', 'Holy Light [Quest Skill]']
+    },
+    priest: {
+        name: 'Priest',
+        imageUrl: NPC_IMG('PRIEST'),
+        skills: ['Increase Spiritual Power', 'Safety Wall', 'Resurrection', 'Mace Mastery', 'Impositio Manus', 'Suffragium', 'Aspersio', 'Benedictio Sanctissimi Sacramenti [Ensemble Skill]', 'Sanctuary', 'Slow Poison', 'Recovery', 'Kyrie Eleison', 'Magnificat', 'Gloria', 'Lex Divina', 'Turn Undead', 'Lex Aeterna', 'Magnus Exorcismus', 'Redemptio [Quest Skill]']
+    },
+    monk: {
+        name: 'Monk',
+        imageUrl: NPC_IMG('MONK'),
+        skills: ['Iron Hand', 'Spirits Recovery', 'Call Spirits', 'Absorb Spirits', 'Triple Attack', 'Body Relocation', 'Dodge', 'Investigate', 'Finger Offensive', 'Steel Body', 'Blade Stop', 'Critical Explosion', 'Asura Strike', 'Chain Combo', 'Combo Finish', 'Ki Translation [Quest Skill]', 'Ki Explosion [Quest Skill]']
+    },
+    high_priest: {
+        name: 'High Priest',
+        imageUrl: NPC_IMG('HIGH_PRIEST'),
+        skills: ['Assumptio', 'Basilica', 'Meditatio', 'Mana Recharge']
+    },
+    champion: {
+        name: 'Champion',
+        imageUrl: NPC_IMG('CHAMPION'),
+        skills: ['Palm Push Strike', 'Tiger Knuckle Fist', 'Chain Crush Combo', 'Dangerous Soul Collect']
+    },
+    // ── Thief branch ──────────────────────────────────────────────────────────
+    thief: {
+        name: 'Thief',
+        imageUrl: NPC_IMG('THIEF'),
+        skills: ['Double Attack', 'Increase Dodge', 'Steal', 'Hiding', 'Envenom', 'Detoxify', 'Sprinkle Sand [Quest Skill]', 'Back Sliding [Quest Skill]', 'Pick Stone [Quest Skill]', 'Throw Stone [Quest Skill]']
+    },
+    assassin: {
+        name: 'Assassin',
+        imageUrl: NPC_IMG('ASSASSIN'),
+        skills: ['Right-Hand Mastery', 'Left-Hand Mastery', 'Katar Mastery', 'Cloaking', 'Sonic Blow', 'Grimtooth', 'Enchant Poison', 'Poison React', 'Venom Dust', 'Venom Splasher', 'Sonic Acceleration [Quest Skill]', 'Throw Venom Knife [Quest Skill]']
+    },
+    rogue: {
+        name: 'Rogue',
+        imageUrl: NPC_IMG('ROGUE'),
+        skills: ['Sword Mastery', "Vulture's Eye", 'Double Strafing', 'Remove Trap', 'Snatcher', 'Steal Coin', 'Back Stab', 'Tunnel Drive', 'Raid', 'Strip Weapon', 'Strip Shield', 'Strip Armor', 'Strip Helm', 'Intimidate', 'Graffiti', 'Flag Graffiti', 'Cleaner', "Gangster's Paradise", 'Compulsion Discount', 'Plagiarism', 'Close Confine [Quest Skill]']
+    },
+    assassin_cross: {
+        name: 'Assassin Cross',
+        imageUrl: NPC_IMG('ASSASSIN_CROSS'),
+        skills: ['Advanced Katar Research', 'Enchant Deadly Poison', 'Soul Breaker', 'Meteor Assault', 'Create Deadly Poison']
+    },
+    stalker: {
+        name: 'Stalker',
+        imageUrl: NPC_IMG('STALKER'),
+        skills: ['Chase Walk', 'Reject Sword', 'Preserve', 'Full Strip']
+    }
+};
+
+// ─── Branch definitions ────────────────────────────────────────────────────────
+// classes: [base, 2-1, 2-2, trans-2-1, trans-2-2]
+// advanced: the classes shown prominently in the detail header
+const JOB_BRANCHES = [
+    {
+        id: 'swordsman',
+        title: 'Swordsman',
+        subtitle: 'Sword and shield frontliners',
+        classes: ['swordsman', 'knight', 'crusader', 'lord_knight', 'paladin'],
+        advanced: ['knight', 'crusader']
+    },
+    {
+        id: 'mage',
+        title: 'Mage',
+        subtitle: 'Elemental and utility casters',
+        classes: ['mage', 'wizard', 'sage', 'high_wizard', 'professor'],
+        advanced: ['wizard', 'sage']
+    },
+    {
+        id: 'archer',
+        title: 'Archer',
+        subtitle: 'Ranged damage and performance arts',
+        classes: ['archer', 'hunter', 'bard', 'dancer', 'sniper', 'clown', 'gypsy'],
+        advanced: ['hunter', 'bard', 'dancer']
+    },
+    {
+        id: 'duelist',
+        title: 'Duelist',
+        subtitle: 'Combat crafters and chemical warriors',
+        classes: ['duelist', 'master_of_weapons', 'alchemist', 'whitesmith', 'creator'],
+        advanced: ['master_of_weapons', 'alchemist']
+    },
+    {
+        id: 'acolyte',
+        title: 'Acolyte',
+        subtitle: 'Divine support and spirit combat',
+        classes: ['acolyte', 'priest', 'monk', 'high_priest', 'champion'],
+        advanced: ['priest', 'monk']
+    },
+    {
+        id: 'thief',
+        title: 'Thief',
+        subtitle: 'Stealth and precision killers',
+        classes: ['thief', 'assassin', 'rogue', 'assassin_cross', 'stalker'],
+        advanced: ['assassin', 'rogue']
+    }
+];
+
+// ─── Tier labels ───────────────────────────────────────────────────────────────
+const CLASS_TIER = {
+    swordsman: '1-1', mage: '1-1', archer: '1-1',
+    duelist: '1-1', acolyte: '1-1', thief: '1-1',
+    knight: '2-1', wizard: '2-1', hunter: '2-1',
+    master_of_weapons: '2-1', priest: '2-1', assassin: '2-1',
+    crusader: '2-2', sage: '2-2', bard: '2-2',
+    dancer: '2-2', alchemist: '2-2', monk: '2-2', rogue: '2-2',
+    lord_knight: '2-1 Trans', high_wizard: '2-1 Trans', sniper: '2-1 Trans',
+    whitesmith: '2-1 Trans', high_priest: '2-1 Trans', assassin_cross: '2-1 Trans',
+    paladin: '2-2 Trans', professor: '2-2 Trans', clown: '2-2 Trans',
+    gypsy: '2-2 Trans', creator: '2-2 Trans', champion: '2-2 Trans',
+    stalker: '2-2 Trans'
+};
+
+let currentBranch = null;
+let currentClassSlug = null;
+
+// ─── Dark Mode ─────────────────────────────────────────────────────────────────
+function initDarkMode() {
+    const toggle = document.getElementById('darkModeToggle');
+    const icon = toggle.querySelector('.toggle-circle svg');
+
+    const apply = (dark) => {
+        document.body.classList.toggle('dark-mode', dark);
+        localStorage.setItem('darkMode', dark);
+        icon.innerHTML = dark
+            ? '<path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>'
+            : '<path d="M12 17.5C14.7614 17.5 17 15.2614 17 12.5C17 9.73858 14.7614 7.5 12 7.5C9.23858 7.5 7 9.73858 7 12.5C7 15.2614 9.23858 17.5 12 17.5Z"/><path d="M12 1.5V3.5M12 21.5V23.5M4.22 4.72L5.64 6.14M18.36 18.86L19.78 20.28M1.5 12.5H3.5M20.5 12.5H22.5M4.22 20.28L5.64 18.86M18.36 6.14L19.78 4.72"/>';
+    };
+
+    apply(localStorage.getItem('darkMode') === 'true');
+    toggle.addEventListener('click', () => apply(!document.body.classList.contains('dark-mode')));
+}
+
+// ─── Grid cards ────────────────────────────────────────────────────────────────
+function renderJobCards() {
+    const grid = document.getElementById('jobsGrid');
+
+    grid.innerHTML = JOB_BRANCHES.map((branch) => {
+        const base = JOB_CLASS_DATA[branch.classes[0]];
+        const showcase = branch.advanced
+            .map((slug) => JOB_CLASS_DATA[slug].name)
+            .join(' · ');
+
+        return `
+            <button class="job-card" data-branch="${branch.id}" aria-label="Open ${branch.title} branch">
+                <div class="job-card-head">
+                    <img src="${base.imageUrl}"
+                         alt="${branch.title}"
+                         class="job-card-image"
+                         loading="lazy"
+                         onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
+                    <div>
+                        <h2>${branch.title}</h2>
+                        <p>${branch.subtitle}</p>
+                    </div>
+                </div>
+                <div class="job-card-footer">${showcase}</div>
+            </button>`;
+    }).join('');
+
+    grid.querySelectorAll('.job-card').forEach((card) => {
+        card.addEventListener('click', () => openBranch(card.getAttribute('data-branch')));
+    });
+}
+
+// ─── Branch detail ─────────────────────────────────────────────────────────────
+function openBranch(branchId) {
+    currentBranch = JOB_BRANCHES.find((b) => b.id === branchId);
+    currentClassSlug = currentBranch.advanced[0]; // default to first 2-1 class
+
+    document.querySelectorAll('.job-card').forEach((c) => {
+        c.classList.toggle('active', c.getAttribute('data-branch') === branchId);
+    });
+
+    renderDetail();
+    document.getElementById('jobDetailPanel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function renderDetail() {
+    const empty = document.getElementById('jobDetailEmpty');
+    const content = document.getElementById('jobDetailContent');
+
+    empty.style.display = 'none';
+    content.style.display = 'block';
+
+    const classData = JOB_CLASS_DATA[currentClassSlug];
+
+    // Showcase cards (advanced 2-1 / 2-2 classes)
+    const showcaseHtml = currentBranch.advanced.map((slug) => {
+        const d = JOB_CLASS_DATA[slug];
+        return `
+            <button class="class-showcase-card ${slug === currentClassSlug ? 'active' : ''}" data-class="${slug}">
+                <img src="${d.imageUrl}" alt="${d.name}"
+                     onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
+                <span class="class-showcase-name">${d.name}</span>
+                <span class="class-showcase-tier">${CLASS_TIER[slug]}</span>
+            </button>`;
+    }).join('');
+
+    // Pill row for base class + transcendents
+    const otherSlugs = currentBranch.classes.filter((s) => !currentBranch.advanced.includes(s));
+    const pillsHtml = otherSlugs.map((slug) => {
+        const d = JOB_CLASS_DATA[slug];
+        return `
+            <button class="class-pill ${slug === currentClassSlug ? 'active' : ''}" data-class="${slug}">
+                <span>${d.name}</span>
+                <small>${CLASS_TIER[slug]}</small>
+            </button>`;
+    }).join('');
+
+    // Skill list
+    const skillsHtml = classData.skills.map((rawName) => {
+        const base = getSkillBaseName(rawName);
+        const tag = getSkillTag(rawName);
+        const hasInfo = !!SKILLS_DB[base];
+        return `
+            <li>
+                <button class="skill-item${hasInfo ? ' skill-clickable' : ''}"
+                        data-skill="${base}"
+                        ${hasInfo ? '' : 'disabled'}>
+                    <span class="skill-name">${base}</span>
+                    ${tag ? `<span class="skill-tag skill-tag--${tag.toLowerCase().replace(/[\s/]+/g, '-')}">${tag}</span>` : ''}
+                </button>
+            </li>`;
+    }).join('');
+
+    content.innerHTML = `
+        <div class="job-detail-header">
+            <div>
+                <h2>${currentBranch.title} Branch</h2>
+                <p>Select a class to view its Renewal skills. Click a skill for details.</p>
+            </div>
+        </div>
+
+        <div class="class-showcase-row">${showcaseHtml}</div>
+
+        <div class="class-other-row">
+            <span class="class-other-label">Also view:</span>
+            ${pillsHtml}
+        </div>
+
+        <div class="class-focus">
+            <div class="class-focus-summary">
+                <img src="${classData.imageUrl}" alt="${classData.name}"
+                     onerror="this.onerror=null;this.src='${FALLBACK_IMG}'">
+                <h3>${classData.name}</h3>
+                <p>${CLASS_TIER[currentClassSlug]}</p>
+            </div>
+            <div class="class-skill-list-wrap">
+                <h3>Skills <span class="skill-count">${classData.skills.length}</span></h3>
+                <ul class="class-skill-list">${skillsHtml}</ul>
+            </div>
+        </div>`;
+
+    content.querySelectorAll('[data-class]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            currentClassSlug = btn.getAttribute('data-class');
+            renderDetail();
+        });
+    });
+
+    content.querySelectorAll('.skill-clickable').forEach((btn) => {
+        btn.addEventListener('click', () => openSkillModal(btn.getAttribute('data-skill')));
+    });
+}
+
+// ─── Skill modal ───────────────────────────────────────────────────────────────
+function openSkillModal(skillName) {
+    const data = SKILLS_DB[skillName];
+    if (!data) return;
+
+    document.getElementById('skillModalName').textContent = skillName;
+    document.getElementById('skillModalType').textContent = data.type;
+    document.getElementById('skillModalMaxLevel').textContent = `Max Lv ${data.maxLevel}`;
+    document.getElementById('skillModalDesc').textContent = data.description;
+
+    document.getElementById('skillModal').classList.add('open');
+    document.getElementById('skillModalClose').focus();
+}
+
+function closeSkillModal() {
+    document.getElementById('skillModal').classList.remove('open');
+}
+
+function initSkillModal() {
+    document.getElementById('skillModalClose').addEventListener('click', closeSkillModal);
+    document.getElementById('skillModal').addEventListener('click', (e) => {
+        if (e.target === document.getElementById('skillModal')) closeSkillModal();
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeSkillModal(); });
+}
+
+// ─── Bootstrap ─────────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async () => {
+    initDarkMode();
+    initSkillModal();
+
+    try {
+        const res = await fetch('api/skills.json');
+        if (res.ok) SKILLS_DB = await res.json();
+    } catch (err) {
+        console.warn('Could not load skills database:', err);
+    }
+
+    renderJobCards();
+});
