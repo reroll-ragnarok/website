@@ -1,24 +1,29 @@
-## v3.2 (04132026)
+## v4.0 (05112026)
 
-### It's Sakura Season!
+### Job Balancing Updates
 
-### New Content
- - New Costume Exchanger NPC added — trade in spare costumes for Event Coins.
- - New Test Dummy NPC added — use it to measure your DPS freely.
- - New Converter NPC — converts materials into the 7 major elemental converters.
+#### Archer
+ - New skill: **Mystical Arrow** — Chance to deal 150% MATK on-hit magical damage when using bows (up to 50% chance at max level).
+ - Archer now has a hybrid damage path, splitting between physical and magical damage.
 
-### Changes
- - Gift Box, Old Blue Box, and Old Purple Box reward tables updated with new items.
- - Random options for weapons have been reworked with a new pool and improved balance.
+#### Bard & Dancer
+ - Performance skills streamlined for more concise support mechanics.
+ - Hybrid damage path, splitting between physical and magical damage through **Hermode's Rod** skill.
+ - **Bard** gains improved damage path through Dissonance and self buffs.
+ - **Dancer** gains improved damage path through Ugly Dance and self buffs.
 
-### Bug Fixes
- - Minor bugfixes and stability improvements.
+#### Hunter & Evolutions
+ - Trap skills streamlined for more concise damage mechanics, aligned with dagger build.
+ - Hunter now gains a magical damage path through **Mystical Taming** skill.
+ - Falcon damage increased significantly with new scaling mechanics.
 
----
+### Card Changes
+ - **Bapho Jr.**: Changes element to Dark (armor).
+ - **Deviruchi**: Adds 10% chance to cast Jupitel Thunder lv. 5 (accessory).
+ - **Wraith Dead**: Adds 10% chance to cast Heaven's Drive lv. 5 (accessory).
+ - **Lava Golem**: Adds 10% chance to cast Acid Demonstration lv. 5 (shoes).
+ - **Rideword**: MATK + 20 (weapon).
+ - **Drake**: ATK + 50, Nullyfies size penalty (weapon).
 
-## v3.1 (04042026)
-
-### Easter Event
- - It's Easter season and Spring Rabbits invaded Rune Midgard! They grant special loots.
- - EXP Bonus: 33%!
- - QUEST: Find the Easter Egg for a special gift!
+### Post-easter Event
+ - A little girl named Piamette arrived at Rune Midgard hoping to meet with the Easter Bunny and eat some chocolate, but she got late...
