@@ -17,6 +17,9 @@
  - Hunter now gains a magical damage path through **Mystical Taming** skill.
  - Falcon damage increased significantly with new scaling mechanics.
 
+#### Creator
+ - No full rework, but Acid Demonstration now deals magical damage (and scales with MATK).
+
 ### Card Changes
  - **Bapho Jr.**: Changes element to Dark (armor).
  - **Deviruchi**: Adds 10% chance to cast Jupitel Thunder lv. 5 (accessory).
