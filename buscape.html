@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apartamento para Dai, Jana, "Gatus" e Gurias</title>
+<style>
+  :root {
+    --guaiba: #1d5c6b;
+    --guaiba-dark: #0f3a45;
+    --sand: #f6f1e7;
+    --coral: #d8683f;
+    --coral-dark: #8a3d21;
+    --ink: #26312f;
+    --muted: #5c6663;
+    --line: #d9d2c2;
+    --card: #ffffff;
+    --pet: #3f7a52;
+    --pet-bg: #e6f0e3;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--sand);
+    color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 40px 24px 80px; }
+  header { margin-bottom: 32px; border-bottom: 1px solid var(--line); padding-bottom: 24px; }
+  .eyebrow {
+    font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--coral-dark); font-weight: 600; margin: 0 0 8px;
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(15px, 3.4vw, 34px); margin: 0 0 10px; color: var(--guaiba-dark);
+    white-space: nowrap;
+  }
+  header p { color: var(--muted); font-size: 15px; margin: 0; max-width: 640px; }
+
+  .criteria { display: flex; flex-wrap: wrap; gap: 8px; margin: 20px 0 40px; }
+  .chip {
+    font-size: 13px; padding: 6px 12px; border-radius: 20px;
+    background: var(--card); border: 1px solid var(--line); color: var(--ink);
+  }
+  .chip.pet { background: var(--pet-bg); color: var(--pet); border-color: #c3ddc4; font-weight: 600; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 21px; color: var(--guaiba-dark); margin: 0 0 6px;
+  }
+  .section-note { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+  section { margin-bottom: 48px; }
+
+  .sites { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+  .site-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 18px;
+  }
+  .site-card h3 { margin: 0 0 6px; font-size: 15px; color: var(--ink); }
+  .site-card p { margin: 0 0 12px; font-size: 13px; color: var(--muted); }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; }
+  .btn {
+    display: inline-block; font-size: 13px; padding: 7px 14px;
+    border-radius: 6px; background: var(--guaiba); color: #fff;
+    text-decoration: none; font-weight: 500;
+  }
+  .btn:hover { background: var(--guaiba-dark); }
+  .btn.secondary { background: transparent; color: var(--guaiba); border: 1px solid var(--guaiba); }
+
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 10px; overflow: hidden; }
+  thead th {
+    text-align: left; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em;
+    color: var(--muted); background: #efe9da; padding: 10px 12px; border-bottom: 1px solid var(--line);
+  }
+  tbody td { padding: 12px; font-size: 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  .badge {
+    display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 20px;
+    background: var(--pet-bg); color: var(--pet); font-weight: 600; margin: 2px 4px 0 0;
+  }
+  .area-flag {
+    display: inline-block; font-size: 11px; padding: 3px 8px; border-radius: 20px;
+    background: #f6e6d8; color: var(--coral-dark); font-weight: 600; margin-left: 6px;
+  }
+  .price { font-weight: 600; color: var(--guaiba-dark); white-space: nowrap; }
+  .source-link { font-size: 12px; }
+
+  .insight {
+    background: #fff; border-left: 3px solid var(--coral); border-radius: 0 10px 10px 0;
+    padding: 16px 20px; font-size: 14px; color: var(--ink);
+  }
+  .insight strong { color: var(--coral-dark); }
+
+  .price-tag {
+    display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700;
+    padding: 3px 9px; border-radius: 20px; margin-bottom: 8px;
+  }
+  .price-tag.ok { background: var(--pet-bg); color: var(--pet); }
+  .price-tag.manual { background: #fbe3d9; color: var(--coral-dark); }
+
+  .favorites { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .fav-card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+    padding: 18px 20px;
+  }
+  .fav-category {
+    display: inline-flex; align-items: center; gap: 6px; font-size: 13px; font-weight: 700;
+    background: var(--pet-bg); color: var(--pet); padding: 4px 12px; border-radius: 20px;
+    margin-bottom: 10px;
+  }
+  .fav-bairro { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; margin: 6px 0 2px; }
+  .fav-addr { font-size: 15px; font-weight: 600; margin: 0 0 12px; color: var(--ink); }
+  .fav-stats { display: flex; flex-wrap: wrap; gap: 10px; font-size: 13px; margin-bottom: 12px; }
+  .fav-stats span { display: inline-flex; align-items: center; gap: 4px; }
+  .fav-price-row { display: flex; align-items: baseline; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+  .fav-price-row .amount { font-size: 20px; font-weight: 700; color: var(--guaiba-dark); }
+  .fav-price-row .total { font-size: 12px; color: var(--muted); }
+  .fav-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+  .fav-tags span {
+    font-size: 12px; padding: 4px 10px; border-radius: 20px;
+    background: #efe9da; color: var(--ink); font-weight: 500;
+  }
+
+  footer { border-top: 1px solid var(--line); padding-top: 20px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Painel de busca &middot; atualizado em 08/07/2026</p>
+    <h1>🐶 Apartamento para Dai, Jana, "Gatus" e Gurias 🐱</h1>
+    <p>Links diretos de busca nos seis sites, mais os favoritos que já batem com o que a família precisa — com destaque pra quem tem sacada 🌇, cobertura 🏙️, garden 🌱 ou área externa 🌳 pros bichos correrem soltos.</p>
+  </header>
+
+  <div class="criteria">
+    <span class="chip">Porto Alegre / RS</span>
+    <span class="chip">80 m² ou mais</span>
+    <span class="chip">2 quartos</span>
+    <span class="chip">1 vaga de garagem</span>
+    <span class="chip">Aluguel R$ 2.000 – R$ 3.500</span>
+    <span class="chip pet">🏙️ Cobertura · 🌇 Sacada · 🌳 Área Externa</span>
+  </div>
+
+  <section>
+    <h2>Busque direto nos sites</h2>
+    <p class="section-note">Já filtrados por Porto Alegre e 2 quartos. <strong>Nenhum desses sites garante 100% o filtro de preço só pela URL</strong> — os rótulos abaixo dizem o que cada link já resolve e o que falta ajustar na mão assim que a página abrir. Área (80 m²+) e vagas (1+) precisam ser marcadas manualmente em todos.</p>
+    <div class="sites">
+
+      <div class="site-card">
+        <span class="price-tag manual">⚠ preço não filtra por link</span>
+        <h3>QuintoAndar</h3>
+        <p>É um app de página única — não aceita preço pela URL. Ao abrir, clique em <strong>"Aluguel"</strong> no topo dos filtros e digite 2.000 a 3.500 antes de rolar a lista.</p>
+        <div class="links">
+          <a class="btn" href="https://www.quintoandar.com.br/alugar/imovel/porto-alegre-rs-brasil/apartamento/2-quartos" target="_blank" rel="noopener">Abrir busca</a>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <span class="price-tag manual">⚠ confirme o preço ao abrir</span>
+        <h3>ZAP Imóveis</h3>
+        <p>O link já tenta embutir R$ 2.000–3.500, mas o site pode ignorar o parâmetro — confira o filtro "Preço" no topo assim que a página carregar. Tem seção própria de coberturas e de imóveis com varanda.</p>
+        <div class="links">
+          <a class="btn" href="https://www.zapimoveis.com.br/aluguel/apartamentos/rs+porto-alegre/2-quartos/?precoMinimo=2000&precoMaximo=3500" target="_blank" rel="noopener">Apartamentos</a>
+          <a class="btn secondary" href="https://www.zapimoveis.com.br/aluguel/cobertura/rs+porto-alegre/2-quartos/?precoMinimo=2000&precoMaximo=3500" target="_blank" rel="noopener">Coberturas</a>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <span class="price-tag manual">⚠ confirme o preço ao abrir</span>
+        <h3>Viva Real</h3>
+        <p>Mesma base do ZAP (grupo OLX) — o link também tenta embutir R$ 2.000–3.500, mas confirme o filtro "Preço" no topo ao abrir. Também tem filtro de cobertura.</p>
+        <div class="links">
+          <a class="btn" href="https://www.vivareal.com.br/aluguel/rio-grande-do-sul/porto-alegre/apartamento_residencial/2-quartos/?precoMinimo=2000&precoMaximo=3500" target="_blank" rel="noopener">Apartamentos</a>
+          <a class="btn secondary" href="https://www.vivareal.com.br/aluguel/rio-grande-do-sul/porto-alegre/cobertura_residencial/2-quartos/?precoMinimo=2000&precoMaximo=3500" target="_blank" rel="noopener">Coberturas</a>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <span class="price-tag ok">✓ teto de R$ 3.500 já aplicado</span>
+        <h3>Imovelweb</h3>
+        <p>Espelha parte do estoque do QuintoAndar, mas também tem anúncios próprios. O link já corta tudo acima de R$ 3.500 — falta só arrastar o mínimo pra R$ 2.000 no filtro "Preço".</p>
+        <div class="links">
+          <a class="btn" href="https://www.imovelweb.com.br/apartamentos-aluguel-porto-alegre-rs-2-quartos-menos-3500-reales.html" target="_blank" rel="noopener">Abrir busca (até R$ 3.500)</a>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <span class="price-tag manual">⚠ preço não filtra por link</span>
+        <h3>Chaves na Mão</h3>
+        <p>Preço se ajusta só pelo formulário na página, campo "Preço" no topo da lista. Descrições costumam detalhar sacada, churrasqueira e área externa no texto.</p>
+        <div class="links">
+          <a class="btn" href="https://www.chavesnamao.com.br/apartamentos-para-alugar/rs-porto-alegre/2-quartos/" target="_blank" rel="noopener">Abrir busca</a>
+        </div>
+      </div>
+
+      <div class="site-card">
+        <span class="price-tag manual">⚠ preço não filtra por link</span>
+        <h3>Multiimob</h3>
+        <p>Formulário próprio de busca. Foco em bairros nobres (Moinhos, Bela Vista, Petrópolis) — preços tendem a ficar no topo da sua faixa ou acima; vale ajustar o filtro de valor assim que abrir.</p>
+        <div class="links">
+          <a class="btn" href="https://www.multiimob.com.br/busca/alugar/cidade/Porto%20Alegre/0/" target="_blank" rel="noopener">Abrir busca</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>Favoritos 🐾</h2>
+    <p class="section-note">Esses quatro já foram conferidos um a um — endereço, preço e área direto do anúncio original. Confirme sempre disponibilidade antes de agendar visita.</p>
+    <div class="favorites">
+
+      <div class="fav-card">
+        <span class="fav-category">🌳 Área Externa</span>
+        <p class="fav-bairro">Petrópolis</p>
+        <p class="fav-addr">Rua São Marcos, 210</p>
+        <div class="fav-stats">
+          <span>📐 79 m²</span>
+          <span>🛏️ 2 quartos (1 suíte)</span>
+          <span>🚗 2 vagas</span>
+        </div>
+        <div class="fav-price-row">
+          <span class="amount">💰 R$ 3.500</span>
+          <span class="total">+ cond. R$ 250 + IPTU R$ 100 = R$ 3.850 total</span>
+        </div>
+        <div class="fav-tags">
+          <span>🌿 garden com quintal privativo</span>
+          <span>🍖 churrasqueira</span>
+        </div>
+        <a class="btn" href="https://www.multiimob.com.br/imovel/apartamento-garden-com-79m-no-bairro-petropolis-em-porto-alegre-para-alugar/26942/#alugar" target="_blank" rel="noopener">Ver anúncio · Multiimob</a>
+      </div>
+
+      <div class="fav-card">
+        <span class="fav-category">🌇 Sacada</span>
+        <p class="fav-bairro">Petrópolis</p>
+        <p class="fav-addr">Rua Coronel Corte Real, 764</p>
+        <div class="fav-stats">
+          <span>📐 90 m² (110 m² total)</span>
+          <span>🛏️ 2 quartos</span>
+          <span>🚗 1 vaga</span>
+        </div>
+        <div class="fav-price-row">
+          <span class="amount">💰 R$ 2.600</span>
+          <span class="total">+ cond. R$ 520 + IPTU R$ 182 = R$ 3.302 total</span>
+        </div>
+        <div class="fav-tags">
+          <span>🍖 churrasqueira</span>
+          <span>🔥 lareira</span>
+          <span>❄️ ar-condicionado</span>
+        </div>
+        <a class="btn" href="https://www.chavesnamao.com.br/imovel/apartamento-para-alugar-2-quartos-com-garagem-rs-porto-alegre-petropolis-110m2-RS2600/id-7322231/" target="_blank" rel="noopener">Ver anúncio · Chaves na Mão</a>
+      </div>
+
+      <div class="fav-card">
+        <span class="fav-category">🌇 Sacada</span>
+        <p class="fav-bairro">Cristo Redentor</p>
+        <p class="fav-addr">Rua Marco Polo, 505</p>
+        <div class="fav-stats">
+          <span>📐 102 m²</span>
+          <span>🛏️ 2 quartos</span>
+          <span>🚗 1 vaga</span>
+        </div>
+        <div class="fav-price-row">
+          <span class="amount">💰 R$ 2.000</span>
+          <span class="total">+ cond. R$ 640 + IPTU R$ 140 = R$ 2.780 total</span>
+        </div>
+        <div class="fav-tags">
+          <span>🍖 sacada com churrasqueira</span>
+          <span>🛗 elevador</span>
+        </div>
+        <a class="btn" href="https://www.chavesnamao.com.br/imovel/apartamento-para-alugar-2-quartos-com-garagem-rs-porto-alegre-cristo-redentor-102m2-RS2000/id-43797326/" target="_blank" rel="noopener">Ver anúncio · Chaves na Mão</a>
+      </div>
+
+      <div class="fav-card">
+        <span class="fav-category">🌳 Área Externa</span>
+        <p class="fav-bairro">Vila Jardim</p>
+        <p class="fav-addr">Rua Barão de Bagé, 392</p>
+        <div class="fav-stats">
+          <span>📐 120 m²</span>
+          <span>🛏️ 2 quartos</span>
+          <span>🚗 1 vaga</span>
+        </div>
+        <div class="fav-price-row">
+          <span class="amount">💰 R$ 3.300</span>
+          <span class="total">+ IPTU R$ 86 = R$ 3.386 total</span>
+        </div>
+        <div class="fav-tags">
+          <span>🌿 garden</span>
+          <span>🧺 lavanderia</span>
+        </div>
+        <a class="btn" href="https://www.chavesnamao.com.br/imovel/apartamento-para-alugar-2-quartos-com-garagem-rs-porto-alegre-vila-jardim-120m2-RS3300/id-36945954/" target="_blank" rel="noopener">Ver anúncio · Chaves na Mão</a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    Painel gerado a partir de buscas ao vivo em quintoandar.com.br, zapimoveis.com.br, vivareal.com.br, imovelweb.com.br, chavesnamao.com.br e multiimob.com.br. Não é uma integração automática — confirme sempre disponibilidade e valores no site de origem.
+  </footer>
+
+</div>
+</body>
+</html>

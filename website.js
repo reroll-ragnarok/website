@@ -7,7 +7,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Serve static files from project root
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, 'public'), {
+    extensions: ['html']
+}));
 
 // Cache for database data
 let monstersCache = null;
